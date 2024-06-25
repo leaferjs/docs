@@ -1,0 +1,27 @@
+<script setup>
+import Case from '/component/Case.vue'
+</script>
+
+# hover
+
+pointer.enter 状态，暂时不支持 Group。
+
+需安装 [交互状态 插件](/plugin/in/state/index.md) 才能使用。
+
+## 关键属性
+
+### hoverStyle: [`IUIInputData`](/api/interfaces/IUIInputData.md)
+
+光标移入时的交互样式， 移出后自动还原。
+
+## 归属
+
+### [UI](/reference/display/UI.md#交互状态)
+
+## 示例
+
+<case name="HoverStyle" index=0 editor="false" ></case>
+
+### 鼠标移入颜色加深
+
+<<< @/code/property/state/hoverStyle.ts

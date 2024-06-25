@@ -1,0 +1,21 @@
+# 局部渲染
+
+应用通过局部渲染来提高画布重绘的效率，当页面中有数万个元素的时候，只更新变化的区域。
+
+变化前和变化后的元素 [渲染边界（包围盒）](/guide/basic/bounds.md) 组成了变化区域。
+
+<br/>
+
+![part-render](/svg/part-render.svg)
+
+<br/>
+
+## 关闭局部渲染
+
+当无法判断元素包围盒，如编辑框、背景网格的 Leafer 层，这个时候可以关闭局部渲染。
+
+<<< @/code/app/config/partRender.ts
+
+## 下一步
+
+### [App 结构](/guide/app/multilayer.md)

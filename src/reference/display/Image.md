@@ -1,0 +1,107 @@
+<script setup>
+import Case from '/component/Case.vue'
+</script>
+
+# Image
+
+图片对象，支持使用 svg 格式的图片，另外所有图形都支持通过 [图案填充](/reference/property/paint/image.md) 来显示图片。
+
+<case name="ImageFill"></case>
+
+## 关键属性
+
+### width?: `number`
+
+宽度，默认使用图片原始宽度。
+
+### height?: `number`
+
+高度， 默认使用图片原始高度。
+
+### url: `string`
+
+图片地址。
+
+::: tip 注意事项
+[Image](./Image.md) 暂时不支持设置 fill 属性（内部已使用），可使用 [Rect](./Rect.md) 元素代替。
+:::
+
+## 辅助属性
+
+[图案填充](/reference/property/paint/image.md) 的元素也支持这些辅助属性。
+
+### pixelRatio: `number`
+
+图片的像素比， 默认为 1，（适配高清屏为 2，超高清屏为 3）。
+
+自动宽高的图片，此属性才有效。
+
+### lazy: `boolean`
+
+图片是否懒加载，可以加快页面显示速度， 默认为 false。
+
+## 只读属性
+
+### ready: `boolean`
+
+图片是否已经加载完成。
+
+### image?: [`ILeaferImage`](/api/interfaces/ILeaferImage.md)
+
+原始图片封装对象, 图片加载完成才存在。
+
+## 辅助方法
+
+### load ()
+
+手动加载图片。
+
+一般用于元素未添加到 Leafer 中时，手动加载图片，获取图片自然宽高。
+
+## 图片缓存
+
+图片缓存的全局配置，可根据需要动态调整。
+
+<<< @/code/display/Image/setting.ts
+
+## 图片跨域
+
+图片跨域的全局配置，可根据需要动态调整。
+
+设为 null 时可以渲染未经服务端允许的跨域图片， 但不支持导出画板内容（浏览器的限制）。
+
+<<< @/code/display/Image/cross.ts
+
+### 使用 Rect 代替 Image
+
+想为图片设置 fill 时，请用 Rect 代替，Rect 不设置宽高也会自适应图片，并支持多个填充。
+
+<<< @/code/display/Image/rect.ts
+
+## 图片事件
+
+### [ImageEvent](/reference/event/basic/Image.md)
+
+## 继承
+
+### [Rect](./Rect.md)
+
+## API
+
+### [Image](/api/classes/Image.md)
+
+## 示例
+
+<case name="ImageFill" index=0></case>
+
+### 使用默认宽高
+
+<<< @/code/display/Image/strench.ts
+
+### 监听图片加载
+
+<<< @/code/event/image/image.ts
+
+### 监听错误
+
+<<< @/code/event/image/error.ts

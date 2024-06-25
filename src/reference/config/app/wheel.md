@@ -1,0 +1,49 @@
+# wheel 配置
+
+滚轮操作相关配置, 应用运行中修改 [app.config.wheel](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+
+注意 App 结构下只能设置在 [App](/reference/display/App.md) 的 config 上。
+
+## 关键属性
+
+### wheel.zoomMode: `boolean` ｜ `'mouse'`
+
+是否开启鼠标滚动直接缩放视图， 默认为 false。
+
+当使用缩放模式时，可按下鼠标中键进行平移视图操作。
+
+:::tip 'mouse'
+程序为了同时兼容触摸板的操作，可能会出现某些鼠标设备判断不精准的情况，设置为 `'mouse'` 可以实现准确的缩放（需要确认用户使用的是鼠标，而不是触摸板）。
+:::
+
+### wheel.zoomSpeed: `number`
+
+缩放的速度， 用于自定义适配不同浏览器的速度。
+
+取值范围 0 ～ 1, 默认 0.5。
+
+### wheel.moveSpeed: `number`
+
+滚动的速度， 用于自定义适配不同浏览器的速度。
+
+取值范围 0 ～ 1, 默认 0.5。
+
+### wheel.rotateSpeed: `number`
+
+旋转的速度， 用于自定义适配不同浏览器的速度。
+
+取值范围 0 ～ 1, 默认 0.5。
+
+### wheel.preventDefault: `boolean`
+
+是否阻止浏览器默认滚动页面事件，默认为 true。
+
+如需支持同时滚动画布外的页面，设置为 false 即可。
+
+## 示例
+
+### 鼠标滚动直接缩放视图
+
+缩放优先模式下，鼠标滚动直接缩放，可按下鼠标中键进行平移视图。
+
+<<< @/code/app/window/zoom-mode.ts
