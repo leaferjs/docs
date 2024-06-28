@@ -6,15 +6,15 @@
 
 <br/>
 
-![坐标体系透视图](/svg/coordinate-3d.svg)
+![坐标体系](/svg/coordinate.svg)
 
 <br/>
 
-<!-- <br/>
+<br/>
 
-![坐标体系](/svg/coordinate.svg)
+![坐标体系透视图](/svg/coordinate-3d.svg)
 
-<br/> -->
+<br/>
 
 ## 坐标系类型
 
