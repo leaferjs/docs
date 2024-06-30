@@ -12,7 +12,7 @@
 
 如需编辑图形，推荐更省心的 [leafer-editor](/guide/install/editor/start.md)，已集成了图形编辑器相关插件。
 
-纯绘图的场景，推荐更轻量的 [leafer-draw](/guide/install/draw/start.md) （46KB min+gzip）。
+纯绘图的场景，推荐更轻量的 [leafer-draw](/guide/install/draw/start.md) （49KB min+gzip）。
 
 ## 互动交流
 
