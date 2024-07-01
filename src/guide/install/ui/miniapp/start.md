@@ -30,9 +30,9 @@ bun add @leafer-ui/miniapp
 
 ```sh
 
-https://unpkg.com/@leafer-ui/miniapp@1.0.0-rc.28/dist/miniapp.module.js
+https://unpkg.com/@leafer-ui/miniapp@1.0.0/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-ui/miniapp@1.0.0-rc.28/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-ui/miniapp@1.0.0/dist/miniapp.module.min.js
 ```
 
 ## 环境

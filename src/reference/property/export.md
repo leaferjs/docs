@@ -31,8 +31,14 @@ interface IExportOptions {
   trim?: boolean // 是否裁剪透明像素，默认false
   screenshot?: IBoundsData | boolean // 以当前视图比例导出截图，可指定一个截图区域
 
+  json?: IJSONOptions // json导出选项
+
   relative?: ILocationType | IUI // 相对坐标系 或父元素 的缩放比例导出，默认Leafer为 inner, 其他元素为 local，可以单独设置: inner |  local | world
   onCanvas?: IExportOnCanvasFunction // onCanvas(canvas => { }) 用于叠加绘制自定义内容
+}
+
+interface IJSONOptions {
+  matrix?: boolean
 }
 
 interface IExportOnCanvasFunction {

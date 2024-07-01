@@ -26,11 +26,11 @@
 
 使元素支持 [hover](/reference/property/state/hover) 、 [press](/reference/property/state/press) 、 [focus](/reference/property/state/focus) 、 [selected](/reference/property/state/selected) 、 [disabled](/reference/property/state/disabled) 交互状态样式。
 
-## 公测插件
-
 ### [自动布局](/plugin/in/flow/)
 
 Flow 自动布局，类似 Flex 的自动布局，可以快速自动排版内容。
+
+## 公测插件
 
 ### [文本编辑](/plugin/in/text-editor/)
 

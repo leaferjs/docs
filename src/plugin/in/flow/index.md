@@ -8,12 +8,6 @@ import Case from '/component/Case.vue'
 
 <case name="Flow" count=6 height=160 editor=false></case>
 
-## beta 版 公测插件
-
-目前该插件仅供公测用户体验使用、参与测试。
-
-稳定后会开放给大众使用，可通过 [发电](/sponsor/charge.md) 获得 公测资格。
-
 ## 适用平台
 
 支持所有平台。
@@ -40,18 +34,18 @@ bun add @leafer-in/flow
 
 ## 浏览器引入
 
-通过全局变量 LeaferIN.flow 访问插件内部功能。
+通过全局变量 LeaferIN.flow 访问插件内部功能，[点此访问 Github 仓库](https://github.com/leaferjs/in/tree/main/packages/flow)。
 ::: code-group
 
 ```html [flow.min]
-<script src="https://unpkg.com/@leafer-in/flow@1.0.0-rc.28/dist/flow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.0.0/dist/flow.min.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>
 ```
 
 ```html [flow]
-<script src="https://unpkg.com/@leafer-in/flow@1.0.0-rc.28/dist/flow.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.0.0/dist/flow.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>

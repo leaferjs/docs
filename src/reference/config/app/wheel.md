@@ -6,6 +6,10 @@
 
 ## 关键属性
 
+### wheel.disabled: `boolean`
+
+是否禁用 wheel 事件，默认为 false。
+
 ### wheel.zoomMode: `boolean` ｜ `'mouse'`
 
 是否开启鼠标滚动直接缩放视图， 默认为 false。

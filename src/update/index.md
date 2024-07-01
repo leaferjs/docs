@@ -12,13 +12,57 @@ import Case from '/component/Case.vue'
 
 :::
 
-## 2024 / 06 / 21
+## 2024 / 06 / 30
 
-> v1.0.0-rc.28
+> v1.0.0 正式版，下周发布文章
 
 #### 🌱 新增 🎉🎉🎉
 
-\- 🌸 官方文档重大改版，方便新手入门（插图、示例）、查找内容，下周开放至 [GitHub](https://github.com/leaferjs/docs) 🎉🎉🎉
+\- 🌸 [Flow 自动布局插件](/plugin/in/flow/index.md) 已开放 🎉🎉🎉
+
+\- 🌸 [官方文档](https://github.com/leaferjs/docs)、[示例代码](https://github.com/leaferjs/code)、[自动化测试用例](https://github.com/leaferjs/test) 已整理完成并开放至 GitHub
+
+\- 🌸 [贡献指南文档](/contribute/guide.md) 初步完成，具体的 pull request、自动化测试指南，下周完善
+
+\- 元素属性改为可选值，在 TS 的 `strictNullChecks` 模式下可设置为 undefined
+
+\- 应用配置增加 [app.config.wheel.disabled](/reference/config/app/wheel.md#wheeldisabled-boolean) 可禁用滚轮事件
+
+\- [export()](/reference/property/export.md#关键方法)、[toJSON()](/reference/property/json.md#tojson-iuiinputdata)、[toString()](/reference/property/json.md#tostring-options-ijsonoptions-string) 支持 JSON 导出选项（可导出元素本地矩阵）
+
+\- 图形编辑器增加遮罩配置 [editor.config.mask](/plugin/in/editor/config.md#mask-string)，适用于裁剪图片场景。
+
+#### 🪲 修复
+
+\- 元素被销毁时交互事件不能向上传递的问题
+
+\- pointer.menu_tap 事件触发一次后，点左键也会触发的问题
+
+\- App 被销毁后，图形编辑器再选择元素会报错
+
+\- 修复文本 textOverflow 为`...`时偶尔超出编辑框的问题
+
+#### 🌿 优化
+
+\- 优化 Group 的 [resizeWidth()](/reference/property/resize.md) / [resizeHeight()](/reference/property/resize.md) 定位准确性
+
+\- 当最终创建的画布没有宽高时，控制台打印警告提示
+
+#### 正式移除 API （已预告过）
+
+\- 正式移除元素的 getWorld()方法， 请使用 [getLayoutBounds()](/reference/property/bounds.md#关键方法)
+
+#### 🌷 感谢反馈
+
+[@canbaoSama](https://github.com/canbaoSama) [@zzzz-bang](https://github.com/zzzz-bang) @Nevermore @南 @黄某人 @周游 @笑 @鸭梨 @do @王进元
+
+## 2024 / 06 / 21
+
+> v1.0.0
+
+#### 🌱 新增 🎉🎉🎉
+
+\- 🌸 官方文档重大改版，方便新手入门（插图、示例）、查找内容 🎉🎉🎉
 
 \- 🌸 [leafer-editor](/guide/install/editor/start.md) 图形编辑场景包发布，集成常用插件 🎉🎉🎉
 

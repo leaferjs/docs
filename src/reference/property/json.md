@@ -6,15 +6,27 @@ App、Canvas 组件暂不支持，后续会支持。
 
 ## 导出
 
-### toJSON ( ): [`IUIInputData`](/api/interfaces/IUIInputData.md)
+### toJSON ( options?: `IJSONOptions` ): [`IUIInputData`](/api/interfaces/IUIInputData.md)
 
 导出 JSON 对象。
 
+```ts
+interface IJSONOptions {
+  matrix?: boolean
+}
+```
+
 <<< @/code/property/json/export.ts
 
-### toString ( ): `string`
+### toString ( options?: `IJSONOptions` ): `string`
 
 导出 json 字符串。
+
+```ts
+interface IJSONOptions {
+  matrix?: boolean
+}
+```
 
 ## 导入
 
