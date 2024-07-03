@@ -24,6 +24,10 @@
 
 ## Demo
 
+[Tuhigh](https://github.com/more-strive/tuhigh)<badge>支持手机端的在线设计工具</badge> @Nevermore
+
+[element-plus-leafer](https://github.com/kooriookami/element-plus-leafer)<badge>UI 组件</badge> @kooriookami
+
 [danmaku-leafer](https://danmaku-leafer-web.vercel.app/demo)<badge>高性能的 Canvas 弹幕</badge> @danmaku-leafer
 
 [compress-text](https://kooriookami.github.io/leafer-compress-text/)<badge>文本压缩、注音</badge> @kooriookami
