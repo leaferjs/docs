@@ -58,7 +58,7 @@ import Case from '/component/Case.vue'
 
 ## 2024 / 06 / 21
 
-> v1.0.0
+> v1.0.0-rc.28
 
 #### 🌱 新增 🎉🎉🎉
 
