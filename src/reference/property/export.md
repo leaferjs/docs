@@ -8,7 +8,7 @@
 
 export( name: [`IExportFileType`](/api/modules.md#iexportfiletype) | `string`, options?: [`IExportOptions`](/api/interfaces/IExportOptions.md) | `number` | `boolean`): `Promise`<[`IExportResult`](/api/interfaces/IExportResult.md)>
 
-支持导出单个元素、画面截图（[App](/reference/display/App.md) 只能导出画面截图）， 默认导出为 1 倍图。
+支持导出单个元素、画面截图（[App](/reference/display/App.md)实例单独导出只能为画面截图）， 默认导出为 1 倍图。
 
 name 为文件名时表示保存文件。
 

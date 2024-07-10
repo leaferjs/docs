@@ -18,7 +18,7 @@
 
 有问题、建议可以 [提交 issue](https://github.com/leaferjs/ui/issues)，留下你的贡献足迹。
 
-欢迎加入 [技术交流群](https://leaferjs.com/#contact) ，与小伙伴们建立联系，共同学习进步。
+欢迎加入 [技术交流群](https://leaferjs.com/#contact) ，与小伙伴们建立联系，共同学习进步，偶尔会有特殊福利。
 
 🌟 记得前往 [GitHub](https://github.com/leaferjs/ui) / [Gitee](https://gitee.com/leaferjs/ui) 点亮你的 [小星星](https://github.com/leaferjs/ui) ✨ ✨ ✨
 
@@ -34,7 +34,7 @@
 
 ## 使命与愿景
 
-Leafer UI 致力于实现一套简洁、开放、现代化的 UI 绘图语言标准，表现力丰富，并提供跨平台、轻量化、高性能的运行时。
+Leafer UI 致力于实现一套简洁、开放、现代化的 UI 绘图语言标准，表现力丰富，便于 AI 理解，人类可视化使用，并为数字化产品开发提供跨平台、轻量化、高性能的运行时。
 
 让不同的软件之间能够沟通、协作、共享绘图数据，让数字化产品开发可以更快、更简单。
 
@@ -42,11 +42,11 @@ Leafer UI 致力于实现一套简洁、开放、现代化的 UI 绘图语言标
 
 我们正在坚定的向这个目标持续前进，可以通过 [开发计划](../plan/) 了解更多信息。
 
-## 最佳应用场景
+<!-- ## 最佳应用场景
 
 使用 Leafer UI 可以快速开发在线图形、图像、文字类数字化产品，不限于 Figma、Miro、Canva、Notion、Webflow。
 
-出色的创建速度和性能，可以为 AI 绘图、 生成界面提供强有力的支撑。
+出色的创建速度和性能，可以为 AI 绘图、 生成界面提供强有力的支撑。 -->
 
 ## 增强 Leafer UI
 

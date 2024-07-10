@@ -8,7 +8,7 @@ import Case from '/component/Case.vue'
 
 <case name="TextEditor"  count=6 height=160></case>
 
-## beta 版 公测插件
+## beta 版 公测插件 (本周会随新版本完全开放)
 
 目前该插件仅供公测用户体验使用、参与测试。
 

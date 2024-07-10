@@ -14,7 +14,7 @@ import Case from '/component/Case.vue'
 
 ## 2024 / 06 / 30
 
-> v1.0.0 正式版，下周发布文章
+> v1.0.0 正式版
 
 #### 🌱 新增 🎉🎉🎉
 

@@ -26,28 +26,28 @@ LeaferJS 是采用 MIT 许可的开源项目，永久免费，且可商用。
 
 ### 青色发电 &nbsp; ¥100 / 年
 
-- 可提前使用 [公测插件](/plugin/index.md#公测插件)
-
 - 后续提供的在线高级实战教程
+
+- 可提前使用 [公测插件](/plugin/index.md#公测插件)
 
 - 个人首选，约 ¥10 / 月（ [前往发电](https://afdian.net/a/leaferjs) ）
 
 ![bettery](/svg/bettery/bettery-1000.svg)
 
-### 蓝色发电 &nbsp; ¥1000 / 年
+### 蓝色发电 &nbsp; ¥100 / 月
+
+- 后续提供的在线高级实战教程
 
 - 可提前使用 [内测插件](/plugin/index.md#内测插件)、[公测插件](/plugin/index.md#公测插件)
 
-- 后续提供的在线高级实战教程
-
-- 初创公司首选，约 ¥100 / 月（ [前往发电](https://afdian.net/a/leaferjs) ）
+- 初创公司首选（ [前往发电](https://afdian.net/a/leaferjs) ）
 
 ![bettery](/svg/bettery/bettery-10000.svg)
 
-### 紫色发电 &nbsp; ¥10000 / 年
-
-- 可提前使用 [内测插件](/plugin/index.md#内测插件)、[公测插件](/plugin/index.md#公测插件)（含源码）
+### 紫色发电 &nbsp; ¥1000 / 月
 
 - 后续提供的在线高级实战教程
 
-- 有实力的企业首选，约 ¥1000 / 月（ [前往发电](https://afdian.net/a/leaferjs) ）
+- 可提前使用 [内测插件](/plugin/index.md#内测插件)、[公测插件](/plugin/index.md#公测插件)（含源码）
+
+- 有实力的企业首选（ [前往发电](https://afdian.net/a/leaferjs) ）

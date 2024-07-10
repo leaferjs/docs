@@ -10,6 +10,8 @@
 
 ## 教程
 
+[Leafer 开发小游戏 - 拼图](https://juejin.cn/post/7388338139633516595) @子洋
+
 [像素风编辑器从 Konva 到 Leafer](https://juejin.cn/post/7317827078115049499) @枣把儿
 
 [React 使用 Leafer 绘制大数据表格](https://juejin.cn/post/7276344015451635764) @火树银花
@@ -23,6 +25,8 @@
 [LeaferJS 尝鲜 及 应用数学](https://juejin.cn/post/7252251628090507301) @子洋
 
 ## Demo
+
+[Leafer Games](https://github.com/Alessandro-Pang/leafer-games) <badge>Leafer 小游戏中心</badge> @子洋
 
 [Tuhigh](https://github.com/more-strive/tuhigh)<badge>支持手机端的在线设计工具</badge> @Nevermore
 
