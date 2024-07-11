@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 设置元素光标，hover 到下面的图形上看看效果。
 
-<case name="Cursor"></case>
+<case name="Cursor" editor=false></case>
 
 ## 关键属性
 
@@ -84,13 +84,13 @@ Leafer 支持手动强制更新光标样式 [updateCursor()](/reference/display/
 
 ## 示例
 
-<case name="Cursor" index=4></case>
+<case name="Cursor" index=4 editor=false></case>
 
 ### 设置光标
 
 <<< @/code/property/cursor/name.ts
 
-<case name="Cursor" index=5></case>
+<case name="Cursor" index=5 editor=false></case>
 
 ### 自定义图片光标
 

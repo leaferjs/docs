@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 线性渐变对象, 可以用于填充与描边。
 
-<case name="Linear" ></case>
+<case name="Linear"  editor=false></case>
 
 ## 关键属性
 
@@ -88,7 +88,7 @@ from: {
 
 ## 示例
 
-<case name="Linear" index=0></case>
+<case name="Linear" index=0 editor=false></case>
 
 ### 默认方向
 
@@ -96,7 +96,7 @@ from: {
 
 <<< @/code/property/fill/linear/a.ts
 
-<case name="Linear" index=1></case>
+<case name="Linear" index=1 editor=false></case>
 
 ### 控制方向
 
@@ -104,7 +104,7 @@ from: {
 
 <<< @/code/property/fill/linear/from.ts
 
-<case name="Linear" index=6></case>
+<case name="Linear" index=6 editor=false></case>
 
 ### 设置透明度
 

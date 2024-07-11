@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 绘制车标、星光、五角星、多角星形。
 
-<case name="Star"></case>
+<case name="Star" editor=false></case>
 
 ## 关键属性
 
@@ -50,25 +50,25 @@ innerRadius: 0.382
 
 ## 示例
 
-<case name="Star" index=0></case>
+<case name="Star" index=0 editor=false></case>
 
 ### 绘制车标
 
 <<< @/code/display/Star/three.ts
 
-<case name="Star" index=1></case>
+<case name="Star" index=1 editor=false></case>
 
 ### 绘制星光
 
 <<< @/code/display/Star/light.ts
 
-<case name="Star" index=2></case>
+<case name="Star" index=2 editor=false></case>
 
 ### 绘制五角星
 
 <<< @/code/display/Star/star.ts
 
-<case name="Star" index=5></case>
+<case name="Star" index=5 editor=false></case>
 
 ### 绘制圆角星形
 

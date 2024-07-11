@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 创建路径。可以画出任意形状的图形， 了解 [绘图命令](../interface/ui/PathData.md)。
 
-<case name="Path"></case>
+<case name="Path" editor=false></case>
 
 ## 关键属性
 
@@ -54,13 +54,13 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 ## 示例
 
-<case name="Path" index=5></case>
+<case name="Path" index=5 editor=false></case>
 
 ### 创建路径
 
 <<< @/code/display/Path/cafe.ts
 
-<case name="Pen" index=0></case>
+<case name="Pen" index=0 editor=false></case>
 
 ### 缠绕路径
 
@@ -68,7 +68,7 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 <<< @/code/display/Path/group.ts
 
-<case name="Rect" index=6></case>
+<case name="Rect" index=6 editor=false></case>
 
 ### 使用画笔绘制
 

@@ -125,7 +125,7 @@ skewOf() 在世界坐标系中操作。
 
 ## 示例
 
-<case name="RectAnimate" index=0></case>
+<case name="RectAnimate" index=0 editor=false></case>
 
 ### 旋转动画
 

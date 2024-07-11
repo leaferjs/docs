@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 图案填充对象, 可以用于填充与描边，支持使用 svg 格式的图片。
 
-<case name="ImageFill"></case>
+<case name="ImageFill" editor=false></case>
 
 > 平铺模式下超过 4096 x 2160 的 4k 图片会被优化显示。
 
@@ -160,43 +160,43 @@ type IRepeat = boolean | 'x' | 'y'
 
 ## 示例
 
-<case name="ImageFill" index=0></case>
+<case name="ImageFill" index=0 editor=false></case>
 
 ### cover 覆盖模式
 
 <<< @/code/property/fill/image/cover.ts
 
-<case name="ImageFill" index=1></case>
+<case name="ImageFill" index=1 editor=false></case>
 
 ### cover 覆盖模式旋转 90 度
 
 <<< @/code/property/fill/image/cover90.ts
 
-<case name="ImageFill" index=2></case>
+<case name="ImageFill" index=2 editor=false></case>
 
 ### fit 适应模式
 
 <<< @/code/property/fill/image/fit.ts
 
-<case name="ImageFill" index=3></case>
+<case name="ImageFill" index=3 editor=false></case>
 
 ### strench 拉伸模式
 
 <<< @/code/property/fill/image/strench.ts
 
-<case name="ImageFill" index=4></case>
+<case name="ImageFill" index=4 editor=false></case>
 
 ### clip 裁剪模式
 
 <<< @/code/property/fill/image/clip.ts
 
-<case name="ImageFill" index=5></case>
+<case name="ImageFill" index=5 editor=false></case>
 
 ### repeat 平铺模式
 
 <<< @/code/property/fill/image/repeat.ts
 
-<case name="ImageFill" index=6></case>
+<case name="ImageFill" index=6 editor=false></case>
 
 ### repeat 平铺模式旋转 90 度
 

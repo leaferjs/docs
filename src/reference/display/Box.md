@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 创建 Box。支持 [Group](./Group.md) 的功能和 [Rect](./Rect.md) 的外观样式， 类似于 HTML5 中的 DIV，可以不断嵌套 。
 
-<case name="Box"></case>
+<case name="Box" editor=false></case>
 
 ## 关键属性
 
@@ -52,19 +52,19 @@ type IOverflow = 'show' | 'hide'
 
 ## 示例
 
-<case name="Box" index=0></case>
+<case name="Box" index=0 editor=false></case>
 
 ### 创建 Box
 
 <<< @/code/display/Box/create.ts
 
-<case name="Box" index=1></case>
+<case name="Box" index=1 editor=false></case>
 
 ### 隐藏超出宽高的内容
 
 <<< @/code/display/Box/overflow.ts
 
-<case name="Box" index=6></case>
+<case name="Box" index=6 editor=false></case>
 
 ### 创建自适应背景的文本
 

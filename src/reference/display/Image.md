@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 图片对象，支持使用 svg 格式的图片，另外所有图形都支持通过 [图案填充](/reference/property/paint/image.md) 来显示图片。
 
-<case name="ImageFill"></case>
+<case name="ImageFill" editor=false></case>
 
 ## 关键属性
 
@@ -92,7 +92,7 @@ import Case from '/component/Case.vue'
 
 ## 示例
 
-<case name="ImageFill" index=0></case>
+<case name="ImageFill" index=0 editor=false></case>
 
 ### 使用默认宽高
 

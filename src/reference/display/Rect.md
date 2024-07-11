@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 绘制矩形、圆角矩形。
 
-<case name="Rect"></case>
+<case name="Rect" editor=false></case>
 
 ## 关键属性
 
@@ -41,19 +41,19 @@ cornerRadius: 20 // all
 
 ## 示例
 
-<case name="Rect" index=0></case>
+<case name="Rect" index=0 editor=false></case>
 
 ### 绘制矩形
 
 <<< @/code/display/Rect/rect.ts
 
-<case name="Rect" index=1></case>
+<case name="Rect" index=1 editor=false></case>
 
 ### 绘制圆角矩形
 
 <<< @/code/display/Rect/corner.ts
 
-<case name="Rect" index=4></case>
+<case name="Rect" index=4 editor=false></case>
 
 ### 绘制不同圆角的矩形
 

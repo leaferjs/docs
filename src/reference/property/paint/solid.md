@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 纯色填充对象, 可以用于填充与描边。
 
-<case name="SolidFill" ></case>
+<case name="SolidFill"  editor=false></case>
 
 ## 关键属性
 
@@ -38,6 +38,6 @@ import Case from '/component/Case.vue'
 
 ## 示例
 
-<case name="SolidFill" index=0></case>
+<case name="SolidFill" index=0 editor=false></case>
 
 <<< @/code/property/fill/solid/a.ts

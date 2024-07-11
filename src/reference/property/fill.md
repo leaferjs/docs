@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 填充，类似于 HTML5 中的 background-color，或文字的 color。
 
-<case name="Fill" ></case>
+<case name="Fill"  editor=false></case>
 
 ## 关键属性
 
@@ -22,13 +22,13 @@ import Case from '/component/Case.vue'
 
 ## 示例
 
-<case name="Fill" index=0 ></case>
+<case name="Fill" index=0  editor=false></case>
 
 ### 纯色填充
 
 <<< @/code/property/fill/solid/a.ts
 
-<case name="Fill" index=1></case>
+<case name="Fill" index=1 editor=false></case>
 
 ### 渐变填充
 
@@ -36,7 +36,7 @@ import Case from '/component/Case.vue'
 
 <<< @/code/property/fill/linear/a.ts
 
-<case name="Fill" index=5></case>
+<case name="Fill" index=5 editor=false></case>
 
 ### 图案填充
 
@@ -44,7 +44,7 @@ import Case from '/component/Case.vue'
 
 <<< @/code/property/fill/image/cover.ts
 
-<case name="Fill" index=4 ></case>
+<case name="Fill" index=4  editor=false></case>
 
 ### 多个填充叠加
 

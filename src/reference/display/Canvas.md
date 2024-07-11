@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 画布对象，可以自由绘制、操作像素，或将其他图形直接绘制到 Canvas 上。
 
-<case name="Pen"></case>
+<case name="Pen" editor=false></case>
 
 ## 关键属性
 
@@ -81,7 +81,7 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 
 <<< @/code/display/Canvas/context.ts
 
-<case name="Pen" index=2></case>
+<case name="Pen" index=2 editor=false></case>
 
 ### 使用图形元素绘制
 

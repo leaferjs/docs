@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 绘制横线、斜线、竖线、折线、平滑曲线。
 
-<case name="Line"></case>
+<case name="Line" editor=false></case>
 
 ## 关键属性
 
@@ -74,55 +74,55 @@ console.log(line.toPoint) // {x: 0, y: 100})  会根据 width 与 rotation 自�
 
 ## 示例
 
-<case name="Line" index=0></case>
+<case name="Line" index=0 editor=false></case>
 
 ### 绘制横线
 
 <<< @/code/display/Line/horizontal.ts
 
-<case name="Line" x = 5 index=1></case>
+<case name="Line" x = 5 index=1 editor=false></case>
 
 ### 绘制到目标点的直线
 
 <<< @/code/display/Line/lineto.ts
 
-<case name="Line" x = 5 index=2></case>
+<case name="Line" x = 5 index=2 editor=false></case>
 
 ### 绘制斜线
 
 <<< @/code/display/Line/line.ts
 
-<case name="Line" x = 5 index=6></case>
+<case name="Line" x = 5 index=6 editor=false></case>
 
 ### 绘制竖线
 
 <<< @/code/display/Line/vertical.ts
 
-<case name="Line" x = 5 index=8></case>
+<case name="Line" x = 5 index=8 editor=false></case>
 
 ### 绘制折线
 
 <<< @/code/display/Line/points.ts
 
-<case name="Line" x = 5 index=3></case>
+<case name="Line" x = 5 index=3 editor=false></case>
 
 ### 绘制圆角折线
 
 <<< @/code/display/Line/corner.ts
 
-<case name="Line" x = 5 index=4></case>
+<case name="Line" x = 5 index=4 editor=false></case>
 
 ### 绘制曲线
 
 <<< @/code/display/Line/curve.ts
 
-<case name="Line" x = 5 index=7></case>
+<case name="Line" x = 5 index=7 editor=false></case>
 
 ### 绘制 0.2 曲率的曲线
 
 <<< @/code/display/Line/curve-number.ts
 
-<case name="Line" x = 5 index=5></case>
+<case name="Line" x = 5 index=5 editor=false></case>
 
 ### 绘制趋势图
 

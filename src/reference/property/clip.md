@@ -40,13 +40,13 @@ text.textOverflow = '...'
 
 ## 示例
 
-<case name="Box" index=1></case>
+<case name="Box" index=1 editor=false></case>
 
 ### 裁剪掉超出宽高的内容
 
 <<< @/code/display/Box/overflow.ts
 
-<case name="ImageFill" index=4></case>
+<case name="ImageFill" index=4 editor=false></case>
 
 ### 快速裁剪图片
 

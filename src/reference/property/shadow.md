@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 绘制阴影。
 
-<case name="Shadow"></case>
+<case name="Shadow" editor=false></case>
 
 ## 关键属性
 
@@ -33,13 +33,13 @@ interface ShadowEffect {
 
 ## 示例
 
-<case name="Shadow" index=1></case>
+<case name="Shadow" index=1 editor=false></case>
 
 ### 绘制阴影
 
 <<< @/code/property/shadow/offset.ts
 
-<case name="Shadow" index=0></case>
+<case name="Shadow" index=0 editor=false></case>
 
 ### 绘制 boxShadow 阴影
 

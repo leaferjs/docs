@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 混合模式， 了解 [混合原理](https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation) 与 [混合效果](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode)。
 
-<case name="BlendMode"></case>
+<case name="BlendMode" editor=false></case>
 
 ```ts
 type BlendMode =

@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 径向渐变对象, 可以用于填充与描边。
 
-<case name="Radial"></case>
+<case name="Radial" editor=false></case>
 
 ## 关键属性
 
@@ -96,7 +96,7 @@ to: {x: 0.5, y: 1} // 底部居中
 
 ## 示例
 
-<case name="Radial" index=0></case>
+<case name="Radial" index=0 editor=false></case>
 
 ### 默认方向
 
@@ -104,7 +104,7 @@ to: {x: 0.5, y: 1} // 底部居中
 
 <<< @/code/property/fill/radial/a.ts
 
-<case name="Radial" index=1></case>
+<case name="Radial" index=1 editor=false></case>
 
 ### 控制方向
 
@@ -112,7 +112,7 @@ to: {x: 0.5, y: 1} // 底部居中
 
 <<< @/code/property/fill/radial/from.ts
 
-<case name="Radial" index=2></case>
+<case name="Radial" index=2 editor=false></case>
 
 ### 拉伸渐变
 
@@ -120,7 +120,7 @@ to: {x: 0.5, y: 1} // 底部居中
 
 <<< @/code/property/fill/radial/stretch.ts
 
-<case name="Radial" index=6></case>
+<case name="Radial" index=6 editor=false></case>
 
 ### 设置透明度
 

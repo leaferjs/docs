@@ -20,7 +20,7 @@ pointer.enter 状态，暂时不支持 Group。
 
 ## 示例
 
-<case name="HoverStyle" index=0 editor="false" ></case>
+<case name="HoverStyle" index=0 editor=false></case>
 
 ### 鼠标移入颜色加深
 

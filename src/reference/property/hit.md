@@ -64,7 +64,7 @@ Group 不支持此属性。
 
 ## 示例
 
-<case name="Hittable"  index=1 editor=false ></case>
+<case name="Hittable"  index=1 editor=false  editor=false></case>
 
 ### 只有 stroke 能响应交互
 
@@ -72,7 +72,7 @@ Group 不支持此属性。
 
 <<< @/code/property/hit/stroke-visible.ts
 
-<case name="Hittable" index=2 editor=false></case>
+<case name="Hittable" index=2 editor=false editor=false></case>
 
 ### 不可见的 fill 也能响应交互
 

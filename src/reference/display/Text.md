@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 绘制文本。与 HTML5 文本显示效果基本一致。
 
-<case name="Text"></case>
+<case name="Text" editor=false></case>
 
 ## 关键属性
 
@@ -190,7 +190,7 @@ padding: 20 // all
 
 <<< @/code/display/Text/text.ts
 
-<case name="Box" index=6></case>
+<case name="Box" index=6 editor=false></case>
 
 ### 创建自适应背景的文本
 

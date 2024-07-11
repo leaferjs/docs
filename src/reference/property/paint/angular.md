@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 角度渐变对象, 可以用于填充与描边。暂时需要浏览器支持`createConicGradient()`方法。
 
-<case name="Angular" ></case>
+<case name="Angular"  editor=false></case>
 
 ## 关键属性
 
@@ -96,7 +96,7 @@ to: {x: 0.5, y: 1} // 底部居中
 
 ## 示例
 
-<case name="Angular" index=0></case>
+<case name="Angular" index=0 editor=false></case>
 
 ### 默认方向
 
@@ -104,7 +104,7 @@ to: {x: 0.5, y: 1} // 底部居中
 
 <<< @/code/property/fill/angular/a.ts
 
-<case name="Angular" index=2></case>
+<case name="Angular" index=2 editor=false></case>
 
 ### 控制方向
 
@@ -112,7 +112,7 @@ to: {x: 0.5, y: 1} // 底部居中
 
 <<< @/code/property/fill/angular/from.ts
 
-<case name="Angular" index=1></case>
+<case name="Angular" index=1 editor=false></case>
 
 ### 拉伸渐变
 
@@ -120,7 +120,7 @@ to: {x: 0.5, y: 1} // 底部居中
 
 <<< @/code/property/fill/angular/stretch.ts
 
-<case name="Angular" index=6></case>
+<case name="Angular" index=6 editor=false></case>
 
 ### 设置透明度
 

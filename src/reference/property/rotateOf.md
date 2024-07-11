@@ -22,7 +22,7 @@ leaf.rotateOf({ x: 50, y: 50 }, rotation - leaf.rotation)
 
 ## 示例
 
-<case name="RectAnimate" index=0></case>
+<case name="RectAnimate" index=0 editor=false></case>
 
 ### 旋转动画
 

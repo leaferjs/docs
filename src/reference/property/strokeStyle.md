@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 描边颜色。
 
-<case name="Stroke"></case>
+<case name="Stroke" editor=false></case>
 
 ## 描边样式属性
 

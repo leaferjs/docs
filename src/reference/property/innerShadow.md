@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 绘制内阴影。
 
-<case name="InnerShadow"></case>
+<case name="InnerShadow" editor=false></case>
 
 ## 关键属性
 
@@ -32,7 +32,7 @@ interface ShadowEffect {
 
 ## 示例
 
-<case name="InnerShadow" index=0></case>
+<case name="InnerShadow" index=0 editor=false></case>
 
 ### 绘制内阴影
 

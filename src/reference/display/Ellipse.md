@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 绘制圆、圆环、扇形圆环、扇形、弧线、椭圆，想从中心点绘制，可以了解 [around](/reference/property/around.md)。
 
-<case name="Ellipse"></case>
+<case name="Ellipse" editor=false></case>
 
 ## 关键属性
 
@@ -59,7 +59,7 @@ innerRadius: 0.5
 
 ## 示例
 
-<case name="Ellipse" index=0></case>
+<case name="Ellipse" index=0 editor=false></case>
 
 ### 绘制圆
 
@@ -67,31 +67,31 @@ innerRadius: 0.5
 
 <<< @/code/display/Ellipse/circle.ts
 
-<case name="Ellipse" index=1></case>
+<case name="Ellipse" index=1 editor=false></case>
 
 ### 绘制圆环
 
 <<< @/code/display/Ellipse/ring.ts
 
-<case name="Ellipse" index=2></case>
+<case name="Ellipse" index=2 editor=false></case>
 
 ### 绘制扇形圆环
 
 <<< @/code/display/Ellipse/sectorRing.ts
 
-<case name="Ellipse" index=3></case>
+<case name="Ellipse" index=3 editor=false></case>
 
 ### 绘制扇形
 
 <<< @/code/display/Ellipse/sector.ts
 
-<case name="Ellipse" index=4></case>
+<case name="Ellipse" index=4 editor=false></case>
 
 ### 绘制圆角弧线
 
 <<< @/code/display/Ellipse/arc.ts
 
-<case name="Ellipse" index=5></case>
+<case name="Ellipse" index=5 editor=false></case>
 
 ### 绘制椭圆
 

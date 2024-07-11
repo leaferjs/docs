@@ -20,7 +20,7 @@ pointer.down 状态，暂时不支持 Group。
 
 ## 示例
 
-<case name="PressStyle" index=0 editor="false" ></case>
+<case name="PressStyle" index=0   editor=false></case>
 
 ### 鼠标按下颜色加深
 

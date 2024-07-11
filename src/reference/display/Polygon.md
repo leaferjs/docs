@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 绘制三角形、菱形、五边形、正多边形、自由多边形、平滑多变形。
 
-<case name="Polygon"></case>
+<case name="Polygon" editor=false></case>
 
 ## 关键属性
 
@@ -63,43 +63,43 @@ sides: 5
 
 ## 示例
 
-<case name="Polygon" index=0></case>
+<case name="Polygon" index=0 editor=false></case>
 
 ### 绘制三角形
 
 <<< @/code/display/Polygon/triangle.ts
 
-<case name="Polygon" index=1></case>
+<case name="Polygon" index=1 editor=false></case>
 
 ### 绘制五边形
 
 <<< @/code/display/Polygon/pentagon.ts
 
-<case name="Polygon" index=2></case>
+<case name="Polygon" index=2 editor=false></case>
 
 ### 绘制圆角六边形
 
 <<< @/code/display/Polygon/corner.ts
 
-<case name="Polygon" index=3></case>
+<case name="Polygon" index=3 editor=false></case>
 
 ### 绘制自由多边形
 
 <<< @/code/display/Polygon/points.ts
 
-<case name="Polygon" index=4></case>
+<case name="Polygon" index=4 editor=false></case>
 
 ### 绘制平滑多边形
 
 <<< @/code/display/Polygon/curve.ts
 
-<case name="Polygon" index=6></case>
+<case name="Polygon" index=6 editor=false></case>
 
 ### 绘制 0.2 曲率的平滑多边形
 
 <<< @/code/display/Polygon/curve-number.ts
 
-<case name="Polygon" index=5></case>
+<case name="Polygon" index=5 editor=false></case>
 
 ### 绘制趋势图
 

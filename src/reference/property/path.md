@@ -56,7 +56,7 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 ## 示例
 
-<case name="Rect" index=6></case>
+<case name="Rect" index=6 editor=false></case>
 
 ### 使用画笔绘制
 

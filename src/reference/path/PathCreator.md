@@ -18,7 +18,7 @@ import Case from '/component/Case.vue'
 
 ## 示例
 
-<case name="Pen" index=2></case>
+<case name="Pen" index=2 editor=false></case>
 
 ### 创建新路径进行绘制
 

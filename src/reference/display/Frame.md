@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 创建画板。默认白色背景、会裁剪掉超出宽高的内容，类似于 HTML5 中的一个页面。
 
-<case name="Frame"></case>
+<case name="Frame" editor=false></case>
 
 ## 关键属性
 
@@ -40,7 +40,7 @@ type IOverflow = 'show' | 'hide'
 
 ## 示例
 
-<case name="Frame" index=0></case>
+<case name="Frame" index=0 editor=false></case>
 
 ### 创建画板
 

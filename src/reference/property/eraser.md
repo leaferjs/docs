@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 擦除功能，将 Group 内的某个元素指定为橡皮擦，可以实现复杂的擦除效果。
 
-<case name="Eraser"></case>
+<case name="Eraser" editor=false></case>
 
 ## 关键属性
 
@@ -32,25 +32,25 @@ type IEraserType =
 
 ## 示例
 
-<case name="Eraser" index=0></case>
+<case name="Eraser" index=0 editor=false></case>
 
 ### 将圆环设为橡皮擦
 
 <<< @/code/property/eraser/ui.ts
 
-<case name="Eraser" index=1></case>
+<case name="Eraser" index=1 editor=false></case>
 
 ### 将半透明的圆环设为橡皮擦
 
 <<< @/code/property/eraser/opacity.ts
 
-<case name="Eraser" index=2></case>
+<case name="Eraser" index=2 editor=false></case>
 
 ### 将圆形组设为橡皮擦
 
 <<< @/code/property/eraser/group.ts
 
-<case name="Eraser" index=5></case>
+<case name="Eraser" index=5 editor=false></case>
 
 ### 将路径设为橡皮擦
 

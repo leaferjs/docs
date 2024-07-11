@@ -58,7 +58,7 @@ rect.around = {
 
 ## 示例
 
-<case name="Around" index=0 editor=false></case>
+<case name="Around" index=0  editor=false></case>
 
 ### 围绕坐标(50,50) 为中心进行绘制
 

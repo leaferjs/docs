@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 描边，类似于 HTML5 中的 border。
 
-<case name="Stroke"></case>
+<case name="Stroke" editor=false></case>
 
 ## 关键属性
 
@@ -80,13 +80,13 @@ rect.dashPattern = [20, 10] // [线段，间隙]
 
 ## 示例
 
-<case name="SolidStroke" index=0 ></case>
+<case name="SolidStroke" index=0  editor=false></case>
 
 ### 纯色填充
 
 <<< @/code/property/stroke/solid/a.ts
 
-<case name="GradientStroke" index=0 ></case>
+<case name="GradientStroke" index=0  editor=false></case>
 
 ### 渐变填充
 
@@ -94,7 +94,7 @@ rect.dashPattern = [20, 10] // [线段，间隙]
 
 <<< @/code/property/stroke/linear/a.ts
 
-<case name="ImageStroke" index=0 ></case>
+<case name="ImageStroke" index=0  editor=false></case>
 
 ### 图案填充
 
@@ -102,7 +102,7 @@ rect.dashPattern = [20, 10] // [线段，间隙]
 
 <<< @/code/property/stroke/image/a.ts
 
-<case name="Strokes" index=0 ></case>
+<case name="Strokes" index=0  editor=false></case>
 
 ### 多个填充叠加
 
@@ -110,7 +110,7 @@ rect.dashPattern = [20, 10] // [线段，间隙]
 
 <<< @/code/property/stroke/mutil/a.ts
 
-<case name="Stroke" index=3 ></case>
+<case name="Stroke" index=3  editor=false></case>
 
 ### 绘制虚线
 

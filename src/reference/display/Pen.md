@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 像绘画一样，快速画出不同样式的路径组合。
 
-<case name="Pen"></case>
+<case name="Pen" editor=false></case>
 
 ## 关键属性
 
@@ -48,31 +48,31 @@ import Case from '/component/Case.vue'
 
 ## 示例
 
-<case name="Pen" index=0></case>
+<case name="Pen" index=0 editor=false></case>
 
 ### 画出不同颜色的形状
 
 <<< @/code/display/Pen/color.ts
 
-<case name="Pen" index=2></case>
+<case name="Pen" index=2 editor=false></case>
 
 ### 画曲线
 
 <<< @/code/display/Pen/line.ts
 
-<case name="Pen" index=3></case>
+<case name="Pen" index=3 editor=false></case>
 
 ### 结合图形组件
 
 <<< @/code/display/Pen/add.ts
 
-<case name="Pen" index=4></case>
+<case name="Pen" index=4 editor=false></case>
 
 ### 结合图片
 
 <<< @/code/display/Pen/image.ts
 
-<case name="Pen" index=5></case>
+<case name="Pen" index=5 editor=false></case>
 
 ### 结合文字
 

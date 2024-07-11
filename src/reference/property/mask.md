@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 遮罩功能，将 Group 内的某个元素指定为遮罩，可以实现复杂的裁剪效果。
 
-<case name="Mask"></case>
+<case name="Mask" editor=false></case>
 
 ## 关键属性
 
@@ -33,25 +33,25 @@ type IMaskType =
 
 ## 示例
 
-<case name="Mask" index=0></case>
+<case name="Mask" index=0 editor=false></case>
 
 ### 将圆环设为遮罩
 
 <<< @/code/property/mask/ui.ts
 
-<case name="Mask" index=1></case>
+<case name="Mask" index=1 editor=false></case>
 
 ### 将半透明的圆环设为遮罩
 
 <<< @/code/property/mask/opacity.ts
 
-<case name="Mask" index=2></case>
+<case name="Mask" index=2 editor=false></case>
 
 ### 将圆形组设为遮罩
 
 <<< @/code/property/mask/group.ts
 
-<case name="Mask" index=5></case>
+<case name="Mask" index=5 editor=false></case>
 
 ### 将路径设为遮罩
 
@@ -59,7 +59,7 @@ type IMaskType =
 
 ## 快速设置遮罩
 
-<case name="Mask" index=0></case>
+<case name="Mask" index=0 editor=false></case>
 
 通过自定义函数可以为 Group 快速设置 mask 元素，默认会将遮罩添加到 Group 内 最底部。
 
