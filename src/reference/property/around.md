@@ -10,6 +10,8 @@ import Case from '/component/Case.vue'
 
 ![围绕中心点绘制](/svg/around.svg)
 
+暂时与 [图形编辑功能](/plugin/in/editor/) 不能同时使用。
+
 ## 关键属性
 
 ### around: [`IAlign`](/api/modules.md#ialign) | [`IUnitPointData`](/api/interfaces/IUnitPointData.md)

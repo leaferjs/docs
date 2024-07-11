@@ -8,6 +8,8 @@ import Case from '/component/Case.vue'
 
 想围绕中心点绘制元素，请使用 [around](./around.md)（优先级高）。
 
+暂时与 [图形编辑功能](/plugin/in/editor/) 不能同时使用。
+
 ## 关键属性
 
 ### origin: [`IAlign`](/api/modules.md#ialign) | [`IUnitPointData`](/api/interfaces/IUnitPointData.md)

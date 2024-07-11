@@ -12,7 +12,7 @@ import Case from '/component/Case.vue'
 
 ## 适用平台
 
-web 版、小程序版。暂时与有 [around](/reference/property/around.md) 属性的元素不能混用。
+web 版、小程序版。暂时与有 [自动布局](/plugin/in/flow/) 及 [around](/reference/property/around.md)、[origin](/reference/property/origin.md) 属性的元素不能混用。
 
 后面计划会增加精细化的属性编辑器，如编辑圆角、形状、路径等
 
