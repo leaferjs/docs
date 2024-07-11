@@ -45,7 +45,7 @@ https://unpkg.com/@leafer-editor/miniapp@1.0.0/dist/miniapp.module.min.js
 
 阴影、遮罩等正在适配兼容性。
 
-:::danger 重要警告
+:::danger 重要警告 （已找到绕过此限制的办法，本周会再发一个版本）
 微信小程序 iOS 端 3.0.0 之后 view 中的 canvas drawImage 无法绘制离屏画布 导致白屏（纯离屏画布模式可用） 。
 :::
 
