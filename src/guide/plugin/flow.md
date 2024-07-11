@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 类似 Flex 的自动布局，更简单、直观，可以快速自动排版内容。
 
-可前往 [自动布局插件](/plugin/in/flow/) 深入了解。
+需安装 [自动布局插件](/plugin/in/flow/)。
 
 <case name="Flow" count=1 height=160 editor=false></case>
 

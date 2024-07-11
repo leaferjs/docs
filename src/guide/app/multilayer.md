@@ -36,4 +36,4 @@
 
 ## 下一步
 
-### [图形编辑器](/guide/app/editor.md)
+### [图形编辑器](/guide/plugin/editor.md)
