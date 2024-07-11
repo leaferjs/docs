@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # 设置样式
 
-<case name="Stroke"></case>
+<case name="Stroke" editor=false></case>
 
 ## 初始化样式
 

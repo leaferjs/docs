@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 箭头元素，丰富的箭头样式，并支持自定义。
 
-<case name="Arrow"></case>
+<case name="Arrow" editor=false></case>
 
 ## 关键属性
 
@@ -86,103 +86,103 @@ interface IPathDataArrowOffset {
 
 ## 示例
 
-<case name="Arrow" index=6></case>
+<case name="Arrow" index=6 editor=false></case>
 
 ### 角度箭头
 
 <<< @/code/plugin/arrow/angle.ts
 
-<case name="Arrow" index=7></case>
+<case name="Arrow" index=7 editor=false></case>
 
 箭头变得更大一些
 
 <<< @/code/plugin/arrow/angle/square.ts
 
-<case name="Arrow" index=9></case>
+<case name="Arrow" index=9 editor=false></case>
 
 [strokeJoin](/reference/property/stroke.md#strokejoin-strokejoin) 变得平滑
 
 <<< @/code/plugin/arrow/angle/round-cap.ts
 
-<case name="Arrow" index=10></case>
+<case name="Arrow" index=10 editor=false></case>
 
 [strokeCap](/reference/property/stroke.md#strokecap-strokecap) 变得平滑
 
 <<< @/code/plugin/arrow/angle/round-join.ts
 
-<case name="Arrow" index=8></case>
+<case name="Arrow" index=8 editor=false></case>
 
 [strokeCap](/reference/property/stroke.md#strokecap-strokecap) / [strokeJoin](/reference/property/stroke.md#strokejoin-strokejoin) 都变得平滑
 
 <<< @/code/plugin/arrow/angle/round.ts
 
-<case name="Arrow" index=11 count=2></case>
+<case name="Arrow" index=11 count=2 editor=false></case>
 
 ### 单边角度箭头
 
 <<< @/code/plugin/arrow/angle-side.ts
 
-<case name="Arrow" index=13></case>
+<case name="Arrow" index=13 editor=false></case>
 
 ### 标准箭头
 
 <<< @/code/plugin/arrow/arrow.ts
 
-<case name="Arrow" index=23></case>
+<case name="Arrow" index=23 editor=false></case>
 
 [strokeCap](/reference/property/stroke.md#strokecap-strokecap) / [strokeJoin](/reference/property/stroke.md#strokejoin-strokejoin) 都变得平滑
 
 <<< @/code/plugin/arrow/arrow-round.ts
 
-<case name="Arrow" index=14></case>
+<case name="Arrow" index=14 editor=false></case>
 
 ### 三角形箭头
 
 <<< @/code/plugin/arrow/triangle.ts
 
-<case name="Arrow" index=15></case>
+<case name="Arrow" index=15 editor=false></case>
 
 ### 反向三角形箭头
 
 <<< @/code/plugin/arrow/triangle-flip.ts
 
-<case name="Arrow" index=16></case>
+<case name="Arrow" index=16 editor=false></case>
 
 ### 圆形箭头
 
 <<< @/code/plugin/arrow/circle.ts
 
-<case name="Arrow" index=17></case>
+<case name="Arrow" index=17 editor=false></case>
 
 ### 圆形箭头（线性）
 
 <<< @/code/plugin/arrow/circle-line.ts
 
-<case name="Arrow" index=18></case>
+<case name="Arrow" index=18 editor=false></case>
 
 ### 方形箭头
 
 <<< @/code/plugin/arrow/square.ts
 
-<case name="Arrow" index=19></case>
+<case name="Arrow" index=19 editor=false></case>
 
 ### 方形箭头（线性）
 
 <<< @/code/plugin/arrow/square-line.ts
 
-<case name="Arrow" index=20></case>
+<case name="Arrow" index=20 editor=false></case>
 
 ### 菱形箭头
 
 <<< @/code/plugin/arrow/diamond.ts
 
-<case name="Arrow" index=21></case>
+<case name="Arrow" index=21 editor=false></case>
 
 ### 菱形箭头（线性）
 
 <<< @/code/plugin/arrow/diamond-line.ts
 
-<case name="Arrow" index=22></case>
+<case name="Arrow" index=22 editor=false></case>
 
 ### 标注箭头
 

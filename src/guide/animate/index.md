@@ -8,7 +8,7 @@ import Case from '/component/Case.vue'
 
 ## 示例
 
-<case name="RectAnimate" index=0></case>
+<case name="RectAnimate" index=0 editor=false></case>
 
 ### 简单动画
 

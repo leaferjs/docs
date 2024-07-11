@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # 创建图形
 
-<case name="Rect"></case>
+<case name="Rect" editor=false></case>
 
 ## 标准创建
 

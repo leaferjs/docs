@@ -91,7 +91,7 @@ IE 不支持
 
 ## 开始体验
 
-<case name="Rect" index=5></case>
+<case name="Rect" index=5 editor=false></case>
 
 创建一个交互应用，可以缩放平移视图、拖拽矩形。
 

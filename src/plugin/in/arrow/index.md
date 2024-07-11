@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 为线条添加起始/结束箭头，自带 12 种常用的箭头样式，并支持自定义。
 
-<case name="Arrow"></case>
+<case name="Arrow" editor=false></case>
 
 ## 适用平台
 
@@ -60,7 +60,7 @@ https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 
 ## 体验
 
-<case name="Arrow" index=6></case>
+<case name="Arrow" index=6 editor=false></case>
 
 <<< @/code/plugin/arrow/angle.ts
 
