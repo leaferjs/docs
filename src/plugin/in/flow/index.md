@@ -56,7 +56,7 @@ https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 
 ## 依赖插件
 
-### [resize 插件](/plugin/in/resize/index.md)
+### [resize 插件](/plugin/in/resize/index.md) (会自动安装)
 
 ## 开始体验
 
