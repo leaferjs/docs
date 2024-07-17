@@ -10,6 +10,8 @@
 
 ## 教程
 
+[超级玛丽游戏 - 开发教程](https://juejin.cn/post/7392116075674828827) @hhzzcc
+
 [Leafer 开发小游戏 - 拼图](https://juejin.cn/post/7388338139633516595) @子洋
 
 [像素风编辑器从 Konva 到 Leafer](https://juejin.cn/post/7317827078115049499) @枣把儿
@@ -25,6 +27,8 @@
 [LeaferJS 尝鲜 及 应用数学](https://juejin.cn/post/7252251628090507301) @子洋
 
 ## Demo
+
+[超级玛丽游戏](https://github.com/hhzzcc/super-mario) <badge>支持编辑制作地图</badge> @hhzzcc
 
 [Leafer Games](https://github.com/Alessandro-Pang/leafer-games) <badge>Leafer 小游戏中心</badge> @子洋
 
