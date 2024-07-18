@@ -8,7 +8,7 @@
 
 `zoomType` 为缩放类型， 支持放大、缩小、fit、fit-width、fit-height 视图，聚焦元素、区域。
 
-当 `zoomType` 为 fit、元素、区域时，可以传入 `padding` 进行四周留白。如果不想缩放画布，只进行位移，可以设置 `fixedScale` 为
+当 `zoomType` 为 fit、元素、区域时，可以传入 `padding` 进行四周留白。如果不想缩放画布，只进行位移，可以设置 `fixedScale` 为 true。
 
 函数返回一个缩放后的焦点区域（世界坐标系）。
 
