@@ -18,7 +18,7 @@
 
 ### circle：[`Box`](/reference/display/UI.md)
 
-编辑框的主旋转点元素。
+编辑框的独立旋转点元素。
 
 ### resizePoints：[`EditPoint`](/plugin/in/editor/EditPoint.md)[]
 

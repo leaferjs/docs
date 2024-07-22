@@ -16,6 +16,28 @@
 
 锁定后不能移动、编辑，框选不了。
 
+### widthRange: `IRangeSize`
+
+限制元素的宽度范围（目前只有编辑器单选元素时可以控制）。
+
+```ts
+interface IRangeSize {
+  min?: number
+  max?: number
+}
+```
+
+### heightRange: `IRangeSize`
+
+限制元素的高度范围（目前只有编辑器单选元素时可以控制）。
+
+```ts
+interface IRangeSize {
+  min?: number
+  max?: number
+}
+```
+
 ### lockRatio: `boolean`
 
 是否锁定元素的宽高比例，默认为 false。

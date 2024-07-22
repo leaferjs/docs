@@ -148,6 +148,10 @@ out 事件。
 - "pen"
 - "touch"
 
+### multiTouch: `boolean`
+
+是否多点触屏中，非小程序版需开启 [app.config.pointer.touch](/reference/config/app/pointer.md#pointer-touch-boolean)
+
 ### pressure: `number`
 
 按压的压力值，取值范围: 0 ～ 1.

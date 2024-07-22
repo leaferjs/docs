@@ -2,9 +2,13 @@
 
 ## 监听事件
 
-为矩形添加鼠标进入/离开事件效果。
+为矩形添加鼠标进入/离开事件效果：
 
 <<< @/code/basic/event/hover.ts#listen
+
+还支持初始化传入 [event](/reference/property/on.md) 对象，用于快速监听事件：
+
+<<< @/code/basic/event/event.ts#liste
 
 ## 使用字符串
 

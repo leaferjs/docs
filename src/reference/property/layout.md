@@ -88,6 +88,12 @@ console.log(leaf.scale) // {x:1, y: 2}
 
 请求更新布局，如 leafer 布局无变化，则忽略。
 
+## 更多
+
+### [transform 属性方法](/reference/property/transform.md)
+
+### [bounds 属性方法](/reference/property/bounds.md)
+
 ## 归属
 
 ### [UI](/reference/display/UI.md#基础属性)

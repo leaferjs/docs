@@ -24,6 +24,10 @@ App 与 Leafer 的初始化基础配置。
 
 注意 App 结构下只能设置在 [App](/reference/display/App.md) 的 config 上。
 
+### mobile: `boolean`
+
+是否在手机端使用，自动优化体验（如停用 hover 事件、图形编辑器 [可通过手势控制元素](/plugin/in/editor/config.md#moveable-boolean-move)）
+
 ### cursor: `boolean`
 
 是否启用光标功能，默认为 true。

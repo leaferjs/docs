@@ -32,9 +32,9 @@ bun add @leafer-editor/miniapp
 
 ```sh
 
-https://unpkg.com/@leafer-editor/miniapp@1.0.0/dist/miniapp.module.js
+https://unpkg.com/@leafer-editor/miniapp@1.0.1/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-editor/miniapp@1.0.0/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-editor/miniapp@1.0.1/dist/miniapp.module.min.js
 
 
 ```
@@ -45,8 +45,10 @@ https://unpkg.com/@leafer-editor/miniapp@1.0.0/dist/miniapp.module.min.js
 
 阴影、遮罩等正在适配兼容性。
 
-:::danger 重要警告 （已找到绕过此限制的办法，本周会再发一个版本）
-微信小程序 iOS 端 3.0.0 之后 view 中的 canvas drawImage 无法绘制离屏画布 导致白屏（纯离屏画布模式可用） 。
+::: warning 温馨提示
+微信小程序 iOS 端 3.0.0 之后 view 中的 canvas drawImage 无法绘制离屏画布，已找到办法绕过此限制，但仍有部分功能用不了（如图层混合模式，擦除，后续会继续适配）。
+
+等待小程序官方[修复 bug](https://developers.weixin.qq.com/community/develop/doc/000264fc838f08be4d6002d9166c00), 大家可以一起去催一催。复杂应用建议先采用小程序的 [web-view](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html) 方式开发。
 :::
 
 ## 生成海报

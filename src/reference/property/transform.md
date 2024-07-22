@@ -56,7 +56,7 @@ y 轴倾斜角度，取值范围为 -90 ～ 90。
 
 围绕中心点绘制、旋转、缩放元素，可使用更简单的 [around](./around.md) 属性。
 
-以下方法大部分为手动增量操作，增量操作暂时不能与 around 共用。
+以下方法大部分为手动增量操作。
 
 ### setTransform ( matrix: [`IMatrixData`](/api/interfaces/IMatrixData.md) )
 
@@ -99,25 +99,29 @@ leaf.skewOf({ x: 50, y: 50 }, skewX - leaf.skewX)
 
 ## 相对世界坐标系
 
+### flip( axis：`'x'` | `'y'` )
+
+在 [世界坐标系](/guide/basic/coordinate.md#world) 中， 按轴方向 镜像/翻转元素。
+
 ### transformWorld ( worldTransform: [`IMatrixData`](/api/interfaces/IMatrixData.md) )
 
-transform() 在世界坐标系中操作。
+transform() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
 
 ### moveWorld ( worldX: `number` | [`IPointData`](../interface/math/Math#ipointdata), worldY = 0 )
 
-move() 在世界坐标系中操作。
+move() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
 
 ### scaleOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), scaleX: `number`, scaleY = scaleX )
 
-scaleOf() 在世界坐标系中操作。
+scaleOf() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
 
 ### rotateOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), rotation: `number` )
 
-rotateOf() 在世界坐标系中操作。
+rotateOf() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
 
 ### skewOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), skewX: `number`, skewY = 0 )
 
-skewOf() 在世界坐标系中操作。
+skewOf() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
 
 ## 归属
 

@@ -10,6 +10,8 @@
 
 ## 教程
 
+[element-plus-leafer 文档](https://kooriookami.github.io/element-plus-leafer-docs/zh-CN/) @kooriookami
+
 [超级玛丽游戏 - 开发教程](https://juejin.cn/post/7392116075674828827) @hhzzcc
 
 [Leafer 开发小游戏 - 拼图](https://juejin.cn/post/7388338139633516595) @子洋
@@ -81,6 +83,8 @@
 ## 插件
 
 #### 新版
+
+[leafer-x-tooltip-canvas](https://www.npmjs.com/package/leafer-x-tooltip-canvas) <badge>canvas 版提示框插件</badge> @糖颂缘冥倾
 
 [leafer-x-connector](https://www.npmjs.com/package/leafer-x-connector) <badge>连线插件</badge> @A☀️ 云 ☀️A
 

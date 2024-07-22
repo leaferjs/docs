@@ -6,6 +6,10 @@
 
 ## 关键属性
 
+### pointer.touch: `boolean`
+
+是否使用 原生 touch 事件 模拟 [PointeEvent](/reference/event/ui/Pointer.md) 事件，默认为 false。
+
 ### pointer.hitRadius: `number`
 
 光标的碰撞半径， 默认为 5。

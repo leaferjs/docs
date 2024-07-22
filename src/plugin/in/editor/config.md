@@ -54,13 +54,27 @@ scale： 修改元素的 **缩放属性** 达到调整大小的目的。
 
 设置控制点样式，可单独设置 4 个点。
 
+并支持通过设置 pointType = `'button'` ｜`'rotate'` 来自定义功能。
+
+```ts
+point: [
+  {},
+  {
+    pointType: 'button',
+    event: {
+      tap: function () {
+        alert('button')
+      },
+    },
+  }, // 变为自定义按钮
+  { pointType: 'rotate' }, // 变为旋转按钮
+  {},
+]
+```
+
 ### middlePoint: [`IBoxInputData`](/reference/display/Box.md)｜ [`IBoxInputData`](/reference/display/Box.md)[]
 
 设置中间控制点样式（会继承基础样式），可单独设置 4 个点，为空时不显示， 默认为空。
-
-### rotatePoint: [`IBoxInputData`](/reference/display/Box.md)
-
-设置独立旋转控制点样式（会继承基础样式）， 为空时不显示， 默认为空。
 
 ### rect: [`IBoxInputData`](/reference/display/Box.md)
 
@@ -69,14 +83,6 @@ scale： 修改元素的 **缩放属性** 达到调整大小的目的。
 ### area: [`IRectInputData`](/reference/display/Rect.md)
 
 框选区域的样式（会继承基础样式）。
-
-### 遮罩
-
-### mask: `string`
-
-设置遮罩的颜色值， 如 `rgba(0,0,0,0.8)`，适用于裁剪图片场景。
-
-为空表示不使用遮罩，默认为空。
 
 ### 按钮组
 
@@ -91,6 +97,40 @@ scale： 修改元素的 **缩放属性** 达到调整大小的目的。
 ### buttonsMargin: `number`,
 
 按钮组到编辑框的外边距， 默认为 12。
+
+### 旋转按钮
+
+### circle: [`IBoxInputData`](/reference/display/Box.md)
+
+设置独立旋转控制点样式（会继承基础样式）， 为空时不显示， 默认为空。
+
+并支持通过设置 pointType = `'button'` 来自定义功能。
+
+```ts
+circle: {
+  pointType: 'button',
+  cursor: 'pointer',
+  event: {
+    tap: function () {
+      alert('button')
+    },
+  },
+}, // 变为自定义按钮
+```
+
+### circleDirection: `'top'` | `'right'` | `'bottom'` | `'left'`
+
+独立旋转控制点的方位， 默认为 bottom（如果 buttonsDirection 为 bottom ，则为 top）。
+
+### circleMargin: `number`,
+
+独立旋转控制点到编辑框的外边距， 默认采用 buttonsMargin。
+
+### 遮罩
+
+### mask: `string` | `boolean`
+
+设置遮罩的颜色值（适用于裁剪图片场景），`true` 表示颜色值 `rgba(0,0,0,0.8)`，默认为无。
 
 ### 隐藏
 
@@ -229,21 +269,27 @@ press 为鼠标按下触发， tap 为单击触发。
 
 ### 启用
 
-### moveable: `boolean`
+### moveable: `boolean` | `'move'`
 
 是否启用移动， 默认启用。
+
+设为 `move` 可支持手机端双指移动手势。
 
 ### resizeable: `boolean` | `'zoom'`
 
 是否启用编辑大小， 默认启用。
 
-设为 `zoom` 可支持移动端缩放手势。
+设为 `zoom` 可支持手机端缩放手势。
+
+### flipable: `boolean`
+
+是否启用镜像/翻转元素功能， 默认启用
 
 ### rotateable: `boolean` | `'rotate'`
 
 是否启用旋转， 默认启用。
 
-设为 `rotate` 可支持移动端旋转手势。
+设为 `rotate` 可支持手机端旋转手势。
 
 ### skewable: `boolean`
 

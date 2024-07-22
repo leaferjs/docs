@@ -12,6 +12,82 @@ import Case from '/component/Case.vue'
 
 :::
 
+## 2024 / 07 / 20
+
+> v1.0.1 (新功能尝鲜)
+
+#### 🌱 新增 🎉🎉🎉
+
+\- 🌸 [文本编辑插件](/plugin/in/text-editor/) 已开放 🎉🎉🎉
+
+\- 🌸 [iOS 小程序版](/guide/install/ui/miniapp/start.md#注意) 已支持，增加 [App 结构示例](/guide/install/ui/miniapp/start.md#app-结构-图形编辑器)，并支持 [扩展 uniapp 等平台](/guide/install/ui/miniapp/start.md#在其他平台中使用) 🎉🎉🎉
+
+\- 🌸 应用增加 [app.config.mobile](/reference/config/app/base.md#mobile-boolean) 配置，用于优化手机端交互体验
+
+\- 元素增加 [event](/reference/property/on.md) 属性，用于初始化时传入事件进行监听
+
+\- PointerEvent 事件 增加 [multiTouch](/reference/event/ui/Pointer.md#multitouch-boolean) 属性， 用来判断是否多点触屏
+
+\- MoveEvent 增加 [moveType](/reference/event/ui/Move.md#movetype-move-drag)， 区分鼠标滚动 / 拖拽产生的视图移动
+
+\- 元素增加 [flip()](/reference/property/transform.md#flip-axis-x-y) 方法，用于在世界坐标轴中 镜像/翻转元素
+
+#### 🪴 图形编辑器插件
+
+\- 如使用了 editSize 为 font-size， 请暂缓升级，还有部分适配工作需完成
+
+\- 🌸 编辑器控制点支持设置 [pointType](/plugin/in/editor/config.md#point-iboxinputdata-iboxinputdata) 属性自定义按钮功能
+
+\- 🌸 支持限制元素的宽高 [widthRange](/reference/property/editable.md#widthrange-irangesize)、 [heightRange](/reference/property/editable.md#widthrange-irangesize)，
+
+\- 🌸 支持混合使用 origin 、around 属性元素， 并会取其作为旋转点
+
+\- 增加 [flipable](/plugin/in/editor/config.md#flipable-boolean) 配置, 控制是否启用镜像/翻转元素功能
+
+\- 增加 [flip()](/plugin/in/editor/Editor.md#flip-axis-x-y) 方法，用于手动镜像/翻转元素
+
+\- moveable 配置增加 [`'move'`](/plugin/in/editor/config.md#moveable-boolean-move) 类型， 用于手机端双指移动选中元素
+
+\- mask 配置增加 [`'true'`](/plugin/in/editor/config.md#mask-string-boolean) 类型，用于快速设置编辑器遮罩
+
+\- 配置 rotatePoint（仍可用）改为 [circle](/plugin/in/editor/config.md#circle-iboxinputdata), 并增加 [circleMargin](/plugin/in/editor/config.md#circle-iboxinputdata)、[circleDirection](/plugin/in/editor/config.md#circle-iboxinputdata)
+
+\- [旋转控制点](/plugin/in/editor/config.md#circle-iboxinputdata) 和 [buttons](/plugin/in/editor/Editor.md#buttons-group) 进行分离，并可独立设置方向
+
+#### 🌿 优化
+
+\- Matrix 的 [setLayout()](/reference/math/Matrix.md#setlayout-layout-ilayoutdata-origin-ipointdata-around-ipointdata-matrix) / [getLayout()](/reference/math/Matrix.md#setlayout-layout-ilayoutdata-origin-ipointdata-around-ipointdata-matrix) 方法增加 around 参数
+
+\- [export()](/reference/property/export.md) 导出切片时，自动隐藏切片(当前导出元素)
+
+#### 🪲 修复
+
+\- 浏览器放大页面，字体模糊
+
+\- 导出 leafer 层图片缓存造成的清晰度问题（加大 pixelRatio 图片会模糊）
+
+\- [leafer-editor](/guide/install/editor/start.md) 在小程序中运行报错的问题
+
+\- [flow 自动布局](/plugin/in/flow/) 插件通过全局方式引入没有变量的问题
+
+#### 🪴 作品分享
+
+[Leafer 开发小游戏教程 - 拼图](https://juejin.cn/post/7388338139633516595) @子洋
+
+[Leafer 小游戏中心](https://github.com/Alessandro-Pang/leafer-games) @子洋
+
+[超级玛丽游戏 - 开发教程](https://juejin.cn/post/7392116075674828827) @hhzzcc
+
+[超级玛丽游戏](https://github.com/hhzzcc/super-mario) @hhzzcc
+
+[leafer-x-tooltip-canvas 插件](https://www.npmjs.com/package/leafer-x-tooltip-canvas) @糖颂缘冥倾
+
+[element-plus-leafer 文档](https://kooriookami.github.io/element-plus-leafer-docs/zh-CN/) @kooriookami
+
+#### 🌷 感谢反馈
+
+[@kooriookami](https://github.com/kooriookami) [@rojer95](https://github.com/rojer95) [@3400442579](https://github.com/3400442579) [@826327700](https://github.com/826327700) [@zzzz-bang](https://github.com/zzzz-bang) @xiaou @BO @风之影 @黄某人 @陈随易 @毛豆花生 @Max @L @糕噗
+
 ## 2024 / 06 / 30
 
 > v1.0.0 正式版
@@ -534,7 +610,7 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 \- 🌸 增加 [config.dualEvent](/plugin/in/editor/config.md#dualevent-boolean) 设置，首次点击元素时，元素是否可以接收 tap 等鼠标事件
 
-\- 🌸 增加 [config.moveable](/plugin/in/editor/config.md#moveable-boolean) 设置，用于控制能否移动元素
+\- 🌸 增加 [config.moveable](/plugin/in/editor/config.md#moveable-boolean-move) 设置，用于控制能否移动元素
 
 #### 🪲 修复
 

@@ -96,7 +96,7 @@ import Case from '/component/Case.vue'
 
 ### buttons: [`Group`](/reference/display/Group.md)
 
-按钮组，放置旋转控制点及自定义按钮，整体 [around](/reference/property/around.md) 对齐， 位于编辑器底部，可以 [进行配置](./config.md#按钮组)。
+按钮组，用于放置自定义按钮，整体 [around](/reference/property/around.md) 对齐， 位于编辑器底部，可以 [进行配置](./config.md#按钮组)。
 
 ### editTool: [`EditTool`](./EditTool.md)
 
@@ -213,6 +213,10 @@ group.hitChildren = false
 
 ## 手动操作
 
+### flip( axis：`'x'` | `'y'` )
+
+按轴方向（ [世界坐标系](/guide/basic/coordinate.md#world)） 镜像/翻转选中元素。
+
 ### move ( x: `number` | [`IPointData`](/reference/interface/math/Math#ipointdata), y = 0): void
 
 位移选中元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math#ipointdata)。
@@ -234,20 +238,14 @@ group.hitChildren = false
 const { element } = app.editor
 const box = element.boxBounds
 
-// 元素的实际内容中心点
-const center = {
-  x: box.x + box.width / 2,
-  y: box.y + box.height / 2,
-}
-
 // 想缩放到指定 scale， 需除以元素的 scale，如下：
-app.editor.scaleOf(center, scale / element.scale)
+app.editor.scaleOf('center', scale / element.scale)
 
 // 想旋转到指定 rotation， 需减去元素的 rotation，如下：
-app.editor.rotateOf(center, rotation - element.rotation)
+app.editor.rotateOf('center' rotation - element.rotation)
 
 // 想倾斜到指定 skewX， 需减去元素的 skewX，如下：
-app.editor.skewOf(center, skewX - element.skewX)
+app.editor.skewOf('center', skewX - element.skewX)
 ```
 
 ## 配置

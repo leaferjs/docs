@@ -8,11 +8,11 @@ import Case from '/component/Case.vue'
 
 <case name="TextEditor"  count=6 height=160></case>
 
-## beta 版 公测插件 (本周会随新版本完全开放)
+<!-- ## beta 版 公测插件 (本周会随新版本完全开放)
 
 目前该插件仅供公测用户体验使用、参与测试。
 
-稳定后会开放给大众使用，可通过 [发电](/sponsor/charge.md) 获得 公测资格。
+稳定后会开放给大众使用，可通过 [发电](/sponsor/charge.md) 获得 公测资格。 -->
 
 ## 适用平台
 
@@ -44,14 +44,14 @@ bun add @leafer-in/text-editor
 ::: code-group
 
 ```html [text-editor.min]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.0.0/dist/text-editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.0.1/dist/text-editor.min.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
 ```
 
 ```html [text-editor]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.0.0/dist/text-editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.0.1/dist/text-editor.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
