@@ -24,7 +24,7 @@ bun add @leafer-ui/miniapp
 
 :::
 
-## 下载
+## 下载 CDN 版本
 
 你也可以将库文件直接下载到本地 import 引入。
 
@@ -212,9 +212,7 @@ leafer.export('album.png').then(() => {
 ```ts
 import { useCanvas } from '@leafer-ui/miniapp'
 
-// useCanvas('wx', wx) 默认全局变量绑定微信小程序
-
-useCanvas('uniapp', uni) // 全局变量绑定改为 uni， 内部常用的属性方法需同 wx 一致
+useCanvas('canvas', wx) // 默认全局变量绑定微信小程序, 可绑定到其他平台， 内部常用的属性方法需同 wx 一致
 ```
 
 ### uniapp
@@ -229,6 +227,18 @@ leafer = new Leafer({
   eventer: pages[pages.length - 1], // 最后一个元素为当前页面实例
 })
 ```
+
+如出现 module 未定义报错，需手动安装以下 3 个核心依赖包：
+
+```ts
+@leafer/core
+@leafer-ui/core
+@leafer-ui/draw
+```
+
+## 常见问题
+
+目前有用户反馈新版的微信开发工具 import 会报错，可以先直接下载 CDN 的 js 文件使用。
 
 ## 体验产品案例
 

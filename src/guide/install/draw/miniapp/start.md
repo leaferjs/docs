@@ -26,7 +26,7 @@ bun add @leafer-draw/miniapp
 
 :::
 
-## 下载
+## 下载 CDN 版本
 
 你也可以将库文件直接下载到本地 import 引入。
 

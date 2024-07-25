@@ -66,7 +66,7 @@ import Case from '/component/Case.vue'
 
 \- 导出 leafer 层图片缓存造成的清晰度问题（加大 pixelRatio 图片会模糊）
 
-\- [leafer-editor](/guide/install/editor/start.md) 在小程序中运行报错的问题
+<!-- \- [leafer-editor](/guide/install/editor/start.md) 在小程序中运行报错的问题 -->
 
 \- [flow 自动布局](/plugin/in/flow/) 插件通过全局方式引入没有变量的问题
 
