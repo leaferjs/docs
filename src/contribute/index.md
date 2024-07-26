@@ -30,6 +30,8 @@
 
 ## Demo
 
+[ShotEasy](https://github.com/CH563/image-beautifier) <badge>在线截图美化工具</badge> @陈立文
+
 [超级玛丽游戏](https://github.com/hhzzcc/super-mario) <badge>支持编辑制作地图</badge> @hhzzcc
 
 [Leafer Games](https://github.com/Alessandro-Pang/leafer-games) <badge>Leafer 小游戏中心</badge> @子洋

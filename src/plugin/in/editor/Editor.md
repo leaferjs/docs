@@ -344,7 +344,7 @@ app.editor.skewOf('center', skewX - element.skewX)
 
 ### 显示底部旋转控制点
 
-默认会继承基础样式，可以进一步 [设置](./config.md#rotatepoint-iboxinputdata) 旋转控制点的样式。
+默认会继承基础样式，可以进一步 [设置](./config.md#circle-iboxinputdata) 旋转控制点的样式。
 
 <<< @/code/plugin/editor/config/rotate-point.ts
 
