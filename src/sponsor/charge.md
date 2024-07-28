@@ -16,9 +16,9 @@ LeaferJS 是采用 MIT 许可的开源项目，永久免费，且可商用。
 
 ## 内测、公测插件的使用方法
 
-发电成功后，可在我们的 [爱发电赞助平台](https://afdian.net/a/leaferjs?tab=feed) 官方帐号中查看 [最新动态](https://afdian.net/a/leaferjs?tab=feed)，解锁插件的使用方法。
+发电成功后，可在我们的 [爱发电赞助平台](https://afdian.com/a/leaferjs?tab=feed) 官方帐号中查看 [最新动态](https://afdian.com/a/leaferjs?tab=feed)，解锁插件的使用方法。
 
-最早一批赞助的用户权益不变，内测、公测插件的使用方法需在 [爱发电订单](https://afdian.net/dashboard/order) 中点 【查看内容】 领取，有问题可 [联系我们](https://leaferjs.com/#contact) ～
+最早一批赞助的用户权益不变，内测、公测插件的使用方法需在 [爱发电订单](https://afdian.com/dashboard/order) 中点 【查看内容】 领取，有问题可 [联系我们](https://leaferjs.com/#contact) ～
 
 ## 赞助发电等级
 
@@ -30,7 +30,7 @@ LeaferJS 是采用 MIT 许可的开源项目，永久免费，且可商用。
 
 - 可提前使用 [公测插件](/plugin/index.md#公测插件)
 
-- 个人首选，约 ¥10 / 月（ [前往发电](https://afdian.net/a/leaferjs) ）
+- 个人首选，约 ¥10 / 月（ [前往发电](https://afdian.com/a/leaferjs) ）
 
 ![bettery](/svg/bettery/bettery-1000.svg)
 
@@ -40,7 +40,7 @@ LeaferJS 是采用 MIT 许可的开源项目，永久免费，且可商用。
 
 - 可提前使用 [内测插件](/plugin/index.md#内测插件)、[公测插件](/plugin/index.md#公测插件)
 
-- 初创公司首选（ [前往发电](https://afdian.net/a/leaferjs) ）
+- 初创公司首选（ [前往发电](https://afdian.com/a/leaferjs) ）
 
 ![bettery](/svg/bettery/bettery-10000.svg)
 
@@ -50,4 +50,4 @@ LeaferJS 是采用 MIT 许可的开源项目，永久免费，且可商用。
 
 - 可提前使用 [内测插件](/plugin/index.md#内测插件)、[公测插件](/plugin/index.md#公测插件)（含源码）
 
-- 有实力的企业首选（ [前往发电](https://afdian.net/a/leaferjs) ）
+- 有实力的企业首选（ [前往发电](https://afdian.com/a/leaferjs) ）

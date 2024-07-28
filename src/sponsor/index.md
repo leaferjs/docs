@@ -102,7 +102,7 @@ LeaferJS 想要迎来更好的发展，需要一个新的主体，我想在今�
 
 ## 赞助方式
 
-在 [爱发电赞助平台](https://afdian.net/a/leaferjs) 请我喝一杯 **“苦尽甘来”** 的咖啡。
+在 [爱发电赞助平台](https://afdian.com/a/leaferjs) 请我喝一杯 **“苦尽甘来”** 的咖啡。
 
 你赞助的虚拟咖啡，第 2 天将会出现在[百万杯咖啡画布](https://www.leaferjs.com/coffee/)上，并永久显示。
 
@@ -122,7 +122,7 @@ LeaferJS 想要迎来更好的发展，需要一个新的主体，我想在今�
 
 <!-- - 开创者墙上 永久 显示赞助者头像（即将开放）。 -->
 
-- 支持分享故事链接，[前往赞助](https://afdian.net/a/leaferjs)。
+- 支持分享故事链接，[前往赞助](https://afdian.com/a/leaferjs)。
 
 ![coffee](/svg/coffee/coffee-100-story.svg)
 
@@ -132,7 +132,7 @@ LeaferJS 想要迎来更好的发展，需要一个新的主体，我想在今�
 
 <!-- - 开创者墙上 永久 显示赞助者头像（即将开放）。 -->
 
-- 支持分享故事链接，[前往赞助](https://afdian.net/a/leaferjs)。
+- 支持分享故事链接，[前往赞助](https://afdian.com/a/leaferjs)。
 
 ![coffee](/svg/coffee/coffee-10-story.svg)
 
@@ -142,14 +142,14 @@ LeaferJS 想要迎来更好的发展，需要一个新的主体，我想在今�
 
 <!-- - 开创者墙上 永久 显示赞助者头像（即将开放）。 -->
 
-- 支持分享故事链接，[前往赞助](https://afdian.net/a/leaferjs)。
+- 支持分享故事链接，[前往赞助](https://afdian.com/a/leaferjs)。
 <!--
 
 ## 赞助赠送
 
-给首批赞助者的福利，计划 4 月底调整为订阅制，加速器不再赠送，[前往赞助](https://afdian.net/a/leaferjs)。
+给首批赞助者的福利，计划 4 月底调整为订阅制，加速器不再赠送，[前往赞助](https://afdian.com/a/leaferjs)。
 
-赞助后在 [爱发电订单](https://afdian.net/dashboard/order) 中领取，暂时无法升级等级，后期会对接帐号到 LeaferJS 控制权限。
+赞助后在 [爱发电订单](https://afdian.com/dashboard/order) 中领取，暂时无法升级等级，后期会对接帐号到 LeaferJS 控制权限。
 
 ### 蓝色咖啡
 
@@ -169,7 +169,7 @@ LeaferJS 想要迎来更好的发展，需要一个新的主体，我想在今�
 
 ## 赞助说明
 
-4 月 30 号之前的第一批赞助用户仍按 [爱发电赞助订单](https://afdian.net/dashboard/order) 中的内容进行，后续会推出高级插件。
+4 月 30 号之前的第一批赞助用户仍按 [爱发电赞助订单](https://afdian.com/dashboard/order) 中的内容进行，后续会推出高级插件。
 
 #### 排名
 
