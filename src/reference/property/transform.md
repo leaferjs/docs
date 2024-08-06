@@ -74,6 +74,10 @@ y 轴倾斜角度，取值范围为 -90 ～ 90。
 
 位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math#ipointdata)。
 
+### moveInner ( x: `number` | [`IPointData`](../interface/math/Math#ipointdata), y = 0)
+
+在元素的 [inner 坐标系](/guide/basic/coordinate.md) 中，位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math#ipointdata)。
+
 ### scaleOf ( origin: [`IPointData`](../interface/math/Math#ipointdata) | [`IAlign`](/reference/interface/math/Math.md#ialign), scaleX: `number`, scaleY = scaleX)
 
 以 origin（元素 [inner 坐标](/guide/basic/coordinate.md) ） 为原点，缩放元素 <badge>增量操作</badge>。

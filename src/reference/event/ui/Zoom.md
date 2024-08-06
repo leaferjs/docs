@@ -42,4 +42,7 @@
 
 ## 示例
 
+::: code-group
 <<< @/code/event-ui/zoom/simple.ts
+<<< @/code/event-ui/zoom/simple.js
+:::

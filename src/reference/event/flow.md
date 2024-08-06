@@ -8,11 +8,17 @@
 
 ## 监听捕获事件
 
+::: code-group
 <<< @/code/event/capture/on.ts
+<<< @/code/event/capture/on.js
+:::
 
 ## 移除捕获事件
 
+::: code-group
 <<< @/code/event/capture/off.ts
+<<< @/code/event/capture/off.js
+:::
 
 ## 事件流
 
@@ -24,7 +30,10 @@
 
 ### stop ( )
 
+::: code-group
 <<< @/code/event/stop.ts
+<<< @/code/event/stop.js
+:::
 
 ## 立即阻止事件流传递
 
@@ -32,4 +41,7 @@
 
 ### stopNow ( )
 
+::: code-group
 <<< @/code/event/stopNow.ts
+<<< @/code/event/stopNow.js
+:::

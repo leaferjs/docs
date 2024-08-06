@@ -10,7 +10,7 @@
 
 ## 版本号
 
-当前的版本号，默认为 `1.0.1`。
+当前的版本号，默认为 `1.0.2`。
 
 ```ts
 import { version } from 'leafer-ui'
@@ -192,9 +192,17 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 ## 辅助方法
 
+### updateClientBounds ( )
+
+强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新），如 view 使用了 transform 属性移动需要调用此方法手动更新。
+
 ### getWorldPointByClient ( clientPoint: `IClientPointData`, update?: `boolean` ):[`IPointData`](../interface/math/Math#ipointdata)
 
 获取在应用中的 [世界坐标](/guide/basic/coordinate.md#world)（传入一个浏览器窗口的 client 坐标 转换），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新）。
+
+### getPagePointByClient ( clientPoint: `IClientPointData`, update?: `boolean` ):[`IPointData`](../interface/math/Math#ipointdata)
+
+获取在应用中的 [page 坐标](/guide/basic/coordinate.md#world)（传入一个浏览器窗口的 client 坐标 转换），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新）。
 
 可用于转换浏览器原生事件坐标（自带 clientX / clientY 坐标属性）到应用中。
 

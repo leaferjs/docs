@@ -46,4 +46,7 @@ Child 事件。
 
 ## 示例
 
+::: code-group
 <<< @/code/event/leafer/child.ts
+<<< @/code/event/leafer/child.js
+:::

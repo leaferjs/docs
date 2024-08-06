@@ -20,7 +20,7 @@ import Case from '/component/Case.vue'
 
 ### pixelRatio: `number`
 
-画布分辨率， 默认使用当前设备分辨率。
+画布分辨率， 默认为 1。
 
 ### smooth: `boolean`
 
@@ -42,6 +42,10 @@ interface ICanvasRenderingContext2DSettings {
 ```
 
 ## 只读属性
+
+### ready: `boolean`
+
+[导入画布](#json) 是否已经完成。
 
 ### canvas: [`ILeaferCanvas`](/api/interfaces/ILeaferCanvas.md)
 
@@ -66,6 +70,12 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 渲染画布。
 
 通过 `context` 绘制的内容需要调用此方法进行渲染。
+
+## JSON
+
+导出 JSON：将 canvas 数据生成一个 base64 的 url 属性。
+
+导入 JSON：通过 url 属性异步加载图片还原 canvas，可监听 [ImageEvent.LOADED](/reference/event/basic/Image.md#imageevent-loaded)。
 
 ## 继承
 

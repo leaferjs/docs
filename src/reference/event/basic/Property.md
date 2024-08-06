@@ -46,4 +46,7 @@
 
 ## 示例
 
+::: code-group
 <<< @/code/event/leafer/property.ts
+<<< @/code/event/leafer/property.js
+:::

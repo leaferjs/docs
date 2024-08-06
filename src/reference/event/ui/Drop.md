@@ -32,4 +32,7 @@
 
 ### 将元素放置到 Group 中
 
+::: code-group
 <<< @/code/event-ui/drop/simple.ts
+<<< @/code/event-ui/drop/simple.js
+:::

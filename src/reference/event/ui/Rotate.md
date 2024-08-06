@@ -41,4 +41,7 @@
 
 ## 示例
 
+::: code-group
 <<< @/code/event-ui/rotate/simple.ts
+<<< @/code/event-ui/rotate/simple.js
+:::

@@ -56,12 +56,21 @@
 
 ### 监听 Image 的图片加载
 
+::: code-group
 <<< @/code/event/image/image.ts
+<<< @/code/event/image/image.js
+:::
 
 ### 监听 fill 中的图片加载
 
+::: code-group
 <<< @/code/event/image/rect.ts
+<<< @/code/event/image/rect.js
+:::
 
 ### 监听错误
 
+::: code-group
 <<< @/code/event/image/error.ts
+<<< @/code/event/image/error.js
+:::

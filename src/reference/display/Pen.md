@@ -22,12 +22,6 @@ import Case from '/component/Case.vue'
 
 先为画笔设置样式，再绘制路径，支持 [Path](./Path.md) 和 [UI](./UI.md) 的所有属性样式。
 
-### paint ( )
-
-渲染路径。
-
-如果在 setStyle()之后异步绘制路径，需要调用此方法渲染，同步绘制可省略。
-
 ### add ( ui: [`UI`](./UI.md))
 
 添加图形元素。

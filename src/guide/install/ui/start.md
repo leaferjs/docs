@@ -6,9 +6,9 @@ import Case from '/component/Case.vue'
 
 在 Web 环境中运行。
 
-同时我们提供了一个 [体验环境](#安装体验环境)，方便大家体验官网示例、阅读源代码。
-
 ## 安装
+
+确保你已安装了 [Node.js](https://nodejs.org/zh-cn/)。
 
 ::: code-group
 
@@ -30,36 +30,50 @@ bun add leafer-ui
 
 :::
 
-## 浏览器引入
+同时我们提供了一个 [体验环境](/guide/runtime.md) ，方便大家直接体验官网示例、阅读源代码。
+
+## 通过 script 标签引入
+
+你还可以通过 script 标签引入 CDN 文件来使用 LeaferUI（可下载到本地），[查看示例](#引入-script-的方式)。
+
+注意 [Image](/reference/display/Image.md) / [PointerEvent](/reference/event/ui/Pointer.md) / [DragEvent](/reference/event/ui/Drag.md) 会与浏览器的全局变量冲突，需使用别名。
 
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-ui@1.0.1/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-ui@1.0.2/dist/web.min.js"></script>
 <script>
-  const { Leafer } = LeaferUI
+  const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui 的所有功能
+
+  // Image、PointerEvent、DragEvent 会与浏览器的全局变量冲突，请使用以下别名代替
+  const { MyImage, MyPointerEvent, MyDragEvent } = LeaferUI
+
   // ...
 </script>
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-ui@1.0.1/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-ui@1.0.2/dist/web.js"></script>
 <script>
-  const { Leafer } = LeaferUI
+  const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui的所有功能
+
+  // Image、PointerEvent、DragEvent 会与浏览器的全局变量冲突，请使用以下别名代替
+  const { MyImage, MyPointerEvent, MyDragEvent } = LeaferUI
+
   // ...
 </script>
 ```
 
 ```html [module.min]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@1.0.1/dist/web.module.min.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@1.0.2/dist/web.module.min.js'
   // ...
 </script>
 ```
 
 ```html [module]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@1.0.1/dist/web.module.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@1.0.2/dist/web.module.js'
   // ...
 </script>
 ```
@@ -98,6 +112,12 @@ IE 不支持
 ::: code-group
 
 <<< @/code/start/create.ts [index.ts]
+
+### 引入 script 的方式
+
+:::
+
+::: code-group
 
 <<< @/code/start/create.html [index.html]
 

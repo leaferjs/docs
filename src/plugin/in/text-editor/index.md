@@ -38,20 +38,20 @@ bun add @leafer-in/text-editor
 
 :::
 
-## 浏览器引入
+## 通过 script 标签引入
 
 通过全局变量 LeaferIN.textEditor 访问插件内部功能。
 ::: code-group
 
 ```html [text-editor.min]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.0.1/dist/text-editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.0.2/dist/text-editor.min.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
 ```
 
 ```html [text-editor]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.0.1/dist/text-editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.0.2/dist/text-editor.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>

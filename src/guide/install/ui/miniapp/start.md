@@ -1,6 +1,6 @@
 # @leafer-ui/miniapp
 
-在小程序环境中运行，[了解小程序使用 npm 包的注意事项](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)。
+在小程序环境中运行。
 
 ## 安装
 
@@ -24,15 +24,31 @@ bun add @leafer-ui/miniapp
 
 :::
 
+## 微信开发工具中使用 npm 包
+
+[需先了解小程序使用 npm 包的注意事项](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)，并在微信开发工具中勾选将 JS 转换为 ES5。
+
+目前发现多包依赖构建出的编译产物有一个 **导出 bug**，需要进行以下替换才能正常使用。
+
+```sh
+# 在 miniprogram_npm 文件夹中查找以下内容
+ Object.defineProperty(exports, k, { enumerable: true, configurable: true, get: function() { return __TEMP__[k]; } });
+
+# 替换为
+var __TEMP2__ =__TEMP__; Object.defineProperty(exports, k, { enumerable: true, configurable: true, get: function() { return __TEMP2__[k]; } });
+
+# 产生bug的原因： __TEMP__ 会被后面的包覆盖掉，导致 get 不到 __TEMP__[k] 的内容
+```
+
 ## 下载 CDN 版本
 
 你也可以将库文件直接下载到本地 import 引入。
 
 ```sh
 
-https://unpkg.com/@leafer-ui/miniapp@1.0.1/dist/miniapp.module.js
+https://unpkg.com/@leafer-ui/miniapp@1.0.2/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-ui/miniapp@1.0.1/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-ui/miniapp@1.0.2/dist/miniapp.module.min.js
 ```
 
 ## 环境
@@ -203,30 +219,13 @@ leafer.export('album.png').then(() => {
 })
 ```
 
-## 在其他平台中使用
+## 其他平台
 
-### 扩展平台
+### [在 uniapp 中使用](./uniapp.md)
 
-目前仅提供全局变量的绑定来适配不同平台，后续会开放更多的平台接口用于自定义适配。
+### [在 taro 中使用](./taro.md)
 
-```ts
-import { useCanvas } from '@leafer-ui/miniapp'
-
-useCanvas('canvas', wx) // 默认全局变量绑定微信小程序, 可绑定到其他平台， 内部常用的属性方法需同 wx 一致
-```
-
-### uniapp
-
-需注意 eventer 的页面实例取值，具体情况可查看 [#47](https://github.com/leaferjs/ui/issues/47)
-
-```ts
-const pages = getCurrentPages()
-
-leafer = new Leafer({
-  view: 'leafer',
-  eventer: pages[pages.length - 1], // 最后一个元素为当前页面实例
-})
-```
+使用前请在微信开发工具中勾选将 JS 转换为 ES5，否则会报错。
 
 如出现 module 未定义报错，需手动安装以下 3 个核心依赖包：
 
@@ -236,9 +235,15 @@ leafer = new Leafer({
 @leafer-ui/draw
 ```
 
-## 常见问题
+## 扩展平台
 
-目前有用户反馈新版的微信开发工具 import 会报错，可以先直接下载 CDN 的 js 文件使用。
+目前仅提供全局变量的绑定来适配不同平台，可 [覆盖 Platform 代码](https://github.com/leaferjs/leafer/blob/main/packages/platform/miniapp/src/index.ts) 自定义适配。
+
+```ts
+import { useCanvas } from '@leafer-ui/miniapp'
+
+useCanvas('canvas', wx) // 默认全局变量绑定微信小程序, 可绑定到其他平台， 内部常用的属性方法需同 wx 一致
+```
 
 ## 体验产品案例
 

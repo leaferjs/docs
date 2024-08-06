@@ -12,6 +12,66 @@ import Case from '/component/Case.vue'
 
 :::
 
+## 2024 / 08 / 06
+
+> v1.0.2
+
+#### 🌱 新增 🎉🎉🎉
+
+\- 🌸 增加 [block](/reference/config/app/type.md#block-类型) 应用类型， 可以像 HTML 的普通块状元素一样融入到浏览器页面中
+
+\- 🌸 图形编辑器 editSize 配置正式支持 [font-size](/plugin/in/editor/config.md#editsize-size-scale) 类型
+
+\- 🌸 微信小程序增加 [uniapp](/guide/install/ui/miniapp/start.md#其他平台) / [taro](/guide/install/ui/miniapp/start.md#其他平台) 示例代码，并提供了 [原生构建 npm 包](/guide/install/ui/miniapp/start.md#微信开发工具中使用-npm-包) 的问题解决方案
+
+\- [HTMLText](/plugin/in/html/) 支持 [文本编辑功能](/plugin/in/text-editor/)
+
+\- 没有宽高的自动布局元素支持 padding
+
+\- 增加 [touch](/reference/config/app/touch.md) 应用配置, 用于配置触摸屏事件
+
+\- [config.move.drag](/reference/config/app/move.md#move-drag-boolean-auto) 配置增加 'auto' 类型，整体拖拽平移页面时，仍保留元素交互属性
+
+\- Leafer 增加 [updateClientBounds()](/reference/display/Leafer.md#updateclientbounds) 方法， 用于手动更新应用的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)
+
+\- Leafer 增加 [getPagePointByClient()](/reference/display/Leafer.md#getpagepointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法用于转换浏览器 client 坐标到应用中
+
+\- 元素增加 [moveInner()](/reference/property/transform.md#moveinner-x-number-ipointdata-y-0) 方法，可在内部坐标系中移动元素
+
+\- [Canvas](/reference/display/Canvas.md#json) 元素支持导出 [JSON](/reference/property/json.md) 数据
+
+\- 导出图片增加 [size](/reference/property/export.md#export) 导出选项，用于限制导出宽高
+
+\- [script 标签引入](/guide/install/ui/start.md#通过-script-标签引入) 添加别名 [MyImage](/reference/display/Image.md) / [MyPointerEvent](/reference/event/ui/Pointer.md) / [MyDragEvent](/reference/event/ui/Drag.md)，防止命名冲突
+
+#### 🌿 优化
+
+\- 🌸 [Pen](/reference/display/Pen.md) 元素绘制路径，不再需要手动 paint()， 会自动处理
+
+\- canvas 默认 [pixelRatio](/reference/display/Canvas.md#pixelratio-number) 改为 1， 同 Image 一致，可自行修改 [#175](https://github.com/leaferjs/ui/issues/175)
+
+\- 优化图形编辑器的 [lockRatio](/plugin/in/editor/config.md#lockratio-boolean-corner) 体验（拉伸四条边时不跟手）
+
+#### 🪲 修复
+
+\- 🌸 flow 插件在 Node 环境中引入报错的问题
+
+\- 🌸 App 单画布模式下使用文本编辑插件的问题
+
+\- 两个 App 的交互配置会相互影响的问题
+
+\- 文本元素行高为 0 无法选中的问题
+
+\- Box 添加圆角后，隐藏超出部分的功能偶尔不起作用
+
+#### 🪴 作品分享
+
+[ShotEasy 在线截图美化工具](https://github.com/CH563/image-beautifier) @陈立文
+
+#### 🌷 感谢反馈
+
+[@kooriookami](https://github.com/kooriookami) [@rojer95](https://github.com/rojer95) [@3400442579](https://github.com/3400442579) [@826327700](https://github.com/826327700) [@AndersenWatson](https://github.com/AndersenWatson) [@wangxiaogang94](https://github.com/wangxiaogang94) [@zzzz-bang](https://github.com/zzzz-bang) [@canbaoSama](https://github.com/canbaoSama) [@Arc-zlz](https://github.com/Arc-zlz) [@howsweetiam](https://github.com/howsweetiam) [@QmagicianEX](https://github.com/QmagicianEX) @BO @风之影 @毛豆花生 @一灯 @小丑的尾巴不见了 @happy @\_Jing
+
 ## 2024 / 07 / 20
 
 > v1.0.1 (新功能尝鲜)
@@ -496,7 +556,7 @@ Picker.findList 改为 LeafList 类型
 
 \- 🌸 SVG / PNG 透明图片支持像素拾取 [hitFill = 'pixel'](/reference/property/hit.md#hitfill-ihittype)
 
-\- 🌸 Leafer 增加 [document](/reference/config/app/type.md#文档场景) 窗口类型，用于适配文档、网页类型的应用，需安装滚动条插件
+\- 🌸 Leafer 增加 [document](/reference/config/app/type.md#document-类型) 窗口类型，用于适配文档、网页类型的应用，需安装滚动条插件
 
 \- Leafer 增加 [config.move.scroll](/reference/config/app/move.md#move-scroll-boolean-limit) 配置，限制横向或竖向滚动、有内容的区域滚动
 

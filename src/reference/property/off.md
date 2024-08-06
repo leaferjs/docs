@@ -22,14 +22,23 @@
 
 ### 移除单个事件
 
+::: code-group
 <<< @/code/event/off/one.ts
+<<< @/code/event/off/one.js
+:::
 
 ### 移除多个事件
 
 数组形式:
 
+::: code-group
 <<< @/code/event/off/constMore.ts
+<<< @/code/event/off/constMore.js
+:::
 
 字符串形式:
 
+::: code-group
 <<< @/code/event/off/more.ts
+<<< @/code/event/off/more.js
+:::

@@ -4,19 +4,21 @@ import Case from '/component/Case.vue'
 
 # 编辑器配置
 
-编辑器的全局配置，另元素有 [独立编辑配置](/reference/property/editable.md#editconfig-ieditorconfig) 属性。
+编辑器的全局配置，另元素有 [单独的编辑配置](/reference/property/editable.md#editconfig-ieditorconfig) 属性。
 
 ## 关键属性
 
-### editSize: `'size'` | `'scale'`
+### editSize: `'size'` | `'scale'` | `'font-size'`
 
-调整尺寸大小的方式，默认为 size。
+全局调整尺寸大小的方式，默认为 size。
 
 size： 修改元素的 **宽高、路径** 达到调整大小的目的。
 
 font-size： 修改文本的 **fontSize** 达到调整大小的目的。
 
 scale： 修改元素的 **缩放属性** 达到调整大小的目的。
+
+不同元素可 [单独设置 editSize ](/reference/property/editable.md#editconfig-ieditorconfig) 。
 
 ### 事件
 

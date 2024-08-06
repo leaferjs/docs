@@ -22,4 +22,7 @@ ZoomEvent.END = 'zoom.end'
 
 全局修改事件名称常量对应的字符串名称， 一般用于兼容你已有的业务代码，目前只支持修改继承了 UIEvent 的事件。
 
+::: code-group
 <<< @/code/event/changeName.ts
+<<< @/code/event/changeName.js
+:::

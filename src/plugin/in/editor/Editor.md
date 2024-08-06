@@ -366,7 +366,10 @@ app.editor.skewOf('center', skewX - element.skewX)
 
 ### 监听选择事件
 
+::: code-group
 <<< @/code/plugin/editor/event/select.ts
+<<< @/code/plugin/editor/event/select.js
+:::
 
 ### 手动旋转元素
 
@@ -374,4 +377,7 @@ app.editor.skewOf('center', skewX - element.skewX)
 
 ### 创建图形模式
 
+::: code-group
 <<< @/code/plugin/editor/create-mode.ts
+<<< @/code/plugin/editor/create-mode.js
+:::

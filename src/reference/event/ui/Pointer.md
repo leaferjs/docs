@@ -2,9 +2,15 @@
 
 鼠标、手写笔、触摸屏点击事件，支持 [右键菜单](#右键菜单-1) 事件。
 
+[ script 标签引入](/guide/install/ui/start.md#通过-script-标签引入) 需用别名 **MyPointerEvent** 代替。
+
+:::tip
+
 当原生 PointerEvent 事件不存在时，使用其他原生事件替代的优先级:
 
 PointerEvent > TouchEvent > MouseEvent
+
+:::
 
 ## 新特性
 

@@ -30,20 +30,20 @@ bun add @leafer-in/scroll
 
 :::
 
-## 浏览器引入
+## 通过 script 标签引入
 
 通过全局变量 LeaferIN.scroll 访问插件内部功能。
 ::: code-group
 
 ```html [scroll.min]
-<script src="https://unpkg.com/@leafer-in/scroll@1.0.1/dist/scroll.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroll@1.0.2/dist/scroll.min.js"></script>
 <script>
   const { ScrollBar } = LeaferIN.scroll
 </script>
 ```
 
 ```html [scroll]
-<script src="https://unpkg.com/@leafer-in/scroll@1.0.1/dist/scroll.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroll@1.0.2/dist/scroll.js"></script>
 <script>
   const { ScrollBar } = LeaferIN.scroll
 </script>

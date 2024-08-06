@@ -22,7 +22,10 @@ interface IExportOptions {
   blob?: boolean // 导出二进制数据
 
   fill?: string // 设置一个默认背景填充色
-  scale?: number // 缩放比例，默认为1，可用于生成小尺寸的缩略图
+
+  scale?: number | IPointData // 缩放比例，默认为1，可用于生成小尺寸的缩略图
+  size?: number | ISizeData // 导出宽高（拉伸）， 自动换算出缩放比例 scale
+
   pixelRatio?: number // 像素比，默认为1倍图，可导出适配高清屏的2倍图、3倍图...
   smooth?: boolean // 设置画布的平滑绘制属性，默认同当前leafer画布
   contextSettings?: ICanvasRenderingContext2DSettings // 原生画布的 context 设置, 默认同当前leafer画布
@@ -35,6 +38,11 @@ interface IExportOptions {
 
   relative?: ILocationType | IUI // 相对坐标系 或父元素 的缩放比例导出，默认Leafer为 inner, 其他元素为 local，可以单独设置: inner |  local | world
   onCanvas?: IExportOnCanvasFunction // onCanvas(canvas => { }) 用于叠加绘制自定义内容
+}
+
+interface ISizeData {
+  width: number
+  height: number
 }
 
 interface IJSONOptions {

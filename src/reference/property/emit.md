@@ -22,4 +22,7 @@
 
 ### 模拟派发交互事件
 
+::: code-group
 <<< @/code/event/emit/ui.ts
+<<< @/code/event/emit/ui.js
+:::

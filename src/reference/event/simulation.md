@@ -56,4 +56,7 @@
 
 ### 模拟旋转
 
+::: code-group
 <<< @/code/interaction/rotate.ts
+<<< @/code/interaction/rotate.js
+:::

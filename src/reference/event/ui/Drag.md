@@ -2,6 +2,8 @@
 
 拖动事件。
 
+[ script 标签引入](/guide/install/ui/start.md#通过-script-标签引入) 需用别名 **MyDragEvent** 代替。
+
 ## 事件名称
 
 ### DragEvent.START
@@ -132,7 +134,10 @@ totalX, totalY 属性的坐标转换。
 
 默认 [drggable](/reference/property/draggable.md) 为 true 或 [DragEvent.setList()](./Drag.md#静态方法) 的元素会自动拖拽。
 
+::: code-group
 <<< @/code/event-ui/drag/simple.ts
+<<< @/code/event-ui/drag/simple.js
+:::
 
 ### 检查元素是否正在被拖拽
 
@@ -144,4 +149,7 @@ leafer.interaction.isDrag(leaf)
 
 按下鼠标拖动开始画线， 可以缩放平移画面
 
+::: code-group
 <<< @/code/display/Pen/draw.ts
+<<< @/code/display/Pen/draw.js
+:::

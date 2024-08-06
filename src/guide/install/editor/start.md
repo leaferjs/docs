@@ -30,12 +30,12 @@ bun add leafer-editor
 
 :::
 
-## 浏览器引入
+## 通过 script 标签引入
 
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-editor@1.0.1/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-editor@1.0.2/dist/web.min.js"></script>
 <script>
   const { Leafer, Editor, Arrow } = LeaferUI
   // ...
@@ -43,7 +43,7 @@ bun add leafer-editor
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-editor@1.0.1/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-editor@1.0.2/dist/web.js"></script>
 <script>
   const { Leafer, Editor, Arrow } = LeaferUI
   // ...
@@ -56,7 +56,7 @@ bun add leafer-editor
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-editor@1.0.1/dist/web.module.min.js'
+  } from 'https://unpkg.com/leafer-editor@1.0.2/dist/web.module.min.js'
   // ...
 </script>
 ```
@@ -67,7 +67,7 @@ bun add leafer-editor
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-editor@1.0.1/dist/web.module.js'
+  } from 'https://unpkg.com/leafer-editor@1.0.2/dist/web.module.js'
   // ...
 </script>
 ```

@@ -34,4 +34,7 @@
 
 ## 示例
 
+::: code-group
 <<< @/code/event/leafer/watch.ts
+<<< @/code/event/leafer/watch.js
+:::

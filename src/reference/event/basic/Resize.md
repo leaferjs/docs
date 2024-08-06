@@ -38,4 +38,7 @@ Resize 事件。
 
 ## 示例
 
+::: code-group
 <<< @/code/event/leafer/resize.ts
+<<< @/code/event/leafer/resize.js
+:::

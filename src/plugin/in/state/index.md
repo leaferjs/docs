@@ -34,17 +34,17 @@ bun add @leafer-in/state
 
 :::
 
-## 浏览器引入
+## 通过 script 标签引入
 
 通过全局变量 LeaferIN.state 访问插件内部功能。
 ::: code-group
 
 ```html [state.min]
-<script src="https://unpkg.com/@leafer-in/state@1.0.1/dist/state.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/state@1.0.2/dist/state.min.js"></script>
 ```
 
 ```html [state]
-<script src="https://unpkg.com/@leafer-in/state@1.0.1/dist/state.js"></script>
+<script src="https://unpkg.com/@leafer-in/state@1.0.2/dist/state.js"></script>
 ```
 
 https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm

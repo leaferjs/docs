@@ -54,18 +54,30 @@ new Rect({
 
 ### 监听单个事件
 
+::: code-group
 <<< @/code/event/on/one.ts
+<<< @/code/event/on/one.js
+:::
 
 ### 监听多个事件
 
 数组形式:
 
+::: code-group
 <<< @/code/event/on/constMore.ts
+<<< @/code/event/on/constMore.js
+:::
 
 字符串形式:
 
+::: code-group
 <<< @/code/event/on/more.ts
+<<< @/code/event/on/more.js
+:::
 
 ### 只监听一次事件
 
+::: code-group
 <<< @/code/event/on/once.ts
+<<< @/code/event/on/once.js
+:::

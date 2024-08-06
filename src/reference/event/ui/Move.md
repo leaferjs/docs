@@ -67,4 +67,7 @@ moveX, moveY 属性的坐标转换。
 
 ## 示例
 
+::: code-group
 <<< @/code/event-ui/move/simple.ts
+<<< @/code/event-ui/move/simple.js
+:::

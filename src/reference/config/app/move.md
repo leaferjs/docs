@@ -18,9 +18,13 @@
 
 一般用于适配 [document](#type-string)、手机端上下滑动页面
 
-### move.drag: `boolean`
+### move.drag: `boolean` | `'auto'`
 
-拖拽时是否平移视图（将无法选取任何元素，一般用于预览模式），默认为 false。
+拖拽时是否平移视图，默认为 false。
+
+设置 true, 元素的交互功能将停用，所有地方拖拽将平移视图，一般用于预览模式。
+
+设置 'auto'，元素的交互功能仍保留，draggable / editable 元素仍可以单独拖拽，其他地方拖拽将平移视图。
 
 ### move.dragAnimate: `boolean`
 

@@ -2,8 +2,6 @@
 
 导入导出 JSON 对象 / 字符串。
 
-App、Canvas 组件暂不支持，后续会支持。
-
 ## 导出
 
 ### toJSON ( options?: `IJSONOptions` ): [`IUIInputData`](/api/interfaces/IUIInputData.md)

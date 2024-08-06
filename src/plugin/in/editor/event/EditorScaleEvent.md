@@ -1,6 +1,6 @@
 # EditorScaleEvent
 
-缩放大小事件。
+缩放大小（resize 元素）事件。
 
 ## 事件属性
 

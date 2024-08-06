@@ -36,20 +36,20 @@ bun add @leafer-in/arrow
 
 :::
 
-## 浏览器引入
+## 通过 script 标签引入
 
 通过全局变量 LeaferIN.arrow 访问插件内部功能。
 ::: code-group
 
 ```html [arrow.min]
-<script src="https://unpkg.com/@leafer-in/arrow@1.0.1/dist/arrow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.0.2/dist/arrow.min.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
 ```
 
 ```html [arrow]
-<script src="https://unpkg.com/@leafer-in/arrow@1.0.1/dist/arrow.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.0.2/dist/arrow.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>

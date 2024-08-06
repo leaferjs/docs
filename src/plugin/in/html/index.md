@@ -36,20 +36,20 @@ bun add @leafer-in/html
 
 :::
 
-## 浏览器引入
+## 通过 script 标签引入
 
 通过全局变量 LeaferIN.html 访问插件内部功能。
 ::: code-group
 
 ```html [html.min]
-<script src="https://unpkg.com/@leafer-in/html@1.0.1/dist/html.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/html@1.0.2/dist/html.min.js"></script>
 <script>
   const { HTMLText } = LeaferIN.html
 </script>
 ```
 
 ```html [html]
-<script src="https://unpkg.com/@leafer-in/html@1.0.1/dist/html.js"></script>
+<script src="https://unpkg.com/@leafer-in/html@1.0.2/dist/html.js"></script>
 <script>
   const { HTMLText } = LeaferIN.html
 </script>

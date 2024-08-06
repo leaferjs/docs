@@ -30,17 +30,17 @@ bun add @leafer-in/resize
 
 :::
 
-## 浏览器引入
+## 通过 script 标签引入
 
 通过全局变量 LeaferIN.resize 访问插件内部功能。
 ::: code-group
 
 ```html [resize.min]
-<script src="https://unpkg.com/@leafer-in/resize@1.0.1/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.0.2/dist/resize.min.js"></script>
 ```
 
 ```html [resize]
-<script src="https://unpkg.com/@leafer-in/resize@1.0.1/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.0.2/dist/resize.js"></script>
 ```
 
 https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm

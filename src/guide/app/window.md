@@ -20,9 +20,9 @@
 
 ## 更多示例
 
-### [取消窗口功能](/reference/config/app/type.md#绘图场景)
+### [取消窗口功能](/reference/config/app/type.md#draw-类型)
 
-### [自定义窗口功能](/reference/config/app/type.md#自定义场景)
+### [自定义窗口功能](/reference/config/app/type.md#custom-类型)
 
 ### [鼠标滚动直接缩放视图](/reference/config/app/wheel.md#鼠标滚动直接缩放视图)
 
