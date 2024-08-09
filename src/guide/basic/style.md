@@ -14,7 +14,9 @@ import Case from '/component/Case.vue'
 
 ## 修改样式
 
-元素只能检测到第一层级属性的变化，如：修改 rect.fill.url = url 是不会渲染更新的。
+::: tip 注意事项
+元素只能检测到 **第一层级属性** 的变化，如：修改 rect.fill.url = url 是不会渲染更新的。
+:::
 
 <<< @/code/basic/style/border.ts#change
 

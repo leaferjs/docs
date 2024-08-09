@@ -6,7 +6,9 @@ import Case from '/component/Case.vue'
 
 图形编辑器是一个有意思的例子，它采用了 App 结构，可以点击操作下面的图形看看。
 
-需安装 [图形编辑器插件](/plugin/in/editor/)。
+::: tip 注意事项
+需安装 [图形编辑器插件](/plugin/in/editor/) 才能使用。
+:::
 
 <case name="Editor" index=2 count=2 x=20></case>
 
