@@ -1,8 +1,30 @@
-# 体验环境
+# Playground 环境
 
-我们提供了一个 [体验环境](https://github.com/leaferjs/LeaferJS.git)，方便大家体验官网示例、阅读源代码。
+我们目前提供了两种 Playground 环境可供你选择。
 
-## 安装
+## Cloud Studio
+
+可在线运行官网示例代码的 Playground 环境。
+
+::: tip
+通过 Cloud Studio 还可分享你的代码片段、demo 案例、小游戏，可直接拉取你的 GitHub 代码运行。
+:::
+
+### 使用步骤
+
+第一步：[前往 Cloud Studio 的 LeaferJS 模版页](https://cloudstudio.net/?templateId=10064)。
+
+第二步：微信扫码登录，基于模版 LeaferJS 创建 属于你自己的 Playground 环境。
+
+![使用](/image/playground/cloud-studio.png)
+
+第三步：复制官网示例代码到 index.ts 中，点击运行按钮，可实时查看效果。
+
+## 本地环境
+
+可在本地运行的 Playground 环境， 需拉取 GitHub 源码，并能阅读到 LeaferJS 的源码。
+
+### 安装
 
 ::: code-group
 
@@ -26,6 +48,6 @@ git pull --recurse-submodules
 
 安装启动完成后，可在浏览器中访问：`localhost:10101`
 
-## 运行示例
+### 运行示例
 
 复制官网示例代码到 index.ts 中，可以实时查看运行效果。
