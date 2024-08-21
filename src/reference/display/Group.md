@@ -1,6 +1,6 @@
 # Group
 
-创建 Group。用于将元素进行打组，自身没有样式，可以不断嵌套。
+创建 Group。用于组合多个子元素，自身没有样式，可以不断嵌套。
 
 实际宽高随子元素变化，不能设置，可以通过 [bounds](/reference/property/bounds.md) 获取实际宽高信息。
 

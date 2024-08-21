@@ -30,7 +30,7 @@ bun add leafer-ui
 
 :::
 
-同时我们提供了一个 [体验环境](/guide/runtime.md) ，方便大家直接体验官网示例、阅读源代码。
+同时我们提供了 [Playground 环境](/guide/runtime.md) ，方便大家直接体验官网示例、阅读源代码。
 
 ## 通过 script 标签引入
 
@@ -99,9 +99,9 @@ Opera &gt;= 36
 IE 不支持
 :::
 
-## 体验环境
+## Playground 环境
 
-### 想直接运行官网示例代码，可以 [安装体验环境](/guide/runtime.md) 。
+### 想直接运行官网示例代码，可以使用 [Playground 环境](/guide/runtime.md) 。
 
 ## 开始体验
 
