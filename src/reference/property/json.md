@@ -2,6 +2,14 @@
 
 导入导出 JSON 对象 / 字符串。
 
+:::tip 注意
+
+App 元素 暂不支持直接导入导出。
+
+可以导出 `app.tree` 为 json， 再通过 `app.tree.set( {children: json.children })` 导入。
+
+:::
+
 ## 导出
 
 ### toJSON ( options?: `IJSONOptions` ): [`IUIInputData`](/api/interfaces/IUIInputData.md)
