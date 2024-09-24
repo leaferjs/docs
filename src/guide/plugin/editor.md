@@ -22,4 +22,4 @@ import Case from '/component/Case.vue'
 
 ## 下一步
 
-### [Flow 自动布局](/guide/plugin/flow)
+### [自动布局](/guide/plugin/flow)

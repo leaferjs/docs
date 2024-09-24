@@ -12,11 +12,11 @@
 
 编辑框的默认视图，用于放置默认编辑工具的控制点和操作元素。
 
-### rect：[`Box`](/reference/display/UI.md)
+### rect：[`Box`](/reference/display/Box.md)
 
 编辑框移动区域元素。
 
-### circle：[`Box`](/reference/display/UI.md)
+### circle：[`Box`](/reference/display/Box.md)
 
 编辑框的独立旋转点元素。
 

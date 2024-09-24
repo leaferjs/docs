@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Flow 自动布局
+# 自动布局
 
 类似 Flex 的自动布局，更简单、直观，可以快速自动排版内容。
 

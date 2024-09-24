@@ -12,6 +12,74 @@ import Case from '/component/Case.vue'
 
 :::
 
+## 2024 / 09 / 20
+
+> v1.0.3
+
+### [【文章】LeaferJS 发布全新动画、状态、过渡、游戏功能](/blog/2024-09-20.md)
+
+<br/>
+
+#### 🌱 新增 🎉🎉🎉
+
+\- 🌸 [animate 动画插件](/plugin/in/animate/index.md) 上线 🎉🎉🎉
+
+\- 🌸 [robot 游戏插件](/plugin/in/robot/index.md) 上线 🎉🎉🎉
+
+\- 元素增加 [animation](/reference/property/animation.md) 动画属性、[transition](/reference/property/transition.md) 过渡属性、[animate() ](/reference/property/animate.md) 动画方法
+
+\- 元素增加 [state](/reference/property/state/state) 状态属性，可预设复杂多样的状态
+
+\- [Box](/reference/display/Box.md) / [Group ](/reference/display/Group.md)可通过设置 [button](/reference/property/state/state.md#button-boolean) 属性，使子元素自动同步交互状态。
+
+\- 增加 box 坐标系 [getBoxPoint()](/reference/property/point/index.md#box-坐标) / [getBoxPointByInner](/reference/property/point/index.md#box-坐标) / [getInnerPointByBox()](/reference/property/point/index.md#内部坐标) / [getWorldPointByBox()](/reference/property/point/index.md#box-坐标)， UIEvent 增加 [getBoxPoint](/reference/event/ui/UIEvent.md#坐标转换方法) 方法
+
+\- 元素增加 [created](/reference/event/basic/Child.md#仅派发给元素自身的事件) / [mounted](/reference/event/basic/Child.md#仅派发给元素自身的事件) / [unmounted](/reference/event/basic/Child.md#仅派发给元素自身的事件) 事件，可通过 event 初始化对象监听
+
+\- clone() 方法增加 [data](/reference/property/data.md#clone-data-iuiinputdata) 参数覆盖旧数据
+
+#### 🌿 优化
+
+\- UIEvent 的 getPage() / getInner() / getLocal() 方法改为 [getPagePoint()](/reference/event/ui/UIEvent.md#坐标转换方法) / [getInnerPoint()](/reference/event/ui/UIEvent.md#坐标转换方法) / [getLocalPoint()](/reference/event/ui/UIEvent.md#坐标转换方法)，仍兼容之前
+
+\- [ChildEvent.DESTROY](/reference/event/basic/Child.md#仅派发给元素自身的事件) 事件的字符名称由 `child.destroy` 改为 `destroy`
+
+#### 🪲 修复
+
+\- 自动宽高的 flow 元素 padding 计算方式不对的问题
+
+\- 浏览器放大后，svg 的图片不会重新渲染，其他元素是清晰的
+
+\- boxBounds 不是以 0,0 开始的元素/组编辑问题
+
+\- menu_tap 在 windows 上的问题
+
+\- 样式重置后 旧的图形还在，但是如果有个拖拽元素经过时 重叠部分就会被擦除
+
+#### 产品/游戏分享
+
+[Minesweeper](https://github.com/yh4922/leaferjs-minesweeper) <badge>扫雷小游戏</badge> @杨 🐑🐑
+
+[Lazyva 懒画](https://canvas.lazykit.cn) <badge>在线设计工具（支持移动端）</badge> @ozar
+
+[简单设计](https://jiandan.link) <badge>免费在线设计、图片处理工具</badge> @Ove🚀
+
+[FlyCut](https://github.com/x007xyz/fly-cut) <badge>在线视频剪辑工具</badge> @x007xyz
+
+#### 代码片段分享
+
+[网格吸附功能](https://cloudstudio.net/a/21005323573952512?channel=share&sharetype=URL) @Curapica
+
+[撤销回退功能](https://cloudstudio.net/a/21176161805070336?channel=share&sharetype=URL) @(இωஇ)
+
+[Line 编辑时按住 shift 正交锁定功能](https://cloudstudio.net/a/20803058263158784?channel=share&sharetype=URL) @(இωஇ)
+
+[标尺代码示例](https://cloudstudio.net/a/21175727747055616?channel=share&sharetype=URL) @(இωஇ)
+
+#### 🌷 感谢反馈
+
+[@kooriookami](https://github.com/kooriookami) [@Formulaaa](https://github.com/Formulaaa) @xiaou @黄某人 @伊雪冰尘 @BO @岁月 @Curapica @周明 @风之影 @778899 @洋葱
+
 ## 2024 / 08 / 06
 
 > v1.0.2
@@ -814,7 +882,7 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 \- 支持组透明效果（同 HTML、Figma、Sketch 一致）
 
-\- 🌸 增加 [page 坐标系](/guide/basic/coordinate.md) 及转换方法 [getPagePoint()](/reference/property/point/) / [getPage()](/reference/event/ui/UIEvent.md#getpage-ipointdata) / [getPageMove()](/reference/event/ui/Drag.md#getpagemove-ipointdata)
+\- 🌸 增加 [page 坐标系](/guide/basic/coordinate.md) 及转换方法 [getPagePoint()](/reference/property/point/) / [getPage()](/reference/event/ui/UIEvent.md#getpagepoint-ipointdata) / [getPageMove()](/reference/event/ui/Drag.md#getpagemove-ipointdata)
 
 \- 🌸 遮罩增加 [maskType](/reference/property/mask.md#masktype-imasktype)，可支持路径遮罩、PS 剪贴蒙版效果
 

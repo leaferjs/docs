@@ -20,11 +20,17 @@
 
 判断坐标的类型，只需看坐标的起点是相对谁，就是哪一个坐标系。
 
+### box
+
+**包围盒坐标:** 元素包围盒 [boxBounds](/reference/property/bounds.md#boxbounds-iboundsdata) 内的坐标
+
+以元素实际内容的左上角为起点（0，0），一般情况下和 inner 坐标一样，当元素内容的起点不是从 inner 坐标（0，0）开始时会有差异，如路径 Path 经常不是从 0,0 开始绘制的。
+
 ### inner
 
 **内部坐标系:** 元素内的坐标
 
-以元素自身为起点（0，0）， 如元素的 width、 height、路径（Line、Path 等）中的坐标点，可以把元素想象成一个房间，房间内不受元素的 x、y、scaleX、scaleY、rotation 影响。
+以元素的 x,y 位置为起点（0，0）， 如元素的 width、 height、路径（Line、Path 等）中的坐标点，可以把元素想象成一个房间，房间内不受元素的 x、y、scaleX、scaleY、rotation 影响。
 
 ```ts
 const rect = new Rect({

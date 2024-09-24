@@ -4,7 +4,7 @@ Child 事件。
 
 [`leafer.ready`](./Leafer.md) 事件之后才会派发此事件，想在 ready 前 [执行相关事件](/reference/property/layer.md#waitparent)？
 
-事件派发的顺序为：子元素、父元素、Leafer 实例，[渲染生命周期](/guide/life/render.md) 中会监听此事件。
+添加 / 移除事件的派发顺序为：子元素、父元素、Leafer 实例，[渲染生命周期](/guide/life/render.md) 中会监听此事件。
 
 ## 事件名称
 
@@ -20,11 +20,31 @@ Child 事件。
 
 `child.remove`
 
+### 仅派发给元素自身的事件
+
+### ChildEvent.CREATED
+
+创建元素。
+
+`created`
+
+### ChildEvent.MOUNTED
+
+挂载元素到 Leafer 上。
+
+`mounted`
+
+### ChildEvent.UNMOUNTED
+
+从 Leafer 上卸载元素。
+
+`unmounted`
+
 ### ChildEvent.DESTROY
 
-销毁元素 （仅派发给元素自身）。
+销毁元素。
 
-`child.destroy`
+`destroy`
 
 ## 关键属性
 

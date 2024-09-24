@@ -1,5 +1,7 @@
 # 我们的博客
 
+### [LeaferJS 发布全新动画、状态、过渡、游戏功能](/blog/2024-09-20.md)
+
 ### [LeaferJS × Cloud Studio：好用的 Playground 环境](/blog/2024-08-20.md)
 
 ### [LeaferJS 1.0 重磅发布：好用的 Canvas 渲染引擎](/blog/2024-07-09.md)

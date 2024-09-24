@@ -42,14 +42,14 @@ bun add @leafer-in/editor
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.0.2/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.0.3/dist/editor.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.0.2/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.0.3/dist/editor.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>

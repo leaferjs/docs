@@ -30,6 +30,10 @@
 
 ## Demo
 
+[Minesweeper](https://github.com/yh4922/leaferjs-minesweeper) <badge>扫雷小游戏</badge> @杨 🐑🐑
+
+[FlyCut](https://github.com/x007xyz/fly-cut) <badge>在线视频剪辑工具</badge> @x007xyz
+
 [ShotEasy](https://github.com/CH563/image-beautifier) <badge>在线截图美化工具</badge> @陈立文
 
 [超级玛丽游戏](https://github.com/hhzzcc/super-mario) <badge>支持编辑制作地图</badge> @hhzzcc
@@ -52,6 +56,10 @@
 
 ## 产品
 
+[Lazyva 懒画](https://canvas.lazykit.cn) <badge>在线设计工具（支持移动端）</badge> @ozar
+
+[简单设计](https://jiandan.link) <badge>免费在线设计、图片处理工具</badge> @Ove🚀
+
 [珠串设计](https://leaferjs.com/ui/guide/install/ui/miniapp/start.html#%E4%BD%93%E9%AA%8C%E4%BA%A7%E5%93%81%E6%A1%88%E4%BE%8B) <badge>微信小程序 DIY 精美珠串</badge> @&荷@逸…
 
 [image-editor-core](https://www.npmjs.com/package/image-editor-core)<badge>开源图片设计工具 SDK</badge> @馒头
@@ -73,6 +81,16 @@
 [yugioh-card](https://github.com/kooriookami/yugioh-card) <badge>游戏王卡片渲染工具</badge> @kooriookami
 
 [Leafer Drawing Board](https://alexpang.cn/)<badge>在线简易画板</badge> @子洋
+
+## 代码片段
+
+[网格吸附功能](https://cloudstudio.net/a/21005323573952512?channel=share&sharetype=URL) @Curapica
+
+[撤销回退功能](https://cloudstudio.net/a/21176161805070336?channel=share&sharetype=URL) @(இωஇ)
+
+[Line 编辑时按住 shift 正交锁定功能](https://cloudstudio.net/a/20803058263158784?channel=share&sharetype=URL) @(இωஇ)
+
+[标尺代码示例](https://cloudstudio.net/a/21175727747055616?channel=share&sharetype=URL) @(இωஇ)
 
 ## 增强功能
 

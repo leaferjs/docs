@@ -44,9 +44,9 @@
 
 获取计算属性值，只返回计算数据（含默认值）。
 
-### clone ( ):[`UI`](/reference/display/UI.md)
+### clone ( data?: [`IUIInputData`](/api/interfaces/IUIInputData.md))
 
-克隆当前元素。
+克隆当前元素，可以增加 data 参数覆盖旧数据。
 
 ## 数据分层结构
 

@@ -4,23 +4,18 @@ import Case from '/component/Case.vue'
 
 # 交互状态
 
-可以像 CSS 一样为元素增加 [hover](/reference/property/state/hover) 、 [press](/reference/property/state/press) 、 [focus](/reference/property/state/focus) 、 [selected](/reference/property/state/selected) 、 [disabled](/reference/property/state/disabled) 交互状态样式
+可以像 CSS 一样为元素增加 [hover](/reference/property/state/hover) 、 [press](/reference/property/state/press) 、 [focus](/reference/property/state/focus) 、 [selected](/reference/property/state/selected) 、 [disabled](/reference/property/state/disabled) 交互状态样式。
 
+支持添加 [过渡效果](/reference/property/transition.md)，还可自定义复杂多样的元素、游戏状态 [state](/reference/property/state/state) 用于随时切换。
 ::: tip 注意事项
 需安装 [交互状态插件](/plugin/in/state/) 才能使用。
 
 :::
 
-<case name="PressStyle" index=1 editor="false" ></case>
+<case name="Transition" editor=false></case>
 
-按钮交互效果
-
-<<< @/code/property/state/buttonStyle.ts
-
-## 恭喜 🎉
-
-你已完成进阶知识的学习，接下来将带你了解几个重要的入门概念，就算完成入门的学习了。
+<<< @/code/property/transition/button.ts
 
 ## 下一步
 
-### [坐标体系](/guide/basic/coordinate)
+### [动画功能](/guide/plugin/animate)

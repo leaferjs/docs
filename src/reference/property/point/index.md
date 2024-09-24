@@ -17,6 +17,16 @@
 
 获取世界坐标（传入一个 [page 坐标](/guide/basic/coordinate.md#page) 转换）。
 
+### box 坐标
+
+### getBoxPoint ( worldPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata) ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+
+获取 box 坐标（传入一个 [世界坐标](/guide/basic/coordinate.md#world) 转换）。
+
+### getBoxPointByInner ( innerPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata) ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+
+获取 box 坐标（传入一个 [内部坐标](/guide/basic/coordinate.md#inner) 转换）。
+
 ### 内部坐标
 
 ### getInnerPoint ( worldPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata) ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
@@ -26,6 +36,10 @@
 ### getInnerPointByLocal ( localPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata) ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取内部坐标（传入一个 [本地坐标](/guide/basic/coordinate.md#local) 转换）。
+
+### getInnerPointByBox ( boxPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata) ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+
+获取内部坐标（传入一个 [box 坐标](/guide/basic/coordinate.md#box) 转换）。
 
 ### 本地坐标
 
@@ -46,6 +60,10 @@
 ### getWorldPointByLocal ( localPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata) ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取世界坐标（传入 [本地坐标](/guide/basic/coordinate.md#local) 转换）。
+
+### getWorldPointByBox ( boxPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata) ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+
+获取世界坐标（传入 [box 坐标](/guide/basic/coordinate.md#box) 转换）。
 
 ## 可选参数
 

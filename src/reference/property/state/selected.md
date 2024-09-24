@@ -4,9 +4,13 @@ import Case from '/component/Case.vue'
 
 # selected
 
-选中状态，暂时不支持 Group。
+选中状态， 支持添加 [过渡效果](/reference/property/transition.md)。
 
-需安装 [交互状态 插件](/plugin/in/state/index.md) 才能使用。
+[Box](/reference/display/Box.md) / [Group ](/reference/display/Group.md)可通过设置 [button](/reference/property/state/state.md#button-boolean) 属性，使子元素自动同步交互状态。
+
+::: tip 注意事项
+需安装 [交互状态插件](/plugin/in/state/index.md) 才能使用。
+:::
 
 ## 关键属性
 
