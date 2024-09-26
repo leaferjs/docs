@@ -53,9 +53,9 @@ innerRadius: 0.5
 
 ### [UI](./UI.md)
 
-## API
+<!-- ## API
 
-### [Ellipse](/api/classes/Ellipse.md)
+### [Ellipse](/api/classes/Ellipse.md) -->
 
 ## 示例
 

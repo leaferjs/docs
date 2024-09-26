@@ -68,9 +68,10 @@ console.log(line.toPoint) // {x: 0, y: 100})  会根据 width 与 rotation 自�
 
 ### [UI](./UI.md)
 
+<!--
 ## API
 
-### [Line](/api/classes/Line.md)
+### [Line](/api/classes/Line.md) -->
 
 ## 示例
 

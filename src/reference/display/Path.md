@@ -48,9 +48,9 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 ### [UI](./UI.md)
 
-## API
+<!-- ## API
 
-### [Path](/api/classes/Path.md)
+### [Path](/api/classes/Path.md) -->
 
 ## 示例
 

@@ -36,9 +36,10 @@ import Case from '/component/Case.vue'
 
 ### [Group](./Group.md)
 
+<!--
 ## API
 
-### [Pen](/api/classes/Pen.md)
+### [Pen](/api/classes/Pen.md) -->
 
 ## 示例
 

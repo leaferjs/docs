@@ -2,6 +2,8 @@
 
 我们提供了一种非常自由的插件开发方式，并支持跨平台 - [访问 GitHub 插件中心](https://github.com/leaferjs/LeaferX)。
 
+可以通过 [create-leafer 命令行工具](/create/leafer.md#快速创建-leaferx-插件模板) 快速创建插件。
+
 ##
 
 只需引入 `@leafer-ui/core`（跨平台核心包）、`@leafer-ui/interface`（接口） 作为外部依赖（不打包到插件中，只引用）即可进行自由开发，导出插件能力。
@@ -29,6 +31,8 @@ LeaferX.selector # 全局变量
 ## 快速上手
 
 为了帮助大家快速上手， 我们已经准备好了插件开发模版，涵盖了运行、测试、打包的功能。
+
+并提供了 [create-leafer 命令行工具](/create/leafer.md#快速创建-leaferx-插件模板)，用于快速创建插件，省去手动替换内容。
 
 ## 插件开发模版
 

@@ -126,6 +126,6 @@ Leafer 实例的子对象。
 
 ### [Leafer](./Leafer.md)
 
-## API
+<!-- ## API
 
-### [App](/api/classes/App.md)
+### [App](/api/classes/App.md) -->

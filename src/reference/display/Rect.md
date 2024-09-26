@@ -35,9 +35,9 @@ cornerRadius: 20 // all
 
 ### [UI](./UI.md)
 
-## API
+<!-- ## API
 
-### [Rect](/api/classes/Rect.md)
+### [Rect](/api/classes/Rect.md) -->
 
 ## 示例
 

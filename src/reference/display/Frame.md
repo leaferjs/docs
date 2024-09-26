@@ -34,9 +34,9 @@ type IOverflow = 'show' | 'hide'
 
 ### [Box](./Box.md)
 
-## API
+<!-- ## API
 
-### [Frame](/api/classes/Frame.md)
+### [Frame](/api/classes/Frame.md) -->
 
 ## 示例
 

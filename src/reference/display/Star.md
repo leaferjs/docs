@@ -44,9 +44,9 @@ innerRadius: 0.382
 
 ### [UI](./UI.md)
 
-## API
+<!-- ## API
 
-### [Star](/api/classes/Star.md)
+### [Star](/api/classes/Star.md) -->
 
 ## 示例
 

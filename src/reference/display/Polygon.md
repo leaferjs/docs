@@ -57,9 +57,9 @@ sides: 5
 
 ### [UI](./UI.md)
 
-## API
+<!-- ## API
 
-### [Polygon](/api/classes/Polygon.md)
+### [Polygon](/api/classes/Polygon.md) -->
 
 ## 示例
 

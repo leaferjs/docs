@@ -88,9 +88,9 @@ import Case from '/component/Case.vue'
 
 ### [Rect](./Rect.md)
 
-## API
+<!-- ## API
 
-### [Image](/api/classes/Image.md)
+### [Image](/api/classes/Image.md) -->
 
 ## 示例
 

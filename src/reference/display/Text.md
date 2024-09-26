@@ -180,9 +180,9 @@ padding: 20 // all
 
 ### [UI](./UI.md)
 
-## API
+<!-- ## API
 
-### [Text](/api/classes/Text.md)
+### [Text](/api/classes/Text.md) -->
 
 ## 示例
 

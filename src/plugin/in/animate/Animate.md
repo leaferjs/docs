@@ -116,12 +116,12 @@ interface IStepsEasing {
 
 ### ending: [`IAnimateEnding`](/api/modules.md#ianimateending)
 
-动画结束时的样式，默认为 'normal'。
+动画结束时的样式，默认为 'auto'。
 
 from 表示起点样式，to 表示终点样式。
 
 ```ts
-type IAnimateEnding = 'normal' | 'from' | 'to'
+type IAnimateEnding = 'auto' | 'from' | 'to'
 ```
 
 ### reverse?: boolean

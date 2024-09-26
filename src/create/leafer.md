@@ -1,6 +1,8 @@
 # create-leafer
 
-**create-leafer**是一个命令行工具，旨在帮助你快速创建 Leafer 项目。确保你安装了[Node.js](https://nodejs.org/)
+**create-leafer**是一个命令行工具，旨在帮助你快速创建 Leafer 项目。确保你安装了[Node.js](https://nodejs.org/)。
+
+感谢 LeaferJS 社区成员 [@214L](https://github.com/214L) 为此付出时间，提供开发、维护工作 👍👍👍
 
 :::tip 注意事项
 
@@ -56,6 +58,7 @@ npm create leafer@latest add
 ```sh
 npm create leafer@latest update
 ```
+
 <div class="language-sh" style="background-color: #252525;"><pre><code>
     <span style="color:#5e9177;font-weight: 600;">Fetching Leafer version...</span>
     <span style="color:var(--vt-c-green);">✔</span> <span style="color:#888;font-weight: 600;">The following Leafer dependencies can be updated:</span>

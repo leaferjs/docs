@@ -81,9 +81,9 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 
 ### [Rect](./Rect.md)
 
-## API
+<!-- ## API
 
-### [Canvas](/api/classes/Canvas.md)
+### [Canvas](/api/classes/Canvas.md) -->
 
 ## 示例
 

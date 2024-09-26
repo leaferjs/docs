@@ -2,6 +2,8 @@
 
 我们目前提供了两种 Playground 环境可供你选择。
 
+另外还有 [create-leafer 命令行工具](/create/leafer.md)，可快速创建 Vue + Leafer 项目，管理、升级、开发插件。
+
 ## Cloud Studio
 
 可在线运行官网示例代码的 Playground 环境。

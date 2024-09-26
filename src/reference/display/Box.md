@@ -46,9 +46,9 @@ type IOverflow = 'show' | 'hide'
 
 ### [Group](./Group.md) + [Rect](./Rect.md)
 
-## API
+<!-- ## API
 
-### [Box](/api/classes/Box.md)
+### [Box](/api/classes/Box.md) -->
 
 ## 示例
 

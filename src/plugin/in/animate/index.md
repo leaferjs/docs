@@ -42,14 +42,14 @@ bun add @leafer-in/animate
 ::: code-group
 
 ```html [animate.min]
-<script src="https://unpkg.com/@leafer-in/animate@1.0.3/dist/animate.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@1.0.4/dist/animate.min.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
 ```
 
 ```html [animate]
-<script src="https://unpkg.com/@leafer-in/animate@1.0.3/dist/animate.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@1.0.4/dist/animate.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
