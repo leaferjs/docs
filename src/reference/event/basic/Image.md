@@ -48,9 +48,9 @@
 
 ### [Event](./Event.md)
 
-## API
+<!-- ## API
 
-### [ImageEvent](/api/classes/LeaferEvent.md)
+### [ImageEvent](/api/classes/LeaferEvent.md) -->
 
 ## 示例
 

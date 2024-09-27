@@ -14,7 +14,7 @@ import Case from '/component/Case.vue'
 
 ### animation： [`IAnimation`](/api/modules.md#ianimation)
 
-动画属性，元素添加后执行。详细了解 [动画选项](/plugin/in/animate/Animate.md#动画选项-只读) 。
+动画 / 入场动画，详细了解 [动画选项](/plugin/in/animate/Animate.md#动画选项-只读) 。
 
 ```ts
 type IAnimation = IStyleAnimation | IKeyframesAnimation
@@ -50,7 +50,7 @@ interface IAnimateOptions {
 
   delay?: number // 延迟时间，以秒为单位， 默认为 0
   duration?: number // 动画时长，以秒为单位，默认为 0.2
-  ending?: IAnimateEnding // 动画结束时的状态，可设置from、to，默认normal
+  ending?: IAnimateEnding // 动画结束时的状态，可设置from、to，默认auto
 
   reverse?: boolean // 是否反向动画 to -> from，默认为 false
   swing?: boolean // 是否摇摆循环播放 from -> to，to -> from ... ，默认 false
@@ -68,11 +68,23 @@ interface IAnimateOptions {
 }
 ```
 
+### animationOut： [`IAnimation`](/api/modules.md#ianimation)
+
+出场动画， 元素被移除 或 [visible](/reference/property/layer.md#visible-boolean-number) 为 0 时执行。
+
 ## 归属
 
 ### [UI](/reference/display/UI.md#交互状态)
 
 ## 示例
+
+### 入场和出场动画
+
+可以用来直接开发页面过渡效果，以及元素的移入移出效果。
+
+<case name="AnimatePage" editor=false></case>
+
+<<< @/code/property/animation/page.ts
 
 <case name="Animate" editor=false></case>
 

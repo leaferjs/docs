@@ -24,9 +24,10 @@
 
 ### [PointerEvent](./Pointer)
 
+<!--
 ## API
 
-### [DropEvent](/api/classes/DropEvent.md)
+### [DropEvent](/api/classes/DropEvent.md) -->
 
 ## 示例
 

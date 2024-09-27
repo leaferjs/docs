@@ -70,9 +70,9 @@
 
 ### [Event](./Event.md)
 
-## API
+<!-- ## API
 
-### [RenderEvent](/api/classes/RenderEvent.md)
+### [RenderEvent](/api/classes/RenderEvent.md) -->
 
 ## 示例
 

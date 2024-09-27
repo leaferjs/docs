@@ -61,9 +61,10 @@
 
 ### [Event](./Event.md)
 
+<!--
 ## API
 
-### [LayoutEvent](/api/classes/LayoutEvent.md)
+### [LayoutEvent](/api/classes/LayoutEvent.md) -->
 
 ## 示例
 

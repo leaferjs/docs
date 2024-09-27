@@ -4,9 +4,15 @@
 
 提供了丰富的 UI 绘图元素，和开箱即用的功能，如自动布局、图形编辑、SVG 导出，方便与 Figma、Sketch 等产品进行数据交换。并为跨平台开发提供了统一的交互事件，如拖拽、旋转、缩放手势等。
 
-可用于高效绘图、组态、开发图形图像编辑软件。随着生态的不断发展，未来将支撑可视化开发网页、应用、游戏、动画。
+可用于高效绘图 、UI 交互（小游戏、互动应用、组态）、图形编辑。随着生态的不断发展，未来将支撑可视化开发网页、应用、游戏、动画。
 
 📗 [图文并茂、由浅入深的了解 LeaferJS](/blog/2024-07-09.md)
+
+📙 [全新动画、状态、过渡、游戏功能](/blog/2024-09-20.md)
+
+📘 [绝境中盛开，LeaferJS 的创业故事](/blog/2024-04-08.md)
+
+如果你觉得不错，请帮我们点个 [Star](https://github.com/leaferjs/ui) 🌟 ，吸引更多的人参与贡献 - [GitHub](https://github.com/leaferjs/ui) / [Gitee](https://gitee.com/leaferjs/ui) ✨ ✨ ✨
 
 ## 快速安装
 
@@ -23,8 +29,6 @@
 有问题、建议可以 [提交 issue](https://github.com/leaferjs/ui/issues)，留下你的贡献足迹。
 
 欢迎加入 [技术交流群](https://leaferjs.com/#contact) ，与小伙伴们建立联系，共同学习进步，偶尔会有特殊福利。
-
-🌟 记得前往 [GitHub](https://github.com/leaferjs/ui) / [Gitee](https://gitee.com/leaferjs/ui) 点亮你的 [小星星](https://github.com/leaferjs/ui) ✨ ✨ ✨
 
 ## 阅读顺序
 

@@ -24,7 +24,9 @@
 
 元素是否可见， 默认为 true。
 
-设为 false 仍会占用空间，只有设为数字 0 时， 才会有类似 css 的 `display: none` 效果。
+设为 false 仍会占用空间。
+
+设为 0 时不占用空间，类似 css 的 `display: none`。
 
 ### blendMode: [`BlendMode`](./blendMode.md)
 

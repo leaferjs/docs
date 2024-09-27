@@ -22,7 +22,7 @@
 
 ### box
 
-**包围盒坐标:** 元素包围盒 [boxBounds](/reference/property/bounds.md#boxbounds-iboundsdata) 内的坐标
+**包围盒坐标系:** 元素包围盒 [boxBounds](/reference/property/bounds.md#boxbounds-iboundsdata) 内的坐标
 
 以元素实际内容的左上角为起点（0，0），一般情况下和 inner 坐标一样，当元素内容的起点不是从 inner 坐标（0，0）开始时会有差异，如路径 Path 经常不是从 0,0 开始绘制的。
 

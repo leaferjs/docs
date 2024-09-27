@@ -32,9 +32,9 @@
 
 ### [DragEvent](./Drag)
 
-## API
+<!-- ## API
 
-### [SwipeEvent](/api/classes/SwipeEvent.md)
+### [SwipeEvent](/api/classes/SwipeEvent.md) -->
 
 ## 示例
 

@@ -60,9 +60,9 @@ Child 事件。
 
 ### [Event](./Event.md)
 
-## API
+<!-- ## API
 
-### [ChildEvent](/api/classes/ChildEvent.md)
+### [ChildEvent](/api/classes/ChildEvent.md) -->
 
 ## 示例
 

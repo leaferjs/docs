@@ -18,7 +18,7 @@ import Case from '/component/Case.vue'
 
 ### transition： [`ITranstion`](/api/modules.md#itransition)
 
-过渡属性，状态改变时执行， 默认为 true。详细了解 [动画选项](/plugin/in/animate/Animate.md#动画选项-只读) 。
+状态过渡 / 进入状态过渡， 默认为 true。详细了解 [动画选项](/plugin/in/animate/Animate.md#动画选项-只读) 。
 
 ```ts
 // 过渡选项，  number 表示duration， string 表示 easing， object 表示动画选项对象，
@@ -30,7 +30,7 @@ interface IAnimateOptions {
 
   delay?: number // 延迟时间，以秒为单位， 默认为 0
   duration?: number // 动画时长，以秒为单位，默认为 0.2
-  ending?: IAnimateEnding // 动画结束时的状态，可设置from、to，默认normal
+  ending?: IAnimateEnding // 动画结束时的状态，可设置from、to，默认auto
 
   reverse?: boolean // 是否反向动画 to -> from，默认为 false
   swing?: boolean // 是否摇摆循环播放 from -> to，to -> from ... ，默认 false
@@ -47,10 +47,6 @@ interface IAnimateOptions {
   event?: IAnimateEvents // 监听事件
 }
 ```
-
-### transitionIn： [`ITranstion`](/api/modules.md#itransition)
-
-进入状态时的过渡效果，未设置时使用 transition。
 
 ### transitionOut： [`ITranstion`](/api/modules.md#itransition)
 

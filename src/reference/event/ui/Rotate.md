@@ -35,9 +35,9 @@
 
 ### [UIEvent](./UIEvent.md)
 
-## API
+<!-- ## API
 
-### [RotateEvent](/api/classes/RotateEvent.md)
+### [RotateEvent](/api/classes/RotateEvent.md) -->
 
 ## 示例
 

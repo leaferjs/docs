@@ -1,9 +1,9 @@
 # 坐标转换
 
 [世界坐标](/guide/basic/coordinate.md#world) 与 [page 坐标](/guide/basic/coordinate.md#page)、
-[本地坐标](/guide/basic/coordinate.md#local)、[内部坐标](/guide/basic/coordinate.md#inner)的互相转换, 另提供了 [快速转换](./high.md) 的高性能方法。
+[本地坐标](/guide/basic/coordinate.md#local)、[内部坐标](/guide/basic/coordinate.md#inner)、[box 坐标](/guide/basic/coordinate.md#box) 的互相转换。
 
-支持 [转换移动距离](#转换移动距离)。
+支持 [转换移动距离](#转换移动距离)、 在 Leafer 中 [转换浏览器坐标](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata)。另提供了 [快速转换](./high.md) 的高性能方法。
 
 ## 关键方法
 
@@ -84,6 +84,10 @@
 第四个可选参数：change?: `boolean`
 
 直接修改传入的坐标返回，可以节省创建新对象的开销。
+
+## 相关
+
+### 在 Leafer 中 [转换浏览器坐标](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata)
 
 ## 归属
 

@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # animate 插件
 
-动画功能，支持延时、摇摆循环、seek，可制作过渡动画、关键帧动画、滚动动画、路径动画。
+丰富的动画功能，支持延时、循环和 seek。你可以用它制作关键帧动画、摇摆动画、过渡动画、路径动画和滚动动画
 
 <case name="AnimateFrames" editor=false></case>
 

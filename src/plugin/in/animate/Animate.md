@@ -280,6 +280,33 @@ animate.seek({
 
 销毁动画。
 
+## 事件支持
+
+支持像元素一样 [监听、移除事件](/reference/property/on)，支持监听以下事件：
+
+```ts
+interface IAnimateEvents {
+  created?: IAnimateEventFunction
+
+  play?: IAnimateEventFunction
+  pause?: IAnimateEventFunction
+  stop?: IAnimateEventFunction
+  seek?: IAnimateEventFunction
+
+  update?: IAnimateEventFunction
+  completed?: IAnimateEventFunction
+}
+
+interface IAnimateEventFunction {
+  (animate?: IAnimate): void
+}
+
+animate.on('created', (animate) => {
+  // 创建完成
+  console.log(animate)
+})
+```
+
 ## API
 
 ### [Animate](/api/classes/Animate.md)

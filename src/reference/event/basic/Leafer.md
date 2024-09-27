@@ -58,9 +58,9 @@ Leafer 事件。
 
 ### [Event](./Event.md)
 
-## API
+<!-- ## API
 
-### [LeaferEvent](/api/classes/LeaferEvent.md)
+### [LeaferEvent](/api/classes/LeaferEvent.md) -->
 
 ## 示例
 

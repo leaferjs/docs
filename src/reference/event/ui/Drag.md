@@ -124,9 +124,9 @@ totalX, totalY 属性的坐标转换。
 
 ### [PointerEvent](./Pointer)
 
-## API
+<!-- ## API
 
-### [DragEvent](/api/classes/DragEvent.md)
+### [DragEvent](/api/classes/DragEvent.md) -->
 
 ## 示例
 

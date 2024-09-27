@@ -36,9 +36,9 @@
 
 ### [UIEvent](./UIEvent)
 
-## API
+<!-- ## API
 
-### [ZoomEvent](/api/classes/ZoomEvent.md)
+### [ZoomEvent](/api/classes/ZoomEvent.md) -->
 
 ## 示例
 

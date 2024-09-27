@@ -40,9 +40,9 @@
 
 ### [Event](./Event.md)
 
-## API
+<!-- ## API
 
-### [PropertyEvent](/api/classes/PropertyEvent.md)
+### [PropertyEvent](/api/classes/PropertyEvent.md) -->
 
 ## 示例
 

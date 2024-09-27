@@ -223,9 +223,9 @@ x, y 属性的坐标转换。
 
 ### [UIEvent](./UIEvent.md)
 
-## API
+<!-- ## API
 
-### [PointerEvent](/api/classes/PointerEvent.md)
+### [PointerEvent](/api/classes/PointerEvent.md) -->
 
 ## 示例
 

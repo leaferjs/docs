@@ -18,13 +18,13 @@ import Case from '/component/Case.vue'
 
 机器人的图片序列帧，按顺序加载，从 0 开始对图片帧进行编号。
 
-可以为一张、多张不同尺寸的雪碧图，或多张不同尺寸的独立图片。
+可以为一张、多张不同尺寸的雪碧图，或多张不同尺寸的独立图片，可通过 offset 与 size 定位图片。
 
 ```ts
 interface IRobotKeyframe {
   url: string // 图片
 
-  offset?: IPointData // 从此坐标开始从左往右、自上而下的读取多帧图片， 默认为 0,0
+  offset?: IPointData // 定位坐标，从此处开始从左往右、自上而下的读取多帧图片， 默认为 0,0
   size?: number | ISizeData // 每一帧的尺寸，非雪碧图的独立图片可不设置
   total?: number // 一张图上有多帧时，必须设置读取总数，否则会按1帧处理
 }

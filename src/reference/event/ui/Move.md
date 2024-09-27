@@ -61,9 +61,9 @@ moveX, moveY 属性的坐标转换。
 
 ### [DragEvent](./Drag)
 
-## API
+<!-- ## API
 
-### [MoveEvent](/api/classes/MoveEvent.md)
+### [MoveEvent](/api/classes/MoveEvent.md) -->
 
 ## 示例
 

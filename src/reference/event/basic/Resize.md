@@ -32,9 +32,10 @@ Resize 事件。
 
 ### [Event](./Event.md)
 
+<!--
 ## API
 
-### [ResizeEvent](/api/classes/ResizeEvent.md)
+### [ResizeEvent](/api/classes/ResizeEvent.md) -->
 
 ## 示例
 
