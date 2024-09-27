@@ -12,7 +12,7 @@
 
 📘 [绝境中盛开，LeaferJS 的创业故事](/blog/2024-04-08.md)
 
-如果你觉得不错，请帮我们点个 [Star](https://github.com/leaferjs/ui) 🌟 ，吸引更多的人参与贡献 - [GitHub](https://github.com/leaferjs/ui) / [Gitee](https://gitee.com/leaferjs/ui) ✨ ✨ ✨
+如果你觉得不错，请帮我们点个 [Star](https://github.com/leaferjs/ui) 🌟 ，吸引更多的资源参与进来 - [GitHub](https://github.com/leaferjs/ui) / [Gitee](https://gitee.com/leaferjs/ui) ✨ ✨ ✨
 
 ## 快速安装
 
