@@ -52,4 +52,4 @@
 
 ## 下一步
 
-### [渲染周期](/guide/life/render.md)
+### [生命周期](/guide/life/ui.md)
