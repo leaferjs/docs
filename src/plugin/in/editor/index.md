@@ -82,9 +82,13 @@ https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 
 ::: code-group
 
-<<< @/code/plugin/editor/start.ts [自动创建]
-
 <<< @/code/plugin/editor/full.ts [手动创建]
+
+:::
+
+::: code-group
+
+<<< @/code/plugin/editor/start.ts [自动创建]
 
 :::
 

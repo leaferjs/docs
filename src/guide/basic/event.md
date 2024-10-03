@@ -44,4 +44,4 @@ rect.emit('pointer.enter', { current: rect })
 
 ## 下一步
 
-### [视窗交互](/guide/app/window)
+### [App 结构](/guide/app/multilayer.md)

@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# 创建图形
+# 创建元素
 
 <case name="Rect" editor=false></case>
 

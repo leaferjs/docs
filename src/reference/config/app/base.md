@@ -8,7 +8,7 @@ App 与 Leafer 的初始化基础配置。
 
 是否自动启动应用，默认为 true。
 
-应用启动后，可以通过 [leafer.stop()](/reference/display/Leafer.md#start)、 [leafer.start()](/reference/display/Leafer.md#start) 手动控制渲染。
+应用启动后，可以通过 [app.stop()](/reference/display/Leafer.md#start)、 [app.start()](/reference/display/Leafer.md#start) 手动控制渲染。
 
 ## 渲染属性
 
@@ -16,13 +16,19 @@ App 与 Leafer 的初始化基础配置。
 
 ### usePartRender: `boolean`
 
-是否使用 局部渲染， 默认为 true
+是否使用 局部渲染， 默认为 true。
+
+:::tip 注意事项
+[App 结构](/guide/app/multilayer.md) 下需设置在 [子层 Leafer](/reference/display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
+:::
 
 ## 交互属性
 
 应用运行中修改 [app.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
 
-注意 App 结构下只能设置在 [App](/reference/display/App.md) 的 config 上。
+:::tip 注意事项
+[App 结构](/guide/app/multilayer.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
+:::
 
 ### mobile: `boolean`
 

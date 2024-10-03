@@ -2,7 +2,9 @@
 
 滚轮操作相关配置, 应用运行中修改 [app.config.wheel](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
 
-注意 App 结构下只能设置在 [App](/reference/display/App.md) 的 config 上。
+:::tip 注意事项
+[App 结构](/guide/app/multilayer.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
+:::
 
 ## 关键属性
 

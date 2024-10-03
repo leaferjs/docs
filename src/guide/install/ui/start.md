@@ -36,7 +36,11 @@ bun add leafer-ui
 
 你还可以通过 script 标签引入 CDN 文件来使用 LeaferUI（可下载到本地），[查看示例](#引入-script-的方式)。
 
-注意 [Image](/reference/display/Image.md) / [PointerEvent](/reference/event/ui/Pointer.md) / [DragEvent](/reference/event/ui/Drag.md) 会与浏览器的全局变量冲突，需使用别名。
+:::tip 注意事项
+
+[Image](/reference/display/Image.md) / [PointerEvent](/reference/event/ui/Pointer.md) / [DragEvent](/reference/event/ui/Drag.md) 会与浏览器的全局变量冲突，需使用以下别名。
+
+:::
 
 ::: code-group
 

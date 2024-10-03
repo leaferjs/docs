@@ -82,4 +82,4 @@ const path = new Path({
 
 ## 下一步
 
-### [边界模型](/guide/basic/bounds)
+### [包围盒（边界模型）](/guide/basic/bounds)

@@ -2,6 +2,10 @@
 
 初始化窗口类型，应用运行中不可再更改。
 
+:::tip 注意事项
+[App 结构](/guide/app/multilayer.md) 下需设置在 [子层 Leafer](/reference/display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
+:::
+
 ## 关键属性
 
 ### type: `string`
