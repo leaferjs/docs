@@ -6,7 +6,9 @@ import Case from '/component/Case.vue'
 
 动画方法。
 
-需安装 [动画 插件](/plugin/in/animate/index.md) 才能使用。
+::: tip 注意事项
+需安装 [动画插件](/plugin/in/animate/index.md) 才能使用。
+:::
 
 <case name="Animate" editor=false></case>
 

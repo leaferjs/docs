@@ -24,16 +24,24 @@
 
 ::: code-group
 
-<<< @/code/app/layer/auto.ts [自动创建]
-
 <<< @/code/app/layer/app.ts [手动创建]
+
+:::
+
+::: code-group
 
 <<< @/code/app/layer/simple.ts [快速创建]
 
 :::
 
-当然你也可以手动创建，完全自定义结构，或在这个基础上增加 自定义层都可以。
+::: code-group
+
+<<< @/code/app/layer/auto.ts [自动创建]
+
+:::
+
+可通过手动创建添加自定义层。
 
 ## 下一步
 
-### [视窗交互](/guide/app/window)
+### [窗口交互](/guide/app/window)

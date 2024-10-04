@@ -60,7 +60,7 @@ import Case from '/component/Case.vue'
 
 \- 元素增加 [created](/reference/event/basic/Child.md#仅派发给元素自身的事件) / [mounted](/reference/event/basic/Child.md#仅派发给元素自身的事件) / [unmounted](/reference/event/basic/Child.md#仅派发给元素自身的事件) 事件，可通过 event 初始化对象监听
 
-\- clone() 方法增加 [data](/reference/property/data.md#clone-data-iuiinputdata) 参数覆盖旧数据
+\- clone() 方法增加 [data](/reference/property/clone) 参数覆盖旧数据
 
 #### 🌿 优化
 
@@ -444,7 +444,7 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 🌸 Leafer 增加 [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法， 用于转换浏览器原生事件坐标到应用中
 
-\- 🌸 元素 [visible](/reference/property/layer.md#visible-boolean-number) 属性增加 类似 css 的 [`display: none`](/reference/property/layer.md#visible-boolean-number) 设置
+\- 🌸 元素 [visible](/reference/property/visible) 属性增加 类似 css 的 [`display: none`](/reference/property/visible) 设置
 
 \- Image 增加 [load()](/reference/display/Image.md#load) 方法，当未添加到 Leafer 中时，可手动加载图片，获取图片自然宽高
 
@@ -502,7 +502,7 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 🌸 元素增加 [origin](/reference/property/origin.md), 同 css 的 transform-origin， 作为缩放、旋转元素的原点
 
-\- 元素增加 [offsetX](/reference/property/layout.md#偏移属性)、[offsetY](/reference/property/layout.md#偏移属性)，方便动画、交互状态中偏移元素
+\- 元素增加 [offsetX](/reference/property/offset)、[offsetY](/reference/property/offset)，方便动画、交互状态中偏移元素
 
 \- Box / Frame 增加 [scrollX](/reference/display/Box.md#滚动属性)、[scrollY](/reference/display/Box.md#滚动属性)，用于滚动内部元素，方便实现滚动条效果
 
@@ -926,7 +926,7 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 \- 只监听 Leafer 自身属性变化的 [PropertyEvent.LEAFER_CHANGE](/reference/event/basic/Property.md) 事件
 
-\- nextRender() 可通过 [removeNextRender()](/reference/property/layer.md#nextrender-item-function) 方法移除监听
+\- nextRender() 可通过 [removeNextRender()](/reference/property/nextRender) 方法移除监听
 
 \- 开启阻止默认右键事件 [config.pointer.preventDefaultMenu](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean)
 
@@ -1094,7 +1094,7 @@ text.padding // 没有宽高的文本增加padding， 内容的位置会改变�
 
 \- Group、Path 支持 [around](/reference/property/around.md) 属性
 
-\- [setTransform()](/reference/property/transform.md#关键方法) / [transform()](/reference/property/transform.md#关键方法) / [skewOf](/reference/property/transform.md#skewof-origin-ipointdata-skewx-number-skewy-0-resize-boolean) / [dropTo()](/reference/property/layer.md#dropto-parent-group-index-number) / [updateLayout()](/reference/property/layout.md#updatelayout) 元素操作方法
+\- [setTransform()](/reference/property/transform.md#关键方法) / [transform()](/reference/property/transform.md#关键方法) / [skewOf](/reference/property/transform.md#skewof-origin-ipointdata-skewx-number-skewy-0-resize-boolean) / [dropTo()](/reference/property/dropTo) / [updateLayout()](/reference/property/layout.md#updatelayout) 元素操作方法
 
 \- [getLayoutBounds()](/reference/property/bounds.md#关键方法) / [getLayoutPoints](/reference/property/bounds.md#关键方法) 用于获取 OBB 包围盒
 
@@ -1286,7 +1286,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- 文档搜索功能
 
-\- [clone()](/reference/property/data.md#clone-ui) 方法，用于克隆元素
+\- [clone()](/reference/property/clone) 方法，用于克隆元素
 
 \- [键盘事件](/reference/event/ui/Key.md)，增加长按键盘只触发一次的 key.hold 事件
 

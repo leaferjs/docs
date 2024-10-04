@@ -1,6 +1,6 @@
-# 视窗
+# 窗口
 
-默认自带视窗功能，适合在线图形编辑场景，可修改 [leafer.config.type](/reference/config/app/type.md) 改变视窗类型。
+默认自带窗口交互功能，适合图形编辑类场景，可修改 [leafer.config.type](/reference/config/app/type.md) 改变窗口类型。
 
 ![window](/svg/window.svg)
 

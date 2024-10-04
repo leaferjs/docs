@@ -1,6 +1,6 @@
 # layer
 
-图层相关属性。
+元素基础图层属性。
 
 ## 关键属性
 
@@ -15,26 +15,6 @@
 ### name: `string`
 
 名称。
-
-### opacity: `number`
-
-元素的不透明度，取值范围为 0 ～ 1， 默认为 1。
-
-### visible: `boolean` | `number`
-
-元素是否可见， 默认为 true。
-
-设为 false 仍会占用空间。
-
-设为 0 时不占用空间，类似 css 的 `display: none`。
-
-### blendMode: [`BlendMode`](./blendMode.md)
-
-元素的混合模式， 默认为穿透模式。
-
-### zIndex: `number`
-
-元素层叠顺序, 默认为 0。
 
 ## 只读属性
 
@@ -70,21 +50,11 @@ leafer 的缩放层。
 
 父元素。
 
-### worldOpacity: `number`
-
-元素相对于应用视图的不透明度。
-
-当 `visible` 为 false 时，此属性值为 0。
-
 ### destroyed: `boolean`
 
 元素是否已被销毁。
 
 ## 关键方法
-
-### dropTo ( parent: [`Group`](/reference/display/Group.md), index?: `number`)
-
-将元素拖拽放置到另一个父容器中，同时保持在世界坐标中的显示位置不变， `index`表示放置的层级。
 
 ### remove ( )
 
@@ -107,22 +77,6 @@ leafer 的缩放层。
 等待元素有 [`leafer`](/reference/property/layer.md#leafer-leafer) 属性时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已存在则立即执行。
-
-### nextRender ( item: `function`, bind?: `object` )
-
-等待下一次渲染帧执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
-
-### removeNextRender ( item: `function` )
-
-移除 nextRender()的 item 监听。
-
-### forceRender ( )
-
-强制渲染元素，只会重新渲染，不会更新布局。
-
-### forceUpdate ( attrName?: `string` )
-
-强制更新元素渲染，默认会更新元素的布局与渲染，可指定属性名 `attrName` 以提高更新性能。
 
 ## 归属
 

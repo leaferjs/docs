@@ -1,6 +1,6 @@
 # ZoomEvent
 
-缩放事件，一般用于[视窗交互](/guide/app/window.md)中缩放视图。
+缩放事件，一般用于[窗口交互](/guide/app/window.md)中缩放视图。
 
 1. 移动端: 双指捏合
 2. 触摸板: 双指捏合

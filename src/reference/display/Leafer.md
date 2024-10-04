@@ -1,6 +1,6 @@
 # Leafer
 
-创建 Leafer 应用，了解初始化 [应用配置](/reference/config/app/base.md)、[视窗功能](/guide/app/window.md)。
+创建 Leafer 应用，了解初始化 [应用配置](/reference/config/app/base.md)、[窗口交互](/guide/app/window.md)。
 
 <br/>
 
@@ -64,6 +64,16 @@ App 实例, 如果不存在则是自身。
 
 <<< @/code/display/Leafer/canvas.ts
 
+## 视口属性（viewport）
+
+### zoomLayer：[`Group`](./Group.md)
+
+缩放平移视图层， 默认为 Leafer 自身，可 [单独指定缩放层](/reference/display/Leafer.md#单独指定缩放层)。
+
+可以手动修改它的 [x](/reference/property/layout)、[y](/reference/property/layout)、[scale](/reference/property/layout#scale-number-ipointdata)、[scaleX](/reference/property/layout#scalex-number)、[scaleY](/reference/property/layout#scaley-number) 属性进行缩放平移视图。
+
+通过 [视图插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持 fit 视图、聚集到指定元素。
+
 ## 状态属性
 
 ### created: `boolean`
@@ -105,16 +115,6 @@ App 实例, 如果不存在则是自身。
 当前应用在浏览器窗口中的位置（client 坐标）及宽高。
 
 另可使用 [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法转换浏览器原生事件坐标到应用中。
-
-## 视口属性
-
-### zoomLayer：[`Group`](./Group.md)
-
-应用的缩放平移层（viewport 视口）， 默认为 Leafer 自身，可指定子元素。
-
-可以手动修改它的 x、y、scale、scaleX、scaleY 属性进行缩放平移视图。
-
-通过 [视图插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持 fit 视图、聚集到指定元素。
 
 ## 辅助属性
 
@@ -247,7 +247,7 @@ leafer.unlockLayout()
 
 ## 视口
 
-### [视窗功能](/guide/app/window.md)
+### [窗口交互](/guide/app/window.md)
 
 ## 监听事件
 

@@ -24,13 +24,13 @@ import Case from '/component/Case.vue'
 
 x 轴位置。
 
-注意 [offsetX](/reference/property/layout#偏移属性)、[around](/reference/property/around) 会改变元素的实际位置。
+注意 [offsetX](/reference/property/offset)、[around](/reference/property/around) 会改变元素的实际位置。
 
 ### y: `number`
 
 y 轴位置。
 
-注意 [offsetY](/reference/property/layout#偏移属性)、[around](/reference/property/around) 会改变元素的实际位置。
+注意 [offsetY](/reference/property/offset)、[around](/reference/property/around) 会改变元素的实际位置。
 
 ### scaleX: `number`
 

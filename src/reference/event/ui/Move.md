@@ -1,6 +1,6 @@
 # MoveEvent
 
-移动事件，一般用于[视窗交互](/guide/app/window.md)中平移视图。
+移动事件，一般用于[窗口交互](/guide/app/window.md)中平移视图。
 
 1. 移动端: 双指滑动
 2. 触摸板: 双指滑动

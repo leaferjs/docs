@@ -4,13 +4,15 @@
 
 ## 关键属性
 
-### \_\_: [`IUIInputData`](/api/interfaces/IUIInputData.md)
-
-内部数据处理实例（两个下划线的变量）。
-
 ### data: [`IObject`](/api/interfaces/IObject.md)
 
 预留给用户的自定义数据对象，我们永远不会占用， 默认为空对象 {} 。
+
+## 内部属性
+
+### \_\_: [`IUIInputData`](/api/interfaces/IUIInputData.md)
+
+内部数据处理实例（两个下划线的变量）。
 
 ## 关键方法
 
@@ -43,10 +45,6 @@
 ### getComputedAttr( name: `string` ): `any`
 
 获取计算属性值，只返回计算数据（含默认值）。
-
-### clone ( data?: [`IUIInputData`](/api/interfaces/IUIInputData.md))
-
-克隆当前元素，可以增加 data 参数覆盖旧数据。
 
 ## 数据分层结构
 

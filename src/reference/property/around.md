@@ -4,7 +4,9 @@ import Case from '/component/Case.vue'
 
 # around
 
-围绕 around 点绘制元素，比 [origin](./origin.md) 多个步骤，会把元素内容的 around 点移动到起始坐标。
+围绕 around 点绘制元素，类似游戏引擎中的 anchor 锚点功能。
+
+相比 [origin](./origin.md) 多一个步骤，会把元素内容的 around 点移动到起始坐标。
 
 图中将元素内容的 around 点 ， 移动到元素的起始坐标对齐放置并旋转 30 度。
 

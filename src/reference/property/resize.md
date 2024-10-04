@@ -66,7 +66,7 @@ Group 会强制子元素跟随 resize，不用设置此参数。
 
 ### [skewOfWorld ()](/reference/property/transform.md#相对世界坐标系)
 
-### [dropTo ()](/reference/property/layer.md#dropto-parent-group-index-number)
+### [dropTo ()](/reference/property/dropTo.md)
 
 将缩放转换为宽高操作。
 

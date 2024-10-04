@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: 'Leafer UI '
-  text: 'Fast<br/>Beautiful'
-  tagline: '预计7月底启动英文版翻译'
+  name: 'leafer-ui '
+  # text: 'Fast<br/>Beautiful'
+  tagline: '预计11月前启动英文版翻译'
   image:
     src: '/svg/bettery/bettery-100-2.svg'
     width: 240
@@ -14,9 +14,9 @@ hero:
     - theme: brand
       text: 快速上手
       link: /guide/
-    - theme: alt
-      text: 参考手册
-      link: /reference/
+    # - theme: alt
+    #   text: 参考手册
+    #   link: /reference/
 
 features:
   - icon: 🛠

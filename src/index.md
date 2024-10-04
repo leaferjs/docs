@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: 'Leafer UI'
-  text: 'Fast<br/>Beautiful'
-  tagline: '简洁、开放、现代化的 UI 绘图框架'
+  name: 'leafer-ui'
+  # text: 'Fast<br/>Beautiful'
+  tagline: '简洁、开放、现代化的 UI 绘图与交互框架'
   image:
     src: '/svg/bettery/bettery-100-2.svg'
     width: 200
@@ -13,9 +13,6 @@ hero:
     - theme: brand
       text: 快速上手
       link: /guide/
-    - theme: alt
-      text: 参考手册
-      link: /reference/
 
 features:
   - icon: 🛠

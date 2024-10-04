@@ -24,7 +24,7 @@ leafer-ui 及官方插件包需要同时更新版本。
 
 ### 服务端渲染框架打包问题
 
-使用像 Nuxt.js、Next.js 这样的服务端渲染框架时，需要异步加载 Leafer UI 的相关代码才能编译打包成功， 同步加载会因为找不到 Canvas 相关的环境变量而打包失败。
+使用像 Nuxt.js、Next.js 这样的服务端渲染框架时，需要异步加载 leafer-ui 的相关代码才能编译打包成功， 同步加载会因为找不到 Canvas 相关的环境变量而打包失败。
 
 https://nextjs.org/docs/pages/building-your-application/optimizing/lazy-loading#with-external-libraries
 

@@ -21,7 +21,7 @@
 
 [字符串对象](/reference/interface/ui/String.md)
 
-动画 （已完成 1/2）
+动画 （已完成）
 
 自动布局 （已完成）
 

@@ -18,11 +18,11 @@
 
 ## 属性方法
 
-### [id](/reference/property/layer) &nbsp; &nbsp; [name](/reference/property/layer) &nbsp; &nbsp; [opacity](/reference/property/layer#opacity-number) &nbsp; &nbsp; [visible](/reference/property/layer#visible-boolean-number) &nbsp; &nbsp; [zIndex](/reference/property/layer#zindex-number) &nbsp; &nbsp;
+### [id](/reference/property/layer) &nbsp; &nbsp; [name](/reference/property/layer) &nbsp; &nbsp; [opacity](/reference/property/opacity) &nbsp; &nbsp; [visible](/reference/property/visible) &nbsp; &nbsp; [zIndex](/reference/property/zIndex) &nbsp; &nbsp;
 
 ### [x](/reference/property/layout) &nbsp; &nbsp;[y](/reference/property/layout) &nbsp; &nbsp;[width](/reference/property/layout#width-number) &nbsp; &nbsp;[height](/reference/property/layout#height-number) &nbsp; &nbsp;[scaleX](/reference/property/layout#scalex-number) &nbsp; &nbsp;[scaleY](/reference/property/layout#scaley-number) &nbsp; &nbsp;[rotation](/reference/property/layout#rotation-number)
 
-### [offsetX](/reference/property/layout#偏移属性) &nbsp; &nbsp;[offsetY](/reference/property/layout#偏移属性) &nbsp; &nbsp;[scrollX](/reference/display/Box.md#滚动属性) &nbsp; &nbsp;[scrollY](/reference/display/Box.md#滚动属性)
+### [offsetX](/reference/property/offset) &nbsp; &nbsp;[offsetY](/reference/property/offset) &nbsp; &nbsp;[scrollX](/reference/display/Box.md#滚动属性) &nbsp; &nbsp;[scrollY](/reference/display/Box.md#滚动属性)
 
 ### [fill](/reference/property/fill) &nbsp; &nbsp; [stroke](/reference/property/stroke)
 
@@ -32,11 +32,11 @@
 
 ### [hoverStyle](/reference/property/state/hover) &nbsp; &nbsp; [pressStyle](/reference/property/state/press) &nbsp; &nbsp; [focusStyle](/reference/property/state/focus) &nbsp; &nbsp; [selectedStyle](/reference/property/state/selected) &nbsp; &nbsp; [disabledStyle](/reference/property/state/disabled)
 
-### [set()](/reference/property/data)&nbsp; &nbsp;[get()](/reference/property/data)&nbsp; &nbsp;[reset()](/reference/property/data)&nbsp; &nbsp;[setAttr()](/reference/property/data)&nbsp; &nbsp;[getAttr()](/reference/property/data)&nbsp; &nbsp;[getComputedAttr()](/reference/property/data) &nbsp; &nbsp; [clone()](/reference/property/data#clone-ui)
+### [set()](/reference/property/data)&nbsp; &nbsp;[get()](/reference/property/data)&nbsp; &nbsp;[reset()](/reference/property/data)&nbsp; &nbsp;[setAttr()](/reference/property/data)&nbsp; &nbsp;[getAttr()](/reference/property/data)&nbsp; &nbsp;[getComputedAttr()](/reference/property/data) &nbsp; &nbsp; [clone()](/reference/property/clone)
 
-### [waitParent()](/reference/property/layer#waitparent-item-function-bind-object) &nbsp; &nbsp; [waitLeafer()](/reference/property/layer#waitleafer-item-function-bind-object) &nbsp; &nbsp;[dropTo()](/reference/property/layer#dropto-parent-group-index-number)
+### [waitParent()](/reference/property/layer#waitparent-item-function-bind-object) &nbsp; &nbsp; [waitLeafer()](/reference/property/layer#waitleafer-item-function-bind-object) &nbsp; &nbsp;[dropTo()](/reference/property/dropTo.md)
 
-### [nextRender()](/reference/property/layer#nextrender-item-function-bind-object) &nbsp; &nbsp; [updateLayout()](/reference/property/layout#updatelayout) &nbsp; &nbsp; [forceRender()](/reference/property/layer#forcerender) &nbsp; &nbsp; [forceUpdate()](/reference/property/layer#forceupdate-attrname-string)
+### [nextRender()](/reference/property/nextRender) &nbsp; &nbsp; [updateLayout()](/reference/property/layout#updatelayout) &nbsp; &nbsp; [forceRender()](/reference/property/forceRender) &nbsp; &nbsp; [forceUpdate()](/reference/property/forceUpdate)
 
 ### [bounds](/reference/property/bounds) &nbsp; &nbsp; [transform](/reference/property/transform) &nbsp; &nbsp; [origin](/reference/property/origin) &nbsp; &nbsp; [around](/reference/property/around) &nbsp; &nbsp; [坐标转换](/reference/property/point/) &nbsp; &nbsp; [转换移动距离](/reference/property/point/index.md#转换移动距离)
 

@@ -1,6 +1,6 @@
 # 概览
 
-**Leafer UI** 是基于 [Leafer](https://github.com/leaferjs/leafer) 开发的一套绚丽多彩的 UI 绘图、交互框架，可结合 AI 绘图、生成界面，表现力丰富、性能强劲。
+[**leafer-ui**](/guide/install/ui/start.md) 是基于核心库 [leafer](https://github.com/leaferjs/leafer) 开发的一套绚丽多彩的 UI 绘图、交互框架。作为 LeaferJS 的表现层，可结合 AI 绘图、生成界面，表现力丰富、性能强劲，可媲美当前主流的设计软件。
 
 提供了丰富的 UI 绘图元素，和开箱即用的功能，如自动布局、图形编辑、SVG 导出，方便与 Figma、Sketch 等产品进行数据交换。并为跨平台开发提供了统一的交互事件，如拖拽、旋转、缩放手势等。
 
@@ -16,7 +16,7 @@
 
 ## 快速安装
 
-🚀 想马上使用，请安装 [ leafer-ui](/guide/install/ui/start.md)，开始你的探索之旅。
+🚀 想马上使用，请安装 [leafer-ui](/guide/install/ui/start.md)，开始你的探索之旅。
 
 ## 场景版
 
@@ -42,7 +42,7 @@
 
 ## 使命与愿景
 
-Leafer UI 致力于实现一套简洁、开放、现代化的 UI 绘图语言标准，表现力丰富，便于 AI 理解，人类可视化使用，并为数字化产品开发提供跨平台、轻量化、高性能的运行时。
+leafer-ui 致力于实现一套简洁、开放、现代化的 UI 绘图语言标准，表现力丰富，便于 AI 理解，人类可视化使用，并为数字化产品开发提供跨平台、轻量化、高性能的运行时。
 
 让不同的软件之间能够沟通、协作、共享绘图数据，让数字化产品开发可以更快、更简单。
 
@@ -52,11 +52,11 @@ Leafer UI 致力于实现一套简洁、开放、现代化的 UI 绘图语言标
 
 <!-- ## 最佳应用场景
 
-使用 Leafer UI 可以快速开发在线图形、图像、文字类数字化产品，不限于 Figma、Miro、Canva、Notion、Webflow。
+使用 leafer-ui 可以快速开发在线图形、图像、文字类数字化产品，不限于 Figma、Miro、Canva、Notion、Webflow。
 
 出色的创建速度和性能，可以为 AI 绘图、 生成界面提供强有力的支撑。 -->
 
-## 增强 Leafer UI
+## 增强 leafer-ui
 
 我们期待社区里出现这些开源技术:
 

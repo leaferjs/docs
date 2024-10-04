@@ -8,13 +8,13 @@
 
 x 轴位置。
 
-注意 [offsetX](/reference/property/layout#偏移属性)、[around](/reference/property/around) 会改变元素的实际位置。
+注意 [offsetX](/reference/property/offset)、[around](/reference/property/around) 会改变元素的实际位置。
 
 ### y: `number`
 
 y 轴位置。
 
-注意 [offsetY](/reference/property/layout#偏移属性)、[around](/reference/property/around) 会改变元素的实际位置。
+注意 [offsetY](/reference/property/offset)、[around](/reference/property/around) 会改变元素的实际位置。
 
 ### width: `number`
 
@@ -55,18 +55,6 @@ x 轴倾斜角度，取值范围为 -90 ～ 90。
 ### skewY: `number`
 
 y 轴倾斜角度，取值范围为 -90 ～ 90。
-
-## 偏移属性
-
-方便动画、交互状态中以相对值偏移元素。
-
-### offsetX: `number`
-
-x 轴偏移量。
-
-### offsetY: `number`
-
-y 轴偏移量。
 
 ## 计算属性
 

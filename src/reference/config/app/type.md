@@ -62,7 +62,7 @@ type ILeaferType =
 
 <<< @/code/app/config/type/custom.ts
 
-可以通过监听 leafer 实例的 [ZoomEvent](/reference/event/ui/Zoom) 与 [MoveEvent](/reference/event/ui/Move) 事件进行视窗交互逻辑的自定义。
+可以通过监听 leafer 实例的 [ZoomEvent](/reference/event/ui/Zoom) 与 [MoveEvent](/reference/event/ui/Move) 事件进行窗口交互逻辑的自定义。
 
 如需支持同时滚动画布外的页面请看 [app.config.wheel.preventDefault](/reference/config/app/wheel.md#wheel-preventdefault-boolean)。
 

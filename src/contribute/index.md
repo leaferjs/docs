@@ -22,9 +22,9 @@
 
 [Leafer 插件开发教程](https://juejin.cn/post/7265579369652977718) @子洋
 
-[一个使用 Leafer UI 实现的游戏王卡片渲染工具](https://juejin.cn/post/7264982357659746356) @kooriookami
+[一个使用 leafer-ui 实现的游戏王卡片渲染工具](https://juejin.cn/post/7264982357659746356) @kooriookami
 
-[一个使用 Leafer UI 实现的 Canvas 文本压缩工具](https://juejin.cn/post/7262542750406983739) @kooriookami
+[一个使用 leafer-ui 实现的 Canvas 文本压缩工具](https://juejin.cn/post/7262542750406983739) @kooriookami
 
 [LeaferJS 尝鲜 及 应用数学](https://juejin.cn/post/7252251628090507301) @子洋
 

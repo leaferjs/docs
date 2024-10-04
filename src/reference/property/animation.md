@@ -6,7 +6,9 @@ import Case from '/component/Case.vue'
 
 动画属性。
 
-需安装 [动画 插件](/plugin/in/animate/index.md) 才能使用。
+::: tip 注意事项
+需安装 [动画插件](/plugin/in/animate/index.md) 才能使用。
+:::
 
 <case name="AnimateFrames" editor=false></case>
 
@@ -70,7 +72,7 @@ interface IAnimateOptions {
 
 ### animationOut： [`IAnimation`](/api/modules.md#ianimation)
 
-出场动画， 元素被移除 或 [visible](/reference/property/layer.md#visible-boolean-number) 为 0 时执行。
+出场动画， 元素被移除 或 [visible](/reference/property/visible) 为 0 时执行。
 
 ## 归属
 
