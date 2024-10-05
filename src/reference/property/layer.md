@@ -36,15 +36,23 @@
 
 ### leafer: [`Leafer`](/reference/display/Leafer.md)
 
-所属 Leafer。
-
-### zoomLayer: [`Group`](/reference/display/Group.md)
-
-leafer 的缩放层。
+所属 Leafer 。
 
 ### isLeafer: `boolean`
 
-是否为 Leafer。
+元素是否为 Leafer。
+
+### leaferIsCreated: `boolean`
+
+Leafer 及子元素 [创建完成](/reference/display/Leafer.md#created-boolean)（完成首次创建）。
+
+### leaferIsReady: `boolean`
+
+Leafer 是否 [准备就绪](/reference/display/Leafer.md#ready-boolean)（完成首次布局）。
+
+### zoomLayer: [`Group`](/reference/display/Group.md)
+
+Leafer 的 [缩放平移视图层](/reference/display/Leafer.md#zoomlayer-group)。
 
 ### parent: [`Group`](/reference/display/Group.md)
 

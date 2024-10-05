@@ -184,40 +184,25 @@ pen 围绕自身主轴顺时针旋转的角度，取值范围是 [0, 359] 度。
 
 是否为取消（原生事件 pointer.cancel 或其他原因导致的取消）触发的 PointerEvent.UP 事件
 
-<!--
-## 坐标转换属性
-
-### innerX: `number`
-
-相对当前侦听元素 [内部坐标](/guide/basic/coordinate.md#inner) 的 x 轴位置。
-
-### innerY: `number`
-
-相对当前侦听元素 [内部坐标](/guide/basic/coordinate.md#inner) 的 y 轴位置。
-
-### localX: `number`
-
-相对当前侦听元素 [本地坐标](/guide/basic/coordinate.md#local) 的 x 轴位置。
-
-### localY: `number`
-
-相对当前侦听元素 [本地坐标](/guide/basic/coordinate.md#local) 的 y 轴位置。-->
-
 ## 坐标转换方法
 
 x, y 属性的坐标转换。
 
-### getPage ( ): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getPagePoint ( ): [`IPointData`](/reference/interface/math/Math#ipointdata)
 
 获取在 page 坐标系中的位置。
 
-### getInner ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getBoxPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
 
-获取相对于 relative 的 [内部坐标](/guide/basic/coordinate.md#inner)，relative 不存在时为当前侦听元素。
+获取相对于 relative 的 [box 坐标](/guide/basic/coordinate.md#box) 位置，relative 不存在时为当前侦听元素。
 
-### getLocal ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getInnerPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
 
-获取相对于 relative 的 [本地坐标](/guide/basic/coordinate.md#local)，relative 不存在时为当前侦听元素。
+获取相对于 relative 的 [内部坐标](/guide/basic/coordinate.md#inner) 位置，relative 不存在时为当前侦听元素。
+
+### getLocalPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
+
+获取相对于 relative 的 [本地坐标](/guide/basic/coordinate.md#local) 位置，relative 不存在时为当前侦听元素。
 
 ## 继承
 
