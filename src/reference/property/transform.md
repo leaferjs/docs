@@ -54,10 +54,6 @@ y 轴倾斜角度，取值范围为 -90 ～ 90。
 
 ## 关键方法
 
-围绕中心点绘制、旋转、缩放元素，可使用更简单的 [around](./around.md) 属性。
-
-以下方法大部分为手动增量操作。
-
 ### setTransform ( matrix: [`IMatrixData`](/api/interfaces/IMatrixData.md) )
 
 设置本地变换矩阵，会自动分解为元素的布局属性 x,y, scaleX,scaleY,rotation, skewX, skewY。
@@ -70,71 +66,12 @@ y 轴倾斜角度，取值范围为 -90 ～ 90。
 
 变换操作，会自动分解为布局属性 <badge>增量操作</badge>。
 
-### move ( x: `number` | [`IPointData`](../interface/math/Math#ipointdata), y = 0)
-
-位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math#ipointdata)。
-
-### moveInner ( x: `number` | [`IPointData`](../interface/math/Math#ipointdata), y = 0)
-
-在元素的 [inner 坐标系](/guide/basic/coordinate.md) 中，位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math#ipointdata)。
-
-### scaleOf ( origin: [`IPointData`](../interface/math/Math#ipointdata) | [`IAlign`](/reference/interface/math/Math.md#ialign), scaleX: `number`, scaleY = scaleX)
-
-以 origin（元素 [inner 坐标](/guide/basic/coordinate.md) ） 为原点，缩放元素 <badge>增量操作</badge>。
-
-### rotateOf ( origin: [`IPointData`](../interface/math/Math#ipointdata) | [`IAlign`](/reference/interface/math/Math.md#ialign), rotation: `number` )
-
-以 origin （元素 [inner 坐标](/guide/basic/coordinate.md) ） 为原点，旋转元素 <badge>增量操作</badge>。
-
-### skewOf ( origin: [`IPointData`](../interface/math/Math#ipointdata) | [`IAlign`](/reference/interface/math/Math.md#ialign), skewX: `number`, skewY = 0 )
-
-以 origin （元素 [inner 坐标](/guide/basic/coordinate.md) ） 为原点，倾斜元素 <badge>增量操作</badge>。
-
-```ts
-// 想缩放到指定 scale， 需除以元素的 scale，如下：
-leaf.scaleOf({ x: 50, y: 50 }, scale / leaf.scale)
-
-// 想旋转到指定 rotation， 需减去元素的 rotation，如下：
-leaf.rotateOf({ x: 50, y: 50 }, rotation - leaf.rotation)
-
-// 想倾斜到指定 skewX， 需减去元素的 skewX，如下：
-leaf.skewOf({ x: 50, y: 50 }, skewX - leaf.skewX)
-```
-
 ## 相对世界坐标系
-
-### flip( axis：`'x'` | `'y'` )
-
-在 [世界坐标系](/guide/basic/coordinate.md#world) 中， 按轴方向 镜像/翻转元素。
 
 ### transformWorld ( worldTransform: [`IMatrixData`](/api/interfaces/IMatrixData.md) )
 
 transform() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
 
-### moveWorld ( worldX: `number` | [`IPointData`](../interface/math/Math#ipointdata), worldY = 0 )
-
-move() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
-
-### scaleOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), scaleX: `number`, scaleY = scaleX )
-
-scaleOf() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
-
-### rotateOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), rotation: `number` )
-
-rotateOf() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
-
-### skewOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), skewX: `number`, skewY = 0 )
-
-skewOf() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
-
 ## 归属
 
 ### [UI](/reference/display/UI.md#盒子-变换)
-
-## 示例
-
-<case name="RectAnimate" index=0 editor=false></case>
-
-### 旋转动画
-
-<<< @/code/animate/simple.ts

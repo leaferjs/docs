@@ -14,7 +14,7 @@ import Case from '/component/Case.vue'
 
 填充颜色、图像，用于描边。
 
-支持[纯色](/reference/property/paint/solid.md)、 [线性渐变](/reference/property/paint/linear.md)、[径向渐变](/reference/property/paint/radial.md)、[角度渐变](/reference/property/paint/angular.md)、[图案填充](/reference/property/paint/image.md) 等类型， 支持多个填充同时叠加。
+支持[纯色](/reference/property/paint/solid.md)、 [线性渐变](/reference/property/paint/linear.md)、[径向渐变](/reference/property/paint/radial.md)、[角度渐变](/reference/property/paint/angular.md)、[图案](/reference/property/paint/image.md) 等类型， 支持多个描边同时叠加。
 
 :::danger 描边方式
 
@@ -82,13 +82,13 @@ rect.dashPattern = [20, 10] // [线段，间隙]
 
 <case name="SolidStroke" index=0  editor=false></case>
 
-### 纯色填充
+### 纯色描边
 
 <<< @/code/property/stroke/solid/a.ts
 
 <case name="GradientStroke" index=0  editor=false></case>
 
-### 渐变填充
+### 渐变描边
 
 支持 [线性渐变](./paint/linear.md)、[径向渐变](./paint/radial.md)、[角度渐变](./paint/angular.md) 等类型。
 
@@ -96,17 +96,17 @@ rect.dashPattern = [20, 10] // [线段，间隙]
 
 <case name="ImageStroke" index=0  editor=false></case>
 
-### 图案填充
+### 图案描边
 
-[图案填充](./paint/image.md) 支持 覆盖、适应、裁剪、平铺等模式。
+[图案描边](./paint/image.md) 支持 覆盖、适应、裁剪、平铺等模式。
 
 <<< @/code/property/stroke/image/a.ts
 
 <case name="Strokes" index=0  editor=false></case>
 
-### 多个填充叠加
+### 多个描边叠加
 
-填充的 opacity 暂时仅针对 [颜色对象](/reference/interface/ui/Color.md#rgb) 和图片有效。
+描边的 opacity 暂时仅针对 [颜色对象](/reference/interface/ui/Color.md#rgb) 和图片有效。
 
 <<< @/code/property/stroke/mutil/a.ts
 

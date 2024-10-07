@@ -221,31 +221,31 @@ group.hitChildren = false
 
 位移选中元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math#ipointdata)。
 
-### scaleOf ( origin: [`IPointData`](/reference/interface/math/Math#ipointdata) | [`IAlign`](/reference/interface/math/Math.md#ialign), scaleX: `number`, scaleY = scaleX)
+### scaleOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math#ipointdata), multiplyScaleX: `number`, multiplyScaleY = scaleX)
 
-以 [element](#element-ui) 元素的 [inner](/guide/basic/coordinate.md) 坐标 origin 为原点，缩放选中元素 <badge>增量操作</badge>。
+围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）缩放选中元素 <badge>增量操作</badge>。
 
-### rotateOf ( origin: [`IPointData`](/reference/interface/math/Math#ipointdata) | [`IAlign`](/reference/interface/math/Math.md#ialign), rotation: `number`)
+### rotateOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math#ipointdata), addRotation: `number`)
 
-以 [element](#element-ui) 元素的 [inner](/guide/basic/coordinate.md) 坐标 origin 为原点，旋转选中元素 <badge>增量操作</badge>。
+围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）旋转选中元素 <badge>增量操作</badge>。
 
-### skewOf ( origin: [`IPointData`](/reference/interface/math/Math#ipointdata) | [`IAlign`](/reference/interface/math/Math.md#ialign), skewX: `number`, skewY = 0)
+### skewOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math#ipointdata), addSkewX: `number`, addSkewY = 0)
 
-以 [element](#element-ui) 元素的 [inner](/guide/basic/coordinate.md) 坐标 origin 为原点，倾斜选中元素 <badge>增量操作</badge>。
+围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）倾斜选中元素 <badge>增量操作</badge>。
 
 ```ts
 // 当前选中元素
 const { element } = app.editor
 const box = element.boxBounds
 
-// 想缩放到指定 scale， 需除以元素的 scale，如下：
-app.editor.scaleOf('center', scale / element.scale)
+// 想缩放到指定 scale， 需除以元素当前 scale，如下：
+app.editor.scaleOf('center', 1.5 / element.scale)
 
-// 想旋转到指定 rotation， 需减去元素的 rotation，如下：
-app.editor.rotateOf('center' rotation - element.rotation)
+// 想旋转到指定 rotation， 需减去元素当前 rotation，如下：
+app.editor.rotateOf('center', 45 - element.rotation)
 
-// 想倾斜到指定 skewX， 需减去元素的 skewX，如下：
-app.editor.skewOf('center', skewX - element.skewX)
+// 想倾斜到指定 skewX， 需减去元素当前 skewX，如下：
+app.editor.skewOf('center', 45 - element.skewX)
 ```
 
 ## 配置

@@ -4,19 +4,21 @@ import Case from '/component/Case.vue'
 
 # around
 
-围绕 around 点绘制元素，类似游戏引擎中的 anchor 锚点功能。
+围绕 around 点绘制元素，类似于游戏引擎中的 anchor 锚点功能。
 
-相比 [origin](./origin.md) 多一个步骤，会把元素内容的 around 点移动到起始坐标。
-
-图中将元素内容的 around 点 ， 移动到元素的起始坐标对齐放置并旋转 30 度。
+<br/>
 
 ![围绕中心点绘制](/svg/around.svg)
+
+图中将元素内部的 around 坐标点(中心位置) ， 移动到元素的 (x,y) 坐标对齐放置并旋转 30 度。
+
+与 [origin](./origin.md) 的区别： 多了一个步骤，会把元素内部的 around 点移动到 (x,y) 坐标对齐。
 
 ## 关键属性
 
 ### around: [`IAlign`](/api/modules.md#ialign) | [`IUnitPointData`](/api/interfaces/IUnitPointData.md)
 
-元素的 around 点，相对元素的实际内容定位，基础元素及 Group 均支持。
+元素内部的 around 点，相对元素的实际内容定位，基础元素及 Group 均支持。
 
 ![方向图](/svg/deriction.svg)
 
@@ -68,12 +70,24 @@ rect.around = {
 
 <case name="Around" index=1 editor=false></case>
 
-### 旋转 45 度
+### 围绕坐标(50,50) 为中心缩放 1.5 倍
 
-<<< @/code/property/around/rotate.ts
+<<< @/code/property/around/scale.ts
 
 <case name="Around" index=2 editor=false></case>
 
-### around 点在矩形右下角
+### 围绕坐标(50,50) 为中心旋转 45 度
+
+<<< @/code/property/around/rotate.ts
+
+<case name="Around" index=3 editor=false></case>
+
+### 围绕坐标(50,50) 为中心倾斜 45 度
+
+<<< @/code/property/around/skew.ts
+
+<case name="Around" index=4 editor=false></case>
+
+### around 坐标点(50,50) 在矩形的右下角
 
 <<< @/code/property/around/right.ts

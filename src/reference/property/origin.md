@@ -50,6 +50,32 @@ rect.origin = {
 }
 ```
 
+## 示例
+
+<case name="Around" index=0  editor=false></case>
+
+### 设置原点在中心
+
+<<< @/code/property/origin/center.ts
+
+<case name="Around" index=1 editor=false></case>
+
+### 围绕原点缩放 1.5 倍
+
+<<< @/code/property/origin/scale.ts
+
+<case name="Around" index=2 editor=false></case>
+
+### 围绕原点旋转 45 度
+
+<<< @/code/property/origin/rotate.ts
+
+<case name="Around" index=3 editor=false></case>
+
+### 围绕原点倾斜 45 度
+
+<<< @/code/property/origin/skew.ts
+
 ## 归属
 
 ### [UI](/reference/display/UI.md#围绕中心点)

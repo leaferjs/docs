@@ -56,15 +56,15 @@ Group 会强制子元素跟随 resize，不用设置此参数。
 
 ### [transform ()](/reference/property/transform.md#关键方法)
 
-### [scaleOf ()](/reference/property/transform.md#关键方法)
+### [scaleOf ()](/reference/property/scale.md#关键方法)
 
-### [skewOf ()](/reference/property/transform.md#关键方法)
+### [skewOf ()](/reference/property/skew.md#关键方法)
 
 ### [transformWorld ()](/reference/property/transform.md#相对世界坐标系)
 
-### [scaleOfWorld ()](/reference/property/transform.md#相对世界坐标系)
+### [scaleOfWorld ()](/reference/property/scale.md#相对世界坐标系)
 
-### [skewOfWorld ()](/reference/property/transform.md#相对世界坐标系)
+### [skewOfWorld ()](/reference/property/skew.md#相对世界坐标系)
 
 ### [dropTo ()](/reference/property/dropTo.md)
 
