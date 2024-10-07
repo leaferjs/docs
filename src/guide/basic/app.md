@@ -1,4 +1,4 @@
-# 创建 Leafer
+# 创建 Leafer 应用
 
 Leafer 实例是一个树状结构，[Leafer](/reference/display/Leafer.md) 是根节点（提供了一系列的管理功能），可以往里面添加子元素，并且子元素可以通过 [Group](/reference/display/Group.md) / [Box](/reference/display/Box.md) 层层嵌套，组成一颗复杂的渲染树。
 

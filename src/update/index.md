@@ -806,7 +806,7 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 \- 元素增加 [getTransform()](/reference/property/transform.md#关键方法)， 可获取相对任何父元素的矩阵
 
-\- 元素支持 [transformWorld()](/reference/property/transform.md#相对世界坐标系)、[moveWorld()](/reference/property/transform.md#相对世界坐标系)、[scaleOfWorld()](/reference/property/transform.md#相对世界坐标系)、[rotateOfWorld()](/reference/property/transform.md#相对世界坐标系) 等操作
+\- 元素支持 [transformWorld()](/reference/property/transform.md#相对世界坐标系)、[moveWorld()](/reference/property/position.md#关键方法)、[scaleOfWorld()](/reference/property/scale.md#关键方法)、[rotateOfWorld()](/reference/property/rotation.md#关键方法) 等操作
 
 \- 所有用到 [`ILocationType`](/api/modules.md#ilocationtype) 参数的方法，均已支持 [page 坐标系](/guide/basic/coordinate.md#page)
 

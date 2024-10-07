@@ -62,9 +62,9 @@ Group 会强制子元素跟随 resize，不用设置此参数。
 
 ### [transformWorld ()](/reference/property/transform.md#相对世界坐标系)
 
-### [scaleOfWorld ()](/reference/property/scale.md#相对世界坐标系)
+### [scaleOfWorld ()](/reference/property/scale.md#关键方法)
 
-### [skewOfWorld ()](/reference/property/skew.md#相对世界坐标系)
+### [skewOfWorld ()](/reference/property/skew.md#关键方法)
 
 ### [dropTo ()](/reference/property/dropTo.md)
 
