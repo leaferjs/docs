@@ -62,9 +62,15 @@
 
 `render.end`
 
-### RenderEvent.NEXT
+<!-- ### RenderEvent.NEXT
 
-本轮渲染已完成，预备下一次渲染，可以用于下一帧前的 [动画](/guide/animate/index.md) 计算。
+本轮渲染已完成，预备下一次渲染。 -->
+
+## 请求渲染/动画帧
+
+类似 window.requestAnimateFrame 的跨平台方法，一般为每秒 60 帧。
+
+<<< @/code/platform/render.ts
 
 ## 继承
 

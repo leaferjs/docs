@@ -1518,7 +1518,7 @@ points 属性变为 corners
 
 \- [围绕中心点缩放与旋转](../reference/property/layout.md#关键方法)
 
-\- [基础动画支持](../guide/animate/index.md)
+\- 基础动画支持
 
 \- [擦除功能](../reference/property/eraser.md)
 

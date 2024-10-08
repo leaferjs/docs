@@ -29,7 +29,7 @@ type ImagePaintMode =
   | 'normal' // 正常
   | 'cover' // 覆盖（相当于background-size: cover）
   | 'fit' // 适应 (相当于background-size: contain)
-  | 'strench' // 拉伸，会改变图片比例
+  | 'stretch' // 拉伸，会改变图片比例
   | 'clip' // 裁剪
   | 'repeat' // 平铺 (相当于background-repeat: repeat)
 ```
@@ -180,9 +180,9 @@ type IRepeat = boolean | 'x' | 'y'
 
 <case name="ImageFill" index=3 editor=false></case>
 
-### strench 拉伸模式
+### stretch 拉伸模式
 
-<<< @/code/property/fill/image/strench.ts
+<<< @/code/property/fill/image/stretch.ts
 
 <case name="ImageFill" index=4 editor=false></case>
 

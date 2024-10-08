@@ -98,7 +98,7 @@ import Case from '/component/Case.vue'
 
 ### 使用默认宽高
 
-<<< @/code/display/Image/strench.ts
+<<< @/code/display/Image/stretch.ts
 
 ### 监听图片加载
 
