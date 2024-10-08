@@ -22,6 +22,14 @@ y 轴位置。
 
 位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math#ipointdata)。
 
+```ts
+// 沿 X/Y 轴同时移动 10 像素
+rect.move(10, 10)
+
+// 使用 point 沿 X/Y 轴同时移动 10 像素
+rect.move({ x: 10, y: 10 })
+```
+
 ### moveInner ( addX: `number` | [`IPointData`](../interface/math/Math#ipointdata), addY = 0)
 
 在 [内部坐标系](/guide/basic/coordinate.md) 中位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math#ipointdata)。

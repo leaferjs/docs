@@ -19,11 +19,11 @@ y 轴缩放比例，为负数时表示镜像 Y 轴。
 快速设置 scaleX, scaleY。
 
 ```ts
-leaf.scale = 2 // scaleX = 2, scaleY = 2
-console.log(leaf.scale) // 2
+rect.scale = 2 // scaleX = 2, scaleY = 2
+console.log(rect.scale) // 2
 
-leaf.scale = { x: 1, y: 2 } // scaleX = 1, scaleY = 2
-console.log(leaf.scale) // {x:1, y: 2}
+rect.scale = { x: 1, y: 2 } // scaleX = 1, scaleY = 2
+console.log(rect.scale) // {x:1, y: 2}
 ```
 
 ## 关键方法
