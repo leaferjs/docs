@@ -86,7 +86,7 @@ import Case from '/component/Case.vue'
 
 ### element: [`UI`](/reference/display/UI.md)
 
-选中元素的唯一代表。
+选中元素的唯一代表， 可使用 [element](#element-ui) 元素的属性方法直接移动、调整编辑框。
 
 单选时为选中元素， 多选时为模拟元素（代替多个元素），一般用来同步布局编辑框。
 
@@ -212,6 +212,8 @@ group.hitChildren = false
 更新编辑工具，选择元素后自动调用此方法。
 
 ## 手动操作
+
+另外可使用 [element](#element-ui) 元素的属性方法直接移动、调整编辑框。
 
 ### flip( axis：`'x'` | `'y'` )
 

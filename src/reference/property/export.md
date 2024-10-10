@@ -8,11 +8,15 @@
 
 export( name: [`IExportFileType`](/api/modules.md#iexportfiletype) | `string`, options?: [`IExportOptions`](/api/interfaces/IExportOptions.md) | `number` | `boolean`): `Promise`<[`IExportResult`](/api/interfaces/IExportResult.md)>
 
-支持导出单个元素、画面截图（[App](/reference/display/App.md)实例单独导出只能为画面截图）， 默认导出为 1 倍图。
+支持导出单个元素、画面截图， 默认导出为 1 倍图。
 
 name 为文件名时表示保存文件。
 
 options 为数字时表示图片质量， 为布尔时表示二进制数据 。
+
+:::tip 注意事项
+单独导出 [App](/reference/display/App.md) 实例，只能为画面截图。
+:::
 
 ```ts
 type IExportFileType = 'canvas' | 'json' | 'jpg' | 'png' | 'webp' // 后续会支持svg、pdf

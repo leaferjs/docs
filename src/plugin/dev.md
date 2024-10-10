@@ -1,6 +1,6 @@
 # 插件开发
 
-我们提供了一种非常自由的插件开发方式，并支持跨平台 - [访问 GitHub 插件中心](https://github.com/leaferjs/LeaferX)。
+我们提供了一种非常自由的插件开发方式，并支持跨平台 - [访问 GitHub 插件中心](https://github.com/leaferjs/leafer-x)。
 
 可以通过 [create-leafer 命令行工具](/create/leafer.md#快速创建-leaferx-插件模板) 快速创建插件。
 
@@ -36,10 +36,10 @@ LeaferX.selector # 全局变量
 
 ## 插件开发模版
 
-[Typescript](https://ts.nodejs.cn/) + [Rollup.js](https://www.rollupjs.com/) + [Vite](https://cn.vitejs.dev/guide/) + [Vitest](https://cn.vitest.dev/guide/) [点此下载模版](https://github.com/leaferjs/LeaferX/archive/refs/heads/main.zip)
+[Typescript](https://ts.nodejs.cn/) + [Rollup.js](https://www.rollupjs.com/) + [Vite](https://cn.vitejs.dev/guide/) + [Vitest](https://cn.vitest.dev/guide/) [点此下载模版](https://github.com/leaferjs/leafer-x/archive/refs/heads/main.zip)
 
 ```sh
-git clone https://github.com/leaferjs/LeaferX
+git clone https://github.com/leaferjs/leafer-x
 ```
 
 注意保持和主版本一样的版本号， 后面会做成脚手架。

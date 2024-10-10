@@ -18,7 +18,7 @@ web 版、小程序版。暂时与有 [自动布局](/plugin/in/flow/) 的元素
 
 ## 安装插件
 
-需要安装编辑器插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/in/tree/main/packages/editor)。
+需要安装编辑器插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/editor)。
 
 ::: code-group
 
@@ -42,14 +42,14 @@ bun add @leafer-in/editor
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.0.4/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.0.5/dist/editor.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.0.4/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.0.5/dist/editor.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>

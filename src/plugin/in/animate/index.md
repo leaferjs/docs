@@ -14,7 +14,7 @@ import Case from '/component/Case.vue'
 
 ## 安装插件
 
-需要安装 animate 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/in/tree/main/packages/animate)。
+需要安装 animate 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/animate)。
 
 ::: code-group
 
@@ -42,14 +42,14 @@ bun add @leafer-in/animate
 ::: code-group
 
 ```html [animate.min]
-<script src="https://unpkg.com/@leafer-in/animate@1.0.4/dist/animate.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@1.0.5/dist/animate.min.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
 ```
 
 ```html [animate]
-<script src="https://unpkg.com/@leafer-in/animate@1.0.4/dist/animate.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@1.0.5/dist/animate.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>

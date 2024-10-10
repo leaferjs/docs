@@ -38,10 +38,6 @@ rect.off('pointer.leave', onLeave)
 rect.emit('pointer.enter', { current: rect })
 ```
 
-## 恭喜 🎉
-
-你已完成基础知识的学习，接下来将学习几个重要的进阶知识。
-
 ## 下一步
 
-### [App 结构](/guide/app/multilayer.md)
+### [移除内容](/guide/basic/remove.md)

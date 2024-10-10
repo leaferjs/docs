@@ -34,18 +34,18 @@ bun add @leafer-in/flow
 
 ## 通过 script 标签引入
 
-通过全局变量 LeaferIN.flow 访问插件内部功能，[点此访问 Github 仓库](https://github.com/leaferjs/in/tree/main/packages/flow)。
+通过全局变量 LeaferIN.flow 访问插件内部功能，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/flow)。
 ::: code-group
 
 ```html [flow.min]
-<script src="https://unpkg.com/@leafer-in/flow@1.0.4/dist/flow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.0.5/dist/flow.min.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>
 ```
 
 ```html [flow]
-<script src="https://unpkg.com/@leafer-in/flow@1.0.4/dist/flow.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.0.5/dist/flow.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>

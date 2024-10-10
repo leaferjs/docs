@@ -1,6 +1,6 @@
 # 用户参与
 
-本页面收录用户参与 LeaferJS 的相关内容，展现形式会不断优化，欢迎通过 issues [自荐投稿](https://github.com/leaferjs/LeaferX)。
+本页面收录用户参与 LeaferJS 的相关内容，展现形式会不断优化，欢迎通过 issues [自荐投稿](https://github.com/leaferjs/leafer-x)。
 
 ## 文章
 
@@ -82,6 +82,10 @@
 
 [Leafer Drawing Board](https://alexpang.cn/)<badge>在线简易画板</badge> @子洋
 
+## 前端组件式开发
+
+[leafer-vue](https://github.com/FliPPeDround/leafer-vue)<badge>vue3 组件</badge> @FliPPeDround
+
 ## 代码片段
 
 [网格吸附功能](https://cloudstudio.net/a/21005323573952512?channel=share&sharetype=URL) @Curapica
@@ -93,8 +97,6 @@
 [标尺代码示例](https://cloudstudio.net/a/21175727747055616?channel=share&sharetype=URL) @(இωஇ)
 
 ## 增强功能
-
-[leafer-vue](https://github.com/FliPPeDround/leafer-vue)<badge>vue3 组件</badge> @FliPPeDround
 
 [leafer-compress-text](https://www.npmjs.com/package/leafer-compress-text)<badge>文本压缩、注音</badge> @kooriookami
 

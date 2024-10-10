@@ -12,7 +12,7 @@ import Case from '/component/Case.vue'
 
 ## 安装插件
 
-需要安装 state 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/in/tree/main/packages/state)。
+需要安装 state 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/state)。
 
 ::: code-group
 
@@ -40,11 +40,11 @@ bun add @leafer-in/state
 ::: code-group
 
 ```html [state.min]
-<script src="https://unpkg.com/@leafer-in/state@1.0.4/dist/state.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/state@1.0.5/dist/state.min.js"></script>
 ```
 
 ```html [state]
-<script src="https://unpkg.com/@leafer-in/state@1.0.4/dist/state.js"></script>
+<script src="https://unpkg.com/@leafer-in/state@1.0.5/dist/state.js"></script>
 ```
 
 https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm

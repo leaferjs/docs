@@ -8,7 +8,7 @@
 
 ## 安装插件
 
-需要安装 view 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/in/tree/main/packages/view)。
+需要安装 view 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/view)。
 
 ::: code-group
 
@@ -36,11 +36,11 @@ bun add @leafer-in/view
 ::: code-group
 
 ```html [view.min]
-<script src="https://unpkg.com/@leafer-in/view@1.0.4/dist/view.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/view@1.0.5/dist/view.min.js"></script>
 ```
 
 ```html [view]
-<script src="https://unpkg.com/@leafer-in/view@1.0.4/dist/view.js"></script>
+<script src="https://unpkg.com/@leafer-in/view@1.0.5/dist/view.js"></script>
 ```
 
 https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm

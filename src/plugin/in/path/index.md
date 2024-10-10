@@ -8,7 +8,7 @@
 
 ## 安装插件
 
-需要安装 resize 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/in/tree/main/packages/resize)。
+需要安装 resize 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/resize)。
 
 ::: code-group
 
@@ -36,11 +36,11 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [resize.min]
-<script src="https://unpkg.com/@leafer-in/resize@1.0.4/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.0.5/dist/resize.min.js"></script>
 ```
 
 ```html [resize]
-<script src="https://unpkg.com/@leafer-in/resize@1.0.4/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.0.5/dist/resize.js"></script>
 ```
 
 https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm

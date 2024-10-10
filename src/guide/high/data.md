@@ -21,7 +21,7 @@ public __updateAttr(attrName: string): void {
 
 ##### 数据代理
 
-设置图形的属性后， 经过[数据代理](https://github.com/leaferjs/leafer/blob/main/packages/display-module/src/LeafDataProxy.ts), 最终会被 DataProcessor 实例进行处理并存储，可自定义 [DataProcessor](https://github.com/leaferjs/ui/blob/main/packages/data/src/UIData.ts)。
+设置图形的属性后， 经过[数据代理](https://github.com/leaferjs/leafer/blob/main/packages/display-module/src/LeafDataProxy.ts), 最终会被 DataProcessor 实例进行处理并存储，可自定义 [DataProcessor](https://github.com/leaferjs/leafer-ui/blob/main/packages/data/src/UIData.ts)。
 
 ```ts
 this.__ = new this.__DataProcessor(this) // 初始化 UI 的时候会创建如下数据处理实例

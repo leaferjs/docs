@@ -50,6 +50,8 @@ SVG 导出插件即将进入内测阶段
 
 ## 社区插件
 
+### [leafer-vue](https://leafer-vue.netlify.app)
+
 ### [连线](https://www.npmjs.com/package/leafer-x-connector)
 
 ### [标尺线](https://www.npmjs.com/package/leafer-x-ruler)

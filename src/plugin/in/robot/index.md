@@ -16,7 +16,7 @@ Robot 元素类似于游戏中的精灵元素，集成了帧播放和动作预�
 
 ## 安装插件
 
-需要安装 robot 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/in/tree/main/packages/robot)。
+需要安装 robot 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/robot)。
 
 ::: code-group
 
@@ -44,14 +44,14 @@ bun add @leafer-in/robot
 ::: code-group
 
 ```html [robot.min]
-<script src="https://unpkg.com/@leafer-in/robot@1.0.4/dist/robot.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/robot@1.0.5/dist/robot.min.js"></script>
 <script>
   const { Robot } = LeaferIN.robot
 </script>
 ```
 
 ```html [robot]
-<script src="https://unpkg.com/@leafer-in/robot@1.0.4/dist/robot.js"></script>
+<script src="https://unpkg.com/@leafer-in/robot@1.0.5/dist/robot.js"></script>
 <script>
   const { Robot } = LeaferIN.robot
 </script>

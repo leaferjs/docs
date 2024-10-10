@@ -38,8 +38,6 @@ interface IJSONOptions {
 
 ### 创建方式
 
-<<< @/code/property/json/ui.ts
-
 <<< @/code/property/json/create.ts
 
 <<< @/code/property/json/leafer.ts

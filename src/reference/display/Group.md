@@ -58,10 +58,6 @@
 
 添加多个子元素。
 
-<!-- ### removeAll ( destroy?: `boolean`)
-
-移除内部的所有子元素， destroy 为是否同时销毁移除的子元素。 -->
-
 ### clear ( )
 
 清空所有子元素（移除 + 销毁）。
@@ -83,3 +79,13 @@
 ### 通过 children 属性添加
 
 <<< @/code/display/Group/children.ts
+
+### 使用 tag 对象创建
+
+<<< @/code/basic/display/tag.ts
+
+### 使用条件移除
+
+支持所有 [find()](/reference/property/find.md) 条件参数 。
+
+<<< @/code/basic/display/remove-tag.ts

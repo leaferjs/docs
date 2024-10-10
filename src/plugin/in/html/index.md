@@ -14,7 +14,7 @@ import Case from '/component/Case.vue'
 
 ## 安装插件
 
-需要安装 html 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/in/tree/main/packages/html)。
+需要安装 html 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/html)。
 
 ::: code-group
 
@@ -42,14 +42,14 @@ bun add @leafer-in/html
 ::: code-group
 
 ```html [html.min]
-<script src="https://unpkg.com/@leafer-in/html@1.0.4/dist/html.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/html@1.0.5/dist/html.min.js"></script>
 <script>
   const { HTMLText } = LeaferIN.html
 </script>
 ```
 
 ```html [html]
-<script src="https://unpkg.com/@leafer-in/html@1.0.4/dist/html.js"></script>
+<script src="https://unpkg.com/@leafer-in/html@1.0.5/dist/html.js"></script>
 <script>
   const { HTMLText } = LeaferIN.html
 </script>

@@ -14,7 +14,7 @@ import Case from '/component/Case.vue'
 
 ## 安装插件
 
-需要安装 arrow 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/in/tree/main/packages/arrow)。
+需要安装 arrow 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/arrow)。
 
 ::: code-group
 
@@ -42,14 +42,14 @@ bun add @leafer-in/arrow
 ::: code-group
 
 ```html [arrow.min]
-<script src="https://unpkg.com/@leafer-in/arrow@1.0.4/dist/arrow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.0.5/dist/arrow.min.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
 ```
 
 ```html [arrow]
-<script src="https://unpkg.com/@leafer-in/arrow@1.0.4/dist/arrow.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.0.5/dist/arrow.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>

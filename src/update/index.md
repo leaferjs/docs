@@ -12,6 +12,66 @@ import Case from '/component/Case.vue'
 
 :::
 
+## 2024 / 10 / 10
+
+> v1.0.5
+
+更新内容还在继续完善中～
+
+#### 🍍 社区
+
+\- 🌸 **[leafer-vue](https://github.com/FliPPeDround/leafer-vue)** 前端组件式开发全新上线 🎉🎉🎉 （[@FliPPeDround](https://github.com/FliPPeDround) 提供）
+
+#### 🌱 新增
+
+\- 🌸 图形编辑器支持在多个 leafer 层中选择元素
+
+\- 🌸 图形编辑器多选时，也能使用 [element](/plugin/in/editor/Editor.md#element-ui) 元素的属性方法直接移动、调整编辑框
+
+\- [add()](/guide/basic/display.md#使用-tag) 方法支持传人 JSON 创建元素
+
+\- [remove()](/guide/basic/remove.md#条件移除) 方法支持传入条件移除元素
+
+\- Text 元素增加 autoSizeAlign 属性， 设置没有宽度的文本是否进行整体对齐
+
+\- Box 元素增加 textBox 文本框属性，可在编辑器中双击 Box 元素直接编辑 editable 子文本
+
+\- 应用支持配置是否关闭多点触屏产生的缩放/平移/旋转功能
+
+#### 🪲 修复
+
+\- [animation](/reference/property/animation.md) 初始化 [event](/plugin/in/animate/Animate.md#event-ianimateevents) 监听未生效的问题
+
+\- 曲线箭头元素编辑时会偶尔跑偏的问题
+
+\- Box 元素单独自动宽或自动高时的 bounds 不准确的问题
+
+\- Text 元素单独自动宽或自动高 在 Box 中显示的问题
+
+\- Flow 元素单独自动宽或自动高时排版不准确的问题
+
+\- 图形编辑器多选元素未显示移动光标的问题
+
+\- Box 元素有背景图片没加载完时，内部子元素动画不渲染的问题
+
+\- 自定义编辑工具示例 onCreate 报错的问题
+
+\- 编辑器多选元素不会触发 drag.enter、drop 事件
+
+\- 没有宽度的文本设置了文本对齐，在编辑时定位不正确问题
+
+\- 多选元素时，app.editor 会监听两次交互事件
+
+\- Box 元素会穿透事件的问题
+
+#### 🌿 优化
+
+\- Box 元素阻止解组操作，请使用 Group 元素代替
+
+#### 🌷 感谢反馈
+
+@岁月 @ozar @周明 @xiaou @黄某人 @9kg @江万江 @风之影 @BO @Curapica
+
 ## 2024 / 09 / 25
 
 > v1.0.4
@@ -140,7 +200,7 @@ import Case from '/component/Case.vue'
 
 \- 🌸 [Pen](/reference/display/Pen.md) 元素绘制路径，不再需要手动 paint()， 会自动处理
 
-\- canvas 默认 [pixelRatio](/reference/display/Canvas.md#pixelratio-number) 改为 1， 同 Image 一致，可自行修改 [#175](https://github.com/leaferjs/ui/issues/175)
+\- canvas 默认 [pixelRatio](/reference/display/Canvas.md#pixelratio-number) 改为 1， 同 Image 一致，可自行修改 [#175](https://github.com/leaferjs/leafer-ui/issues/175)
 
 \- 优化图形编辑器的 [lockRatio](/plugin/in/editor/config.md#lockratio-boolean-corner) 体验（拉伸四条边时不跟手）
 
@@ -298,7 +358,7 @@ import Case from '/component/Case.vue'
 
 \- App 支持 [addAt()](/reference/display/App.md#addat-child-leafer-index-number)、 [addBefore()](/reference/display/App.md#addat-child-leafer-index-number)、[addAfter()](/reference/display/App.md#addat-child-leafer-index-number) 方法添加子 Leafer
 
-\- App 结构下支持修改 Leafer 的 [zIndex](/reference/display/Leafer.md#zindex-number) 属性调整层叠顺序 [#70](https://github.com/leaferjs/ui/issues/70)
+\- App 结构下支持修改 Leafer 的 [zIndex](/reference/display/Leafer.md#zindex-number) 属性调整层叠顺序 [#70](https://github.com/leaferjs/leafer-ui/issues/70)
 
 \- 图形编辑器增加 [updateEditBox()](/plugin/in/editor/Editor.md#updateeditbox) 方法，用于多选元素对齐后，手动更新编辑框大小
 
@@ -306,7 +366,7 @@ import Case from '/component/Case.vue'
 
 #### 🪲 修复
 
-\- 🌸 图形编辑器配置没有实时更新的问题 [#150](https://github.com/leaferjs/ui/issues/150)
+\- 🌸 图形编辑器配置没有实时更新的问题 [#150](https://github.com/leaferjs/leafer-ui/issues/150)
 
 \- 文本宽度小于字体大小，首行会自动换行的问题
 
@@ -562,9 +622,9 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 <!-- \- 🌸 文本编辑插件 初步开发完成，即将进入内测阶段。 -->
 
-\- 🌸 元素增加 [dragBounds](/reference/property/draggable.md#dragbounds-iboundsdata-parent) 属性， 可限制在指定范围、父元素中拖动 [#110](https://github.com/leaferjs/ui/issues/110)
+\- 🌸 元素增加 [dragBounds](/reference/property/draggable.md#dragbounds-iboundsdata-parent) 属性， 可限制在指定范围、父元素中拖动 [#110](https://github.com/leaferjs/leafer-ui/issues/110)
 
-\- 🌸 图片填充增加 [normal](/reference/property/paint/image.md#mode-imagepaintmode) 模式 、 [around](/reference/property/paint/image.md#around-idirection) 参数( 按方位自动定位图片) [#131](https://github.com/leaferjs/ui/issues/131)
+\- 🌸 图片填充增加 [normal](/reference/property/paint/image.md#mode-imagepaintmode) 模式 、 [around](/reference/property/paint/image.md#around-idirection) 参数( 按方位自动定位图片) [#131](https://github.com/leaferjs/leafer-ui/issues/131)
 
 \- 🌸 [export()](/reference/property/export.md) 支持直接导出 json 文件
 
@@ -688,7 +748,7 @@ Picker.findList 改为 LeafList 类型
 
 \- 🌸 增加 [config.continuousSelect](/plugin/in/editor/config.md#continuousselect-boolean) 配置，点击可以连续多选元素
 
-\- 🌸 增加 [config.lockMove](/plugin/in/editor/config.md#lockmove-boolean-x-y) 配置，可锁定在 x 或 y 轴移动 [#124](https://github.com/leaferjs/ui/issues/124)
+\- 🌸 增加 [config.lockMove](/plugin/in/editor/config.md#lockmove-boolean-x-y) 配置，可锁定在 x 或 y 轴移动 [#124](https://github.com/leaferjs/leafer-ui/issues/124)
 
 \- 增加 [config.hideOnSmall](/plugin/in/editor/config.md#hideonmove-boolean) 配置，控制元素太小时隐藏控制点
 
@@ -716,9 +776,9 @@ Picker.findList 改为 LeafList 类型
 
 \- 修复固定线宽时，加载 json 数据时报 nowWorld 不存在的问题
 
-\- 导出 Box 元素，scale 设置存在问题 [#105](https://github.com/leaferjs/ui/issues/#105)
+\- 导出 Box 元素，scale 设置存在问题 [#105](https://github.com/leaferjs/leafer-ui/issues/#105)
 
-\- app 导出时 screenshot 的 x 和 y 设置无效 [#109](https://github.com/leaferjs/ui/issues/109)
+\- app 导出时 screenshot 的 x 和 y 设置无效 [#109](https://github.com/leaferjs/leafer-ui/issues/109)
 
 #### 🌿 优化
 
@@ -1232,7 +1292,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- [全新的插件开发方式](/plugin/dev.md)
 
-\- [插件开发模版](https://github.com/leaferjs/LeaferX/blob/main/template.md)
+\- [插件开发模版](https://github.com/leaferjs/leafer-x/blob/main/template.md)
 
 \- [config.cursor](/reference/config/app/base.md#cursor-boolean) 应用配置，可停用光标功能。
 
@@ -1280,7 +1340,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- [LeaferJS 运行、测试、打包环境开放](https://github.com/leaferjs/LeaferJS)
 
-\- [官方插件中心代码库](https://github.com/leaferjs/in)
+\- [官方插件中心代码库](https://github.com/leaferjs/leafer-in)
 
 #### 其他新增
 

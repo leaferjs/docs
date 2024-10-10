@@ -8,7 +8,7 @@
 
 ## 安装插件
 
-需要安装 scroll 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/in/tree/main/packages/scroll)。
+需要安装 scroll 插件才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/scroll)。
 
 ::: code-group
 
@@ -36,14 +36,14 @@ bun add @leafer-in/scroll
 ::: code-group
 
 ```html [scroll.min]
-<script src="https://unpkg.com/@leafer-in/scroll@1.0.4/dist/scroll.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroll@1.0.5/dist/scroll.min.js"></script>
 <script>
   const { ScrollBar } = LeaferIN.scroll
 </script>
 ```
 
 ```html [scroll]
-<script src="https://unpkg.com/@leafer-in/scroll@1.0.4/dist/scroll.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroll@1.0.5/dist/scroll.js"></script>
 <script>
   const { ScrollBar } = LeaferIN.scroll
 </script>
