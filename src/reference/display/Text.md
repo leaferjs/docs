@@ -165,6 +165,12 @@ type IVerticalAlign =
   | 'bottom' // 底部对齐
 ```
 
+### autoSizeAlign: `boolean`
+
+当文本没有宽高且有对齐属性时，是否对齐起点坐标，默认为 true。
+
+如希望文本位置从起点坐标开始，可设为 false。
+
 ### padding: `number` | `number`[]
 
 文本内边距，可分别设置 4 个值。

@@ -155,6 +155,8 @@ group.hitChildren = false
 
 将选中的元素进行解组。
 
+注意 [Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 元素不支持解组，防止产生问题，如需编组/解组，请使用 Group 元素代替
+
 ### 开关组
 
 ### openGroup ( [`IGroup`](/reference/display/Group.md) )
@@ -167,9 +169,11 @@ group.hitChildren = false
 
 ### 内部编辑
 
-### openInnerEditor( target?: [`UI`](/reference/display/UI.md) )
+### openInnerEditor( target?: [`UI`](/reference/display/UI.md), select?: `boolean`)
 
 打开元素的内部编辑器。
+
+支持传入一个可选的 target 进行编辑，select 表示是否同时选中 target。
 
 ### closeInnerEditor()
 

@@ -38,6 +38,14 @@ type IOverflow = 'show' | 'hide'
 
 内部元素在 y 轴上的滚动量。
 
+## 编辑属性
+
+### textBox: `boolean`
+
+是否为文本框，默认为 false。
+
+为文本框时，可在编辑器中双击 Box 元素直接编辑内部的 [editable](/reference/property/editable.md) 子文本，适用于输入框、便利贴、脑图、流程图等编辑文本的场景。
+
 ## 路径模式
 
 ### [path 优先模式](/reference/property/path.md)

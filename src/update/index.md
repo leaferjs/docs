@@ -16,11 +16,9 @@ import Case from '/component/Case.vue'
 
 > v1.0.5
 
-更新内容还在继续完善中～
-
 #### 🍍 社区
 
-\- 🌸 **[leafer-vue](https://github.com/FliPPeDround/leafer-vue)** 前端组件式开发全新上线 🎉🎉🎉 （[@FliPPeDround](https://github.com/FliPPeDround) 提供）
+\- 🌸 **[leafer-vue](https://github.com/FliPPeDround/leafer-vue)** 组件式开发框架全新上线 🎉🎉🎉 （[@FliPPeDround](https://github.com/FliPPeDround) 提供）
 
 #### 🌱 新增
 
@@ -28,49 +26,51 @@ import Case from '/component/Case.vue'
 
 \- 🌸 图形编辑器多选时，也能使用 [element](/plugin/in/editor/Editor.md#element-ui) 元素的属性方法直接移动、调整编辑框
 
-\- [add()](/guide/basic/display.md#使用-tag) 方法支持传人 JSON 创建元素
+\- 组元素 [add()](/guide/basic/display.md#使用-tag) 方法支持传人 JSON 创建元素
 
-\- [remove()](/guide/basic/remove.md#条件移除) 方法支持传入条件移除元素
+\- 组元素 [remove()](/guide/basic/remove.md#条件移除) 方法支持传入条件移除元素
 
-\- Text 元素增加 autoSizeAlign 属性， 设置没有宽度的文本是否进行整体对齐
+\- 🌸 Box 元素增加 [textBox](/reference/display/Box.md#textbox-boolean) 文本框属性，可在编辑器中双击 Box 元素直接编辑 [editable](/reference/property/editable.md) 子文本
 
-\- Box 元素增加 textBox 文本框属性，可在编辑器中双击 Box 元素直接编辑 editable 子文本
+\- Text 元素增加 [autoSizeAlign](/reference/display/Text.md#autosizealign-boolean) 属性， 当文本没有宽高且有对齐属性时，是否对齐起始坐标
 
-\- 应用支持配置是否关闭多点触屏产生的缩放/平移/旋转功能
+\- 应用配置增加 [touch.preventDefault](/reference/config/app/touch.md), 自由控制移动端触屏交互体验
+
+\- 应用配置增加 [multiTouch.disabled](/reference/config/app/multiTouch.md), 控制是否禁用多点触屏产生的缩放/平移/旋转事件
 
 #### 🪲 修复
 
-\- [animation](/reference/property/animation.md) 初始化 [event](/plugin/in/animate/Animate.md#event-ianimateevents) 监听未生效的问题
+\- 🌸 [箭头元素](/plugin/in/arrow/Arrow) 为曲线路径且在编辑器中 resize 到比较小时会跑偏
 
-\- 曲线箭头元素编辑时会偶尔跑偏的问题
+\- 🌸 图形编辑器多选元素不会触发 [drag.enter](/reference/event/ui/Drag.md)、[drop](/reference/event/ui/Drop.md) 事件
 
-\- Box 元素单独自动宽或自动高时的 bounds 不准确的问题
-
-\- Text 元素单独自动宽或自动高 在 Box 中显示的问题
-
-\- Flow 元素单独自动宽或自动高时排版不准确的问题
-
-\- 图形编辑器多选元素未显示移动光标的问题
-
-\- Box 元素有背景图片没加载完时，内部子元素动画不渲染的问题
+\- 图形编辑器多选元素未显示移动光标
 
 \- 自定义编辑工具示例 onCreate 报错的问题
 
-\- 编辑器多选元素不会触发 drag.enter、drop 事件
+\- 多选元素时，app.editor 会监听两次交互事件的问题
 
-\- 没有宽度的文本设置了文本对齐，在编辑时定位不正确问题
+\- [animation](/reference/property/animation.md) 初始化 [event](/plugin/in/animate/Animate.md#event-ianimateevents) 监听未生效的问题
 
-\- 多选元素时，app.editor 会监听两次交互事件
+\- 🌸 Box 元素有背景图片没加载完时，内部子元素动画不渲染
 
 \- Box 元素会穿透事件的问题
 
+\- Box 元素只存在宽或高时包围盒定位不准确，导致内部元素显示位置有问题
+
+\- Text 元素只存在宽或高且有 Padding 时， 在 Box 中显示有问题
+
+\- Flow 元素只存在宽或高且有 Padding 时，排版不准确
+
+\- 没有宽度的文本设置了文本对齐，在进行文本编辑时定位不正确
+
 #### 🌿 优化
 
-\- Box 元素阻止解组操作，请使用 Group 元素代替
+\- [Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 元素不再支持 [解组](/plugin/in/editor/Editor.md#ungroup-ui)，防止产生问题，如需编组/解组，请使用 Group 元素代替
 
 #### 🌷 感谢反馈
 
-@岁月 @ozar @周明 @xiaou @黄某人 @9kg @江万江 @风之影 @BO @Curapica
+[@leidao](https://github.com/leidao) [@ZhuFaRuHuan](https://github.com/ZhuFaRuHuan) [@yy8z7](https://github.com/yy8z7) [@maxfrees](https://github.com/maxfrees) [@i255979](https://github.com/i255979) [@fundgao](https://github.com/fundgao) @岁月 @ozar @周明 @xiaou @黄某人 @9kg @江万江 @风之影 @BO @Curapica
 
 ## 2024 / 09 / 25
 
