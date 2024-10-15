@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # animation
 
-动画属性，支持延时、循环和 seek。可以制作关键帧动画、摇摆动画、过渡动画、路径动画和滚动动画。
+动画属性，支持延时、循环和 seek，可制作过渡动画、摇摆动画、关键帧动画、路径动画。
 
 ::: tip 注意事项
 需安装 [动画插件](/plugin/in/animate/index.md) 才能使用。
