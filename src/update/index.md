@@ -26,7 +26,7 @@ import Case from '/component/Case.vue'
 
 \- 🌸 图形编辑器多选时，也能使用 [element](/plugin/in/editor/Editor.md#element-ui) 元素的属性方法直接移动、调整编辑框
 
-\- 组元素 [add()](/guide/basic/display.md#使用-tag) 方法支持传人 JSON 创建元素
+\- 组元素 [add()](/guide/basic/display.md#使用-tag) 方法支持传入 JSON 创建元素
 
 \- 组元素 [remove()](/guide/basic/remove.md#条件移除) 方法支持传入条件移除元素
 
