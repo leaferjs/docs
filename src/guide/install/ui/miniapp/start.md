@@ -46,9 +46,9 @@ var __TEMP2__ =__TEMP__; Object.defineProperty(exports, k, { enumerable: true, c
 
 ```sh
 
-https://unpkg.com/@leafer-ui/miniapp@1.0.5/dist/miniapp.module.js
+https://unpkg.com/@leafer-ui/miniapp@1.0.6/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-ui/miniapp@1.0.5/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-ui/miniapp@1.0.6/dist/miniapp.module.min.js
 ```
 
 ## 环境
@@ -59,9 +59,11 @@ https://unpkg.com/@leafer-ui/miniapp@1.0.5/dist/miniapp.module.min.js
 
 ## 注意
 
-微信小程序自身加载 svg 图片有问题。
+1. 微信小程序自身加载 svg 图片有问题。
 
-阴影、遮罩（iOS 端 path 类型可用）等正在适配兼容性。
+2. 阴影、遮罩（iOS 端 path 类型可用）等正在适配兼容性。
+
+3. 在 [web-view](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html) 组件中使用时，微信 JS-SDK 上传 PNG 图片会变成 JPG 格式，请使用 HTML5 原生的 input 框上传。
 
 ::: warning 温馨提示
 微信小程序 iOS 端 3.0.0 之后 view 中的 canvas drawImage 无法绘制离屏画布，已找到办法绕过此限制，但仍有部分高级功能用不了（后续会继续适配）。

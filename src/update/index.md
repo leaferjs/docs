@@ -12,6 +12,42 @@ import Case from '/component/Case.vue'
 
 :::
 
+## 2024 / 10 / 20
+
+> v1.0.6
+
+更新内容继续完善中...
+
+#### 🍍 社区
+
+\- 🌸 **[扫雷小游戏](https://canvas.xjq.icu/minesweeper)** [@xjq7](https://github.com/xjq7)
+
+\- 🌸 **[微信表情包制作器](https://canvas.xjq.icu/minesweeper)** <badge>微信小程序</badge> @goosen
+
+#### 🌱 新增
+
+\- 🌸 组元素的 add()、addAt()、addBefore()、addAfter() 方法支持添加数组（多个元素）
+
+\- Line/ Polygon 元素及 路径的 drawPoints() 的 points 属性支持 point 对象数组，可读性更高
+
+\- Path 元素的 path 属性支持 路径命令对象数组， 可读性更高
+
+#### 🪲 修复
+
+\- Image、Canvas、Leafer 导出 JSON 的 matrix 可选项不生效
+
+\- 特定情况下 resize Canvas 报错
+
+\- 特定情况下 销毁 Editor 报错
+
+#### 🌿 优化
+
+\- 优化 Box / Canvas 的 drawAfterFill 绘制
+
+#### 🌷 感谢反馈
+
+[@daLeiStrive](https://github.com/daLeiStrive) [@kooriookami](https://github.com/kooriookami) [@zhangsai521314](https://github.com/zhangsai521314) [@leidao](https://github.com/leidao) [@yurande](https://github.com/yurande) @岁月 @黄某人 @测试用户 @goosen
+
 ## 2024 / 10 / 10
 
 > v1.0.5

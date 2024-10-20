@@ -30,6 +30,8 @@
 
 ## Demo
 
+[扫雷小游戏](https://github.com/yh4922/leaferjs-minesweeper) [@xjq7](https://github.com/xjq7)
+
 [Minesweeper](https://github.com/yh4922/leaferjs-minesweeper) <badge>扫雷小游戏</badge> @杨 🐑🐑
 
 [FlyCut](https://github.com/x007xyz/fly-cut) <badge>在线视频剪辑工具</badge> @x007xyz

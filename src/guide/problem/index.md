@@ -31,3 +31,7 @@ https://nextjs.org/docs/pages/building-your-application/optimizing/lazy-loading#
 ### 画布不断自动扩大导致的卡顿问题
 
 自动布局时，当父容器的宽度或高度为 100%，同时设置 padding 或 border， 会导致画布不断 resize 扩大。
+
+### 微信 JS-SDK 上传 PNG 图片会变成 JPG 格式
+
+请使用 HTML5 原生的 input 框上传。

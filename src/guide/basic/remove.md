@@ -10,7 +10,7 @@ import Case from '/component/Case.vue'
 
 ## 条件移除
 
-支持所有 [find()](/reference/property/find.md) 条件参数 。
+同 [find()](/reference/property/find.md) 方法的参数一致，内部会先 find() 再批量移除。
 
 <<< @/code/basic/display/remove-tag.ts
 
