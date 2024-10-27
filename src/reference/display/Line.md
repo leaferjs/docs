@@ -40,9 +40,11 @@ console.log(line.toPoint) // {x: 0, y: 100})  会根据 width 与 rotation 自�
 
 可通过 points 定义折线。
 
-### points: `number`[]
+### points: `number`[] | [IPointData](../interface/math/Math#ipointdata)[]
 
-通过坐标组 [ x1,y1, x2,y2, ...] 绘制折线。
+可通过坐标数组 [ x1,y1, x2,y2, ...] 绘制折线（高性能）。
+
+或通过坐标对象数组 [ {x, y}, {x, y} ...] 绘制折线 （可读性高，性能一般）。
 
 ### curve: `boolean` | `number`
 

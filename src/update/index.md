@@ -12,17 +12,35 @@ import Case from '/component/Case.vue'
 
 :::
 
+## 2024 / 10 / 23
+
+> v1.0.7
+
+#### 🍊 官方插件
+
+\- 🌸 **[运动路径插件](/plugin/in/motion-path/) 正式上线** 🎉🎉🎉
+
+#### 🌱 新增
+
+\- 🌸 阴影/内阴影支持动画过渡效果
+
+#### 🌿 优化
+
+\- 未添加到页面中的组元素支持 find()、pick() 方法查找元素
+
+#### 🌷 感谢反馈
+
+[@kooriookami](https://github.com/kooriookami) [@stitch007](https://github.com/stitch007) @glk
+
 ## 2024 / 10 / 20
 
 > v1.0.6
-
-更新内容继续完善中...
 
 #### 🍍 社区
 
 \- 🌸 **[扫雷小游戏](https://canvas.xjq.icu/minesweeper)** [@xjq7](https://github.com/xjq7)
 
-\- 🌸 **[微信表情包制作器](https://canvas.xjq.icu/minesweeper)** <badge>微信小程序</badge> @goosen
+\- 🌸 **[创意表情制作器](https://www.leaferjs.com/ui/guide/install/ui/miniapp/start.html#%E9%87%87%E7%94%A8-uniapp-%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%8E%9F%E7%94%9F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A1%88%E4%BE%8B)** <badge>DIY 有趣的微信表情</badge> @goosen
 
 #### 🌱 新增
 

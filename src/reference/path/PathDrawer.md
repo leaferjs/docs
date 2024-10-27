@@ -82,7 +82,7 @@ drawArc(x, y, radius, startAngle?, endAngle?, anticlockwise?)
 
 drawPoints(points, curve?, close?)
 
-通过坐标组 points [ x,y, x,y, x,y ...] 绘制折线。
+通过坐标组 points [ x,y, x,y, x,y ...] 或 [ {x, y}, {x, y} ...] 绘制折线。
 
 curve 表示转换为平滑曲线，设置 0 ～ 1 控制曲率，或设置 true 代表 0.5。
 

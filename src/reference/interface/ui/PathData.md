@@ -20,6 +20,53 @@ const data = 'M 0 0 L 100 100 L 0 100 Z'
 const data = [1, 0, 0, 2, 100, 100, 2, 0, 100, 11] // M 0 0 L 100 100 L 0 100 Z
 ```
 
+### IPathCommandObject
+
+M | L | C | Q | Z 绘图命令的对象，可读性高，方便修改数据，性能一般。
+
+```ts
+export type IPathCommandObject =
+  | MoveToCommandObject
+  | LineToCommandObject
+  | BezierCurveToCommandObject
+  | QuadraticCurveToCommandObject
+  | ClosePathCommandObject // M | L | C | Q | Z   canvas可以绘制的命令
+
+// 路径命令对象
+export interface MoveToCommandObject {
+  name: 'M' //  moveTo
+  x: number
+  y: number
+}
+export interface LineToCommandObject {
+  name: 'L' // lineTo
+  x: number
+  y: number
+}
+
+export interface BezierCurveToCommandObject {
+  name: 'C' // bezierCurveTo
+  x1: number
+  y1: number
+  x2: number
+  y2: number
+  x: number
+  y: number
+}
+
+export interface QuadraticCurveToCommandObject {
+  name: 'Q' // quadraticCurveTo
+  x1: number
+  y1: number
+  x: number
+  y: number
+}
+
+export interface ClosePathCommandObject {
+  name: 'Z' // closePath
+}
+```
+
 ## 绘图命令
 
 ### SVG 命令

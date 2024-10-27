@@ -10,9 +10,11 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### path: [`IPathString`](/reference/interface/ui/PathData#ipathstring) ｜ [`IPathCommandData`](/reference/interface/ui/PathData.md)
+### path: [`IPathString`](/reference/interface/ui/PathData#ipathstring) ｜ [`IPathCommandData`](/reference/interface/ui/PathData.md#ipathcommanddata) ｜ [`IPathCommandObject`](/reference/interface/ui/PathData.md#ipathcommandobject)[]
 
-路径数据，支持 SVG 与 Cavnas [绘图命令](/reference/interface/ui/PathData.md)。
+路径数据，支持 [SVG 绘图字符串](/reference/interface/ui/PathData#ipathstring) 、 [绘图数字数组](/reference/interface/ui/PathData.md#ipathcommanddata)、[绘图对象数组](/reference/interface/ui/PathData.md#ipathcommandobject)。
+
+<!-- 支持 SVG 与 Cavnas [绘图命令](/reference/interface/ui/PathData.md)。 -->
 
 可通过 [pen 画笔](#pen-pathcreator) 快速绘制路径。
 

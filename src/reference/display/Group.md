@@ -18,9 +18,9 @@
 
 ## 关键方法
 
-### add ( child: [`UI`](./UI.md))
+### add ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[])
 
-添加子元素。
+添加子元素，可同时添加多个子元素 add ( [child, child, ...] )。
 
 ### remove ( child: [`UI`](./UI.md)，destroy?: `boolean`)
 
@@ -36,15 +36,15 @@
 
 ## 辅助方法
 
-### addAt ( child: [`UI`](./UI.md), index: `number`)
+### addAt ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[], index: `number`)
 
 添加子元素在指定位置。
 
-### addBefore ( child: [`UI`](./UI.md), before: [`UI`](./UI.md))
+### addBefore ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[], before: [`UI`](./UI.md))
 
 添加子元素在指定的元素前面。
 
-### addAfter ( child: [`UI`](./UI.md), after: [`UI`](./UI.md))
+### addAfter ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[], after: [`UI`](./UI.md))
 
 添加子元素在指定的元素后面。
 
@@ -56,7 +56,7 @@
 
 ### addMany ( child: [`UI`](./UI.md), child[`UI`](./UI.md), ... )
 
-添加多个子元素。
+添加多个子元素，推荐使用 add ( [child, child, ...] ) 代替。
 
 ### clear ( )
 

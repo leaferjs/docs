@@ -6,7 +6,7 @@
 
 ### width: `number`
 
-元素的宽度。
+元素的宽度，仅部分元素支持直接设置。
 
 不支持直接设置的元素、Group 可通过 [resizeWidth()](/reference/property/resize.md) 调整，通过 [boxBounds](/reference/property/bounds.md#boxbounds-iboundsdata) 获取实际宽度 。
 

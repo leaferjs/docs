@@ -33,9 +33,11 @@ sides: 5
 
 可通过 points 定义自由多边形。
 
-### points: `number`[]
+### points: `number`[] | [IPointData](../interface/math/Math#ipointdata)[]
 
-通过坐标组 [ x1,y1, x2,y2, ...] 绘制自由多边形。
+可通过坐标数组 [ x1,y1, x2,y2, ...] 绘制自由多边形（高性能）。
+
+或通过坐标对象数组 [ {x, y}, {x, y} ...] 绘制自由多边形 （可读性高，性能一般）。
 
 ### curve: `boolean` | `number`
 
