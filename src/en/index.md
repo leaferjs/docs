@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 'leafer-ui '
   # text: 'Fast<br/>Beautiful'
-  tagline: '预计11月前启动英文版翻译'
+  tagline: '预计11月启动英文版翻译'
   image:
     src: '/svg/bettery/bettery-100-2.svg'
     width: 240
