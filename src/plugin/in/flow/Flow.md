@@ -8,6 +8,12 @@ import Case from '/component/Case.vue'
 
 [Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 元素也支持自动布局属性（ 需引入此插件包）。
 
+:::tip 注意事项
+
+自动布局的元素频繁变化时，对性能的消耗会比较大，请合理使用，后期会继续优化～
+
+:::
+
 ## 关键属性
 
 ### flow: `boolean` | `IFlowType`
