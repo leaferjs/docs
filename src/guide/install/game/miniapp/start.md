@@ -1,27 +1,27 @@
-# @leafer-editor/miniapp
+# @leafer-game/miniapp
 
 在小程序环境中运行，[了解小程序使用 npm 包的注意事项](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)。
 
-基于 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md)，集成了 [图形编辑器](/plugin/in/editor/)、[视图控制](/plugin/in/view/) 、[滚动条](/plugin/in/view/)、[箭头](/plugin/in/arrow/) 插件，适用于在线图形编辑的场景。
+基于 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md)，集成了 [Robot](/plugin/in/robot/) 、[交互状态](/plugin/in/state/) 、 [动画](/plugin/in/animate/)、[运动路径](/plugin/in/motion-path/) 插件，适用于小游戏场景。
 
 ## 安装
 
 ::: code-group
 
 ```sh[npm]
-npm install @leafer-editor/miniapp
+npm install @leafer-game/miniapp
 ```
 
 ```sh[pnpm]
-pnpm add @leafer-editor/miniapp
+pnpm add @leafer-game/miniapp
 ```
 
 ```sh[yarn]
-yarn add @leafer-editor/miniapp
+yarn add @leafer-game/miniapp
 ```
 
 ```sh[bun]
-bun add @leafer-editor/miniapp
+bun add @leafer-game/miniapp
 ```
 
 :::
@@ -32,9 +32,9 @@ bun add @leafer-editor/miniapp
 
 ```sh
 
-https://unpkg.com/@leafer-editor/miniapp@1.0.8/dist/miniapp.module.js
+https://unpkg.com/@leafer-game/miniapp@1.0.8/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-editor/miniapp@1.0.8/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-game/miniapp@1.0.8/dist/miniapp.module.min.js
 
 
 ```
@@ -58,7 +58,7 @@ https://unpkg.com/@leafer-editor/miniapp@1.0.8/dist/miniapp.module.min.js
 ::: code-group
 
 ```ts [index.ts]
-import { Leafer, Rect } from '@leafer-editor/miniapp'
+import { Leafer, Rect } from '@leafer-game/miniapp'
 
 Page({
   onReady() {

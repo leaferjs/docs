@@ -54,12 +54,6 @@ LeaferJS 是一款好用的 Canvas 渲染引擎，提供革新的体验。可用
 <<< @/code/contest/dragon/dragon.ts
 :::
 
-进行绘制：
-
-::: code-group
-<<< @/code/contest/dragon/step2.ts
-:::
-
 3. 点睛的交互功能，点击龙头加上龙眼，然后龙就活过来，开始按运动路径循环飞行。
 
 ::: code-group

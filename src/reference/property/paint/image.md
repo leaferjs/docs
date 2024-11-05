@@ -38,6 +38,12 @@ type ImagePaintMode =
 
 补充图片格式，目前主要用于通过 url 无法识别的 [svg](../../display/SVG.md) 图片。
 
+### sync?: `boolean`
+
+是否同步更新图片的层级缓存， 默认为 false（可获得性能优化）。
+
+开启同步后，缩放图片的过程中不会产生模糊效果，但会增加性能的开销，请合理使用。
+
 ## 基础属性
 
 ### blendMode?: [`BlendMode`](/reference/property/blendMode.md)

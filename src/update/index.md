@@ -14,6 +14,36 @@ import Case from '/component/Case.vue'
 
 :::
 
+## 2024 / 11 / 05
+
+> v1.0.8
+
+#### 🍍 社区
+
+\- 🌸 **[Leafer + vue3 实现的画板](https://github.com/WHSnhcZDYRZC/drawingBoard)** [@WHSnhcZDYRZC](https://github.com/WHSnhcZDYRZC)
+
+#### 🌱 新增
+
+\- 🌸 [leafer-game](/guide/install/game/start.md) 游戏开发场景包发布，集成常用插件 🎉🎉🎉
+
+\- 🌸 元素 [getPathString()](/reference/property/getPathString.md) 方法支持设置保留小数位长度
+
+\- 图片填充增加渲染优化开关 [fill.sync](/reference/property/paint/image.md#sync-boolean)，可让图片缩放过程中不模糊
+
+#### 🪲 修复
+
+\- leafer-editor 在选中元素的情况下销毁报错 [#239](https://github.com/leaferjs/leafer-ui/issues/239)
+
+\- Text 将 moveable 设为 false，无法触发编辑效果 [#237](https://github.com/leaferjs/leafer-ui/issues/237)
+
+\- 修复微信小游戏 wx.createOffscreenCanvas() 兼容性问题
+
+\- blob url 的透明图片阴影有问题
+
+#### 🌷 感谢反馈
+
+[@Ronbb](https://github.com/Ronbb) [@MellowCo](https://github.com/MellowCo) @黄某人 @TDAD @9kg @蓝色
+
 ## 2024 / 10 / 23
 
 > v1.0.7

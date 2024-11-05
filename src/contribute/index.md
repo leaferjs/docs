@@ -30,6 +30,8 @@
 
 ## Demo
 
+[Leafer + vue3 实现的画板](https://github.com/WHSnhcZDYRZC/drawingBoard) [@WHSnhcZDYRZC](https://github.com/WHSnhcZDYRZC)
+
 [扫雷小游戏](https://github.com/yh4922/leaferjs-minesweeper) [@xjq7](https://github.com/xjq7)
 
 [Minesweeper](https://github.com/yh4922/leaferjs-minesweeper) <badge>扫雷小游戏</badge> @杨 🐑🐑
