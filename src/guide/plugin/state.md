@@ -10,6 +10,8 @@ import Case from '/component/Case.vue'
 ::: tip 注意事项
 需安装 [交互状态插件](/plugin/in/state/) 才能使用， [过渡效果](/reference/property/transition.md) 需安装 [动画插件](/plugin/in/animate/) 。
 
+或直接安装 [leafer-game](/guide/install/game/start.md)（已集成交互状态、动画插件）。
+
 :::
 
 <case name="Transition" editor=false></case>

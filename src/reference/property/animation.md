@@ -7,7 +7,7 @@ import Case from '/component/Case.vue'
 动画属性，支持延时、循环和 seek，可制作过渡动画、摇摆动画、关键帧动画、路径动画。
 
 ::: tip 注意事项
-需安装 [动画插件](/plugin/in/animate/index.md) 才能使用。
+需安装 [动画插件](/plugin/in/animate/index.md) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)（已集成动画插件）。
 :::
 
 <case name="AnimateFrames" editor=false></case>

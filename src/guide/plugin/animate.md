@@ -9,7 +9,7 @@ import Case from '/component/Case.vue'
 支持以 [animation](/reference/property/animation.md)、[transition](/reference/property/transition.md)、[animate() 方法](/reference/property/animate.md)、[Animate 实例](/plugin/in/animate/Animate.md) 等各种方式创建动画。
 
 ::: tip 注意事项
-需安装 [动画插件](/plugin/in/animate/) 才能使用。
+需安装 [动画插件](/plugin/in/animate/) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)（已集成动画插件）。
 
 :::
 

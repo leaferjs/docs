@@ -1,5 +1,7 @@
 # 我们的博客
 
+### [LeaferJS 亮相 AI 大赛，百万博主"小华“爆笑作品夺奖](/blog/2024-11-06.md)
+
 ### [LeaferJS 发布全新动画、状态、过渡、游戏功能](/blog/2024-09-20.md)
 
 ### [LeaferJS × Cloud Studio：好用的 Playground 环境](/blog/2024-08-20.md)

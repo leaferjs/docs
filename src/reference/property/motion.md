@@ -8,6 +8,8 @@ import Case from '/component/Case.vue'
 
 ::: tip 注意事项
 需安装 [运动路径插件](/plugin/in/motion-path/) 才能使用，另外路径动画功能 需安装 [动画插件](/plugin/in/animate/) 。
+
+或直接安装 [leafer-game](/guide/install/game/start.md)（已集成动画、运动路径插件）。
 :::
 
 ## 关键属性

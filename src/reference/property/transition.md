@@ -9,7 +9,7 @@ import Case from '/component/Case.vue'
 与 CSS 略有不同，只能用于元素的状态过渡，如 state、hoverStyle、pressStyle ...
 
 ::: tip 注意事项
-需安装 [动画插件](/plugin/in/animate/index.md) 才能使用。
+需安装 [动画插件](/plugin/in/animate/index.md) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)（已集成动画插件）。
 :::
 
 <case name="AnimateColor" editor=false></case>

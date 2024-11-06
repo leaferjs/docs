@@ -7,7 +7,7 @@ import Case from '/component/Case.vue'
 Robot 元素类似于游戏中的精灵元素，集成了帧播放和动作预设功能，可以快速制作出具有行走和攻击动作的游戏角色。
 
 ::: tip 注意事项
-需安装 [Robot 插件](/plugin/in/robot/) 才能使用。
+需安装 [Robot 插件](/plugin/in/robot/) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)（已集成 Robot 插件）。
 
 :::
 
