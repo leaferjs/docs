@@ -32,9 +32,9 @@ bun add @leafer-draw/miniapp
 
 ```sh
 
-https://unpkg.com/@leafer-draw/miniapp@1.0.8/dist/miniapp.module.js
+https://unpkg.com/@leafer-draw/miniapp@1.0.9/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-draw/miniapp@1.0.8/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-draw/miniapp@1.0.9/dist/miniapp.module.min.js
 
 
 ```

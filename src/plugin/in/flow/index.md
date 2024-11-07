@@ -38,14 +38,14 @@ bun add @leafer-in/flow
 ::: code-group
 
 ```html [flow.min]
-<script src="https://unpkg.com/@leafer-in/flow@1.0.8/dist/flow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.0.9/dist/flow.min.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>
 ```
 
 ```html [flow]
-<script src="https://unpkg.com/@leafer-in/flow@1.0.8/dist/flow.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.0.9/dist/flow.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>
