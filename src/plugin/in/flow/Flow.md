@@ -193,3 +193,7 @@ resize 布局的约束条件
  {x: 'top', y: 'left' | 'resize' | 'scale' | 'center' | 'right'}
 {left: 20, top: 20, right: 50, bottom: 30}
 ``` -->
+
+## 继承
+
+### [Box](/reference/display/Box.md)

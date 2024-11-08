@@ -282,7 +282,3 @@ leafer.unlockLayout()
 ### 监听浏览器 unload 事件自动销毁
 
 <<< @/code/app/unload.ts
-
-## API
-
-### [Leafer](/api/classes/Leafer.md)

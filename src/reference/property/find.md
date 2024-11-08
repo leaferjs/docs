@@ -8,7 +8,7 @@
 
 ### find ( condition: `number` | `string` | `IFindMethod` ): [`UI`](/reference/display/UI.md)[]
 
-通过 [id](/reference/property/layer.md)、[innerId](/reference/property/layer.md#只读属性)、[className](/reference/property/layer.md)、[tag](/reference/property/layer.md#只读属性)、函数 等条件查找元素，返回一个数组。
+通过 [id](/reference/property/id)、[innerId](/reference/property/innerId)、[className](/reference/property/className)、[tag](/reference/property/tag)、函数条件查找元素，返回一个数组。
 
 ### findTag( tag: `number` | `number`[] ): [`UI`](/reference/display/UI.md)[]
 

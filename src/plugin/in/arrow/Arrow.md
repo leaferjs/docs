@@ -80,9 +80,6 @@ interface IPathDataArrowOffset {
 
 ### [Line](/reference/display/Line.md)
 
-## API
-
-### [Arrow](/api/classes/Arrow.md)
 
 ## 示例
 

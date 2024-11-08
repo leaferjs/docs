@@ -22,9 +22,9 @@ HTML 富文本。
 
 LeaferJS 内部对 SVG 渲染做了很多优化，不会有太大的性能影响。
 
-## API
+## 继承
 
-### [HTMLText](/api/classes/HTMLText.md)
+### [Image](/reference/display/Image.md)
 
 ## 示例
 

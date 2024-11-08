@@ -2,33 +2,7 @@
 
 元素基础图层属性。
 
-## 关键属性
-
-### id: `string`
-
-唯一 id。
-
-### className: `string`
-
-分类名，同 HTML 的 className。
-
-### name: `string`
-
-名称。
-
 ## 只读属性
-
-### tag: `string`
-
-标签名（元素的类名），如 `Rect`。
-
-### innerId: `number`
-
-临时创建的内部唯一 id，用于快速识别元素。
-
-### innerName: `string`
-
-临时创建的内部唯一名称，用于快速识别元素。
 
 ### app: [`App`](/reference/display/Leafer.md) ｜ [`Leafer`](/reference/display/Leafer.md)
 
