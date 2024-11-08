@@ -84,4 +84,4 @@ console.log(leaf.scale) // {x:1, y: 2}
 
 ## 归属
 
-### [UI](/reference/display/UI.md#基础属性)
+### [UI](/reference/display/UI.md)

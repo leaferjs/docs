@@ -80,7 +80,7 @@ Leafer 支持手动强制更新光标样式 [updateCursor()](/reference/display/
 
 ## 归属
 
-### [UI](/reference/display/UI.md#交互-光标)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

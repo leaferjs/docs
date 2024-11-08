@@ -18,7 +18,7 @@
 
 ## 属性方法
 
-### [id](/reference/property/layer) &nbsp; &nbsp; [name](/reference/property/layer) &nbsp; &nbsp; [opacity](/reference/property/opacity) &nbsp; &nbsp; [visible](/reference/property/visible) &nbsp; &nbsp; [zIndex](/reference/property/zIndex) &nbsp; &nbsp;
+### [id](/reference/property/id) &nbsp; &nbsp; [name](/reference/property/name) &nbsp; &nbsp; [opacity](/reference/property/opacity) &nbsp; &nbsp; [visible](/reference/property/visible) &nbsp; &nbsp; [zIndex](/reference/property/zIndex) &nbsp; &nbsp;
 
 ### [x](/reference/property/layout) &nbsp; &nbsp;[y](/reference/property/layout) &nbsp; &nbsp;[width](/reference/property/layout#width-number) &nbsp; &nbsp;[height](/reference/property/layout#height-number) &nbsp; &nbsp;[scaleX](/reference/property/layout#scalex-number) &nbsp; &nbsp;[scaleY](/reference/property/layout#scaley-number) &nbsp; &nbsp;[rotation](/reference/property/layout#rotation-number)
 

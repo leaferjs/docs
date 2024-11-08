@@ -33,6 +33,10 @@ rect.motion = {
 
 设为 false 时，表示不设置元素的 rotation。
 
+## 归属
+
+### [UI](/reference/display/UI.md)
+
 ## 示例
 
 <case name="AnimatePath" editor=false height=240></case>

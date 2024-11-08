@@ -14,6 +14,10 @@
 
 元素和运动路径元素都支持调用此方法。
 
+## 归属
+
+### [UI](/reference/display/UI.md)
+
 ## 示例
 
 <<< @/code/contest/dragon/step3.ts

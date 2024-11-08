@@ -48,7 +48,7 @@ new Rect({
 
 ## 归属
 
-### [UI](/reference/display/UI.md#深入事件)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

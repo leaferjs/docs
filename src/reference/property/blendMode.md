@@ -43,4 +43,4 @@ type BlendMode =
 
 ## 归属
 
-### [UI](/reference/display/UI.md#混合模式)
+### [UI](/reference/display/UI.md)

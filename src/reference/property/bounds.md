@@ -100,4 +100,4 @@ new Bounds(rect.getBounds('box', 'local'))
 
 ## 归属
 
-### [UI](/reference/display/UI.md#盒子-变换)
+### [UI](/reference/display/UI.md)

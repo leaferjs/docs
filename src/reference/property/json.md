@@ -48,4 +48,4 @@ interface IJSONOptions {
 
 ## 归属
 
-### [UI](/reference/display/UI.md#导入导出)
+### [UI](/reference/display/UI.md)

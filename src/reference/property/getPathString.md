@@ -14,4 +14,4 @@
 
 ## 归属
 
-### [UI](/reference/display/UI.md#获取路径)
+### [UI](/reference/display/UI.md)

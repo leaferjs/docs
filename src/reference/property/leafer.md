@@ -38,4 +38,4 @@ Leafer 实例的 [缩放平移视图层](/reference/display/Leafer.md#zoomlayer-
 
 ## 归属
 
-### [UI](/reference/display/UI.md#基础属性)
+### [UI](/reference/display/UI.md)

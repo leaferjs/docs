@@ -91,7 +91,7 @@
 
 ## 归属
 
-### [UI](/reference/display/UI.md#坐标)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# 移除内容
+# 移除元素
 
 ## 标准移除
 

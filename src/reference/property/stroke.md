@@ -76,7 +76,7 @@ rect.dashPattern = [20, 10] // [线段，间隙]
 
 ## 归属
 
-### [UI](/reference/display/UI.md#填充-描边)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

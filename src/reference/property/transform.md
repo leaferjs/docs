@@ -74,4 +74,4 @@ transform() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
 
 ## 归属
 
-### [UI](/reference/display/UI.md#盒子-变换)
+### [UI](/reference/display/UI.md)

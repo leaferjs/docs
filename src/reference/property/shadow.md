@@ -29,7 +29,7 @@ interface ShadowEffect {
 
 ## 归属
 
-### [UI](/reference/display/UI.md#滤镜-特效)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

@@ -52,7 +52,7 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 ## 归属
 
-### [UI](/reference/display/UI.md#路径模式)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

@@ -26,4 +26,4 @@
 
 ## 归属
 
-### [UI](/reference/display/UI.md#基础属性)
+### [UI](/reference/display/UI.md)

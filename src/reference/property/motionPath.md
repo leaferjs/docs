@@ -20,6 +20,10 @@ import Case from '/component/Case.vue'
 
 设为运动路径后，所在 Group 内的 其他元素可通过设置运动位置 [motion](./motion.md) 沿此路径运动， 一般会结合 [around](./around.md) 属性重新定位元素。
 
+## 归属
+
+### [UI](/reference/display/UI.md)
+
 ## 示例
 
 <case name="AnimateCar" editor=false ></case>

@@ -24,7 +24,7 @@ type IHitType =
 
 ## 归属
 
-### [UI](/reference/display/UI.md#交互-光标)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

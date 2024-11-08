@@ -38,4 +38,4 @@ rect.skewOf({ x: 50, y: 50 }, 45 - rect.skewX)
 
 ## 归属
 
-### [UI](/reference/display/UI.md#基础属性)
+### [UI](/reference/display/UI.md)

@@ -84,7 +84,7 @@ from: {
 
 ## 归属
 
-### [UI](/reference/display/UI.md#渐变-图案)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

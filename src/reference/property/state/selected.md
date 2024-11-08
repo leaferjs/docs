@@ -24,7 +24,7 @@ import Case from '/component/Case.vue'
 
 ## 归属
 
-### [UI](/reference/display/UI.md#交互状态)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

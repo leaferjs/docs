@@ -28,7 +28,7 @@ type IEraserType =
 
 ## 归属
 
-### [UI](/reference/display/UI.md#裁剪-橡皮擦)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

@@ -72,7 +72,7 @@ Group 会强制子元素跟随 resize，不用设置此参数。
 
 ## 归属
 
-### [UI](/reference/display/UI.md#盒子-变换)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

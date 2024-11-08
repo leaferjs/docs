@@ -20,7 +20,7 @@ pointer.enter 状态， 支持添加 [过渡效果](/reference/property/transiti
 
 ## 归属
 
-### [UI](/reference/display/UI.md#交互状态)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

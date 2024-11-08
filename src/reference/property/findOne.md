@@ -16,7 +16,7 @@
 
 ## 归属
 
-### [UI](/reference/display/UI.md#查找元素)
+### [UI](/reference/display/UI.md)
 
 ## 示例
 

@@ -78,4 +78,4 @@ rect.origin = {
 
 ## 归属
 
-### [UI](/reference/display/UI.md#围绕中心点)
+### [UI](/reference/display/UI.md)

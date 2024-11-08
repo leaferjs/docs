@@ -136,4 +136,4 @@ UI.prototype.createProxyData = function () {
 
 ## 归属
 
-### [UI](/reference/display/UI.md#查找元素)
+### [UI](/reference/display/UI.md)
