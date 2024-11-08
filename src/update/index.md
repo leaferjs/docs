@@ -960,7 +960,7 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 \- 🌸 [Path](/reference/display/Path.md) / 元素 [路径模式](/reference/property/path.md) 支持通过 pen 画笔 快速绘制路径
 
-\- 元素 - [waitParent()](/reference/property/layer.md#辅助方法) 、 [waitLeafer()](/reference/property/layer.md#辅助方法) 增加绑定 this 的参数
+\- 元素 - [waitParent()](/reference/property/parent) 、 [waitLeafer()](/reference/property/leafer) 增加绑定 this 的参数
 
 \- Leafer - [waitReady()](/reference/display/Leafer.md#关键方法) 、[waitViewReady()](/reference/display/Leafer.md#关键方法)、 [waitViewCompleted()](/reference/display/Leafer.md#关键方法) 增加绑定 this 的参数
 
@@ -976,7 +976,7 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 \- 所有用到 [`ILocationType`](/api/modules.md#ilocationtype) 参数的方法，均已支持 [page 坐标系](/guide/basic/coordinate.md#page)
 
-\- 元素增加 [zoomLayer](/reference/property/layer.md#只读属性) 只读属性， 可直接访问 leafer 的缩放层
+\- 元素增加 [zoomLayer](/reference/property/leafer) 只读属性， 可直接访问 leafer 的缩放层
 
 \- Group 创建时支持通过参数 [children](/reference/display/Group.md#通过-children-属性添加) 快速添加子元素实例
 
@@ -1264,7 +1264,7 @@ text.padding // 没有宽高的文本增加padding， 内容的位置会改变�
 
 \- [getLayoutBounds()](/reference/property/bounds.md#关键方法) / [getLayoutPoints](/reference/property/bounds.md#关键方法) 用于获取 OBB 包围盒
 
-\- 元素通过 [app](/reference/property/layer.md#app-app-leafer) 属性快速访问根应用
+\- 元素通过 [app](/reference/property/leafer) 属性快速访问根应用
 
 \- [changeAttr()](/reference/property/custom/changeAttr.md) / [addAttr()](/reference/property/custom/addAttr.md) 自定义元素属性（支持收集变化、导出 JSON）
 
@@ -1472,7 +1472,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- [getInnerTotal()](/reference/event/ui/Drag.md#坐标转换方法) 方法 - DragEvent
 
-\- [nextRender()](/reference/property/layer.md#关键方法) 方法，等待下一次渲染执行方法 - UI
+\- [nextRender()](/reference/property/nextRender) 方法，等待下一次渲染执行方法 - UI
 
 \- [waitReady()](/reference/display/Leafer.md#关键方法) 、[waitViewReady()](/reference/display/Leafer.md#关键方法)、 [waitViewCompleted()](/reference/display/Leafer.md#关键方法) - Leafer
 

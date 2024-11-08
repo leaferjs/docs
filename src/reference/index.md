@@ -34,7 +34,7 @@
 
 ### [set()](/reference/property/data)&nbsp; &nbsp;[get()](/reference/property/data)&nbsp; &nbsp;[reset()](/reference/property/data)&nbsp; &nbsp;[setAttr()](/reference/property/data)&nbsp; &nbsp;[getAttr()](/reference/property/data)&nbsp; &nbsp;[getComputedAttr()](/reference/property/data) &nbsp; &nbsp; [clone()](/reference/property/clone)
 
-### [waitParent()](/reference/property/layer#waitparent-item-function-bind-object) &nbsp; &nbsp; [waitLeafer()](/reference/property/layer#waitleafer-item-function-bind-object) &nbsp; &nbsp;[dropTo()](/reference/property/dropTo.md)
+### [waitParent()](/reference/property/parent#waitparent-item-function-bind-object) &nbsp; &nbsp; [waitLeafer()](/reference/property/leafer#waitleafer-item-function-bind-object) &nbsp; &nbsp;[dropTo()](/reference/property/dropTo.md)
 
 ### [nextRender()](/reference/property/nextRender) &nbsp; &nbsp; [updateLayout()](/reference/property/layout#updatelayout) &nbsp; &nbsp; [forceRender()](/reference/property/forceRender) &nbsp; &nbsp; [forceUpdate()](/reference/property/forceUpdate)
 

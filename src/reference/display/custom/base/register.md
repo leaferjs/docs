@@ -14,7 +14,7 @@
 
 ### 2. 定义标签名
 
-定义全局唯一的 [tag](/reference/property/layer.md#tag-string) 名称。
+定义全局唯一的 [tag](/reference/property/tag) 名称。
 
 导入 json 时，通过 tag 属性查找对应元素类进行实例化。
 
