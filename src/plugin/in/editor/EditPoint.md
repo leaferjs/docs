@@ -26,7 +26,7 @@ enum Direction9 {
 type IEditPointType = 'rotate' | 'resize'
 ```
 
-## 继承
+## 继承元素
 
 ### [Box](/reference/display/Box.md)
 

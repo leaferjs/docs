@@ -38,7 +38,7 @@ before 关闭内部编辑器事件
 
 `innerEditor.close`
 
-## 继承
+## 继承事件
 
 ### [Event](/reference/event/basic/Event.md)
 

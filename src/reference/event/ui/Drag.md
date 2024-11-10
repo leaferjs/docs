@@ -120,7 +120,7 @@ totalX, totalY 属性的坐标转换。
 
 设置拖拽数据，[`drop`](./Drop.md) 事件触发后自动重置。
 
-## 继承
+## 继承事件
 
 ### [PointerEvent](./Pointer)
 

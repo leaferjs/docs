@@ -57,7 +57,7 @@ moveX, moveY 属性的坐标转换。
 
 获取相对于 target [本地坐标](/guide/basic/coordinate.md#local) 的偏移距离，target 不存在时为当前侦听元素。
 
-## 继承
+## 继承事件
 
 ### [DragEvent](./Drag)
 

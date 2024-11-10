@@ -77,7 +77,7 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 
 导入 JSON：通过 url 属性异步加载图片还原 canvas，可监听 [ImageEvent.LOADED](/reference/event/basic/Image.md#imageevent-loaded)。
 
-## 继承
+## 继承元素
 
 ### [Rect](./Rect.md)
 

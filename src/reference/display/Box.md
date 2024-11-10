@@ -50,7 +50,7 @@ type IOverflow = 'show' | 'hide'
 
 ### [path 优先模式](/reference/property/path.md)
 
-## 继承
+## 继承元素
 
 ### [Group](./Group.md) + [Rect](./Rect.md)
 

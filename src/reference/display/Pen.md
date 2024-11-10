@@ -32,7 +32,7 @@ import Case from '/component/Case.vue'
 
 <!--@include: ../path/PathDrawer.md-->
 
-## 继承
+## 继承元素
 
 ### [Group](./Group.md)
 

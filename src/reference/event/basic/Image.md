@@ -44,7 +44,7 @@
 
 `image.error`
 
-## 继承
+## 继承事件
 
 ### [Event](./Event.md)
 

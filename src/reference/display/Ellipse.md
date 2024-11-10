@@ -49,7 +49,7 @@ endAngle: 180
 innerRadius: 0.5
 ```
 
-## 继承
+## 继承元素
 
 ### [UI](./UI.md)
 

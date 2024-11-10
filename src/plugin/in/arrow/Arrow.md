@@ -76,10 +76,9 @@ interface IPathDataArrowOffset {
 
 圆角大小，使折线拐角处变的圆滑。
 
-## 继承
+## 继承元素
 
 ### [Line](/reference/display/Line.md)
-
 
 ## 示例
 

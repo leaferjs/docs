@@ -30,7 +30,7 @@ import Case from '/component/Case.vue'
 type IOverflow = 'show' | 'hide'
 ```
 
-## 继承
+## 继承元素
 
 ### [Box](./Box.md)
 

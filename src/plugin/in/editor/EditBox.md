@@ -76,7 +76,7 @@ Y 轴是否存在镜像翻转（scaleY 为负数）。
 
 获取中间控制点的样式， 返回一个数组。
 
-## 继承
+## 继承元素
 
 ### [Group](/reference/display/Group.md)
 

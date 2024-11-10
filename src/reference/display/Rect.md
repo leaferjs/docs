@@ -31,7 +31,7 @@ cornerRadius: [20, 10] // [ (topLeft-bottomRight), (topRight-bottomLeft)]
 cornerRadius: 20 // all
 ```
 
-## 继承
+## 继承元素
 
 ### [UI](./UI.md)
 

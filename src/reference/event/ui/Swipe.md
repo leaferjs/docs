@@ -28,7 +28,7 @@
 
 `swipe.down`
 
-## 继承
+## 继承事件
 
 ### [DragEvent](./Drag)
 

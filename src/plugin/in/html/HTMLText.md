@@ -22,7 +22,7 @@ HTML 富文本。
 
 LeaferJS 内部对 SVG 渲染做了很多优化，不会有太大的性能影响。
 
-## 继承
+## 继承元素
 
 ### [Image](/reference/display/Image.md)
 

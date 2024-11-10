@@ -46,7 +46,7 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 <!--@include: ../path/PathDrawer.md-->
 
-## 继承
+## 继承元素
 
 ### [UI](./UI.md)
 

@@ -122,7 +122,7 @@ Leafer 实例的子对象。
 
 <<< @/code/app/layer/simple.ts -->
 
-## 继承
+## 继承元素
 
 ### [Leafer](./Leafer.md)
 

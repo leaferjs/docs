@@ -20,7 +20,7 @@ Y 轴移动距离（世界坐标）
 
 `editor.move`
 
-## 继承
+## 继承事件
 
 ### [Event](/reference/event/basic/Event.md)
 

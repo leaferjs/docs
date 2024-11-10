@@ -328,7 +328,7 @@ app.editor.skewOf('center', 45 - element.skewX)
 
 ### [自定义内部编辑器](/plugin/in/editor/editInner/register.md)
 
-## 继承
+## 继承元素
 
 ### [Group](/reference/display/Group.md)
 

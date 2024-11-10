@@ -40,7 +40,7 @@ before 解组事件。
 
 `editor.close_group`
 
-## 继承
+## 继承事件
 
 ### [Event](/reference/event/basic/Event.md)
 

@@ -20,7 +20,7 @@
 
 自定义数据，通过 [DragEvent.setData()](./Drag.md#静态方法) 设置。
 
-## 继承
+## 继承事件
 
 ### [PointerEvent](./Pointer)
 

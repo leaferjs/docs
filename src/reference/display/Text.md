@@ -182,7 +182,7 @@ padding: [20, 10] // [ (top-bottom), (right-left)]
 padding: 20 // all
 ```
 
-## 继承
+## 继承元素
 
 ### [UI](./UI.md)
 

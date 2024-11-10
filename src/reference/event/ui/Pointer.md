@@ -204,7 +204,7 @@ x, y 属性的坐标转换。
 
 获取相对于 relative 的 [本地坐标](/guide/basic/coordinate.md#local) 位置，relative 不存在时为当前侦听元素。
 
-## 继承
+## 继承事件
 
 ### [UIEvent](./UIEvent.md)
 

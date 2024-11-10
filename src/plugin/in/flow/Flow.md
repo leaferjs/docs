@@ -194,6 +194,6 @@ resize 布局的约束条件
 {left: 20, top: 20, right: 50, bottom: 30}
 ``` -->
 
-## 继承
+## 继承元素
 
 ### [Box](/reference/display/Box.md)

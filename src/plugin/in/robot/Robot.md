@@ -58,7 +58,7 @@ interface IRobotActions {
 
 是否循环播放动作中的图片帧。
 
-## 继承
+## 继承元素
 
 ### [UI](/reference/display/UI.md)
 

@@ -267,7 +267,7 @@ leafer.unlockLayout()
 
 ### [ResizeEvent](/reference/event/basic/Resize)
 
-## 继承
+## 继承元素
 
 ### [Group](./Group.md)
 

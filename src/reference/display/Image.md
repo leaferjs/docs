@@ -84,7 +84,7 @@ import Case from '/component/Case.vue'
 
 ### [ImageEvent](/reference/event/basic/Image.md)
 
-## 继承
+## 继承元素
 
 ### [Rect](./Rect.md)
 

@@ -54,7 +54,7 @@ Leafer 事件。
 
 `leafer.end`
 
-## 继承
+## 继承事件
 
 ### [Event](./Event.md)
 

@@ -32,7 +32,7 @@ Y 轴的缩放值
 
 [editor.editBox.enterPoint](../EditBox.md#enterpoint-editpoint) 表示当前正在操作的控制点。
 
-## 继承
+## 继承事件
 
 ### [Event](/reference/event/basic/Event.md)
 
