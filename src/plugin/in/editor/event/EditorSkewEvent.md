@@ -1,6 +1,6 @@
 # EditorSkewEvent
 
-倾斜事件。
+编辑器的倾斜事件，通过 `app.editor.on()` 监听。
 
 ## 事件属性
 
@@ -10,15 +10,15 @@
 
 ### skewX: `number`
 
-X 轴倾斜值。
+X 轴倾斜值（增量）。
 
 ### skewY: `number`
 
-Y 轴倾斜值。
+Y 轴倾斜值（增量）。
 
 ### transform?: [`IMatrixData`](/api/interfaces/IMatrixData.md)
 
-变换属性，当选择多个元素进行倾斜时，内部会通过 transform 操作元素进行变换。
+变换属性（增量），当选择多个元素进行倾斜时，内部会通过 transform 操作元素进行变换。
 
 ## 事件名称
 

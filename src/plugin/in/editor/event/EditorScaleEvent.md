@@ -1,6 +1,6 @@
 # EditorScaleEvent
 
-缩放大小（resize 元素）事件。
+编辑器的调整大小（resize 元素）事件，通过 `app.editor.on()` 监听。
 
 ## 事件属性
 
@@ -10,15 +10,15 @@
 
 ### scaleX: `number`
 
-X 轴的缩放值
+X 轴的缩放值（增量）。
 
 ### scaleY: `number`
 
-Y 轴的缩放值
+Y 轴的缩放值（增量）。
 
 ### transform?: [`IMatrixData`](/api/interfaces/IMatrixData.md)
 
-变换属性，当选择多个元素进行缩放大小时，内部会通过 transform 操作元素进行变换。
+变换属性（增量），当选择多个元素进行缩放大小时，内部会通过 transform 操作元素进行变换。
 
 ## 事件名称
 

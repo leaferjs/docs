@@ -1,6 +1,6 @@
 # InnerEditorEvent
 
-内部编辑器事件。
+编辑器的内部编辑器事件，通过 `app.editor.on()` 监听。
 
 ## 事件属性
 

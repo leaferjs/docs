@@ -1,6 +1,6 @@
 # EditorMoveEvent
 
-移动事件。
+编辑器的移动事件，通过 `app.editor.on()` 监听。
 
 ## 事件属性
 

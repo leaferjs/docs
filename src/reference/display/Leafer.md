@@ -64,6 +64,8 @@ App 实例, 如果不存在则是自身。
 
 <<< @/code/display/Leafer/canvas.ts
 
+可结合 [RenderEvent.END](/reference/event/basic/Render) 事件 drawImage() 到另一张小 canvas 上，实现高性能的鸟瞰图。
+
 ## 视口属性（viewport）
 
 ### zoomLayer：[`Group`](./Group.md)

@@ -4,11 +4,13 @@
 
 实际宽高随子元素变化，不能设置，可以通过 [bounds](/reference/property/bounds.md) 获取实际宽高信息。
 
-## 关键属性
+## 关键属性（只读）
 
 ### children: [`UI`](./UI.md)[]
 
-子元素。
+子元素列表，不能直接操作。
+
+[图形编辑器](/plugin/in/editor/Editor.md#打组) 中使用时，需将 [hitChildren](/reference/property/hitChildren.md) 设为 false，只能通过双击进组编辑子元素。
 
 <!-- ## 辅助属性
 

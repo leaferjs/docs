@@ -1,6 +1,6 @@
 # EditorGroupEvent
 
-编辑组事件。
+编辑器的编组事件，通过 `app.editor.on()` 监听。
 
 ## 事件属性
 

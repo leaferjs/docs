@@ -1,16 +1,16 @@
 # EditorRotateEvent
 
-旋转事件。
+编辑器的旋转事件，通过 `app.editor.on()` 监听。
 
 ## 事件属性
 
 ### rotation: `number`
 
-旋转角度。
+旋转角度（增量）。
 
 ### transform?: [`IMatrixData`](/api/interfaces/IMatrixData.md)
 
-变换属性，当选择多个元素进行旋转时，内部会通过 transform 操作元素进行变换。
+变换属性（增量），当选择多个元素进行旋转时，内部会通过 transform 操作元素进行变换。
 
 ## 事件名称
 
