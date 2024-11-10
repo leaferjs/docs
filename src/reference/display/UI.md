@@ -12,7 +12,7 @@
 
 [parent](/reference/property/parent) &nbsp; &nbsp; [leafer](/reference/property/leafer)
 
-### 数据/克隆
+### 数据 / 克隆
 
 [data](/reference/property/data) &nbsp; &nbsp; [proxyData](/reference/property/proxy) &nbsp; &nbsp; [clone()](/reference/property/clone)
 
@@ -24,17 +24,17 @@
 
 [export()](/reference/property/export.md) &nbsp; &nbsp; [toJSON()](/reference/property/json.md) &nbsp; &nbsp; [toString](/reference/property/json.md#tostring-string)
 
-### 移除/销毁
+### 移除 / 销毁
 
 [remove()](/reference/property/remove) &nbsp; &nbsp; [destroy()](/reference/property/destroy)
 
 ## 📐 元素布局
 
-### 定位/布局
+### 定位 / 布局
 
 [position](/reference/property/position) &nbsp; &nbsp; [size](/reference/property/size) &nbsp; &nbsp; [scale](/reference/property/scale) &nbsp; &nbsp; [flip()](/reference/property/flip) &nbsp; &nbsp; [rotation](/reference/property/rotation) &nbsp; &nbsp; [skew](/reference/property/skew)
 
-### 偏移/调整
+### 偏移 / resize
 
 [offset](/reference/property/offset) &nbsp; &nbsp; [resize](/reference/property/resize)
 
@@ -42,7 +42,7 @@
 
 [origin](/reference/property/origin) &nbsp; &nbsp; [around](/reference/property/around)
 
-### 包围盒/变换
+### 包围盒 / 变换
 
 [bounds](/reference/property/bounds) &nbsp; &nbsp; [transform](/reference/property/transform)
 
@@ -50,23 +50,23 @@
 
 [坐标转换](/reference/property/point/) &nbsp; &nbsp; [快速转换](/reference/property/point/high)
 
-### 层叠/放置
+### 层叠 / 放置
 
 [zIndex](/reference/property/zIndex) &nbsp; &nbsp; [dropTo()](/reference/property/dropTo)
 
 ## 🏼 元素外观
 
-### 透明/可见性
+### 透明 / 可见性
 
 [opacity](/reference/property/opacity)
 
 [visible](/reference/property/visible)
 
-### 填充/描边
+### 填充 / 描边
 
 [fill](/reference/property/fill) &nbsp; &nbsp; [stroke](/reference/property/stroke)
 
-### 渐变/图像
+### 渐变 / 图像
 
 [linear](/reference/property/paint/linear) &nbsp; &nbsp; [radial](/reference/property/paint/radial) &nbsp; &nbsp; [angular](/reference/property/paint/angular) &nbsp; &nbsp; [solid](/reference/property/paint/solid) &nbsp; &nbsp; [image](/reference/property/paint/image)
 
@@ -74,7 +74,7 @@
 
 [shadow](/reference/property/shadow) &nbsp; &nbsp; [innerShadow](/reference/property/innerShadow)
 
-### 裁剪/擦除
+### 裁剪 / 擦除
 
 [clip](/reference/property/clip) &nbsp; &nbsp; [mask](/reference/property/mask) &nbsp; &nbsp; [eraser](/reference/property/eraser)
 
@@ -88,7 +88,7 @@
 
 [hittable](/reference/property/hit) &nbsp; &nbsp; [hitChildren](/reference/property/hitChildren) &nbsp; &nbsp; [hitSelf](/reference/property/hitSelf) &nbsp; &nbsp; [hitFill](/reference/property/hitFill) &nbsp; &nbsp; [hitStroke](/reference/property/hitStroke)
 
-### 编辑/拖拽
+### 编辑 / 拖拽
 
 [editable](/reference/property/editable) &nbsp; &nbsp; [draggable](/reference/property/draggable)
 
