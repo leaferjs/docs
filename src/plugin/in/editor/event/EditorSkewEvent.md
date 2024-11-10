@@ -36,6 +36,6 @@ Y 轴倾斜值。
 
 ### [Event](/reference/event/basic/Event.md)
 
-## API
+<!-- ## API
 
-### [EditorSkewEvent](/api/classes/EditorSkewEvent.md)
+### [EditorSkewEvent](/api/classes/EditorSkewEvent.md) -->

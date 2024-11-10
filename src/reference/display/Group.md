@@ -10,11 +10,11 @@
 
 子元素。
 
-## 辅助属性
+<!-- ## 辅助属性
 
 ### zIndex: `number`
 
-子元素可以通过设置 zIndex 控制自身在 父 Group 中的层叠顺序, 默认为 0。
+子元素可以通过设置 zIndex 控制自身在 父 Group 中的层叠顺序, 默认为 0。 -->
 
 ## 关键方法
 
@@ -34,6 +34,10 @@
 
 移除 + 销毁当前元素，同时会销毁所有子元素。
 
+### clear ( )
+
+清空所有子元素（移除 + 销毁）。
+
 ## 辅助方法
 
 ### addAt ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[], index: `number`)
@@ -48,19 +52,16 @@
 
 添加子元素在指定的元素后面。
 
-### clone ( ):[`UI`](/reference/display/UI.md)
+<!-- ### clone ( ):[`UI`](/reference/display/UI.md)
 
-克隆当前元素。
+克隆当前元素。 -->
 
-### 批量操作
+<!-- ### 批量操作
 
 ### addMany ( child: [`UI`](./UI.md), child[`UI`](./UI.md), ... )
 
 添加多个子元素，推荐使用 add ( [child, child, ...] ) 代替。
-
-### clear ( )
-
-清空所有子元素（移除 + 销毁）。
+ -->
 
 ## 继承元素
 

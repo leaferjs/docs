@@ -86,6 +86,6 @@
 
 ### [InnerEditor](./InnerEditor.md)
 
-## API
+<!-- ## API
 
-### [EditTool](/api/classes/EditTool.md)
+### [EditTool](/api/classes/EditTool.md) -->

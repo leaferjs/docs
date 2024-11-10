@@ -62,9 +62,9 @@ interface IRobotActions {
 
 ### [UI](/reference/display/UI.md)
 
-## API
+<!-- ## API
 
-### [Robot](/api/classes/Robot.md)
+### [Robot](/api/classes/Robot.md) -->
 
 ## 示例
 

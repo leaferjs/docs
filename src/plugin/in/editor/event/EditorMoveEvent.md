@@ -24,6 +24,6 @@ Y 轴移动距离（世界坐标）
 
 ### [Event](/reference/event/basic/Event.md)
 
-## API
+<!-- ## API
 
-### [EditorMoveEvent](/api/classes/EditorMoveEvent.md)
+### [EditorMoveEvent](/api/classes/EditorMoveEvent.md) -->

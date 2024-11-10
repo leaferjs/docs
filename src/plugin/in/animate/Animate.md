@@ -307,9 +307,9 @@ animate.on('created', (animate) => {
 })
 ```
 
-## API
+<!-- ## API
 
-### [Animate](/api/classes/Animate.md)
+### [Animate](/api/classes/Animate.md) -->
 
 ## 示例
 

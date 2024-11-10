@@ -42,10 +42,11 @@ hover 元素事件。
 
 `editor.hover`
 
-## 继承
+## 继承事件
 
 ### [Event](/reference/event/basic/Event.md)
 
+<!--
 ## API
 
-### [EditorEvent](/api/classes/EditorEvent.md)
+### [EditorEvent](/api/classes/EditorEvent.md) -->

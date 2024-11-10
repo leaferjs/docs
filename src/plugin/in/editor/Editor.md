@@ -332,9 +332,9 @@ app.editor.skewOf('center', 45 - element.skewX)
 
 ### [Group](/reference/display/Group.md)
 
-## API
+<!-- ## API
 
-### [Editor](/api/classes/Editor.md)
+### [Editor](/api/classes/Editor.md) -->
 
 ## 示例
 

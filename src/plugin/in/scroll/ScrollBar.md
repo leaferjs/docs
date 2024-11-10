@@ -36,9 +36,9 @@ type IScrollBarTheme = 'light' | 'dark' | IBoxInputData
 
 ### [Group](/reference/display/Group.md)
 
-## API
+<!-- ## API
 
-### [ScrollBar](/api/classes/ScrollBar.md)
+### [ScrollBar](/api/classes/ScrollBar.md) -->
 
 ## 示例
 

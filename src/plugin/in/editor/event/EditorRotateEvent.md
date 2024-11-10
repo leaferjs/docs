@@ -28,6 +28,6 @@
 
 ### [Event](/reference/event/basic/Event.md)
 
-## API
+<!-- ## API
 
-### [EditorRotateEvent](/api/classes/EditorRotateEvent.md)
+### [EditorRotateEvent](/api/classes/EditorRotateEvent.md) -->

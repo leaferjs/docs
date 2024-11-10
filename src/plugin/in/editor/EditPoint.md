@@ -1,6 +1,6 @@
 # EditPoint
 
-编辑控制点。
+编辑框内的控制点。
 
 ## 关键属性
 
@@ -30,6 +30,6 @@ type IEditPointType = 'rotate' | 'resize'
 
 ### [Box](/reference/display/Box.md)
 
-## API
+<!-- ## API
 
-### [EditPoint](/api/classes/EditPoint.md)
+### [EditPoint](/api/classes/EditPoint.md) -->

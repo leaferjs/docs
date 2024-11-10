@@ -36,6 +36,6 @@ Y 轴的缩放值
 
 ### [Event](/reference/event/basic/Event.md)
 
-## API
+<!-- ## API
 
-### [EditorScaleEvent](/api/classes/EditorScaleEvent.md)
+### [EditorScaleEvent](/api/classes/EditorScaleEvent.md) -->

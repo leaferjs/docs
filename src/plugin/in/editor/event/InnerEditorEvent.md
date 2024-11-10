@@ -42,6 +42,6 @@ before 关闭内部编辑器事件
 
 ### [Event](/reference/event/basic/Event.md)
 
-## API
+<!-- ## API
 
-### [InnerEditorEvent](/api/classes/InnerEditorEvent.md)
+### [InnerEditorEvent](/api/classes/InnerEditorEvent.md) -->

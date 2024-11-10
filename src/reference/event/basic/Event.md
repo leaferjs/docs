@@ -65,6 +65,7 @@
 
 同时会调用原生事件的 preventDefault()
 
+<!--
 ## API
 
-### [Event](/api/classes/Event.md)
+### [Event](/api/classes/Event.md) -->

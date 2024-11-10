@@ -68,6 +68,6 @@
 
 ### [自定义内部编辑器](/plugin/in/editor/editInner/register.md)
 
-## API
+<!-- ## API
 
-### [InnerEditor](/api/classes/InnerEditor.md)
+### [InnerEditor](/api/classes/InnerEditor.md) -->

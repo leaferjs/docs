@@ -44,6 +44,6 @@ before 解组事件。
 
 ### [Event](/reference/event/basic/Event.md)
 
-## API
+<!-- ## API
 
-### [EditorGroupEvent](/api/classes/EditorGroupEvent.md)
+### [EditorGroupEvent](/api/classes/EditorGroupEvent.md) -->

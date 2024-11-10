@@ -80,6 +80,6 @@ Y 轴是否存在镜像翻转（scaleY 为负数）。
 
 ### [Group](/reference/display/Group.md)
 
-## API
+<!-- ## API
 
-### [EditBox](/api/classes/EditBox.md)
+### [EditBox](/api/classes/EditBox.md) -->
