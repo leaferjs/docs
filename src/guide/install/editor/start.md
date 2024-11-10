@@ -32,7 +32,7 @@ bun add leafer-editor
 
 同时我们提供了 [Playground 环境](/guide/runtime.md) 和 [create-leafer 命令行工具](/create/leafer.md)，方便大家直接体验官网示例。
 
-## 通过 script 标签引入
+### 通过 script 标签引入
 
 ::: code-group
 

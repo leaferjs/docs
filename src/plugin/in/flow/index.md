@@ -32,7 +32,7 @@ bun add @leafer-in/flow
 
 :::
 
-## 通过 script 标签引入
+### 通过 script 标签引入
 
 通过全局变量 LeaferIN.flow 访问插件内部功能，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/flow)。
 ::: code-group

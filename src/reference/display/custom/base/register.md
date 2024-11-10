@@ -4,6 +4,22 @@
 
 注册成功后可以导入导出 [JSON](/reference/property/json.md) 。
 
+## 注意事项
+
+TypeScript 环境需在 `tsconfig.json` 配置文件中开启装饰器功能支持：
+
+::: code-group
+
+```json [tsconfig.json]
+{
+  "compilerOptions": {
+    "experimentalDecorators": true // 开启装饰器功能
+  }
+}
+```
+
+:::
+
 ## 注册步骤
 
 ### 1. 注册元素

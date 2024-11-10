@@ -4,6 +4,22 @@
 
 内部编辑器一般用来编辑文本、路径等内部细节，通过双击元素打开。
 
+## 注意事项
+
+TypeScript 环境需在 `tsconfig.json` 配置文件中开启装饰器功能支持：
+
+::: code-group
+
+```json [tsconfig.json]
+{
+  "compilerOptions": {
+    "experimentalDecorators": true // 开启装饰器功能
+  }
+}
+```
+
+:::
+
 ## 注册步骤
 
 ### 1. 注册内部编辑器

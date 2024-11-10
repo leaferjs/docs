@@ -4,6 +4,22 @@
 
 编辑工具一般用来编辑元素的尺寸、外形，选中元素时会自动载入。
 
+## 注意事项
+
+TypeScript 环境需在 `tsconfig.json` 配置文件中开启装饰器功能支持：
+
+::: code-group
+
+```json [tsconfig.json]
+{
+  "compilerOptions": {
+    "experimentalDecorators": true // 开启装饰器功能
+  }
+}
+```
+
+:::
+
 ## 注册步骤
 
 ### 1. 注册编辑工具

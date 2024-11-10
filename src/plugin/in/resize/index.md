@@ -30,7 +30,7 @@ bun add @leafer-in/resize
 
 :::
 
-## 通过 script 标签引入
+### 通过 script 标签引入
 
 通过全局变量 LeaferIN.resize 访问插件内部功能。
 ::: code-group

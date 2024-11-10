@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 图形编辑器，可移动、缩放、旋转、倾斜，支持多选、框选、打组、锁定、层级，[可配置样式](./config.md)。
 
-支持自定义 [编辑工具](/plugin/in/editor/editOuter/register.md)、 [内部编辑器](/plugin/in/editor/editInner/register.md)。
+支持自定义 [编辑工具](/plugin/in/editor/EditTool.md)、 [内部编辑器](/plugin/in/editor/InnerEditor.md)。
 
 <case name="Editor" select=0></case>
 
