@@ -42,6 +42,8 @@ importScripts('https://unpkg.com/@leafer-ui/worker@1.0.9/dist/worker.js')
 
 :::
 
+https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+
 ## 体验
 
 通过 Worker 创建一张包含矩形的画布，并在主线程生成图片显示。

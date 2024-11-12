@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: 'leafer-ui '
+  name: 'LeaferJS'
   # text: 'Fast<br/>Beautiful'
   tagline: '预计11月启动英文版翻译'
   image:
@@ -14,9 +14,9 @@ hero:
     - theme: brand
       text: 快速上手
       link: /guide/
-    # - theme: alt
-    #   text: 参考手册
-    #   link: /reference/
+    - theme: alt
+      text: 前往官网
+      link: https://www.leaferjs.com
 
 features:
   - icon: 🛠
