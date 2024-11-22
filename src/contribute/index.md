@@ -30,6 +30,8 @@
 
 ## Demo
 
+[点阵背景效果](https://github.com/tuntun0609/leafer-x-dot-matrix) [@tuntun](https://github.com/tuntun0609)
+
 [Leafer + vue3 实现的画板](https://github.com/WHSnhcZDYRZC/drawingBoard) [@WHSnhcZDYRZC](https://github.com/WHSnhcZDYRZC)
 
 [扫雷小游戏](https://github.com/yh4922/leaferjs-minesweeper) [@xjq7](https://github.com/xjq7)
@@ -109,6 +111,8 @@
 ## 插件
 
 #### 新版
+
+[leafer-x-dot-matrix](https://www.npmjs.com/package/leafer-x-dot-matrix) <badge>点阵背景插件</badge> [@tuntun](https://github.com/tuntun0609)
 
 [leafer-x-tooltip-canvas](https://www.npmjs.com/package/leafer-x-tooltip-canvas) <badge>canvas 版提示框插件</badge> @糖颂缘冥倾
 
