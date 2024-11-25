@@ -1,8 +1,8 @@
 # Group
 
-创建 Group。用于组合多个子元素，自身没有填充/描边样式，可以定位、不断嵌套。
+创建 Group。类似于 HTML5 中的 DIV，但自身没有填充/描边等外观样式，用于组合多个子元素，可设置 x、y、scale、rotation 等属性，子元素相对其进行定位，支持不断嵌套。
 
-实际宽高随子元素变化，不能设置，可以通过 [bounds](/reference/property/bounds.md) 获取实际宽高信息。
+实际宽高随子元素变化，不能设置 width / hegiht，需通过 [bounds](/reference/property/bounds.md) 获取实际宽高信息。
 
 ## 关键属性（只读）
 
