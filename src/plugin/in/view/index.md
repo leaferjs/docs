@@ -36,11 +36,11 @@ bun add @leafer-in/view
 ::: code-group
 
 ```html [view.min]
-<script src="https://unpkg.com/@leafer-in/view@1.0.9/dist/view.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/view@1.0.10/dist/view.min.js"></script>
 ```
 
 ```html [view]
-<script src="https://unpkg.com/@leafer-in/view@1.0.9/dist/view.js"></script>
+<script src="https://unpkg.com/@leafer-in/view@1.0.10/dist/view.js"></script>
 ```
 
 https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm

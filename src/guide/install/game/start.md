@@ -37,7 +37,7 @@ bun add leafer-game
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-game@1.0.9/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-game@1.0.10/dist/web.min.js"></script>
 <script>
   const { Leafer, Robot, Animate } = LeaferUI
   // ...
@@ -45,7 +45,7 @@ bun add leafer-game
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-game@1.0.9/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-game@1.0.10/dist/web.js"></script>
 <script>
   const { Leafer, Robot, Animate } = LeaferUI
   // ...
@@ -58,7 +58,7 @@ bun add leafer-game
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-game@1.0.9/dist/web.module.min.js'
+  } from 'https://unpkg.com/leafer-game@1.0.10/dist/web.module.min.js'
   // ...
 </script>
 ```
@@ -69,7 +69,7 @@ bun add leafer-game
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-game@1.0.9/dist/web.module.js'
+  } from 'https://unpkg.com/leafer-game@1.0.10/dist/web.module.js'
   // ...
 </script>
 ```

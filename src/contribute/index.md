@@ -4,11 +4,27 @@
 
 ## 文章
 
+[【随易访谈】三年磨一剑，LeaferJS 图形框架，绝境中盛开-万超](https://mp.weixin.qq.com/s/uYa-ZFZRik0inh2bmusBbA) @陈随易
+
+[【前端新风向】LeaferJS：革新级图形引擎，前端开发的新利器！](https://mp.weixin.qq.com/s/nJc5LEXTmjXBz6sVvEhScg) @web 前端智汇堂
+
+[[开源]一款好用的 Canvas 引擎，革新的开发体验，可结合 AI 绘图、生成界面](https://mp.weixin.qq.com/s/KyQrgMDlzkKOEIY7k0VLcQ) @一飞开源
+
 [LeaferJS，全新的 Canvas 渲染引擎](https://juejin.cn/post/7256386855721074747)<badge>源码性能分析</badge> @null
 
 [最新发布！免费开源图片&海报编辑器工具](https://juejin.cn/post/7356055073586315315) @馒头
 
+## 视频
+
+[全新的图形渲染引擎，更快了](https://www.douyin.com/video/7399602821546380607) @茄子懂编程 🙈
+
+[这个前端插件竟然能画龙](https://www.douyin.com/video/7431130743629286690) @程序员 Rain
+
 ## 教程
+
+[我将 fabricjs 换为了 leaferjs](https://juejin.cn/post/7440830008123310132) @前端雾恋
+
+[leaferjs 元素的基本使用](https://juejin.cn/post/7440830008123310132) @前端雾恋
 
 [element-plus-leafer 文档](https://kooriookami.github.io/element-plus-leafer-docs/zh-CN/) @kooriookami
 
@@ -111,6 +127,8 @@
 ## 插件
 
 #### 新版
+
+[figma 初步转 leafer 元素](https://figrender-leafer.netlify.app) [@jianghanyue](https://github.com/jianghanyue)
 
 [leafer-x-dot-matrix](https://www.npmjs.com/package/leafer-x-dot-matrix) <badge>点阵背景插件</badge> [@tuntun](https://github.com/tuntun0609)
 
