@@ -47,7 +47,7 @@ const path = new Path({
 
 ### local
 
-**本地坐标系:** 相对于父元素的坐标（相对坐标），类似 HTML 的 offset 坐标系
+**本地坐标系:** 相对父元素的坐标（相对坐标），类似 HTML 的 offset 坐标系
 
 以父元素为起点（0，0），如元素的 x、y、scaleX、scaleY、rotation 属性，可以把父元素想象成房子所在的小区，内部坐标想转换为本地坐标，会受元素的 x、y、scaleX、scaleY、rotation 影响。
 
@@ -62,13 +62,13 @@ const path = new Path({
 
 ### page
 
-**场景坐标系:** 相对于 leafer 缩放层的坐标（leafer 页面坐标）， 类似 HTML 的 page 坐标系
+**场景坐标系:** 相对 [缩放层](/reference/display/Leafer.md#zoomlayer-group) 的坐标（leafer 内容层坐标）， 类似 HTML 的 page 坐标系
 
-以 leafer [缩放层](/reference/display/Leafer.md#zoomlayer-group) 为起点（0，0），缩放层一般是 leafer 自身， 根元素添加在这个坐标系中。
+以 leafer [缩放层](/reference/display/Leafer.md#zoomlayer-group) 为起点（0，0），一般是 leafer 自身， 第一层的根元素添加在这个坐标系中。
 
 ### world
 
-**世界坐标系:** 在画布上的坐标（视口坐标），类似 HTML 的 client 坐标系
+**世界坐标系:** 在画布上的坐标（画布视口坐标），类似 HTML 的 window / client 坐标系
 
 以画布左上角为起点（0，0），交互事件中的坐标基本都是世界坐标系，可以把画布想象成游戏世界，内部坐标想转换为世界坐标，会受元素及中间层级元素的 x、y、scaleX、scaleY、rotation 影响。
 
