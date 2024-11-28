@@ -128,6 +128,8 @@
 
 #### 新版
 
+[leafer-x-edit-toolbar](https://www.npmjs.com/package/leafer-x-edit-toolbar) <badge>编辑辅助工具栏插件</badge> [@tJiyu Shao](https://github.com/JiyuShao)
+
 [figma 初步转 leafer 元素](https://figrender-leafer.netlify.app) [@jianghanyue](https://github.com/jianghanyue)
 
 [leafer-x-dot-matrix](https://www.npmjs.com/package/leafer-x-dot-matrix) <badge>点阵背景插件</badge> [@tuntun](https://github.com/tuntun0609)
