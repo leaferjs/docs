@@ -126,7 +126,15 @@
 
 ## 插件
 
+#### 赞助
+
+[leafer-x-guide-line](http://afdian.com/item/d2f62a74b13611ef99b75254001e7c00) <badge>吸附线插件</badge> [@毛豆花生](http://afdian.com/a/huaisheng)
+
 #### 新版
+
+[leafer-x-path-editor](https://www.npmjs.com/package/leafer-x-path-editor) <badge>路径编辑器插件</badge> [@xjq7](https://github.com/xjq7)
+
+[leafer-x-snap](https://www.npmjs.com/package/leafer-x-snap) <badge>吸附插件</badge> [@tuntun](https://github.com/tuntun0609)
 
 [leafer-x-edit-toolbar](https://www.npmjs.com/package/leafer-x-edit-toolbar) <badge>编辑辅助工具栏插件</badge> [@tJiyu Shao](https://github.com/JiyuShao)
 

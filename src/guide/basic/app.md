@@ -18,7 +18,7 @@ view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字�
 
 ## 创建自适应布局的应用
 
-当画布的父节点尺寸改变后会自动 resize， 了解[自适应布局](/reference/config/app/canvas.md#自适应布局属性)。
+当画布的父节点尺寸改变后会自动 resize， 了解[自适应布局](/reference/config/app/canvas.md#自适应布局)。
 
 <<< @/code/basic/app/auto.ts
 
