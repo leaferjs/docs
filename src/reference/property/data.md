@@ -16,9 +16,19 @@
 
 ## 关键方法
 
-### set ( data?: [`IUIInputData`](/api/interfaces/IUIInputData.md))
+### set ( data?: [`IUIInputData`](/api/interfaces/IUIInputData.md), transition?: [`ITranstion`](/reference/property/transition.md#transition-itranstion))
 
-设置元素样式。
+设置元素样式，`transition` 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
+
+```ts
+// 设置 x、y 属性
+rect.set({ x: 100, y: 200 })
+
+// 动画过渡
+rect.set({ x: 100, y: 200 }, true)
+
+rect.set({ x: 100, y: 200 }, 2) // 过渡 2 秒
+```
 
 ### reset ( data?: [`IUIInputData`](/api/interfaces/IUIInputData.md))
 

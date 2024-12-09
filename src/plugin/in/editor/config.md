@@ -297,6 +297,35 @@ press 为鼠标按下触发， tap 为单击触发。
 
 是否启用倾斜， 默认启用。
 
+## 内部编辑器属性
+
+### textEditor： `object`
+
+文本编辑器的自定义配置。
+
+```ts
+// 内部通过此方式访问
+app.editor.mergeConfig.textEditor
+```
+
+### pathEditor： `object`
+
+路径编辑器的自定义配置。
+
+```ts
+// 内部通过此方式访问
+app.editor.mergeConfig.pathEditor
+```
+
+### ...Editor
+
+可依次扩展自定义配置对象。
+
+```ts
+// 内部通过此方式访问
+app.editor.mergeConfig.anyEditor
+```
+
 ## 示例
 
 <case name="EditorConfig" index=4 x=20></case>

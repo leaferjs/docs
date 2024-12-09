@@ -38,7 +38,13 @@ interface IRobotKeyframe {
 
 ```ts
 interface IRobotActions {
-  [name: string]: number | number[] // 图片帧编号（默认从0开始）
+  [name: string]: number | number[] | IRobotAnimation // 图片帧编号（默认从0开始）
+}
+
+interface IRobotAnimation {
+  keyframes: number[] // 图片帧编号
+  loop?: boolean | number
+  FPS?: number
 }
 ```
 

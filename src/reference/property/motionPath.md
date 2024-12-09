@@ -20,6 +20,12 @@ import Case from '/component/Case.vue'
 
 设为运动路径后，所在 Group 内的 其他元素可通过设置运动位置 [motion](./motion.md) 沿此路径运动， 一般会结合 [around](./around.md) 属性重新定位元素。
 
+### motionPrecision: `number`
+
+设置运动路径的精度值，用于控制提取运动路径上指定点的精度，默认为 1 (表示精确到 1px)。
+
+精度越小越消耗性能，效果也越好，请根据实际情况设置。
+
 ## 归属
 
 ### [UI](/reference/display/UI.md)

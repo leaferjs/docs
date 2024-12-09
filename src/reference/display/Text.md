@@ -18,7 +18,7 @@ import Case from '/component/Case.vue'
 
 文本框高度，不设置时为自动高度。
 
-### text: `string`
+### text: `string` | `number`
 
 文本内容。
 
@@ -203,3 +203,9 @@ padding: 20 // all
 [Box](./Box.md) 不设置宽高时，支持自适应内容。
 
 <<< @/code/display/Box/text.ts
+
+### 文本 count 动画
+
+text 属性传入数字，可支持 count [动画](/guide/plugin/animate.md)，示例中的文本将从 0 到 100 动态变化。
+
+<<< @/code/property/animation/count.ts

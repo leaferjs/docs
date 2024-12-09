@@ -36,14 +36,14 @@ bun add @leafer-in/scroll
 ::: code-group
 
 ```html [scroll.min]
-<script src="https://unpkg.com/@leafer-in/scroll@1.0.10/dist/scroll.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroll@1.1.0/dist/scroll.min.js"></script>
 <script>
   const { ScrollBar } = LeaferIN.scroll
 </script>
 ```
 
 ```html [scroll]
-<script src="https://unpkg.com/@leafer-in/scroll@1.0.10/dist/scroll.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroll@1.1.0/dist/scroll.js"></script>
 <script>
   const { ScrollBar } = LeaferIN.scroll
 </script>

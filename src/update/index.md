@@ -14,6 +14,50 @@ import Case from '/component/Case.vue'
 
 :::
 
+## 2024 / 12 / 07
+
+> v1.1.0
+
+#### 🍇 社区
+
+\- 🌸 [leafer-x-guide-line](http://afdian.com/item/d2f62a74b13611ef99b75254001e7c00) <badge>吸附线插件</badge> [@毛豆花生](http://afdian.com/a/huaisheng)
+
+\- 🌸 [leafer-x-path-editor](https://www.npmjs.com/package/leafer-x-path-editor) <badge>路径编辑器插件</badge> [@xjq7](https://github.com/xjq7)
+
+\- 🌸 [leafer-x-snap](https://www.npmjs.com/package/leafer-x-snap) <badge>吸附插件</badge> [@tuntun](https://github.com/tuntun0609)
+
+\- 🌸 [LeaferJS：牛坏啦，这个开源项目，绚丽多彩的 HTML5 Canvas 2D ...](https://mp.weixin.qq.com/s/CWixEL03ARY3gsbkrWvGew) @小华同学 ai
+
+\- 🌸 [leaferjs 随可视宽度变化垂直居中缩放画板](https://juejin.cn/post/7443093138922389514) @前端雾恋
+
+\- 🌸 [leaferjs 添加元素垂直居中在画板](https://mp.weixin.qq.com/s/pdGFZUbbTgqU70U95z1LRg) @前端雾恋
+
+#### 🌱 新增
+
+\- 🌸 文本支持 [count 动画](/reference/display/Text.md#文本-count-动画)，text 属性传入数字即可
+
+\- 🌸 元素 move() 方法增加 [动画过渡参数](/reference/property/position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)
+
+\- 🌸 元素 set() 方法增加 [动画过渡参数](/reference/property/data.md#set-data-iuiinputdata-transition-itranstion)
+
+\- Robot 元素的 actions 属性增加 [IRobotAnimation 类型](/plugin/in/robot/Robot.md#actions-irobotactions) ，支持单独配置 loop / FPS 参数
+
+\- 运动路径增加 [motionPrecision](/reference/property/motionPath.md#motionprecision-number) 属性， 用于控制运动精度
+
+\- 编辑器配置增加 [textEditor](/plugin/in/editor/config.md#内部编辑器属性) / [pathEditor](/plugin/in/editor/config.md#内部编辑器属性) 配置对象用于自定义内部编辑器，并支持依次扩展
+
+#### 🪲 修复
+
+\- 虚线箭头显示的问题
+
+\- 运动路径的精度问题
+
+\- Robot 元素 的 loop 属性设为 false 不生效的问题
+
+#### 🌷 感谢反馈
+
+[@sperains](https://github.com/sperains) [@Ronbb](https://github.com/Ronbb) [@xjq7](https://github.com/xjq7) @Max @火树银花
+
 ## 2024 / 11 / 26
 
 > v1.0.10

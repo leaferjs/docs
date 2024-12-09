@@ -34,6 +34,10 @@
 
 ## 赞助等级
 
+::: tip
+我们每月底会发布一篇参与赞助、社区的感谢文章，里面会同步显示相应的赞助位和名单。
+:::
+
 ![sponsor](/image/sponsor/first.jpg)
 
 ### 🌐 全球独家赞助商（¥100,000 / 月）
@@ -92,37 +96,27 @@
 
 - 优先提供咨询、技术支持。
 
-### 🥈 银牌赞助商（¥500 / 月）
+### 🥈 银牌赞助者（¥100 / 月）
 
-**适合** 表达大力支持的 **团队、企业**，[前往赞助](https://leaferjs.com/#contact)。
+**适合** 希望获得社区曝光和表达支持的 **团队、个人开发者（100 个名额）**，[前往赞助](https://leaferjs.com/#contact)。
 
-- [百万咖啡画布](https://www.leaferjs.com/coffee/) 上增加 5 杯专属 [青色咖啡](#赞助咖啡)。
-
-- [leafer-ui](https://github.com/leaferjs/leafer-ui) 和 [LeaferJS](https://github.com/leaferjs/LeaferJS) 仓库主页的银牌赞助商 logo 展示位。
-
-### 🥉 铜牌赞助商（¥100 / 月）
-
-**适合** 表达支持的 **团队、企业**，[前往赞助](https://leaferjs.com/#contact)。
+- [leaferjs.com](https://www.leaferjs.com) 首页银牌赞助者 圆形头像 / logo 展示位（开源伙伴的上方）。
 
 - [百万咖啡画布](https://www.leaferjs.com/coffee/) 上增加 1 杯专属 [青色咖啡](#赞助咖啡)。
 
-- [leafer-ui](https://github.com/leaferjs/leafer-ui) 和 [LeaferJS](https://github.com/leaferjs/LeaferJS) 仓库主页的铜牌赞助商 logo 展示位。
+- [leafer-ui](https://github.com/leaferjs/leafer-ui) 和 [LeaferJS](https://github.com/leaferjs/LeaferJS) 仓库主页的银牌赞助者 圆形头像 / logo 展示位。
 
-### 👕 慷慨支持者（¥50 / 月）
+- 优先提供咨询。
 
-**适合** 表达大力支持的 **个人开发者**，[前往赞助](https://leaferjs.com/#contact)。
+### 🥉 铜牌赞助者（¥10 / 月）
 
-- [百万咖啡画布](https://www.leaferjs.com/coffee/) 上增加 5 杯专属 [粉色咖啡](#赞助咖啡)。
+**适合** 表达支持的 **个人开发者（500 个名额）**，[前往赞助](https://leaferjs.com/#contact)。
 
-- [leafer-ui](https://github.com/leaferjs/leafer-ui) 和 [LeaferJS](https://github.com/leaferjs/LeaferJS) 仓库主页的慷慨支持者名单。
-
-### ☕️ 个人支持者（¥10 / 月）
-
-**适合** 表达支持的 **个人开发者**，[前往赞助](https://leaferjs.com/#contact)。
+- [leaferjs.com](https://www.leaferjs.com) 首页铜牌赞助者 名单（技术交流群的上方）。
 
 - [百万咖啡画布](https://www.leaferjs.com/coffee/) 上增加 1 杯专属 [粉色咖啡](#赞助咖啡)。
 
-<!-- - [leafer-ui](https://github.com/leaferjs/leafer-ui) 和 [LeaferJS](https://github.com/leaferjs/LeaferJS) 仓库主页的个人支持者名单。 -->
+- [leafer-ui](https://github.com/leaferjs/leafer-ui) 和 [LeaferJS](https://github.com/leaferjs/LeaferJS) 仓库主页的铜牌赞助者 名单。
 
 ## 赞助咖啡
 
