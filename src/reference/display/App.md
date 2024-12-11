@@ -1,8 +1,8 @@
 # App
 
-创建 App 应用（可选），了解初始化 [应用配置](/reference/config/app/base.md)、[窗口交互](/guide/app/window.md)。
+创建 App（可选结构），了解初始化 [应用配置](/reference/config/app/base.md)、[窗口交互](/guide/app/window.md)。
 
-负责组织多个 Leafer 实例 [分层](/guide/app/multilayer.md) 协同工作，提高渲染性能，同时继承 Leafer 的部分功能和事件。
+负责承载多个 [Leafer](/reference/display/Leafer.md) 实例分层 协同工作，以提升性能，同时继承 Leafer 的部分功能和事件。
 
 <br/>
 
@@ -39,11 +39,11 @@ Leafer 实例的子对象。
 
 ### tree: [`Leafer`](/reference/display/Leafer.md)
 
-树结构 (内容层)，位于中间的 Leafer 实例。
+树结构 (内容层)，位于中间的 Leafer 实例，相当于 HTML 中的 body。
 
 ### sky: [`Leafer`](/reference/display/Leafer.md)
 
-天空层 (变化层)，位于最顶部的 Leafer 实例，一般用来渲染频繁变化的动画、编辑器等。
+天空层 (变化层)，位于最顶部的 Leafer 实例，一般用来渲染图形编辑器实例。
 
 ::: code-group
 
@@ -55,13 +55,19 @@ Leafer 实例的子对象。
 
 :::
 
+::: code-group
+
+<<< @/code/plugin/editor/full.ts [图形编辑器示例]
+
+:::
+
 ## 预留属性
 
 ### editor: [`IEditor`](/plugin/in/editor/Editor.md)
 
 图形编辑器实例，需安装 [图形编辑器](/plugin/in/editor/) 。
 
-## 视口属性（viewport）
+## 视图属性（viewport）
 
 ### zoomLayer：[`Group`](./Group.md)
 
@@ -97,9 +103,9 @@ Leafer 实例的子对象。
 
 ### [应用配置](/reference/config/app/base.md)
 
-## 视口
+## 视图
 
-### [窗口交互](/guide/app/window.md)
+### [缩放平移视图](/guide/app/window.md)
 
 <!--
 ## 示例

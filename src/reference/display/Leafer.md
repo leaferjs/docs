@@ -1,6 +1,6 @@
 # Leafer
 
-创建 Leafer 应用，了解初始化 [应用配置](/reference/config/app/base.md)、[窗口交互](/guide/app/window.md)。
+创建 Leafer，了解初始化 [应用配置](/reference/config/app/base.md)、[窗口交互](/guide/app/window.md)。
 
 <br/>
 
@@ -66,7 +66,7 @@ App 实例, 如果不存在则是自身。
 
 可结合 [RenderEvent.END](/reference/event/basic/Render) 事件 drawImage() 到另一张小 canvas 上，实现高性能的鸟瞰图。
 
-## 视口属性（viewport）
+## 视图属性（viewport）
 
 ### zoomLayer：[`Group`](./Group.md)
 
@@ -249,9 +249,9 @@ leafer.unlockLayout()
 
 ### [应用配置](/reference/config/app/base.md)
 
-## 视口
+## 视图
 
-### [窗口交互](/guide/app/window.md)
+### [缩放平移视图](/guide/app/window.md)
 
 ## 监听事件
 

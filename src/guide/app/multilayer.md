@@ -1,6 +1,8 @@
-# App 结构
+# 创建 App
 
-针对在线图形编辑等复杂应用，我们提供了 App 结构， [App](/reference/display/App.md) 负责组织多个 [Leafer](/reference/display/Leafer.md) 实例分层 协同工作 (将不同更新频率的内容进行分层独立渲染)，以提高渲染性能。
+这是一个可选的应用结构，主要用于 [图形编辑器](/guide/plugin/editor.md) 等需要分层渲染的场景。
+
+[App](/reference/display/App.md) 负责承载多个 [Leafer](/reference/display/Leafer.md) 实例分层 协同工作，将不同更新频率的内容分开渲染，以提升性能。
 
 <br/>
 
@@ -16,11 +18,11 @@
 
 ### tree: [`Leafer`](/reference/display/Leafer.md)
 
-树结构 (内容层)，位于中间的 Leafer 实例。
+树结构 (内容层)，位于中间的 Leafer 实例，相当于 HTML 中的 body。
 
 ### sky: [`Leafer`](/reference/display/Leafer.md)
 
-天空层 (变化层)，位于最顶部的 Leafer 实例，一般用来渲染频繁变化的动画、编辑器等。
+天空层 (变化层)，位于最顶部的 Leafer 实例，一般用来渲染 [图形编辑器](/guide/plugin/editor.md) 实例。
 
 ::: code-group
 
@@ -40,8 +42,14 @@
 
 :::
 
-可通过手动创建添加自定义层。
+::: code-group
+
+<<< @/code/plugin/editor/full.ts [图形编辑器示例]
+
+:::
+
+还可以通过手动创建添加自定义层。
 
 ## 下一步
 
-### [窗口交互](/guide/app/window)
+### [缩放平移视图](/guide/app/window)

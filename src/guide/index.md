@@ -18,7 +18,7 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 可通过 **Cloud Studio** 模版创建一个 **LeaferJS 项目**，用于运行、练习后续的示例代码。
 
-**[2. 学习 LeaferJS 快速入门教程](/guide/basic/app.md)**
+**[2. 学习 LeaferJS 快速入门教程](/guide/basic/leafer.md)**
 
 跟随官网教程步骤（文档底部有下一步引导按钮）从浅到深的学习，动手调试每一段示例代码。
 

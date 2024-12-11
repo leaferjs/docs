@@ -1,6 +1,8 @@
-# 窗口
+# 缩放平移视图
 
-默认自带窗口交互功能，适合图形编辑类场景，可修改 [leafer.config.type](/reference/config/app/type.md) 改变窗口类型。
+[Leafer](/reference/display/Leafer.md) 默认自带窗口交互功能，能够缩放平移视图，可修改 [leafer.config.type](/reference/config/app/type.md) 改变窗口类型。
+
+另外通过 [视图插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持 fit 视图、聚集到指定元素。
 
 ![window](/svg/window.svg)
 
@@ -18,9 +20,17 @@
 
 更多配置请看 [app.config.zoom](/reference/config/app/zoom.md) / [app.config.wheel](/reference/config/app/wheel.md)。
 
-## 更多示例
+## 视图属性（viewport）
 
-### [取消窗口功能](/reference/config/app/type.md#draw-类型)
+可通过 [Leafer 视图属性](/reference/display/Leafer.md#视图属性-viewport) / [App 视图属性](/reference/display/App.md#视图属性-viewport) 手动平移、缩放视图。
+
+## 取消缩放平移视图功能
+
+将窗口类型 type 设为 'draw' 可取消缩放平移视图功能。
+
+<<< @/code/app/config/type/draw.ts
+
+## 更多示例
 
 ### [自定义窗口功能](/reference/config/app/type.md#custom-类型)
 

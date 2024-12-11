@@ -35,7 +35,7 @@
 ## 赞助等级
 
 ::: tip
-我们每月底会发布一篇参与赞助、社区的感谢文章，里面会同步显示相应的赞助位和名单。
+我们每月底会发布一篇赞助、社区参与的感谢文章，里面会同步相应的赞助位和名单。
 :::
 
 ![sponsor](/image/sponsor/first.jpg)
@@ -106,11 +106,11 @@
 
 - [leafer-ui](https://github.com/leaferjs/leafer-ui) 和 [LeaferJS](https://github.com/leaferjs/LeaferJS) 仓库主页的银牌赞助者 圆形头像 / logo 展示位。
 
-- 优先提供咨询。
+- 优先提供问题解答。
 
 ### 🥉 铜牌赞助者（¥10 / 月）
 
-**适合** 表达支持的 **个人开发者（500 个名额）**，[前往赞助](https://leaferjs.com/#contact)。
+**适合** 表达支持的 **个人开发者（1000 个名额）**，[前往赞助](https://leaferjs.com/#contact)。
 
 - [leaferjs.com](https://www.leaferjs.com) 首页铜牌赞助者 名单（技术交流群的上方）。
 

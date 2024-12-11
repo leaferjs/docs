@@ -28,4 +28,4 @@ LeaferJS 可以让你拥有瞬间创建 100 万个图形的能力。经过更细
 
 ## 下一步
 
-### [快速入门](/guide/basic/app)
+### [快速入门](/guide/basic/leafer)

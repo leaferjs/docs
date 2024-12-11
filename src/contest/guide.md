@@ -26,7 +26,7 @@ LeaferJS 是一款好用的 Canvas 渲染引擎，提供革新的体验。可用
 
 ## 二、学习 LeaferJS 入门教程
 
-**入门教程：** https://www.leaferjs.com/ui/guide/basic/app.html
+**入门教程：** https://www.leaferjs.com/ui/guide/basic/leafer.html
 
 跟随官网教程步骤（文档底部有下一步引导按钮）从浅到深的一步步学习。
 

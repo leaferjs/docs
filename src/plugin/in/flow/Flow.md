@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Flow
 
-自动布局（流动）容器，类似 Flex 的自动布局，简单、直观，适合可视化编辑。
+自动布局（流动）元素，类似 Flex 的自动布局，简单、直观，适合可视化编辑。
 
 [Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 元素也支持自动布局属性（ 需引入此插件包）。
 
@@ -197,3 +197,7 @@ resize 布局的约束条件
 ## 继承元素
 
 ### [Box](/reference/display/Box.md)
+
+## 示例
+
+<<< @/code/plugin/flow/flow.ts
