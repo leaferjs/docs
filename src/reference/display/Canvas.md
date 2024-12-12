@@ -8,6 +8,12 @@ import Case from '/component/Case.vue'
 
 <case name="Pen" editor=false></case>
 
+<br/>
+
+::: tip 继承
+Canvas &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
+:::
+
 ## 关键属性
 
 ### width: `number`
@@ -77,9 +83,9 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 
 导入 JSON：通过 url 属性异步加载图片还原 canvas，可监听 [ImageEvent.LOADED](/reference/event/basic/Image.md#imageevent-loaded)。
 
-## 继承元素
+<!-- ## 继承元素
 
-### [Rect](./Rect.md)
+### [Rect](./Rect.md) -->
 
 <!-- ## API
 

@@ -22,7 +22,7 @@ y 轴位置。
 
 位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math#ipointdata)。
 
-`transition` 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
+[`transition`](/reference/property/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
 ```ts
 // 沿 X/Y 轴同时移动 10 像素

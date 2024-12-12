@@ -8,6 +8,12 @@ import Case from '/component/Case.vue'
 
 <case name="Polygon" editor=false></case>
 
+<br/>
+
+::: tip 继承
+Polygon &nbsp;>&nbsp; [UI](./UI.md)
+:::
+
 ## 关键属性
 
 ### width: `number`
@@ -55,9 +61,9 @@ sides: 5
 
 圆角大小，使图形拐角处变的圆滑。
 
-## 继承元素
+<!-- ## 继承元素
 
-### [UI](./UI.md)
+### [UI](./UI.md) -->
 
 <!-- ## API
 

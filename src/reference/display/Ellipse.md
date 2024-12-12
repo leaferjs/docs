@@ -8,6 +8,12 @@ import Case from '/component/Case.vue'
 
 <case name="Ellipse" editor=false></case>
 
+<br/>
+
+::: tip 继承
+Ellipse &nbsp;>&nbsp; [UI](./UI.md)
+:::
+
 ## 关键属性
 
 ### width: `number`
@@ -49,9 +55,9 @@ endAngle: 180
 innerRadius: 0.5
 ```
 
-## 继承元素
+<!-- ## 继承元素
 
-### [UI](./UI.md)
+### [UI](./UI.md) -->
 
 <!-- ## API
 

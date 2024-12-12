@@ -8,6 +8,12 @@ import Case from '/component/Case.vue'
 
 <case name="Star" editor=false></case>
 
+<br/>
+
+::: tip 继承
+Star &nbsp;>&nbsp; [UI](./UI.md)
+:::
+
 ## 关键属性
 
 ### width: `number`
@@ -40,9 +46,9 @@ innerRadius: 0.382
 
 圆角大小，使图形拐角处变的圆滑。
 
-## 继承元素
+<!-- ## 继承元素
 
-### [UI](./UI.md)
+### [UI](./UI.md) -->
 
 <!-- ## API
 

@@ -8,6 +8,12 @@ import Case from '/component/Case.vue'
 
 <case name="Path" editor=false></case>
 
+<br/>
+
+::: tip 继承
+Path &nbsp;>&nbsp; [UI](./UI.md)
+:::
+
 ## 关键属性
 
 ### path: [`IPathString`](/reference/interface/ui/PathData#ipathstring) ｜ [`IPathCommandData`](/reference/interface/ui/PathData.md#ipathcommanddata) ｜ [`IPathCommandObject`](/reference/interface/ui/PathData.md#ipathcommandobject)[]
@@ -46,9 +52,9 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 <!--@include: ../path/PathDrawer.md-->
 
-## 继承元素
+<!-- ## 继承元素
 
-### [UI](./UI.md)
+### [UI](./UI.md) -->
 
 <!-- ## API
 

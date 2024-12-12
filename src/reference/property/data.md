@@ -18,7 +18,7 @@
 
 ### set ( data?: [`IUIInputData`](/api/interfaces/IUIInputData.md), transition?: [`ITranstion`](/reference/property/transition.md#transition-itranstion))
 
-设置元素样式，`transition` 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
+设置元素样式，[`transition`](/reference/property/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
 ```ts
 // 设置 x、y 属性

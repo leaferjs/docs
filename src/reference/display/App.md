@@ -10,11 +10,15 @@
 
 <br/>
 
-:::tip
+::: tip 继承
+App &nbsp;>&nbsp; [Leafer](./Leafer.md) &nbsp;>&nbsp; [Group](./Group.md) &nbsp;>&nbsp; [UI](./UI.md)
 
-此时 Leafer 相当于一个子 [Group](/reference/display/Group.md) 元素，交互事件可以在多个 Leafer 间穿透。
+<br/>
 
-注意: App 不接收子元素的数据变化事件，请在对应的 Leafer 实例上监听。
+交互事件可以在多个子 Leafer 实例间按层级穿透，看上去就像是一个交互整体。
+
+注意: App 不接收子元素的数据变化事件，请在对应的子 Leafer 实例上监听。
+
 :::
 
 ## 关键属性
@@ -128,9 +132,9 @@ Leafer 实例的子对象。
 
 <<< @/code/app/layer/simple.ts -->
 
-## 继承元素
+<!-- ## 继承元素
 
-### [Leafer](./Leafer.md)
+### [Leafer](./Leafer.md) -->
 
 <!-- ## API
 

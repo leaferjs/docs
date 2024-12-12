@@ -8,6 +8,12 @@ import Case from '/component/Case.vue'
 
 <case name="Rect" editor=false></case>
 
+<br/>
+
+::: tip 继承
+Rect &nbsp;>&nbsp; [UI](./UI.md)
+:::
+
 ## 关键属性
 
 ### width: `number`
@@ -31,9 +37,9 @@ cornerRadius: [20, 10] // [ (topLeft-bottomRight), (topRight-bottomLeft)]
 cornerRadius: 20 // all
 ```
 
-## 继承元素
+<!-- ## 继承元素
 
-### [UI](./UI.md)
+### [UI](./UI.md) -->
 
 <!-- ## API
 

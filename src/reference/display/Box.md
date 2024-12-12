@@ -8,6 +8,12 @@ import Case from '/component/Case.vue'
 
 <case name="Box" editor=false></case>
 
+<br/>
+
+::: tip 继承
+Box &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
+:::
+
 ## 关键属性
 
 ### width: `number`
@@ -50,9 +56,10 @@ type IOverflow = 'show' | 'hide'
 
 ### [path 优先模式](/reference/property/path.md)
 
+<!--
 ## 继承元素
 
-### [Group](./Group.md) + [Rect](./Rect.md)
+### [Group](./Group.md) + [Rect](./Rect.md) -->
 
 <!-- ## API
 

@@ -8,6 +8,12 @@ import Case from '/component/Case.vue'
 
 <case name="Text" editor=false></case>
 
+<br/>
+
+::: tip 继承
+Text &nbsp;>&nbsp; [UI](./UI.md)
+:::
+
 ## 关键属性
 
 ### width?: `number`
@@ -182,9 +188,10 @@ padding: [20, 10] // [ (top-bottom), (right-left)]
 padding: 20 // all
 ```
 
+<!--
 ## 继承元素
 
-### [UI](./UI.md)
+### [UI](./UI.md) -->
 
 <!-- ## API
 

@@ -8,6 +8,12 @@ import Case from '/component/Case.vue'
 
 <case name="Frame" editor=false></case>
 
+<br/>
+
+::: tip 继承
+Frame &nbsp;>&nbsp; [Box](./Box.md) &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
+:::
+
 ## 关键属性
 
 ### width: `number`
@@ -30,9 +36,9 @@ import Case from '/component/Case.vue'
 type IOverflow = 'show' | 'hide'
 ```
 
-## 继承元素
+<!-- ## 继承元素
 
-### [Box](./Box.md)
+### [Box](./Box.md) -->
 
 <!-- ## API
 

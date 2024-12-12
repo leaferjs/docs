@@ -8,6 +8,12 @@ import Case from '/component/Case.vue'
 
 <case name="Pen" editor=false></case>
 
+<br/>
+
+::: tip 继承
+Pen &nbsp;>&nbsp; [Group](./Group.md) &nbsp;>&nbsp; [UI](./UI.md)
+:::
+
 ## 关键属性
 
 ### pathElement：[`Path`](./Path.md)
@@ -32,9 +38,9 @@ import Case from '/component/Case.vue'
 
 <!--@include: ../path/PathDrawer.md-->
 
-## 继承元素
+<!-- ## 继承元素
 
-### [Group](./Group.md)
+### [Group](./Group.md) -->
 
 <!--
 ## API

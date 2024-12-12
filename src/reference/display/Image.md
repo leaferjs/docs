@@ -6,9 +6,17 @@ import Case from '/component/Case.vue'
 
 图片对象，支持使用 svg 格式的图片，另外所有图形都支持通过 [图案填充](/reference/property/paint/image.md) 来显示图片。
 
-[ script 标签引入](/guide/install/ui/start.md#通过-script-标签引入) 需用别名 **MyImage** 代替。
-
 <case name="ImageFill" editor=false></case>
+
+<br/>
+
+::: tip 继承
+Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
+
+<br/>
+
+注意：[script 标签引入](/guide/install/ui/start.md#通过-script-标签引入) 需用别名 **MyImage** 代替。
+:::
 
 ## 关键属性
 
@@ -84,9 +92,9 @@ import Case from '/component/Case.vue'
 
 ### [ImageEvent](/reference/event/basic/Image.md)
 
-## 继承元素
+<!-- ## 继承元素
 
-### [Rect](./Rect.md)
+### [Rect](./Rect.md) -->
 
 <!-- ## API
 
