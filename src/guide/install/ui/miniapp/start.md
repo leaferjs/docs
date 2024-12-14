@@ -251,8 +251,10 @@ useCanvas('canvas', wx) // 默认全局变量绑定微信小程序, 可绑定到
 
 ### 采用小程序 [web-view](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html) 组件实现的案例
 
-![webview小程序产品案例](https://leaferjs.com/image/case/zhuzi.jpg)
+![趣设计](https://leaferjs.com/image/case/qu.jpg)
+
+![珠串设计](https://leaferjs.com/image/case/zhuzi.jpg)
 
 ### 采用 uniapp 实现的原生小程序案例
 
-![uniapp小程序产品案例](https://leaferjs.com/image/case/face.jpg)
+![创意表情](https://leaferjs.com/image/case/face.jpg)

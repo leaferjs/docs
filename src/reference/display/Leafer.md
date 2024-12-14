@@ -12,8 +12,6 @@
 Leafer &nbsp;>&nbsp; [Group](./Group.md) &nbsp;>&nbsp; [UI](./UI.md)
 :::
 
-<br/>
-
 ## 版本号
 
 当前的版本号，默认为 `1.1.0`。

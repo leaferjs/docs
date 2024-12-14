@@ -2,7 +2,7 @@
 
 基础元素（所有元素的基类）。
 
-## 🎞️ 元素数据
+## 🎞️ 数据
 
 ### id / name
 
@@ -28,7 +28,7 @@
 
 [remove()](/reference/property/remove) &nbsp; &nbsp; [destroy()](/reference/property/destroy)
 
-## 📐 元素布局
+## 📐 布局
 
 ### 定位 / 布局
 
@@ -54,13 +54,11 @@
 
 [zIndex](/reference/property/zIndex) &nbsp; &nbsp; [dropTo()](/reference/property/dropTo)
 
-## 🏼 元素外观
+## 🏼 外观
 
 ### 透明 / 可见性
 
-[opacity](/reference/property/opacity)
-
-[visible](/reference/property/visible)
+[opacity](/reference/property/opacity) &nbsp; &nbsp; [visible](/reference/property/visible)
 
 ### 填充 / 描边
 
@@ -82,7 +80,7 @@
 
 [blendMode](/reference/property/blendMode)
 
-## 🖱 元素交互
+## 🖱 交互
 
 ### 可交互性
 
@@ -104,7 +102,7 @@
 
 [on() / once()](/reference/property/on) &nbsp; &nbsp; [off()](/reference/property/off) &nbsp; &nbsp; [emit()](/reference/property/emit) &nbsp; &nbsp; [命名](/reference/event/name) &nbsp; &nbsp; [捕获/冒泡](/reference/event/flow) &nbsp; &nbsp; [模拟交互](/reference/event/simulation)
 
-## 🐆 元素动画
+## 🐆 动画
 
 ### 动画
 
@@ -118,7 +116,7 @@
 
 [motionPath](/reference/property/motionPath) &nbsp; &nbsp; [motion](/reference/property/motion) &nbsp; &nbsp; [getMotionTotal()](/reference/property/getMotionTotal) &nbsp; &nbsp; [getMotionPoint()](/reference/property/getMotionPoint)
 
-## 🪜 元素高级
+## 🪜 高级
 
 ### 限制拖动范围
 
