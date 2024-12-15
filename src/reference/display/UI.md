@@ -56,7 +56,7 @@
 
 ## 🏼 外观
 
-### 透明 / 可见性
+### 透明 / 隐藏
 
 [opacity](/reference/property/opacity) &nbsp; &nbsp; [visible](/reference/property/visible)
 
