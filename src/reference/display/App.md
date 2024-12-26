@@ -1,6 +1,10 @@
+<script setup>
+import Case from '/component/Case.vue'
+</script>
+
 # App
 
-创建 App（可选结构），了解初始化 [应用配置](/reference/config/app/base.md)、[窗口交互](/guide/app/window.md)。
+创建 App（可选结构），了解初始化 [应用配置](/reference/config/app/base.md)、[视口交互](/guide/app/viewport.md)。
 
 负责承载多个 [Leafer](/reference/display/Leafer.md) 实例分层 协同工作，以提升性能，同时继承 Leafer 的部分功能和事件。
 
@@ -33,9 +37,7 @@ Leafer 实例的子对象。
 
 ## 统一结构
 
-为了方便大家记忆和沟通，我们以现实世界的方式为常用的 Leafer 层进行拟物化命名。
-
-当然你也可以手动创建，完全自定义结构，或在这个基础上增加 自定义层都可以。
+App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方法添加多个自定义层。为了方便大家记忆和沟通，我们以现实世界的方式为常用的 Leafer 层进行拟物化命名，并支持通过配置快速添加。
 
 ### ground?: [`Leafer`](/reference/display/Leafer.md)
 
@@ -43,27 +45,11 @@ Leafer 实例的子对象。
 
 ### tree: [`Leafer`](/reference/display/Leafer.md)
 
-树结构 (内容层)，位于中间的 Leafer 实例，相当于 HTML 中的 body。
+树结构 (主要内容层)，位于中间的 Leafer 实例，相当于 HTML 中的 body。
 
 ### sky: [`Leafer`](/reference/display/Leafer.md)
 
-天空层 (变化层)，位于最顶部的 Leafer 实例，一般用来渲染图形编辑器实例。
-
-::: code-group
-
-<<< @/code/app/layer/auto.ts [自动创建]
-
-<<< @/code/app/layer/app.ts [手动创建]
-
-<<< @/code/app/layer/simple.ts [快速创建]
-
-:::
-
-::: code-group
-
-<<< @/code/plugin/editor/full.ts [图形编辑器示例]
-
-:::
+天空层 (变化层)，位于最顶部的 Leafer 实例，一般用来渲染 [图形编辑器](/plugin/in/editor/) 实例。
 
 ## 预留属性
 
@@ -71,7 +57,7 @@ Leafer 实例的子对象。
 
 图形编辑器实例，需安装 [图形编辑器](/plugin/in/editor/) 。
 
-## 视图属性（viewport）
+## 视口属性（viewport）
 
 ### zoomLayer：[`Group`](./Group.md)
 
@@ -79,7 +65,7 @@ Leafer 实例的子对象。
 
 可以手动修改它的 [x](/reference/property/layout)、[y](/reference/property/layout)、[scale](/reference/property/layout#scale-number-ipointdata)、[scaleX](/reference/property/layout#scalex-number)、[scaleY](/reference/property/layout#scaley-number) 属性进行缩放平移视图。
 
-通过 [视图插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持 fit 视图、聚集到指定元素。
+另通过 [视图控制插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
 
 ## 关键方法
 
@@ -109,7 +95,23 @@ Leafer 实例的子对象。
 
 ## 视图
 
-### [缩放平移视图](/guide/app/window.md)
+### [缩放平移视图](/guide/app/viewport.md)
+
+## 示例
+
+<case name="Editor" index=2 count=2 x=20></case>
+
+我们以 [图形编辑器](/plugin/in/editor/) 的例子来展示 App 的实际用法：
+
+::: code-group
+
+<<< @/code/plugin/editor/frame/index.ts [editor]
+
+<<< @/code/plugin/editor/frame/simple.ts [简化]
+
+<<< @/code/plugin/editor/frame/origin.ts [实现原理]
+
+:::
 
 <!--
 ## 示例

@@ -76,8 +76,16 @@
 
 ### 取消光标碰撞半径
 
-<<< @/code/app/config/hitRadius.ts
+::: code-group
+<<< @/code/app/config/hitRadius.ts [Leafer]
+
+<<< @/code/app/config/app/hitRadius.ts [App]
+:::
 
 ### 获取穿透路径
 
-<<< @/code/app/config/throughPath.ts
+::: code-group
+<<< @/code/app/config/throughPath.ts [Leafer]
+
+<<< @/code/app/config/app/throughPath.ts [App]
+:::

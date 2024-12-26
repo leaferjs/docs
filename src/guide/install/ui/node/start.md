@@ -78,4 +78,22 @@ node index.mjs
 
 通过 [skia-canvas](https://www.npmjs.com/package/skia-canvas) 的 FontLibrary.use() 方法加载字体后，再设置 fontFamily 即可。
 
-https://www.npmjs.com/package/skia-canvas#FontLibrary
+https://skia-canvas.org/api/font-library
+
+```js
+import { FontLibrary } from 'skia-canvas'
+
+// with default family name
+FontLibrary.use([
+  'fonts/Oswald-Regular.ttf',
+  'fonts/Oswald-SemiBold.ttf',
+  'fonts/Oswald-Bold.ttf',
+])
+
+// with an alias
+FontLibrary.use('Grizwald', [
+  'fonts/Oswald-Regular.ttf',
+  'fonts/Oswald-SemiBold.ttf',
+  'fonts/Oswald-Bold.ttf',
+])
+```

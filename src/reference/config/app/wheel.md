@@ -52,4 +52,8 @@
 
 缩放优先模式下，鼠标滚动直接缩放，可按下鼠标中键进行平移视图。
 
-<<< @/code/app/window/zoom-mode.ts
+::: code-group
+<<< @/code/app/viewport/app/zoom-mode.ts [App]
+
+<<< @/code/app/viewport/zoom-mode.ts [Leafer]
+:::

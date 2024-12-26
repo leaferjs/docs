@@ -30,7 +30,7 @@ type IScrollBarTheme = 'light' | 'dark' | IBoxInputData
 
 ## 限制滚动范围
 
-应用配置 [config.move.scroll = 'limit' ](/reference/config/app/move.md#move-scroll-boolean-limit) 可限制在有内容的区域滚动
+应用配置 [config.move.scroll = 'limit' ](/reference/config/app/move.md#move-scroll-boolean-x-y-limit-x-limit-y-limit) 可限制在有内容的区域滚动
 
 ## 继承元素
 

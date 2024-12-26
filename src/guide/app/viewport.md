@@ -1,46 +1,19 @@
-# 视口类型
+# 缩放平移视图
 
-初始化视口类型，应用运行中不可再更改。
+通过滚轮/触摸板滑动或捏合可缩放平移视图，类似浏览器、设计软件的视口交互功能。
 
-:::tip 注意事项
-[App 结构](/guide/app/multilayer.md) 下需设置在 [子层 Leafer](/reference/display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
+::: tip 注意事项
+需安装 [视口插件](/plugin/in/viewport/) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
+
 :::
 
-## 关键属性
+![window](/svg/window.svg)
 
-### type: `string`
-
-视口类型，附带场景逻辑，默认为 block 类型。
-
-目前有 block、viewport、custom、design、document， 后续会添加其他场景。
-
-```ts
-type ILeaferType =
-  | 'block' // 块状融入场景
-  ｜'viewport' // 基础视口场景
-  | 'editor' // 图形编辑场景
-  | 'design' // 设计场景
-  | 'board' // 白板场景
-  | 'document' // 文档场景
-  | 'app' // 应用场景
-  | 'website' // 网站场景
-  | 'game' // 游戏场景
-  | 'player' // 动画播放场景
-  | 'chart' // 图表场景
-  | 'custom' // 自定义
-```
-
-## block 类型
-
-块状融入场景：不添加视口功能，且像 HTML 的普通块状元素一样融入到浏览器页面中。
-
-移动端在 draggable / editable 为 `false`，及没有监听 DragEvent.DRAG 的空间上拖拽可直接滑动页面。
-
-<<< @/code/app/config/type/block.ts
+另通过 [视图控制插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
 
 ## viewport 视口类型
 
-通过滚轮/触摸板滑动或捏合可缩放平移视图。
+通过配置 [leafer.config.type](/reference/config/app/type.md) 可快速添加视口功能。
 
 ### 平移视图操作
 
@@ -100,3 +73,19 @@ type ILeaferType =
 
 <<< @/code/app/config/type/origin/document.ts [实现原理]
 :::
+
+## 手动平移缩放视图
+
+通过 [Leafer 视口属性](/reference/display/Leafer.md#视口属性-viewport) / [App 视口属性](/reference/display/App.md#视口属性-viewport) 可手动平移缩放视图。
+
+## 更多示例
+
+### [鼠标滚动直接缩放视图](/reference/config/app/wheel.md#鼠标滚动直接缩放视图)
+
+### [控制缩放范围](/reference/config/app/zoom.md#控制视图缩放范围)
+
+### [单独指定缩放层](/reference/display/Leafer.md#单独指定缩放层)
+
+## 下一步
+
+### [局部渲染](/guide/app/partRender)

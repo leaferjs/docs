@@ -2,7 +2,7 @@
 
 在小程序环境中运行，[了解小程序使用 npm 包的注意事项](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)。
 
-基于 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md)，集成了 [图形编辑器](/plugin/in/editor/)、[视图控制](/plugin/in/view/) 、[滚动条](/plugin/in/view/)、[箭头](/plugin/in/arrow/) 插件，适用于在线图形编辑的场景。
+基于 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md)，集成了 [图形编辑器](/plugin/in/editor/)、[视口](/plugin/in/viewport/)、[视图控制](/plugin/in/view/) 、[滚动条](/plugin/in/view/)、[箭头](/plugin/in/arrow/) 插件，适用于在线图形编辑的场景。
 
 ## 安装
 
@@ -32,9 +32,9 @@ bun add @leafer-editor/miniapp
 
 ```sh
 
-https://unpkg.com/@leafer-editor/miniapp@1.1.0/dist/miniapp.module.js
+https://unpkg.com/@leafer-editor/miniapp@1.2.1/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-editor/miniapp@1.1.0/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-editor/miniapp@1.2.1/dist/miniapp.module.min.js
 
 
 ```

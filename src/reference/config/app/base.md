@@ -38,7 +38,7 @@ App 与 Leafer 的初始化基础配置。
 
 是否启用光标功能，默认为 true。
 
-#### keyEvent: `boolean`
+### keyEvent: `boolean`
 
 是否接收键盘事件， 默认为 true。
 
@@ -48,8 +48,16 @@ App 与 Leafer 的初始化基础配置。
 
 当图形数量很多，异步创建完后，通过手动 start()，可以加快创建速度。
 
-<<< @/code/app/config/start.ts
+::: code-group
+<<< @/code/app/config/start.ts [Leafer]
+
+<<< @/code/app/config/app/start.ts [App]
+:::
 
 ### 关闭局部渲染
 
-<<< @/code/app/config/partRender.ts
+::: code-group
+<<< @/code/app/config/partRender.ts [Leafer]
+
+<<< @/code/app/config/app/partRender.ts [App]
+:::

@@ -44,14 +44,14 @@ bun add @leafer-in/text-editor
 ::: code-group
 
 ```html [text-editor.min]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.1.0/dist/text-editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.2.1/dist/text-editor.min.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
 ```
 
 ```html [text-editor]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.1.0/dist/text-editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.2.1/dist/text-editor.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
@@ -59,6 +59,10 @@ bun add @leafer-in/text-editor
 
 https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 :::
+
+## 依赖插件
+
+### [图形编辑器 插件](/plugin/in/editor/)
 
 ## 开始体验
 

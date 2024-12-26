@@ -45,7 +45,7 @@ bun add leafer-ui
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-ui@1.1.0/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-ui@1.2.1/dist/web.min.js"></script>
 <script>
   const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui 的所有功能
 
@@ -57,7 +57,7 @@ bun add leafer-ui
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-ui@1.1.0/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-ui@1.2.1/dist/web.js"></script>
 <script>
   const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui的所有功能
 
@@ -70,14 +70,14 @@ bun add leafer-ui
 
 ```html [module.min]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@1.1.0/dist/web.module.min.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@1.2.1/dist/web.module.min.js'
   // ...
 </script>
 ```
 
 ```html [module]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@1.1.0/dist/web.module.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@1.2.1/dist/web.module.js'
   // ...
 </script>
 ```
@@ -119,7 +119,7 @@ IE 不支持
 
 <case name="Rect" index=5 editor=false></case>
 
-创建一个交互应用，可以缩放平移视图、拖拽矩形。
+创建一个自适应窗口的交互应用，可以直接拖拽矩形。
 
 ::: code-group
 

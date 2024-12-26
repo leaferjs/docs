@@ -1,11 +1,15 @@
 # MoveEvent
 
-移动事件，一般用于[窗口交互](/guide/app/window.md)中平移视图。
+移动事件，一般用于[视口交互](/guide/app/viewport.md)中平移视图。
 
 1. 移动端: 双指滑动
 2. 触摸板: 双指滑动
-3. 鼠标: 滚轮（纵向平移），Shift + 滚轮（横向平移），鼠标中键 + 拖拽 (自由移动)
+3. 鼠标: 滚轮（纵向平移），Shift + 滚轮（横向平移）
 4. 拖拽: 拖拽元素到达视图边界时，会自动平移视图，以实现向外拖拽
+
+::: tip 注意事项
+需安装 [视口插件](/plugin/in/viewport/) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
+:::
 
 ## 事件名称
 

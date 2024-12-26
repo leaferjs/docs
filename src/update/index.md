@@ -14,6 +14,60 @@ import Case from '/component/Case.vue'
 
 :::
 
+## 2024 / 12 / 26
+
+> v1.2.0 / v1.2.1
+
+:::tip 升级操作 (重大变化)
+
+1. 为让核心包支持更多的场景，同时减小尺寸，本次升级将 [缩放平移视图](/guide/app/viewport) 功能 移动到了 **viewport 视口插件** 中（不影响运行），需安装引入 [视口插件](/plugin/in/viewport/) 才能使用， 或安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
+
+2. 监听 RenderEvent.NEXT 事件的代码，需改用 [nextRender()](/reference/property/nextRender) 或 [Platform.requestRender()](/reference/event/basic/Render.md#请求渲染-动画帧) 方法。
+
+3. script 标签引入[图形编辑器](/plugin/in/editor/index.md#通过-script-标签引入)、[动画](/plugin/in/animate/index.md#通过-script-标签引入) 插件，需额外引入 [resize 插件](/plugin/in/resize/) 、[color 插件](/plugin/in/color/index.md)，控制台会有警告。
+
+   :::
+
+#### 🍇 社区
+
+\- 🌸 [leaferjs 高性能 canvas 引擎](https://www.bilibili.com/video/BV1jFkbYREB3/) @前端刘小灰
+
+\- 🌸 文档易用性提升, App、视口交互文档改版，应用配置增加 App 场景示例代码
+
+#### 🌱 新增
+
+\- 🌸 [config.move.scroll](/reference/config/app/move.md#move-scroll-boolean-x-y-limit-x-limit-y-limit) 支持设置仅横向 或 纵向滚动
+
+\- 🌸 [config.move.dragAnimate](/reference/config/app/move.md#move-draganimate-boolean) 手机端支持更流畅的滑动页面惯性动画
+
+\- 🌸 [config.move.dragOut](/reference/config/app/move.md#move-dragout-boolean-number) 支持设置一个数字，表示距离边界多少像素触发自动平移
+
+\- Leafer 的 [forceRender()](/reference/display/Leafer.md#forcerender-bounds-iboundsdata-sync-boolean) 方法增加 sync 参数，立即同步渲染
+
+#### 🪲 修复
+
+\- 🌸 leafer.zoom('fit', 0) 不能得到想要的边距为 0，要写成 [0]
+
+\- 🌸 Box 元素 overflow 为 'hide' 时，内阴影未能遮住子元素
+
+\- 遮罩元素的 visible 为 false 时，父级 Box 元素 的 overflow 属性失效
+
+\- 子元素 visible 为 0，导致 flowAlign 报错
+
+#### 🌿 优化
+
+\- 🌸 将视 [缩放平移视图](/guide/app/viewport) 移入到 [视口插件](/plugin/in/viewport/) 中
+
+\- 🌸 编辑器的 sky 层已开启局部渲染功能，如需关闭，请配置 [局部渲染参数](/guide/app/partRender)。
+
+\- 🌸 移除一直监听渲染动画帧的功能，改为按需监听，节省性能开销
+
+\- 已销毁的元素不能被添加，并在控制台进行警告
+
+#### 🌷 感谢反馈
+
+@懒画作者 @南 @子凡 @周明 @李维亮 @Jerry
+
 ## 2024 / 12 / 07
 
 > v1.1.0
@@ -378,7 +432,7 @@ import Case from '/component/Case.vue'
 
 #### 🌱 新增 🎉🎉🎉
 
-\- 🌸 增加 [block](/reference/config/app/type.md#block-类型) 应用类型， 可以像 HTML 的普通块状元素一样融入到浏览器页面中
+\- 🌸 增加 [block](/reference/config/app/type.md#block-类型) 视口类型， 可以像 HTML 的普通块状元素一样融入到浏览器页面中
 
 \- 🌸 图形编辑器 editSize 配置正式支持 [font-size](/plugin/in/editor/config.md#editsize-size-scale) 类型
 
@@ -479,6 +533,8 @@ import Case from '/component/Case.vue'
 \- Matrix 的 [setLayout()](/reference/math/Matrix.md#setlayout-layout-ilayoutdata-origin-ipointdata-around-ipointdata-matrix) / [getLayout()](/reference/math/Matrix.md#setlayout-layout-ilayoutdata-origin-ipointdata-around-ipointdata-matrix) 方法增加 around 参数
 
 \- [export()](/reference/property/export.md) 导出切片时，自动隐藏切片(当前导出元素)
+
+\- [rotateOf()](/reference/property/rotation.md#rotateof-origin-ialign-ipointdata-addrotation-number)、[skewOf()](/reference/property/skew.md#skewof-origin-ialign-ipointdata-addskewx-number-addskewy-0-resize-boolean) 的 origin 参数由 [inner 坐标](/guide/basic/coordinate.md#inner) 改为 [box 坐标](/guide/basic/coordinate.md#box)
 
 #### 🪲 修复
 
@@ -812,7 +868,7 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 ##### 正式移除 API
 
-\- 移除 forceFullRender()， 请使用 [forceRender()](/reference/display/Leafer.md#forcerender-bounds-iboundsdata-)
+\- 移除 forceFullRender()， 请使用 [forceRender()](/reference/display/Leafer.md#forcerender-bounds-iboundsdata-sync-boolean)
 
 \- 移除元素的 editSize 属性, 请使用 [editConfig](/reference/property/editable.md#editconfig-ieditorconfig) 设置
 
@@ -916,9 +972,9 @@ Picker.findList 改为 LeafList 类型
 
 \- 🌸 SVG / PNG 透明图片支持像素拾取 [hitFill = 'pixel'](/reference/property/hit.md#hitfill-ihittype)
 
-\- 🌸 Leafer 增加 [document](/reference/config/app/type.md#document-类型) 窗口类型，用于适配文档、网页类型的应用，需安装滚动条插件
+\- 🌸 Leafer 增加 [document](/reference/config/app/type.md#document-类型) 视口类型，用于适配文档、网页类型的应用，需安装滚动条插件
 
-\- Leafer 增加 [config.move.scroll](/reference/config/app/move.md#move-scroll-boolean-limit) 配置，限制横向或竖向滚动、有内容的区域滚动
+\- Leafer 增加 [config.move.scroll](/reference/config/app/move.md#move-scroll-boolean-x-y-limit-x-limit-y-limit) 配置，限制横向或竖向滚动、有内容的区域滚动
 
 \- 增加 [version](/reference/display/Leafer.md#版本号) 版本号
 
@@ -1104,7 +1160,7 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 导出图片选项 options.location 改为 [options.relative](/reference/property/export.md#export)
 
-当拖拽元素到达界面边界时，默认关闭自动平移视图，可以自行打开 [config.move.dragOut](/reference/config/app/move.md#move-dragout-boolean)
+当拖拽元素到达界面边界时，默认关闭自动平移视图，可以自行打开 [config.move.dragOut](/reference/config/app/move.md#move-dragout-boolean-number)
 
 拖拽视图的惯性动画开关，默认关闭，可以自行打开 [config.move.dragAnimate](/reference/config/app/move.md#movedrag-animate-boolean)
 
@@ -1144,7 +1200,7 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 #### 🪲 修复
 
-\- [forceRender()](/reference/display/Leafer.md#forcerender-bounds-iboundsdata) 不设置 bounds 不生效的问题
+\- [forceRender()](/reference/display/Leafer.md#forcerender-bounds-iboundsdata-sync-boolean) 不设置 bounds 不生效的问题
 
 \- strokeCap 会影响其他元素的问题
 
@@ -1182,7 +1238,7 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 \- Group 支持 [pick()](/reference/property/pick.md) 方法，可通过坐标点拾取元素
 
-\- Leafer 支持 [forceRender()](/reference/display/Leafer.md#forcerender-bounds-iboundsdata) 方法，可指定一个 bounds 进行局部重渲染
+\- Leafer 支持 [forceRender()](/reference/display/Leafer.md#forcerender-bounds-iboundsdata-sync-boolean) 方法，可指定一个 bounds 进行局部重渲染
 
 \- Leafer 支持手动更新光标样式 [updateCursor()](/reference/display/Leafer.md#updatecursor-cursor-icursortype)
 
@@ -1254,13 +1310,13 @@ AnswerType 改为 Answer（需从 leafer-ui 中引入）
 
 移除老版插件注册机制 @leafer/plugin
 
-移除之前的 user 应用类型，改用 draw 类型
+移除之前的 user 视口类型，改用 draw 类型
 
 移除 LeaferCanvas.setCursor，改用 [updateCursor()](/reference/display/Leafer.md#updatecursor-cursor-icursortype)
 
 移除 Matrix.multiplyParentLayout() 方法
 
-forceFullRender 即将移除，请改用 [forceRender()](/reference/display/Leafer.md#forcerender-bounds-iboundsdata) 方法代替
+forceFullRender 即将移除，请改用 [forceRender()](/reference/display/Leafer.md#forcerender-bounds-iboundsdata-sync-boolean) 方法代替
 
 removeAll() 方法即将移除，请改用 clear()
 

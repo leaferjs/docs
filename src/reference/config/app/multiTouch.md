@@ -1,6 +1,6 @@
 # multiTouch 配置
 
-触摸事件相关配置, 应用运行中修改 [app.config.multiTouch](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+多点触摸事件相关配置, 应用运行中修改 [app.config.multiTouch](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
 
 :::tip 注意事项
 [App 结构](/guide/app/multilayer.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。

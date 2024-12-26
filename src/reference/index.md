@@ -14,7 +14,7 @@
 
 ## 配置
 
-### [基础](/reference/config/app/base.md) &nbsp; &nbsp; [窗口类型](/reference/config/app/type.md) &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; [点按操作](/reference/config/app/pointer.md) &nbsp; &nbsp; [滚轮操作](/reference/config/app/wheel.md) &nbsp; &nbsp; [平移视图](/reference/config/app/move.md) &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md) &nbsp; &nbsp;
+### [基础](/reference/config/app/base.md) &nbsp; &nbsp; [视口类型](/reference/config/app/type.md) &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; [点按操作](/reference/config/app/pointer.md) &nbsp; &nbsp; [滚轮操作](/reference/config/app/wheel.md) &nbsp; &nbsp; [平移视图](/reference/config/app/move.md) &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md) &nbsp; &nbsp;
 
 ## 属性方法
 

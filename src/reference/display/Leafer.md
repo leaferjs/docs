@@ -1,6 +1,6 @@
 # Leafer
 
-创建 Leafer，了解初始化 [应用配置](/reference/config/app/base.md)、[窗口交互](/guide/app/window.md)。
+创建 Leafer，了解初始化 [应用配置](/reference/config/app/base.md)、[视口交互](/guide/app/viewport.md)。
 
 <br/>
 
@@ -14,7 +14,7 @@ Leafer &nbsp;>&nbsp; [Group](./Group.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ## 版本号
 
-当前的版本号，默认为 `1.1.0`。
+当前的版本号，默认为 `1.2.1`。
 
 ```ts
 import { version } from 'leafer-ui'
@@ -70,7 +70,7 @@ App 实例, 如果不存在则是自身。
 
 可结合 [RenderEvent.END](/reference/event/basic/Render) 事件 drawImage() 到另一张小 canvas 上，实现高性能的鸟瞰图。
 
-## 视图属性（viewport）
+## 视口属性（viewport）
 
 ### zoomLayer：[`Group`](./Group.md)
 
@@ -78,7 +78,7 @@ App 实例, 如果不存在则是自身。
 
 可以手动修改它的 [x](/reference/property/layout)、[y](/reference/property/layout)、[scale](/reference/property/layout#scale-number-ipointdata)、[scaleX](/reference/property/layout#scalex-number)、[scaleY](/reference/property/layout#scaley-number) 属性进行缩放平移视图。
 
-通过 [视图插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持 fit 视图、聚集到指定元素。
+另通过 [视图控制插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
 
 ## 状态属性
 
@@ -164,11 +164,13 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 已完成则立即执行。
 
-### forceRender ( bounds?: [`IBoundsData`](/api/interfaces/IBoundsData.md) )
+### forceRender ( bounds?: [`IBoundsData`](/api/interfaces/IBoundsData.md), sync?: `boolean` )
 
-强制渲染，默认重渲染整个画布。
+强制渲染（异步），默认重渲染整个画布。
 
 支持传入一个 bounds 进行局部重渲染, 可以打开 [显示重绘区域](/reference/debug/basic.md#showrepaint-boolean) 查看重绘情况。
+
+当 sync 参数设为 true 时，表示立即同步渲染。
 
 ### updateCursor ( cursor?: [`ICursorType`](/api/modules.md#icursortype) )
 
@@ -255,7 +257,7 @@ leafer.unlockLayout()
 
 ## 视图
 
-### [缩放平移视图](/guide/app/window.md)
+### [缩放平移视图](/guide/app/viewport.md)
 
 ## 监听事件
 
@@ -285,7 +287,11 @@ leafer.unlockLayout()
 
 默认将 leafer 自身作为平移缩放层(viewport 视口)，可单独指定一个 [Group](/reference/display/Group.md) 作为平移缩放层。
 
-<<< @/code/app/window/layer.ts
+::: code-group
+<<< @/code/app/viewport/layer.ts [Leafer]
+
+<<< @/code/app/viewport/app/layer.ts [App]
+:::
 
 ### 监听浏览器 unload 事件自动销毁
 

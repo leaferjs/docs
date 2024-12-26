@@ -14,7 +14,11 @@
 
 当无法判断元素包围盒，如编辑框、背景网格的 Leafer 层，这个时候可以关闭局部渲染。
 
-<<< @/code/app/config/partRender.ts
+::: code-group
+<<< @/code/app/config/app/partRender.ts [App]
+
+<<< @/code/app/config/partRender.ts [Leafer]
+:::
 
 ## 恭喜 🎉
 

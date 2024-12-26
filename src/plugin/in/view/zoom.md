@@ -43,6 +43,10 @@ type IZoomType =
 
 <<< @/code/plugin/view/zoom/fit.ts
 
+### 让画布内容居中显示
+
+<<< @/code/plugin/view/zoom/fit-center.ts
+
 ### 聚焦到指定元素
 
 <<< @/code/plugin/view/zoom/ui.ts

@@ -102,6 +102,8 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你愿意�
 
 - [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的金牌赞助商 logo 展示位。
 
+- 优先解答使用问题。
+
 ### 💍 铂金赞助商（¥5,000 / 月）
 
 **适合** 希望获得社区曝光和官方支持的 **中大型企业（8 个名额）**，[联系我们](https://leaferjs.com/#contact) 后再 [进行赞助](https://afdian.com/a/leaferjs) 。
@@ -143,6 +145,12 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你愿意�
 - 优先建立高级性能优化合作关系。
 
 <!-- ![sponsor](/image/sponsor/first.jpg) -->
+
+## 赞助证书
+
+赞助成功上墙后（最晚第 2 天），可前往 [百万咖啡墙](https://www.leaferjs.com/coffee/) 点击头像领取赞助证书，分享至朋友圈。
+
+<img width="320"  style="border-radius:20px" src="/image/sponsor/BoardOS.jpg" />
 
 ## 金牌赞助商
 
@@ -322,6 +330,48 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你愿意�
 ## 铜牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
+  <a target="_blank" href="https://afdian.com/u/ee3b249cbdb111efb10152540025c377">
+    李维亮
+  </a>
+  <a target="_blank" href="https://afdian.com/u/a7bfb854bdaa11ef8cef52540025c377">
+    朝夕
+  </a>
+  <a target="_blank" href="">
+    SaltedFish
+  </a>
+  <a target="_blank" href="">
+    zhk
+  </a>
+  <a target="_blank" href="">
+    格子
+  </a>
+  <a target="_blank" href="">
+    等等
+  </a>
+  <a target="_blank" href="">
+    goosen
+  </a>
+  <a target="_blank" href="">
+    建伟F4nniu
+  </a>
+  <a target="_blank" href="">
+    梁福斌
+  </a>
+  <a target="_blank" href="">
+    江万江
+  </a>
+  <a target="_blank" href="">
+    杨超
+  </a>
+  <a target="_blank" href="">
+    ToB Dev
+  </a>
+  <a target="_blank" href="https://juejin.cn/post/7294509366556262463">
+    前端之虎陈随易
+  </a>
+  <a target="_blank" href="">
+    A☀️云☀️A
+  </a>
   <a target="_blank" href="https://afdian.com/u/87144c9ab3a611ef95c652540025c377">
     ʚ LMT ɞ
   </a>

@@ -12,13 +12,21 @@
 
 是否禁用平移视图交互，默认为 false。
 
-### move.scroll: `boolean` ｜ `'limit'`
+### move.scroll: `boolean` ｜ `'x'` | `'y'` | `'limit'` | `'x-limit'` | `'y-limit'`
 
-限制横向或竖向滚动， 默认为 false。
+是否对平移滚动视图增加限制，默认为 false。
 
-设置 'limit' 会限制在有内容的区域滚动，否则可以无限滚动。
+设置 true，表示同一时间只能在单个方向上滚动。
 
-一般用于适配 [document](#type-string)、手机端上下滑动页面
+设置 'x'，表示只能横向滚动（纵向滚动操作会自动转为横向滚动）。
+
+设置 'y'，表示只能纵向滚动（横向滚动操作会自动转为纵向滚动）。
+
+设置 'limit'，表示限制在有内容的区域内滚动，类似浏览器和文档类应用的滚动交互方式。
+
+设置 'x-limit'，表示只能横向滚动，且限制在有内容的区域内滚动。
+
+设置 'y-limit'，表示只能纵向滚动，且限制在有内容的区域内滚动。
 
 ### move.drag: `boolean` | `'auto'`
 
@@ -48,9 +56,11 @@
 
 空白处拖拽是否平移视图，默认为 false。
 
-### move.dragOut: `boolean`
+### move.dragOut: `boolean` | `number`
 
 当拖拽元素到达界面边界时，是否自动平移视图，默认为 false。
+
+设置数字时，表示距离边界多少像素触发自动平移功能。
 
 ### move.autoDistance: `number`
 
@@ -60,8 +70,16 @@
 
 ### 拖拽时直接平移视图（预览模式）
 
-<<< @/code/app/config/drag.ts
+::: code-group
+<<< @/code/app/config/drag.ts [App]
+
+<<< @/code/app/config/app/drag.ts [Leafer]
+:::
 
 ### 拖拽至边界时自动平移视图
 
-<<< @/code/app/config/autoMove.ts
+::: code-group
+<<< @/code/app/config/autoMove.ts [App]
+
+<<< @/code/app/config/app/autoMove.ts [Leafer]
+:::

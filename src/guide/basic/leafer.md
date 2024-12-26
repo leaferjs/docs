@@ -10,8 +10,6 @@
 
 ## 创建固定宽高的 Leafer
 
-默认自带[窗口交互](../app/window)功能。
-
 view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字符串时不用加 # 号。
 
 <<< @/code/basic/app/fixed.ts

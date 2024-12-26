@@ -42,14 +42,16 @@ bun add @leafer-in/animate
 ::: code-group
 
 ```html [animate.min]
-<script src="https://unpkg.com/@leafer-in/animate@1.1.0/dist/animate.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@1.2.1/dist/animate.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@1.2.1/dist/color.min.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
 ```
 
 ```html [animate]
-<script src="https://unpkg.com/@leafer-in/animate@1.1.0/dist/animate.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@1.2.1/dist/animate.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@1.2.1/dist/color.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
@@ -57,6 +59,12 @@ bun add @leafer-in/animate
 
 https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 :::
+
+## 依赖插件
+
+### [color 插件](/plugin/in/color/index.md)
+
+默认会自动安装依赖, script 标签需额外引入。
 
 ## 体验
 

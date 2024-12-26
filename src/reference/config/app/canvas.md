@@ -77,4 +77,8 @@ interface ICanvasRenderingContext2DSettings {
 
 ### 关闭交互事件
 
-<<< @/code/app/config/hittable.ts
+::: code-group
+<<< @/code/app/config/hittable.ts [Leafer]
+
+<<< @/code/app/config/app/hittable.ts [App]
+:::

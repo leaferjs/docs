@@ -16,6 +16,8 @@
 
 ## 视频
 
+[leaferjs 高性能 canvas 引擎](https://www.bilibili.com/video/BV1jFkbYREB3/) @前端刘小灰
+
 [全新的图形渲染引擎，更快了](https://www.douyin.com/video/7399602821546380607) @茄子懂编程 🙈
 
 [这个前端插件竟然能画龙](https://www.douyin.com/video/7431130743629286690) @程序员 Rain

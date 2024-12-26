@@ -24,4 +24,8 @@
 
 ### 控制视图缩放范围
 
-<<< @/code/app/window/zoom-config.ts
+::: code-group
+<<< @/code/app/viewport/app/zoom-config.ts [App]
+
+<<< @/code/app/viewport/zoom-config.ts [Leafer]
+:::

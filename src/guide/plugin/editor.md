@@ -14,13 +14,9 @@ import Case from '/component/Case.vue'
 
 ::: code-group
 
-<<< @/code/plugin/editor/full.ts [手动创建]
+<<< @/code/plugin/editor/frame/editor.ts [editor]
 
-:::
-
-::: code-group
-
-<<< @/code/plugin/editor/start.ts [自动创建]
+<<< @/code/plugin/editor/frame/origin.ts [实现原理]
 
 :::
 
