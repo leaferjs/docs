@@ -2,7 +2,13 @@
 
 拖动事件。
 
+::: tip 继承
+DragEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
+
+<br/>
+
 [ script 标签引入](/guide/install/ui/start.md#通过-script-标签引入) 需用别名 **MyDragEvent** 代替。
+:::
 
 ## 事件名称
 
@@ -120,9 +126,9 @@ totalX, totalY 属性的坐标转换。
 
 设置拖拽数据，[`drop`](./Drop.md) 事件触发后自动重置。
 
-## 继承事件
+<!-- ## 继承事件
 
-### [PointerEvent](./Pointer)
+### [PointerEvent](./Pointer) -->
 
 <!-- ## API
 

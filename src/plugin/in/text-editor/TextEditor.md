@@ -6,6 +6,10 @@ import Case from '/component/Case.vue'
 
 文本编辑，双击元素进入编辑状态。
 
+::: tip 继承
+TextEditor &nbsp;>&nbsp; [InnerEditor](/plugin/in/editor/InnerEditor.md)
+:::
+
 ## 关键属性
 
 ### config: `ITextEditorConfig`
@@ -24,9 +28,9 @@ interface ITextEditorConfig {
 
 编辑文本框，覆盖在画布上的可编辑 dom 元素（用来临时代替文本）。
 
-## 继承
+<!-- ## 继承
 
-### [InnerEditor](/plugin/in/editor/InnerEditor.md)
+### [InnerEditor](/plugin/in/editor/InnerEditor.md) -->
 
 ## 示例
 

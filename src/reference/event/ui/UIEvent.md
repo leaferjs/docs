@@ -2,6 +2,10 @@
 
 所有交互事件的基类。
 
+::: tip 继承
+UIEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 关键属性
 
 ### x: `number`
@@ -85,9 +89,9 @@ x, y 属性的坐标转换。
 
 获取相对于 relative 的 [本地坐标](/guide/basic/coordinate.md#local) 位置，relative 不存在时为当前侦听元素。
 
-## 继承事件
+<!-- ## 继承事件
 
-### [Event](../basic/Event.md)
+### [Event](../basic/Event.md) -->
 
 <!--
 ## API

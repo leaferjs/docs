@@ -2,14 +2,16 @@
 
 鼠标、手写笔、触摸屏点击事件，支持 [右键菜单](#右键菜单-1) 事件。
 
-[ script 标签引入](/guide/install/ui/start.md#通过-script-标签引入) 需用别名 **MyPointerEvent** 代替。
-
-:::tip
-
 当原生 PointerEvent 事件不存在时，使用其他原生事件替代的优先级:
 
 PointerEvent > TouchEvent > MouseEvent
 
+::: tip 继承
+PointerEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
+
+<br/>
+
+[ script 标签引入](/guide/install/ui/start.md#通过-script-标签引入) 需用别名 **MyPointerEvent** 代替。
 :::
 
 ## 新特性
@@ -204,9 +206,10 @@ x, y 属性的坐标转换。
 
 获取相对于 relative 的 [本地坐标](/guide/basic/coordinate.md#local) 位置，relative 不存在时为当前侦听元素。
 
+<!--
 ## 继承事件
 
-### [UIEvent](./UIEvent.md)
+### [UIEvent](./UIEvent.md) -->
 
 <!-- ## API
 

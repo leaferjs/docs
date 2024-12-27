@@ -2,6 +2,10 @@
 
 Resize 事件。
 
+::: tip 继承
+ResizeEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 事件名称
 
 ### ResizeEvent.RESIZE
@@ -28,9 +32,9 @@ Resize 事件。
 
 老的尺寸信息。
 
-## 继承事件
+<!-- ## 继承事件
 
-### [Event](./Event.md)
+### [Event](./Event.md) -->
 
 <!--
 ## API

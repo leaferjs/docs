@@ -4,6 +4,10 @@
 
 想了解事件的触发顺序，请查看 [渲染生命周期](/guide/life/render.md) 图示。
 
+::: tip 继承
+LayoutEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 关键属性
 
 ### data: [`ILayoutBlockData`](/api/interfaces/ILayoutBlockData.md)[]
@@ -57,9 +61,9 @@
 
 `layout.end`
 
-## 继承事件
+<!-- ## 继承事件
 
-### [Event](./Event.md)
+### [Event](./Event.md) -->
 
 <!--
 ## API

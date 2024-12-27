@@ -1,13 +1,15 @@
 # MoveEvent
 
-移动事件，一般用于[视口交互](/guide/app/viewport.md)中平移视图。
+移动事件，一般用于[视口交互](/guide/app/viewport.md)中平移 视图 或 元素。
 
-1. 移动端: 双指滑动
-2. 触摸板: 双指滑动
-3. 鼠标: 滚轮（纵向平移），Shift + 滚轮（横向平移）
-4. 拖拽: 拖拽元素到达视图边界时，会自动平移视图，以实现向外拖拽
+1. 移动端/触摸板: 双指滑动。
+2. 鼠标: 滚轮（纵向滚动），Shift + 滚轮（横向滚动）。
 
-::: tip 注意事项
+::: tip 继承
+MoveEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
+
+<br/>
+
 需安装 [视口插件](/plugin/in/viewport/) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
 :::
 
@@ -61,9 +63,9 @@ moveX, moveY 属性的坐标转换。
 
 获取相对于 target [本地坐标](/guide/basic/coordinate.md#local) 的偏移距离，target 不存在时为当前侦听元素。
 
-## 继承事件
+<!-- ## 继承事件
 
-### [DragEvent](./Drag)
+### [DragEvent](./Drag) -->
 
 <!-- ## API
 

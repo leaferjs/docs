@@ -4,6 +4,10 @@
 
 事件派发的顺序为：元素自身、Leafer 实例，[渲染生命周期](/guide/life/render.md) 中会监听此事件。
 
+::: tip 继承
+PropertyEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 事件名称
 
 ### PropertyEvent.CHANGE
@@ -36,9 +40,9 @@
 
 新的值。
 
-## 继承事件
+<!-- ## 继承事件
 
-### [Event](./Event.md)
+### [Event](./Event.md) -->
 
 <!-- ## API
 

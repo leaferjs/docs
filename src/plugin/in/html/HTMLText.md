@@ -8,6 +8,10 @@ HTML 富文本。
 
 <case name="HTMLText" height=100></case>
 
+::: tip 继承
+HTMLText &nbsp;>&nbsp; [Image](/reference/display/Image.md) &nbsp;>&nbsp; [Rect](/reference/display/Rect.md) &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+:::
+
 ## 关键属性
 
 ### text：`string`

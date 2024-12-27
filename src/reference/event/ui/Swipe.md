@@ -2,6 +2,10 @@
 
 滑动事件。
 
+::: tip 继承
+SwipeEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 事件名称
 
 ### SwipeEvent.LEFT
@@ -28,9 +32,9 @@
 
 `swipe.down`
 
-## 继承事件
+<!-- ## 继承事件
 
-### [DragEvent](./Drag)
+### [DragEvent](./Drag) -->
 
 <!-- ## API
 

@@ -2,6 +2,10 @@
 
 无限画布滚动条。
 
+::: tip 继承
+ScrollBar &nbsp;>&nbsp; [Group](/reference/display/Group.md) &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+:::
+
 ## 关键属性
 
 ### config: [`IScrollBarConfig`](/api/interfaces/IScrollBarConfig.md)
@@ -32,9 +36,9 @@ type IScrollBarTheme = 'light' | 'dark' | IBoxInputData
 
 应用配置 [config.move.scroll = 'limit' ](/reference/config/app/move.md#move-scroll-boolean-x-y-limit-x-limit-y-limit) 可限制在有内容的区域滚动
 
-## 继承元素
+<!-- ## 继承元素
 
-### [Group](/reference/display/Group.md)
+### [Group](/reference/display/Group.md) -->
 
 <!-- ## API
 

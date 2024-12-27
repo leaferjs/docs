@@ -4,6 +4,10 @@
 
 只能在 Leafer 实例上监听键盘事件。
 
+::: tip 继承
+KeyEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 事件名称
 
 ### KeyEvent.DOWN
@@ -44,9 +48,9 @@
 
 是否按住某一个物理按键。
 
-## 继承事件
+<!-- ## 继承事件
 
-### [UIEvent](./UIEvent)
+### [UIEvent](./UIEvent) -->
 
 <!--
 ## API

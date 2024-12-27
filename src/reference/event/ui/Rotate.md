@@ -1,11 +1,15 @@
 # RotateEvent
 
-旋转事件，可用于旋转视图或图形。
+旋转事件，一般用于 [视口交互](/guide/app/viewport.md) 中旋转 视图 或 元素。
 
 1. 移动端: 双指旋转
 2. 触摸板: 双指旋转（仅 Safari 支持）
 
-::: tip 注意事项
+::: tip 继承
+RotateEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
+
+<br/>
+
 需安装 [视口插件](/plugin/in/viewport/) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
 :::
 
@@ -35,9 +39,9 @@
 
 此次旋转事件改变的角度
 
-## 继承事件
+<!-- ## 继承事件
 
-### [UIEvent](./UIEvent.md)
+### [UIEvent](./UIEvent.md) -->
 
 <!-- ## API
 

@@ -10,6 +10,10 @@ import Case from '/component/Case.vue'
 
 <case name="Editor" select=0></case>
 
+::: tip 继承
+Editor &nbsp;>&nbsp; [Group](/reference/display/Group.md) &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+:::
+
 ## 关键属性
 
 ### target：[`UI`](/reference/display/UI.md) | [`UI`](/reference/display/UI.md)[]
@@ -328,9 +332,10 @@ app.editor.skewOf('center', 45 - element.skewX)
 
 ### [自定义内部编辑器](/plugin/in/editor/editInner/register.md)
 
+<!--
 ## 继承元素
 
-### [Group](/reference/display/Group.md)
+### [Group](/reference/display/Group.md) -->
 
 <!-- ## API
 

@@ -4,6 +4,10 @@
 
 想了解事件的触发顺序，请查看 [渲染生命周期](/guide/life/render.md) 图示。
 
+::: tip 继承
+RenderEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 关键属性
 
 ### renderBounds: [`IBounds`](/api/interfaces/IBounds.md)
@@ -72,9 +76,9 @@
 
 <<< @/code/platform/render.ts
 
-## 继承事件
+<!-- ## 继承事件
 
-### [Event](./Event.md)
+### [Event](./Event.md) -->
 
 <!-- ## API
 

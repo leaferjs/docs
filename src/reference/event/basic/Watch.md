@@ -4,6 +4,10 @@
 
 想了解事件的触发顺序，请查看 [渲染生命周期](/guide/life/render.md) 图示。
 
+::: tip 继承
+WatchEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 事件名称
 
 ### WatchEvent.REQUEST
@@ -24,9 +28,9 @@
 
 观察数据。
 
-## 继承事件
+<!-- ## 继承事件
 
-### [Event](./Event.md)
+### [Event](./Event.md) -->
 
 <!--
 ## API

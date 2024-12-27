@@ -6,6 +6,10 @@ Child 事件。
 
 [`leafer.ready`](./Leafer.md) 事件之后才会派发添加 / 移除事件，想在 ready 前 [执行相关事件](/reference/property/parent.md#waitparent-item-function-bind-object)？
 
+::: tip 继承
+ChildEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 事件名称
 
 ### ChildEvent.ADD
@@ -56,9 +60,10 @@ Child 事件。
 
 父元素。
 
+<!--
 ## 继承事件
 
-### [Event](./Event.md)
+### [Event](./Event.md) -->
 
 <!-- ## API
 

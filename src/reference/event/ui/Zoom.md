@@ -1,12 +1,15 @@
 # ZoomEvent
 
-缩放事件，一般用于 [视口交互](/guide/app/viewport.md) 中缩放视图。
+缩放事件，一般用于 [视口交互](/guide/app/viewport.md) 中缩放 视图 或 元素。
 
-1. 移动端: 双指捏合
-2. 触摸板: 双指捏合
-3. 鼠标: Ctrl / Command + 滚轮
+1. 移动端/触摸板: 双指捏合。
+2. 鼠标: Ctrl / Command + 滚轮。
 
-::: tip 注意事项
+::: tip 继承
+ZoomEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
+
+<br/>
+
 需安装 [视口插件](/plugin/in/viewport/) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
 :::
 
@@ -36,9 +39,9 @@
 
 此次缩放事件改变的 scale 大小
 
-## 继承事件
+<!-- ## 继承事件
 
-### [UIEvent](./UIEvent)
+### [UIEvent](./UIEvent) -->
 
 <!-- ## API
 

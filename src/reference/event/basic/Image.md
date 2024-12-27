@@ -2,6 +2,10 @@
 
 图片事件。
 
+::: tip 继承
+ImageEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 关键属性
 
 ### image: [`ILeaferImage`](/api/interfaces/ILeaferImage.md)
@@ -44,9 +48,10 @@
 
 `image.error`
 
+<!--
 ## 继承事件
 
-### [Event](./Event.md)
+### [Event](./Event.md) -->
 
 <!-- ## API
 

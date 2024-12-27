@@ -8,6 +8,10 @@ import Case from '/component/Case.vue'
 
 <case name="Arrow" editor=false></case>
 
+::: tip 继承
+Arrow &nbsp;>&nbsp; [Line](/reference/display/Line.md) &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+:::
+
 ## 关键属性
 
 ### startArrow: `IArrowType`
@@ -76,9 +80,9 @@ interface IPathDataArrowOffset {
 
 圆角大小，使折线拐角处变的圆滑。
 
-## 继承元素
+<!-- ## 继承元素
 
-### [Line](/reference/display/Line.md)
+### [Line](/reference/display/Line.md) -->
 
 ## 示例
 

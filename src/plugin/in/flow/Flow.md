@@ -6,12 +6,14 @@ import Case from '/component/Case.vue'
 
 自动布局（流动）元素，类似 Flex 的自动布局，简单、直观，适合可视化编辑。
 
-[Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 元素也支持自动布局属性（ 需引入此插件包）。
+[Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 元素也支持自动布局属性（ 需引入此插件）。
 
-:::tip 注意事项
+::: tip 继承
+Flow &nbsp;>&nbsp; [Box](/reference/display/Box.md) &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+
+<br/>
 
 自动布局的元素频繁变化时，对性能的消耗会比较大，请合理使用，后期会继续优化～
-
 :::
 
 ## 关键属性
@@ -194,9 +196,9 @@ resize 布局的约束条件
 {left: 20, top: 20, right: 50, bottom: 30}
 ``` -->
 
-## 继承元素
+<!-- ## 继承元素
 
-### [Box](/reference/display/Box.md)
+### [Box](/reference/display/Box.md) -->
 
 ## 示例
 

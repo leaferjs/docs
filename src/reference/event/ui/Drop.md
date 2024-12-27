@@ -2,6 +2,10 @@
 
 拖放事件。
 
+::: tip 继承
+DropEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 事件名称
 
 ### DropEvent.DROP
@@ -20,9 +24,9 @@
 
 自定义数据，通过 [DragEvent.setData()](./Drag.md#静态方法) 设置。
 
-## 继承事件
+<!-- ## 继承事件
 
-### [PointerEvent](./Pointer)
+### [PointerEvent](./Pointer) -->
 
 <!--
 ## API

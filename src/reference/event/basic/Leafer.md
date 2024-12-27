@@ -4,6 +4,10 @@ Leafer 事件。
 
 想了解事件的触发顺序，请查看 [应用生命周期](/guide/life/app.md) 图示。
 
+::: tip 继承
+LeaferEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
+:::
+
 ## 事件名称
 
 ### LeaferEvent.START
@@ -54,9 +58,9 @@ Leafer 事件。
 
 `leafer.end`
 
-## 继承事件
+<!-- ## 继承事件
 
-### [Event](./Event.md)
+### [Event](./Event.md) -->
 
 <!-- ## API
 

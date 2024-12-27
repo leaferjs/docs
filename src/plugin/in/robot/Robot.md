@@ -12,6 +12,10 @@ import Case from '/component/Case.vue'
 
 按住方向键，移动箭头试试～ -->
 
+::: tip 继承
+Robot &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+:::
+
 ## 关键属性
 
 ### robot: [`IRobotKeyframe`](/api/interfaces/IRobotKeyframe.md) | [`IRobotKeyframe`](/api/interfaces/IRobotKeyframe.md) []
@@ -64,9 +68,9 @@ interface IRobotAnimation {
 
 是否循环播放动作中的图片帧。
 
-## 继承元素
+<!-- ## 继承元素
 
-### [UI](/reference/display/UI.md)
+### [UI](/reference/display/UI.md) -->
 
 <!-- ## API
 
