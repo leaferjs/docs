@@ -2,9 +2,9 @@
 import Case from '/component/Case.vue'
 </script>
 
-# ImagePaint
+# ImagePaint 对象
 
-图案填充对象, 可以用于填充与描边，支持使用 svg 格式的图片。
+图案填充对象, 可设置给 [fill](/reference/property/fill) 或 [stroke](/reference/property/stroke) 属性，支持使用 svg 格式的图片。
 
 <case name="ImageFill" editor=false></case>
 

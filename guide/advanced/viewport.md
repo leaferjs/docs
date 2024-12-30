@@ -88,4 +88,4 @@
 
 ## 下一步
 
-### [局部渲染](/guide/app/partRender)
+### [转换坐标](/guide/advanced/coordinate.md)

@@ -3,7 +3,7 @@
 应用初始化创建画布的相关配置。
 
 :::tip 注意事项
-[App 结构](/guide/app/multilayer.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
+[App 结构](/guide/advanced/app.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
 :::
 
 ## 关键属性

@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # App
 
-创建 App（可选结构），了解初始化 [应用配置](/reference/config/app/base.md)、[视口交互](/guide/app/viewport.md)。
+创建 App（可选结构），了解初始化 [应用配置](/reference/config/app/base.md)、[视口交互](/guide/advanced/viewport.md)。
 
 负责承载多个 [Leafer](/reference/display/Leafer.md) 实例分层 协同工作，以提升性能，同时继承 Leafer 的部分功能和事件。
 
@@ -95,7 +95,7 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 ## 视图
 
-### [缩放平移视图](/guide/app/viewport.md)
+### [缩放平移视图](/guide/advanced/viewport.md)
 
 ## 示例
 

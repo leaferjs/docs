@@ -2,9 +2,9 @@
 import Case from '/component/Case.vue'
 </script>
 
-# SolidPaint
+# SolidPaint 对象
 
-纯色填充对象, 可以用于填充与描边。
+纯色填充对象, 可设置给 [fill](/reference/property/fill) 或 [stroke](/reference/property/stroke) 属性。
 
 <case name="SolidFill"  editor=false></case>
 

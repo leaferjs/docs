@@ -16,6 +16,27 @@
 
 <<< @/code/event/leafer/render.ts
 
-## 下一步
+## 恭喜 🎉
 
-### [坐标体系](/guide/basic/coordinate)
+你已完成快速入门知识的学习，可以开始用 LeaferJS 来探索产品开发了～
+
+<br/>
+可继续阅读
+
+🍉 了解应用、元素、属性方法、事件、类库的使用。
+
+🍊 了解让你事半功倍的官方、社区 [插件](/plugin/)。
+
+## 在前端环境中使用
+
+### [Vue](/guide/framework/vue/)
+
+### [React](/guide/framework/react/)
+
+## 在服务端渲染中使用
+
+### [Nuxt.js](/guide/framework/nuxt/)
+
+### [VitePress](/guide/framework/vitepress/)
+
+### [Next.js](/guide/framework/next/)

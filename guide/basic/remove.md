@@ -32,4 +32,4 @@ import Case from '/component/Case.vue'
 
 ## 下一步
 
-### [App 结构](/guide/app/multilayer.md)
+### [App 结构](/guide/advanced/app.md)

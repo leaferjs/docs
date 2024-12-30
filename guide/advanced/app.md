@@ -50,4 +50,4 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 ## 下一步
 
-### [缩放平移视图](/guide/app/viewport)
+### [缩放平移视图](/guide/advanced/viewport)

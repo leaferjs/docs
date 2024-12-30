@@ -71,23 +71,23 @@ UIEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 ## 转换坐标方法
 
-x, y 属性的坐标转换。
+x, y 属性的转换。
 
 ### getPagePoint ( ): [`IPointData`](/reference/interface/math/Math#ipointdata)
 
-获取在 page 坐标系中的位置。
+获取事件在 page 坐标系中的位置。
 
 ### getBoxPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
 
-获取相对于 relative 的 [box 坐标](/guide/basic/coordinate.md#box) 位置，relative 不存在时为当前侦听元素。
+获取事件相对于 relative 元素的 [box 坐标](/guide/basic/coordinate.md#box) 位置，relative 元素 不存在时为当前侦听元素。
 
 ### getInnerPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
 
-获取相对于 relative 的 [内部坐标](/guide/basic/coordinate.md#inner) 位置，relative 不存在时为当前侦听元素。
+获取事件相对于 relative 元素的 [内部坐标](/guide/basic/coordinate.md#inner) 位置，relative 元素 不存在时为当前侦听元素。
 
 ### getLocalPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
 
-获取相对于 relative 的 [本地坐标](/guide/basic/coordinate.md#local) 位置，relative 不存在时为当前侦听元素。
+获取事件相对于 relative 元素的 [本地坐标](/guide/basic/coordinate.md#local) 位置，relative 元素 不存在时为当前侦听元素。
 
 <!-- ## 继承事件
 

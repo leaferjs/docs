@@ -2,9 +2,9 @@
 import Case from '/component/Case.vue'
 </script>
 
-# AngularGradient
+# AngularGradient 对象
 
-角度渐变对象, 可以用于填充与描边。暂时需要浏览器支持`createConicGradient()`方法。
+角度渐变对象, 可设置给 [fill](/reference/property/fill) 或 [stroke](/reference/property/stroke) 属性，暂需浏览器支持`createConicGradient()`方法。
 
 <case name="Angular"  editor=false></case>
 

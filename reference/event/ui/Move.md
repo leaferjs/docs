@@ -1,6 +1,6 @@
 # MoveEvent
 
-移动事件，一般用于[视口交互](/guide/app/viewport.md)中平移 视图 或 元素。
+移动事件，一般用于[视口交互](/guide/advanced/viewport.md)中平移 视图 或 元素。
 
 1. 移动端/触摸板: 双指滑动。
 2. 鼠标: 滚轮（纵向滚动），Shift + 滚轮（横向滚动）。
@@ -49,19 +49,19 @@ MoveEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Point
 
 ## 转换坐标方法
 
-moveX, moveY 属性的坐标转换。
+moveX, moveY 属性的转换。
 
 ### getPageMove ( ): [`IPointData`](/reference/interface/math/Math#ipointdata)
 
-获取在 page 坐标系中的偏移距离。
+获取事件在 page 坐标系中的偏移距离。
 
-### getInnerMove ( target?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getInnerMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
 
-获取相对于 target [内部坐标](/guide/basic/coordinate.md#inner) 的偏移距离，target 不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [内部坐标](/guide/basic/coordinate.md#inner) 的偏移距离，relative 元素不存在时为当前侦听元素。
 
 ### getLocalMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
 
-获取相对于 target [本地坐标](/guide/basic/coordinate.md#local) 的偏移距离，target 不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [本地坐标](/guide/basic/coordinate.md#local) 的偏移距离，relative 元素不存在时为当前侦听元素。
 
 <!-- ## 继承事件
 

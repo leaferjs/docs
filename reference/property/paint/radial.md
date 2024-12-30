@@ -2,9 +2,9 @@
 import Case from '/component/Case.vue'
 </script>
 
-# RadialGradient
+# RadialGradient 对象
 
-径向渐变对象, 可以用于填充与描边。
+径向渐变对象, 可设置给 [fill](/reference/property/fill) 或 [stroke](/reference/property/stroke) 属性。
 
 <case name="Radial" editor=false></case>
 

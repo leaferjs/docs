@@ -2,9 +2,9 @@
 import Case from '/component/Case.vue'
 </script>
 
-# LinearGradient
+# LinearGradient 对象
 
-线性渐变对象, 可以用于填充与描边。
+线性渐变对象, 可设置给 [fill](/reference/property/fill) 或 [stroke](/reference/property/stroke) 属性。
 
 <case name="Linear"  editor=false></case>
 

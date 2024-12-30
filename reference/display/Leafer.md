@@ -1,6 +1,6 @@
 # Leafer
 
-创建 Leafer，了解初始化 [应用配置](/reference/config/app/base.md)、[视口交互](/guide/app/viewport.md)。
+创建 Leafer，了解初始化 [应用配置](/reference/config/app/base.md)、[视口交互](/guide/advanced/viewport.md)。
 
 <br/>
 
@@ -208,11 +208,11 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 ### getWorldPointByClient ( clientPoint: `IClientPointData`, update?: `boolean` ):[`IPointData`](../interface/math/Math#ipointdata)
 
-获取在应用中的 [世界坐标](/guide/basic/coordinate.md#world)（传入一个浏览器窗口的 client 坐标 转换），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新）。
+获取 [世界坐标](/guide/basic/coordinate.md#world)（浏览器原生事件的 client 坐标 转 [世界坐标](/guide/basic/coordinate.md#world)），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新）。
 
 ### getPagePointByClient ( clientPoint: `IClientPointData`, update?: `boolean` ):[`IPointData`](../interface/math/Math#ipointdata)
 
-获取在应用中的 [page 坐标](/guide/basic/coordinate.md#world)（传入一个浏览器窗口的 client 坐标 转换），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新）。
+获取 [page 坐标](/guide/basic/coordinate.md#world)（浏览器原生事件的 client 坐标 转 [page 坐标](/guide/basic/coordinate.md#page)），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新）。
 
 可用于转换浏览器原生事件坐标（自带 clientX / clientY 坐标属性）到应用中。
 
@@ -257,7 +257,7 @@ leafer.unlockLayout()
 
 ## 视图
 
-### [缩放平移视图](/guide/app/viewport.md)
+### [缩放平移视图](/guide/advanced/viewport.md)
 
 ## 监听事件
 

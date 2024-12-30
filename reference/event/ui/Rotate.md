@@ -1,6 +1,6 @@
 # RotateEvent
 
-旋转事件，一般用于 [视口交互](/guide/app/viewport.md) 中旋转 视图 或 元素。
+旋转事件，一般用于 [视口交互](/guide/advanced/viewport.md) 中旋转 视图 或 元素。
 
 1. 移动端: 双指旋转
 2. 触摸板: 双指旋转（仅 Safari 支持）

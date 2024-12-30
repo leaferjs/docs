@@ -19,7 +19,7 @@ App 与 Leafer 的初始化基础配置。
 是否使用 局部渲染， 默认为 true。
 
 :::tip 注意事项
-[App 结构](/guide/app/multilayer.md) 下需设置在 [子层 Leafer](/reference/display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
+[App 结构](/guide/advanced/app.md) 下需设置在 [子层 Leafer](/reference/display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
 :::
 
 ## 交互属性
@@ -27,7 +27,7 @@ App 与 Leafer 的初始化基础配置。
 应用运行中修改 [app.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
 
 :::tip 注意事项
-[App 结构](/guide/app/multilayer.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
+[App 结构](/guide/advanced/app.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
 :::
 
 ### mobile: `boolean`

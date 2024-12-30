@@ -58,19 +58,19 @@
 
 ### getBounds ( type: [`IBoundsType`](/api/modules.md#iboundstype) = 'box', relative?: [`ILocationType`](/api/modules.md#ilocationtype) | [`UI`](/reference/display/UI.md) = 'world' ): [`IBoundsData`](/api/interfaces/IBoundsData.md)
 
-获取 AABB 包围盒（边界）。
+获取元素的 AABB 包围盒（边界）。
 
 可获取不同 [坐标体系](/guide/basic/coordinate.md) 下的不同 [边界类型](/guide/basic/bounds.md)，relative 可指定坐标体系或相对元素
 
 ### getLayoutBounds ( type: [`IBoundsType`](/api/modules.md#iboundstype) = 'box', relative?: [`ILocationType`](/api/modules.md#ilocationtype) | [`UI`](/reference/display/UI.md) = 'world', unscale?: `boolean` ): [`ILayoutBoundsData`](/api/interfaces/ILayoutBoundsData.md)
 
-获取 OBB 包围盒（边界），含缩放、旋转等布局属性。
+获取元素的 OBB 包围盒（边界），含缩放、旋转等布局属性。
 
 可设置 unscale = true 将 scale 转换为宽高，不过仍存在 scaleX / scaleY 为 -1 的镜像情况。
 
 ### getLayoutPoints ( type: [`IBoundsType`](/api/modules.md#iboundstype) = 'box', relative: [`ILocationType`](/api/modules.md#ilocationtype) | [`UI`](/reference/display/UI.md) = 'world' ): [`IPointData`](/api/interfaces/IPointData.md)[]
 
-获取 OBB 包围盒（边界）的四个坐标点 [topLeft, topRight, bottomRight, bottomLeft]。
+获取元素的 OBB 包围盒（边界）的四个坐标点 [topLeft, topRight, bottomRight, bottomLeft]。
 
 ```ts
 type ILocationType = 'world' | 'local' | 'inner' // 坐标体系

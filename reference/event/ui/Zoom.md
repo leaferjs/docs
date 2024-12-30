@@ -1,6 +1,6 @@
 # ZoomEvent
 
-缩放事件，一般用于 [视口交互](/guide/app/viewport.md) 中缩放 视图 或 元素。
+缩放事件，一般用于 [视口交互](/guide/advanced/viewport.md) 中缩放 视图 或 元素。
 
 1. 移动端/触摸板: 双指捏合。
 2. 鼠标: Ctrl / Command + 滚轮。
