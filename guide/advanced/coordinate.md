@@ -1,6 +1,6 @@
 # 转换坐标
 
-当你 [缩放平移视图](/guide/advanced/viewport) 后，想在画布中用鼠标创建图形，会发现将 [事件坐标 x, y](/reference/event/ui/Pointer.md#x-number) 给到图形，位置已经偏移了，此时就需要用到 [转换坐标](/reference/property/point/) 的功能。
+当你 [缩放平移视图](/guide/advanced/viewport) 后，想在画布中用鼠标创建图形，会发现将 [事件坐标 x, y](/reference/event/ui/Pointer.md#x-number) 给到图形，位置已经不对了，此时就需要用到 [转换坐标](/reference/property/point/) 的功能。
 
 ## 先了解一下坐标系的原理
 
@@ -23,7 +23,7 @@
 <!--
 以小圆作为参照物，从 3D 视角俯视，由下到上，依次为小圆的内部坐标系、本地坐标系、page 坐标系、世界坐标系。 -->
 
-### world 世界坐标
+### world 世界坐标系
 
 在画布上的坐标，类似 HTML 的 client 坐标系，以画布左上角为起点。
 
@@ -56,7 +56,7 @@
 
 ## 示例
 
-### 我们以画笔工具的例子， 来了解 [转换坐标](/reference/property/point/) 的作用
+### 我们通过 画笔工具 的例子， 来了解 [转换坐标](/reference/property/point/) 的作用
 
 按下鼠标拖动开始画线，抬起结束，当缩放平移视图后，仍然可以准确绘制新的线条。
 
@@ -101,7 +101,7 @@
 | 名称                                                                                                                                 | 描述                                                                                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) | 获取 [世界坐标](/guide/basic/coordinate.md#world)（浏览器原生事件的 client 坐标 转 [世界坐标](/guide/basic/coordinate.md#world)），只能在 App 或 Leafer 实例上调用此方法  |
-| [getPagePointByClient ()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) | 获取 [page 坐标](/guide/basic/coordinate.md#world)（浏览器原生事件的 client 坐标 转 [page 坐标](/guide/basic/coordinate.md#page)），只能在 App 或 Leafer 实例上调用此方法 |
+| [getPagePointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata)  | 获取 [page 坐标](/guide/basic/coordinate.md#world)（浏览器原生事件的 client 坐标 转 [page 坐标](/guide/basic/coordinate.md#page)），只能在 App 或 Leafer 实例上调用此方法 |
 
 ### 数学计算
 
@@ -109,4 +109,4 @@
 
 ## 下一步
 
-### [获取包围盒大小](/guide/advanced/bounds.md)
+### [获取包围盒](/guide/advanced/bounds.md)

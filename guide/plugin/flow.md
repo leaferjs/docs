@@ -16,4 +16,4 @@ import Case from '/component/Case.vue'
 
 ## 下一步
 
-### [交互状态](/guide/plugin/state)
+### [图形编辑器](/guide/plugin/editor.md)

@@ -19,4 +19,4 @@ import Case from '/component/Case.vue'
 
 ## 下一步
 
-### [Robot 元素](/guide/plugin/robot)
+### [运动路径](/guide/plugin/motion-path)

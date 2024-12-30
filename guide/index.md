@@ -22,9 +22,9 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 跟随官网教程步骤（文档底部有下一步引导按钮）从浅到深的学习，动手调试每一段示例代码。
 
-**[3. 开发一个画龙点睛的小游戏](/contest/guide.md)**
+<!-- **[3. 开发一个画龙点睛的小游戏](/contest/guide.md)**
 
-给你一条会飞的龙，看你能做出什么好玩的小游戏分享给我们 ◠‿◠
+给你一条会飞的龙，看你能做出什么好玩的小游戏分享给我们 ◠‿◠ -->
 
 ## 快速安装
 
@@ -32,11 +32,11 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 ## 场景包
 
-高效绘图场景，推荐安装更轻量的 [leafer-draw](/guide/install/draw/start.md) （49KB min+gzip）。
+高效绘图场景，推荐直接安装更轻量的 [leafer-draw](/guide/install/draw/start.md) （51KB min+gzip）。
 
-游戏开发场景，推荐安装更省心的 [leafer-game](/guide/install/game/start.md)，已集成了游戏相关插件。
+游戏开发场景，推荐直接安装更省心的 [leafer-game](/guide/install/game/start.md)，已集成了游戏相关插件。
 
-图形编辑场景，推荐安装更省心的 [leafer-editor](/guide/install/editor/start.md)，已集成了图形编辑器相关插件。
+图形编辑场景，推荐直接安装更省心的 [leafer-editor](/guide/install/editor/start.md)，已集成了图形编辑器相关插件。
 
 ## 互动交流
 

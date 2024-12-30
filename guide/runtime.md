@@ -46,7 +46,7 @@ git pull --recurse-submodules
 
 :::
 
-将在本地创建一个 [LeaferJS](https://github.com/leaferjs/LeaferJS.git) 项目，并自动下载 [leafer](https://github.com/leaferjs/leafer)、[leafer-ui](https://github.com/leaferjs/leafer-ui)、[leafer-in](https://github.com/leaferjs/leafer-in)、[leafer-draw](https://github.com/leaferjs/leafer-draw)、[leafer-editor](https://github.com/leaferjs/leafer-editor) 子仓库到 src 目录。
+将在本地创建一个 [LeaferJS](https://github.com/leaferjs/LeaferJS.git) 项目，并自动下载 [leafer](https://github.com/leaferjs/leafer)、[leafer-ui](https://github.com/leaferjs/leafer-ui)、[leafer-in](https://github.com/leaferjs/leafer-in)、[leafer-draw](https://github.com/leaferjs/leafer-draw)、 [leafer-game](/guide/install/game/start.md)、[leafer-editor](https://github.com/leaferjs/leafer-editor) 子仓库到 src 目录。
 
 安装启动完成后，可在浏览器中访问：`localhost:10101`
 

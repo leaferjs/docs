@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Robot
+# Robot 游戏元素
 
 Robot 元素类似于游戏中的精灵元素，集成了帧播放和动作预设功能，可以快速制作出具有行走和攻击动作的游戏角色。
 
@@ -21,10 +21,6 @@ Robot 元素类似于游戏中的精灵元素，集成了帧播放和动作预�
 
 <<< @/code/plugin/robot/index.ts
 
-## 恭喜 🎉
-
-你已完成常用场景插件的学习，接下来将带你了解几个构成 Leafer 的重要知识，就算完成入门的学习了。
-
 ## 下一步
 
-### [生命周期](/guide/life/ui.md)
+### [自动布局](/guide/plugin/flow)

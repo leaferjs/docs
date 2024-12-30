@@ -6,6 +6,8 @@ import Case from '/component/Case.vue'
 
 运动路径功能插件。
 
+让元素沿着另一条路径运动，或进行自身描边。
+
 ## 适用平台
 
 支持所有平台。
