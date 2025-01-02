@@ -10,7 +10,7 @@
 
 ### type: `string`
 
-视口类型，附带场景逻辑，默认为 block 类型。
+视口类型，附带场景逻辑，默认为 block 场景类型。
 
 目前有 block、viewport、custom、design、document， 后续会添加其他场景。
 
@@ -30,17 +30,17 @@ type ILeaferType =
   | 'custom' // 自定义
 ```
 
-## block 类型
+## block 场景类型
 
-块状融入场景：不添加视口功能，且像 HTML 的普通块状元素一样融入到浏览器页面中。
+[Leafer](/reference/display/Leafer.md) 里面的元素可以像 HTML 的普通块状元素一样融入到浏览器页面中，响应交互事件。
 
-移动端在 draggable / editable 为 `false`，及没有监听 DragEvent.DRAG 的空间上拖拽可直接滑动页面。
+移动端在元素 draggable / editable 属性为 `false`，及没有监听 DragEvent.DRAG 的空间上拖拽可直接滑动页面，了解 [touch 配置](/reference/config/app/touch.md#touchpreventdefault-boolean-auto)。
 
 <<< @/code/app/config/type/block.ts
 
 ## viewport 视口类型
 
-通过滚轮/触摸板滑动或捏合可缩放平移视图。
+通过滚轮/触摸板滑动或捏合可缩放平移视图，会阻止默认 [右键菜单](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean)。
 
 ### 平移视图操作
 

@@ -13,7 +13,7 @@
 
 ## viewport 视口类型
 
-通过配置 [leafer.config.type](/reference/config/app/type.md) 可快速添加视口功能。
+通过配置 [leafer.config.type](/reference/config/app/type.md) 可快速添加视口功能，viewport 会阻止 [默认右键菜单](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean)。
 
 ### 平移视图操作
 
@@ -78,6 +78,12 @@
 
 通过 [Leafer 视口属性](/reference/display/Leafer.md#视口属性-viewport) / [App 视口属性](/reference/display/App.md#视口属性-viewport) 可手动平移缩放视图。
 
+## 移动端手势控制元素
+
+[图形编辑器](/plugin/in/editor/) 可以配置 [moblie 模式](/reference/config/app/base.md#mobile-boolean) 及 [手势控制元素](/plugin/in/editor/config.md#moveable-boolean-move)。
+
+也可以自己通过监听 [视口交互事件](#视口交互事件) 实现手势控制元素（需 [阻止事件冒泡](/reference/event/basic/Event.md#stop)）。
+
 ## 更多示例
 
 ### [鼠标滚动直接缩放视图](/reference/config/app/wheel.md#鼠标滚动直接缩放视图)
@@ -85,6 +91,10 @@
 ### [控制缩放范围](/reference/config/app/zoom.md#控制视图缩放范围)
 
 ### [单独指定缩放层](/reference/display/Leafer.md#单独指定缩放层)
+
+## 视口交互事件
+
+### [MoveEvent](/reference/event/ui/Move) &nbsp; &nbsp; [ZoomEvent](/reference/event/ui/Zoom) &nbsp; &nbsp; [RotateEvent](/reference/event/ui/Rotate)
 
 ## 下一步
 

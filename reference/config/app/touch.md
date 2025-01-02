@@ -10,8 +10,10 @@
 
 ### touch.preventDefault: `boolean` | `'auto'`
 
-是否阻止移动端默认触摸屏滑动页面事件，默认为 true。
-
-设置 false， 所有地方拖拽将会滑动页面。
+是否阻止移动端默认触摸屏滑动页面事件，默认为 'auto'。
 
 设置 'auto'， draggable / editable / 监听 DragEvent.DRAG 的元素仍可单独拖拽，其他地方拖拽将会滑动页面。
+
+设置 true， 所有地方拖拽将不会滑动页面。
+
+设置 false， 所有地方拖拽将会滑动页面。

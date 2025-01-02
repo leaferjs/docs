@@ -20,6 +20,10 @@ view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字�
 
 <<< @/code/basic/app/auto.ts
 
+## 配置 Leafer
+
+### [基础](/reference/config/app/base.md) &nbsp; &nbsp; [视口类型](/reference/config/app/type.md) &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; [点按](/reference/config/app/pointer.md) &nbsp; &nbsp;[触屏](/reference/config/app/touch.md) &nbsp; &nbsp; [滚轮](/reference/config/app/wheel.md)
+
 ## 下一步
 
 ### [创建元素](/guide/basic/display)

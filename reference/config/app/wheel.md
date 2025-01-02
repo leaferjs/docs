@@ -42,9 +42,7 @@
 
 ### wheel.preventDefault: `boolean`
 
-是否阻止浏览器默认滚动页面事件，默认为 true。
-
-如需支持同时滚动画布外的页面，设置为 false 即可。
+是否阻止浏览器默认滚动页面事件，默认为 false。
 
 ## 示例
 

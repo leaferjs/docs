@@ -70,7 +70,7 @@
 
 ### pointer.preventDefaultMenu: `boolean`
 
-是否阻止浏览器默认菜单事件， 默认为 true.
+是否阻止浏览器默认菜单事件， 默认为 false.
 
 ## 示例
 

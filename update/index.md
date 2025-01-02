@@ -81,7 +81,7 @@ import Case from '/component/Case.vue'
 
 #### 🌿 优化
 
-\- 🌸 将 [缩放平移视图](/guide/advanced/viewport) 功能移动到 [视口插件](/plugin/in/viewport/) 中
+\- 🌸 将 [缩放平移视图](/guide/advanced/viewport) 功能移动到 [视口插件](/plugin/in/viewport/) 中，默认改为 [block 场景类型](/reference/config/app/type.md#block-场景类型)，[右键菜单](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean) 不再阻止。
 
 \- 🌸 编辑器的 sky 层已开启局部渲染功能，如需关闭，请配置 [局部渲染参数](/guide/advanced/partRender)。
 
