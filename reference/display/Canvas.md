@@ -32,6 +32,10 @@ Canvas &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 是否平滑绘制图像， 默认为 true。
 
+### safeResize: `boolean`
+
+调整 canvas 大小时是否尽量保留之前的画面（会稍微多消耗一点性能），默认为 false。
+
 ### contextSettings: `ICanvasRenderingContext2DSettings`
 
 原生画布的 context 设置， [了解更多](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext#contextattributes)。

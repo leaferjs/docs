@@ -4,7 +4,7 @@
 
 ### event：[`IEventMap`](/api/interfaces/IEventMap.md)
 
-仅支持初始化时传入监听事件。
+仅支持初始化时传入监听事件（不能导出为 JSON）。
 
 ```ts
 export interface IEventMap {

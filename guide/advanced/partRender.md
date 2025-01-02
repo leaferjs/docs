@@ -27,3 +27,19 @@
 ## 下一步
 
 ### [生命周期](/guide/life/ui.md)
+
+<br/>
+
+### 在前端环境中使用
+
+[Vue](/guide/framework/vue/)
+
+[React](/guide/framework/react/)
+
+### 在服务端渲染中使用
+
+[Nuxt.js](/guide/framework/nuxt/)
+
+[VitePress](/guide/framework/vitepress/)
+
+[Next.js](/guide/framework/next/)

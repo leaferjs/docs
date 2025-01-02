@@ -27,16 +27,16 @@
 
 🍊 了解让你事半功倍的官方、社区 [插件](/plugin/)。
 
-## 在前端环境中使用
+### 在前端环境中使用
 
-### [Vue](/guide/framework/vue/)
+[Vue](/guide/framework/vue/)
 
-### [React](/guide/framework/react/)
+[React](/guide/framework/react/)
 
-## 在服务端渲染中使用
+### 在服务端渲染中使用
 
-### [Nuxt.js](/guide/framework/nuxt/)
+[Nuxt.js](/guide/framework/nuxt/)
 
-### [VitePress](/guide/framework/vitepress/)
+[VitePress](/guide/framework/vitepress/)
 
-### [Next.js](/guide/framework/next/)
+[Next.js](/guide/framework/next/)

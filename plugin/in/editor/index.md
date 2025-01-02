@@ -24,14 +24,22 @@ web 版、小程序版。暂时与有 [自动布局](/plugin/in/flow/) 的元素
 
 ```sh[npm]
 npm install @leafer-in/editor
+npm install @leafer-in/resize
 ```
 
 ```sh[pnpm]
 pnpm add @leafer-in/editor
+pnpm add @leafer-in/resize
+```
+
+```sh[yarn]
+yarn add @leafer-in/editor
+yarn add @leafer-in/resize
 ```
 
 ```sh[bun]
 bun add @leafer-in/editor
+bun add @leafer-in/resize
 ```
 
 :::
@@ -42,16 +50,16 @@ bun add @leafer-in/editor
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.2.1/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.2.1/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.2.2/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.2.2/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.2.1/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.2.1/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.2.2/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.2.2/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
@@ -63,8 +71,6 @@ https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 ## 依赖插件
 
 ### [resize 插件](/plugin/in/resize/)
-
-默认会自动安装依赖, script 标签需额外引入。
 
 ## 开始体验
 

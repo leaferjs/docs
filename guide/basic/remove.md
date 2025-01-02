@@ -28,8 +28,24 @@ import Case from '/component/Case.vue'
 
 ## 恭喜 🎉
 
-你已完成基础知识的学习，接下来带你了解几个 **很好玩的插件**。
+你已完成基础知识的学习，接下来带你了解几个 **好玩的插件**，放松一下～
 
 ## 下一步
 
 ### [交互状态](/guide/plugin/state)
+
+<br/>
+
+### 在前端环境中使用
+
+[Vue](/guide/framework/vue/)
+
+[React](/guide/framework/react/)
+
+### 在服务端渲染中使用
+
+[Nuxt.js](/guide/framework/nuxt/)
+
+[VitePress](/guide/framework/vitepress/)
+
+[Next.js](/guide/framework/next/)

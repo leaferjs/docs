@@ -182,6 +182,20 @@ interface IAnimateEvents {
 interface IAnimateEventFunction {
   (animate?: IAnimate): void
 }
+
+// 示例
+const animateOptions = {
+  ease: 'bounce-in',
+  duration: 2,
+  event: {
+    update(animate?: IAnimate) {
+      // 更新中...
+    },
+    completed() {
+      // 动画已完成
+    },
+  },
+}
 ```
 
 ## 时长属性（只读）

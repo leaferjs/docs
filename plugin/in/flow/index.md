@@ -20,14 +20,22 @@ import Case from '/component/Case.vue'
 
 ```sh[npm]
 npm install @leafer-in/flow
+npm install @leafer-in/resize
 ```
 
 ```sh[pnpm]
 pnpm add @leafer-in/flow
+pnpm add @leafer-in/resize
+```
+
+```sh[yarn]
+yarn add @leafer-in/flow
+yarn add @leafer-in/resize
 ```
 
 ```sh[bun]
 bun add @leafer-in/flow
+bun add @leafer-in/resize
 ```
 
 :::
@@ -38,16 +46,16 @@ bun add @leafer-in/flow
 ::: code-group
 
 ```html [flow.min]
-<script src="https://unpkg.com/@leafer-in/flow@1.2.1/dist/flow.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.2.1/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.2.2/dist/flow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.2.2/dist/resize.min.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>
 ```
 
 ```html [flow]
-<script src="https://unpkg.com/@leafer-in/flow@1.2.1/dist/flow.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.2.1/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.2.2/dist/flow.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.2.2/dist/resize.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>
@@ -59,8 +67,6 @@ https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 ## 依赖插件
 
 ### [resize 插件](/plugin/in/resize/index.md)
-
-默认会自动安装依赖, script 标签需额外引入。
 
 ## 开始体验
 

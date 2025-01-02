@@ -10,7 +10,7 @@ import Case from '/component/Case.vue'
 
 <!-- <case name="Robot" editor=false></case>
 
-按住方向键，移动箭头试试～ -->
+按住、抬起不同的方向键试试～ -->
 
 ::: tip 继承
 Robot &nbsp;>&nbsp; [UI](/reference/display/UI.md)

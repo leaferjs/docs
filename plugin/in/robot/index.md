@@ -44,14 +44,14 @@ bun add @leafer-in/robot
 ::: code-group
 
 ```html [robot.min]
-<script src="https://unpkg.com/@leafer-in/robot@1.2.1/dist/robot.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/robot@1.2.2/dist/robot.min.js"></script>
 <script>
   const { Robot } = LeaferIN.robot
 </script>
 ```
 
 ```html [robot]
-<script src="https://unpkg.com/@leafer-in/robot@1.2.1/dist/robot.js"></script>
+<script src="https://unpkg.com/@leafer-in/robot@1.2.2/dist/robot.js"></script>
 <script>
   const { Robot } = LeaferIN.robot
 </script>
@@ -64,7 +64,7 @@ https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 
 <case name="Robot" editor=false></case>
 
-按住方向键，移动箭头试试～
+按住、抬起不同的方向键试试～
 
 <<< @/code/plugin/robot/index.ts
 

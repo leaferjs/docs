@@ -18,6 +18,10 @@ import Case from '/component/Case.vue'
 
 <<< @/code/property/transition/button.ts
 
+<case name="State" index=0 editor=false></case>
+
+<<< @/code/property/state/state.ts
+
 ## 下一步
 
 ### [动画功能](/guide/plugin/animate)

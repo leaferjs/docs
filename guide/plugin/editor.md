@@ -22,8 +22,24 @@ import Case from '/component/Case.vue'
 
 ## 恭喜 🎉
 
-你已完成常用场景插件的学习，接下来将学习几个重要的进阶知识。
+你已完成 常用场景插件 的了解，接下来将学习几个重要的进阶知识。
 
 ## 下一步
 
 ### [创建 App](/guide/advanced/app.md)
+
+<br/>
+
+### 在前端环境中使用
+
+[Vue](/guide/framework/vue/)
+
+[React](/guide/framework/react/)
+
+### 在服务端渲染中使用
+
+[Nuxt.js](/guide/framework/nuxt/)
+
+[VitePress](/guide/framework/vitepress/)
+
+[Next.js](/guide/framework/next/)

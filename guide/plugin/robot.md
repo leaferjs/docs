@@ -17,7 +17,7 @@ Robot 元素类似于游戏中的精灵元素，集成了帧播放和动作预�
 
 <case name="Robot" editor=false></case>
 
-按住方向键，移动箭头试试～
+按住、抬起不同的方向键试试～
 
 <<< @/code/plugin/robot/index.ts
 

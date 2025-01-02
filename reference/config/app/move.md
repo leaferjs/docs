@@ -71,15 +71,13 @@
 ### 拖拽时直接平移视图（预览模式）
 
 ::: code-group
-<<< @/code/app/config/drag.ts [App]
-
-<<< @/code/app/config/app/drag.ts [Leafer]
+<<< @/code/app/config/app/drag.ts [App]
+<<< @/code/app/config/drag.ts [Leafer]
 :::
 
 ### 拖拽至边界时自动平移视图
 
 ::: code-group
-<<< @/code/app/config/autoMove.ts [App]
-
-<<< @/code/app/config/app/autoMove.ts [Leafer]
+<<< @/code/app/config/app/autoMove.ts [App]
+<<< @/code/app/config/autoMove.ts [Leafer]
 :::

@@ -83,19 +83,15 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 - [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的金牌赞助商 logo 展示位。
 
-- 解答使用问题。
-
 ### 💍 铂金赞助商（¥5,000 / 月）
 
-**适合** 希望获得社区曝光和官方支持的 **中大型企业（8 个名额）**，[联系我们](https://leaferjs.com/#contact) 后再 [进行赞助](#赞助渠道) 。
+**适合** 希望获得社区曝光和表达支持的 **中大型企业（8 个名额）**，[联系我们](https://leaferjs.com/#contact) 后再 [进行赞助](#赞助渠道) 。
 
 - [leaferjs.com](https://www.leaferjs.com) 首页铂金赞助商 大号 logo 展示位（金牌赞助商的上方）。
 
 - [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 5 杯专属 蓝色咖啡。
 
 - [官方文档](https://www.leaferjs.com/ui/guide/) 右侧边栏及 [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的铂金赞助商 logo 展示位。
-
-- 提供咨询、技术支持。
 
 ### 💎 钻石赞助商（¥10,000 / 月）
 
@@ -107,7 +103,7 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 - [官方文档](https://www.leaferjs.com/ui/guide/) 右侧边栏及 [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的钻石赞助商 logo 展示位。
 
-- 提供深度咨询、技术支持及推广合作。
+- 推广合作（制造热点事件）
 
 ### 👑 独家赞助商（¥100,000 / 月）
 
@@ -121,11 +117,25 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 - [官方文档](https://www.leaferjs.com/ui/guide/) 右侧边栏及 [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的独家赞助商 logo 展示位。
 
-- 提供深度咨询、技术支持及推广合作（制造热点事件）。
-
-- 建立高级性能优化合作关系。
+- 推广合作（制造热点事件）
 
 <!-- ![sponsor](/image/sponsor/first.jpg) -->
+
+## 开发赞助
+
+我们能提供一对一咨询的名额有限，只能先专注帮助一批企业，请 [联系我们](https://leaferjs.com/#contact) 后再 [进行赞助](#赞助渠道) 。
+
+### 🥇 VIP 金牌赞助商（¥1,000 / 月）
+
+- 提供一对一问题咨询，防止被问题卡住开发进度，提升效率（10 个名额）。
+
+- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 1 杯专属 蓝色咖啡。
+
+### 💍 VIP 铂金赞助商（¥5,000 / 月）
+
+- 提供一对一深度咨询、技术支持，防止被问题和缺失功能卡住开发进度（2 个名额）。
+
+- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 5 杯专属 蓝色咖啡。
 
 ## 展示时长
 
