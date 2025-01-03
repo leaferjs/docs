@@ -10,21 +10,21 @@
 
 ### boxBounds: [`IBoundsData`](/api/interfaces/IBoundsData.md)
 
-相对 [内部坐标系](/guide/basic/coordinate.md) 的基础边界（OBB 包围盒）。
+元素在 [内部坐标系](/guide/basic/coordinate.md) 中的基础边界（OBB 包围盒）。
 
 ### renderBounds: [`IBoundsData`](/api/interfaces/IBoundsData.md)
 
-相对 [内部坐标系](/guide/basic/coordinate.md) 的渲染边界（AABB 包围盒）。
+元素在 [内部坐标系](/guide/basic/coordinate.md) 中的渲染边界（AABB 包围盒）。
 
 ### worldBoxBounds: [`IBoundsData`](/api/interfaces/IBoundsData.md)
 
-相对 [世界坐标系](/guide/basic/coordinate.md#world) 的基础边界（AABB 包围盒）。
+元素在 [世界坐标系](/guide/basic/coordinate.md#world) 中的基础边界（AABB 包围盒）。
 
-通过 boxBounds 与 [worldTransform](./transform.md#只读属性) 相乘而来，如果元素旋转了，则是旋转之后取出的新边界。
+元素在 boxBounds 与 [worldTransform](./transform.md#只读属性) 相乘而来，如果元素旋转了，则是旋转之后取出的新边界。
 
 ### worldRenderBounds: [`IBoundsData`](/api/interfaces/IBoundsData.md)
 
-相对 [世界坐标系](/guide/basic/coordinate.md#world) 的渲染边界（AABB 包围盒）。
+元素在 [世界坐标系](/guide/basic/coordinate.md#world) 中的渲染边界（AABB 包围盒）。
 
 ## 来源于
 

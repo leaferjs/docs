@@ -50,7 +50,7 @@ import Case from '/component/Case.vue'
 
 2. 监听 RenderEvent.NEXT 事件的代码，需改用 [nextRender()](/reference/property/nextRender) 或 [Platform.requestRender()](/reference/event/basic/Render.md#请求渲染-动画帧) 方法。
 
-3. script 标签引入[图形编辑器](/plugin/in/editor/index.md#通过-script-标签引入)、[动画](/plugin/in/animate/index.md#通过-script-标签引入) 插件，需额外引入 [resize 插件](/plugin/in/resize/) 、[color 插件](/plugin/in/color/index.md)，控制台会有警告。
+3. [图形编辑器](/plugin/in/editor/index.md#通过-script-标签引入)、[动画](/plugin/in/animate/index.md#通过-script-标签引入) 插件，需额外引入 [resize 插件](/plugin/in/resize/) 、[color 插件](/plugin/in/color/index.md)，控制台会有警告。
    :::
 
 #### 🍇 社区

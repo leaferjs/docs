@@ -18,6 +18,12 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 [图形编辑器](/plugin/in/editor/Editor.md#打组) 中使用时，需将 [hitChildren](/reference/property/hitChildren.md) 设为 false，只能通过双击进组编辑子元素。
 
+## 编辑属性
+
+### resizeChildren: `boolean`
+
+子元素是否跟随 resize， 默认为 true。
+
 <!-- ## 辅助属性
 
 ### zIndex: `number`
@@ -59,12 +65,6 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 ### addAfter ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[], after: [`UI`](./UI.md))
 
 添加子元素在指定的元素后面。
-
-## 编辑属性
-
-### resizeChildren: `boolean`
-
-子元素是否跟随 resize， 默认为 true。
 
 <!-- ### clone ( ):[`UI`](/reference/display/UI.md)
 
