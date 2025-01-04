@@ -37,19 +37,19 @@
 
 ### local 本地坐标系
 
-在父元素内的坐标，类似 HTML 的 offset 坐标系，以父元素为起点。
+相对父元素的坐标，类似 HTML 的 offset 坐标系，以父元素为起点。
 
 <!-- ，可以把父元素想象成房子所在的小区，内部坐标想转换为本地坐标，会受元素的 x、y、scaleX、scaleY、rotation 影响。 -->
 
 ### inner 内部坐标系
 
-在元素内的坐标，以元素的 x,y 位置为起点。
+在元素、组元素内的坐标，以元素的 x,y 位置为起点。
 
 <!-- ， 如路径元素 Line、Path 中的坐标点，可以把元素想象成一个房间，房间内不受元素的 x、y、scaleX、scaleY、rotation 影响。 -->
 
 ### box 坐标系
 
-在元素 [box 包围盒](/reference/property/bounds.md#boxbounds-iboundsdata) 内的坐标，以元素实际内容的左上角为起点。
+在元素、组元素 [box 包围盒](/reference/property/bounds.md#boxbounds-iboundsdata) 内的坐标，以元素实际内容的左上角为起点。
 
 <!--
 ，一般情况下和 inner 坐标一样，当元素内容的起点不是从 inner 坐标（0，0）开始时会有差异，如路径 Path 经常不是从 0,0 开始绘制的。 -->
