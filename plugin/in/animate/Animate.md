@@ -10,9 +10,9 @@ import Case from '/component/Case.vue'
 
 ## 关键属性 （只读）
 
-### target: [`UI`](/reference/display/UI.md)
+### target: [`UI`](/reference/display/UI.md) ｜ `Object`
 
-动画目标元素。
+动画目标元素，支持普通对象。
 
 ### keyframes: [`IKeyframe`](/api/modules.md#ikeyframe)[]
 
@@ -27,6 +27,9 @@ interface IAnimateKeyframe {
   easing?: IAnimateEasing // 单独设置关键帧缓动方式
   delay?: number // 单独设置关键帧延迟播放时长。
   duration?: number // 单独设置关键帧的固定时长，设置后将忽略 autoDuration
+
+  swing?: number // 摇摆次数（到达 to 的次数），from -> to，to -> from -> to ... ，默认 0
+  loop?: number // 循环次数，默认为 0
 
   // 分配剩余时间：（总时长 - 总关键帧固定时长）/ 总权重 * 当前权重
   autoDelay?: number // 自动 delay 的权重， 默认为 0
@@ -124,17 +127,17 @@ from 表示起点样式，to 表示终点样式。
 type IAnimateEnding = 'auto' | 'from' | 'to'
 ```
 
-### reverse?: boolean
+### reverse?: `boolean`
 
 是否反向动画 to -> from，默认为 false
 
-### swing?: boolean
+### swing?: `boolean` | `number`
 
-是否摇摆循环播放 from -> to，to -> from ... ，默认 false
+是否摇摆循环播放，可设置次数（到达 to 的次数）， from -> to，to -> from -> to ... ，默认 false
 
 ### loop: `boolean` | `number`
 
-是否循环播放，可设置循环次数，默认为 false。
+是否循环播放，可设置次数，默认为 false。
 
 ### loopDelay: `number`
 
@@ -231,6 +234,10 @@ const animateOptions = {
 动画是否销毁。
 
 ## 计算属性（只读）
+
+### style: [`IUIInputData`](/api/interfaces/IUIInputData.md)
+
+当前动画状态的样式。
 
 ### fromStyle: [`IUIInputData`](/api/interfaces/IUIInputData.md)
 

@@ -2,6 +2,10 @@
 
 会等待视图内所有网络资源都加载完再进行导出图片。
 
+::: tip 注意事项
+需安装 [导出元素插件](/plugin/in/export/index.md) 才能使用，或直接安装 [leafer-editor](/guide/install/editor/start.md)、node 版（已集成导出元素插件）。
+:::
+
 ## 关键方法
 
 ### export ( )

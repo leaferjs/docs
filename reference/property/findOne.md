@@ -4,6 +4,10 @@
 
 想获取一个数组，请使用 [find()](./find.md)。
 
+::: tip 注意事项
+需安装 [查找元素插件](/plugin/in/find/index.md) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)、 [leafer-editor](/guide/install/editor/start.md) （已集成导出元素插件）
+:::
+
 ## 关键方法
 
 ### findOne ( condition: `number` | `string` | `IFindMethod` ): [`UI`](/reference/display/UI.md)

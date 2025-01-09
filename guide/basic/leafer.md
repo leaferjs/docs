@@ -20,6 +20,12 @@ view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字�
 
 <<< @/code/basic/app/auto.ts
 
+## 创建自动生长的 Leafer
+
+画布大小会生长，自动贴合实际内容。
+
+<<< @/code/basic/app/grow.ts
+
 ## 配置 Leafer
 
 ### [基础](/reference/config/app/base.md) &nbsp; &nbsp; [视口类型](/reference/config/app/type.md) &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; [点按](/reference/config/app/pointer.md) &nbsp; &nbsp;[触屏](/reference/config/app/touch.md) &nbsp; &nbsp; [滚轮](/reference/config/app/wheel.md)

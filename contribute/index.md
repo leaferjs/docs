@@ -24,6 +24,8 @@
 
 ## 教程
 
+[不一样的动态时钟 React+Leafer 实现火车动态时钟](https://juejin.cn/post/7454109404122562597) @火树银花
+
 [我将 fabricjs 换为了 leaferjs](https://juejin.cn/post/7440830008123310132) @前端雾恋
 
 [leaferjs 元素的基本使用](https://juejin.cn/post/7440830008123310132) @前端雾恋
@@ -47,6 +49,12 @@
 [LeaferJS 尝鲜 及 应用数学](https://juejin.cn/post/7252251628090507301) @子洋
 
 ## Demo
+
+[音乐律动的背光键盘](https://canvas.xjq.icu/marching-music) [@xjq7](https://github.com/xjq7)
+
+[模拟丰富多样的雪花效果](https://canvas.xjq.icu/snowflake) [@xjq7](https://github.com/xjq7)
+
+[TO NORTH 在线标注工具](https://tonorth.netlify.app/) @tonorth.netlify.app
 
 [点阵背景效果](https://github.com/tuntun0609/leafer-x-dot-matrix) [@tuntun](https://github.com/tuntun0609)
 
@@ -79,6 +87,12 @@
 [绘制动画图表](https://codepen.io/kooro/pen/poQPqwq) @Biu
 
 ## 产品
+
+[fig2leafer](https://fig2leafer.netlify.app) <badge>leafer 渲染 figma 文件</badge> [@jianghanyue](https://github.com/jianghanyue)
+
+[趣设计](https://www.leaferjs.com/ui/guide/install/ui/miniapp/start.html#%E9%87%87%E7%94%A8%E5%B0%8F%E7%A8%8B%E5%BA%8F-web-view-%E7%BB%84%E4%BB%B6%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%A1%88%E4%BE%8B) <badge>PS 海报头像拼图 LOGO</badge> @BO
+
+[创意表情](https://www.leaferjs.com/ui/guide/install/ui/miniapp/start.html#%E9%87%87%E7%94%A8-uniapp-%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%8E%9F%E7%94%9F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A1%88%E4%BE%8B) <badge>DIY 有趣的微信表情</badge> @goosen
 
 [Lazyva 懒画](https://canvas.lazykit.cn) <badge>在线设计工具（支持移动端）</badge> @ozar
 

@@ -1,7 +1,3 @@
-<script setup>
-import Case from '/component/Case.vue'
-</script>
-
 # 更新
 
 :::tip 注意事项
@@ -13,6 +9,86 @@ import Case from '/component/Case.vue'
 还可通过 [命令行工具](/create/leafer.md#更新项目中的-leafer-依赖版本号) 更新。
 
 :::
+
+## 2025 / 01 / 09
+
+> v1.3.2
+
+#### 🍇 社区
+
+\- 🌸 [fig2leafer - leafer 渲染 figma 文件](https://fig2leafer.netlify.app) [@jianghanyue](https://github.com/jianghanyue)
+
+\- 🌸 [音乐律动的背光键盘](https://canvas.xjq.icu/marching-music) [@xjq7](https://github.com/xjq7)
+
+\- 🌸 [模拟丰富多样的雪花效果](https://canvas.xjq.icu/snowflake) [@xjq7](https://github.com/xjq7)
+
+\- 🌸 [TO NORTH 在线标注工具](https://tonorth.netlify.app/) @tonorth.netlify.app
+
+\- 🌸 [不一样的动态时钟 React+Leafer 实现火车动态时钟](https://juejin.cn/post/7454109404122562597) @火树银花
+
+\- 🌸 [可快速实时预览的在线 playground 环境（初步完成）](https://www.leaferjs.com/playground/) [@leafer ](https://github.com/leaferjs)
+
+#### 🌱 新增
+
+\- 🌸 应用配置增加 [grow](/guide/basic/leafer.md#创建自动生长的-leafer) 参数, 可以创建 [自动生长](/reference/config/app/canvas.md#自动生长) 的画布，自动贴合实际内容大小
+
+\- 🌸 Text 元素的 [textAlign](/reference/display/Text.md#textalign-itextalign) 属性支持设置 'both' 来强制两端对齐文本
+
+\- 🌸 [animation](/reference/property/animation.md) 及其他动画参数中的 单个关键帧 支持 单独设置循环、摇摆次数
+
+\- 摇摆动画参数 swing 支持设置摇摆次数 (每到达 to 算一次)
+
+\- 元素的 [animation](/reference/property/animation.md) 属性支持多个动画叠加
+
+#### 🪲 修复
+
+\- 🌸 元素锁定后，双击还能进入编辑的问题
+
+#### 🌿 优化
+
+\- 🌸 元素过渡动画方法会中断 animation 的问题，改为只在有动画样式冲突时才中断
+
+\- 🌸 通过 Platform.origin.Image 保留原始 Image 对象，防止被全局覆盖造成图片无法显示
+
+#### 🌷 感谢反馈
+
+@BO @周明 @王进元
+
+## 2025 / 01 / 06
+
+> v1.3.1
+
+:::tip 升级操作
+
+为让核心包可以作为其他框架的底层库（进一步减小尺寸），本次升级将查找、导出元素功能，迁移至 [查找元素插件](/plugin/in/find/index.md)、[导出元素插件](/plugin/in/export/index.md)， 或直接安装 [leafer-game](/guide/install/game/start.md)、 [leafer-editor](/guide/install/editor/start.md) 场景包（已集成相关插件）。
+
+本轮调整核心包尺寸工作已完毕，后续不会有太大变动。
+
+:::
+
+#### 🍇 社区
+
+\- 🌸 [趣设计 - PS 海报头像拼图 LOGO（补发）](https://www.leaferjs.com/ui/guide/install/ui/miniapp/start.html#%E9%87%87%E7%94%A8%E5%B0%8F%E7%A8%8B%E5%BA%8F-web-view-%E7%BB%84%E4%BB%B6%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%A1%88%E4%BE%8B) @BO
+
+\- 🌸 [创意表情 - DIY 有趣的微信表情（补发）](https://www.leaferjs.com/ui/guide/install/ui/miniapp/start.html#%E9%87%87%E7%94%A8-uniapp-%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%8E%9F%E7%94%9F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A1%88%E4%BE%8B) @goosen
+
+#### 🌱 新增
+
+\- 🌸 Text 增加 [打字机](/reference/display/Text.md#打字机动画) / [删除文字](/reference/display/Text.md#删除文字动画) 动画效果，只需将 text 属性作为动画样式即可
+
+\- 🌸 Animate 类增加 [style](/plugin/in/animate/Animate.md#style-iuiinputdata) 属性，获取当前动画状态的样式
+
+\- 🌸 Animate 类初始化 [target](/plugin/in/animate/Animate.md#target-ui-object) 参数支持普通对象。
+
+#### 🌿 优化
+
+\- 🌸 find() / export() 功能迁移至插件，未安装插件时，控制台会有安装提示
+
+\- 🌸 set() 方法传 入无效数据时进行屏蔽
+
+#### 🌷 感谢反馈
+
+@火树银花 @BO
 
 ## 2024 / 12 / 31
 
@@ -44,7 +120,7 @@ import Case from '/component/Case.vue'
 
 > v1.2.1
 
-:::tip 升级操作（重大变化）
+:::tip 升级操作
 
 1. 为让核心包支持更多的场景，同时减小尺寸，本次升级将 [缩放平移视图](/guide/advanced/viewport) 功能 移动到了 **viewport 视口插件** 中（不影响运行），需安装引入 [视口插件](/plugin/in/viewport/) 才能使用， 或安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
 
@@ -1426,8 +1502,6 @@ text.padding // 没有宽高的文本增加padding， 内容的位置会改变�
 ## 2023 / 11 / 30
 
 > v1.0.0-rc.7
-
-<case name="AnimeFrames"></case>
 
 #### 新增 🎉🎉🎉
 

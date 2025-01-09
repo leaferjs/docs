@@ -150,14 +150,15 @@ text.textOverflow = '...'
 
 ### textAlign: `ITextAlign`
 
-文本对齐方式。
+文本对齐方式，可以设置 'both' 来强制两端对齐文本。
 
 ```ts
 type ITextAlign =
   | 'left' // 左对齐
   | 'center' // 居中对齐
   | 'right' // 右对齐
-  | 'justify' // 两端对齐
+  | 'justify' // 两端对齐段落
+  | 'both' // 强制两端对齐文本，补充 justify 的不足
 ```
 
 ### verticalAlign: `IVerticalAlign`
@@ -222,3 +223,11 @@ padding: 20 // all
 text 属性传入数字，可支持 count [动画](/guide/plugin/animate.md)，示例中的文本将从 0 到 100 动态变化。
 
 <<< @/code/property/animation/count.ts
+
+### 打字机动画
+
+<<< @/code/property/animation/writer.ts
+
+### 删除文字动画
+
+<<< @/code/property/animation/delete.ts

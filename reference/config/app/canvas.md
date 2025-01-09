@@ -73,6 +73,24 @@ interface ICanvasRenderingContext2DSettings {
 
 距离底部的距离, 默认为 0。
 
+## 自动生长
+
+### grow: `boolean` | `'box'` | `'render'`
+
+画布是否自动生长， 贴合实际内容，默认为 false。
+
+设为 true 或 'render' 表示依据内容的 render 包围盒，重置画布大小。
+
+设为 'box' 表示依据内容的 box 包围盒，重置画布大小。
+
+### growWidth: `boolean`
+
+进一步指定宽度是否生长，默认同 grow。
+
+### growHeight: `boolean`
+
+进一步指定高度是否生长， 默认同 grow。
+
 ## 示例
 
 ### 关闭交互事件

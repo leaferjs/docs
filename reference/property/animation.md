@@ -16,9 +16,9 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### animation： [`IAnimation`](/api/modules.md#ianimation)
+### animation： [`IAnimation`](/api/modules.md#ianimation) | [`IAnimation`](/api/modules.md#ianimation)[]
 
-动画 / 入场动画，详细了解 [动画选项](/plugin/in/animate/Animate.md#动画选项-只读) 。
+动画 / 入场动画，支持多个动画叠加。
 
 ```ts
 type IAnimation = IStyleAnimation | IKeyframesAnimation
@@ -43,11 +43,18 @@ interface IAnimateKeyframe {
   delay?: number // 单独设置关键帧延迟播放时长。
   duration?: number // 单独设置关键帧的固定时长，设置后将忽略 autoDuration
 
+  swing?: number // 摇摆次数（到达 to 的次数），from -> to，to -> from -> to ... ，默认 0
+  loop?: number // 循环次数，默认为 0
+
   // 分配剩余时间：（总时长 - 总关键帧固定时长）/ 总权重 * 当前权重
   autoDelay?: number // 自动 delay 的权重， 默认为 0
   autoDuration?: number // 自动 duration 的权重， 默认为 1
 }
+```
 
+深入了解 [动画选项属性](/plugin/in/animate/Animate.md#动画选项-只读)。
+
+```ts
 // 动画选项
 interface IAnimateOptions {
   easing?: IAnimateEasing // 缓动方式，默认为 ease
@@ -57,9 +64,9 @@ interface IAnimateOptions {
   ending?: IAnimateEnding // 动画结束时的状态，可设置from、to，默认auto
 
   reverse?: boolean // 是否反向动画 to -> from，默认为 false
-  swing?: boolean // 是否摇摆循环播放 from -> to，to -> from ... ，默认 false
+  swing?: boolean | number // 是否摇摆循环播放，可设置次数（到达 to 的次数） from -> to，to -> from -> to ... ，默认 false
 
-  loop?: boolean | number // 是否循环播放，可设置循环次数，默认为 false
+  loop?: boolean | number // 是否循环播放，可设置次数，默认为 false
   loopDelay?: number // 进入下一次循环播放的延迟时间，默认为0
 
   speed?: number // 动画播放的倍速，值越大播放越快，默认为 1 倍速
@@ -72,9 +79,9 @@ interface IAnimateOptions {
 }
 ```
 
-### animationOut： [`IAnimation`](/api/modules.md#ianimation)
+### animationOut： [`IAnimation`](/api/modules.md#ianimation) | [`IAnimation`](/api/modules.md#ianimation)[]
 
-出场动画， 元素被移除 或 [visible](/reference/property/visible) 为 0 时执行。
+出场动画，支持多个动画叠加， 元素被移除 或 [visible](/reference/property/visible) 为 0 时执行。
 
 ## 归属
 

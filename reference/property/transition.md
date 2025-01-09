@@ -25,7 +25,11 @@ import Case from '/component/Case.vue'
 ```ts
 // 过渡选项，  number 表示duration， string 表示 easing， object 表示动画选项对象，
 type ITransition = boolean | number | IAnimateEasingName | IAnimateOptions
+```
 
+深入了解 [动画选项属性](/plugin/in/animate/Animate.md#动画选项-只读)。
+
+```ts
 // 动画选项
 interface IAnimateOptions {
   easing?: IAnimateEasing // 缓动方式，默认为 ease
@@ -35,9 +39,9 @@ interface IAnimateOptions {
   ending?: IAnimateEnding // 动画结束时的状态，可设置from、to，默认auto
 
   reverse?: boolean // 是否反向动画 to -> from，默认为 false
-  swing?: boolean // 是否摇摆循环播放 from -> to，to -> from ... ，默认 false
+  swing?: boolean | number // 是否摇摆循环播放，可设置次数（到达 to 的次数） from -> to，to -> from -> to ... ，默认 false
 
-  loop?: boolean | number // 是否循环播放，可设置循环次数，默认为 false
+  loop?: boolean | number // 是否循环播放，可设置次数，默认为 false
   loopDelay?: number // 进入下一次循环播放的延迟时间，默认为0
 
   speed?: number // 动画播放的倍速，值越大播放越快，默认为 1 倍速

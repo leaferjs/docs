@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 在 Web 环境中运行。
 
-基于 [leafer-ui](/guide/install/ui/start.md)，集成了 [图形编辑器](/plugin/in/editor/)、[文本编辑](/plugin/in/text-editor/)、[视口](/plugin/in/viewport/)、[视图控制](/plugin/in/view/) 、[滚动条](/plugin/in/view/)、[箭头](/plugin/in/arrow/)、[HTML](/plugin/in/html/) 插件，适用于在线图形编辑的场景。
+基于 [leafer-ui](/guide/install/ui/start.md)，集成了 [图形编辑器](/plugin/in/editor/)、[文本编辑](/plugin/in/text-editor/)、[视口](/plugin/in/viewport/)、[视图控制](/plugin/in/view/) 、[滚动条](/plugin/in/scroll/)、[箭头](/plugin/in/arrow/)、[HTML](/plugin/in/html/)、[查找元素](/plugin/in/find/index.md)、[导出元素](/plugin/in/export/index.md) 插件，适用于在线图形编辑的场景。
 
 ## 安装
 
@@ -37,7 +37,7 @@ bun add leafer-editor
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-editor@1.2.2/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-editor@1.3.2/dist/web.min.js"></script>
 <script>
   const { Leafer, Editor, Arrow } = LeaferUI
   // ...
@@ -45,7 +45,7 @@ bun add leafer-editor
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-editor@1.2.2/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-editor@1.3.2/dist/web.js"></script>
 <script>
   const { Leafer, Editor, Arrow } = LeaferUI
   // ...
@@ -58,7 +58,7 @@ bun add leafer-editor
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-editor@1.2.2/dist/web.module.min.js'
+  } from 'https://unpkg.com/leafer-editor@1.3.2/dist/web.module.min.js'
   // ...
 </script>
 ```
@@ -69,7 +69,7 @@ bun add leafer-editor
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-editor@1.2.2/dist/web.module.js'
+  } from 'https://unpkg.com/leafer-editor@1.3.2/dist/web.module.js'
   // ...
 </script>
 ```

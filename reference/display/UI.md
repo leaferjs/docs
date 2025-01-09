@@ -209,7 +209,7 @@
 
 ## 📐 布局
 
-### 定位 / 布局
+### 位置 / 缩放 / 旋转
 
 [position](/reference/property/position) &nbsp; &nbsp; [size](/reference/property/size) &nbsp; &nbsp; [scale](/reference/property/scale) &nbsp; &nbsp; [flip()](/reference/property/flip) &nbsp; &nbsp; [rotation](/reference/property/rotation) &nbsp; &nbsp; [skew](/reference/property/skew)
 

@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 在 Web 环境中运行。
 
-基于 [leafer-ui](/guide/install/ui/start.md)，集成了 [Robot](/plugin/in/robot/) 、[交互状态](/plugin/in/state/) 、 [动画](/plugin/in/animate/)、[运动路径](/plugin/in/motion-path/) 插件，适用于小游戏场景。
+基于 [leafer-ui](/guide/install/ui/start.md)，集成了 [Robot](/plugin/in/robot/) 、[交互状态](/plugin/in/state/) 、 [动画](/plugin/in/animate/)、[运动路径](/plugin/in/motion-path/)、[查找元素](/plugin/in/find/index.md) 插件，适用于小游戏场景。
 
 ## 安装
 
@@ -37,7 +37,7 @@ bun add leafer-game
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-game@1.2.2/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-game@1.3.2/dist/web.min.js"></script>
 <script>
   const { Leafer, Robot, Animate } = LeaferUI
   // ...
@@ -45,7 +45,7 @@ bun add leafer-game
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-game@1.2.2/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-game@1.3.2/dist/web.js"></script>
 <script>
   const { Leafer, Robot, Animate } = LeaferUI
   // ...
@@ -58,7 +58,7 @@ bun add leafer-game
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-game@1.2.2/dist/web.module.min.js'
+  } from 'https://unpkg.com/leafer-game@1.3.2/dist/web.module.min.js'
   // ...
 </script>
 ```
@@ -69,7 +69,7 @@ bun add leafer-game
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-game@1.2.2/dist/web.module.js'
+  } from 'https://unpkg.com/leafer-game@1.3.2/dist/web.module.js'
   // ...
 </script>
 ```
