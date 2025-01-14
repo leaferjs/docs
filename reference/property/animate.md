@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 动画方法，支持延时、循环和 seek，可制作过渡动画、摇摆动画、关键帧动画、路径动画。
 
-另外元素的 [move()](/reference/property/position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)、 [ set()](/reference/property/data.md#set-data-iuiinputdata-transition-itranstion) 方法支持添加动画过渡参数，文本支持 [count 动画](/reference/display/Text.md#文本-count-动画)。
+另外元素的 [move()](/reference/property/position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)、 [ set()](/reference/property/data.md#set-data-iuiinputdata-transition-itranstion) 方法支持添加动画过渡参数，文本支持 [count 动画](/reference/display/Text.md#文本-count-动画)、[打字机动画](/reference/display/Text.md#打字机动画) 。
 
 ::: tip 注意事项
 需安装 [动画插件](/plugin/in/animate/index.md) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)（已集成动画插件）。
@@ -19,6 +19,8 @@ import Case from '/component/Case.vue'
 ### animate ( keyframe?: [`IUIInputData`](/api/interfaces/IUIInputData.md) | [`IKeyframe`](/api/modules.md#ikeyframe)[] | [`IAnimation`](/reference/property/animation.md), options?: [`ITranstion`](/api/modules.md#itransition) ) : [`Animate`](/plugin/in/animate/Animate.md)
 
 执行动画方法，并返回 [动画实例](/plugin/in/animate/Animate.md)。
+
+关键帧对象。
 
 ```ts
 // 关键帧
@@ -38,7 +40,11 @@ interface IAnimateKeyframe {
   autoDelay?: number // 自动 delay 的权重， 默认为 0
   autoDuration?: number // 自动 duration 的权重， 默认为 1
 }
+```
 
+过渡选项。
+
+```ts
 // 过渡选项，  object 表示动画选项对象， number 表示duration，  string 表示  easing
 type ITransition = IAnimateOptions | IAnimateEasingName | number
 ```

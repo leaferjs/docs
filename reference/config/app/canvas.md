@@ -79,17 +79,19 @@ interface ICanvasRenderingContext2DSettings {
 
 画布是否自动生长， 贴合实际内容，默认为 false。
 
+注意 [App 结构](/guide/advanced/app.md) 暂不支持此功能。
+
 设为 true 或 'render' 表示依据内容的 render 包围盒，重置画布大小。
 
 设为 'box' 表示依据内容的 box 包围盒，重置画布大小。
 
 ### growWidth: `boolean`
 
-进一步指定宽度是否生长，默认同 grow。
+进一步细化宽度是否生长，默认同 grow。
 
 ### growHeight: `boolean`
 
-进一步指定高度是否生长， 默认同 grow。
+进一步细化高度是否生长， 默认同 grow。
 
 ## 示例
 

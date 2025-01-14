@@ -32,7 +32,7 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 ## 场景包
 
-高效绘图场景，推荐直接安装更轻量的 [leafer-draw](/guide/install/draw/start.md) （51KB min+gzip）。
+高效绘图场景，推荐直接安装更轻量的 [leafer-draw](/guide/install/draw/start.md) （50KB min+gzip）。
 
 游戏开发场景，推荐直接安装更省心的 [leafer-game](/guide/install/game/start.md)，已集成了游戏相关插件。
 

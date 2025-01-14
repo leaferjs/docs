@@ -4,8 +4,6 @@ import Case from '/component/Case.vue'
 
 # 在 Vue3 中使用
 
-### 快速创建 [Vue + Leafer 项目](/create/leafer.md)
-
 :::tip 注意事项
 leafer 及元素不能直接挂载到响应式数据上，会造成内部层层代理，拖慢运行速度
 :::
@@ -58,4 +56,6 @@ createApp(App).mount('#app')
 
 :::
 
-### 让 LeaferUI 支持 [响应式数据](/reference/property/proxy)
+### 快速创建 [Vue + Leafer 项目](/create/leafer.md)
+
+### 让 LeaferJS 支持 [响应式数据](/reference/property/proxy)

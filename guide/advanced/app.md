@@ -44,6 +44,10 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 :::
 
+## 详细了解
+
+### [App](/reference/display/App.md) &nbsp; &nbsp; [Leafer](/reference/display/Leafer.md)
+
 ## 配置 App
 
 ### [基础](/reference/config/app/base.md) &nbsp; &nbsp; [视口类型](/reference/config/app/type.md) &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; [点按](/reference/config/app/pointer.md) &nbsp; &nbsp; [多点](/reference/config/app/multiTouch.md) &nbsp; &nbsp;[触屏](/reference/config/app/touch.md) &nbsp; &nbsp; [滚轮](/reference/config/app/wheel.md) &nbsp; &nbsp; [平移视图](/reference/config/app/move.md) &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md)

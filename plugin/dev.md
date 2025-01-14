@@ -1,4 +1,4 @@
-# 插件开发
+# 开发插件
 
 我们提供了一种非常自由的插件开发方式，并支持跨平台 - [访问 GitHub 插件中心](https://github.com/leaferjs/leafer-x)。
 

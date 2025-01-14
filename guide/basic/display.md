@@ -26,6 +26,18 @@ import Case from '/component/Case.vue'
 
 了解 JSON 数据 [导入导出](/reference/property/json.md)。
 
+## 组元素
+
+### [Group](/reference/display/Group)&nbsp; &nbsp; [Box](/reference/display/Box) &nbsp; &nbsp; [Frame](/reference/display/Frame)
+
+## 元素
+
+### [Rect](/reference/display/Rect) &nbsp; &nbsp; [Ellipse](/reference/display/Ellipse) &nbsp; &nbsp; [Line](/reference/display/Line) &nbsp; &nbsp; [Polygon](/reference/display/Polygon) &nbsp; &nbsp; [Star](/reference/display/Star)
+
+### [Path](/reference/display/Path) &nbsp; &nbsp; [Pen](/reference/display/Pen) &nbsp; &nbsp; [Image](/reference/display/Image) &nbsp; &nbsp; [SVG](/reference/display/SVG) &nbsp; &nbsp; [Canvas](/reference/display/Canvas) &nbsp; &nbsp;[Text](/reference/display/Text)
+
+### [UI](/reference/display/UI) &nbsp; &nbsp; [Custom](/reference/display/custom/base/register.md)
+
 ## 下一步
 
 ### [设置样式](/guide/basic/style)

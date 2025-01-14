@@ -16,15 +16,21 @@ view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字�
 
 ## 创建自适应布局的 Leafer
 
-当画布的父节点尺寸改变后会自动 resize， 了解[自适应布局](/reference/config/app/canvas.md#自适应布局)。
+当画布的父节点尺寸改变后会自动 resize， [了解详情](/reference/config/app/canvas.md#自适应布局)。
 
 <<< @/code/basic/app/auto.ts
 
 ## 创建自动生长的 Leafer
 
-画布大小会生长，自动贴合实际内容。
+画布大小会生长，自动贴合实际内容，用于快速在 HTML 中嵌入 Leafer 元素，[了解详情](/reference/config/app/canvas.md#自动生长)。
+
+注意 [App 结构](/guide/advanced/app.md) 暂不支持此功能。
 
 <<< @/code/basic/app/grow.ts
+
+## 详细了解
+
+### [Leafer](/reference/display/Leafer.md)
 
 ## 配置 Leafer
 
