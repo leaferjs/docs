@@ -28,7 +28,7 @@ bun add @leafer-ui/miniapp
 
 [需先了解小程序使用 npm 包的注意事项](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)，并在微信开发工具中勾选将 JS 转换为 ES5。
 
-目前发现多包依赖构建出的编译产物有一个 **导出 bug**，需要进行以下替换才能正常使用。
+目前发现多包依赖构建出的编译产物有一个 **导出 bug**，需要等待 npm 编译并运行完一次后，进行以下替换才能正常使用。
 
 ```sh
 # 在 miniprogram_npm 文件夹中查找以下内容
@@ -149,8 +149,8 @@ Page({
       view: 'leafer',
       mobile: true, // 优化手机端体验
       tree: { canvas: 'leafer-tree' }, // 需指定canvas
-      sky: { canvas: 'leafer-sky', type: 'draw' },
-      editor: {}, // 会自动创建 editor实例、tree层、sky层
+      sky: { canvas: 'leafer-sky' },
+      editor: {}, // 会自动创建 editor实例
       eventer: this,
     })
 

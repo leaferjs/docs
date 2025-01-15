@@ -89,8 +89,8 @@ onReady(() => {
     view: 'leafer',
     mobile: true, // 优化手机端体验
     tree: { canvas: 'leafer-tree' }, // 需指定canvas
-    sky: { canvas: 'leafer-sky', type: 'draw' },
-    editor: {}, // 会自动创建 editor实例、tree层、sky层
+    sky: { canvas: 'leafer-sky' },
+    editor: {}, // 会自动创建 editor实例
   })
 
   const rect = new Rect({

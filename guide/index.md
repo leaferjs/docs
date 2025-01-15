@@ -40,7 +40,7 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 ## 互动交流
 
-有问题、建议可以 [提交 issue](https://github.com/leaferjs/leafer-ui/issues)，留下你的贡献足迹。
+有 Bug、建议可以 [提交 issue](https://github.com/leaferjs/leafer-ui/issues)，留下你的贡献足迹。
 
 欢迎加入 [技术交流群](https://leaferjs.com/#contact) ，与小伙伴们建立联系，共同学习进步，偶尔会有特殊福利。
 
