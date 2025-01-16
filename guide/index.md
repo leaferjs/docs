@@ -38,11 +38,40 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 图形编辑场景，推荐直接安装更省心的 [leafer-editor](/guide/install/editor/start.md)，已集成了图形编辑器相关插件。
 
-## 互动交流
-
-有 Bug、建议可以 [提交 issue](https://github.com/leaferjs/leafer-ui/issues)，留下你的贡献足迹。
+## 技术交流与 Bug 反馈
 
 欢迎加入 [技术交流群](https://leaferjs.com/#contact) ，与小伙伴们建立联系，共同学习进步，偶尔会有特殊福利。
+
+有 Bug、建议可以 [提交 issue](https://github.com/leaferjs/leafer-ui/issues) 进行反馈，留下你的贡献足迹，一起让 LeaferJS 变得越来越好。
+
+::: tip 提交模版
+**【Bug/建议】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
+
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.3.2
+
+:::
+
+## 求助使用问题？
+
+针对使用过程中遇到不懂的问题或缺失功能，我们提供了以下求助渠道，同时也招募社区管理员。
+
+### 1. 社区支持（推荐）
+
+在 [知乎](https://www.zhihu.com) 或 [思否](https://segmentfault.com/) 创建一个问题:
+
+::: warning 提交模版
+**【leaferjs】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
+
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.3.2
+:::
+
+然后将链接发到 [技术交流群](https://leaferjs.com/#contact) 里，我和社区管理员们会安排固定的时间来查看、回复大家的问题。
+
+同时这些问题马上会被搜索引擎收录，以后同类问题，大家在搜索引擎中就能找到答案。
+
+### 2. 官方支持
+
+目前我们的资源时间有限，只能服务好有限的 [金牌以上赞助用户](/sponsor/index.md#开发赞助) 、社区管理员，后续需求增多，可以招募更多的专业人员参与，以及制作各种从 0 到 1 的场景开发教程。
 
 ## 增强 LeaferJS
 
