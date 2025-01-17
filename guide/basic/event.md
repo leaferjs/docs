@@ -1,6 +1,6 @@
 # 事件处理
 
-拥有同 HTML 一样完善的事件处理模型，支持 [捕获/冒泡](/reference/event/flow) 阶段，并支持 [模拟交互](/reference/event/simulation)。
+拥有同 HTML 一样完善的事件处理机制，支持 [捕获/冒泡](/reference/event/flow) 阶段，并支持 [模拟交互](/reference/event/simulation)。
 
 ## 监听事件
 
@@ -42,11 +42,7 @@ rect.off('pointer.leave', onLeave)
 rect.emit('pointer.enter', { current: rect })
 ```
 
-## 事件方法
-
-### [on() / once()](/reference/property/on) &nbsp; &nbsp; [off()](/reference/property/off) &nbsp; &nbsp; [emit()](/reference/property/emit) &nbsp; &nbsp; [命名](/reference/event/name) &nbsp; &nbsp; [捕获/冒泡](/reference/event/flow) &nbsp; &nbsp; [模拟交互](/reference/event/simulation)
-
-## 交互属性
+## 了解元素交互属性
 
 | 名称                                                                              | 描述                                                                                                                                                              |
 | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -69,6 +65,22 @@ rect.emit('pointer.enter', { current: rect })
 | [selectedStyle](/reference/property/state/selected.md#selectedstyle-iuiinputdata) | 元素 `selected` 设为 true 时的选中样式， `selected` 设为 false 后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                       |
 | [disabled](/reference/property/state/disabled.md#disabled-boolean)                | 是否禁用，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                                                        |
 | [disabledStyle](/reference/property/state/disabled.md#disabledstyle-iuiinputdata) | 元素 `disabled` 设为 true 时的禁用样式， `disabled` 设为 false 后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                       |
+
+## 了解元素事件方法
+
+| 名称                                                                                                                              | 描述                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| [on()](/reference/property/on#on-type-string-string-listener-ieventlistener-options-ieventoption)                                 | 侦听事件                                                                                                                 |
+| [on\_()](/reference/property/on#on-type-string-string-listener-ieventlistener-bind-iobject-options-ieventoption-ieventlistenerid) | 侦听事件，支持传入 bind 作为 listener 的 this 对象，并返回事件 id，与 [off\_()](/reference/property/off.md#off) 配套使用 |
+| [once()](/reference/property/on#once-type-string-string-listener-ieventlistener-capture-boolean)                                  | 只侦听一次事件                                                                                                           |
+| [off()](/reference/property/off)                                                                                                  | 移除事件                                                                                                                 |
+| [off\_()](/reference/property/off)                                                                                                | 移除事件， 与 [on\_()](/reference/property/on.md#on_) 配套使用                                                           |
+| [emit()](/reference/property/emit)                                                                                                | 手动派发事件                                                                                                             |
+| [emitEvent()](/reference/property/emit)                                                                                           | 手动派发事件，参数必须为 IEvent 对象                                                                                     |
+
+## 事件相关
+
+### [命名规则](/reference/event/name) &nbsp; &nbsp; [捕获/冒泡](/reference/event/flow) &nbsp; &nbsp; [模拟交互](/reference/event/simulation)
 
 ## 常用事件
 
