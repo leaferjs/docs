@@ -175,10 +175,10 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 <img width="320"  style="border-radius:20px" src="/image/sponsor/BoardOS.jpg" />
 
-## 金牌赞助商
+### 金牌赞助商
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
-  <a target="_blank" href="https://github.com/dromara/yft-design">
+    <a target="_blank" href="https://github.com/dromara/yft-design">
     <img width="180" style="border-radius:40px" title="yft-design" src="https://www.leaferjs.com/image/sponsor/gold/yft.jpg" />
   </a>
   <a target="_blank" href="https://www.finclip.com/landing/miniappgame?from=leafer">
@@ -207,9 +207,12 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
   </a>
 </p>
 
-## 银牌赞助
+### 银牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 5px;">
+  <a target="_blank" href="">
+    <img width="40" style="border-radius:20px" title="Y" src="https://www.leaferjs.com/image/sponsor/user/131.jpg" />
+  </a>
   <a target="_blank" href="https://github.com/daodaolee">
     <img width="40" style="border-radius:20px" title="道里" src="https://www.leaferjs.com/image/sponsor/user/108.jpg" />
   </a>
@@ -350,9 +353,15 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
   </a>
 </p>
 
-## 铜牌赞助
+### 铜牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
+  <a target="_blank" href="https://afdian.com/u/47adc7c4d40911ef90cb52540025c377">
+    Jerry
+  </a>
+  <a target="_blank" href="">
+    李狗嗨。💢
+  </a>
   <a target="_blank" href="https://afdian.com/u/ee3b249cbdb111efb10152540025c377">
     李维亮
   </a>
