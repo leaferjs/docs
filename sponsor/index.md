@@ -174,9 +174,7 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 赞助成功上墙后（最晚第 2 天），可前往 [百万咖啡墙](https://www.leaferjs.com/coffee/) 点击头像领取赞助证书，分享至朋友圈。
 
 <img width="320"  style="border-radius:20px" src="/image/sponsor/BoardOS.jpg" />
-
 ### 金牌赞助商
-
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
     <a target="_blank" href="https://github.com/dromara/yft-design">
     <img width="180" style="border-radius:40px" title="yft-design" src="https://www.leaferjs.com/image/sponsor/gold/yft.jpg" />
@@ -210,6 +208,9 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 ### 银牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 5px;">
+  <a target="_blank" href="https://frameelf.com/">
+    <img width="40" style="border-radius:20px" title="边框水印精灵" src="https://www.leaferjs.com/image/sponsor/user/134.jpg" />
+  </a>
   <a target="_blank" href="">
     <img width="40" style="border-radius:20px" title="Y" src="https://www.leaferjs.com/image/sponsor/user/131.jpg" />
   </a>
@@ -356,6 +357,9 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 ### 铜牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
+  <a target="_blank" href="">
+    张余🌈
+  </a>
   <a target="_blank" href="https://afdian.com/u/47adc7c4d40911ef90cb52540025c377">
     Jerry
   </a>
