@@ -118,3 +118,9 @@ interface IAnimateOptions {
 ### 关键帧动画
 
 <<< @/code/property/animation/keyframes.ts
+
+<case name="Arrow" index=24 editor=false></case>
+
+### 虚线箭头动画
+
+<<< @/code/plugin/arrow/animate.ts

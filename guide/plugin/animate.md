@@ -27,6 +27,10 @@ import Case from '/component/Case.vue'
 
 <<< @/code/property/animation/keyframes.ts
 
+<case name="Arrow" index=24 editor=false></case>
+
+<<< @/code/plugin/arrow/animate.ts
+
 ## 下一步
 
 ### [运动路径](/guide/plugin/motion-path)

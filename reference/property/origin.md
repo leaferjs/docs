@@ -50,6 +50,20 @@ rect.origin = {
 }
 ```
 
+**保持原位不动，切换元素的 origin 点： [localTransform](/reference/property/transform#localtransform-imatrixdata) 、[setTransform()](/reference/property/transform.md#settransform-matrix-imatrixdata)**
+
+```ts
+// 多边形原始 origin
+polygon.origin = 'center'
+
+// 切换 origind 点
+const transform = { ...polygon.localTransform } // 采集 transform
+
+polygon.origin = 'right'
+
+polygon.setTransform(transform) // 重设 transform，会自动处理 origin 的变化
+```
+
 ## 示例
 
 <case name="Around" index=0  editor=false></case>

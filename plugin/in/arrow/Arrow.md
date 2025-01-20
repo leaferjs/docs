@@ -187,3 +187,9 @@ interface IPathDataArrowOffset {
 ### 标注箭头
 
 <<< @/code/plugin/arrow/mark.ts
+
+<case name="Arrow" index=24 editor=false></case>
+
+### 虚线箭头动画
+
+<<< @/code/plugin/arrow/animate.ts

@@ -56,6 +56,20 @@ rect.around = {
 }
 ```
 
+**保持原位不动，切换元素的 around 点： [localTransform](/reference/property/transform#localtransform-imatrixdata) 、[setTransform()](/reference/property/transform.md#settransform-matrix-imatrixdata)**
+
+```ts
+// 多边形原始 around
+polygon.around = 'center'
+
+// 切换 around 点
+const transform = { ...polygon.localTransform } // 采集  transform
+
+polygon.around = 'right'
+
+polygon.setTransform(transform) // 重设 transform，会自动处理 around 的变化
+```
+
 ## 归属
 
 ### [UI](/reference/display/UI.md)

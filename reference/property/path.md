@@ -16,6 +16,13 @@ import Case from '/component/Case.vue'
 
 可通过 [pen 画笔](#pen-pathcreator) 快速绘制路径。
 
+**元素当前形状转路径：[getPath()](/reference/property/getPath.md)**
+
+```ts
+// 如多边形内部转成路径，方便进行路径编辑
+polygon.path = polygon.getPath()
+```
+
 ### windingRule: `WindingRule`
 
 路径缠绕规则， 默认为非零缠绕 nonzero。
