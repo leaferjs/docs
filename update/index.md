@@ -10,6 +10,44 @@
 
 :::
 
+## 2025 / 01 / 20
+
+> v1.3.3
+
+#### 🍇 社区
+
+\- 🌸 [边框水印精灵](https://frameelf.com) <badge>快速为您的照片添加水印</badge> @ozar
+
+\- 🌸 骨骼动画插件（已完成，待发布） [@小羽](https://github.com/sulgweb)
+
+#### 🌱 新增
+
+\- 🌸 导出图片增加 [padding](/reference/property/export.md) 参数
+
+\- 🌸 导出图片增加 bmp 格式，需平台自身支持
+
+#### 🪲 修复
+
+\- 🌸 动画参数 loop 偶数循环的终点不正确
+
+\- 🌸 交互状态 [state](/reference/property/state/state.md) 无法传递给子元素
+
+\- 🌸 Box 的长宽未设置时，其内部元素移动后，Box 渲染错误
+
+\- 阴影 中的 color 使用对象形式时不生效
+
+#### 🌿 优化
+
+\- 🌸 提供元素当前形状转路径 [path](/reference/property/path.md#path-ipathstring-ipathcommanddata) 属性的示例
+
+\- 🌸 提供保持原位不动，切换 [origin](/reference/property/origin.md#origin-ialign-iunitpointdata) / [around](/reference/property/around.md#around-ialign-iunitpointdata) 点的示例
+
+\- 从 [图形编辑器插件](/plugin/in/editor/index.md) 中剥离出 [查找元素插件](/plugin/in/find/index.md) 依赖
+
+#### 🌷 感谢反馈
+
+[@zhangsh666](https://github.com/zhangsh666) [@gavinkeh](https://github.com/gavinkeh) [@wzjiscode](https://github.com/wzjiscode) [@RJM1996](https://github.com/RJM1996) @BO @xiaou @Ethan @流云思水 @上了理想的当 @理直气壮张宝华
+
 ## 2025 / 01 / 09
 
 > v1.3.2

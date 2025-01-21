@@ -23,7 +23,7 @@ options 为数字时表示图片质量， 为布尔时表示二进制数据 。
 :::
 
 ```ts
-type IExportFileType = 'canvas' | 'json' | 'jpg' | 'png' | 'webp' // 后续会支持svg、pdf
+type IExportFileType = 'canvas' | 'json' | 'jpg' | 'png' | 'webp' ｜ 'bmp' // 后续会支持svg、pdf, bmp 格式需平台自身支持
 
 interface IExportOptions {
   quality?: number // 设置 jpg / webp 的图片质量
@@ -33,6 +33,7 @@ interface IExportOptions {
 
   scale?: number | IPointData // 缩放比例，默认为1，可用于生成小尺寸的缩略图
   size?: number | ISizeData // 导出宽高（拉伸）， 自动换算出缩放比例 scale
+  padding?: number | number[] // 设置一个padding, 支持数字或数组 [top, right, bottom, left]
 
   pixelRatio?: number // 像素比，默认为1倍图，可导出适配高清屏的2倍图、3倍图...
   smooth?: boolean // 设置画布的平滑绘制属性，默认同当前leafer画布

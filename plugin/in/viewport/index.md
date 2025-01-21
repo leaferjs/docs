@@ -36,11 +36,11 @@ bun add @leafer-in/viewport
 ::: code-group
 
 ```html [viewport.min]
-<script src="https://unpkg.com/@leafer-in/viewport@1.3.2/dist/viewport.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/viewport@1.3.3/dist/viewport.min.js"></script>
 ```
 
 ```html [viewport]
-<script src="https://unpkg.com/@leafer-in/viewport@1.3.2/dist/viewport.js"></script>
+<script src="https://unpkg.com/@leafer-in/viewport@1.3.3/dist/viewport.js"></script>
 ```
 
 https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm

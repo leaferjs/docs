@@ -88,6 +88,8 @@
 
 ## 产品
 
+[边框水印精灵](https://frameelf.com) <badge>快速为您的照片添加水印</badge> @ozar
+
 [fig2leafer](https://fig2leafer.netlify.app) <badge>leafer 渲染 figma 文件</badge> [@jianghanyue](https://github.com/jianghanyue)
 
 [趣设计](https://www.leaferjs.com/ui/guide/install/ui/miniapp/start.html#%E9%87%87%E7%94%A8%E5%B0%8F%E7%A8%8B%E5%BA%8F-web-view-%E7%BB%84%E4%BB%B6%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%A1%88%E4%BE%8B) <badge>PS 海报头像拼图 LOGO</badge> @BO
