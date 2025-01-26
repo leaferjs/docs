@@ -42,14 +42,14 @@ bun add @leafer-in/html
 ::: code-group
 
 ```html [html.min]
-<script src="https://unpkg.com/@leafer-in/html@1.3.3/dist/html.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/html@1.4.0/dist/html.min.js"></script>
 <script>
   const { HTMLText } = LeaferIN.html
 </script>
 ```
 
 ```html [html]
-<script src="https://unpkg.com/@leafer-in/html@1.3.3/dist/html.js"></script>
+<script src="https://unpkg.com/@leafer-in/html@1.4.0/dist/html.js"></script>
 <script>
   const { HTMLText } = LeaferIN.html
 </script>

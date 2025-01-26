@@ -48,7 +48,11 @@
 
 [LeaferJS 尝鲜 及 应用数学](https://juejin.cn/post/7252251628090507301) @子洋
 
-## Demo
+## 场景案例
+
+[贪吃蛇小游戏](https://yh4922.github.io/leafer-greedy-snake/) @杨 🐑🐑
+
+[信息学基础知识交互课件](http://cqyc.com:8888/files/grass/index.html) @zhk
 
 [音乐律动的背光键盘](https://canvas.xjq.icu/marching-music) [@xjq7](https://github.com/xjq7)
 
@@ -86,7 +90,9 @@
 
 [绘制动画图表](https://codepen.io/kooro/pen/poQPqwq) @Biu
 
-## 产品
+## 产品案例
+
+[截图工具 Plus](https://www.u.tools/plugins/detail/%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7%20Plus/) <badge>截图与美化一站式的截图插件</badge> @xiaou
 
 [边框水印精灵](https://frameelf.com) <badge>快速为您的照片添加水印</badge> @ozar
 

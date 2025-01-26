@@ -34,9 +34,11 @@ console.log(rect.scale) // {x:1, y: 2}
 动画、游戏场景中，可使用更简单的 [origin](./origin.md) / [around](./around.md) + scale 属性实现围绕中心点缩放。
 :::
 
-### scaleOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) ｜ [`IPointData`](../interface/math/Math#ipointdata), multiplyScaleX: `number`, multiplyScaleY = multiplyScaleX, resize?: `boolean` )
+### scaleOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) ｜ [`IPointData`](../interface/math/Math#ipointdata), multiplyScaleX: `number`, multiplyScaleY?: `number` | [`ITranstion`](/reference/property/transition.md#transition-itranstion), resize?: `boolean`, transition?: [`ITranstion`](/reference/property/transition.md#transition-itranstion) )
 
-围绕原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）缩放元素 <badge>增量操作</badge>，[resize](/reference/property/resize.md) 参数可实现缩放操作转宽高值。
+围绕原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）缩放元素 <badge>增量操作</badge>。
+
+[`resize`](/reference/property/resize.md) 参数可实现缩放操作转宽高值，[`transition`](/reference/property/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
 ```ts
 // 围绕中心点继续缩放1.5倍
@@ -44,11 +46,18 @@ rect.scaleOf('center', 1.5)
 
 // 想缩放到指定 scale， 需除以元素当前 scale，如下：
 rect.scaleOf({ x: 50, y: 50 }, 1.5 / rect.scale)
+
+// 动画过渡
+rect.scaleOf('center', 1.5, true) // = rect.scaleOf('center', 1.5, 1.5, false, true)
+
+rect.scaleOf('center', 1.5, { duration: 2 }) // 过渡 2 秒  = rect.scaleOf('center', 1.5, 1.5, false, 2)
 ```
 
-### scaleOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), multiplyScaleX: `number`, multiplyScaleY = addScaleX, resize?: `boolean` )
+### scaleOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), multiplyScaleX: `number`, multiplyScaleY?: `number` | [`ITranstion`](/reference/property/transition.md#transition-itranstion), resize?: `boolean`, transition?: [`ITranstion`](/reference/property/transition.md#transition-itranstion) )
 
 围绕原点 worldOrigin（ [世界坐标](/guide/basic/coordinate.md#world) ）缩放元素 <badge>增量操作</badge>。
+
+[`resize`](/reference/property/resize.md) 参数可实现缩放操作转宽高值，[`transition`](/reference/property/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
 ## 归属
 

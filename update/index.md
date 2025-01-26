@@ -10,6 +10,46 @@
 
 :::
 
+## 2025 / 01 / 26
+
+> v1.4.0
+
+#### 🍇 社区
+
+\- 🌸 [截图工具 Plus](https://www.u.tools/plugins/detail/%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7%20Plus/) <badge>截图与美化一站式的截图插件</badge> @xiaou
+
+\- 🌸 [leafer-x-spine](https://www.npmjs.com/package/leafer-x-spine) <badge>骨骼动画插件</badge> [@小羽](https://github.com/sulgweb)
+
+\- 🌸 [贪吃蛇小游戏](https://yh4922.github.io/leafer-greedy-snake/) @杨 🐑🐑
+
+\- 🌸 [信息学基础知识交互课件](http://cqyc.com:8888/files/grass/index.html) @zhk
+
+#### 🌱 新增
+
+\- 🌸 [setTransform()](/reference/property/transform.md#关键方法)、[transform()](/reference/property/transform.md#关键方法)、[scaleOf()](/reference/property/scale.md#关键方法)、[rotateOf()](/reference/property/rotation.md#关键方法)、[skewOf()](/reference/property/skew.md#关键方法)、[transformWorld()](/reference/property/transform.md#关键方法)、[scaleOfWorld()](/reference/property/scale.md#关键方法)、[rotateOfWorld()](/reference/property/rotation.md#关键方法)、[skewOfWorld()](/reference/property/skew.md#关键方法)、[flip()](/reference/property/flip.md) 等方法支持动画过渡参数
+
+#### 🪲 修复
+
+\- 🌸 离开画布没有触发 leave 事件
+
+\- 🌸 文本 both 对齐和删除线共存的时候超出预期
+
+\- 🌸 切换 [flow](/plugin/in/flow/Flow.md#flow-boolean-iflowtype) 类型未重新布局
+
+\- 导出 base64, 浏览器 bmp 文件头未更改
+
+\- 固定宽高的应用程序销毁后，存在一个画布 resize 事件未移除
+
+#### 🌿 优化
+
+\- 🌸 npm 包默认引用 min + sourceMap 的 bundle，调试体验更好
+
+\- 🌸 leafer-ui 子包的依赖改为 workspace:\*，自动获取对应版本
+
+#### 🌷 感谢反馈
+
+[@xingzheng7](https://github.com/xingzheng7) [@wzjiscode](https://github.com/wzjiscode) [@colinyao](https://github.com/colinyao) @Ethan @钮钴禄丶葛
+
 ## 2025 / 01 / 20
 
 > v1.3.3

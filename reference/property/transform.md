@@ -54,23 +54,27 @@ y 轴倾斜角度，取值范围为 -90 ～ 90。
 
 ## 关键方法
 
-### setTransform ( matrix: [`IMatrixData`](/api/interfaces/IMatrixData.md) )
+### setTransform ( matrix: [`IMatrixData`](/api/interfaces/IMatrixData.md), resize?: `boolean`, transition?: [`ITranstion`](/reference/property/transition.md#transition-itranstion) )
 
 设置本地变换矩阵，会自动分解为元素的布局属性 x,y, scaleX,scaleY,rotation, skewX, skewY。
+
+[`resize`](/reference/property/resize.md) 参数可实现缩放操作转宽高值，[`transition`](/reference/property/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
 ### getTransform ( relative?: [`ILocationType`](/api/modules.md#ilocationtype) | [`UI`](/reference/display/UI.md) = 'local' ): [`IMatrixData`](/api/interfaces/IMatrixData.md)
 
 获取变换矩阵, 支持获取相对任意父元素 `relative` 的相对矩阵。
 
-### transform ( matrix: [`IMatrixData`](/api/interfaces/IMatrixData.md) )
+### transform ( matrix: [`IMatrixData`](/api/interfaces/IMatrixData.md), resize?: `boolean`, transition?: [`ITranstion`](/reference/property/transition.md#transition-itranstion) )
 
 变换操作，会自动分解为布局属性 <badge>增量操作</badge>。
 
-## 相对世界坐标系
+[`resize`](/reference/property/resize.md) 参数可实现缩放操作转宽高值，[`transition`](/reference/property/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
-### transformWorld ( worldTransform: [`IMatrixData`](/api/interfaces/IMatrixData.md) )
+### transformWorld ( worldTransform: [`IMatrixData`](/api/interfaces/IMatrixData.md), resize?: `boolean`, transition?: [`ITranstion`](/reference/property/transition.md#transition-itranstion) )
 
 transform() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
+
+[`resize`](/reference/property/resize.md) 参数可实现缩放操作转宽高值，[`transition`](/reference/property/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
 ## 归属
 

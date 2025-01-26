@@ -33,7 +33,7 @@ interface IExportOptions {
 
   scale?: number | IPointData // 缩放比例，默认为1，可用于生成小尺寸的缩略图
   size?: number | ISizeData // 导出宽高（拉伸）， 自动换算出缩放比例 scale
-  padding?: number | number[] // 设置一个padding, 支持数字或数组 [top, right, bottom, left]
+  padding?: number | number[] // 设置内边距, 支持数字或数组 [top, right, bottom, left]
 
   pixelRatio?: number // 像素比，默认为1倍图，可导出适配高清屏的2倍图、3倍图...
   smooth?: boolean // 设置画布的平滑绘制属性，默认同当前leafer画布

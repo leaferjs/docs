@@ -16,9 +16,9 @@
 动画、游戏场景中，可使用更简单的 [origin](./origin.md) / [around](./around.md) + rotation 属性实现围绕中心点旋转。
 :::
 
-### rotateOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](../interface/math/Math#ipointdata), addRotation: `number` )
+### rotateOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](../interface/math/Math#ipointdata), addRotation: `number`, transition?: [`ITranstion`](/reference/property/transition.md#transition-itranstion) )
 
-围绕原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）旋转元素 <badge>增量操作</badge>。
+围绕原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）旋转元素 <badge>增量操作</badge>，[`transition`](/reference/property/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
 ```ts
 // 围绕中心点继续旋转 45度
@@ -26,11 +26,16 @@ rect.rotateOf('center', 45)
 
 // 想旋转到指定 rotation， 需减去元素当前 rotation，如下：
 rect.rotateOf({ x: 50, y: 50 }, 45 - rect.rotation)
+
+// 动画过渡
+rect.rotateOf('center', 45, true)
+
+rect.rotateOf('center', 45, 2) // 过渡 2 秒
 ```
 
-### rotateOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), addRotation: `number` )
+### rotateOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), addRotation: `number`, transition?: [`ITranstion`](/reference/property/transition.md#transition-itranstion) )
 
-围绕原点 worldOrigin（ [世界坐标](/guide/basic/coordinate.md#world) ）旋转元素 <badge>增量操作</badge>。
+围绕原点 worldOrigin（ [世界坐标](/guide/basic/coordinate.md#world) ）旋转元素 <badge>增量操作</badge>，[`transition`](/reference/property/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
 ## 归属
 

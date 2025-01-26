@@ -47,7 +47,9 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 ::: tip 提交模版
 **【Bug/建议】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 1.3.3
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.0
+
+复现：提供复现逻辑和可直接运行的代码，提高解决效率
 
 :::
 
@@ -62,7 +64,8 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 ::: warning 提交模版
 **【leaferjs】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 1.3.3
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.0
+
 :::
 
 然后将链接发到 [技术交流群](https://leaferjs.com/#contact) 里，我和社区管理员们会安排固定的时间查看、回复大家的问题。
@@ -71,7 +74,7 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 ### 2. 官方支持
 
-由于我们的资源时间有限，并且有很多关键工作要做，只能优先服务好 [金牌以上赞助用户](/sponsor/index.md#开发赞助) 、社区管理员，后续有盈利了可以招募更多的专业人员参与，以及开发各种从 0 到 1 的场景教程。
+由于我们的资源时间有限，并且有很多关键工作要做，只能优先服务好 [金牌以上赞助用户](/sponsor/index.md#开发赞助) 、社区管理员，后续资源充足了，可以招募更多的专业人员参与，以及开发各种从 0 到 1 的场景教程。
 
 ## 增强 LeaferJS
 

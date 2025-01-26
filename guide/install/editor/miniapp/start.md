@@ -32,9 +32,9 @@ bun add @leafer-editor/miniapp
 
 ```sh
 
-https://unpkg.com/@leafer-editor/miniapp@1.3.3/dist/miniapp.module.js
+https://unpkg.com/@leafer-editor/miniapp@1.4.0/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-editor/miniapp@1.3.3/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-editor/miniapp@1.4.0/dist/miniapp.module.min.js
 
 
 ```
