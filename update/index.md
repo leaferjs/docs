@@ -1583,8 +1583,6 @@ text.padding // 没有宽高的文本增加padding， 内容的位置会改变�
 
 #### 新增 🎉🎉🎉
 
-\- [Anime.js 动画](/plugin/combine/animejs/)，支持关键帧
-
 \- [HTMLText](/plugin/in/html/) 富文本渲染
 
 \- [Point](/reference/math/Point.md) / [Bounds](/reference/math/Bounds.md) / [Matrix](/reference/math/Matrix.md) 数学类
