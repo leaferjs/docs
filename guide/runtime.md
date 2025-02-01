@@ -4,14 +4,6 @@
 
 另外还有 [create-leafer 命令行工具](/create/leafer.md)，可快速创建 Vue + Leafer 项目，管理、升级、开发插件。
 
-## 在线环境
-
-可在线运行官网示例代码的 Playground 环境，即用即走。
-
-第一步：前往 https://www.leaferjs.com/playground/
-
-第二步：复制官网示例代码到编辑器中，可以实时查看运行效果。
-
 ## Cloud Studio
 
 创建专属你自己的在线 playground 环境，可在线运行官网示例代码，能够保存分享。
@@ -29,6 +21,12 @@
 ![使用](/image/playground/cloud-studio.png)
 
 第三步：复制官网示例代码到 index.ts 中，点击运行按钮，可实时查看效果。
+
+## 官网环境
+
+可在线快速运行、调试官网示例代码的 Playground 环境，即用即走，没有保存分享功能。
+
+https://www.leaferjs.com/playground/
 
 ## 本地环境
 

@@ -2,6 +2,8 @@
 
 LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高效绘图 、UI 交互（小游戏、互动应用、组态）、图形编辑。
 
+![leaferjs](/svg/leaferjs.svg?d=013007)
+
 提供了丰富的 UI 绘图元素，和开箱即用的功能，如自动布局、图形编辑、SVG 导出等，方便与 PS、 Figma、Sketch 等产品进行对接。并为跨平台开发提供了统一的交互事件，如拖拽、旋转、缩放手势等。
 
 📗 [图文并茂、由浅入深的了解 LeaferJS](/blog/2024-07-09.md)
@@ -22,15 +24,11 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 跟随官网教程步骤（文档底部有下一步引导按钮）从浅到深的学习，动手调试每一段示例代码。
 
-<!-- **[3. 开发一个画龙点睛的小游戏](/contest/guide.md)**
-
-给你一条会飞的龙，看你能做出什么好玩的小游戏分享给我们 ◠‿◠ -->
-
 ## 快速安装
 
 🚀 想马上在产品中使用，请安装 [leafer-ui](/guide/install/ui/start.md)，开始你的探索之旅。
 
-## 场景包
+## 场景集成包
 
 高效绘图场景，推荐直接安装更轻量的 [leafer-draw](/guide/install/draw/start.md) （50KB min+gzip）。
 
@@ -59,16 +57,16 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 ### 1. 社区支持（推荐）
 
-在 [知乎](https://www.zhihu.com) 或 [思否](https://segmentfault.com/) 创建一个问题:
+在 [知乎](https://www.zhihu.com/search?type=content&q=leaferjs%E9%97%AE%E9%A2%98) 或 [思否](https://segmentfault.com/search?q=leaferjs%E9%97%AE%E9%A2%98) 创建一个问题:
 
 ::: warning 提交模版
-**【leaferjs】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
+**【leaferjs 问题】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
 环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.0
 
 :::
 
-然后将链接发到 [技术交流群](https://leaferjs.com/#contact) 里，我和社区管理员们会安排固定的时间查看、回复大家的问题。
+我和社区管理员们会安排固定的时间查看、回复大家的问题，也可将链接转发到 [技术交流群](https://leaferjs.com/#contact) 里。
 
 同时这些问题也会被搜索引擎收录，以后网上搜索一下就能找到答案，省去重复劳动。
 

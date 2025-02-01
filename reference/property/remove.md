@@ -20,10 +20,10 @@
 
 ### 标准移除
 
-<<< @/code/basic/display/remove.ts
+<<< @/code/basic/remove/remove.ts
 
 ### 条件移除
 
 同 [find()](/reference/property/find.md) 方法的参数一致，内部会先 find() 再批量移除。
 
-<<< @/code/basic/display/remove-tag.ts
+<<< @/code/basic/remove/remove-tag.ts

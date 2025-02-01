@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 ## 图片
 
-[Image 元素](./Image.md) 和 [图案填充](/reference/property/paint/image.md) 都支持直接加载 svg 格式的图片。
+[Image 元素](/reference/display/Image.md) 和 [图案填充](/reference/property/paint/image.md) 都支持直接加载 svg 格式的图片。
 
 svg 图片采用了特殊的渲染逻辑，可以实现高清晰缩放.
 
@@ -26,12 +26,12 @@ svg 图片采用了特殊的渲染逻辑，可以实现高清晰缩放.
 
 ### 使用 url
 
-<<< @/code/display/Image/svg-url.ts
+<<< @/code/display/SVG/svg-url.ts
 
 ### 使用 字符串
 
-<<< @/code/display/Image/svg.ts
+<<< @/code/display/SVG/svg.ts
 
 图案填充
 
-<<< @/code/display/Image/svg-rect.ts
+<<< @/code/display/SVG/svg-rect.ts

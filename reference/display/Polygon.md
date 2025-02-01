@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Polygon
 
-绘制三角形、菱形、五边形、正多边形、自由多边形、平滑多变形。
+绘制三角形、菱形、五边形、正多边形、自由多边形、平滑多变形、趋势图。
 
 <case name="Polygon" editor=false></case>
 

@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Box
 
-创建 Box。支持 [Group](./Group.md) 的功能和 [Rect](./Rect.md) 的外观样式， 类似于 HTML5 中的 DIV，可以不断嵌套 。
+创建 Box。支持 [Group](/reference/display/Group.md) 的功能和 [Rect](/reference/display/Rect.md) 的外观样式， 类似于 HTML5 中的 DIV，可以不断嵌套 。
 
 <case name="Box" editor=false></case>
 

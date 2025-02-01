@@ -1,5 +1,9 @@
 # @leafer-ui/worker
 
+### [web 版](/guide/install/ui/start) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/ui/node/start) &nbsp; &nbsp; [小程序版](/guide/install/ui/miniapp/start)
+
+##
+
 在 WebWorker 环境中运行。
 
 <!-- 如果你需要编辑图形，推荐更省心的 [leafer-editor](/guide/install/editor/worker/start.md)，已集成了图形编辑器相关插件。 -->

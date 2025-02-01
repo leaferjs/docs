@@ -92,7 +92,7 @@ Leafer 支持手动强制更新光标样式 [updateCursor()](/reference/display/
 
 <case name="Cursor" index=5 editor=false></case>
 
-### 自定义图片光标
+### 设置图片光标
 
 支持 png、 svg 格式的图片, 偏移距离 x、y 为可选字段。
 

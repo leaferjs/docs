@@ -1,6 +1,10 @@
 # leafer-draw
 
-在 Web 环境中运行。
+### web 版 &nbsp; &nbsp; [worker 版](/guide/install/draw/worker/start) &nbsp; &nbsp; [node 版](/guide/install/draw/node/start) &nbsp; &nbsp; [小程序版](/guide/install/draw/miniapp/start)
+
+##
+
+在 Web 环境中运行，已适配移动端。
 
 相对 [leafer-ui](/guide/install/ui/start.md)，减少了 [App](/reference/display/App.md) 、查找元素、事件交互等功能，适用于纯绘图场景。
 

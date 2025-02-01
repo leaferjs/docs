@@ -12,13 +12,22 @@
 
 view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字符串时不用加 # 号。
 
-<<< @/code/basic/app/fixed.ts
+::: code-group
+<<< @/code/basic/leafer/fixed/window.ts [window]
+<<< @/code/basic/leafer/fixed/div.ts [div]
+<<< @/code/basic/leafer/fixed/canvas.ts [canvas]
+<<< @/code/basic/leafer/fixed/id.ts [id]
+:::
 
 ## 创建自适应布局的 Leafer
 
 当画布的父节点尺寸改变后会自动 resize， [了解详情](/reference/config/app/canvas.md#自适应布局)。
 
-<<< @/code/basic/app/auto.ts
+::: code-group
+<<< @/code/basic/leafer/auto/full.ts [full]
+<<< @/code/basic/leafer/auto/padding-left.ts [padding-left]
+<<< @/code/basic/leafer/auto/padding.ts [padding]
+:::
 
 ## 创建自动生长的 Leafer
 
@@ -26,7 +35,11 @@ view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字�
 
 注意 [App 结构](/guide/advanced/app.md) 暂不支持此功能。
 
-<<< @/code/basic/app/grow.ts
+::: code-group
+<<< @/code/basic/leafer/grow/grow.ts [grow]
+<<< @/code/basic/leafer/grow/grow-width.ts [grow-width]
+<<< @/code/basic/leafer/grow/grow-height.ts [grow-height]
+:::
 
 ## 详细了解
 

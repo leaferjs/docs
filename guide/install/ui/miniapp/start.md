@@ -1,5 +1,9 @@
 # @leafer-ui/miniapp
 
+### [web 版](/guide/install/ui/start) &nbsp; &nbsp; [worker 版](/guide/install/ui/worker/start) &nbsp; &nbsp; [node 版](/guide/install/ui/node/start) &nbsp; &nbsp; 小程序版
+
+##
+
 在小程序环境中运行。
 
 ## 安装
@@ -73,7 +77,7 @@ https://unpkg.com/@leafer-ui/miniapp@1.4.0/dist/miniapp.module.min.js
 
 ## 体验
 
-创建一个交互应用，能够横屏，可以缩放平移视图、拖拽矩形。
+创建一个交互应用，能够横屏，可以拖拽矩形。
 
 将小程序 miniprogram/pages/index 文件夹下的页面替换成如下内容：
 

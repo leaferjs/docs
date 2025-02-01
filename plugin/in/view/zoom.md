@@ -39,6 +39,10 @@ type IZoomType =
 
 <<< @/code/plugin/view/zoom/out.ts
 
+### 指定缩放值
+
+<<< @/code/plugin/view/zoom/scale.ts
+
 ### 缩放到合适大小
 
 <<< @/code/plugin/view/zoom/fit.ts

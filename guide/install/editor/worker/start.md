@@ -1,5 +1,9 @@
 # @leafer-editor/worker
 
+### [web 版](/guide/install/editor/start) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/editor/node/start) &nbsp; &nbsp; [小程序版](/guide/install/editor/miniapp/start)
+
+##
+
 在 WebWorker 环境中运行。
 
 基于 [@leafer-ui/worker](/guide/install/ui/worker/start.md)，集成了 [图形编辑器](/plugin/in/editor/)、[文本编辑](/plugin/in/text-editor/)、[视口](/plugin/in/viewport/)、[视图控制](/plugin/in/view/) 、[滚动条](/plugin/in/scroll/)、[箭头](/plugin/in/arrow/)、[HTML](/plugin/in/html/)、[查找元素](/plugin/in/find/index.md)、[导出元素](/plugin/in/export/index.md) 插件，适用于在线图形编辑的场景。

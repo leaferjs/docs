@@ -1,5 +1,9 @@
 # @leafer-game/miniapp
 
+### [web 版](/guide/install/game/start) &nbsp; &nbsp; [worker 版](/guide/install/game/worker/start) &nbsp; &nbsp; [node 版](/guide/install/game/node/start) &nbsp; &nbsp; 小程序版
+
+##
+
 在小程序环境中运行，[了解小程序使用 npm 包的注意事项](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)。
 
 基于 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md)，集成了 [Robot](/plugin/in/robot/) 、[交互状态](/plugin/in/state/) 、 [动画](/plugin/in/animate/)、[运动路径](/plugin/in/motion-path/)、[查找元素](/plugin/in/find/index.md) 插件，适用于小游戏场景。
@@ -51,9 +55,11 @@ https://unpkg.com/@leafer-game/miniapp@1.4.0/dist/miniapp.module.min.js
 等待小程序官方[修复 bug](https://developers.weixin.qq.com/community/develop/doc/000264fc838f08be4d6002d9166c00), 大家可以一起去催一催。复杂应用建议先采用小程序的 [web-view](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html) 方式开发。
 :::
 
-## 生成海报
+## 体验
 
-创建一个矩形, 然后导出为图片（离屏画布模式可用）。
+创建一个交互应用，能够横屏，可以拖拽矩形。
+
+将小程序 miniprogram/pages/index 文件夹下的页面替换成如下内容：
 
 ::: code-group
 
@@ -62,8 +68,8 @@ import { Leafer, Rect } from '@leafer-game/miniapp'
 
 Page({
   onReady() {
-    // 自动创建一个 350*800 的离屏画布
-    const leafer = new Leafer({ width: 350, height: 800 })
+    // this 为当前小程序页面实例
+    const leafer = new Leafer({ view: 'leafer', eventer: this })
 
     const rect = new Rect({
       x: 100,
@@ -71,16 +77,41 @@ Page({
       width: 100,
       height: 100,
       fill: '#32cd79',
+      draggable: true,
     })
 
     leafer.add(rect)
-
-    // 自动保存到相册
-    leafer.export('album.png', { screenshot: true }).then(() => {
-      // 提示保存到相册成功逻辑
-    })
   },
+  receiveEvent() {}, // 约定接收交互事件的方法名
 })
+```
+
+```xml [index.wxml]
+<canvas
+    id="leafer"
+    type="2d"
+    catchtouchstart="receiveEvent"
+    catchtouchmove="receiveEvent"
+    catchtouchend="receiveEvent"
+    catchtouchcancel="receiveEvent"
+></canvas>
+```
+
+```css [index.wxss]
+page {
+  height: 100%;
+}
+#leafer {
+  width: 100%;
+  height: 100%;
+}
+```
+
+```json [index.json]
+{
+  "navigationStyle": "custom",
+  "pageOrientation": "auto"
+}
 ```
 
 :::

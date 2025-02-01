@@ -103,4 +103,4 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 支持所有 [find()](/reference/property/find.md) 条件参数 。
 
-<<< @/code/basic/display/remove-tag.ts
+<<< @/code/basic/remove/remove-tag.ts

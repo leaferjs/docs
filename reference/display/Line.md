@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Line
 
-绘制横线、斜线、竖线、折线、平滑曲线。
+绘制横线、斜线、竖线、折线、平滑曲线、趋势图。
 
 <case name="Line" editor=false></case>
 

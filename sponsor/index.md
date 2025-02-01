@@ -174,7 +174,9 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 赞助成功上墙后（最晚第 2 天），可前往 [百万咖啡墙](https://www.leaferjs.com/coffee/) 点击头像领取赞助证书，分享至朋友圈。
 
 <img width="320"  style="border-radius:20px" src="/image/sponsor/BoardOS.jpg" />
+
 ### 金牌赞助商
+
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
     <a target="_blank" href="https://github.com/dromara/yft-design">
     <img width="180" style="border-radius:40px" title="yft-design" src="https://www.leaferjs.com/image/sponsor/gold/yft.jpg" />

@@ -22,12 +22,12 @@
 
 ## 销毁移除
 
-<<< @/code/basic/display/destroy.ts
+<<< @/code/basic/remove/destroy.ts
 
 ## 清空元素
 
-<<< @/code/basic/display/clear.ts
+<<< @/code/basic/remove/clear.ts
 
 ## 销毁应用
 
-<<< @/code/basic/app/destroy.ts
+<<< @/code/basic/remove/destroy-leafer.ts

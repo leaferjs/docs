@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 ## 标准移除
 
-<<< @/code/basic/display/remove.ts
+<<< @/code/basic/remove/remove.ts
 
 ## 条件移除
 
@@ -16,19 +16,19 @@ import Case from '/component/Case.vue'
 需安装 [查找元素插件](/plugin/in/find/index.md) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)、 [leafer-editor](/guide/install/editor/start.md) （已集成查找元素插件）
 :::
 
-<<< @/code/basic/display/remove-tag.ts
+<<< @/code/basic/remove/remove-tag.ts
 
 ## 销毁移除
 
-<<< @/code/basic/display/destroy.ts
+<<< @/code/basic/remove/destroy.ts
 
 ## 清空元素
 
-<<< @/code/basic/display/clear.ts
+<<< @/code/basic/remove/clear.ts
 
 ## 销毁应用
 
-<<< @/code/basic/app/destroy.ts
+<<< @/code/basic/remove/destroy-leafer.ts
 
 ## 恭喜 🎉
 

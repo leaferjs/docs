@@ -6,13 +6,11 @@ import Case from '/component/Case.vue'
 
 围绕 around 点绘制元素，类似于游戏引擎中的 anchor 锚点功能。
 
-<br/>
-
-![围绕中心点绘制](/svg/around.svg)
+![围绕中心点绘制](/svg/around.svg?d=0131)
 
 图中将元素内部的 around 坐标点(中心位置) ， 移动到元素的 (x,y) 坐标对齐放置并旋转 30 度。
 
-与 [origin](./origin.md) 的区别： 多了一个步骤，会把元素内部的 around 点移动到 (x,y) 坐标对齐。
+与 [origin](/reference/property/origin) 的区别： 多了一个步骤，会把元素内部的 around 点移动到元素的 (x,y) 坐标。
 
 ## 关键属性
 

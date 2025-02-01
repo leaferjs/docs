@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Frame
 
-创建画板。继承自 [Box](./Box.md)，默认白色背景、会裁剪掉超出宽高的内容，类似于 HTML5 中的页面。
+创建画板。继承自 [Box](/reference/display/Box.md)，默认白色背景、会裁剪掉超出宽高的内容，类似于 HTML5 中的页面，一般用于设计软件中创建画板。
 
 <case name="Frame" editor=false></case>
 

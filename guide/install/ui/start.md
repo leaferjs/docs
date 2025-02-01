@@ -4,7 +4,11 @@ import Case from '/component/Case.vue'
 
 # leafer-ui
 
-在 Web 环境中运行。
+### web 版 &nbsp; &nbsp; [worker 版](/guide/install/ui/worker/start) &nbsp; &nbsp; [node 版](/guide/install/ui/node/start) &nbsp; &nbsp; [小程序版](/guide/install/ui/miniapp/start)
+
+##
+
+在 Web 环境中运行，已适配移动端。
 
 ## 安装
 

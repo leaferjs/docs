@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # mask
 
-遮罩功能，将 Group 内的某个元素指定为遮罩，可以实现复杂的裁剪效果。
+遮罩功能，将 Group 内的某个元素指定为遮罩，可以实现复杂的裁剪效果，支持 5 种遮罩类型。
 
 <case name="Mask" editor=false></case>
 

@@ -90,30 +90,30 @@ interface IExportResult {
 
 默认图片质量为 0.92。
 
-<<< @/code/export/string.ts
+<<< @/code/property/export/string.ts
 
 手动设置图片质量。
 
-<<< @/code/export/quality.ts
+<<< @/code/property/export/quality.ts
 
 ### 导出二进制数据
 
-<<< @/code/export/blob.ts
+<<< @/code/property/export/blob.ts
 
 ### 导出文件
 
 浏览器版会直接下载文件，Node.js 版会保存到指定路径。
 
-<<< @/code/export/file.ts
+<<< @/code/property/export/file.ts
 
 ### 导出画布
 
-<<< @/code/export/canvas.ts
+<<< @/code/property/export/canvas.ts
 
 ### 导出高清图
 
-<<< @/code/export/pixelRatio.ts
+<<< @/code/property/export/pixelRatio.ts
 
 ### 画面截图
 
-<<< @/code/export/screenshot.ts
+<<< @/code/property/export/screenshot.ts

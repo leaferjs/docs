@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # eraser
 
-擦除功能，将 Group 内的某个元素指定为橡皮擦，可以实现复杂的擦除效果。
+擦除功能，将 Group 内的某个元素指定为橡皮擦，可以实现复杂的擦除效果，支持 2 种擦除类型。
 
 <case name="Eraser" editor=false></case>
 

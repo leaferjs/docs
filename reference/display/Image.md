@@ -108,6 +108,14 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 <<< @/code/display/Image/stretch.ts
 
+### 固定宽度，自适应高度
+
+<<< @/code/display/Image/width.ts
+
+### 固定高度，自适应宽度
+
+<<< @/code/display/Image/height.ts
+
 ### 监听图片加载
 
 ::: code-group

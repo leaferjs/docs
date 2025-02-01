@@ -113,27 +113,6 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 :::
 
-<!--
-## 示例
-
-### 自动创建
-
-创建 ground、tree、sky 层。
-
-<<< @/code/app/layer/auto.ts
-
-只创建 tree、sky 层。
-
-<<< @/code/app/layer/sky.ts
-
-### 原始创建
-
-<<< @/code/app/layer/app.ts
-
-### 快速创建
-
-<<< @/code/app/layer/simple.ts -->
-
 <!-- ## 继承元素
 
 ### [Leafer](./Leafer.md) -->

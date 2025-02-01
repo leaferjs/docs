@@ -4,7 +4,11 @@ import Case from '/component/Case.vue'
 
 # leafer-game
 
-在 Web 环境中运行。
+### web 版 &nbsp; &nbsp; [worker 版](/guide/install/game/worker/start) &nbsp; &nbsp; [node 版](/guide/install/game/node/start) &nbsp; &nbsp; [小程序版](/guide/install/game/miniapp/start)
+
+##
+
+在 Web 环境中运行，已适配移动端。
 
 基于 [leafer-ui](/guide/install/ui/start.md)，集成了 [Robot](/plugin/in/robot/) 、[交互状态](/plugin/in/state/) 、 [动画](/plugin/in/animate/)、[运动路径](/plugin/in/motion-path/)、[查找元素](/plugin/in/find/index.md) 插件，适用于小游戏场景。
 

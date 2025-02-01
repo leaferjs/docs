@@ -1,5 +1,9 @@
 # @leafer-ui/node
 
+### [web 版](/guide/install/ui/start) &nbsp; &nbsp; [worker 版](/guide/install/ui/worker/start) &nbsp; &nbsp; node 版 &nbsp; &nbsp; [小程序版](/guide/install/ui/miniapp/start)
+
+##
+
 在服务端 node 环境中运行，可用于后台绘图、生成图片、自动化测试，能够 [模拟用户交互](/reference/event/simulation.md)。
 
 ## 安装
