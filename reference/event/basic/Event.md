@@ -49,13 +49,13 @@
 
 ### stop ( )
 
-停止事件传递，如果同一个元素有多个侦听函数，会等待执行完后再停止传递。
+停止事件传递，如果同一个元素有多个侦听函数，会等待执行完后再停止传递（阻止事件向父节点传递）。
 
 同时会调用原生事件的 stopPropagation()。
 
 ### stopNow ( )
 
-立即停止事件传递。
+立即停止事件传递。 阻止事件向父节点及同级传递。
 
 同时会调用原生事件的 stopImmediatePropagation()。
 
@@ -69,3 +69,19 @@
 ## API
 
 ### [Event](/api/classes/Event.md) -->
+
+## 示例
+
+### 阻止事件流传递
+
+::: code-group
+<<< @/code/event/stop.ts
+<<< @/code/event/stop.js
+:::
+
+### 立即阻止事件流传递
+
+::: code-group
+<<< @/code/event/stopNow.ts
+<<< @/code/event/stopNow.js
+:::

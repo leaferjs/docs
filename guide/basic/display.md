@@ -112,7 +112,7 @@ svg 图片采用了特殊的渲染逻辑，可以实现高清晰缩放.
 
 ### [Text 元素](/reference/display/Text)
 
-绘制文本。与 HTML5 文本显示效果基本一致。
+绘制文本。与 HTML5 文本显示效果基本一致，支持多行文本。
 
 <case name="Text" editor=false></case>
 

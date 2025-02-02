@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Text
 
-绘制文本。与 HTML5 文本显示效果基本一致。
+绘制文本。与 HTML5 文本显示效果基本一致，支持多行文本。
 
 <case name="Text" editor=false></case>
 
