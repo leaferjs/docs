@@ -51,7 +51,7 @@ LeaferJS 是一款好用的 Canvas 渲染引擎，提供革新的体验。可用
 3. 点睛的交互功能，点击龙头加上龙眼，然后龙就活过来，开始按运动路径循环飞行。 -->
 
 ::: code-group
-<<< @/code/contest/bloom/wish.ts
+<<< @/code/game/bloom.ts
 :::
 
 <!-- ### 增强功能

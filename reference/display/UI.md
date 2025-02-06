@@ -141,7 +141,7 @@
 
 [motionPath](/reference/property/motionPath) &nbsp; &nbsp; [motion](/reference/property/motion) &nbsp; &nbsp; [getMotionTotal()](/reference/property/getMotionTotal) &nbsp; &nbsp; [getMotionPoint()](/reference/property/getMotionPoint)
 
-## 🪜 高级
+## 🌴 高级
 
 ### 限制拖动范围
 

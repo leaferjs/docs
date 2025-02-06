@@ -26,9 +26,9 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 ## 快速安装
 
-🚀 想马上在产品中使用，请安装 [leafer-ui](/guide/install/ui/start.md)，开始你的探索之旅。
+🚀 想马上在产品中使用，请安装 [leafer-ui](/guide/install/ui/start.md) （60KB min+gzip），开始你的探索之旅。
 
-## 场景集成包
+### 场景集成包
 
 高效绘图场景，推荐直接安装更轻量的 [leafer-draw](/guide/install/draw/start.md) （50KB min+gzip）。
 
@@ -36,11 +36,17 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 图形编辑场景，推荐直接安装更省心的 [leafer-editor](/guide/install/editor/start.md)，已集成了图形编辑器相关插件。
 
-## 技术交流与 Bug 反馈
+## 社区提问
 
 欢迎加入 [技术交流群](https://leaferjs.com/#contact) ，与小伙伴们建立联系，讨论、改进产品，共同学习进步，偶尔会有福利。
 
-有 Bug、建议可以 [提交 issue](https://github.com/leaferjs/leafer-ui/issues) 进行反馈，留下你的贡献足迹，一起让 LeaferJS 变得越来越好。
+### 每周 4 天工作制
+
+LeaferJS 计划试行每周 4 天工作制（周一、二、四、五），寻求支持请留意工作时间。
+
+### 一. 反馈问题与建议
+
+有 Bug、建议请 [提交 issue](https://github.com/leaferjs/leafer-ui/issues) 进行反馈，留下你的贡献足迹，一起让 LeaferJS 变得越来越好。
 
 ::: tip 提交模版
 **【Bug/建议】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
@@ -51,13 +57,13 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 :::
 
-## 求助使用问题？
+### 二. 求助使用问题？
 
 针对使用过程中遇到不懂的问题或缺失功能，我们提供了以下求助渠道，同时也招募社区管理员。
 
-### 1. 社区支持（推荐）
+#### 1. 社区支持（推荐）
 
-在 [知乎](https://www.zhihu.com/search?type=content&q=leaferjs%E9%97%AE%E9%A2%98) 或 [思否](https://segmentfault.com/search?q=leaferjs%E9%97%AE%E9%A2%98) 创建一个问题:
+[前往知乎](https://www.zhihu.com/search?type=content&q=leaferjs%E9%97%AE%E9%A2%98) 创建一个问题:
 
 ::: warning 提交模版
 **【leaferjs 问题】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
@@ -70,7 +76,7 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 同时这些问题也会被搜索引擎收录，以后网上搜索一下就能找到答案，省去重复劳动。
 
-### 2. 官方支持
+#### 2. 官方支持
 
 由于我们的资源时间有限，并且有很多关键工作要做，只能优先服务好 [金牌以上赞助用户](/sponsor/index.md#开发赞助) 、社区管理员，后续资源充足了，可以招募更多的专业人员参与，以及开发各种从 0 到 1 的场景教程。
 
@@ -108,7 +114,7 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 在满足通用需求、可维护性的前提下，追求极致的性能、极低的内存占用、极少的代码量。
 
-#### 🫒 寻找一颗好种子
+#### 🥥 寻找一颗好种子
 
 去做当前生态发展需要，用户还没有被满足（痛点），正好也是你所擅长、感兴趣的事情。
 
