@@ -1,6 +1,6 @@
 # 我们的博客
 
-### [LeaferJS 全网代码征集，让 AI 学会 LeaferJS，让开发效率飙升！](/blog/2025-02-07-1.md)
+### [LeaferJS 全网代码征集，让 AI 学会 LeaferJS](/blog/2025-02-07-1.md)
 
 ### [LeaferJS 社区提问指南](/blog/2025-02-07-2.md)
 

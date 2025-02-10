@@ -10,44 +10,31 @@ import Case from '/component/Case.vue'
 
 创建一个带虚线边框样式的矩形。
 
-<<< @/code/basic/style/border.ts
+<<< @/code/basic/style/stroke.ts
 
 ## 修改样式
 
-::: danger 注意事项
-元素只能检测到 **第一层级属性** 的变化，如：修改 rect.fill.url = url 是不会渲染更新的。
-:::
-
-```ts
-// #修改样式 [标准修改]
-rect.stroke = 'blue'
-rect.strokeWidth = 4
-```
+<<< @/code/basic/style/change.ts#main
 
 ## 简洁修改
 
-```ts
-// #修改样式 [简洁修改]
-rect.set({
-  stroke: 'blue',
-  strokeWidth: 4,
-})
-```
+<<< @/code/basic/style/set.ts#main
 
 ## 重置样式
 
-```ts
-// #修改样式 [重置样式]
-rect.reset()
+<<< @/code/basic/style/reset.ts#main
 
-// 重置为新样式
-rect.reset({
-  stroke: 'blue',
-  strokeWidth: 4,
-})
-```
+## 修改对象
+
+::: danger 注意事项
+元素只能检测到 **第一层级属性** 的 setter 变化，单独修改 rect.fill.url = url 是不会渲染更新的。
+:::
+
+<<< @/code/basic/style/change-fill.ts
 
 ## 使用 JSON
+
+了解 JSON 数据 [导入导出](/reference/property/json.md)。
 
 <<< @/code/property/json/set.ts
 
@@ -127,19 +114,13 @@ rect.reset({
 
 元素的可见性，可用于隐藏元素。
 
-```ts
-// #隐藏元素
-rect.visible = false
-```
+<<< @/code/property/visible/change.ts#main
 
 ### [opacity](/reference/property/opacity)
 
 元素的不透明度。
 
-```ts
-// #设置不透明度
-rect.opacity = 0.5
-```
+<<< @/code/property/opacity/change.ts#main
 
 ## 高级定位属性
 

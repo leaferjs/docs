@@ -40,11 +40,9 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 ### ⏰ 每周 4 天工作制
 
-LeaferJS 试行每周 4 天工作制（周一、周二、周四、周五）。
+LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.html)（周一、二、四、五），寻求支持请留意时间，感谢你的支持与理解。
 
-寻求支持请留意工作时间，感谢你的支持与理解。
-
-### 一. 反馈问题与建议
+### 一. 反馈 Bug 与建议
 
 发现 Bug 或有改进建议？欢迎在 GitHub 上 [提交 issue](https://github.com/leaferjs/leafer-ui/issues)，你的贡献能让 LeaferJS 变得更强大！
 
@@ -60,31 +58,29 @@ LeaferJS 试行每周 4 天工作制（周一、周二、周四、周五）。
 
 使用过程中遇到不懂的问题或缺失功能？我们提供了多种求助渠道，同时也招募社区管理员参与。
 
-#### 1. 询问 AI （即将上线）
+#### 1. 社区支持（推荐）
 
-我们计划训练、对接外部 AI 助手，预计 **未来几个月内** 上线，可自动解答 LeaferJS 相关问题，敬请期待！
-
-#### 2. 社区支持（推荐）
+为让更多的人参与解答，同时让搜索引擎收录问题，避免重复劳动，推荐公开求助你的问题。
 
 [前往知乎](https://www.zhihu.com/topic/736459154/unanswered) 创建一个问题并绑定话题 [#LeaferJS](https://www.zhihu.com/topic/736459154/unanswered):
 
-::: warning 提交模版
+::: tip 提交模版
 **【leaferjs】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
 环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.0
 
-<br/>
-
-#LeaferJS （点击知乎提问框底部的 # 号绑定话题）
+#LeaferJS （点击知乎提问框底部的 # 号，可绑定话题）
 :::
 
-我和社区管理员们会安排固定的时间查看、回复大家的问题，也可将链接转发到 [LeaferJS 技术交流群](https://leaferjs.com/#contact) 里。同时这些问题会被搜索引擎收录，以后网上搜索一下就能找到答案，省去重复劳动。
+我和社区管理员们会安排固定的时间查看、回复大家的问题，也可将链接转发到 [LeaferJS 技术交流群](https://leaferjs.com/#contact) 里。多次有效回答问题即视为有意愿成为 LeaferJS 社区管理员，可 [联系我们](https://leaferjs.com/#contact) 进管理群。
 
-频繁有效回答问题即视为有意愿成为 LeaferJS 社区管理员，可 [联系我们](https://leaferjs.com/#contact) 进管理群。
+#### 2. 官方支持
 
-#### 3. 官方支持
+由于资源有限，我们优先为 [金牌以上赞助用户](https://www.leaferjs.com/ui/sponsor/#%E5%BC%80%E5%8F%91%E8%B5%9E%E5%8A%A9) 和社区管理员提供支持（如优先修复 Bug、补充缺失功能）。随着资源增加，我们将招募更多专业人员，并开发系统化的 LeaferJS 场景教程。
 
-由于资源有限，我们优先为 [金牌以上赞助用户](/sponsor/index.md#开发赞助) 和社区管理员提供支持（如优先修复 Bug、补充缺失功能）。随着资源增加，我们将招募更多专业人员，并开发系统化的 LeaferJS 教程，涵盖从入门到高级应用。
+#### 3. 询问 AI （即将上线）
+
+我们计划训练、对接外部 AI 助手，预计 **未来几个月内** 上线，可自动解答 LeaferJS 相关问题。
 
 ### 三、技术交流
 
