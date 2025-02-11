@@ -210,6 +210,9 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 ### 银牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 5px;">
+  <a target="_blank" href="https://www.u-tools.cn/plugins/detail/%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7%20Plus/index.html">
+    <img width="40" style="border-radius:20px" title="截图工具 Plus" src="https://www.leaferjs.com/image/sponsor/user/135.png" />
+  </a>
   <a target="_blank" href="https://frameelf.com/">
     <img width="40" style="border-radius:20px" title="边框水印精灵" src="https://www.leaferjs.com/image/sponsor/user/134.jpg" />
   </a>

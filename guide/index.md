@@ -60,7 +60,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 
 #### 1. 社区支持（推荐）
 
-为让更多的人参与解答，同时让搜索引擎收录问题，避免重复劳动，推荐公开求助你的问题。
+为让更多的人可以参与解答，同时让搜索引擎收录问题（避免重复劳动），请公开求助你的问题。
 
 [前往知乎](https://www.zhihu.com/topic/736459154/unanswered) 创建一个问题并绑定话题 [#LeaferJS](https://www.zhihu.com/topic/736459154/unanswered):
 
