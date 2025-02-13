@@ -15,3 +15,7 @@ import Case from '/component/Case.vue'
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+### 停用子元素交互事件
+
+<<< @/code/property/hit/hitChildren.ts

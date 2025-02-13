@@ -33,3 +33,9 @@ import Case from '/component/Case.vue'
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 停用元素响应交互事件
+
+<<< @/code/property/hit/hittable.ts

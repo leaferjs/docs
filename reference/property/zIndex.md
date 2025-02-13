@@ -11,3 +11,9 @@
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 调整矩形的显示顺序
+
+<<< @/code/property/zIndex/rect.ts

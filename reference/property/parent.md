@@ -19,3 +19,9 @@
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 等待元素被添加到父元素中时，执行回调
+
+<<< @/code/property/parent/wait.ts

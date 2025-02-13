@@ -91,14 +91,9 @@
 
 ## 示例
 
-### 获取内部坐标
+### 世界坐标转内部坐标
 
-```ts
-const rect = new Rect({ x: 50, y: 50, scale: 5 })
-
-const worldPoint = { x: 100, y: 100 }
-const innerPoint = rect.getInnerPoint(worldPoint) // {x: 10, y: 10}
-```
+<<< @/code/property/point/inner.ts
 
 ### 获取 frame 坐标
 
@@ -106,16 +101,7 @@ const innerPoint = rect.getInnerPoint(worldPoint) // {x: 10, y: 10}
 
 将 relative 元素假设为世界坐标系，可以实现子级到任意一个父级坐标系之间的转换。
 
-```ts
-const frame = new Frame({ x: 200, y: 100, width: 600, height: 800 })
-
-const rect = new Rect({ x: 50, y: 50, scale: 5 })
-frame.add(rect)
-
-const innerPoint = { x: 10, y: 10 }
-const worldPoint = rect.getWorldPoint(innerPoint) //  {x: 300, y: 200}
-const framePoint = rect.getWorldPoint(innerPoint, frame) //  {x: 100, y: 100}
-```
+<<< @/code/property/point/frame.ts
 
 ### 获取内部移动距离
 
@@ -123,9 +109,4 @@ const framePoint = rect.getWorldPoint(innerPoint, frame) //  {x: 100, y: 100}
 
 可以转换移动距离、长度。
 
-```ts
-const rect = new Rect({ x: 50, y: 50, scale: 5 })
-
-const worldMove = { x: 100, y: 100 }
-const innerMove = rect.getInnerPoint(worldMove, null, true) // {x: 20, y: 20}
-```
+<<< @/code/property/point/move.ts

@@ -62,3 +62,13 @@ rect.scaleOf('center', 1.5, { duration: 2 }) // 过渡 2 秒  = rect.scaleOf('ce
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 通过 scaleOf() 缩放元素
+
+<<< @/code/property/scale/scale.ts
+
+### 通过 scaleOf() 缩放元素，有动画过渡
+
+<<< @/code/property/scale/transition.ts

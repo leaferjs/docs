@@ -106,3 +106,13 @@ rect.__.width // 50, 返回计算数据 50% = 100 * (50 / 100)，box.width变化
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 通过 set() 修改属性
+
+<<< @/code/property/set/set.ts
+
+### 通过 set() 修改属性，有动画过渡
+
+<<< @/code/property/set/transition.ts

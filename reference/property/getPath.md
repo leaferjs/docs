@@ -13,3 +13,9 @@
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 获取元素的数字路径
+
+<<< @/code/property/getPath/get.ts

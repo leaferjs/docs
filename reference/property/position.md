@@ -48,3 +48,13 @@ rect.move(10, 10, 2) // 过渡 2 秒
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 通过 move() 移动元素
+
+<<< @/code/property/move/move.ts
+
+### 通过 move() 移动元素，有动画过渡
+
+<<< @/code/property/move/transition.ts

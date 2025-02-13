@@ -76,6 +76,10 @@ Group 会强制子元素跟随 resize，不用设置此参数。
 
 ## 示例
 
+### 调整 Group 大小，不使用 scale 属性
+
+<<< @/code/property/resize/group.ts
+
 ### scaleOf 增加 resize 参数
 
 <<< @/code/plugin/editor/resize/scale.ts

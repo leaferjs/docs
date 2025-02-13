@@ -11,3 +11,9 @@
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 显示矩形元素的 innerName
+
+<<< @/code/property/name/innerName.ts

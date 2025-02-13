@@ -43,7 +43,7 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 ### pen: [PathCreator](/reference/path/PathCreator.md)
 
-画笔，可以像 canvas 一样快速绘制路径，并提供了一些新的方法。
+画笔，可以像 Canvas 2D API 一样快速 [绘制路径](/reference/path/PathCreator.md)，并提供了一些新的方法。
 
 画笔实际上修改的是元素 path 属性数据。
 
@@ -54,8 +54,6 @@ type WindingRule: =  "nonzero" | "evenodd"
 所以 pen 要紧跟着元素，一次把内容绘制完成，如：rect.pen.moveTo(100,100).lineTo(200,200)。
 
 :::
-
-<!--@include: ../path/PathDrawer.md-->
 
 ## 归属
 

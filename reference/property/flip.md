@@ -23,3 +23,13 @@ rect.flip('x', 2) // 过渡 2 秒
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 按 X 轴镜像元素
+
+<<< @/code/property/flip/flip.ts
+
+### 按 X 轴镜像元素，有动画过渡
+
+<<< @/code/property/flip/transition.ts

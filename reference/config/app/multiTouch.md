@@ -15,3 +15,13 @@
 ### multiTouch.disabled: `boolean`
 
 是否禁用多点触屏产生的缩放/平移/旋转事件， 默认为 false。
+
+## 示例
+
+### 禁用多点触屏功能
+
+::: code-group
+<<< @/code/app/config/multiTouch.ts [Leafer]
+
+<<< @/code/app/config/app/multiTouch.ts [App]
+:::

@@ -15,3 +15,9 @@ y 轴偏移量。
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 偏移元素
+
+<<< @/code/property/offset/offset.ts

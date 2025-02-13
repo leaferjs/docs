@@ -39,3 +39,9 @@ Leafer 实例的 [缩放平移视图层](/reference/display/Leafer.md#zoomlayer-
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 等待元素被添加到应用中时，执行回调
+
+<<< @/code/property/leafer/wait.ts

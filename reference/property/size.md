@@ -27,3 +27,13 @@
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 创建矩形，并设置宽高
+
+<<< @/code/display/Rect/rect.ts
+
+### 调整 Group 大小，不使用 scale 属性
+
+<<< @/code/property/resize/group.ts

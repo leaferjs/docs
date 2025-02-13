@@ -18,6 +18,16 @@
 
 设置 'auto'， draggable / editable / 监听 DragEvent.DRAG 的元素仍可单独拖拽，其他地方拖拽将会滑动页面。
 
-设置 true， 所有地方拖拽将不会滑动页面。
+设置 true， 所有地方拖拽将不会滑动页面，当为应用添加 [缩放平移视图](/guide/advanced/viewport.md) 功能时自动使用此配置。
 
 设置 false， 所有地方拖拽将会滑动页面。
+
+## 示例
+
+### 阻止移动端默认滑动页面事件
+
+::: code-group
+<<< @/code/app/config/touch.ts [Leafer]
+
+<<< @/code/app/config/app/touch.ts [App]
+:::

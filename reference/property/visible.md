@@ -15,3 +15,13 @@
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 隐藏元素
+
+<<< @/code/property/visible/visible.ts
+
+### 隐藏元素，且不占空间
+
+<<< @/code/property/visible/none.ts

@@ -44,3 +44,13 @@ rect.skewOf('center', 45, 0, 2) // 过渡 2 秒
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 通过 skewOf() 倾斜元素
+
+<<< @/code/property/rotate/rotate.ts
+
+### 通过 skewOf() 倾斜元素，有动画过渡
+
+<<< @/code/property/rotate/transition.ts

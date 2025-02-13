@@ -19,3 +19,9 @@
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 设置不透明度
+
+<<< @/code/property/opacity/opacity.ts

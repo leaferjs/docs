@@ -11,3 +11,9 @@
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 克隆元素，并设置位置
+
+<<< @/code/property/clone/clone.ts

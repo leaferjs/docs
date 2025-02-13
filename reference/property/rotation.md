@@ -40,3 +40,13 @@ rect.rotateOf('center', 45, 2) // 过渡 2 秒
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 通过 rotateOf() 旋转元素
+
+<<< @/code/property/rotate/rotate.ts
+
+### 通过 rotateOf() 旋转元素，有动画过渡
+
+<<< @/code/property/rotate/transition.ts

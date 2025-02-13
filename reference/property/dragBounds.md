@@ -11,3 +11,9 @@
 ## 归属
 
 ### [UI](/reference/display/UI.md)
+
+## 示例
+
+### 限制元素在 Frame 内拖动
+
+<<< @/code/property/dragBounds/frame.ts
