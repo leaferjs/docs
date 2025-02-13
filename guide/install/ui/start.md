@@ -16,19 +16,19 @@ import Case from '/component/Case.vue'
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install leafer-ui
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add leafer-ui
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add leafer-ui
 ```
 
-```sh[bun]
+```sh [bun]
 bun add leafer-ui
 ```
 
@@ -129,9 +129,9 @@ IE 不支持
 
 <<< @/code/start/create.ts [index.ts]
 
-### 引入 script 的方式
-
 :::
+
+### 引入 script 的方式
 
 ::: code-group
 

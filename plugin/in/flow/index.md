@@ -18,22 +18,22 @@ import Case from '/component/Case.vue'
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-in/flow
 npm install @leafer-in/resize
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-in/flow
 pnpm add @leafer-in/resize
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-in/flow
 yarn add @leafer-in/resize
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-in/flow
 bun add @leafer-in/resize
 ```

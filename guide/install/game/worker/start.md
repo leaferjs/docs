@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-game/worker
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-game/worker
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-game/worker
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-game/worker
 ```
 

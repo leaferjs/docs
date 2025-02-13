@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-in/view
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-in/view
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-in/view
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-in/view
 ```
 

@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-in/find
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-in/find
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-in/find
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-in/find
 ```
 

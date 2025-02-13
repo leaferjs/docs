@@ -18,22 +18,22 @@ import Case from '/component/Case.vue'
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-in/animate
 npm install @leafer-in/color
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-in/animate
 pnpm add @leafer-in/color
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-in/animate
 yarn add @leafer-in/color
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-in/animate
 bun add @leafer-in/color
 ```

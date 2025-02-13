@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-ui/worker
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-ui/worker
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-ui/worker
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-ui/worker
 ```
 

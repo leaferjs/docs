@@ -14,19 +14,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-editor/node
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-editor/node
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-editor/node
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-editor/node
 ```
 
@@ -44,19 +44,19 @@ bun add @leafer-editor/node
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @napi-rs/canvas
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @napi-rs/canvas
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @napi-rs/canvas
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @napi-rs/canvas
 ```
 

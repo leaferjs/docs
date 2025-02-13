@@ -16,19 +16,19 @@ import Case from '/component/Case.vue'
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install leafer-editor
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add leafer-editor
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add leafer-editor
 ```
 
-```sh[bun]
+```sh [bun]
 bun add leafer-editor
 ```
 

@@ -18,19 +18,19 @@ import Case from '/component/Case.vue'
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-in/html
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-in/html
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-in/html
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-in/html
 ```
 

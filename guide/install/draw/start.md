@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install leafer-draw
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add leafer-draw
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add leafer-draw
 ```
 
-```sh[bun]
+```sh [bun]
 bun add leafer-draw
 ```
 

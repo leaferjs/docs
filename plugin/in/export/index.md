@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-in/export
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-in/export
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-in/export
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-in/export
 ```
 

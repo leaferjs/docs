@@ -24,19 +24,19 @@ import Case from '/component/Case.vue'
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-in/text-editor
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-in/text-editor
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-in/text-editor
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-in/text-editor
 ```
 

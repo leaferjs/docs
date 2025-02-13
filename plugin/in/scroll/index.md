@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-in/scroll
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-in/scroll
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-in/scroll
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-in/scroll
 ```
 

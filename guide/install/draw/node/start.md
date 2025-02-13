@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-draw/node
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-draw/node
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-draw/node
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-draw/node
 ```
 
@@ -36,19 +36,19 @@ bun add @leafer-draw/node
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install skia-canvas
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add skia-canvas
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add skia-canvas
 ```
 
-```sh[bun]
+```sh [bun]
 bun add skia-canvas
 ```
 

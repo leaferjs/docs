@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-editor/miniapp
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-editor/miniapp
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-editor/miniapp
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-editor/miniapp
 ```
 

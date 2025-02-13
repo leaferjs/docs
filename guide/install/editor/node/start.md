@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-editor/node
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-editor/node
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-editor/node
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-editor/node
 ```
 
@@ -36,19 +36,19 @@ bun add @leafer-editor/node
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install skia-canvas
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add skia-canvas
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add skia-canvas
 ```
 
-```sh[bun]
+```sh [bun]
 bun add skia-canvas
 ```
 

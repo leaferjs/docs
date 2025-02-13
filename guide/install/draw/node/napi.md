@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-draw/node
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-draw/node
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-draw/node
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-draw/node
 ```
 
@@ -40,19 +40,19 @@ bun add @leafer-draw/node
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @napi-rs/canvas
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @napi-rs/canvas
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @napi-rs/canvas
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @napi-rs/canvas
 ```
 

@@ -20,19 +20,19 @@ Robot 元素类似于游戏中的精灵元素，集成了帧播放和动作预�
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-in/robot
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-in/robot
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-in/robot
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-in/robot
 ```
 

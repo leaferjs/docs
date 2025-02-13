@@ -22,22 +22,22 @@ web 版、小程序版。暂时与有 [自动布局](/plugin/in/flow/) 的元素
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-in/editor
 npm install @leafer-in/resize
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-in/editor
 pnpm add @leafer-in/resize
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-in/editor
 yarn add @leafer-in/resize
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-in/editor
 bun add @leafer-in/resize
 ```

@@ -12,19 +12,19 @@
 
 ::: code-group
 
-```sh[npm]
+```sh [npm]
 npm install @leafer-game/miniapp
 ```
 
-```sh[pnpm]
+```sh [pnpm]
 pnpm add @leafer-game/miniapp
 ```
 
-```sh[yarn]
+```sh [yarn]
 yarn add @leafer-game/miniapp
 ```
 
-```sh[bun]
+```sh [bun]
 bun add @leafer-game/miniapp
 ```
 
