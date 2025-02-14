@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # LinearGradient 对象
 
-线性渐变对象, 可设置给 [fill](/reference/property/fill) 或 [stroke](/reference/property/stroke) 属性。
+线性渐变对象, 可设置给 [fill](/reference/property/fill.md) 或 [stroke](/reference/property/stroke.md) 属性。
 
 <case name="Linear"  editor=false></case>
 

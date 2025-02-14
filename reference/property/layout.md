@@ -8,13 +8,13 @@
 
 x 轴位置。
 
-注意 [offsetX](/reference/property/offset)、[around](/reference/property/around) 会改变元素的实际位置。
+注意 [offsetX](/reference/property/offset.md)、[around](/reference/property/around.md) 会改变元素的实际位置。
 
 ### y: `number`
 
 y 轴位置。
 
-注意 [offsetY](/reference/property/offset)、[around](/reference/property/around) 会改变元素的实际位置。
+注意 [offsetY](/reference/property/offset.md)、[around](/reference/property/around.md) 会改变元素的实际位置。
 
 ### width: `number`
 
@@ -58,7 +58,7 @@ y 轴倾斜角度，取值范围为 -90 ～ 90。
 
 ## 计算属性
 
-### scale: `number` ｜ [`IPointData`](/reference/interface/math/Math#ipointdata)
+### scale: `number` ｜ [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 快速设置 scaleX, scaleY
 

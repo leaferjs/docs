@@ -16,9 +16,9 @@ Path &nbsp;>&nbsp; [UI](./UI.md)
 
 ## 关键属性
 
-### path: [`IPathString`](/reference/interface/ui/PathData#ipathstring) ｜ [`IPathCommandData`](/reference/interface/ui/PathData.md#ipathcommanddata) ｜ [`IPathCommandObject`](/reference/interface/ui/PathData.md#ipathcommandobject)[]
+### path: [`IPathString`](/reference/interface/ui/PathData.md#ipathstring) ｜ [`IPathCommandData`](/reference/interface/ui/PathData.md#ipathcommanddata) ｜ [`IPathCommandObject`](/reference/interface/ui/PathData.md#ipathcommandobject)[]
 
-路径数据，支持 [SVG 绘图字符串](/reference/interface/ui/PathData#ipathstring) 、 [绘图数字数组](/reference/interface/ui/PathData.md#ipathcommanddata)、[绘图对象数组](/reference/interface/ui/PathData.md#ipathcommandobject)。
+路径数据，支持 [SVG 绘图字符串](/reference/interface/ui/PathData.md#ipathstring) 、 [绘图数字数组](/reference/interface/ui/PathData.md#ipathcommanddata)、[绘图对象数组](/reference/interface/ui/PathData.md#ipathcommandobject)。
 
 可通过 [pen 画笔](#pen-pathcreator) 快速绘制路径。
 

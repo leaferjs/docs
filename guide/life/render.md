@@ -10,7 +10,7 @@
 
 ## 示例
 
-生命周期中的不同状态会通过 [ChildEvent](/reference/event/basic/Child)、 [PropertyEvent](/reference/event/basic/Property)、 [WatchEvent](/reference/event/basic/Watch)、 [LayoutEvent](/reference/event/basic/Layout)、 [RenderEvent](/reference/event/basic/Render)等事件进行通知，你也可以通过 Leafer 实例监听这些事件实现自己的产品逻辑。
+生命周期中的不同状态会通过 [ChildEvent](/reference/event/basic/Child.md)、 [PropertyEvent](/reference/event/basic/Property.md)、 [WatchEvent](/reference/event/basic/Watch.md)、 [LayoutEvent](/reference/event/basic/Layout.md)、 [RenderEvent](/reference/event/basic/Render.md)等事件进行通知，你也可以通过 Leafer 实例监听这些事件实现自己的产品逻辑。
 
 ### 监听渲染事件
 
@@ -25,18 +25,18 @@
 
 🍉 了解应用、元素、属性方法、事件、类库的使用。
 
-🍊 了解让你事半功倍的官方、社区 [插件](/plugin/)。
+🍊 了解让你事半功倍的官方、社区 [插件](/plugin/index.md)。
 
 ### 在前端环境中使用
 
-[Vue](/guide/framework/vue/)
+[Vue](/guide/framework/vue/index.md)
 
-[React](/guide/framework/react/)
+[React](/guide/framework/react/index.md)
 
 ### 在服务端渲染中使用
 
-[Nuxt.js](/guide/framework/nuxt/)
+[Nuxt.js](/guide/framework/nuxt/index.md)
 
-[VitePress](/guide/framework/vitepress/)
+[VitePress](/guide/framework/vitepress/index.md)
 
-[Next.js](/guide/framework/next/)
+[Next.js](/guide/framework/next/index.md)

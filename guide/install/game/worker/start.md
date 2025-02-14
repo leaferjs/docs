@@ -1,12 +1,12 @@
 # @leafer-game/worker
 
-### [web 版](/guide/install/game/start) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/game/node/start) &nbsp; &nbsp; [小程序版](/guide/install/game/miniapp/start)
+### [web 版](/guide/install/game/start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/game/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/game/miniapp/start.md)
 
 ##
 
 在 WebWorker 环境中运行。
 
-基于 [@leafer-ui/worker](/guide/install/ui/worker/start.md)，集成了 [Robot](/plugin/in/robot/) 、[交互状态](/plugin/in/state/) 、 [动画](/plugin/in/animate/)、[运动路径](/plugin/in/motion-path/)、[查找元素](/plugin/in/find/index.md) 插件，适用于小游戏场景。
+基于 [@leafer-ui/worker](/guide/install/ui/worker/start.md)，集成了 [Robot](/plugin/in/robot/index.md) 、[交互状态](/plugin/in/state/index.md) 、 [动画](/plugin/in/animate/index.md)、[运动路径](/plugin/in/motion-path/index.md)、[查找元素](/plugin/in/find/index.md) 插件，适用于小游戏场景。
 
 ## 安装
 

@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # 交互状态 插件
 
-使元素支持 [hover](/reference/property/state/hover) 、 [press](/reference/property/state/press) 、 [focus](/reference/property/state/focus) 、 [selected](/reference/property/state/selected) 、 [disabled](/reference/property/state/disabled) 交互状态样式。
+使元素支持 [hover](/reference/property/state/hover.md) 、 [press](/reference/property/state/press.md) 、 [focus](/reference/property/state/focus.md) 、 [selected](/reference/property/state/selected.md) 、 [disabled](/reference/property/state/disabled.md) 交互状态样式。
 
 ## 适用平台
 
@@ -60,12 +60,12 @@ https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 
 ## 下一步
 
-### [hover 状态样式](/reference/property/state/hover)
+### [hover 状态样式](/reference/property/state/hover.md)
 
-### [press 状态样式](/reference/property/state/press)
+### [press 状态样式](/reference/property/state/press.md)
 
-### [focus 状态样式](/reference/property/state/focus)
+### [focus 状态样式](/reference/property/state/focus.md)
 
-### [selected 状态样式](/reference/property/state/selected)
+### [selected 状态样式](/reference/property/state/selected.md)
 
-### [disabled 状态样式](/reference/property/state/disabled)
+### [disabled 状态样式](/reference/property/state/disabled.md)

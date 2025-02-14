@@ -49,13 +49,13 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 ### sky: [`Leafer`](/reference/display/Leafer.md)
 
-天空层 (变化层)，位于最顶部的 Leafer 实例，一般用来渲染 [图形编辑器](/plugin/in/editor/) 实例。
+天空层 (变化层)，位于最顶部的 Leafer 实例，一般用来渲染 [图形编辑器](/plugin/in/editor/index.md) 实例。
 
 ## 预留属性
 
 ### editor: [`IEditor`](/plugin/in/editor/Editor.md)
 
-图形编辑器实例，需安装 [图形编辑器](/plugin/in/editor/) 。
+图形编辑器实例，需安装 [图形编辑器](/plugin/in/editor/index.md) 。
 
 ## 视口属性（viewport）
 
@@ -63,7 +63,7 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 缩放平移视图层， 默认使用 app.tree.zoomLayer 作为缩放平移层。
 
-可以手动修改它的 [x](/reference/property/layout)、[y](/reference/property/layout)、[scale](/reference/property/layout#scale-number-ipointdata)、[scaleX](/reference/property/layout#scalex-number)、[scaleY](/reference/property/layout#scaley-number) 属性进行缩放平移视图。
+可以手动修改它的 [x](/reference/property/layout.md)、[y](/reference/property/layout.md)、[scale](/reference/property/layout.md#scale-number-ipointdata)、[scaleX](/reference/property/layout.md#scalex-number)、[scaleY](/reference/property/layout.md#scaley-number) 属性进行缩放平移视图。
 
 另通过 [视图控制插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
 
@@ -101,7 +101,7 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 <case name="Editor" index=2 count=2 x=20></case>
 
-我们以 [图形编辑器](/plugin/in/editor/) 的例子来展示 App 的实际用法：
+我们以 [图形编辑器](/plugin/in/editor/index.md) 的例子来展示 App 的实际用法：
 
 ::: code-group
 

@@ -68,7 +68,7 @@ App 实例, 如果不存在则是自身。
 
 <<< @/code/display/Leafer/canvas.ts
 
-可结合 [RenderEvent.END](/reference/event/basic/Render) 事件 drawImage() 到另一张小 canvas 上，实现高性能的鸟瞰图。
+可结合 [RenderEvent.END](/reference/event/basic/Render.md) 事件 drawImage() 到另一张小 canvas 上，实现高性能的鸟瞰图。
 
 ## 视口属性（viewport）
 
@@ -76,7 +76,7 @@ App 实例, 如果不存在则是自身。
 
 缩放平移视图层， 默认为 Leafer 自身，可 [单独指定缩放层](/reference/display/Leafer.md#单独指定缩放层)。
 
-可以手动修改它的 [x](/reference/property/layout)、[y](/reference/property/layout)、[scale](/reference/property/layout#scale-number-ipointdata)、[scaleX](/reference/property/layout#scalex-number)、[scaleY](/reference/property/layout#scaley-number) 属性进行缩放平移视图。
+可以手动修改它的 [x](/reference/property/layout.md)、[y](/reference/property/layout.md)、[scale](/reference/property/layout.md#scale-number-ipointdata)、[scaleX](/reference/property/layout.md#scalex-number)、[scaleY](/reference/property/layout.md#scaley-number) 属性进行缩放平移视图。
 
 另通过 [视图控制插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
 
@@ -263,19 +263,19 @@ leafer.unlockLayout()
 
 ### [LeaferEvent](/reference/event/basic/Leafer.md)
 
-### [ChildEvent](/reference/event/basic/Child)
+### [ChildEvent](/reference/event/basic/Child.md)
 
-### [PropertyEvent](/reference/event/basic/Property)
+### [PropertyEvent](/reference/event/basic/Property.md)
 
-### [WatchEvent](/reference/event/basic/Watch)
+### [WatchEvent](/reference/event/basic/Watch.md)
 
-### [LayoutEvent](/reference/event/basic/Layout)
+### [LayoutEvent](/reference/event/basic/Layout.md)
 
-### [RenderEvent](/reference/event/basic/Render)
+### [RenderEvent](/reference/event/basic/Render.md)
 
-### [KeyEvent](/reference/event/ui/Key)
+### [KeyEvent](/reference/event/ui/Key.md)
 
-### [ResizeEvent](/reference/event/basic/Resize)
+### [ResizeEvent](/reference/event/basic/Resize.md)
 
 <!-- ## 继承元素
 

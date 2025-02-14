@@ -26,7 +26,7 @@ resize 元素/组元素的包围盒高度。
 
 缩放操作转换为宽高值 <badge>增量操作</badge>。
 
-[图形编辑器插件](/plugin/in/editor/) 调整元素大小使用的是此方法。
+[图形编辑器插件](/plugin/in/editor/index.md) 调整元素大小使用的是此方法。
 
 ## Box / Frame 元素
 

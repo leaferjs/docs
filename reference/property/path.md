@@ -10,7 +10,7 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### path: [`IPathString`](/reference/interface/ui/PathData#ipathstring) ｜ [`IPathCommandData`](/reference/interface/ui/PathData.md)
+### path: [`IPathString`](/reference/interface/ui/PathData.md#ipathstring) ｜ [`IPathCommandData`](/reference/interface/ui/PathData.md)
 
 路径数据，支持 SVG 与 Cavnas [绘图命令](/reference/interface/ui/PathData.md)。
 

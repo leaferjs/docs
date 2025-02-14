@@ -12,7 +12,7 @@
 
 ### findOne ( condition: `number` | `string` | `IFindMethod` ): [`UI`](/reference/display/UI.md)
 
-通过 [id](/reference/property/id)、[innerId](/reference/property/innerId)、[className](/reference/property/className)、[tag](/reference/property/tag)、函数条件查找元素，只返回一个元素。
+通过 [id](/reference/property/id.md)、[innerId](/reference/property/innerId.md)、[className](/reference/property/className.md)、[tag](/reference/property/tag.md)、函数条件查找元素，只返回一个元素。
 
 ### findId ( id: `number` | `string` ): [`UI`](/reference/display/UI.md)
 

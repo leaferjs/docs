@@ -1,6 +1,6 @@
 # 视口 插件
 
-通过滚轮/触摸板滑动或捏合可 [缩放平移视图](/guide/advanced/viewport)，类似浏览器、设计软件的视口交互功能。
+通过滚轮/触摸板滑动或捏合可 [缩放平移视图](/guide/advanced/viewport.md)，类似浏览器、设计软件的视口交互功能。
 
 ## 适用平台
 
@@ -48,4 +48,4 @@ https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 
 ## 下一步
 
-### [缩放平移视图](/guide/advanced/viewport)
+### [缩放平移视图](/guide/advanced/viewport.md)

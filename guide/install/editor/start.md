@@ -4,13 +4,13 @@ import Case from '/component/Case.vue'
 
 # leafer-editor
 
-### web 版 &nbsp; &nbsp; [worker 版](/guide/install/editor/worker/start) &nbsp; &nbsp; [node 版](/guide/install/editor/node/start) &nbsp; &nbsp; [小程序版](/guide/install/editor/miniapp/start)
+### web 版 &nbsp; &nbsp; [worker 版](/guide/install/editor/worker/start.md) &nbsp; &nbsp; [node 版](/guide/install/editor/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/editor/miniapp/start.md)
 
 ##
 
 在 Web 环境中运行，已适配移动端。
 
-基于 [leafer-ui](/guide/install/ui/start.md)，集成了 [图形编辑器](/plugin/in/editor/)、[文本编辑](/plugin/in/text-editor/)、[视口](/plugin/in/viewport/)、[视图控制](/plugin/in/view/) 、[滚动条](/plugin/in/scroll/)、[箭头](/plugin/in/arrow/)、[HTML](/plugin/in/html/)、[查找元素](/plugin/in/find/index.md)、[导出元素](/plugin/in/export/index.md) 插件，适用于在线图形编辑的场景。
+基于 [leafer-ui](/guide/install/ui/start.md)，集成了 [图形编辑器](/plugin/in/editor/index.md)、[文本编辑](/plugin/in/text-editor/index.md)、[视口](/plugin/in/viewport/index.md)、[视图控制](/plugin/in/view/index.md) 、[滚动条](/plugin/in/scroll/index.md)、[箭头](/plugin/in/arrow/index.md)、[HTML](/plugin/in/html/index.md)、[查找元素](/plugin/in/find/index.md)、[导出元素](/plugin/in/export/index.md) 插件，适用于在线图形编辑的场景。
 
 ## 安装
 

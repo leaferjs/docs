@@ -66,7 +66,7 @@ https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 
 ## 依赖插件
 
-### [图形编辑器 插件](/plugin/in/editor/)
+### [图形编辑器 插件](/plugin/in/editor/index.md)
 
 ## 开始体验
 

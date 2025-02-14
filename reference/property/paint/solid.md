@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # SolidPaint 对象
 
-纯色填充对象, 可设置给 [fill](/reference/property/fill) 或 [stroke](/reference/property/stroke) 属性。
+纯色填充对象, 可设置给 [fill](/reference/property/fill.md) 或 [stroke](/reference/property/stroke.md) 属性。
 
 <case name="SolidFill"  editor=false></case>
 

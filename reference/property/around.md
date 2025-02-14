@@ -10,7 +10,7 @@ import Case from '/component/Case.vue'
 
 图中将元素内部的 around 坐标点(中心位置) ， 移动到元素的 (x,y) 坐标对齐放置并旋转 30 度。
 
-与 [origin](/reference/property/origin) 的区别： 多了一个步骤，会把元素内部的 around 点移动到元素的 (x,y) 坐标。
+与 [origin](/reference/property/origin.md) 的区别： 多了一个步骤，会把元素内部的 around 点移动到元素的 (x,y) 坐标。
 
 ## 关键属性
 
@@ -54,7 +54,7 @@ rect.around = {
 }
 ```
 
-**保持原位不动，切换元素的 around 点： [localTransform](/reference/property/transform#localtransform-imatrixdata) 、[setTransform()](/reference/property/transform.md#settransform-matrix-imatrixdata)**
+**保持原位不动，切换元素的 around 点： [localTransform](/reference/property/transform.md#localtransform-imatrixdata) 、[setTransform()](/reference/property/transform.md#settransform-matrix-imatrixdata)**
 
 ```ts
 // 多边形原始 around

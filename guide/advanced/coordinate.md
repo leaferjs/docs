@@ -1,6 +1,6 @@
 # 转换坐标
 
-当你 [缩放平移视图](/guide/advanced/viewport) 后，想在画布中用鼠标创建图形，会发现将 [事件坐标 x, y](/reference/event/ui/Pointer.md#x-number) 给到图形，位置已经不对了，此时就需要用到 [转换坐标](/reference/property/point/) 的功能。
+当你 [缩放平移视图](/guide/advanced/viewport.md) 后，想在画布中用鼠标创建图形，会发现将 [事件坐标 x, y](/reference/event/ui/Pointer.md#x-number) 给到图形，位置已经不对了，此时就需要用到 [转换坐标](/reference/property/point/index.md) 的功能。
 
 ## 先了解一下坐标系的原理
 
@@ -12,7 +12,7 @@
 
 <br/>
 
-[转换坐标](/reference/property/point/) 的原理就是转换不同层级间的这些属性因子关系，省去手动计算。
+[转换坐标](/reference/property/point/index.md) 的原理就是转换不同层级间的这些属性因子关系，省去手动计算。
 
 <br/>
 
@@ -56,7 +56,7 @@
 
 ## 示例
 
-### 我们通过 画笔工具 的例子， 来了解 [转换坐标](/reference/property/point/) 的作用
+### 我们通过 画笔工具 的例子， 来了解 [转换坐标](/reference/property/point/index.md) 的作用
 
 按下鼠标拖动开始画线，抬起结束，当缩放平移视图后，仍然可以准确绘制新的线条。
 
@@ -69,20 +69,20 @@
 
 ### [transform](/reference/property/transform.md)
 
-### [元素转换坐标](/reference/property/point/) -->
+### [元素转换坐标](/reference/property/point/index.md) -->
 
 ## 转换方法
 
 ### 事件中的坐标转换方法
 
-### [UIEvent](/reference/event/ui/UIEvent#转换坐标方法) &nbsp; &nbsp; [PointerEvent](/reference/event/ui/Pointer#转换坐标方法) &nbsp; &nbsp; [DragEvent](/reference/event/ui/Drag#转换坐标方法) &nbsp; &nbsp; [MoveEvent](/reference/event/ui/Move#转换坐标方法)
+### [UIEvent](/reference/event/ui/UIEvent.md#转换坐标方法) &nbsp; &nbsp; [PointerEvent](/reference/event/ui/Pointer.md#转换坐标方法) &nbsp; &nbsp; [DragEvent](/reference/event/ui/Drag.md#转换坐标方法) &nbsp; &nbsp; [MoveEvent](/reference/event/ui/Move.md#转换坐标方法)
 
 ### 元素上的坐标转换方法
 
 | 名称                                                                                | 描述                                                                                                                               |
 | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [worldTransform](/reference/property/transform#worldtransform-imatrixwithscaledata) | 相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性，转换坐标的因子                                                                 |
-| [localTransform](/reference/property/transform#localtransform-imatrixdata)          | 相对于父元素的变换矩阵，转换坐标的因子                                                                                             |
+| [worldTransform](/reference/property/transform.md#worldtransform-imatrixwithscaledata) | 相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性，转换坐标的因子                                                                 |
+| [localTransform](/reference/property/transform.md#localtransform-imatrixdata)          | 相对于父元素的变换矩阵，转换坐标的因子                                                                                             |
 | [getPagePoint()](/reference/property/point/index.md#转换世界坐标)                   | 获取 page 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [page 坐标](/guide/basic/coordinate.md#page) ），支持转换移动距离 |
 | [getLocalPoint()](/reference/property/point/index.md#转换世界坐标)                  | 获取本地坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [本地坐标](/guide/basic/coordinate.md#local) ），支持转换移动距离   |
 | [getInnerPoint()](/reference/property/point/index.md#转换世界坐标)                  | 获取内部坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离   |

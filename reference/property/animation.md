@@ -85,7 +85,7 @@ interface IAnimateOptions {
 
 ### animationOut： [`IAnimation`](/api/modules.md#ianimation) | [`IAnimation`](/api/modules.md#ianimation)[]
 
-出场动画，支持多个动画叠加， 元素被移除 或 [visible](/reference/property/visible) 为 0 时执行。
+出场动画，支持多个动画叠加， 元素被移除 或 [visible](/reference/property/visible.md) 为 0 时执行。
 
 ## 归属
 

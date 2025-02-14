@@ -36,20 +36,20 @@ import Case from '/component/Case.vue'
 
 ## 下一步
 
-### [交互状态](/guide/plugin/state)
+### [交互状态](/guide/plugin/state.md)
 
 <br/>
 
 ### 在前端环境中使用
 
-[Vue](/guide/framework/vue/)
+[Vue](/guide/framework/vue/index.md)
 
-[React](/guide/framework/react/)
+[React](/guide/framework/react/index.md)
 
 ### 在服务端渲染中使用
 
-[Nuxt.js](/guide/framework/nuxt/)
+[Nuxt.js](/guide/framework/nuxt/index.md)
 
-[VitePress](/guide/framework/vitepress/)
+[VitePress](/guide/framework/vitepress/index.md)
 
-[Next.js](/guide/framework/next/)
+[Next.js](/guide/framework/next/index.md)

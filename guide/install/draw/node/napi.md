@@ -1,6 +1,6 @@
 # leafer-draw
 
-### [web 版](/guide/install/draw/start) &nbsp; &nbsp; [worker 版](/guide/install/draw/worker/start) &nbsp; &nbsp; node 版 &nbsp; &nbsp; [小程序版](/guide/install/draw/miniapp/start)
+### [web 版](/guide/install/draw/start.md) &nbsp; &nbsp; [worker 版](/guide/install/draw/worker/start.md) &nbsp; &nbsp; node 版 &nbsp; &nbsp; [小程序版](/guide/install/draw/miniapp/start.md)
 
 ##
 

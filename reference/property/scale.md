@@ -14,7 +14,7 @@ y 轴缩放比例，为负数时表示镜像 Y 轴。
 
 ## 计算属性
 
-### scale: `number` ｜ [`IPointData`](/reference/interface/math/Math#ipointdata)
+### scale: `number` ｜ [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 快速设置 / 获取 scaleX, scaleY。
 

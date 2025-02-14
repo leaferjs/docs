@@ -1,12 +1,12 @@
 # @leafer-editor/miniapp
 
-### [web 版](/guide/install/editor/start) &nbsp; &nbsp; [worker 版](/guide/install/editor/worker/start) &nbsp; &nbsp; [node 版](/guide/install/editor/node/start) &nbsp; &nbsp; 小程序版
+### [web 版](/guide/install/editor/start.md) &nbsp; &nbsp; [worker 版](/guide/install/editor/worker/start.md) &nbsp; &nbsp; [node 版](/guide/install/editor/node/start.md) &nbsp; &nbsp; 小程序版
 
 ##
 
 在小程序环境中运行，[了解小程序使用 npm 包的注意事项](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)。
 
-基于 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md)，集成了 [图形编辑器](/plugin/in/editor/)、[视口](/plugin/in/viewport/)、[视图控制](/plugin/in/view/) 、[滚动条](/plugin/in/scroll/)、[箭头](/plugin/in/arrow/)、[查找元素](/plugin/in/find/index.md)、[导出元素](/plugin/in/export/index.md) 插件，适用于在线图形编辑的场景。
+基于 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md)，集成了 [图形编辑器](/plugin/in/editor/index.md)、[视口](/plugin/in/viewport/index.md)、[视图控制](/plugin/in/view/index.md) 、[滚动条](/plugin/in/scroll/index.md)、[箭头](/plugin/in/arrow/index.md)、[查找元素](/plugin/in/find/index.md)、[导出元素](/plugin/in/export/index.md) 插件，适用于在线图形编辑的场景。
 
 ## 安装
 

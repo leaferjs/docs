@@ -1,12 +1,12 @@
 # @leafer-game/miniapp
 
-### [web 版](/guide/install/game/start) &nbsp; &nbsp; [worker 版](/guide/install/game/worker/start) &nbsp; &nbsp; [node 版](/guide/install/game/node/start) &nbsp; &nbsp; 小程序版
+### [web 版](/guide/install/game/start.md) &nbsp; &nbsp; [worker 版](/guide/install/game/worker/start.md) &nbsp; &nbsp; [node 版](/guide/install/game/node/start.md) &nbsp; &nbsp; 小程序版
 
 ##
 
 在小程序环境中运行，[了解小程序使用 npm 包的注意事项](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)。
 
-基于 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md)，集成了 [Robot](/plugin/in/robot/) 、[交互状态](/plugin/in/state/) 、 [动画](/plugin/in/animate/)、[运动路径](/plugin/in/motion-path/)、[查找元素](/plugin/in/find/index.md) 插件，适用于小游戏场景。
+基于 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md)，集成了 [Robot](/plugin/in/robot/index.md) 、[交互状态](/plugin/in/state/index.md) 、 [动画](/plugin/in/animate/index.md)、[运动路径](/plugin/in/motion-path/index.md)、[查找元素](/plugin/in/find/index.md) 插件，适用于小游戏场景。
 
 ## 安装
 

@@ -82,15 +82,15 @@ DragEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEv
 
 moveX, moveY 属性的转换。
 
-### getPageMove ( ): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getPageMove ( ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取事件在 page 坐标系中的偏移距离。
 
-### getInnerMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getInnerMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取事件相对于 relative 元素 [内部坐标](/guide/basic/coordinate.md#inner) 的偏移距离，relative 元素不存在时为当前侦听元素。
 
-### getLocalMove ( relative: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getLocalMove ( relative: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取事件相对于 relative 元素 [本地坐标](/guide/basic/coordinate.md#local) 的偏移距离，relative 元素不存在时为当前侦听元素。
 
@@ -98,21 +98,21 @@ moveX, moveY 属性的转换。
 
 totalX, totalY 属性的转换。
 
-### getPageTotal ( ): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getPageTotal ( ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取事件在 page 坐标系中的总偏移距离。
 
-### getInnerTotal ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getInnerTotal ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取事件相对于 relative 元素 [内部坐标](/guide/basic/coordinate.md#inner) 的总偏移距离，relative 元素不存在时为当前侦听元素。
 
-### getLocalTotal ( relative: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getLocalTotal ( relative: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取事件相对于 relative 元素 [本地坐标](/guide/basic/coordinate.md#local) 的总偏移距离，relative 元素不存在时为当前侦听元素。
 
 ### 拖拽区域
 
-### getPageBounds ( ): [`IBoundsData`](/reference/interface/math/Math#iboundsdata)
+### getPageBounds ( ): [`IBoundsData`](/reference/interface/math/Math.md#iboundsdata)
 
 获取事件在 page 坐标系中形成的拖拽区域，可用于快速 [创建图形](/plugin/in/editor/Editor.md#创建图形模式)。
 

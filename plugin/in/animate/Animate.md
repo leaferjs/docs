@@ -303,7 +303,7 @@ animate.seek({
 
 ## 事件支持
 
-支持像元素一样 [监听、移除事件](/reference/property/on)，支持监听以下事件：
+支持像元素一样 [监听、移除事件](/reference/property/on.md)，支持监听以下事件：
 
 ```ts
 interface IAnimateEvents {

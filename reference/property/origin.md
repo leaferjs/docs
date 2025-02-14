@@ -50,7 +50,7 @@ rect.origin = {
 }
 ```
 
-**保持原位不动，切换元素的 origin 点： [localTransform](/reference/property/transform#localtransform-imatrixdata) 、[setTransform()](/reference/property/transform.md#settransform-matrix-imatrixdata)**
+**保持原位不动，切换元素的 origin 点： [localTransform](/reference/property/transform.md#localtransform-imatrixdata) 、[setTransform()](/reference/property/transform.md#settransform-matrix-imatrixdata)**
 
 ```ts
 // 多边形原始 origin

@@ -51,4 +51,4 @@ view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字�
 
 ## 下一步
 
-### [创建元素](/guide/basic/display)
+### [创建元素](/guide/basic/display.md)

@@ -10,7 +10,7 @@ MoveEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Point
 
 <br/>
 
-需安装 [视口插件](/plugin/in/viewport/) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
+需安装 [视口插件](/plugin/in/viewport/index.md) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
 :::
 
 ## 事件名称
@@ -51,15 +51,15 @@ MoveEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Point
 
 moveX, moveY 属性的转换。
 
-### getPageMove ( ): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getPageMove ( ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取事件在 page 坐标系中的偏移距离。
 
-### getInnerMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getInnerMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取事件相对于 relative 元素 [内部坐标](/guide/basic/coordinate.md#inner) 的偏移距离，relative 元素不存在时为当前侦听元素。
 
-### getLocalMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math#ipointdata)
+### getLocalMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取事件相对于 relative 元素 [本地坐标](/guide/basic/coordinate.md#local) 的偏移距离，relative 元素不存在时为当前侦听元素。
 

@@ -227,19 +227,19 @@ group.hitChildren = false
 
 按轴方向（ [世界坐标系](/guide/basic/coordinate.md#world)） 镜像/翻转选中元素。
 
-### move ( x: `number` | [`IPointData`](/reference/interface/math/Math#ipointdata), y = 0): void
+### move ( x: `number` | [`IPointData`](/reference/interface/math/Math.md#ipointdata), y = 0): void
 
-位移选中元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math#ipointdata)。
+位移选中元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math.md#ipointdata)。
 
-### scaleOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math#ipointdata), multiplyScaleX: `number`, multiplyScaleY = scaleX)
+### scaleOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math.md#ipointdata), multiplyScaleX: `number`, multiplyScaleY = scaleX)
 
 围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）缩放选中元素 <badge>增量操作</badge>。
 
-### rotateOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math#ipointdata), addRotation: `number`)
+### rotateOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math.md#ipointdata), addRotation: `number`)
 
 围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）旋转选中元素 <badge>增量操作</badge>。
 
-### skewOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math#ipointdata), addSkewX: `number`, addSkewY = 0)
+### skewOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math.md#ipointdata), addSkewX: `number`, addSkewY = 0)
 
 围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）倾斜选中元素 <badge>增量操作</badge>。
 
@@ -286,9 +286,9 @@ app.editor.skewOf('center', 45 - element.skewX)
 
 操作图形会同时产生多个属性的变更，可以在 [app.tree](/reference/display/App.md#tree-leafer) 上监听收集元素的变化做历史记录。
 
-### [ChildEvent](/reference/event/basic/Child)
+### [ChildEvent](/reference/event/basic/Child.md)
 
-### [PropertyEvent](/reference/event/basic/Property)
+### [PropertyEvent](/reference/event/basic/Property.md)
 
 ### [DragEvent](/reference/event/ui/Drag.md)
 

@@ -8,7 +8,7 @@
 
 是否允许拖拽， 可锁定在 x 或 y 轴移动， 默认为 false。
 
-另支持 [限制拖动范围](/reference/property/dragBounds)。
+另支持 [限制拖动范围](/reference/property/dragBounds.md)。
 
 ## 归属
 

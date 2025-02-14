@@ -3,7 +3,7 @@
 元素编辑属性。
 
 ::: tip 注意事项
-需安装 [图形编辑器插件](/plugin/in/editor/) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成了图形编辑器相关插件）。
+需安装 [图形编辑器插件](/plugin/in/editor/index.md) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成了图形编辑器相关插件）。
 :::
 
 ## 关键属性

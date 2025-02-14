@@ -1,6 +1,6 @@
 # @leafer-ui/worker
 
-### [web 版](/guide/install/ui/start) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/ui/node/start) &nbsp; &nbsp; [小程序版](/guide/install/ui/miniapp/start)
+### [web 版](/guide/install/ui/start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/ui/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/ui/miniapp/start.md)
 
 ##
 

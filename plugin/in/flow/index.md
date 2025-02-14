@@ -10,7 +10,7 @@ import Case from '/component/Case.vue'
 
 ## 适用平台
 
-支持所有平台，自动布局的元素暂时不支持 [图形编辑](/plugin/in/editor/) 功能。
+支持所有平台，自动布局的元素暂时不支持 [图形编辑](/plugin/in/editor/index.md) 功能。
 
 ## 安装插件
 

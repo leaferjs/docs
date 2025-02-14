@@ -7,7 +7,7 @@ import Case from '/component/Case.vue'
 图形编辑器是一个有意思的例子，它采用了 App 结构。可移动、缩放、旋转、倾斜，支持多选、框选、打组、锁定、层级，[可配置样式](/plugin/in/editor/config.md)，支持自定义 [编辑工具](/plugin/in/editor/EditTool.md)、 [内部编辑器](/plugin/in/editor/InnerEditor.md)。
 
 ::: tip 注意事项
-需安装 [图形编辑器插件](/plugin/in/editor/) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成了图形编辑器相关插件）。
+需安装 [图形编辑器插件](/plugin/in/editor/index.md) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成了图形编辑器相关插件）。
 :::
 
 <case name="Editor" index=2 count=2 x=20></case>
@@ -32,14 +32,14 @@ import Case from '/component/Case.vue'
 
 ### 在前端环境中使用
 
-[Vue](/guide/framework/vue/)
+[Vue](/guide/framework/vue/index.md)
 
-[React](/guide/framework/react/)
+[React](/guide/framework/react/index.md)
 
 ### 在服务端渲染中使用
 
-[Nuxt.js](/guide/framework/nuxt/)
+[Nuxt.js](/guide/framework/nuxt/index.md)
 
-[VitePress](/guide/framework/vitepress/)
+[VitePress](/guide/framework/vitepress/index.md)
 
-[Next.js](/guide/framework/next/)
+[Next.js](/guide/framework/next/index.md)

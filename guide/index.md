@@ -2,7 +2,7 @@
 
 LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高效绘图 、UI 交互（小游戏、互动应用、组态）、图形编辑。
 
-[![leaferjs](/svg/leaferjs.svg?d=013007)](/sponsor/)
+[![leaferjs](/svg/leaferjs.svg?d=013007)](/sponsor/index.md)
 
 提供了丰富的 UI 绘图元素，和开箱即用的功能，如自动布局、图形编辑、SVG 导出等，方便与 PS、 Figma、Sketch 等产品进行对接。并为跨平台开发提供了统一的交互事件，如拖拽、旋转、缩放手势等。
 

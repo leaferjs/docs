@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # AngularGradient 对象
 
-角度渐变对象, 可设置给 [fill](/reference/property/fill) 或 [stroke](/reference/property/stroke) 属性，暂需浏览器支持`createConicGradient()`方法。
+角度渐变对象, 可设置给 [fill](/reference/property/fill.md) 或 [stroke](/reference/property/stroke.md) 属性，暂需浏览器支持`createConicGradient()`方法。
 
 <case name="Angular"  editor=false></case>
 

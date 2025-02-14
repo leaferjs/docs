@@ -74,12 +74,12 @@ const path = new Path({
 
 ## 应用示例
 
-我们一般通过 [transform](/reference/property/transform.md) 合并 x、y、scaleX、scaleY、rotation、skewX、skewY 属性因子用于矩阵运算，方便元素定位与坐标转换，[转换坐标](/reference/property/point/) 其实就是要转换不同层级间的这些属性因子关系。
+我们一般通过 [transform](/reference/property/transform.md) 合并 x、y、scaleX、scaleY、rotation、skewX、skewY 属性因子用于矩阵运算，方便元素定位与坐标转换，[转换坐标](/reference/property/point/index.md) 其实就是要转换不同层级间的这些属性因子关系。
 
 ### [transform](/reference/property/transform.md)
 
-### [转换坐标](/reference/property/point/)
+### [转换坐标](/reference/property/point/index.md)
 
 ## 下一步
 
-### [包围盒（边界模型）](/guide/basic/bounds)
+### [包围盒（边界模型）](/guide/basic/bounds.md)

@@ -52,4 +52,4 @@ export default function App() {
 
 :::
 
-### 让 LeaferJS 支持 [响应式数据](/reference/property/proxy)
+### 让 LeaferJS 支持 [响应式数据](/reference/property/proxy.md)

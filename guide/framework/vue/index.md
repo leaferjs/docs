@@ -58,4 +58,4 @@ createApp(App).mount('#app')
 
 ### 快速创建 [Vue + Leafer 项目](/create/leafer.md)
 
-### 让 LeaferJS 支持 [响应式数据](/reference/property/proxy)
+### 让 LeaferJS 支持 [响应式数据](/reference/property/proxy.md)

@@ -106,18 +106,18 @@ LeaferJS 提供了丰富的功能，可通过官网教程示例进一步学习�
 
 ### 元素
 
-[App](/reference/display/App) &nbsp; &nbsp; [Leafer](/reference/display/Leafer) &nbsp; &nbsp; [Frame](/reference/display/Frame) &nbsp; &nbsp;[Box](/reference/display/Box) &nbsp; &nbsp; [Group](/reference/display/Group) &nbsp; &nbsp; [UI](/reference/display/UI) &nbsp; &nbsp; [Custom](/reference/display/custom/base/register.md)
+[App](/reference/display/App.md) &nbsp; &nbsp; [Leafer](/reference/display/Leafer.md) &nbsp; &nbsp; [Frame](/reference/display/Frame.md) &nbsp; &nbsp;[Box](/reference/display/Box.md) &nbsp; &nbsp; [Group](/reference/display/Group.md) &nbsp; &nbsp; [UI](/reference/display/UI.md) &nbsp; &nbsp; [Custom](/reference/display/custom/base/register.md)
 
-[Rect](/reference/display/Rect) &nbsp; &nbsp; [Ellipse](/reference/display/Ellipse) &nbsp; &nbsp; [Line](/reference/display/Line) &nbsp; &nbsp; [Polygon](/reference/display/Polygon) &nbsp; &nbsp; [Star](/reference/display/Star)
+[Rect](/reference/display/Rect.md) &nbsp; &nbsp; [Ellipse](/reference/display/Ellipse.md) &nbsp; &nbsp; [Line](/reference/display/Line.md) &nbsp; &nbsp; [Polygon](/reference/display/Polygon.md) &nbsp; &nbsp; [Star](/reference/display/Star.md)
 
-[Path](/reference/display/Path) &nbsp; &nbsp; [Pen](/reference/display/Pen) &nbsp; &nbsp; [Image](/reference/display/Image) &nbsp; &nbsp; [SVG](/reference/display/SVG) &nbsp; &nbsp; [Canvas](/reference/display/Canvas) &nbsp; &nbsp;[Text](/reference/display/Text)
+[Path](/reference/display/Path.md) &nbsp; &nbsp; [Pen](/reference/display/Pen.md) &nbsp; &nbsp; [Image](/reference/display/Image.md) &nbsp; &nbsp; [SVG](/reference/display/SVG.md) &nbsp; &nbsp; [Canvas](/reference/display/Canvas.md) &nbsp; &nbsp;[Text](/reference/display/Text.md)
 
 ### 事件
 
-[PointerEvent](/reference/event/ui/Pointer) &nbsp; &nbsp; [DragEvent](/reference/event/ui/Drag) &nbsp; &nbsp; [DropEvent](/reference/event/ui/Drop) &nbsp; &nbsp; [SwipeEvent](/reference/event/ui/Swipe)
+[PointerEvent](/reference/event/ui/Pointer.md) &nbsp; &nbsp; [DragEvent](/reference/event/ui/Drag.md) &nbsp; &nbsp; [DropEvent](/reference/event/ui/Drop.md) &nbsp; &nbsp; [SwipeEvent](/reference/event/ui/Swipe.md)
 
-[MoveEvent](/reference/event/ui/Move) &nbsp; &nbsp; [ZoomEvent](/reference/event/ui/Zoom) &nbsp; &nbsp; [RotateEvent](/reference/event/ui/Rotate)
+[MoveEvent](/reference/event/ui/Move.md) &nbsp; &nbsp; [ZoomEvent](/reference/event/ui/Zoom.md) &nbsp; &nbsp; [RotateEvent](/reference/event/ui/Rotate.md)
 
-[LeaferEvent](/reference/event/basic/Leafer) &nbsp; &nbsp; [ResizeEvent](/reference/event/basic/Resize) &nbsp; &nbsp; [KeyEvent](/reference/event/ui/Key)
+[LeaferEvent](/reference/event/basic/Leafer.md) &nbsp; &nbsp; [ResizeEvent](/reference/event/basic/Resize.md) &nbsp; &nbsp; [KeyEvent](/reference/event/ui/Key.md)
 
-[RenderEvent](/reference/event/basic/Render) &nbsp; &nbsp; [LayoutEvent](/reference/event/basic/Layout)
+[RenderEvent](/reference/event/basic/Render.md) &nbsp; &nbsp; [LayoutEvent](/reference/event/basic/Layout.md)

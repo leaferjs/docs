@@ -32,7 +32,7 @@ Leafer 实例的 [缩放平移视图层](/reference/display/Leafer.md#zoomlayer-
 
 ### waitLeafer ( item: `function`, bind?: `object` )
 
-等待元素有 [`leafer`](/reference/property/leafer) 属性时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
+等待元素有 [`leafer`](/reference/property/leafer.md) 属性时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已存在则立即执行。
 

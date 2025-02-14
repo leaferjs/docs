@@ -200,11 +200,11 @@
 
 :::tip 升级操作
 
-1. 为让核心包支持更多的场景，同时减小尺寸，本次升级将 [缩放平移视图](/guide/advanced/viewport) 功能 移动到了 **viewport 视口插件** 中（不影响运行），需安装引入 [视口插件](/plugin/in/viewport/) 才能使用， 或安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
+1. 为让核心包支持更多的场景，同时减小尺寸，本次升级将 [缩放平移视图](/guide/advanced/viewport.md) 功能 移动到了 **viewport 视口插件** 中（不影响运行），需安装引入 [视口插件](/plugin/in/viewport/index.md) 才能使用， 或安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
 
-2. 监听 RenderEvent.NEXT 事件的代码，需改用 [nextRender()](/reference/property/nextRender) 或 [Platform.requestRender()](/reference/event/basic/Render.md#请求渲染-动画帧) 方法。
+2. 监听 RenderEvent.NEXT 事件的代码，需改用 [nextRender()](/reference/property/nextRender.md) 或 [Platform.requestRender()](/reference/event/basic/Render.md#请求渲染-动画帧) 方法。
 
-3. [图形编辑器](/plugin/in/editor/index.md#通过-script-标签引入)、[动画](/plugin/in/animate/index.md#通过-script-标签引入) 插件，需额外引入 [resize 插件](/plugin/in/resize/) 、[color 插件](/plugin/in/color/index.md)，控制台会有警告。
+3. [图形编辑器](/plugin/in/editor/index.md#通过-script-标签引入)、[动画](/plugin/in/animate/index.md#通过-script-标签引入) 插件，需额外引入 [resize 插件](/plugin/in/resize/index.md) 、[color 插件](/plugin/in/color/index.md)，控制台会有警告。
    :::
 
 #### 🍇 社区
@@ -235,9 +235,9 @@
 
 #### 🌿 优化
 
-\- 🌸 将 [缩放平移视图](/guide/advanced/viewport) 功能移动到 [视口插件](/plugin/in/viewport/) 中，默认改为 [block 场景类型](/reference/config/app/type.md#block-场景类型)，[右键菜单](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean) 不再阻止。
+\- 🌸 将 [缩放平移视图](/guide/advanced/viewport.md) 功能移动到 [视口插件](/plugin/in/viewport/index.md) 中，默认改为 [block 场景类型](/reference/config/app/type.md#block-场景类型)，[右键菜单](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean) 不再阻止。
 
-\- 🌸 编辑器的 sky 层已开启局部渲染功能，如需关闭，请配置 [局部渲染参数](/guide/advanced/partRender)。
+\- 🌸 编辑器的 sky 层已开启局部渲染功能，如需关闭，请配置 [局部渲染参数](/guide/advanced/partRender.md)。
 
 \- 🌸 移除一直监听渲染动画帧的功能，改为按需监听，节省性能开销
 
@@ -405,7 +405,7 @@
 
 #### 🍊 官方插件
 
-\- 🌸 **[运动路径插件](/plugin/in/motion-path/) 正式上线** 🎉🎉🎉
+\- 🌸 **[运动路径插件](/plugin/in/motion-path/index.md) 正式上线** 🎉🎉🎉
 
 #### 🌱 新增
 
@@ -481,7 +481,7 @@
 
 #### 🪲 修复
 
-\- 🌸 [箭头元素](/plugin/in/arrow/Arrow) 为曲线路径且在编辑器中 resize 到比较小时会跑偏
+\- 🌸 [箭头元素](/plugin/in/arrow/Arrow.md) 为曲线路径且在编辑器中 resize 到比较小时会跑偏
 
 \- 🌸 图形编辑器多选元素不会触发 [drag.enter](/reference/event/ui/Drag.md)、[drop](/reference/event/ui/Drop.md) 事件
 
@@ -553,7 +553,7 @@
 
 \- 元素增加 [animation](/reference/property/animation.md) 动画属性、[transition](/reference/property/transition.md) 过渡属性、[animate() ](/reference/property/animate.md) 动画方法
 
-\- 元素增加 [state](/reference/property/state/state) 状态属性，可预设复杂多样的状态
+\- 元素增加 [state](/reference/property/state/state.md) 状态属性，可预设复杂多样的状态
 
 \- [Box](/reference/display/Box.md) / [Group ](/reference/display/Group.md)可通过设置 [button](/reference/property/state/state.md#button-boolean) 属性，使子元素自动同步交互状态。
 
@@ -561,7 +561,7 @@
 
 \- 元素增加 [created](/reference/event/basic/Child.md#仅派发给元素自身的事件) / [mounted](/reference/event/basic/Child.md#仅派发给元素自身的事件) / [unmounted](/reference/event/basic/Child.md#仅派发给元素自身的事件) 事件，可通过 event 初始化对象监听
 
-\- clone() 方法增加 [data](/reference/property/clone) 参数覆盖旧数据
+\- clone() 方法增加 [data](/reference/property/clone.md) 参数覆盖旧数据
 
 #### 🌿 优化
 
@@ -617,7 +617,7 @@
 
 \- 🌸 微信小程序增加 [uniapp](/guide/install/ui/miniapp/start.md#其他平台) / [taro](/guide/install/ui/miniapp/start.md#其他平台) 示例代码，并提供了 [原生构建 npm 包](/guide/install/ui/miniapp/start.md#微信开发工具中使用-npm-包) 的问题解决方案
 
-\- [HTMLText](/plugin/in/html/) 支持 [文本编辑功能](/plugin/in/text-editor/)
+\- [HTMLText](/plugin/in/html/index.md) 支持 [文本编辑功能](/plugin/in/text-editor/index.md)
 
 \- 没有宽高的自动布局元素支持 padding
 
@@ -671,7 +671,7 @@
 
 #### 🌱 新增 🎉🎉🎉
 
-\- 🌸 [文本编辑插件](/plugin/in/text-editor/) 已开放 🎉🎉🎉
+\- 🌸 [文本编辑插件](/plugin/in/text-editor/index.md) 已开放 🎉🎉🎉
 
 \- 🌸 [iOS 小程序版](/guide/install/ui/miniapp/start.md#注意) 已支持，增加 [App 结构示例](/guide/install/ui/miniapp/start.md#app-结构-图形编辑器)，并支持 [扩展 uniapp 等平台](/guide/install/ui/miniapp/start.md#在其他平台中使用) 🎉🎉🎉
 
@@ -723,7 +723,7 @@
 
 <!-- \- [leafer-editor](/guide/install/editor/start.md) 在小程序中运行报错的问题 -->
 
-\- [flow 自动布局](/plugin/in/flow/) 插件通过全局方式引入没有变量的问题
+\- [flow 自动布局](/plugin/in/flow/index.md) 插件通过全局方式引入没有变量的问题
 
 #### 🪴 作品分享
 
@@ -947,7 +947,7 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 🌸 Leafer 增加 [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法， 用于转换浏览器原生事件坐标到应用中
 
-\- 🌸 元素 [visible](/reference/property/visible) 属性增加 类似 css 的 [`display: none`](/reference/property/visible) 设置
+\- 🌸 元素 [visible](/reference/property/visible.md) 属性增加 类似 css 的 [`display: none`](/reference/property/visible.md) 设置
 
 \- Image 增加 [load()](/reference/display/Image.md#load) 方法，当未添加到 Leafer 中时，可手动加载图片，获取图片自然宽高
 
@@ -1005,7 +1005,7 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 🌸 元素增加 [origin](/reference/property/origin.md), 同 css 的 transform-origin， 作为缩放、旋转元素的原点
 
-\- 元素增加 [offsetX](/reference/property/offset)、[offsetY](/reference/property/offset)，方便动画、交互状态中偏移元素
+\- 元素增加 [offsetX](/reference/property/offset.md)、[offsetY](/reference/property/offset.md)，方便动画、交互状态中偏移元素
 
 \- Box / Frame 增加 [scrollX](/reference/display/Box.md#滚动属性)、[scrollY](/reference/display/Box.md#滚动属性)，用于滚动内部元素，方便实现滚动条效果
 
@@ -1073,7 +1073,7 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 元素 [draggable](/reference/property/draggable.md) 可锁定在 x 或 y 轴移动
 
-\- 元素 [move()](/reference/property/transform.md#move-x-number-ipointdata-y-0) / [moveWorld()](/reference/property/transform.md#moveworld-worldx-number-ipointdata-worldy-0) 支持直接传入 [坐标对象](/reference/interface/math/Math#ipointdata)
+\- 元素 [move()](/reference/property/transform.md#move-x-number-ipointdata-y-0) / [moveWorld()](/reference/property/transform.md#moveworld-worldx-number-ipointdata-worldy-0) 支持直接传入 [坐标对象](/reference/interface/math/Math.md#ipointdata)
 
 \- 元素增加 [editConfig](/reference/property/editable.md#editconfig-ieditorconfig) / [editOuter](/reference/property/editable.md#editouter-string) / [editInner](/reference/property/editable.md#editinner-string) 独立编辑器属性
 
@@ -1249,7 +1249,7 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 \- 🌸 官网 [百万杯咖啡画布](https://www.leaferjs.com/coffee/) 上线，提前体验百万级元素的流畅交互，今年推进性能加速
 
-\- 🌸 官网 [赞助我们，一起创造故事](/sponsor/) 上线，4 月 8 号正式启动赞助
+\- 🌸 官网 [赞助我们，一起创造故事](/sponsor/index.md) 上线，4 月 8 号正式启动赞助
 
 #### 🪴 作品分享
 
@@ -1289,15 +1289,15 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 #### 🌱 新增 🎉🎉🎉
 
-\- 🌸 [视图插件](/plugin/in/view/) 发布，支持放大、缩小、fit、fit-width 视图， 支持聚焦元素，聚焦区域
+\- 🌸 [视图插件](/plugin/in/view/index.md) 发布，支持放大、缩小、fit、fit-width 视图， 支持聚焦元素，聚焦区域
 
-\- 🌸 [滚动条插件](/plugin/in/scroll/) 发布，按需显示横向、竖向滚动条，支持切换暗黑主题或自定义样式
+\- 🌸 [滚动条插件](/plugin/in/scroll/index.md) 发布，按需显示横向、竖向滚动条，支持切换暗黑主题或自定义样式
 
-\- 🌸 [交互状态插件](/plugin/in/state/) 发布，支持 [hover](/reference/property/state/hover) 、 [press](/reference/property/state/press) 、 [focus](/reference/property/state/focus) 、 [selected](/reference/property/state/selected) 、 [disabled](/reference/property/state/disabled) 交互状态样式
+\- 🌸 [交互状态插件](/plugin/in/state/index.md) 发布，支持 [hover](/reference/property/state/hover.md) 、 [press](/reference/property/state/press.md) 、 [focus](/reference/property/state/focus.md) 、 [selected](/reference/property/state/selected.md) 、 [disabled](/reference/property/state/disabled.md) 交互状态样式
 
 \- 🌸 [Path](/reference/display/Path.md) / 元素 [路径模式](/reference/property/path.md) 支持通过 pen 画笔 快速绘制路径
 
-\- 元素 - [waitParent()](/reference/property/parent) 、 [waitLeafer()](/reference/property/leafer) 增加绑定 this 的参数
+\- 元素 - [waitParent()](/reference/property/parent.md) 、 [waitLeafer()](/reference/property/leafer.md) 增加绑定 this 的参数
 
 \- Leafer - [waitReady()](/reference/display/Leafer.md#关键方法) 、[waitViewReady()](/reference/display/Leafer.md#关键方法)、 [waitViewCompleted()](/reference/display/Leafer.md#关键方法) 增加绑定 this 的参数
 
@@ -1313,7 +1313,7 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 \- 所有用到 [`ILocationType`](/api/modules.md#ilocationtype) 参数的方法，均已支持 [page 坐标系](/guide/basic/coordinate.md#page)
 
-\- 元素增加 [zoomLayer](/reference/property/leafer) 只读属性， 可直接访问 leafer 的缩放层
+\- 元素增加 [zoomLayer](/reference/property/leafer.md) 只读属性， 可直接访问 leafer 的缩放层
 
 \- Group 创建时支持通过参数 [children](/reference/display/Group.md#通过-children-属性添加) 快速添加子元素实例
 
@@ -1361,7 +1361,7 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 #### 🌱 新增 🎉🎉🎉
 
-\- 🌸 [箭头插件](/plugin/in/arrow/) 发布，自带 12 种常用的箭头样式，并支持自定义
+\- 🌸 [箭头插件](/plugin/in/arrow/index.md) 发布，自带 12 种常用的箭头样式，并支持自定义
 
 \- 🌸 自定义元素 [基础教程](/reference/display/custom/base/register.md) 完善， 包含 ts / js 示例
 
@@ -1409,7 +1409,7 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 \- 支持组透明效果（同 HTML、Figma、Sketch 一致）
 
-\- 🌸 增加 [page 坐标系](/guide/basic/coordinate.md) 及转换方法 [getPagePoint()](/reference/property/point/) / [getPage()](/reference/event/ui/UIEvent.md#getpagepoint-ipointdata) / [getPageMove()](/reference/event/ui/Drag.md#getpagemove-ipointdata)
+\- 🌸 增加 [page 坐标系](/guide/basic/coordinate.md) 及转换方法 [getPagePoint()](/reference/property/point/index.md) / [getPage()](/reference/event/ui/UIEvent.md#getpagepoint-ipointdata) / [getPageMove()](/reference/event/ui/Drag.md#getpagemove-ipointdata)
 
 \- 🌸 遮罩增加 [maskType](/reference/property/mask.md#masktype-imasktype)，可支持路径遮罩、PS 剪贴蒙版效果
 
@@ -1429,7 +1429,7 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 \- 只监听 Leafer 自身属性变化的 [PropertyEvent.LEAFER_CHANGE](/reference/event/basic/Property.md) 事件
 
-\- nextRender() 可通过 [removeNextRender()](/reference/property/nextRender) 方法移除监听
+\- nextRender() 可通过 [removeNextRender()](/reference/property/nextRender.md) 方法移除监听
 
 \- 开启阻止默认右键事件 [config.pointer.preventDefaultMenu](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean)
 
@@ -1583,7 +1583,7 @@ text.padding // 没有宽高的文本增加padding， 内容的位置会改变�
 
 #### 新增 🎉🎉🎉
 
-\- [HTMLText](/plugin/in/html/) 富文本渲染
+\- [HTMLText](/plugin/in/html/index.md) 富文本渲染
 
 \- [Point](/reference/math/Point.md) / [Bounds](/reference/math/Bounds.md) / [Matrix](/reference/math/Matrix.md) 数学类
 
@@ -1593,11 +1593,11 @@ text.padding // 没有宽高的文本增加padding， 内容的位置会改变�
 
 \- Group、Path 支持 [around](/reference/property/around.md) 属性
 
-\- [setTransform()](/reference/property/transform.md#关键方法) / [transform()](/reference/property/transform.md#关键方法) / [skewOf](/reference/property/transform.md#skewof-origin-ipointdata-skewx-number-skewy-0-resize-boolean) / [dropTo()](/reference/property/dropTo) / [updateLayout()](/reference/property/layout.md#updatelayout) 元素操作方法
+\- [setTransform()](/reference/property/transform.md#关键方法) / [transform()](/reference/property/transform.md#关键方法) / [skewOf](/reference/property/transform.md#skewof-origin-ipointdata-skewx-number-skewy-0-resize-boolean) / [dropTo()](/reference/property/dropTo.md) / [updateLayout()](/reference/property/layout.md#updatelayout) 元素操作方法
 
 \- [getLayoutBounds()](/reference/property/bounds.md#关键方法) / [getLayoutPoints](/reference/property/bounds.md#关键方法) 用于获取 OBB 包围盒
 
-\- 元素通过 [app](/reference/property/leafer) 属性快速访问根应用
+\- 元素通过 [app](/reference/property/leafer.md) 属性快速访问根应用
 
 \- [changeAttr()](/reference/property/custom/changeAttr.md) / [addAttr()](/reference/property/custom/addAttr.md) 自定义元素属性（支持收集变化、导出 JSON）
 
@@ -1611,7 +1611,7 @@ text.padding // 没有宽高的文本增加padding， 内容的位置会改变�
 
 \- hover / 选中描边效果
 
-\- 多选 / 框选 [编辑功能](/plugin/in/editor/)
+\- 多选 / 框选 [编辑功能](/plugin/in/editor/index.md)
 
 \- 打组 / 解组功能
 
@@ -1675,7 +1675,7 @@ proxyData // 变化较大，简化了使用方式，建议重新阅读
 
 \- [wheel.zoomMode](/reference/config/app/wheel.md#wheel-zoommode-boolean-mouse) 支持设置 `'mouse'` 进行缩放
 
-\- 自定义线条/图形 [案例](/reference/display/custom/)
+\- 自定义线条/图形 [案例](/reference/display/custom/index.md)
 
 #### 修复
 
@@ -1773,7 +1773,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 #### 主要新增
 
-\- [图形编辑器插件](/plugin/in/editor/) 🎉🎉🎉
+\- [图形编辑器插件](/plugin/in/editor/index.md) 🎉🎉🎉
 
 \- [导入导出 JSON](/reference/property/json.md)
 
@@ -1785,7 +1785,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- 文档搜索功能
 
-\- [clone()](/reference/property/clone) 方法，用于克隆元素
+\- [clone()](/reference/property/clone.md) 方法，用于克隆元素
 
 \- [键盘事件](/reference/event/ui/Key.md)，增加长按键盘只触发一次的 key.hold 事件
 
@@ -1805,7 +1805,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- [getInnerTotal()](/reference/event/ui/Drag.md#转换坐标方法) 方法 - DragEvent
 
-\- [nextRender()](/reference/property/nextRender) 方法，等待下一次渲染执行方法 - UI
+\- [nextRender()](/reference/property/nextRender.md) 方法，等待下一次渲染执行方法 - UI
 
 \- [waitReady()](/reference/display/Leafer.md#关键方法) 、[waitViewReady()](/reference/display/Leafer.md#关键方法)、 [waitViewCompleted()](/reference/display/Leafer.md#关键方法) - Leafer
 

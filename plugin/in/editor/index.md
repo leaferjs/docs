@@ -12,7 +12,7 @@ import Case from '/component/Case.vue'
 
 ## 适用平台
 
-web 版、小程序版。暂时与有 [自动布局](/plugin/in/flow/) 的元素不能混用。
+web 版、小程序版。暂时与有 [自动布局](/plugin/in/flow/index.md) 的元素不能混用。
 
 后面计划会增加精细化的属性编辑器，如编辑圆角、形状、路径等
 
@@ -70,7 +70,7 @@ https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 
 ## 依赖插件
 
-### [resize 插件](/plugin/in/resize/)
+### [resize 插件](/plugin/in/resize/index.md)
 
 ## 开始体验
 

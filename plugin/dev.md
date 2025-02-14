@@ -133,4 +133,4 @@ const selector = new Selector()
 
 ## 插件示例
 
-### [图形编辑器插件](/plugin/in/editor/)
+### [图形编辑器插件](/plugin/in/editor/index.md)

@@ -26,13 +26,13 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 ### sky: [`Leafer`](/reference/display/Leafer.md)
 
-天空层 (变化层)，位于最顶部的 Leafer 实例，一般用来渲染 [图形编辑器](/plugin/in/editor/) 实例。
+天空层 (变化层)，位于最顶部的 Leafer 实例，一般用来渲染 [图形编辑器](/plugin/in/editor/index.md) 实例。
 
 ##
 
 <case name="Editor" index=2 count=2 x=20></case>
 
-我们以 [图形编辑器](/plugin/in/editor/) 的例子来展示 App 的实际用法：
+我们以 [图形编辑器](/plugin/in/editor/index.md) 的例子来展示 App 的实际用法：
 
 ::: code-group
 
@@ -54,4 +54,4 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 ## 下一步
 
-### [缩放平移视图](/guide/advanced/viewport)
+### [缩放平移视图](/guide/advanced/viewport.md)

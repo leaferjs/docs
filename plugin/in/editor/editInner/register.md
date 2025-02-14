@@ -30,7 +30,7 @@ TypeScript 环境需在 `tsconfig.json` 配置文件中开启装饰器功能支�
 
 ### 2. 定义标签名
 
-定义全局唯一的 [tag](/reference/property/tag) 名称。
+定义全局唯一的 [tag](/reference/property/tag.md) 名称。
 
 加载内部编辑器时，通过 tag 属性查找对应内部编辑器类进行实例化。
 
