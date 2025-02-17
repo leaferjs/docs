@@ -1,4 +1,4 @@
-# 用户参与
+# 社区参与
 
 本页面收录用户参与 LeaferJS 的相关内容，展现形式会不断优化，欢迎通过 issues [自荐投稿](https://github.com/leaferjs/leafer-x)。
 

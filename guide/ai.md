@@ -11,9 +11,15 @@ LeaferJS 正在迈入 AI 时代！为了让 AI 更好地理解和使用 LeaferJS
 - **社区贡献代码**：收集真实世界的 LeaferJS 应用案例，帮助 AI 学习更多实际场景的开发方式。
 - **分享和问答**：提炼社区内的高质量技术分享、常见问题及最佳实践，增强 AI 的问题解答能力。
 
-我们预计本周完成数据整理，并将其托管在 `ai-docs` 仓库：
+托管在 `ai-docs` 仓库：
 
 [https://github.com/leaferjs/ai-docs](https://github.com/leaferjs/ai-docs)
+
+[![github](https://img.shields.io/github/stars/leaferjs/ai-docs?style=social)](https://github.com/leaferjs/ai-docs)
+
+[https://gitee.com/leaferjs/ai-docs](https://gitee.com/leaferjs/ai-docs)
+
+[![gitee](https://gitee.com/leaferjs/ai-docs/badge/star.svg?theme=white)](https://gitee.com/leaferjs/ai-docs)
 
 如果你对此感兴趣，欢迎参与社区示例代码的收集，共同打造更强大的 LeaferJS AI：
 

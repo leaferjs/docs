@@ -12,7 +12,17 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 📘 [绝境中盛开，LeaferJS 的创业故事](/blog/2024-04-08.md)
 
-如果你觉得不错，请帮我们点个 [Star](https://github.com/leaferjs/leafer-ui) 🌟 ，让这个库被更多的人看见 - [GitHub](https://github.com/leaferjs/leafer-ui) / [Gitee](https://gitee.com/leaferjs/ui) ✨ ✨ ✨
+如果你觉得不错，请帮我们点个 [Star](https://github.com/leaferjs/leafer-ui) 🌟 ，让这个库被更多的人看见 ✨ ✨ ✨
+
+<div style="display:flex; gap: 12px">
+<a target="_blank" href="https://github.com/leaferjs/leafer-ui">
+  <img width="120" title="github" src="https://www.leaferjs.com/svg/github-stars.svg" />
+</a>
+
+<a target="_blank" href="https://gitee.com/leaferjs/leafer-ui">
+  <img width="100" title="gitee" src="https://gitee.com/leaferjs/leafer-ui/badge/star.svg?theme=white" />
+</a>
+</div>
 
 ## 快速入门
 
