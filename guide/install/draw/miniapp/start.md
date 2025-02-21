@@ -1,12 +1,14 @@
-# leafer-draw
+# @leafer-draw/miniapp
+
+相对 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md)，减少了 [App](/reference/display/App.md) 、事件交互等功能，适用于纯绘图场景。
+
+##
 
 ### [web 版](/guide/install/draw/start.md) &nbsp; &nbsp; [worker 版](/guide/install/draw/worker/start.md) &nbsp; &nbsp; [node 版](/guide/install/draw/node/start.md) &nbsp; &nbsp; 小程序版
 
 ##
 
 在小程序环境中运行，[了解小程序使用 npm 包的注意事项](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)。
-
-相对 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md)，减少了 [App](/reference/display/App.md) 、查找元素、事件交互等功能，适用于纯绘图场景。
 
 ## 安装
 
