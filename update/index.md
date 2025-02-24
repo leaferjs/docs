@@ -1,5 +1,39 @@
 # 更新
 
+## 2025 / 02 / 24
+
+> v1.4.2
+
+#### 🍇 社区
+
+\- 🌸 [俄罗斯方块小游戏](https://bgyh2003.github.io/tetris_page/) [@小唐](https://github.com/bgyh2003)
+
+\- 🌸 [luminous 在线画板](https://luminous.xjq.icu/) [@xjq7](https://github.com/xjq7)
+
+#### 🌱 新增
+
+\- 🌸 [图形编辑器](/plugin/in/editor/index.md) 的 resize 控制点支持关联 [dragBounds](/reference/property/dragBounds.md)，用于限制拖动范围
+
+\- 🌸 [视图控制](/plugin/in/view/index.md) 插件的 [zoom()](/plugin/in/view/zoom.md) 方法支持动画过渡参数
+
+\- 🌸 增加 [资源库功能](/reference/resource/Resource.md)，可预加载图片，原始图片对象、画布对象可转为 url
+
+\- 🌸 增加 [自定义滤镜](/plugin/in/filter/index.md) 插件，目前只支持自定义滤镜，后续会有官方的标准滤镜
+
+#### 🪲 修复
+
+\- 🌸 部分苹果浏览器渲染阴影的问题
+
+\- 🌸 Line 绘制多折线在 cornerRadius 较大会出现毛刺
+
+\- 🌸 [pick()](/reference/property/pick.md) 方法和 [模拟交互](/reference/event/simulation.md) 及时更新布局
+
+\- 修复多选横线时，没有高度导致 resize 出错的问题
+
+#### 🌷 感谢反馈
+
+[@ysyes](https://github.com/ysyes) [@bgyh2003](https://github.com/xixiaa) [@xixiaa](https://github.com/xixiaa) @hhzzcc @ozar @流云思水 @伍超 @毛豆花生 @黄某人 @表单设计 @do @王进元
+
 ## 2025 / 01 / 26
 
 > v1.4.0

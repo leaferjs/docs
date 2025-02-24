@@ -29,6 +29,8 @@ interface IRangeSize {
   min?: number
   max?: number
 }
+
+rect.widthRange = { min: 10, max: 200 }
 ```
 
 ### heightRange: `IRangeSize`
@@ -40,6 +42,8 @@ interface IRangeSize {
   min?: number
   max?: number
 }
+
+rect.heightRange = { min: 10, max: 200 }
 ```
 
 ### lockRatio: `boolean`

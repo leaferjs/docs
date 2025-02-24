@@ -14,7 +14,7 @@ Leafer &nbsp;>&nbsp; [Group](./Group.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ## 版本号
 
-当前的版本号，默认为 `1.4.0`。
+当前的版本号，默认为 `1.4.2`。
 
 ```ts
 import { version } from 'leafer-ui'

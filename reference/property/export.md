@@ -10,7 +10,7 @@
 
 ### export ( )
 
-export( name: [`IExportFileType`](/api/modules.md#iexportfiletype) | `string`, options?: [`IExportOptions`](/api/interfaces/IExportOptions.md) | `number` | `boolean`): `Promise`<[`IExportResult`](/api/interfaces/IExportResult.md)>
+export( name: [`IExportFileType`](/api/modules.md#iexportimagetype) | `string`, options?: [`IExportOptions`](/api/interfaces/IExportOptions.md) | `number` | `boolean`): `Promise`<[`IExportResult`](/api/interfaces/IExportResult.md)>
 
 支持导出单个元素、画面截图， 默认导出为 1 倍图（元素逻辑尺寸）。
 

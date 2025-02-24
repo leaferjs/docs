@@ -50,6 +50,10 @@
 
 ## 场景案例
 
+[俄罗斯方块小游戏](https://bgyh2003.github.io/tetris_page/) [@小唐](https://github.com/bgyh2003)
+
+[luminous 在线画板](https://luminous.xjq.icu/) [@xjq7](https://github.com/xjq7)
+
 [贪吃蛇小游戏](https://yh4922.github.io/leafer-greedy-snake/) @杨 🐑🐑
 
 [信息学基础知识交互课件](http://cqyc.com:8888/files/grass/index.html) @zhk

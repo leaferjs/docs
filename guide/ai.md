@@ -13,13 +13,13 @@ LeaferJS 正在迈入 AI 时代！为了让 AI 更好地理解和使用 LeaferJS
 
 托管在 `ai-docs` 仓库：
 
-[https://github.com/leaferjs/ai-docs](https://github.com/leaferjs/ai-docs)
+GitHub: [https://github.com/leaferjs/ai-docs](https://github.com/leaferjs/ai-docs)
 
-[![github](https://img.shields.io/github/stars/leaferjs/ai-docs?style=social)](https://github.com/leaferjs/ai-docs)
+<!-- [![github](https://img.shields.io/github/stars/leaferjs/ai-docs?style=social)](https://github.com/leaferjs/ai-docs) -->
 
-[https://gitee.com/leaferjs/ai-docs](https://gitee.com/leaferjs/ai-docs)
+Gitee: [https://gitee.com/leaferjs/ai-docs](https://gitee.com/leaferjs/ai-docs)
 
-[![gitee](https://gitee.com/leaferjs/ai-docs/badge/star.svg?theme=white)](https://gitee.com/leaferjs/ai-docs)
+<!-- [![gitee](https://gitee.com/leaferjs/ai-docs/badge/star.svg?theme=white)](https://gitee.com/leaferjs/ai-docs) -->
 
 如果你对此感兴趣，欢迎参与社区示例代码的收集，共同打造更强大的 LeaferJS AI：
 

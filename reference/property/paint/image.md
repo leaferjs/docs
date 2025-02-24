@@ -156,6 +156,12 @@ type IRepeat = boolean | 'x' | 'y'
 
 <<< @/code/display/Image/cross.ts
 
+## 资源库
+
+我们还提供了 [资源库](/reference/resource/Resource.md)，可预加载图片，原始图片对象、画布对象可转为 url
+
+应用中的所有图片都会通过 资源库 有序并行加载，当图片不再使用时，会进入回收列表，到达阈值会自动销毁。
+
 ## 图片事件
 
 ### [ImageEvent](/reference/event/basic/Image.md)

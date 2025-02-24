@@ -8,4 +8,4 @@
 
 ## 最新版本
 
-当前最新版本为： [v1.4.0](/update/index.md)
+当前最新版本为： [v1.4.2](/update/index.md)
