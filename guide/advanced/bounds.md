@@ -64,6 +64,10 @@
 <<< @/code/plugin/editor/create-mode.js
 :::
 
+### 检测元素的包围盒是否碰撞
+
+<<< @/code/advanced/bounds/test.ts
+
 ## 获取方法
 
 ### 事件中的获取方法
@@ -72,8 +76,8 @@
 
 ### 元素上的获取方法
 
-| 名称                                                                                                                                                   | 描述                                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| 名称                                                                                                                                                      | 描述                                                                                                               |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | [boxBounds](/reference/property/bounds.md#boxbounds-iboundsdata)                                                                                          | 元素在 [内部坐标系](/guide/basic/coordinate.md) 中的基础边界（[OBB](/reference/property/bounds.md) 包围盒）        |
 | [renderBounds](/reference/property/bounds.md#renderbounds-iboundsdata)                                                                                    | 元素在 [内部坐标系](/guide/basic/coordinate.md) 中的渲染边界（[AABB](/reference/property/bounds.md) 包围盒）       |
 | [worldBoxBounds](/reference/property/bounds.md#worldboxbounds-iboundsdata)                                                                                | 元素在 [世界坐标系](/guide/basic/coordinate.md#world) 中的基础边界（[AABB](/reference/property/bounds.md) 包围盒） |

@@ -65,6 +65,15 @@
 <<< @/code/display/Pen/draw.js
 :::
 
+### 拖拽创建图形
+
+拖拽 dom 元素到画布中创建图形，需要使用浏览器原生坐标转换
+
+::: code-group
+<<< @/code/advanced/coordinate/browser/drop.ts [添加到 tree]
+<<< @/code/advanced/coordinate/browser/drop-frame.ts [添加到 Frame]
+:::
+
 <!-- ## 应用示例
 
 ### [transform](/reference/property/transform.md)
@@ -79,22 +88,22 @@
 
 ### 元素上的坐标转换方法
 
-| 名称                                                                                | 描述                                                                                                                               |
-| ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 名称                                                                                   | 描述                                                                                                                               |
+| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | [worldTransform](/reference/property/transform.md#worldtransform-imatrixwithscaledata) | 相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性，转换坐标的因子                                                                 |
 | [localTransform](/reference/property/transform.md#localtransform-imatrixdata)          | 相对于父元素的变换矩阵，转换坐标的因子                                                                                             |
-| [getPagePoint()](/reference/property/point/index.md#转换世界坐标)                   | 获取 page 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [page 坐标](/guide/basic/coordinate.md#page) ），支持转换移动距离 |
-| [getLocalPoint()](/reference/property/point/index.md#转换世界坐标)                  | 获取本地坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [本地坐标](/guide/basic/coordinate.md#local) ），支持转换移动距离   |
-| [getInnerPoint()](/reference/property/point/index.md#转换世界坐标)                  | 获取内部坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离   |
-| [getBoxPoint()](/reference/property/point/index.md#转换世界坐标)                    | 获取 box 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [box 坐标](/guide/basic/coordinate.md#box) ），支持转换移动距离    |
-| [getWorldPointByPage()](/reference/property/point/index.md#转换-page-坐标)          | 获取世界坐标（ [page 坐标](/guide/basic/coordinate.md#page) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
-| [getWorldPointByLocal()](/reference/property/point/index.md#转换本地坐标)           | 获取世界坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
-| [getInnerPointByLocal()](/reference/property/point/index.md#转换本地坐标)           | 获取内部坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离   |
-| [getWorldPoint()](/reference/property/point/index.md#转换内部坐标)                  | 获取世界坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
-| [getLocalPointByInner()](/reference/property/point/index.md#转换内部坐标)           | 获取本地坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [本地坐标](/guide/basic/coordinate.md#local) ），支持转换移动距离   |
-| [getBoxPointByInner()](/reference/property/point/index.md#转换内部坐标)             | 获取 box 坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [box 坐标](/guide/basic/coordinate.md#box) ），支持转换移动距离    |
-| [getWorldPointByBox()](/reference/property/point/index.md#转换内部坐标)             | 获取世界坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离     |
-| [getInnerPointByBox()](/reference/property/point/index.md#转换内部坐标)             | 获取内部坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离     |
+| [getPagePoint()](/reference/property/point/index.md#转换世界坐标)                      | 获取 page 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [page 坐标](/guide/basic/coordinate.md#page) ），支持转换移动距离 |
+| [getLocalPoint()](/reference/property/point/index.md#转换世界坐标)                     | 获取本地坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [本地坐标](/guide/basic/coordinate.md#local) ），支持转换移动距离   |
+| [getInnerPoint()](/reference/property/point/index.md#转换世界坐标)                     | 获取内部坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离   |
+| [getBoxPoint()](/reference/property/point/index.md#转换世界坐标)                       | 获取 box 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [box 坐标](/guide/basic/coordinate.md#box) ），支持转换移动距离    |
+| [getWorldPointByPage()](/reference/property/point/index.md#转换-page-坐标)             | 获取世界坐标（ [page 坐标](/guide/basic/coordinate.md#page) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
+| [getWorldPointByLocal()](/reference/property/point/index.md#转换本地坐标)              | 获取世界坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
+| [getInnerPointByLocal()](/reference/property/point/index.md#转换本地坐标)              | 获取内部坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离   |
+| [getWorldPoint()](/reference/property/point/index.md#转换内部坐标)                     | 获取世界坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
+| [getLocalPointByInner()](/reference/property/point/index.md#转换内部坐标)              | 获取本地坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [本地坐标](/guide/basic/coordinate.md#local) ），支持转换移动距离   |
+| [getBoxPointByInner()](/reference/property/point/index.md#转换内部坐标)                | 获取 box 坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [box 坐标](/guide/basic/coordinate.md#box) ），支持转换移动距离    |
+| [getWorldPointByBox()](/reference/property/point/index.md#转换内部坐标)                | 获取世界坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离     |
+| [getInnerPointByBox()](/reference/property/point/index.md#转换内部坐标)                | 获取内部坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离     |
 
 ### 浏览器原生事件的坐标转换方法
 

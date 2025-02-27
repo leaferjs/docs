@@ -110,3 +110,12 @@
 可以转换移动距离、长度。
 
 <<< @/code/property/point/move.ts
+
+### 拖拽创建图形
+
+拖拽 dom 元素到画布中创建图形，需要使用浏览器原生坐标转换
+
+::: code-group
+<<< @/code/advanced/coordinate/browser/drop.ts [添加到 tree]
+<<< @/code/advanced/coordinate/browser/drop-frame.ts [添加到 Frame]
+:::
