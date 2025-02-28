@@ -36,7 +36,7 @@
 
 ### mobile: `boolean`
 
-是否在手机端使用，自动优化体验（如停用 hover 事件），图形编辑器可配置 [手势控制元素](/plugin/in/editor/config.md#moveable-boolean-move)。
+是否在手机端使用，自动优化体验（如停用 hover 事件），图形编辑器可配置 [手势控制元素](/plugin/in/editor/config/enable.md)。
 
 ### cursor: `boolean`
 

@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Editor
 
-图形编辑器，可移动、缩放、旋转、倾斜，支持多选、框选、打组、锁定、层级，[可配置样式](/plugin/in/editor/config.md)。
+图形编辑器，可移动、缩放、旋转、倾斜，支持多选、框选、打组、锁定、层级，[可配置样式](/plugin/in/editor/config/base.md)。
 
 支持自定义 [编辑工具](/plugin/in/editor/EditTool.md)、 [内部编辑器](/plugin/in/editor/InnerEditor.md)。
 
@@ -18,11 +18,11 @@ Editor &nbsp;>&nbsp; [Group](/reference/display/Group.md) &nbsp;>&nbsp; [UI](/re
 
 ### target：[`UI`](/reference/display/UI.md) | [`UI`](/reference/display/UI.md)[]
 
-设置需要编辑的元素， 默认通过 [编辑选择器](./config.md#selector-boolean) 自动选取 [editable](/reference/property/editable.md) 元素（不用设置 draggable ）。
+设置需要编辑的元素， 默认通过 [编辑选择器](/plugin/in/editor/config/select.md#selector-boolean) 自动选取 [editable](/reference/property/editable.md) 元素（不用设置 draggable ）。
 
 ### hoverTarget：[`UI`](/reference/display/UI.md)
 
-设置 hover 状态的元素， 默认通过 [编辑选择器](./config.md#selector-boolean) 自动选取 [editable](/reference/property/editable.md) 元素。
+设置 hover 状态的元素， 默认通过 [编辑选择器](/plugin/in/editor/config/select.md#selector-boolean) 自动选取 [editable](/reference/property/editable.md) 元素。
 
 ### visible: `boolean`
 
@@ -38,11 +38,11 @@ Editor &nbsp;>&nbsp; [Group](/reference/display/Group.md) &nbsp;>&nbsp; [UI](/re
 
 ## 配置属性
 
-### config: [`IEditorConfig`](./config.md)
+### config: [`IEditorConfig`](/plugin/in/editor/config/base.md)
 
-[全局编辑器配置](./config.md)，实例化时传入，可实时修改(调用 updateEditTool() 方法更新)。
+[全局编辑器配置](/plugin/in/editor/config/base.md)，实例化时传入，可实时修改 ( 特殊情况调用 updateEditTool() 方法立即更新 )。
 
-### mergeConfig: [`IEditorConfig`](./config.md)
+### mergeConfig: [`IEditorConfig`](/plugin/in/editor/config/base.md)
 
 实际使用的编辑器配置（只读），合并了 config 与元素的 [editConfig](/reference/property/editable.md#editconfig-ieditorconfig)。
 
@@ -100,7 +100,7 @@ Editor &nbsp;>&nbsp; [Group](/reference/display/Group.md) &nbsp;>&nbsp; [UI](/re
 
 ### buttons: [`Group`](/reference/display/Group.md)
 
-按钮组，用于放置自定义按钮，整体 [around](/reference/property/around.md) 对齐， 位于编辑器底部，可以 [进行配置](./config.md#按钮组)。
+按钮组，用于放置自定义按钮，整体 [around](/reference/property/around.md) 对齐， 位于编辑器底部，可以 [进行配置](/plugin/in/editor/config/buttons.md)。
 
 ### editTool: [`EditTool`](./EditTool.md)
 
@@ -260,7 +260,7 @@ app.editor.skewOf('center', 45 - element.skewX)
 
 ## 配置
 
-### [编辑器配置](./config.md)
+### [编辑器配置](/plugin/in/editor/config/base.md)
 
 ## 快捷键
 
@@ -278,7 +278,7 @@ app.editor.skewOf('center', 45 - element.skewX)
 
 编辑器默认通过修改元素宽高、路径坐标来调整大小。
 
-同时也支持通过修改缩放来调整大小， 了解 [editSize](./config.md#editsize-auto-size-scale)。
+同时也支持通过修改缩放来调整大小， 了解 [editSize](/plugin/in/editor/config/base.md)。
 
 ## 历史记录
 
@@ -355,7 +355,7 @@ app.editor.skewOf('center', 45 - element.skewX)
 
 ### 显示底部旋转控制点
 
-默认会继承基础样式，可以进一步 [设置](./config.md#circle-iboxinputdata) 旋转控制点的样式。
+默认会继承基础样式，可以进一步 [设置](./config/style.md#旋转按钮) 旋转控制点的样式。
 
 <<< @/code/plugin/editor/config/rotate-point.ts
 
@@ -363,7 +363,7 @@ app.editor.skewOf('center', 45 - element.skewX)
 
 ### 添加底部固定按钮
 
-元素旋转、翻转后仍保持固定方位，可以 [设置](./config.md#按钮组) 按钮组的方位。
+元素旋转、翻转后仍保持固定方位，可以 [设置](/plugin/in/editor/config/buttons.md) 按钮组的方位。
 
 <<< @/code/plugin/editor/buttons.ts
 
@@ -371,7 +371,7 @@ app.editor.skewOf('center', 45 - element.skewX)
 
 ### 显示中间控制点，并修改样式
 
-默认会继承基础样式、旋转角度， 可以精确 [设置](./config.md#精确控制样式) 每个控制点的样式。
+默认会继承基础样式、旋转角度， 可以精确 [设置](/plugin/in/editor/config/style.md#精确控制样式) 每个控制点的样式。
 
 <<< @/code/plugin/editor/config/middle.ts
 

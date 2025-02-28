@@ -301,7 +301,7 @@
 
 \- 运动路径增加 [motionPrecision](/reference/property/motionPath.md#motionprecision-number) 属性， 用于控制运动精度
 
-\- 编辑器配置增加 [textEditor](/plugin/in/editor/config.md#内部编辑器属性) / [pathEditor](/plugin/in/editor/config.md#内部编辑器属性) 配置对象用于自定义内部编辑器，并支持依次扩展
+\- 编辑器配置增加 [textEditor](/plugin/in/editor/config/innerEditor.md) / [pathEditor](/plugin/in/editor/config/innerEditor.md) 配置对象用于自定义内部编辑器，并支持依次扩展
 
 #### 🪲 修复
 
@@ -637,7 +637,7 @@
 
 \- 🌸 增加 [block](/reference/config/app/type.md#block-类型) 视口类型， 可以像 HTML 的普通块状元素一样融入到浏览器页面中
 
-\- 🌸 图形编辑器 editSize 配置正式支持 [font-size](/plugin/in/editor/config.md#editsize-size-scale) 类型
+\- 🌸 图形编辑器 editSize 配置正式支持 [font-size](/plugin/in/editor/config/base.md) 类型
 
 \- 🌸 微信小程序增加 [uniapp](/guide/install/ui/miniapp/start.md#其他平台) / [taro](/guide/install/ui/miniapp/start.md#其他平台) 示例代码，并提供了 [原生构建 npm 包](/guide/install/ui/miniapp/start.md#微信开发工具中使用-npm-包) 的问题解决方案
 
@@ -667,7 +667,7 @@
 
 \- canvas 默认 [pixelRatio](/reference/display/Canvas.md#pixelratio-number) 改为 1， 同 Image 一致，可自行修改 [#175](https://github.com/leaferjs/leafer-ui/issues/175)
 
-\- 优化图形编辑器的 [lockRatio](/plugin/in/editor/config.md#lockratio-boolean-corner) 体验（拉伸四条边时不跟手）
+\- 优化图形编辑器的 [lockRatio](/plugin/in/editor/config/control.md) 体验（拉伸四条边时不跟手）
 
 #### 🪲 修复
 
@@ -713,23 +713,23 @@
 
 \- 如使用了 editSize 为 font-size， 请暂缓升级，还有部分适配工作需完成
 
-\- 🌸 编辑器控制点支持设置 [pointType](/plugin/in/editor/config.md#point-iboxinputdata-iboxinputdata) 属性自定义按钮功能
+\- 🌸 编辑器控制点支持设置 [pointType](/plugin/in/editor/config/style.md#point-iboxinputdata-iboxinputdata) 属性自定义按钮功能
 
 \- 🌸 支持限制元素的宽高 [widthRange](/reference/property/editable.md#widthrange-irangesize)、 [heightRange](/reference/property/editable.md#widthrange-irangesize)，
 
 \- 🌸 支持混合使用 origin 、around 属性元素， 并会取其作为旋转点
 
-\- 增加 [flipable](/plugin/in/editor/config.md#flipable-boolean) 配置, 控制是否启用镜像/翻转元素功能
+\- 增加 [flipable](/plugin/in/editor/config/enable.md#flipable-boolean) 配置, 控制是否启用镜像/翻转元素功能
 
 \- 增加 [flip()](/plugin/in/editor/Editor.md#flip-axis-x-y) 方法，用于手动镜像/翻转元素
 
-\- moveable 配置增加 [`'move'`](/plugin/in/editor/config.md#moveable-boolean-move) 类型， 用于手机端双指移动选中元素
+\- moveable 配置增加 [`'move'`](/plugin/in/editor/config/enable.md) 类型， 用于手机端双指移动选中元素
 
-\- mask 配置增加 [`'true'`](/plugin/in/editor/config.md#mask-string-boolean) 类型，用于快速设置编辑器遮罩
+\- mask 配置增加 [`'true'`](/plugin/in/editor/config/style.md#mask-string-boolean) 类型，用于快速设置编辑器遮罩
 
-\- 配置 rotatePoint（仍可用）改为 [circle](/plugin/in/editor/config.md#circle-iboxinputdata), 并增加 [circleMargin](/plugin/in/editor/config.md#circle-iboxinputdata)、[circleDirection](/plugin/in/editor/config.md#circle-iboxinputdata)
+\- 配置 rotatePoint（仍可用）改为 [circle](/plugin/in/editor/config/style.md#旋转按钮), 并增加 [circleMargin](/plugin/in/editor/config/style.md#旋转按钮)、[circleDirection](/plugin/in/editor/config/style.md#旋转按钮)
 
-\- [旋转控制点](/plugin/in/editor/config.md#circle-iboxinputdata) 和 [buttons](/plugin/in/editor/Editor.md#buttons-group) 进行分离，并可独立设置方向
+\- [旋转控制点](/plugin/in/editor/config/style.md#旋转按钮) 和 [buttons](/plugin/in/editor/Editor.md#buttons-group) 进行分离，并可独立设置方向
 
 #### 🌿 优化
 
@@ -785,7 +785,7 @@
 
 \- [export()](/reference/property/export.md#关键方法)、[toJSON()](/reference/property/json.md#tojson-iuiinputdata)、[toString()](/reference/property/json.md#tostring-options-ijsonoptions-string) 支持 JSON 导出选项（可导出元素本地矩阵）
 
-\- 图形编辑器增加遮罩配置 [editor.config.mask](/plugin/in/editor/config.md#mask-string)，适用于裁剪图片场景。
+\- 图形编辑器增加遮罩配置 [editor.config.mask](/plugin/in/editor/config/style.md#mask-string)，适用于裁剪图片场景。
 
 #### 🪲 修复
 
@@ -903,9 +903,9 @@
 
 \- 支持在侧边栏直接选中组内元素并操作
 
-\- 设置 [resizeable](/plugin/in/editor/config.md#resizeable-boolean-zoom) 为 zoom，可支持移动端手势缩放操作
+\- 设置 [resizeable](/plugin/in/editor/config/enable.md#resizeable-boolean-zoom) 为 zoom，可支持移动端手势缩放操作
 
-\- 设置 [rotateable](/plugin/in/editor/config.md#rotateable-boolean-rotate) 为 rotate，可支持移动端手势旋转操作
+\- 设置 [rotateable](/plugin/in/editor/config/enable.md#rotateable-boolean-rotate) 为 rotate，可支持移动端手势旋转操作
 
 \- 修复调整自动宽高的文本宽度后，高度被同时固定住的问题
 
@@ -999,7 +999,7 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 🌸 只要检测到是直线路径就采用直线编辑工具
 
-\- 🌸 resize 文本支持调整 fontSize , 需要给 [Text.editConfig](/reference/property/editable.md#editconfig-ieditorconfig) 配置 [editSize = ‘font-size’](/plugin/in/editor/config.md#editsize-size-scale)
+\- 🌸 resize 文本支持调整 fontSize , 需要给 [Text.editConfig](/reference/property/editable.md#editconfig-ieditorconfig) 配置 [editSize = ‘font-size’](/plugin/in/editor/config/base.md)
 
 \- 优化 box 的布局、渲染性能
 
@@ -1117,7 +1117,7 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 增加 [select()](/plugin/in/editor/Editor.md#select-target-ui-ui) 选中 / [cancel()](/plugin/in/editor/Editor.md#cancel) 取消选中方法
 
-\- 增加 [config.hoverStyle](/plugin/in/editor/config.md#hover-boolean) 配置， 可以自定义 hover 效果
+\- 增加 [config.hoverStyle](/plugin/in/editor/config/style.md#hover-boolean) 配置， 可以自定义 hover 效果
 
 \- 框选笔触调整为 1px
 
@@ -1209,15 +1209,15 @@ Picker.findList 改为 LeafList 类型
 
 #### 🪴 图形编辑器
 
-\- 🌸 增加 [config.lockRatio = 'corner'](/plugin/in/editor/config.md#lockratio-boolean-corner) 配置，只固定 4 个角的缩放比例，中间点可自由调整
+\- 🌸 增加 [config.lockRatio = 'corner'](/plugin/in/editor/config/control.md) 配置，只固定 4 个角的缩放比例，中间点可自由调整
 
-\- 🌸 增加 [config.select](/plugin/in/editor/config.md#select-press-tap) 配置，支持 tap 选中（一般用于手机端）
+\- 🌸 增加 [config.select](/plugin/in/editor/config/select.md#select-press-tap) 配置，支持 tap 选中（一般用于手机端）
 
-\- 🌸 增加 [config.continuousSelect](/plugin/in/editor/config.md#continuousselect-boolean) 配置，点击可以连续多选元素
+\- 🌸 增加 [config.continuousSelect](/plugin/in/editor/config/select.md#continuousselect-boolean) 配置，点击可以连续多选元素
 
-\- 🌸 增加 [config.lockMove](/plugin/in/editor/config.md#lockmove-boolean-x-y) 配置，可锁定在 x 或 y 轴移动 [#124](https://github.com/leaferjs/leafer-ui/issues/124)
+\- 🌸 增加 [config.lockMove](/plugin/in/editor/config/control.md) 配置，可锁定在 x 或 y 轴移动 [#124](https://github.com/leaferjs/leafer-ui/issues/124)
 
-\- 增加 [config.hideOnSmall](/plugin/in/editor/config.md#hideonmove-boolean) 配置，控制元素太小时隐藏控制点
+\- 增加 [config.hideOnSmall](/plugin/in/editor/config/base.md#hideonmove-boolean) 配置，控制元素太小时隐藏控制点
 
 \- EditorEvent 增加 [list](/plugin/in/editor/Event.md#list-ui) / [oldList](/plugin/in/editor/Event.md#oldlist-ui) 属性
 
@@ -1285,11 +1285,11 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 #### 🪴 图形编辑器新增 🎉🎉🎉
 
-\- 🌸 增加 [config.keyEvent](/plugin/in/editor/config.md#keyevent-boolean) 设置，用于控制是否接收键盘事件（如方向键移动）
+\- 🌸 增加 [config.keyEvent](/plugin/in/editor/config/event.md) 设置，用于控制是否接收键盘事件（如方向键移动）
 
-\- 🌸 增加 [config.dualEvent](/plugin/in/editor/config.md#dualevent-boolean) 设置，首次点击元素时，元素是否可以接收 tap 等鼠标事件
+\- 🌸 增加 [config.dualEvent](/plugin/in/editor/config/event.md) 设置，首次点击元素时，元素是否可以接收 tap 等鼠标事件
 
-\- 🌸 增加 [config.moveable](/plugin/in/editor/config.md#moveable-boolean-move) 设置，用于控制能否移动元素
+\- 🌸 增加 [config.moveable](/plugin/in/editor/config/enable.md) 设置，用于控制能否移动元素
 
 #### 🪲 修复
 
@@ -1489,7 +1489,7 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 \- [group()](/plugin/in/editor/Editor.md#打组) 支持传入 json 或实例
 
-\- 🌸 支持自定义可旋转角度的 resize、rotate、skew [光标](/plugin/in/editor/config.md#resizecursor-iimagecursor)，默认内置了一套。
+\- 🌸 支持自定义可旋转角度的 resize、rotate、skew [光标](/plugin/in/editor/config/cursor.md)，默认内置了一套。
 
 \- 修复父元素存在镜像时旋转错位问题
 

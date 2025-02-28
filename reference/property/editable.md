@@ -50,7 +50,7 @@ rect.heightRange = { min: 10, max: 200 }
 
 是否锁定元素的宽高比例，默认为 false。
 
-另可以通过编辑器进行 [全局设置](/plugin/in/editor/config.md#lockratio-boolean-corner)。
+另可以通过编辑器进行 [全局设置](/plugin/in/editor/config/control.md)。
 
 ## resize
 
@@ -58,7 +58,7 @@ rect.heightRange = { min: 10, max: 200 }
 
 ## 只读属性
 
-### editConfig： [`IEditorConfig`](/plugin/in/editor/config.md)
+### editConfig： [`IEditorConfig`](/plugin/in/editor/config/base.md)
 
 元素的独立编辑配置，可通过以下方式设置：
 

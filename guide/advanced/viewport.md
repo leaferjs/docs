@@ -80,7 +80,7 @@
 
 ## 移动端手势控制元素
 
-[图形编辑器](/plugin/in/editor/index.md) 可以配置 [moblie 模式](/reference/config/app/base.md#mobile-boolean) 及 [手势控制元素](/plugin/in/editor/config.md#moveable-boolean-move)。
+[图形编辑器](/plugin/in/editor/index.md) 可以配置 [moblie 模式](/reference/config/app/base.md#mobile-boolean) 及 [手势控制元素](/plugin/in/editor/config/enable.md)。
 
 也可以自己监听 [视口交互事件](#视口交互事件) 实现手势控制元素（需 [阻止事件冒泡](/reference/event/basic/Event.md#stop)）。
 

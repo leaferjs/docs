@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # 图形编辑器
 
-用于编辑操作图形，提供了丰富的功能和 [样式配置](/plugin/in/editor/config.md)， 可移动、缩放、旋转、倾斜，支持多选、框选、打组、 双击进组，锁定、层级。支持自定义 [编辑工具](/plugin/in/editor/EditTool.md)、 [内部编辑器](/plugin/in/editor/InnerEditor.md)。
+用于编辑操作图形，提供了丰富的功能和 [样式配置](/plugin/in/editor/config/base.md)， 可移动、缩放、旋转、倾斜，支持多选、框选、打组、 双击进组，锁定、层级。支持自定义 [编辑工具](/plugin/in/editor/EditTool.md)、 [内部编辑器](/plugin/in/editor/InnerEditor.md)。
 
 <!-- <case name="EditorConfig"></case> -->
 
