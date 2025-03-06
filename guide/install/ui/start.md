@@ -36,7 +36,7 @@ bun add leafer-ui
 
 同时我们提供了 [Playground 环境](/guide/runtime.md) 和 [create-leafer 命令行工具](/create/leafer.md)，方便大家直接体验官网示例。
 
-### 通过 script 标签引入
+#### 或通过 script 标签引入
 
 你还可以通过 script 标签引入 CDN 文件来使用 LeaferUI（可下载到本地），[查看示例](#引入-script-的方式)。
 
@@ -86,7 +86,8 @@ bun add leafer-ui
 </script>
 ```
 
-https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+<!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
 :::
 
 ## 浏览器环境

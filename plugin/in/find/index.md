@@ -1,10 +1,6 @@
-# 查找元素插件
+# 查找元素
 
-查找元素插件。
-
-## 适用平台
-
-支持所有平台。
+查找元素功能。
 
 ## 安装插件
 
@@ -30,9 +26,8 @@ bun add @leafer-in/find
 
 :::
 
-### 通过 script 标签引入
+或通过 script 标签引入，使用全局变量 LeaferIN.find 访问插件内部功能。
 
-通过全局变量 LeaferIN.find 访问插件内部功能。
 ::: code-group
 
 ```html [find.min]
@@ -43,11 +38,12 @@ bun add @leafer-in/find
 <script src="https://unpkg.com/@leafer-in/find@1.4.2/dist/find.js"></script>
 ```
 
-https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+<!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
 :::
 
 ## 下一步
 
-### [find ()](/reference/property/find.md)
+### [find ()](/reference/UI/find.md)
 
-### [findOne ()](/reference/property/findOne.md)
+### [findOne ()](/reference/UI/findOne.md)

@@ -171,7 +171,7 @@ y 轴坐标。
 
 ### toOuterOf ( matrix: [`IMatrixData`](/api/interfaces/IMatrixData.md) , to?: [`IBoundsData`](/api/interfaces/IBoundsData.md) ): [`Bounds`](/api/classes/Bounds.md)
 
-转换为 matrix 的外部 [AABB 包围盒](/reference/property/bounds.md) bounds（假设当前为内部 bounds），如果存在 to, 则将结果设置给 to 。
+转换为 matrix 的外部 [AABB 包围盒](/reference/UI/bounds.md) bounds（假设当前为内部 bounds），如果存在 to, 则将结果设置给 to 。
 
 ### getFitMatrix ( put: [`IBoundsData`](/api/interfaces/IBoundsData.md) ): [`IMatrix`](/api/interfaces/IMatrix.md)
 

@@ -22,7 +22,7 @@ import Case from '/component/Case.vue'
 
 ## 使用 JSON
 
-了解 JSON 数据 [导入导出](/reference/property/json.md)。
+了解 JSON 数据 [导入导出](/reference/UI/json.md)。
 
 <<< @/code/property/json/create.ts
 
@@ -38,7 +38,7 @@ import Case from '/component/Case.vue'
 
 ### [Ellipse 元素](/reference/display/Ellipse.md)
 
-绘制圆、圆环、扇形圆环、扇形、弧线、椭圆，想从中心点绘制，可以了解 [around](/reference/property/around.md)。
+绘制圆、圆环、扇形圆环、扇形、弧线、椭圆，想从中心点绘制，可以了解 [around](/reference/UI/around.md)。
 
 <case name="Ellipse" editor=false></case>
 
@@ -88,7 +88,7 @@ import Case from '/component/Case.vue'
 
 ### [Image 元素](/reference/display/Image.md)
 
-图片对象，支持使用 svg 格式的图片，另外所有图形都支持通过 [图案填充](/reference/property/paint/image.md) 来显示图片。
+图片对象，支持使用 svg 格式的图片，另外所有图形都支持通过 [图案填充](/reference/UI/paint/image.md) 来显示图片。
 
 <case name="ImageFill" editor=false></case>
 
@@ -96,7 +96,7 @@ import Case from '/component/Case.vue'
 
 ### [SVG 元素](/reference/display/SVG.md)
 
-[Image 元素](/reference/display/Image.md) 和 [图案填充](/reference/property/paint/image.md) 都支持直接加载 svg 格式的图片。
+[Image 元素](/reference/display/Image.md) 和 [图案填充](/reference/UI/paint/image.md) 都支持直接加载 svg 格式的图片。
 
 svg 图片采用了特殊的渲染逻辑，可以实现高清晰缩放.
 

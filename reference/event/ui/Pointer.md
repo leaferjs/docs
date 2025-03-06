@@ -228,3 +228,7 @@ x, y 属性的转换。
 配置应用的 `pointer.tapMore` 为 true, `tap`、`double_tap`、`long_tap` 事件会同时触发。
 
 <<< @/code/event-ui/pointer/tapMulti.ts
+
+### 图形编辑器中显示右键菜单
+
+<<< @/code/event-ui/pointer/editor-menu.ts

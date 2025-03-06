@@ -12,7 +12,7 @@
 
 ### EditorGroupEvent.GROUP
 
-打组事件。
+编组事件。
 
 `editor.group`
 

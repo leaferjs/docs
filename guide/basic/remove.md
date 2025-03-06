@@ -10,7 +10,7 @@ import Case from '/component/Case.vue'
 
 ## 条件移除
 
-同 [find()](/reference/property/find.md) 方法的参数一致，内部会先 find() 再批量移除。
+同 [find()](/reference/UI/find.md) 方法的参数一致，内部会先 find() 再批量移除。
 
 ::: tip 注意事项
 需安装 [查找元素插件](/plugin/in/find/index.md) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)、 [leafer-editor](/guide/install/editor/start.md) （已集成查找元素插件）

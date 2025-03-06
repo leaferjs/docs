@@ -8,9 +8,9 @@ import Case from '/component/Case.vue'
 
 ##
 
-选择方式配置，应用运行中可实时修改 [app.editor.config](/plugin/in/editor/Editor.md#config-ieditorconfig) 生效。
+选择方式配置，应用运行中可实时修改 [app.editor.config](/plugin/in/editor/index.md#config-ieditorconfig) 生效。
 
-同时元素拥有 [独立的编辑配置](/reference/property/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
+同时元素拥有 [独立的编辑配置](/reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
 
 ## 关键属性
 
@@ -18,7 +18,7 @@ import Case from '/component/Case.vue'
 
 是否启用编辑选择器， 默认启用。
 
-可以通过交互来选取 [editable](/reference/property/editable.md) 元素， 并支持显示 hover 状态。
+可以通过交互来选取 [editable](/reference/UI/editable.md) 元素， 并支持显示 hover 状态。
 
 ### select: `'press'` | `'tap'`
 

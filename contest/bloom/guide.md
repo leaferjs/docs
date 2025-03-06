@@ -80,7 +80,7 @@ LeaferJS 提供了丰富的功能，可通过官网教程示例进一步学习�
 
 6. 插件： 官网、社区插件。
 
-为了聚焦主要知识，每篇文档只展示了关键属性方法，可通过点击 [继承](/reference/display/Rect.md#继承) 或 [归属](/reference/property/fill.md#归属) 文档溯源。
+为了聚焦主要知识，每篇文档只展示了关键属性方法，可通过点击 [继承](/reference/display/Rect.md#继承) 或 [归属](/reference/UI/fill.md#归属) 文档溯源。
 
 ## 重点关注功能
 

@@ -6,7 +6,7 @@
 
 ### [图形编辑器](/plugin/in/editor/index.md)
 
-用于编辑操作图形，提供了丰富的功能和 [样式配置](/plugin/in/editor/config/base.md)， 可移动、缩放、旋转、倾斜，支持多选、框选、打组、 双击进组，锁定、层级。支持自定义 [编辑工具](/plugin/in/editor/editOuter/register.md)、 [内部编辑器](/plugin/in/editor/editInner/register.md)。
+用于编辑操作图形，提供了丰富的功能和 [样式配置](/plugin/in/editor/config/base.md)， 可移动、缩放、旋转、倾斜，支持多选、框选、编组、 双击进组，锁定、层级。支持自定义 [编辑工具](/plugin/in/editor/editOuter/register.md)、 [内部编辑器](/plugin/in/editor/editInner/register.md)。
 
 ### [视图控制](/plugin/in/view/index.md)
 
@@ -26,7 +26,7 @@
 
 ### [交互状态](/plugin/in/state/index.md)
 
-使元素支持 [hover](/reference/property/state/hover.md) 、 [press](/reference/property/state/press.md) 、 [focus](/reference/property/state/focus.md) 、 [selected](/reference/property/state/selected.md) 、 [disabled](/reference/property/state/disabled.md) 交互状态样式。
+使元素支持 [hover](/reference/UI/state/hover.md) 、 [press](/reference/UI/state/press.md) 、 [focus](/reference/UI/state/focus.md) 、 [selected](/reference/UI/state/selected.md) 、 [disabled](/reference/UI/state/disabled.md) 交互状态样式。
 
 ### [自动布局](/plugin/in/flow/index.md)
 

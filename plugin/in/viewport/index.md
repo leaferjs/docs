@@ -1,10 +1,6 @@
-# 视口 插件
+# 视口
 
 通过滚轮/触摸板滑动或捏合可 [缩放平移视图](/guide/advanced/viewport.md)，类似浏览器、设计软件的视口交互功能。
-
-## 适用平台
-
-支持所有平台。
 
 ## 安装插件
 
@@ -30,9 +26,8 @@ bun add @leafer-in/viewport
 
 :::
 
-### 通过 script 标签引入
+或通过 script 标签引入，使用全局变量 LeaferIN.viewport 访问插件内部功能。
 
-通过全局变量 LeaferIN.viewport 访问插件内部功能。
 ::: code-group
 
 ```html [viewport.min]
@@ -43,7 +38,8 @@ bun add @leafer-in/viewport
 <script src="https://unpkg.com/@leafer-in/viewport@1.4.2/dist/viewport.js"></script>
 ```
 
-https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+<!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
 :::
 
 ## 下一步

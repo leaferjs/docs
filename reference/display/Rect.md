@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Rect
+# Rect 元素
 
 绘制矩形、圆角矩形。
 

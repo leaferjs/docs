@@ -2,7 +2,7 @@
 
 LeafList 高性能元素列表类。
 
-可以通过 [innerId](/reference/property/innerId.md) 快速查找到元素。
+可以通过 [innerId](/reference/UI/innerId.md) 快速查找到元素。
 
 ## 关键属性
 
@@ -12,7 +12,7 @@ LeafList 高性能元素列表类。
 
 ### keys: [`INumberMap`](/api/interfaces/INumberMap.md)
 
-索引对象，通过 [innerId](/reference/property/innerId.md) 索引元素。
+索引对象，通过 [innerId](/reference/UI/innerId.md) 索引元素。
 
 ## 只读属性
 

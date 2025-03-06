@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Pen
+# Pen 元素
 
 像绘画一样，快速画出不同样式的路径组合，支持 Canvas 2D 绘制路径的 [API 方法](/reference/display/Pen.md#绘制路径)。
 

@@ -1,10 +1,6 @@
-# 滤镜 插件
+# 滤镜
 
 目前只支持自定义滤镜，后续会有官方的标准滤镜。
-
-## 适用平台
-
-支持所有平台。
 
 ## 安装插件
 
@@ -30,9 +26,8 @@ bun add @leafer-in/filter
 
 :::
 
-### 通过 script 标签引入
+或通过 script 标签引入，使用全局变量 LeaferIN.filter 访问插件内部功能。
 
-通过全局变量 LeaferIN.filter 访问插件内部功能。
 ::: code-group
 
 ```html [filter.min]
@@ -43,7 +38,8 @@ bun add @leafer-in/filter
 <script src="https://unpkg.com/@leafer-in/filter@1.4.2/dist/filter.js"></script>
 ```
 
-https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+<!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
 :::
 
 ## 自定义滤镜

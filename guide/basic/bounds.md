@@ -32,23 +32,23 @@
 
 以元素自身为起点（0，0），由元素的宽高、路径形成的内部边界。
 
-已提供了 [获取属性](/reference/property/bounds.md#boxbounds-iboundsdata) 与 [获取方法](/reference/property/bounds.md#关键方法)。
+已提供了 [获取属性](/reference/UI/bounds.md#boxbounds-iboundsdata) 与 [获取方法](/reference/UI/bounds.md#关键方法)。
 
 ### 本地坐标系边界
 
-以父元素为起点（0，0），将内部边界与 [localTransform](/reference/property/transform.md#localtransform-imatrixdata) 相乘而来，会受元素的 x、y、scaleX、scaleY、rotation 影响。
+以父元素为起点（0，0），将内部边界与 [localTransform](/reference/UI/transform.md#localtransform-imatrixdata) 相乘而来，会受元素的 x、y、scaleX、scaleY、rotation 影响。
 
-已提供了[获取方法](/reference/property/bounds.md#关键方法)。
+已提供了[获取方法](/reference/UI/bounds.md#关键方法)。
 
 ### 世界坐标系边界
 
-以画布左上角为起点（0，0），将内部边界与 [worldTransform](/reference/property/transform.md#worldtransform-imatrixdata) 相乘而来，会受元素及中间层级元素的 x、y、scaleX、scaleY、rotation 影响。
+以画布左上角为起点（0，0），将内部边界与 [worldTransform](/reference/UI/transform.md#worldtransform-imatrixdata) 相乘而来，会受元素及中间层级元素的 x、y、scaleX、scaleY、rotation 影响。
 
-已提供了 [获取属性](/reference/property/bounds.md#boxbounds-iboundsdata) 与 [获取方法](/reference/property/bounds.md#关键方法)。
+已提供了 [获取属性](/reference/UI/bounds.md#boxbounds-iboundsdata) 与 [获取方法](/reference/UI/bounds.md#关键方法)。
 
 ## 应用示例
 
-### [bounds](/reference/property/bounds.md)
+### [bounds](/reference/UI/bounds.md)
 
 ## 恭喜 🎉
 

@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Star
+# Star 元素
 
 绘制车标、星光、五角星、多角星形。
 

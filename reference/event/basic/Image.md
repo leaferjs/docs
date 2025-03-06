@@ -24,7 +24,7 @@ ImageEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 图案填充的属性名: `fill` | `stroke`
 
-### attrValue: [`ImagePaint`](/reference/property/paint/image.md)
+### attrValue: [`ImagePaint`](/reference/UI/paint/image.md)
 
 图案填充的属性值。
 

@@ -2,15 +2,15 @@
 import Case from '/component/Case.vue'
 </script>
 
-# SVG
+# SVG 元素
 
 ## 图片
 
-[Image 元素](/reference/display/Image.md) 和 [图案填充](/reference/property/paint/image.md) 都支持直接加载 svg 格式的图片。
+[Image 元素](/reference/display/Image.md) 和 [图案填充](/reference/UI/paint/image.md) 都支持直接加载 svg 格式的图片。
 
 svg 图片采用了特殊的渲染逻辑，可以实现高清晰缩放.
 
-通过 url 无法识别出 svg 的情况下，可以通过 [图案填充](/reference/property/paint/image.md) 指定 format 为 svg。
+通过 url 无法识别出 svg 的情况下，可以通过 [图案填充](/reference/UI/paint/image.md) 指定 format 为 svg。
 
 想修改 svg 图片的颜色，可以采用 [这个办法](https://developers.weixin.qq.com/community/develop/article/doc/000606868600b8d5f2ae12d9551813)。
 

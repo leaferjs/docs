@@ -4,7 +4,7 @@
 
 相对元素的 boxBounds 为起点定位，设置了相对 [世界坐标](/guide/basic/coordinate.md#world) 的位置、旋转、镜像属性。
 
-内部添加的控制点，只需相对 [boxBounds](/reference/property/bounds.md#boxbounds-iboundsdata) 乘以 [world 缩放值](/reference/property/transform.md#worldtransform-imatrixwithscaledata) **（必须转为正数）** 进行定位即可。
+内部添加的控制点，只需相对 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata) 乘以 [world 缩放值](/reference/UI/transform.md#worldtransform-imatrixwithscaledata) **（必须转为正数）** 进行定位即可。
 
 ::: tip 继承
 EditBox &nbsp;>&nbsp; [Group](/reference/display/Group.md) &nbsp;>&nbsp; [UI](/reference/display/UI.md)

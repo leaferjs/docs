@@ -32,7 +32,7 @@
 
 ## 了解数据结构
 
-### [数据分层结构](/reference/property/data.md#数据分层结构)
+### [数据分层结构](/reference/UI/data.md#数据分层结构)
 
 ## 示例
 

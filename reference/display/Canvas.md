@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Canvas
+# Canvas 元素
 
 画布对象，可以自由绘制、操作像素，或将其他图形直接绘制到 Canvas 上。
 

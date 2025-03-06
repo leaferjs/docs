@@ -8,13 +8,13 @@ import Case from '/component/Case.vue'
 
 ##
 
-限制配置，应用运行中可实时修改 [app.editor.config](/plugin/in/editor/Editor.md#config-ieditorconfig) 生效。
+限制配置，应用运行中可实时修改 [app.editor.config](/plugin/in/editor/index.md#config-ieditorconfig) 生效。
 
-同时元素拥有 [独立的编辑配置](/reference/property/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
+同时元素拥有 [独立的编辑配置](/reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
 
 ## 关键属性
 
-### around: [`Around`](/reference/property/around.md)
+### around: [`Around`](/reference/UI/around.md)
 
 指定中心点旋转、缩放大小， 默认为无。
 

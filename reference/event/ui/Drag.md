@@ -114,7 +114,7 @@ totalX, totalY 属性的转换。
 
 ### getPageBounds ( ): [`IBoundsData`](/reference/interface/math/Math.md#iboundsdata)
 
-获取事件在 page 坐标系中形成的拖拽区域，可用于快速 [创建图形](/plugin/in/editor/Editor.md#创建图形模式)。
+获取事件在 page 坐标系中形成的拖拽区域，可用于快速 [创建图形](/plugin/in/editor/index.md#创建图形模式)。
 
 ## 静态方法
 
@@ -138,7 +138,7 @@ totalX, totalY 属性的转换。
 
 ### 手动拖拽元素
 
-默认 [drggable](/reference/property/draggable.md) 为 true 或 [DragEvent.setList()](./Drag.md#静态方法) 的元素会自动拖拽。
+默认 [drggable](/reference/UI/draggable.md) 为 true 或 [DragEvent.setList()](./Drag.md#静态方法) 的元素会自动拖拽。
 
 ::: code-group
 <<< @/code/event-ui/drag/simple.ts

@@ -2,7 +2,7 @@
 
 自定义元素的第 1 步是： **注册元素**。
 
-注册成功后可以导入导出 [JSON](/reference/property/json.md) 。
+注册成功后可以导入导出 [JSON](/reference/UI/json.md) 。
 
 ## 注意事项
 
@@ -30,7 +30,7 @@ TypeScript 环境需在 `tsconfig.json` 配置文件中开启装饰器功能支�
 
 ### 2. 定义标签名
 
-定义全局唯一的 [tag](/reference/property/tag.md) 名称。
+定义全局唯一的 [tag](/reference/UI/tag.md) 名称。
 
 导入 json 时，通过 tag 属性查找对应元素类进行实例化。
 

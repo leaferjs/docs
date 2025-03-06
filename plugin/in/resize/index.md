@@ -1,10 +1,6 @@
-# resize 插件
+# resize
 
 调整元素/组元素的包围盒大小。
-
-## 适用平台
-
-支持所有平台。
 
 ## 安装插件
 
@@ -30,9 +26,8 @@ bun add @leafer-in/resize
 
 :::
 
-### 通过 script 标签引入
+或通过 script 标签引入，使用全局变量 LeaferIN.resize 访问插件内部功能。
 
-通过全局变量 LeaferIN.resize 访问插件内部功能。
 ::: code-group
 
 ```html [resize.min]
@@ -43,9 +38,10 @@ bun add @leafer-in/resize
 <script src="https://unpkg.com/@leafer-in/resize@1.4.2/dist/resize.js"></script>
 ```
 
-https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+<!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
 :::
 
 ## 下一步
 
-### [resize 元素 / 容器](/reference/property/resize.md)
+### [resize 元素 / 容器](/reference/UI/resize.md)

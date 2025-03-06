@@ -2,9 +2,9 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Ellipse
+# Ellipse 元素
 
-绘制圆、圆环、扇形圆环、扇形、弧线、椭圆，想从中心点绘制，可以了解 [around](/reference/property/around.md)。
+绘制圆、圆环、扇形圆环、扇形、弧线、椭圆，想从中心点绘制，可以了解 [around](/reference/UI/around.md)。
 
 <case name="Ellipse" editor=false></case>
 

@@ -4,7 +4,7 @@ Child 事件。
 
 添加 / 移除事件的派发顺序为：子元素、父元素、Leafer 实例，[渲染生命周期](/guide/life/render.md) 中会监听。
 
-[`leafer.ready`](./Leafer.md) 事件之后才会派发添加 / 移除事件，想在 ready 前 [执行相关事件](/reference/property/parent.md#waitparent-item-function-bind-object)？
+[`leafer.ready`](./Leafer.md) 事件之后才会派发添加 / 移除事件，想在 ready 前 [执行相关事件](/reference/UI/parent.md#waitparent-item-function-bind-object)？
 
 ::: tip 继承
 ChildEvent &nbsp;>&nbsp; [Event](../basic/Event.md)

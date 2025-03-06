@@ -32,7 +32,7 @@ bun add @leafer-editor/worker
 
 :::
 
-## importScripts 引入
+#### importScripts 引入
 
 通过全局变量 LeaferUI 访问内部功能。
 
@@ -50,7 +50,7 @@ importScripts('https://unpkg.com/@leafer-editor/worker@1.4.2/dist/worker.js')
 
 :::
 
-https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+<!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
 
 ## 使用
 

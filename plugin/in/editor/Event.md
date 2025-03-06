@@ -12,7 +12,7 @@ import Case from '/component/Case.vue'
 
 ### 事件属性
 
-### editor: [`Editor`](/plugin/in/editor/Editor.md)
+### editor: [`Editor`](/plugin/in/editor/index.md)
 
 编辑器对象。
 
@@ -38,7 +38,7 @@ import Case from '/component/Case.vue'
 
 选择元素事件。
 
-选择和取消都会触发， 通过 [editor.target](./Editor.md#target-ui-ui) 获取选中的元素。
+选择和取消都会触发， 通过 [editor.target](/plugin/in/editor/index.md#target-ui-ui) 获取选中的元素。
 
 `editor.select`
 
@@ -46,7 +46,7 @@ import Case from '/component/Case.vue'
 
 hover 元素事件。
 
-选择和取消都会触发， 通过 [editor.hoverTarget](./Editor.md#hovertarget-ui) 获取选中的元素列表。
+选择和取消都会触发， 通过 [editor.hoverTarget](/plugin/in/editor/index.md#hovertarget-ui) 获取选中的元素列表。
 
 `editor.hover`
 

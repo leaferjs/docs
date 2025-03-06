@@ -1,4 +1,4 @@
-# Group
+# Group 元素
 
 创建 Group。类似于 HTML5 中的 DIV，但自身没有填充/描边等外观样式，用于组合多个子元素，可设置 x、y、scale、rotation 等属性，子元素相对其进行定位，支持不断嵌套。
 
@@ -7,7 +7,7 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 <br/>
 
-注意：实际宽高随子元素变化，不能设置 width / hegiht，需通过 [bounds](/reference/property/bounds.md) 获取实际宽高信息。
+注意：实际宽高随子元素变化，不能设置 width / hegiht，需通过 [bounds](/reference/UI/bounds.md) 获取实际宽高信息。
 :::
 
 ## 关键属性（只读）
@@ -16,7 +16,7 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 子元素列表，不能直接操作。
 
-[图形编辑器](/plugin/in/editor/Editor.md#打组) 中使用时，需将 [hitChildren](/reference/property/hitChildren.md) 设为 false，只能通过双击进组编辑子元素。
+[图形编辑器](/plugin/in/editor/index.md#编组) 中使用时，需将 [hitChildren](/reference/UI/hitChildren.md) 设为 false，只能通过双击进组编辑子元素。
 
 ## 编辑属性
 
@@ -101,6 +101,6 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 ### 使用条件移除
 
-支持所有 [find()](/reference/property/find.md) 条件参数 。
+支持所有 [find()](/reference/UI/find.md) 条件参数 。
 
 <<< @/code/basic/remove/remove-tag.ts

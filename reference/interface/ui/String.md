@@ -41,7 +41,7 @@ stroke-width: 2 1 2 1 // top left bottom right
 
 ## DashPatternString
 
-[DashPattern](/reference/property/stroke.md#dashpattern-number) 的字符串简写
+[DashPattern](/reference/UI/stroke.md#dashpattern-number) 的字符串简写
 
 虚线图例
 
@@ -71,7 +71,7 @@ const multiplePaint = 'image(url, fit, 200%) lighten, rgba(255,0,0,0.5)'
 
 ## SolidPaintString
 
-[SolidPaint](/reference/property/paint/solid.md) 的字符串简写
+[SolidPaint](/reference/UI/paint/solid.md) 的字符串简写
 
 参数识别规则:
 
@@ -92,7 +92,7 @@ fill: #ff0000 100% hide, #ffff0080; // color, opacity, visible
 
 ## GradientPaintString
 
-[GradientPaint](/reference/property/paint/linear.md) 的字符串简写
+[GradientPaint](/reference/UI/paint/linear.md) 的字符串简写
 
 参数识别规则:
 
@@ -116,7 +116,7 @@ fill: radial(10deg, 20%, #ff0000, #ffff00); // gradient(rotation, stretch, color
 
 ## ImagePaintString
 
-[ImagePaint](/reference/property/paint/image.md) 的字符串简写
+[ImagePaint](/reference/UI/paint/image.md) 的字符串简写
 
 参数识别规则:
 

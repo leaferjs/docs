@@ -1,10 +1,6 @@
-# color 插件
+# color
 
 支持颜色格式转换，色彩名转色彩值。
-
-## 适用平台
-
-支持所有平台。
 
 ## 安装插件
 
@@ -30,9 +26,8 @@ bun add @leafer-in/color
 
 :::
 
-### 通过 script 标签引入
+或通过 script 标签引入，使用全局变量 LeaferIN.color 访问插件内部功能。
 
-通过全局变量 LeaferIN.color 访问插件内部功能。
 ::: code-group
 
 ```html [color.min]
@@ -43,5 +38,6 @@ bun add @leafer-in/color
 <script src="https://unpkg.com/@leafer-in/color@1.4.2/dist/color.js"></script>
 ```
 
-https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+<!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
 :::

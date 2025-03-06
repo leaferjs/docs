@@ -1,10 +1,6 @@
-# 导出元素插件
+# 导出元素
 
-导出元素插件。
-
-## 适用平台
-
-支持所有平台。
+导出元素功能。
 
 ## 安装插件
 
@@ -30,9 +26,8 @@ bun add @leafer-in/export
 
 :::
 
-### 通过 script 标签引入
+或通过 script 标签引入，使用全局变量 LeaferIN.export 访问插件内部功能。
 
-通过全局变量 LeaferIN.export 访问插件内部功能。
 ::: code-group
 
 ```html [export.min]
@@ -43,9 +38,10 @@ bun add @leafer-in/export
 <script src="https://unpkg.com/@leafer-in/export@1.4.2/dist/export.js"></script>
 ```
 
-https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+<!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
 :::
 
 ## 下一步
 
-### [export ()](/reference/property/export.md)
+### [export ()](/reference/UI/export.md)

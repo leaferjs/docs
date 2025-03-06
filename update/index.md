@@ -12,9 +12,9 @@
 
 #### 🌱 新增
 
-\- 🌸 [图形编辑器](/plugin/in/editor/index.md) 的 resize 控制点支持关联 [dragBounds](/reference/property/dragBounds.md)，用于限制拖动范围
+\- 🌸 [图形编辑器](/plugin/in/editor/index.md) 的 resize 控制点支持关联 [dragBounds](/reference/UI/dragBounds.md)，用于限制拖动范围
 
-\- 🌸 [视图控制](/plugin/in/view/index.md) 插件的 [zoom()](/plugin/in/view/zoom.md) 方法支持动画过渡参数
+\- 🌸 [视图控制](/plugin/in/view/index.md) 插件的 [zoom()](/plugin/in/view/index.md) 方法支持动画过渡参数
 
 \- 🌸 增加 [资源库功能](/reference/resource/Resource.md)，可预加载图片，原始图片对象、画布对象可转为 url
 
@@ -26,7 +26,7 @@
 
 \- 🌸 Line 绘制多折线在 cornerRadius 较大会出现毛刺
 
-\- 🌸 [pick()](/reference/property/pick.md) 方法和 [模拟交互](/reference/event/simulation.md) 及时更新布局
+\- 🌸 [pick()](/reference/UI/pick.md) 方法和 [模拟交互](/reference/event/simulation.md) 及时更新布局
 
 \- 修复多选横线时，没有高度导致 resize 出错的问题
 
@@ -50,7 +50,7 @@
 
 #### 🌱 新增
 
-\- 🌸 [setTransform()](/reference/property/transform.md#关键方法)、[transform()](/reference/property/transform.md#关键方法)、[scaleOf()](/reference/property/scale.md#关键方法)、[rotateOf()](/reference/property/rotation.md#关键方法)、[skewOf()](/reference/property/skew.md#关键方法)、[transformWorld()](/reference/property/transform.md#关键方法)、[scaleOfWorld()](/reference/property/scale.md#关键方法)、[rotateOfWorld()](/reference/property/rotation.md#关键方法)、[skewOfWorld()](/reference/property/skew.md#关键方法)、[flip()](/reference/property/flip.md) 等方法支持动画过渡参数
+\- 🌸 [setTransform()](/reference/UI/transform.md#关键方法)、[transform()](/reference/UI/transform.md#关键方法)、[scaleOf()](/reference/UI/scale.md#关键方法)、[rotateOf()](/reference/UI/rotation.md#关键方法)、[skewOf()](/reference/UI/skew.md#关键方法)、[transformWorld()](/reference/UI/transform.md#关键方法)、[scaleOfWorld()](/reference/UI/scale.md#关键方法)、[rotateOfWorld()](/reference/UI/rotation.md#关键方法)、[skewOfWorld()](/reference/UI/skew.md#关键方法)、[flip()](/reference/UI/flip.md) 等方法支持动画过渡参数
 
 #### 🪲 修复
 
@@ -58,7 +58,7 @@
 
 \- 🌸 文本 both 对齐和删除线共存的时候超出预期
 
-\- 🌸 切换 [flow](/plugin/in/flow/Flow.md#flow-boolean-iflowtype) 类型未重新布局
+\- 🌸 切换 [flow](/plugin/in/flow/#flow-boolean-iflowtype) 类型未重新布局
 
 \- 导出 base64, 浏览器 bmp 文件头未更改
 
@@ -86,7 +86,7 @@
 
 #### 🌱 新增
 
-\- 🌸 导出图片增加 [padding](/reference/property/export.md) 参数
+\- 🌸 导出图片增加 [padding](/reference/UI/export.md) 参数
 
 \- 🌸 导出图片增加 bmp 格式，需平台自身支持
 
@@ -94,7 +94,7 @@
 
 \- 🌸 动画参数 loop 偶数循环的终点不正确
 
-\- 🌸 交互状态 [state](/reference/property/state/state.md) 无法传递给子元素
+\- 🌸 交互状态 [state](/reference/UI/state/state.md) 无法传递给子元素
 
 \- 🌸 Box 的长宽未设置时，其内部元素移动后，Box 渲染错误
 
@@ -102,9 +102,9 @@
 
 #### 🌿 优化
 
-\- 🌸 提供元素当前形状转路径 [path](/reference/property/path.md#path-ipathstring-ipathcommanddata) 属性的示例
+\- 🌸 提供元素当前形状转路径 [path](/reference/UI/path.md#path-ipathstring-ipathcommanddata) 属性的示例
 
-\- 🌸 提供保持原位不动，切换 [origin](/reference/property/origin.md#origin-ialign-iunitpointdata) / [around](/reference/property/around.md#around-ialign-iunitpointdata) 点的示例
+\- 🌸 提供保持原位不动，切换 [origin](/reference/UI/origin.md#origin-ialign-iunitpointdata) / [around](/reference/UI/around.md#around-ialign-iunitpointdata) 点的示例
 
 \- 从 [图形编辑器插件](/plugin/in/editor/index.md) 中剥离出 [查找元素插件](/plugin/in/find/index.md) 依赖
 
@@ -136,11 +136,11 @@
 
 \- 🌸 Text 元素的 [textAlign](/reference/display/Text.md#textalign-itextalign) 属性支持设置 'both' 来强制两端对齐文本
 
-\- 🌸 [animation](/reference/property/animation.md) 及其他动画参数中的 单个关键帧 支持 单独设置循环、摇摆次数
+\- 🌸 [animation](/reference/UI/animation.md) 及其他动画参数中的 单个关键帧 支持 单独设置循环、摇摆次数
 
 \- 摇摆动画参数 swing 支持设置摇摆次数 (每到达 to 算一次)
 
-\- 元素的 [animation](/reference/property/animation.md) 属性支持多个动画叠加
+\- 元素的 [animation](/reference/UI/animation.md) 属性支持多个动画叠加
 
 #### 🪲 修复
 
@@ -178,9 +178,9 @@
 
 \- 🌸 Text 增加 [打字机](/reference/display/Text.md#打字机动画) / [删除文字](/reference/display/Text.md#删除文字动画) 动画效果，只需将 text 属性作为动画样式即可
 
-\- 🌸 Animate 类增加 [style](/plugin/in/animate/Animate.md#style-iuiinputdata) 属性，获取当前动画状态的样式
+\- 🌸 Animate 类增加 [style](/plugin/in/animate/#animate-类#style-iuiinputdata) 属性，获取当前动画状态的样式
 
-\- 🌸 Animate 类初始化 [target](/plugin/in/animate/Animate.md#target-ui-object) 参数支持普通对象。
+\- 🌸 Animate 类初始化 [target](/plugin/in/animate/#animate-类#target-ui-object) 参数支持普通对象。
 
 #### 🌿 优化
 
@@ -226,7 +226,7 @@
 
 1. 为让核心包支持更多的场景，同时减小尺寸，本次升级将 [缩放平移视图](/guide/advanced/viewport.md) 功能 移动到了 **viewport 视口插件** 中（不影响运行），需安装引入 [视口插件](/plugin/in/viewport/index.md) 才能使用， 或安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
 
-2. 监听 RenderEvent.NEXT 事件的代码，需改用 [nextRender()](/reference/property/nextRender.md) 或 [Platform.requestRender()](/reference/event/basic/Render.md#请求渲染-动画帧) 方法。
+2. 监听 RenderEvent.NEXT 事件的代码，需改用 [nextRender()](/reference/UI/nextRender.md) 或 [Platform.requestRender()](/reference/event/basic/Render.md#请求渲染-动画帧) 方法。
 
 3. [图形编辑器](/plugin/in/editor/index.md#通过-script-标签引入)、[动画](/plugin/in/animate/index.md#通过-script-标签引入) 插件，需额外引入 [resize 插件](/plugin/in/resize/index.md) 、[color 插件](/plugin/in/color/index.md)，控制台会有警告。
    :::
@@ -293,13 +293,13 @@
 
 \- 🌸 文本支持 [count 动画](/reference/display/Text.md#文本-count-动画)，text 属性传入数字即可
 
-\- 🌸 元素 move() 方法增加 [动画过渡参数](/reference/property/position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)
+\- 🌸 元素 move() 方法增加 [动画过渡参数](/reference/UI/position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)
 
-\- 🌸 元素 set() 方法增加 [动画过渡参数](/reference/property/data.md#set-data-iuiinputdata-transition-itranstion)
+\- 🌸 元素 set() 方法增加 [动画过渡参数](/reference/UI/data.md#set-data-iuiinputdata-transition-itranstion)
 
-\- Robot 元素的 actions 属性增加 [IRobotAnimation 类型](/plugin/in/robot/Robot.md#actions-irobotactions) ，支持单独配置 loop / FPS 参数
+\- Robot 元素的 actions 属性增加 [IRobotAnimation 类型](/plugin/in/robot/#actions-irobotactions) ，支持单独配置 loop / FPS 参数
 
-\- 运动路径增加 [motionPrecision](/reference/property/motionPath.md#motionprecision-number) 属性， 用于控制运动精度
+\- 运动路径增加 [motionPrecision](/reference/UI/motionPath.md#motionprecision-number) 属性， 用于控制运动精度
 
 \- 编辑器配置增加 [textEditor](/plugin/in/editor/config/innerEditor.md) / [pathEditor](/plugin/in/editor/config/innerEditor.md) 配置对象用于自定义内部编辑器，并支持依次扩展
 
@@ -337,9 +337,9 @@
 
 #### 🌱 新增
 
-\- 🌸 遮罩增加 [clipping-path](/reference/property/mask.md) 类型，用于制作高性能剪贴路径遮罩。
+\- 🌸 遮罩增加 [clipping-path](/reference/UI/mask.md) 类型，用于制作高性能剪贴路径遮罩。
 
-\- 🌸 遮罩增加 [grayscale](/reference/property/mask.md) 类型，用于制作灰度（明度）遮罩。
+\- 🌸 遮罩增加 [grayscale](/reference/UI/mask.md) 类型，用于制作灰度（明度）遮罩。
 
 #### 🪲 修复
 
@@ -405,9 +405,9 @@
 
 \- 🌸 [leafer-game](/guide/install/game/start.md) 游戏开发场景包发布，集成常用插件 🎉🎉🎉
 
-\- 🌸 元素 [getPathString()](/reference/property/getPathString.md) 方法支持设置保留小数位长度
+\- 🌸 元素 [getPathString()](/reference/UI/getPathString.md) 方法支持设置保留小数位长度
 
-\- 图片填充增加渲染优化开关 [fill.sync](/reference/property/paint/image.md#sync-boolean)，可让图片缩放过程中不模糊
+\- 图片填充增加渲染优化开关 [fill.sync](/reference/UI/paint/image.md#sync-boolean)，可让图片缩放过程中不模糊
 
 #### 🪲 修复
 
@@ -489,13 +489,13 @@
 
 \- 🌸 图形编辑器支持在多个 leafer 层中选择元素
 
-\- 🌸 图形编辑器多选时，也能使用 [element](/plugin/in/editor/Editor.md#element-ui) 元素的属性方法直接移动、调整编辑框
+\- 🌸 图形编辑器多选时，也能使用 [element](/plugin/in/editor/index.md#element-ui) 元素的属性方法直接移动、调整编辑框
 
 \- 组元素 [add()](/guide/basic/display.md#使用-tag) 方法支持传入 JSON 创建元素
 
 \- 组元素 [remove()](/guide/basic/remove.md#条件移除) 方法支持传入条件移除元素
 
-\- 🌸 Box 元素增加 [textBox](/reference/display/Box.md#textbox-boolean) 文本框属性，可在编辑器中双击 Box 元素直接编辑 [editable](/reference/property/editable.md) 子文本
+\- 🌸 Box 元素增加 [textBox](/reference/display/Box.md#textbox-boolean) 文本框属性，可在编辑器中双击 Box 元素直接编辑 [editable](/reference/UI/editable.md) 子文本
 
 \- Text 元素增加 [autoSizeAlign](/reference/display/Text.md#autosizealign-boolean) 属性， 当文本没有宽高且有对齐属性时，是否对齐起始坐标
 
@@ -505,7 +505,7 @@
 
 #### 🪲 修复
 
-\- 🌸 [箭头元素](/plugin/in/arrow/Arrow.md) 为曲线路径且在编辑器中 resize 到比较小时会跑偏
+\- 🌸 [箭头元素](/plugin/in/arrow/) 为曲线路径且在编辑器中 resize 到比较小时会跑偏
 
 \- 🌸 图形编辑器多选元素不会触发 [drag.enter](/reference/event/ui/Drag.md)、[drop](/reference/event/ui/Drop.md) 事件
 
@@ -515,7 +515,7 @@
 
 \- 多选元素时，app.editor 会监听两次交互事件的问题
 
-\- [animation](/reference/property/animation.md) 初始化 [event](/plugin/in/animate/Animate.md#event-ianimateevents) 监听未生效的问题
+\- [animation](/reference/UI/animation.md) 初始化 [event](/plugin/in/animate/#animate-类#event-ianimateevents) 监听未生效的问题
 
 \- 🌸 Box 元素有背景图片没加载完时，内部子元素动画不渲染
 
@@ -531,7 +531,7 @@
 
 #### 🌿 优化
 
-\- [Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 元素不再支持 [解组](/plugin/in/editor/Editor.md#ungroup-ui)，防止产生问题，如需编组/解组，请使用 Group 元素代替
+\- [Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 元素不再支持 [解组](/plugin/in/editor/index.md#ungroup-ui)，防止产生问题，如需编组/解组，请使用 Group 元素代替
 
 #### 🌷 感谢反馈
 
@@ -575,17 +575,17 @@
 
 \- 🌸 [robot 游戏插件](/plugin/in/robot/index.md) 上线 🎉🎉🎉
 
-\- 元素增加 [animation](/reference/property/animation.md) 动画属性、[transition](/reference/property/transition.md) 过渡属性、[animate() ](/reference/property/animate.md) 动画方法
+\- 元素增加 [animation](/reference/UI/animation.md) 动画属性、[transition](/reference/UI/transition.md) 过渡属性、[animate() ](/reference/UI/animate.md) 动画方法
 
-\- 元素增加 [state](/reference/property/state/state.md) 状态属性，可预设复杂多样的状态
+\- 元素增加 [state](/reference/UI/state/state.md) 状态属性，可预设复杂多样的状态
 
-\- [Box](/reference/display/Box.md) / [Group ](/reference/display/Group.md)可通过设置 [button](/reference/property/state/state.md#button-boolean) 属性，使子元素自动同步交互状态。
+\- [Box](/reference/display/Box.md) / [Group ](/reference/display/Group.md)可通过设置 [button](/reference/UI/state/state.md#button-boolean) 属性，使子元素自动同步交互状态。
 
-\- 增加 box 坐标系 [getBoxPoint()](/reference/property/point/index.md#box-坐标) / [getBoxPointByInner](/reference/property/point/index.md#box-坐标) / [getInnerPointByBox()](/reference/property/point/index.md#内部坐标) / [getWorldPointByBox()](/reference/property/point/index.md#box-坐标)， UIEvent 增加 [getBoxPoint](/reference/event/ui/UIEvent.md#转换坐标方法) 方法
+\- 增加 box 坐标系 [getBoxPoint()](/reference/UI/point/index.md#box-坐标) / [getBoxPointByInner](/reference/UI/point/index.md#box-坐标) / [getInnerPointByBox()](/reference/UI/point/index.md#内部坐标) / [getWorldPointByBox()](/reference/UI/point/index.md#box-坐标)， UIEvent 增加 [getBoxPoint](/reference/event/ui/UIEvent.md#转换坐标方法) 方法
 
 \- 元素增加 [created](/reference/event/basic/Child.md#仅派发给元素自身的事件) / [mounted](/reference/event/basic/Child.md#仅派发给元素自身的事件) / [unmounted](/reference/event/basic/Child.md#仅派发给元素自身的事件) 事件，可通过 event 初始化对象监听
 
-\- clone() 方法增加 [data](/reference/property/clone.md) 参数覆盖旧数据
+\- clone() 方法增加 [data](/reference/UI/clone.md) 参数覆盖旧数据
 
 #### 🌿 优化
 
@@ -653,11 +653,11 @@
 
 \- Leafer 增加 [getPagePointByClient()](/reference/display/Leafer.md#getpagepointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法用于转换浏览器 client 坐标到应用中
 
-\- 元素增加 [moveInner()](/reference/property/transform.md#moveinner-x-number-ipointdata-y-0) 方法，可在内部坐标系中移动元素
+\- 元素增加 [moveInner()](/reference/UI/transform.md#moveinner-x-number-ipointdata-y-0) 方法，可在内部坐标系中移动元素
 
-\- [Canvas](/reference/display/Canvas.md#json) 元素支持导出 [JSON](/reference/property/json.md) 数据
+\- [Canvas](/reference/display/Canvas.md#json) 元素支持导出 [JSON](/reference/UI/json.md) 数据
 
-\- 导出图片增加 [size](/reference/property/export.md#export) 导出选项，用于限制导出宽高
+\- 导出图片增加 [size](/reference/UI/export.md#export) 导出选项，用于限制导出宽高
 
 \- [script 标签引入](/guide/install/ui/start.md#通过-script-标签引入) 添加别名 [MyImage](/reference/display/Image.md) / [MyPointerEvent](/reference/event/ui/Pointer.md) / [MyDragEvent](/reference/event/ui/Drag.md)，防止命名冲突
 
@@ -701,13 +701,13 @@
 
 \- 🌸 应用增加 [app.config.mobile](/reference/config/app/base.md#mobile-boolean) 配置，用于优化手机端交互体验
 
-\- 元素增加 [event](/reference/property/on.md) 属性，用于初始化时传入事件进行监听
+\- 元素增加 [event](/reference/UI/on.md) 属性，用于初始化时传入事件进行监听
 
 \- PointerEvent 事件 增加 [multiTouch](/reference/event/ui/Pointer.md#multitouch-boolean) 属性， 用来判断是否多点触屏
 
 \- MoveEvent 增加 [moveType](/reference/event/ui/Move.md#movetype-move-drag)， 区分鼠标滚动 / 拖拽产生的视图移动
 
-\- 元素增加 [flip()](/reference/property/transform.md#flip-axis-x-y) 方法，用于在世界坐标轴中 镜像/翻转元素
+\- 元素增加 [flip()](/reference/UI/transform.md#flip-axis-x-y) 方法，用于在世界坐标轴中 镜像/翻转元素
 
 #### 🪴 图形编辑器插件
 
@@ -715,13 +715,13 @@
 
 \- 🌸 编辑器控制点支持设置 [pointType](/plugin/in/editor/config/style.md#point-iboxinputdata-iboxinputdata) 属性自定义按钮功能
 
-\- 🌸 支持限制元素的宽高 [widthRange](/reference/property/editable.md#widthrange-irangesize)、 [heightRange](/reference/property/editable.md#widthrange-irangesize)，
+\- 🌸 支持限制元素的宽高 [widthRange](/reference/UI/editable.md#widthrange-irangesize)、 [heightRange](/reference/UI/editable.md#widthrange-irangesize)，
 
 \- 🌸 支持混合使用 origin 、around 属性元素， 并会取其作为旋转点
 
 \- 增加 [flipable](/plugin/in/editor/config/enable.md#flipable-boolean) 配置, 控制是否启用镜像/翻转元素功能
 
-\- 增加 [flip()](/plugin/in/editor/Editor.md#flip-axis-x-y) 方法，用于手动镜像/翻转元素
+\- 增加 [flip()](/plugin/in/editor/index.md#flip-axis-x-y) 方法，用于手动镜像/翻转元素
 
 \- moveable 配置增加 [`'move'`](/plugin/in/editor/config/enable.md) 类型， 用于手机端双指移动选中元素
 
@@ -729,15 +729,15 @@
 
 \- 配置 rotatePoint（仍可用）改为 [circle](/plugin/in/editor/config/style.md#旋转按钮), 并增加 [circleMargin](/plugin/in/editor/config/style.md#旋转按钮)、[circleDirection](/plugin/in/editor/config/style.md#旋转按钮)
 
-\- [旋转控制点](/plugin/in/editor/config/style.md#旋转按钮) 和 [buttons](/plugin/in/editor/Editor.md#buttons-group) 进行分离，并可独立设置方向
+\- [旋转控制点](/plugin/in/editor/config/style.md#旋转按钮) 和 [buttons](/plugin/in/editor/index.md#buttons-group) 进行分离，并可独立设置方向
 
 #### 🌿 优化
 
 \- Matrix 的 [setLayout()](/reference/math/Matrix.md#setlayout-layout-ilayoutdata-origin-ipointdata-around-ipointdata-matrix) / [getLayout()](/reference/math/Matrix.md#setlayout-layout-ilayoutdata-origin-ipointdata-around-ipointdata-matrix) 方法增加 around 参数
 
-\- [export()](/reference/property/export.md) 导出切片时，自动隐藏切片(当前导出元素)
+\- [export()](/reference/UI/export.md) 导出切片时，自动隐藏切片(当前导出元素)
 
-\- [rotateOf()](/reference/property/rotation.md#rotateof-origin-ialign-ipointdata-addrotation-number)、[skewOf()](/reference/property/skew.md#skewof-origin-ialign-ipointdata-addskewx-number-addskewy-0-resize-boolean) 的 origin 参数由 [inner 坐标](/guide/basic/coordinate.md#inner) 改为 [box 坐标](/guide/basic/coordinate.md#box)
+\- [rotateOf()](/reference/UI/rotation.md#rotateof-origin-ialign-ipointdata-addrotation-number)、[skewOf()](/reference/UI/skew.md#skewof-origin-ialign-ipointdata-addskewx-number-addskewy-0-resize-boolean) 的 origin 参数由 [inner 坐标](/guide/basic/coordinate.md#inner) 改为 [box 坐标](/guide/basic/coordinate.md#box)
 
 #### 🪲 修复
 
@@ -783,7 +783,7 @@
 
 \- 应用配置增加 [app.config.wheel.disabled](/reference/config/app/wheel.md#wheeldisabled-boolean) 可禁用滚轮事件
 
-\- [export()](/reference/property/export.md#关键方法)、[toJSON()](/reference/property/json.md#tojson-iuiinputdata)、[toString()](/reference/property/json.md#tostring-options-ijsonoptions-string) 支持 JSON 导出选项（可导出元素本地矩阵）
+\- [export()](/reference/UI/export.md#关键方法)、[toJSON()](/reference/UI/json.md#tojson-iuiinputdata)、[toString()](/reference/UI/json.md#tostring-options-ijsonoptions-string) 支持 JSON 导出选项（可导出元素本地矩阵）
 
 \- 图形编辑器增加遮罩配置 [editor.config.mask](/plugin/in/editor/config/style.md#mask-string)，适用于裁剪图片场景。
 
@@ -799,13 +799,13 @@
 
 #### 🌿 优化
 
-\- 优化 Group 的 [resizeWidth()](/reference/property/resize.md) / [resizeHeight()](/reference/property/resize.md) 定位准确性
+\- 优化 Group 的 [resizeWidth()](/reference/UI/resize.md) / [resizeHeight()](/reference/UI/resize.md) 定位准确性
 
 \- 当最终创建的画布没有宽高时，控制台打印警告提示
 
 #### 正式移除 API （已预告过）
 
-\- 正式移除元素的 getWorld()方法， 请使用 [getLayoutBounds()](/reference/property/bounds.md#关键方法)
+\- 正式移除元素的 getWorld()方法， 请使用 [getLayoutBounds()](/reference/UI/bounds.md#关键方法)
 
 #### 🌷 感谢反馈
 
@@ -827,9 +827,9 @@
 
 \- App 结构下支持修改 Leafer 的 [zIndex](/reference/display/Leafer.md#zindex-number) 属性调整层叠顺序 [#70](https://github.com/leaferjs/leafer-ui/issues/70)
 
-\- 图形编辑器增加 [updateEditBox()](/plugin/in/editor/Editor.md#updateeditbox) 方法，用于多选元素对齐后，手动更新编辑框大小
+\- 图形编辑器增加 [updateEditBox()](/plugin/in/editor/index.md#updateeditbox) 方法，用于多选元素对齐后，手动更新编辑框大小
 
-\- [export()](/reference/property/export.md#export) 支持导出懒加载的图片，并增加 smooth、contextSetting 画布设置。
+\- [export()](/reference/UI/export.md#export) 支持导出懒加载的图片，并增加 smooth、contextSetting 画布设置。
 
 #### 🪲 修复
 
@@ -855,9 +855,9 @@
 
 #### 🌱 新增 🎉🎉🎉
 
-\- 🌸 元素增加 [setAttr()](/reference/property/data.md#setattr-name-string-value-any) 、 [getAttr()](/reference/property/data.md#setattr-name-string-value-any) 、[getComputedAttr()](/reference/property/data.md#setattr-name-string-value-any) 方法用于便捷获取数据
+\- 🌸 元素增加 [setAttr()](/reference/UI/data.md#setattr-name-string-value-any) 、 [getAttr()](/reference/UI/data.md#setattr-name-string-value-any) 、[getComputedAttr()](/reference/UI/data.md#setattr-name-string-value-any) 方法用于便捷获取数据
 
-\- 🌸 元素增加 [data](/reference/property/data.md) 自定义数据对象，预留给用户使用
+\- 🌸 元素增加 [data](/reference/UI/data.md) 自定义数据对象，预留给用户使用
 
 \- 🌸 [Canvas](/reference/display/Canvas.md) 元素 支持 hitFill 像素碰撞检测
 
@@ -865,7 +865,7 @@
 
 \- 🌸 hitFill 像素碰撞检测的问题
 
-\- 🌸 [dragBounds](/reference/property/draggable.md#dragbounds-iboundsdata-parent) 为 parent 且拖拽元素比父容器大时，拖拽闪烁的问题
+\- 🌸 [dragBounds](/reference/UI/draggable.md#dragbounds-iboundsdata-parent) 为 parent 且拖拽元素比父容器大时，拖拽闪烁的问题
 
 #### 🌷 感谢反馈
 
@@ -877,29 +877,29 @@
 
 #### 🌱 新增 🎉🎉🎉
 
-\- 🌸 元素/组元素增加 [lockRatio](/reference/property/editable.md#lockratio-boolean) 属性，可单独锁定宽高比例
+\- 🌸 元素/组元素增加 [lockRatio](/reference/UI/editable.md#lockratio-boolean) 属性，可单独锁定宽高比例
 
-\- 🌸 元素/组元素增加 [resizeWidth()](/reference/property/resize.md) / [resizeHeight()](/reference/property/resize.md) 方法
+\- 🌸 元素/组元素增加 [resizeWidth()](/reference/UI/resize.md) / [resizeHeight()](/reference/UI/resize.md) 方法
 
-\- Box 增加 [resizeChildren](/reference/property/resize.md#resizechildren-boolean) 属性，可以控制子元素是否跟随 resize
+\- Box 增加 [resizeChildren](/reference/UI/resize.md#resizechildren-boolean) 属性，可以控制子元素是否跟随 resize
 
-\- Text 增加 [resizeFontSize](/reference/property/resize.md#resizefontsize-boolean) 属性，可单独控制 resize 字体大小
+\- Text 增加 [resizeFontSize](/reference/UI/resize.md#resizefontsize-boolean) 属性，可单独控制 resize 字体大小
 
 \- 应用增加 [config.keyEvent](/reference/config/app/base.md#keyevent-boolean) 配置， 用来设置是否接收键盘事件
 
-\- DragEvent 增加 [getPageBounds()](/reference/event/ui/Drag.md#getpagebounds-iboundsdata) 方法，获取拖拽形成的边界，可用于快速 [创建图形](/plugin/in/editor/Editor.md#创建图形模式)
+\- DragEvent 增加 [getPageBounds()](/reference/event/ui/Drag.md#getpagebounds-iboundsdata) 方法，获取拖拽形成的边界，可用于快速 [创建图形](/plugin/in/editor/index.md#创建图形模式)
 
 \- Bounds 增加 [setPoint()](/reference/math/Bounds.md#setpoint-point-ipointdata-bounds) 方法
 
 #### 🪴 图形编辑器插件
 
-\- 🌸 增加 [创建图形](/plugin/in/editor/Editor.md#创建图形模式)、[手动旋转元素](/plugin/in/editor/Editor.md#手动旋转元素) 代码示例
+\- 🌸 增加 [创建图形](/plugin/in/editor/index.md#创建图形模式)、[手动旋转元素](/plugin/in/editor/index.md#手动旋转元素) 代码示例
 
-\- 🌸 可通过监听 editor 的 [`drag.start`](/reference/event/ui/Drag.md) 和 [`drag.end`](/reference/event/ui/Drag.md) 事件作为 [记录历史状态](/plugin/in/editor/Editor.md#历史记录) 的时机
+\- 🌸 可通过监听 editor 的 [`drag.start`](/reference/event/ui/Drag.md) 和 [`drag.end`](/reference/event/ui/Drag.md) 事件作为 [记录历史状态](/plugin/in/editor/index.md#历史记录) 的时机
 
 \- 🌸 增加 [InnerEditorEvent](/plugin/in/editor/event/InnerEditorEvent.md)、[EditorGroupEvent](/plugin/in/editor/event/EditorGroupEvent.md) 事件
 
-\- [openInnerEditor()](/plugin/in/editor/Editor.md#openinnereditor-target-ui) 支持直接传入一个 target
+\- [openInnerEditor()](/plugin/in/editor/index.md#openinnereditor-target-ui) 支持直接传入一个 target
 
 \- 支持在侧边栏直接选中组内元素并操作
 
@@ -913,7 +913,7 @@
 
 #### 🪴 自动布局插件
 
-\- 增加 [lockRatio](/plugin/in/flow/Flow.md#lockratio-boolean) 属性，采用自动宽高时，可锁定元素原始宽高比例
+\- 增加 [lockRatio](/plugin/in/flow/#lockratio-boolean) 属性，采用自动宽高时，可锁定元素原始宽高比例
 
 \- 优化 resize 元素控制
 
@@ -921,7 +921,7 @@
 
 \- 增加打开、关闭事件 [InnerEditorEvent](/plugin/in/editor/event/InnerEditorEvent.md)
 
-\- 增加 [config.selectAll](/plugin/in/text-editor/TextEditor.md) 配置是否双击后自动全选文本
+\- 增加 [config.selectAll](/plugin/in/text-editor/#texteditor-编辑器) 配置是否双击后自动全选文本
 
 \- 修复有 padding 的文本，编辑状态 bounds 不一致的问题
 
@@ -971,15 +971,15 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 🌸 Leafer 增加 [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法， 用于转换浏览器原生事件坐标到应用中
 
-\- 🌸 元素 [visible](/reference/property/visible.md) 属性增加 类似 css 的 [`display: none`](/reference/property/visible.md) 设置
+\- 🌸 元素 [visible](/reference/UI/visible.md) 属性增加 类似 css 的 [`display: none`](/reference/UI/visible.md) 设置
 
 \- Image 增加 [load()](/reference/display/Image.md#load) 方法，当未添加到 Leafer 中时，可手动加载图片，获取图片自然宽高
 
 \- Image 单独设置宽或高，整体仍会保持原始比例，不会产生变形
 
-\- 渐变颜色的 [from](/reference/property/paint/linear.md#from-ialign-iunitpointdata) / [to](/reference/property/paint/linear.md#from-ialign-iunitpointdata) 属性 增加 语义化方位及精确像素设置
+\- 渐变颜色的 [from](/reference/UI/paint/linear.md#from-ialign-iunitpointdata) / [to](/reference/UI/paint/linear.md#from-ialign-iunitpointdata) 属性 增加 语义化方位及精确像素设置
 
-\- 渐变颜色的 [stops](/reference/property/paint/linear.md#stops-colorstop-stringcolor) 属性 增加纯颜色字符串数组类型（自动 offset）
+\- 渐变颜色的 [stops](/reference/UI/paint/linear.md#stops-colorstop-stringcolor) 属性 增加纯颜色字符串数组类型（自动 offset）
 
 #### 🪲 修复
 
@@ -999,7 +999,7 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 🌸 只要检测到是直线路径就采用直线编辑工具
 
-\- 🌸 resize 文本支持调整 fontSize , 需要给 [Text.editConfig](/reference/property/editable.md#editconfig-ieditorconfig) 配置 [editSize = ‘font-size’](/plugin/in/editor/config/base.md)
+\- 🌸 resize 文本支持调整 fontSize , 需要给 [Text.editConfig](/reference/UI/editable.md#editconfig-ieditorconfig) 配置 [editSize = ‘font-size’](/plugin/in/editor/config/base.md)
 
 \- 优化 box 的布局、渲染性能
 
@@ -1009,7 +1009,7 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 #### 🍃 API 变化 (重点关注)
 
-\- 🌸 渐变颜色的 from / to 需增加 [type: 'percent'](/reference/property/paint/linear.md#from-ialign-iunitpointdata) 属性设置百分比坐标
+\- 🌸 渐变颜色的 from / to 需增加 [type: 'percent'](/reference/UI/paint/linear.md#from-ialign-iunitpointdata) 属性设置百分比坐标
 
 #### 🪴 作品分享
 
@@ -1027,19 +1027,19 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 🌸 官方插件均添加 node 环境导入支持
 
-\- 🌸 元素增加 [origin](/reference/property/origin.md), 同 css 的 transform-origin， 作为缩放、旋转元素的原点
+\- 🌸 元素增加 [origin](/reference/UI/origin.md), 同 css 的 transform-origin， 作为缩放、旋转元素的原点
 
-\- 元素增加 [offsetX](/reference/property/offset.md)、[offsetY](/reference/property/offset.md)，方便动画、交互状态中偏移元素
+\- 元素增加 [offsetX](/reference/UI/offset.md)、[offsetY](/reference/UI/offset.md)，方便动画、交互状态中偏移元素
 
 \- Box / Frame 增加 [scrollX](/reference/display/Box.md#滚动属性)、[scrollY](/reference/display/Box.md#滚动属性)，用于滚动内部元素，方便实现滚动条效果
 
-\- 元素增加 [findId()](/reference/property/findOne.md#findid-id-number-string-ui) 方法，可以查找数字类型的 id
+\- 元素增加 [findId()](/reference/UI/findOne.md#findid-id-number-string-ui) 方法，可以查找数字类型的 id
 
-\- 元素增加 [findTag()](/reference/property/find.md#findtag-tag-number-number-ui) 方法，可以同时查找多个 tag
+\- 元素增加 [findTag()](/reference/UI/find.md#findtag-tag-number-number-ui) 方法，可以同时查找多个 tag
 
-\- 元素 [eraser](/reference/property/eraser.md) 橡皮擦属性支持 路径模式（性能更好）
+\- 元素 [eraser](/reference/UI/eraser.md) 橡皮擦属性支持 路径模式（性能更好）
 
-\- 元素 [off()](/reference/property/off.md) 支持关闭所有事件（不传 type 参数）， 关闭一类事件（不传 listener 函数）
+\- 元素 [off()](/reference/UI/off.md) 支持关闭所有事件（不传 type 参数）， 关闭一类事件（不传 listener 函数）
 
 #### 🪲 修复
 
@@ -1059,13 +1059,13 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 #### 🍃 API 变化 (重点关注)
 
-\- 🌸 设置 around 为百分比的坐标对象，需增加 [type: 'percent'](/reference/property/around.md#around-ialign-iunitpointdata) 属性
+\- 🌸 设置 around 为百分比的坐标对象，需增加 [type: 'percent'](/reference/UI/around.md#around-ialign-iunitpointdata) 属性
 
 \- 🌸 文本 [letterSpacing](/reference/display/Text.md#letterspacing-number-iunitdata) / [lineHeight](/reference/display/Text.md#lineheight-number-iunitdata) 等百分比单位的数值，由 0 ～ 100 统一调整为 0 ～ 1
 
-\- 填充图片对齐位置的 around 属性 改为 [align](/reference/property/paint/image.md#align-ialign)
+\- 填充图片对齐位置的 around 属性 改为 [align](/reference/UI/paint/image.md#align-ialign)
 
-\- 遮罩类型 maskType 合并到 [mask](/reference/property/mask.md) 中，移除 maskType
+\- 遮罩类型 maskType 合并到 [mask](/reference/UI/mask.md) 中，移除 maskType
 
 \- 移除 image 后缀 ?leaf，需要时可以自行配置 [Platform.image.suffix](/reference/display/Image.md#图片缓存)
 
@@ -1073,9 +1073,9 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 移除 forceFullRender()， 请使用 [forceRender()](/reference/display/Leafer.md#forcerender-bounds-iboundsdata-sync-boolean)
 
-\- 移除元素的 editSize 属性, 请使用 [editConfig](/reference/property/editable.md#editconfig-ieditorconfig) 设置
+\- 移除元素的 editSize 属性, 请使用 [editConfig](/reference/UI/editable.md#editconfig-ieditorconfig) 设置
 
-\- 移除编辑器的 lockMove 设置， 请使用元素的 [draggable](/reference/property/draggable.md) 锁定 x、y 轴
+\- 移除编辑器的 lockMove 设置， 请使用元素的 [draggable](/reference/UI/draggable.md) 锁定 x、y 轴
 
 #### 🌷 感谢反馈
 
@@ -1089,17 +1089,17 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 <!-- \- 🌸 文本编辑插件 初步开发完成，即将进入内测阶段。 -->
 
-\- 🌸 元素增加 [dragBounds](/reference/property/draggable.md#dragbounds-iboundsdata-parent) 属性， 可限制在指定范围、父元素中拖动 [#110](https://github.com/leaferjs/leafer-ui/issues/110)
+\- 🌸 元素增加 [dragBounds](/reference/UI/draggable.md#dragbounds-iboundsdata-parent) 属性， 可限制在指定范围、父元素中拖动 [#110](https://github.com/leaferjs/leafer-ui/issues/110)
 
-\- 🌸 图片填充增加 [normal](/reference/property/paint/image.md#mode-imagepaintmode) 模式 、 [around](/reference/property/paint/image.md#around-idirection) 参数( 按方位自动定位图片) [#131](https://github.com/leaferjs/leafer-ui/issues/131)
+\- 🌸 图片填充增加 [normal](/reference/UI/paint/image.md#mode-imagepaintmode) 模式 、 [around](/reference/UI/paint/image.md#around-idirection) 参数( 按方位自动定位图片) [#131](https://github.com/leaferjs/leafer-ui/issues/131)
 
-\- 🌸 [export()](/reference/property/export.md) 支持直接导出 json 文件
+\- 🌸 [export()](/reference/UI/export.md) 支持直接导出 json 文件
 
-\- 元素 [draggable](/reference/property/draggable.md) 可锁定在 x 或 y 轴移动
+\- 元素 [draggable](/reference/UI/draggable.md) 可锁定在 x 或 y 轴移动
 
-\- 元素 [move()](/reference/property/transform.md#move-x-number-ipointdata-y-0) / [moveWorld()](/reference/property/transform.md#moveworld-worldx-number-ipointdata-worldy-0) 支持直接传入 [坐标对象](/reference/interface/math/Math.md#ipointdata)
+\- 元素 [move()](/reference/UI/transform.md#move-x-number-ipointdata-y-0) / [moveWorld()](/reference/UI/transform.md#moveworld-worldx-number-ipointdata-worldy-0) 支持直接传入 [坐标对象](/reference/interface/math/Math.md#ipointdata)
 
-\- 元素增加 [editConfig](/reference/property/editable.md#editconfig-ieditorconfig) / [editOuter](/reference/property/editable.md#editouter-string) / [editInner](/reference/property/editable.md#editinner-string) 独立编辑器属性
+\- 元素增加 [editConfig](/reference/UI/editable.md#editconfig-ieditorconfig) / [editOuter](/reference/UI/editable.md#editouter-string) / [editInner](/reference/UI/editable.md#editinner-string) 独立编辑器属性
 
 #### 🪴 图形编辑器
 
@@ -1107,15 +1107,15 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 🌸 增加自定义 [编辑工具](/plugin/in/editor/editOuter/register.md)、 [内部编辑器](/plugin/in/editor/editInner/register.md) 功能及教程，可扩展形状、路径、文本编辑功能
 
-\- 🌸 支持双击进组, 可手动 [openGroup()](/plugin/in/editor/Editor.md#opengroup-igroup) / [closeGroup()](/plugin/in/editor/Editor.md#closegroup-igroup)
+\- 🌸 支持双击进组, 可手动 [openGroup()](/plugin/in/editor/index.md#opengroup-igroup) / [closeGroup()](/plugin/in/editor/index.md#closegroup-igroup)
 
-\- 支持双击元素打开内部编辑器, 可手动 [openInnerEditor()](/plugin/in/editor/Editor.md#openinnereditor) / [closeInnerEditor()](/plugin/in/editor/Editor.md#closeinnereditor)
+\- 支持双击元素打开内部编辑器, 可手动 [openInnerEditor()](/plugin/in/editor/index.md#openinnereditor) / [closeInnerEditor()](/plugin/in/editor/index.md#closeinnereditor)
 
-\- 增加状态属性 [editing](/plugin/in/editor/Editor.md#editing-boolean) / [innerEditing](/plugin/in/editor/Editor.md#innerediting-boolean) / [groupOpening](/plugin/in/editor/Editor.md#groupopening-boolean)
+\- 增加状态属性 [editing](/plugin/in/editor/index.md#editing-boolean) / [innerEditing](/plugin/in/editor/index.md#innerediting-boolean) / [groupOpening](/plugin/in/editor/index.md#groupopening-boolean)
 
 \- 增加 [EditBox](/plugin/in/editor/EditBox.md) / [EditPoint](/plugin/in/editor/EditPoint.md) / [EditTool](/plugin/in/editor/EditTool.md) / [InnerEditor](/plugin/in/editor/InnerEditor.md) 文档。
 
-\- 增加 [select()](/plugin/in/editor/Editor.md#select-target-ui-ui) 选中 / [cancel()](/plugin/in/editor/Editor.md#cancel) 取消选中方法
+\- 增加 [select()](/plugin/in/editor/index.md#select-target-ui-ui) 选中 / [cancel()](/plugin/in/editor/index.md#cancel) 取消选中方法
 
 \- 增加 [config.hoverStyle](/plugin/in/editor/config/style.md#hover-boolean) 配置， 可以自定义 hover 效果
 
@@ -1127,7 +1127,7 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 \- 🌸 单张画布 App 的 render 问题
 
-\- Frame 使用 [hitSelf](/reference/property/hit.md#hitself-boolean) 没生效的问题
+\- Frame 使用 [hitSelf](/reference/UI/hit.md#hitself-boolean) 没生效的问题
 
 \- 微信电脑端浏览器 roundRect 不支持传数字圆角的问题
 
@@ -1141,15 +1141,15 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 #### 🍃 API 变化
 
-元素 editSize 属性即将移除， 请使用 [editConfig](/reference/property/editable.md#editconfig-ieditorconfig) 设置
+元素 editSize 属性即将移除， 请使用 [editConfig](/reference/UI/editable.md#editconfig-ieditorconfig) 设置
 
-编辑器的 config.lockMove 即将移除，请使用 [draggable](/reference/property/draggable.md) 锁定 x、y 轴
+编辑器的 config.lockMove 即将移除，请使用 [draggable](/reference/UI/draggable.md) 锁定 x、y 轴
 
 编辑器的 config.dualEvent 即将移除，改成了自动触发
 
 [编辑工具](/plugin/in/editor/EditTool.md) 的 update() 方法，不再传入 editor 参数，变为内置属性
 
-editor.hasTarget 改为 [editor.editing](/plugin/in/editor/Editor.md#editing-boolean) 状态属性
+editor.hasTarget 改为 [editor.editing](/plugin/in/editor/index.md#editing-boolean) 状态属性
 
 Picker.findList 改为 LeafList 类型
 
@@ -1173,7 +1173,7 @@ Picker.findList 改为 LeafList 类型
 
 \- 🌸 [官网改版](https://www.leaferjs.com/)，新增 赞助商 / 谁在使用 / 正式版 / 加速计划 / 场景覆盖等板块
 
-\- 🌸 SVG / PNG 透明图片支持像素拾取 [hitFill = 'pixel'](/reference/property/hit.md#hitfill-ihittype)
+\- 🌸 SVG / PNG 透明图片支持像素拾取 [hitFill = 'pixel'](/reference/UI/hit.md#hitfill-ihittype)
 
 \- 🌸 Leafer 增加 [document](/reference/config/app/type.md#document-类型) 视口类型，用于适配文档、网页类型的应用，需安装滚动条插件
 
@@ -1193,7 +1193,7 @@ Picker.findList 改为 LeafList 类型
 
 \- Leafer 增加 [config.zoom.disabled](/reference/config/app/move.md#zoom-disabled-boolean) 配置， 可禁用缩放功能
 
-\- 🌸 图片填充的 fit 模式增加 [padding](/reference/property/paint/image.md#padding-ifournumber) 选项，方便用于制作图标按钮
+\- 🌸 图片填充的 fit 模式增加 [padding](/reference/UI/paint/image.md#padding-ifournumber) 选项，方便用于制作图标按钮
 
 \- 🌸 [Path](/reference/display/Path.md#pen-pathcreator) / [Pen](/reference/display/Pen.md#clear) 增加 clearPath() 方法
 
@@ -1203,7 +1203,7 @@ Picker.findList 改为 LeafList 类型
 
 \- PointerEvent.UP 增加 [isCancel](/reference/event/ui/Pointer.md#iscancel-boolean) 属性标记被取消的事件
 
-\- 滚动条增加 [config.minSize](/plugin/in/scroll/ScrollBar.md#config-iscrollbarconfig) 配置，限制滚动条的最小尺寸
+\- 滚动条增加 [config.minSize](/plugin/in/scroll/#config-iscrollbarconfig) 配置，限制滚动条的最小尺寸
 
 \- Debug 增加 [showWarn](/reference/debug/basic.md#showwarn-boolean) 配置，可关闭控制台警告信息
 
@@ -1317,11 +1317,11 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 \- 🌸 [滚动条插件](/plugin/in/scroll/index.md) 发布，按需显示横向、竖向滚动条，支持切换暗黑主题或自定义样式
 
-\- 🌸 [交互状态插件](/plugin/in/state/index.md) 发布，支持 [hover](/reference/property/state/hover.md) 、 [press](/reference/property/state/press.md) 、 [focus](/reference/property/state/focus.md) 、 [selected](/reference/property/state/selected.md) 、 [disabled](/reference/property/state/disabled.md) 交互状态样式
+\- 🌸 [交互状态插件](/plugin/in/state/index.md) 发布，支持 [hover](/reference/UI/state/hover.md) 、 [press](/reference/UI/state/press.md) 、 [focus](/reference/UI/state/focus.md) 、 [selected](/reference/UI/state/selected.md) 、 [disabled](/reference/UI/state/disabled.md) 交互状态样式
 
-\- 🌸 [Path](/reference/display/Path.md) / 元素 [路径模式](/reference/property/path.md) 支持通过 pen 画笔 快速绘制路径
+\- 🌸 [Path](/reference/display/Path.md) / 元素 [路径模式](/reference/UI/path.md) 支持通过 pen 画笔 快速绘制路径
 
-\- 元素 - [waitParent()](/reference/property/parent.md) 、 [waitLeafer()](/reference/property/leafer.md) 增加绑定 this 的参数
+\- 元素 - [waitParent()](/reference/UI/parent.md) 、 [waitLeafer()](/reference/UI/leafer.md) 增加绑定 this 的参数
 
 \- Leafer - [waitReady()](/reference/display/Leafer.md#关键方法) 、[waitViewReady()](/reference/display/Leafer.md#关键方法)、 [waitViewCompleted()](/reference/display/Leafer.md#关键方法) 增加绑定 this 的参数
 
@@ -1329,19 +1329,19 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 \- Bounds 增加 [shrink()](/reference/math/Bounds.md#spread-fournumber-ifournumber-bounds) 收缩方法，[spread()](/reference/math/Bounds.md#spread-fournumber-ifournumber-bounds) 支持设置四个方向的值
 
-\- 元素增加 [getWorldBounds()](/reference/property/bounds.md#边界转换) 转换自定义 bounds
+\- 元素增加 [getWorldBounds()](/reference/UI/bounds.md#边界转换) 转换自定义 bounds
 
-\- 元素增加 [getTransform()](/reference/property/transform.md#关键方法)， 可获取相对任何父元素的矩阵
+\- 元素增加 [getTransform()](/reference/UI/transform.md#关键方法)， 可获取相对任何父元素的矩阵
 
-\- 元素支持 [transformWorld()](/reference/property/transform.md#相对世界坐标系)、[moveWorld()](/reference/property/position.md#关键方法)、[scaleOfWorld()](/reference/property/scale.md#关键方法)、[rotateOfWorld()](/reference/property/rotation.md#关键方法) 等操作
+\- 元素支持 [transformWorld()](/reference/UI/transform.md#相对世界坐标系)、[moveWorld()](/reference/UI/position.md#关键方法)、[scaleOfWorld()](/reference/UI/scale.md#关键方法)、[rotateOfWorld()](/reference/UI/rotation.md#关键方法) 等操作
 
 \- 所有用到 [`ILocationType`](/api/modules.md#ilocationtype) 参数的方法，均已支持 [page 坐标系](/guide/basic/coordinate.md#page)
 
-\- 元素增加 [zoomLayer](/reference/property/leafer.md) 只读属性， 可直接访问 leafer 的缩放层
+\- 元素增加 [zoomLayer](/reference/UI/leafer.md) 只读属性， 可直接访问 leafer 的缩放层
 
 \- Group 创建时支持通过参数 [children](/reference/display/Group.md#通过-children-属性添加) 快速添加子元素实例
 
-\- 🌸 导出图片支持 [options.relative](/reference/property/export.md#export) 选项，可以相对任意父元素的比例进行导出。
+\- 🌸 导出图片支持 [options.relative](/reference/UI/export.md#export) 选项，可以相对任意父元素的比例进行导出。
 
 #### 🪲 修复
 
@@ -1361,7 +1361,7 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 #### 🍃 API 变化
 
-导出图片选项 options.location 改为 [options.relative](/reference/property/export.md#export)
+导出图片选项 options.location 改为 [options.relative](/reference/UI/export.md#export)
 
 当拖拽元素到达界面边界时，默认关闭自动平移视图，可以自行打开 [config.move.dragOut](/reference/config/app/move.md#move-dragout-boolean-number)
 
@@ -1395,11 +1395,11 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 \- 元素销毁事件 [ChildEvent.DESTROY](/reference/event/basic/Child.md#childevent-destroy)
 
-\- 元素可以通过 [get(name)](/reference/property/data.md#get-iuiinputdata) 获取输入属性值
+\- 元素可以通过 [get(name)](/reference/UI/data.md#get-iuiinputdata) 获取输入属性值
 
 \- 🌸 图片支持像素比 [pixelRatio](/reference/display/Image.md#pixelratio-number)（适配高清屏）、懒加载 [lazy](/reference/display/Image.md#lazy-boolean) 属性
 
-\- 🌸 导出图片支持 [options.onCanvas()](/reference/property/export.md#export) 选项方法，可以用于叠加绘制自定义内容。
+\- 🌸 导出图片支持 [options.onCanvas()](/reference/UI/export.md#export) 选项方法，可以用于叠加绘制自定义内容。
 
 #### 🪲 修复
 
@@ -1429,17 +1429,17 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 \- 🌸 [leafer-draw](/guide/install/draw/start.md) 轻量包，仅提供绘图功能，减少 1/5 的代码量。
 
-\- 🌸 [export()](/reference/property/export.md) 导出单个元素，并支持丰富的导出配置
+\- 🌸 [export()](/reference/UI/export.md) 导出单个元素，并支持丰富的导出配置
 
 \- 支持组透明效果（同 HTML、Figma、Sketch 一致）
 
-\- 🌸 增加 [page 坐标系](/guide/basic/coordinate.md) 及转换方法 [getPagePoint()](/reference/property/point/index.md) / [getPage()](/reference/event/ui/UIEvent.md#getpagepoint-ipointdata) / [getPageMove()](/reference/event/ui/Drag.md#getpagemove-ipointdata)
+\- 🌸 增加 [page 坐标系](/guide/basic/coordinate.md) 及转换方法 [getPagePoint()](/reference/UI/point/index.md) / [getPage()](/reference/event/ui/UIEvent.md#getpagepoint-ipointdata) / [getPageMove()](/reference/event/ui/Drag.md#getpagemove-ipointdata)
 
-\- 🌸 遮罩增加 [maskType](/reference/property/mask.md#masktype-imasktype)，可支持路径遮罩、PS 剪贴蒙版效果
+\- 🌸 遮罩增加 [maskType](/reference/UI/mask.md#masktype-imasktype)，可支持路径遮罩、PS 剪贴蒙版效果
 
-\- 🌸 元素添加 [strokeWidthFixed](/reference/property/stroke.md#strokewidth-number) 固定线宽属性，当元素放大时，线宽不会跟随放大
+\- 🌸 元素添加 [strokeWidthFixed](/reference/UI/stroke.md#strokewidth-number) 固定线宽属性，当元素放大时，线宽不会跟随放大
 
-\- Group 支持 [pick()](/reference/property/pick.md) 方法，可通过坐标点拾取元素
+\- Group 支持 [pick()](/reference/UI/pick.md) 方法，可通过坐标点拾取元素
 
 \- Leafer 支持 [forceRender()](/reference/display/Leafer.md#forcerender-bounds-iboundsdata-sync-boolean) 方法，可指定一个 bounds 进行局部重渲染
 
@@ -1453,7 +1453,7 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 \- 只监听 Leafer 自身属性变化的 [PropertyEvent.LEAFER_CHANGE](/reference/event/basic/Property.md) 事件
 
-\- nextRender() 可通过 [removeNextRender()](/reference/property/nextRender.md) 方法移除监听
+\- nextRender() 可通过 [removeNextRender()](/reference/UI/nextRender.md) 方法移除监听
 
 \- 开启阻止默认右键事件 [config.pointer.preventDefaultMenu](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean)
 
@@ -1463,7 +1463,7 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 \- 鼠标拖拽画面结束时增加物理缓动。
 
-\- 元素添加 [renderBounds](/reference/property/bounds.md#renderbounds-iboundsdata) 属性
+\- 元素添加 [renderBounds](/reference/UI/bounds.md#renderbounds-iboundsdata) 属性
 
 \- Matrix 添加 [withScale()](/reference/math/Matrix.md#withscale-scalex-number-scaley-scalex-imatrixwithscaledata) 方法， 用来支持临时叠加 [matrix 选项](/api/interfaces/IRenderOptions.md) 渲染元素
 
@@ -1487,7 +1487,7 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 #### 🪴 图形编辑器
 
-\- [group()](/plugin/in/editor/Editor.md#打组) 支持传入 json 或实例
+\- [group()](/plugin/in/editor/index.md#编组) 支持传入 json 或实例
 
 \- 🌸 支持自定义可旋转角度的 resize、rotate、skew [光标](/plugin/in/editor/config/cursor.md)，默认内置了一套。
 
@@ -1501,11 +1501,11 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 #### 🍃 API 变化
 
-元素 isMask 属性 改为 [mask](/reference/property/mask.md#mask)， 之前的快速设置遮罩方式另提供了[自定义函数](/reference/property/mask.md#快速设置遮罩)
+元素 isMask 属性 改为 [mask](/reference/UI/mask.md#mask)， 之前的快速设置遮罩方式另提供了[自定义函数](/reference/UI/mask.md#快速设置遮罩)
 
-元素 isEraser 属性 改为 [eraser](/reference/property/eraser.md#eraser)
+元素 isEraser 属性 改为 [eraser](/reference/UI/eraser.md#eraser)
 
-Leafer 导出画面截图需添加 [screenshot](/reference/property/export.md#画面截图) 参数
+Leafer 导出画面截图需添加 [screenshot](/reference/UI/export.md#画面截图) 参数
 
 ImageManager.isPixel() 改为 hasOpacityPixel()
 
@@ -1533,9 +1533,9 @@ removeAll() 方法即将移除，请改用 clear()
 
 #### 新增
 
-\- 元素支持 [getPath()](/reference/property/getPath.md) / [getPathString()](/reference/property/getPathString.md)
+\- 元素支持 [getPath()](/reference/UI/getPath.md) / [getPathString()](/reference/UI/getPathString.md)
 
-\- 填充图案的 [clip](/reference/property/paint/image.md#clip-裁剪模式属性) / [repeat](/reference/property/paint/image.md#repeat-平铺模式属性) 模式支持拉伸图片 size
+\- 填充图案的 [clip](/reference/UI/paint/image.md#clip-裁剪模式属性) / [repeat](/reference/UI/paint/image.md#repeat-平铺模式属性) 模式支持拉伸图片 size
 
 \- Image 与 HTMLText 导出数据时，移除重复的 fill 字段
 
@@ -1567,11 +1567,11 @@ removeAll() 方法即将移除，请改用 clear()
 
 \- 通过 github 提交 issuse，在【感谢反馈】中开始增加个人主页链接。
 
-\- [around](/reference/property/around.md) 属性支持 9 个方向的语义化设置
+\- [around](/reference/UI/around.md) 属性支持 9 个方向的语义化设置
 
-\- 填充图案的 [fit](/reference/property/paint/image.md#fit-适应模式属性) / [repeat](/reference/property/paint/image.md#repeat-平铺模式属性) 模式支持 repeat 详细参数
+\- 填充图案的 [fit](/reference/UI/paint/image.md#fit-适应模式属性) / [repeat](/reference/UI/paint/image.md#repeat-平铺模式属性) 模式支持 repeat 详细参数
 
-\- 图形编辑器 [group()](/plugin/in/editor/Editor.md#group-custom-igroup-igroup) 支持传入一个自定义的组元素
+\- 图形编辑器 [group()](/plugin/in/editor/index.md#group-custom-igroup-igroup) 支持传入一个自定义的组元素
 
 \- 图形编辑器 [选择事件](/plugin/in/editor/Event.md) 传入旧值，方便业务判断
 
@@ -1615,15 +1615,15 @@ text.padding // 没有宽高的文本增加padding， 内容的位置会改变�
 
 \- Box 不设置宽高时，支持自适应内容，如[自适应背景的文本](/reference/display/Box.md#创建自适应背景的文本)
 
-\- Group、Path 支持 [around](/reference/property/around.md) 属性
+\- Group、Path 支持 [around](/reference/UI/around.md) 属性
 
-\- [setTransform()](/reference/property/transform.md#关键方法) / [transform()](/reference/property/transform.md#关键方法) / [skewOf](/reference/property/transform.md#skewof-origin-ipointdata-skewx-number-skewy-0-resize-boolean) / [dropTo()](/reference/property/dropTo.md) / [updateLayout()](/reference/property/layout.md#updatelayout) 元素操作方法
+\- [setTransform()](/reference/UI/transform.md#关键方法) / [transform()](/reference/UI/transform.md#关键方法) / [skewOf](/reference/UI/transform.md#skewof-origin-ipointdata-skewx-number-skewy-0-resize-boolean) / [dropTo()](/reference/UI/dropTo.md) / [updateLayout()](/reference/UI/layout.md#updatelayout) 元素操作方法
 
-\- [getLayoutBounds()](/reference/property/bounds.md#关键方法) / [getLayoutPoints](/reference/property/bounds.md#关键方法) 用于获取 OBB 包围盒
+\- [getLayoutBounds()](/reference/UI/bounds.md#关键方法) / [getLayoutPoints](/reference/UI/bounds.md#关键方法) 用于获取 OBB 包围盒
 
-\- 元素通过 [app](/reference/property/leafer.md) 属性快速访问根应用
+\- 元素通过 [app](/reference/UI/leafer.md) 属性快速访问根应用
 
-\- [changeAttr()](/reference/property/custom/changeAttr.md) / [addAttr()](/reference/property/custom/addAttr.md) 自定义元素属性（支持收集变化、导出 JSON）
+\- [changeAttr()](/reference/UI/custom/changeAttr.md) / [addAttr()](/reference/UI/custom/addAttr.md) 自定义元素属性（支持收集变化、导出 JSON）
 
 \- App、Leafer 支持 [lockLayout()](/reference/display/Leafer.md#布局方法) / [unlockLayout](/reference/display/Leafer.md#布局方法) 手动控制布局优化
 
@@ -1637,7 +1637,7 @@ text.padding // 没有宽高的文本增加padding， 内容的位置会改变�
 
 \- 多选 / 框选 [编辑功能](/plugin/in/editor/index.md)
 
-\- 打组 / 解组功能
+\- 编组 / 解组功能
 
 \- 移到顶层 / 移到底层功能
 
@@ -1687,13 +1687,13 @@ proxyData // 变化较大，简化了使用方式，建议重新阅读
 
 \- Node 版 支持 [NAPI-RS](/guide/install/ui/node/napi.md#skia-napi) 高性能画布
 
-\- [find()](/reference/property/find.md)、[findOne()](/reference/property/findOne.md)，可通过 id、innerId、className、tag、函数查找元素
+\- [find()](/reference/UI/find.md)、[findOne()](/reference/UI/findOne.md)，可通过 id、innerId、className、tag、函数查找元素
 
-\- 元素支持 [响应式数据](/reference/property/proxy.md)（Vue / React 等前端框架）
+\- 元素支持 [响应式数据](/reference/UI/proxy.md)（Vue / React 等前端框架）
 
 \- [textWrap](/reference/display/Text.md#textwrap-itextwrap) 属性，文本支持设置是否换行及 break 换行。
 
-\- [hitBox](/reference/property/hit.md#hitbox-boolean) 属性，使元素的 boxBounds 区域可以响应交互事件。
+\- [hitBox](/reference/UI/hit.md#hitbox-boolean) 属性，使元素的 boxBounds 区域可以响应交互事件。
 
 \- [Line](/reference/display/Line.md#圆角属性)、[Polygon](/reference/display/Polygon.md#圆角属性)、[Star](/reference/display/Star.md#圆角属性) 支持 cornerRadius 圆角属性
 
@@ -1773,7 +1773,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 #### 新增
 
-\- 使用 [leaf.emit(`PointEvent.DOWN`)](/reference/property/emit.md) 支持自动生成 UI 事件对象。
+\- 使用 [leaf.emit(`PointEvent.DOWN`)](/reference/UI/emit.md) 支持自动生成 UI 事件对象。
 
 #### 修复
 
@@ -1799,7 +1799,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- [图形编辑器插件](/plugin/in/editor/index.md) 🎉🎉🎉
 
-\- [导入导出 JSON](/reference/property/json.md)
+\- [导入导出 JSON](/reference/UI/json.md)
 
 \- [LeaferJS 运行、测试、打包环境开放](https://github.com/leaferjs/LeaferJS)
 
@@ -1809,7 +1809,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- 文档搜索功能
 
-\- [clone()](/reference/property/clone.md) 方法，用于克隆元素
+\- [clone()](/reference/UI/clone.md) 方法，用于克隆元素
 
 \- [键盘事件](/reference/event/ui/Key.md)，增加长按键盘只触发一次的 key.hold 事件
 
@@ -1817,19 +1817,19 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- points 绘制属性 （[Line](/reference/display/Line.md)、[Polygon](/reference/display/Polygon.md)）, 并支持转为平滑曲线
 
-\- [around](/reference/property/around.md) 属性，围绕中心点绘制、旋转、缩放
+\- [around](/reference/UI/around.md) 属性，围绕中心点绘制、旋转、缩放
 
-\- [scale](/reference/property/layout.md#计算属性) 属性快速设置 scaleX, scaleY
+\- [scale](/reference/UI/layout.md#计算属性) 属性快速设置 scaleX, scaleY
 
-\- [cursor](/reference/property/cursor.md) 属性设置光标，支持自定义系统光标
+\- [cursor](/reference/UI/cursor.md) 属性设置光标，支持自定义系统光标
 
-\- [hitRadius](/reference/property/hit.md#hitradius-number) 属性，单独设置元素与光标的碰撞半径
+\- [hitRadius](/reference/UI/hit.md#hitradius-number) 属性，单独设置元素与光标的碰撞半径
 
-\- [转换坐标](/reference/property/point/index.md) 方法
+\- [转换坐标](/reference/UI/point/index.md) 方法
 
 \- [getInnerTotal()](/reference/event/ui/Drag.md#转换坐标方法) 方法 - DragEvent
 
-\- [nextRender()](/reference/property/nextRender.md) 方法，等待下一次渲染执行方法 - UI
+\- [nextRender()](/reference/UI/nextRender.md) 方法，等待下一次渲染执行方法 - UI
 
 \- [waitReady()](/reference/display/Leafer.md#关键方法) 、[waitViewReady()](/reference/display/Leafer.md#关键方法)、 [waitViewCompleted()](/reference/display/Leafer.md#关键方法) - Leafer
 
@@ -1851,7 +1851,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- Vue3 打包时报 TS 类型错误，导致打包失败
 
-\- 元素 width、height 为负数时，将使用 [镜像代替](/reference/property/bounds.md#width-number)
+\- 元素 width、height 为负数时，将使用 [镜像代替](/reference/UI/bounds.md#width-number)
 
 \- 文本 letterSpacing 为负数渲染异常的情况
 
@@ -1859,7 +1859,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- Firefox 离屏画布与 Dom 中画布默认字体不一致的问题
 
-通过 url 无法识别出 svg 的情况下，可以通过 [图案填充](/reference/property/paint/image.md#mode-imagepaintmode) 指定 format 为 svg。
+通过 url 无法识别出 svg 的情况下，可以通过 [图案填充](/reference/UI/paint/image.md#mode-imagepaintmode) 指定 format 为 svg。
 
 修复 forceUpdate() 更新的问题
 
@@ -2039,13 +2039,13 @@ points 属性变为 corners
 
 \- [模拟用户交互](../reference/event/simulation.md)
 
-\- [围绕中心点缩放与旋转](../reference/property/layout.md#关键方法)
+\- [围绕中心点缩放与旋转](../reference/UI/layout.md#关键方法)
 
 \- 基础动画支持
 
-\- [擦除功能](../reference/property/eraser.md)
+\- [擦除功能](../reference/UI/eraser.md)
 
-\- [导出图片](../reference/property/export.md)
+\- [导出图片](../reference/UI/export.md)
 
 静态方法名变更：
 

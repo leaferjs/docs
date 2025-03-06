@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Polygon
+# Polygon 元素
 
 绘制三角形、菱形、五边形、正多边形、自由多边形、平滑多变形、趋势图。
 
@@ -53,7 +53,7 @@ sides: 5
 
 ## 路径模式
 
-### [path 优先模式](/reference/property/path.md)
+### [path 优先模式](/reference/UI/path.md)
 
 ## 圆角属性
 

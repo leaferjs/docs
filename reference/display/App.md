@@ -53,7 +53,7 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 ## 预留属性
 
-### editor: [`IEditor`](/plugin/in/editor/Editor.md)
+### editor: [`IEditor`](/plugin/in/editor/index.md)
 
 图形编辑器实例，需安装 [图形编辑器](/plugin/in/editor/index.md) 。
 
@@ -63,7 +63,7 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 缩放平移视图层， 默认使用 app.tree.zoomLayer 作为缩放平移层。
 
-可以手动修改它的 [x](/reference/property/layout.md)、[y](/reference/property/layout.md)、[scale](/reference/property/layout.md#scale-number-ipointdata)、[scaleX](/reference/property/layout.md#scalex-number)、[scaleY](/reference/property/layout.md#scaley-number) 属性进行缩放平移视图。
+可以手动修改它的 [x](/reference/UI/layout.md)、[y](/reference/UI/layout.md)、[scale](/reference/UI/layout.md#scale-number-ipointdata)、[scaleX](/reference/UI/layout.md#scalex-number)、[scaleY](/reference/UI/layout.md#scaley-number) 属性进行缩放平移视图。
 
 另通过 [视图控制插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
 

@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Path
+# Path 元素
 
 绘制路径，可以画出任意形状的图形， 了解 [绘图命令](/reference/interface/ui/PathData.md)。
 

@@ -8,13 +8,13 @@ import Case from '/component/Case.vue'
 
 ##
 
-光标样式配置，应用运行中可实时修改 [app.editor.config](/plugin/in/editor/Editor.md#config-ieditorconfig) 生效。
+光标样式配置，应用运行中可实时修改 [app.editor.config](/plugin/in/editor/index.md#config-ieditorconfig) 生效。
 
-同时元素拥有 [独立的编辑配置](/reference/property/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
+同时元素拥有 [独立的编辑配置](/reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
 
 ## 关键属性
 
-### moveCursor： [`ICursorType`](/reference/property/cursor.md)
+### moveCursor： [`ICursorType`](/reference/UI/cursor.md)
 
 设置移动光标。
 

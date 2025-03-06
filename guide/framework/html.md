@@ -52,10 +52,11 @@ import Case from '/component/Case.vue'
 </script>
 ```
 
-https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+<!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
 :::
 
-### 示例
+## 示例
 
 ::: code-group
 

@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Box
+# Box 元素
 
 创建 Box。支持 [Group](/reference/display/Group.md) 的功能和 [Rect](/reference/display/Rect.md) 的外观样式， 类似于 HTML5 中的 DIV，可以不断嵌套 。
 
@@ -50,7 +50,7 @@ type IOverflow = 'show' | 'hide'
 
 是否为文本框，默认为 false。
 
-为文本框时，可在编辑器中双击 Box 元素直接编辑内部的 [editable](/reference/property/editable.md) 子文本，适用于输入框、便利贴、脑图、流程图等编辑文本的场景。
+为文本框时，可在编辑器中双击 Box 元素直接编辑内部的 [editable](/reference/UI/editable.md) 子文本，适用于输入框、便利贴、脑图、流程图等编辑文本的场景。
 
 ### resizeChildren: `boolean`
 
@@ -58,7 +58,7 @@ type IOverflow = 'show' | 'hide'
 
 ## 路径模式
 
-### [path 优先模式](/reference/property/path.md)
+### [path 优先模式](/reference/UI/path.md)
 
 <!--
 ## 继承元素

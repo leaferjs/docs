@@ -12,7 +12,7 @@
 
 ### eventIds?: `IEventListenerId`[]
 
-监听事件的 id 列表（可选），支持自动销毁，通过 [on\_()](/reference/property/on.md#on-1) 监听可返回 事件 id， 并可绑定 this。
+监听事件的 id 列表（可选），支持自动销毁，通过 [on\_()](/reference/UI/on.md#on-1) 监听可返回 事件 id， 并可绑定 this。
 
 ## 只读属性
 
@@ -20,7 +20,7 @@
 
 编辑工具的唯一标签名。
 
-### editor: [`Editor`](/plugin/in/editor/Editor.md)
+### editor: [`Editor`](/plugin/in/editor/index.md)
 
 编辑器，载入后才有值。
 

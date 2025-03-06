@@ -2,7 +2,7 @@
 
 参考手册主要包含四大板块：元素介绍、元素属性方法、事件类型、常用类库，并支持全文搜索。
 
-为了聚焦主要知识，每篇文档只展示了关键属性方法，可通过点击 [继承](/reference/display/Rect.md#继承) 或 [归属](/reference/property/fill.md#归属) 文档溯源。
+为了聚焦主要知识，每篇文档只展示了关键属性方法，可通过点击 [继承](/reference/display/Rect.md#继承) 或 [归属](/reference/UI/fill.md#归属) 文档溯源。
 
 ## 元素
 
@@ -18,39 +18,39 @@
 
 ## 属性方法
 
-### [id](/reference/property/id.md) &nbsp; &nbsp; [name](/reference/property/name.md) &nbsp; &nbsp; [opacity](/reference/property/opacity.md) &nbsp; &nbsp; [visible](/reference/property/visible.md) &nbsp; &nbsp; [zIndex](/reference/property/zIndex.md) &nbsp; &nbsp;
+### [id](/reference/UI/id.md) &nbsp; &nbsp; [name](/reference/UI/name.md) &nbsp; &nbsp; [opacity](/reference/UI/opacity.md) &nbsp; &nbsp; [visible](/reference/UI/visible.md) &nbsp; &nbsp; [zIndex](/reference/UI/zIndex.md) &nbsp; &nbsp;
 
-### [x](/reference/property/layout.md) &nbsp; &nbsp;[y](/reference/property/layout.md) &nbsp; &nbsp;[width](/reference/property/layout.md#width-number) &nbsp; &nbsp;[height](/reference/property/layout.md#height-number) &nbsp; &nbsp;[scaleX](/reference/property/layout.md#scalex-number) &nbsp; &nbsp;[scaleY](/reference/property/layout.md#scaley-number) &nbsp; &nbsp;[rotation](/reference/property/layout.md#rotation-number)
+### [x](/reference/UI/layout.md) &nbsp; &nbsp;[y](/reference/UI/layout.md) &nbsp; &nbsp;[width](/reference/UI/layout.md#width-number) &nbsp; &nbsp;[height](/reference/UI/layout.md#height-number) &nbsp; &nbsp;[scaleX](/reference/UI/layout.md#scalex-number) &nbsp; &nbsp;[scaleY](/reference/UI/layout.md#scaley-number) &nbsp; &nbsp;[rotation](/reference/UI/layout.md#rotation-number)
 
-### [offsetX](/reference/property/offset.md) &nbsp; &nbsp;[offsetY](/reference/property/offset.md) &nbsp; &nbsp;[scrollX](/reference/display/Box.md#滚动属性) &nbsp; &nbsp;[scrollY](/reference/display/Box.md#滚动属性)
+### [offsetX](/reference/UI/offset.md) &nbsp; &nbsp;[offsetY](/reference/UI/offset.md) &nbsp; &nbsp;[scrollX](/reference/display/Box.md#滚动属性) &nbsp; &nbsp;[scrollY](/reference/display/Box.md#滚动属性)
 
-### [fill](/reference/property/fill.md) &nbsp; &nbsp; [stroke](/reference/property/stroke.md)
+### [fill](/reference/UI/fill.md) &nbsp; &nbsp; [stroke](/reference/UI/stroke.md)
 
-### [on()](/reference/property/on.md) &nbsp; &nbsp; [once()](/reference/property/on.md) &nbsp; &nbsp; [off()](/reference/property/off.md) &nbsp; &nbsp; [emit()](/reference/property/emit.md)
+### [on()](/reference/UI/on.md) &nbsp; &nbsp; [once()](/reference/UI/on.md) &nbsp; &nbsp; [off()](/reference/UI/off.md) &nbsp; &nbsp; [emit()](/reference/UI/emit.md)
 
-### [hittable](/reference/property/hit.md) &nbsp; &nbsp; [hitChildren](/reference/property/hit.md) &nbsp; &nbsp; [hitFill](/reference/property/hit.md#hitfill-ihittype) &nbsp; &nbsp; [draggable](/reference/property/draggable.md) &nbsp; &nbsp; [editable](/reference/property/editable.md) &nbsp; &nbsp; [cursor](/reference/property/cursor.md)
+### [hittable](/reference/UI/hit.md) &nbsp; &nbsp; [hitChildren](/reference/UI/hit.md) &nbsp; &nbsp; [hitFill](/reference/UI/hit.md#hitfill-ihittype) &nbsp; &nbsp; [draggable](/reference/UI/draggable.md) &nbsp; &nbsp; [editable](/reference/UI/editable.md) &nbsp; &nbsp; [cursor](/reference/UI/cursor.md)
 
-### [hoverStyle](/reference/property/state/hover.md) &nbsp; &nbsp; [pressStyle](/reference/property/state/press.md) &nbsp; &nbsp; [focusStyle](/reference/property/state/focus.md) &nbsp; &nbsp; [selectedStyle](/reference/property/state/selected.md) &nbsp; &nbsp; [disabledStyle](/reference/property/state/disabled.md)
+### [hoverStyle](/reference/UI/state/hover.md) &nbsp; &nbsp; [pressStyle](/reference/UI/state/press.md) &nbsp; &nbsp; [focusStyle](/reference/UI/state/focus.md) &nbsp; &nbsp; [selectedStyle](/reference/UI/state/selected.md) &nbsp; &nbsp; [disabledStyle](/reference/UI/state/disabled.md)
 
-### [set()](/reference/property/data.md)&nbsp; &nbsp;[get()](/reference/property/data.md)&nbsp; &nbsp;[reset()](/reference/property/data.md)&nbsp; &nbsp;[setAttr()](/reference/property/data.md)&nbsp; &nbsp;[getAttr()](/reference/property/data.md)&nbsp; &nbsp;[getComputedAttr()](/reference/property/data.md) &nbsp; &nbsp; [clone()](/reference/property/clone.md)
+### [set()](/reference/UI/data.md)&nbsp; &nbsp;[get()](/reference/UI/data.md)&nbsp; &nbsp;[reset()](/reference/UI/data.md)&nbsp; &nbsp;[setAttr()](/reference/UI/data.md)&nbsp; &nbsp;[getAttr()](/reference/UI/data.md)&nbsp; &nbsp;[getComputedAttr()](/reference/UI/data.md) &nbsp; &nbsp; [clone()](/reference/UI/clone.md)
 
-### [waitParent()](/reference/property/parent.md#waitparent-item-function-bind-object) &nbsp; &nbsp; [waitLeafer()](/reference/property/leafer.md#waitleafer-item-function-bind-object) &nbsp; &nbsp;[dropTo()](/reference/property/dropTo.md)
+### [waitParent()](/reference/UI/parent.md#waitparent-item-function-bind-object) &nbsp; &nbsp; [waitLeafer()](/reference/UI/leafer.md#waitleafer-item-function-bind-object) &nbsp; &nbsp;[dropTo()](/reference/UI/dropTo.md)
 
-### [nextRender()](/reference/property/nextRender.md) &nbsp; &nbsp; [updateLayout()](/reference/property/layout.md#updatelayout) &nbsp; &nbsp; [forceRender()](/reference/property/forceRender.md) &nbsp; &nbsp; [forceUpdate()](/reference/property/forceUpdate.md)
+### [nextRender()](/reference/UI/nextRender.md) &nbsp; &nbsp; [updateLayout()](/reference/UI/layout.md#updatelayout) &nbsp; &nbsp; [forceRender()](/reference/UI/forceRender.md) &nbsp; &nbsp; [forceUpdate()](/reference/UI/forceUpdate.md)
 
-### [bounds](/reference/property/bounds.md) &nbsp; &nbsp; [transform](/reference/property/transform.md) &nbsp; &nbsp; [origin](/reference/property/origin.md) &nbsp; &nbsp; [around](/reference/property/around.md) &nbsp; &nbsp; [转换坐标](/reference/property/point/index.md) &nbsp; &nbsp; [转换移动距离](/reference/property/point/index.md#转换移动距离)
+### [bounds](/reference/UI/bounds.md) &nbsp; &nbsp; [transform](/reference/UI/transform.md) &nbsp; &nbsp; [origin](/reference/UI/origin.md) &nbsp; &nbsp; [around](/reference/UI/around.md) &nbsp; &nbsp; [转换坐标](/reference/UI/point/index.md) &nbsp; &nbsp; [转换移动距离](/reference/UI/point/index.md#转换移动距离)
 
-### [resizeWidth()](/reference/property/resize.md) &nbsp; &nbsp;[resizeHeight()](/reference/property/resize.md)
+### [resizeWidth()](/reference/UI/resize.md) &nbsp; &nbsp;[resizeHeight()](/reference/UI/resize.md)
 
-### [linear](/reference/property/paint/linear.md) &nbsp; &nbsp; [radial](/reference/property/paint/radial.md) &nbsp; &nbsp; [angular](/reference/property/paint/angular.md) &nbsp; &nbsp; [solid](/reference/property/paint/solid.md) &nbsp; &nbsp; [image](/reference/property/paint/image.md)
+### [linear](/reference/UI/paint/linear.md) &nbsp; &nbsp; [radial](/reference/UI/paint/radial.md) &nbsp; &nbsp; [angular](/reference/UI/paint/angular.md) &nbsp; &nbsp; [solid](/reference/UI/paint/solid.md) &nbsp; &nbsp; [image](/reference/UI/paint/image.md)
 
-### [shadow](/reference/property/shadow.md) &nbsp; &nbsp; [innerShadow](/reference/property/innerShadow.md) &nbsp; &nbsp; [blur](/reference/property/blur.md) &nbsp; &nbsp; [backgroundBlur](/reference/property/backgroundBlur.md)
+### [shadow](/reference/UI/shadow.md) &nbsp; &nbsp; [innerShadow](/reference/UI/innerShadow.md) &nbsp; &nbsp; [blur](/reference/UI/blur.md) &nbsp; &nbsp; [backgroundBlur](/reference/UI/backgroundBlur.md)
 
-### [path](/reference/property/path.md) &nbsp; &nbsp;[clip](/reference/property/clip.md) &nbsp; &nbsp; [mask](/reference/property/mask.md) &nbsp; &nbsp; [eraser](/reference/property/eraser.md) &nbsp; &nbsp;[blendMode](/reference/property/blendMode.md)
+### [path](/reference/UI/path.md) &nbsp; &nbsp;[clip](/reference/UI/clip.md) &nbsp; &nbsp; [mask](/reference/UI/mask.md) &nbsp; &nbsp; [eraser](/reference/UI/eraser.md) &nbsp; &nbsp;[blendMode](/reference/UI/blendMode.md)
 
-### [find()](/reference/property/find.md) &nbsp; &nbsp;[findTag()](/reference/property/find.md) &nbsp; &nbsp;[findOne()](/reference/property/findOne.md) &nbsp; &nbsp; [findId()](/reference/property/findOne.md) &nbsp; &nbsp; [pick()](/reference/property/pick.md)
+### [find()](/reference/UI/find.md) &nbsp; &nbsp;[findTag()](/reference/UI/find.md) &nbsp; &nbsp;[findOne()](/reference/UI/findOne.md) &nbsp; &nbsp; [findId()](/reference/UI/findOne.md) &nbsp; &nbsp; [pick()](/reference/UI/pick.md)
 
-### [getPath()](/reference/property/getPath.md) &nbsp; &nbsp; [getPathString()](/reference/property/getPathString.md) &nbsp; &nbsp; [export()](/reference/property/export.md) &nbsp; &nbsp; [toJSON()](/reference/property/json.md) &nbsp; &nbsp; [toString()](/reference/property/json.md#tostring-string)
+### [getPath()](/reference/UI/getPath.md) &nbsp; &nbsp; [getPathString()](/reference/UI/getPathString.md) &nbsp; &nbsp; [export()](/reference/UI/export.md) &nbsp; &nbsp; [toJSON()](/reference/UI/json.md) &nbsp; &nbsp; [toString()](/reference/UI/json.md#tostring-string)
 
 ## 事件类型
 

@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Frame
+# Frame 元素
 
 创建画板。继承自 [Box](/reference/display/Box.md)，默认白色背景、会裁剪掉超出宽高的内容，类似于 HTML5 中的页面，一般用于设计软件中创建画板。
 

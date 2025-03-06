@@ -2,15 +2,9 @@
 import Case from '/component/Case.vue'
 </script>
 
-# motion-path 插件
+# 运动路径
 
-运动路径功能插件。
-
-让元素沿着另一条路径运动，或进行自身描边。
-
-## 适用平台
-
-支持所有平台。
+运动路径功能，让元素沿着另一条路径运动，或进行自身描边。
 
 ## 安装插件
 
@@ -36,9 +30,8 @@ bun add @leafer-in/motion-path
 
 :::
 
-### 通过 script 标签引入
+或通过 script 标签引入，使用全局变量 LeaferIN.motion-path 访问插件内部功能。
 
-通过全局变量 LeaferIN.motion-path 访问插件内部功能。
 ::: code-group
 
 ```html [motion-path.min]
@@ -49,7 +42,8 @@ bun add @leafer-in/motion-path
 <script src="https://unpkg.com/@leafer-in/motion-path@1.4.2/dist/motion-path.js"></script>
 ```
 
-https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
+<!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
 :::
 
 ## 体验
@@ -57,3 +51,13 @@ https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm
 <case name="AnimateCar" editor=false ></case>
 
 <<< @/code/plugin/animate/car.ts
+
+## 下一步
+
+### [motionPath](/reference/UI/motionPath.md)
+
+### [motion](/reference/UI/motion.md)
+
+### [getMotionTotal()](/reference/UI/getMotionTotal.md)
+
+### [getMotionPoint()](/reference/UI/getMotionPoint.md)

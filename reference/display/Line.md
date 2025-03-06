@@ -2,7 +2,7 @@
 import Case from '/component/Case.vue'
 </script>
 
-# Line
+# Line 元素
 
 绘制横线、斜线、竖线、折线、平滑曲线、趋势图。
 
@@ -64,7 +64,7 @@ console.log(line.toPoint) // {x: 0, y: 100})  会根据 width 与 rotation 自�
 
 ## 路径模式
 
-### [path 优先模式](/reference/property/path.md)
+### [path 优先模式](/reference/UI/path.md)
 
 ## 圆角属性
 

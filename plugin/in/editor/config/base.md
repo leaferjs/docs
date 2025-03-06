@@ -8,15 +8,15 @@ import Case from '/component/Case.vue'
 
 ##
 
-基础配置，应用运行中可实时修改 [app.editor.config](/plugin/in/editor/Editor.md#config-ieditorconfig) 生效。
+基础配置，应用运行中可实时修改 [app.editor.config](/plugin/in/editor/index.md#config-ieditorconfig) 生效。
 
-同时元素拥有 [独立的编辑配置](/reference/property/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
+同时元素拥有 [独立的编辑配置](/reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
 
 ## 关键属性
 
 ### editSize: `'size'` | `'scale'` | `'font-size'`
 
-全局调整尺寸大小的方式，默认为 size。
+调整元素大小的方式，默认为 size。
 
 size： 修改元素的 **宽高、路径** 达到调整大小的目的。
 
@@ -24,7 +24,7 @@ font-size： 修改文本的 **fontSize** 达到调整大小的目的。
 
 scale： 修改元素的 **缩放属性** 达到调整大小的目的。
 
-不同元素可 [单独设置 editSize ](/reference/property/editable.md#editconfig-ieditorconfig) 。
+不同元素可 [单独设置 editSize ](/reference/UI/editable.md#editconfig-ieditorconfig) 。
 
 ### 隐藏
 
