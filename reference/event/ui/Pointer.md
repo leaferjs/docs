@@ -231,4 +231,7 @@ x, y 属性的转换。
 
 ### 图形编辑器中显示右键菜单
 
+::: code-group
 <<< @/code/event-ui/pointer/editor-menu.ts
+<<< @/code/event-ui/pointer/editor-menu.js
+:::
