@@ -33,4 +33,4 @@ import Case from '/component/Case.vue'
 
 ## 下一步
 
-### [运动路径](/guide/plugin/motion-path.md)
+### [交互状态](/guide/plugin/state.md)

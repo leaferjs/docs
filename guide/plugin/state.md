@@ -24,4 +24,4 @@ import Case from '/component/Case.vue'
 
 ## 下一步
 
-### [动画功能](/guide/plugin/animate.md)
+### [运动路径](/guide/plugin/motion-path.md)
