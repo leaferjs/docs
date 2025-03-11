@@ -12,7 +12,7 @@ import Case from '/component/Case.vue'
 
 ## 归属
 
-### [Flow 元素](/plugin/in/flow/index.md)
+### [UI 元素](/reference/display/UI.md)
 
 ## 示例
 
