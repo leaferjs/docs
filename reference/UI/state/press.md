@@ -20,7 +20,7 @@ pointer.down 状态， 支持添加 [过渡效果](/reference/UI/transition.md)�
 
 ## 归属
 
-### [UI](/reference/display/UI.md)
+### [UI 元素](/reference/display/UI.md)
 
 ## 示例
 

@@ -72,180 +72,25 @@ bun add @leafer-in/resize
 
 ## 关键属性
 
-### flow: `boolean` | [`IFlowType`](/api/modules.md#iflowtype)
-
-是否进行自动布局，可进一步指定布局的轴方向 x 或 y ，默认为 x 轴。
-
-```ts
-type IFlowType = 'x' | 'y' | 'x-reverse' | 'y-reverse' // 轴方向，reverse 表示反向
-```
-
-<case name="Flow" count=2 height=160 editor=false></case>
-
-<case name="Flow" index=2 count=2 height=160 editor=false></case>
-
-### flowWrap: [`IFlowWrap`](/api/modules.md#iflowwrap)
-
-是否自动换行， 默认不换行。
-
-```ts
-type IFlowWrap = boolean | 'reverse' // reverse表示颠倒行顺序
-```
-
-<case name="FlowWrap" count=2 height=160 editor=false></case>
-
-<case name="FlowWrap" index=2 count=2 height=160 editor=false></case>
-
-### flowAlign: [`IFlowAlign`](/api/modules.md#iflowalign) | [`IFlowAxisAlign`](/api/interfaces/IFlowAxisAlign.md)
-
-子元素对齐方式， 默认为 top-left。
-
-```ts
-type IFlowAlign =
-  | 'top-left'
-  | 'top'
-  | 'top-right'
-  | 'right'
-  | 'bottom-right'
-  | 'bottom'
-  | 'bottom-left'
-  | 'left'
-  | 'center'
-  | IBaseLineAlign
-
-// 后续支持baseline
-type IBaseLineAlign = 'baseline-left' | 'baseline-center' | 'baseline-right'
-```
-
-<case name="FlowAlign" count=3 height=160 editor=false></case>
-
-<case name="FlowAlign" index=3 count=3 height=160 editor=false></case>
-
-<case name="FlowAlign" index=6 count=3 height=160 editor=false></case>
-
-可以进一步设置行内的轴对齐方式。
-
-```ts
-interface IFlowAxisAlign {
-  content?: IFlowAlign
-  x?: IAxisAlign // 行内 x 轴对齐，不设置时为 from
-  y?: IAxisAlign // 行内 y 轴对齐，不设置时为 from
-}
-
-// from 表示对齐行内轴起点， to 表示对齐行内轴终点
-type IAxisAlign = 'from' | 'center' | 'to'
-```
-
-行内 X 轴对齐
-<case name="FlowYAlign" index=9 count=3 height=160 editor=false></case>
-
-行内 Y 轴对齐
-<case name="FlowAlign" index=9 count=3 height=160 editor=false></case>
-
-<!-- Y 轴
-
-<case name="FlowYAlign" count=3 height=160 editor=false></case>
-
-<case name="FlowYAlign" index=3 count=3 height=160 editor=false></case>
-
-<case name="FlowYAlign" index=6 count=3 height=160 editor=false></case> -->
-
-### gap: [`IGap`](/api/modules.md#igap) | [`IPointGap`](/api/interfaces/IPointGap.md)
-
-子元素之间的间距， 默认为 0。
-
-```ts
-// 设置 auto / fit 会均分剩余的空间，auto 最小值为 0，fit 允许为负数。
-type IGap = number | 'auto' | 'fit'
-
-interface IPointGap {
-  x?: IGap // 单独设置 x 轴间距
-  y?: IGap // 单独设置 y 轴间距
-}
-```
-
-<case name="FlowGap"  count=3 height=160 editor=false></case>
-
-<case name="FlowGap" index=3 count=2 height=160 editor=false></case>
-
-## 辅助属性
-
-### padding: [`IFourNumber`](/reference/interface/math/Math.md#ifournumber)
-
-容器内间距, 默认为 0。
-
-<case name="FlowPadding" count=2 height=160 editor=false></case>
-
-### itemBox: `'box'` | `'stroke'`
-
-采用子元素的哪个盒类型来布局, 默认 box。
-
-<case name="FlowItemBox" count=2 height=160 editor=false></case>
-
-<!-- ### zIndexReverse: `boolean`
-
-是否反转子元素的 zIndex 顺序，从下往上排序。 -->
-
-##
-
-## Flow 内的子元素属性
-
-### inFlow: `boolean`
-
-是否加入自动布局, 默认会加入。
-
-<case name="FlowIn" count=2 height=160 editor=false></case>
-
-### autoWidth: `number`
-
-自动宽度权重，分配剩余宽度给元素（忽略 width），类似 Flex 的 grow / shrink，默认为 0。
-
-设为大于 0 的值会自动扩充宽度，一般设为 1，后面会支持百分比宽度。
-
-<case name="FlowAutoSize" count=2 height=160 editor=false></case>
-
-### autoHeight: `number`
-
-自动高度权重，分配剩余高度给元素（忽略 height），类似 Flex 的 grow / shrink，默认为 0。
-
-设为大于 0 的值会自动扩充高度，一般设为 1，后面会支持百分比高度。
-
-<case name="FlowAutoSize" index=2 count=2 height=160 editor=false></case>
-
-### widthRange: [`IRangeSize`](/api/interfaces/IRangeSize.md)
-
-限制 autoWidth 影响的宽度范围。
-
-```ts
-interface IRangeSize {
-  min?: number
-  max?: number
-}
-```
-
-### heightRange: [`IRangeSize`](/api/interfaces/IRangeSize.md)
-
-限制 autoHeight 影响的高度范围。
-
-```ts
-interface IRangeSize {
-  min?: number
-  max?: number
-}
-```
-
-### lockRatio: `boolean`
-
-采用自动宽高时，是否锁定原始宽高比例，默认为 false。
-
-<!-- ### resizeBox: IConstraint
-
-resize 布局的约束条件
-
-```ts
- {x: 'top', y: 'left' | 'resize' | 'scale' | 'center' | 'right'}
-{left: 20, top: 20, right: 50, bottom: 30}
-``` -->
+| 名称                                           | 描述                                                                          |
+| ---------------------------------------------- | ----------------------------------------------------------------------------- |
+| [flow](/plugin/in/flow/Flow/flow.md)           | 布局方向：是否进行自动布局，可进一步指定布局的轴方向 x 或 y ，默认为 x 轴     |
+| [flowWrap](/plugin/in/flow/Flow/flowWrap.md)   | 自动换行：是否自动换行， 默认不换行                                           |
+| [flowAlign](/plugin/in/flow/Flow/flowAlign.md) | 对齐：对齐子元素的方式， 默认为 top-left                                      |
+| [gap](/plugin/in/flow/Flow/gap.md)             | 间距：子元素之间的间距， 默认为 0                                             |
+| [padding](/plugin/in/flow/Flow/padding.md)     | 内边距：容器的内边距, 默认为 0                                                |
+| [itemBox](/plugin/in/flow/Flow/itemBox.md)     | 盒类型：采用子元素的哪个 [盒类型](/guide/advanced/bounds.md) 来布局, 默认 box |
+
+## Flow 内的子元素布局属性
+
+| 名称                                               | 描述                                                                      |
+| -------------------------------------------------- | ------------------------------------------------------------------------- |
+| [inFlow](/plugin/in/flow/Flow/inFlow.md)           | 加入布局：元素是否加入自动布局, 默认会加入（父元素为自动布局的情况下）    |
+| [autoWidth](/plugin/in/flow/Flow/autoWidth.md)     | 自动宽度：分配剩余宽度给此元素（忽略 width），类似 Flex 的 grow / shrink  |
+| [autoHeight](/plugin/in/flow/Flow/autoHeight.md)   | 自动高度：分配剩余高度给此元素（忽略 height），类似 Flex 的 grow / shrink |
+| [widthRange](/plugin/in/flow/Flow/widthRange.md)   | 限制宽度：限制 autoWidth 影响的宽度范围                                   |
+| [heightRange](/plugin/in/flow/Flow/heightRange.md) | 限制高度：限制 autoHeight 影响的高度范围                                  |
+| [lockRatio](/plugin/in/flow/Flow/lockRatio.md)     | 锁定比例：采用自动宽高时，是否锁定原始宽高比例                            |
 
 <!-- ## 继承元素
 
@@ -255,10 +100,52 @@ resize 布局的约束条件
 
 <case name="Flow" count=1 height=130 editor=false></case>
 
-### 默认布局
+### 自动布局
 
-<<< @/code/plugin/flow/flow/x.ts
+<<< @/code/plugin/flow/x.ts
 
-### 自动换行
+<case name="FlowWrap" index=0 height=130 editor=false></case>
+
+### 沿 X 轴自动换行
+
+<<< @/code/plugin/flow/flowWrap/x.ts
+
+<case name="FlowAlign" index=4 height=130 editor=false></case>
+
+### 居中对齐
+
+<<< @/code/plugin/flow/flowAlign/center.ts
+
+<case name="FlowGap"  index=0 height=130 editor=false></case>
+
+### 固定数值的间距
+
+<<< @/code/plugin/flow/gap/gap.ts
+
+<case name="FlowPadding" index=0 height=160 editor=false></case>
+
+### 设置内边距
+
+<<< @/code/plugin/flow/padding/padding.ts
+
+<case name="FlowIn" index=1 height=160 editor=false></case>
+
+### 元素不加入自动布局
+
+<<< @/code/plugin/flow/inFlow/out.ts
+
+<case name="FlowAutoSize" index=0 height=130 editor=false></case>
+
+### 自动宽度
+
+<<< @/code/plugin/flow/autoWidth/width.ts
+
+<case name="FlowAutoSize" index=2 height=130 editor=false></case>
+
+### 自动高度
+
+<<< @/code/plugin/flow/autoHeight/height.ts
+
+### 综合属性
 
 <<< @/code/plugin/flow/flow.ts

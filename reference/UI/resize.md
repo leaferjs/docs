@@ -72,7 +72,7 @@ Group 会强制子元素跟随 resize，不用设置此参数。
 
 ## 归属
 
-### [UI](/reference/display/UI.md)
+### [UI 元素](/reference/display/UI.md)
 
 ## 示例
 

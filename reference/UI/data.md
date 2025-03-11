@@ -105,7 +105,7 @@ rect.__.width // 50, 返回计算数据 50% = 100 * (50 / 100)，box.width变化
 
 ## 归属
 
-### [UI](/reference/display/UI.md)
+### [UI 元素](/reference/display/UI.md)
 
 ## 示例
 

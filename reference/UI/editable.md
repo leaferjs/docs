@@ -82,7 +82,7 @@ Text 默认为: `'TextEditor'`，可自定义 [内部编辑器](/plugin/in/edito
 
 ## 归属
 
-### [UI](/reference/display/UI.md)
+### [UI 元素](/reference/display/UI.md)
 
 ## 示例
 

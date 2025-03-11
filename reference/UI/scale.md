@@ -61,7 +61,7 @@ rect.scaleOf('center', 1.5, { duration: 2 }) // 过渡 2 秒  = rect.scaleOf('ce
 
 ## 归属
 
-### [UI](/reference/display/UI.md)
+### [UI 元素](/reference/display/UI.md)
 
 ## 示例
 
