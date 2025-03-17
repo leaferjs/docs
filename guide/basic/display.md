@@ -26,7 +26,7 @@ import Case from '/component/Case.vue'
 
 <<< @/code/property/json/create.ts
 
-## 了解图形元素
+## 初步了解图形元素
 
 ### [Rect 元素](/reference/display/Rect.md)
 

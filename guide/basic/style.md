@@ -38,7 +38,7 @@ import Case from '/component/Case.vue'
 
 <<< @/code/property/json/set.ts
 
-## 了解元素外观样式
+## 初步了解元素外观样式
 
 ### [fill](/reference/UI/fill.md)
 
@@ -108,7 +108,7 @@ import Case from '/component/Case.vue'
 
 <<< @/code/property/eraser/ui.ts
 
-## 元素可见性
+### 元素可见性
 
 ### [visible](/reference/UI/visible.md)
 
@@ -122,7 +122,7 @@ import Case from '/component/Case.vue'
 
 <<< @/code/property/opacity/change.ts#main
 
-## 高级定位属性
+### 高级定位属性
 
 ### [origin](/reference/UI/origin.md)
 
@@ -142,11 +142,11 @@ import Case from '/component/Case.vue'
 
 <<< @/code/property/around/rotate.ts
 
-## 了解元素通用属性
+## 概览元素通用属性
 
 <!--@include: ../../reference/api/UI/property.md-->
 
-## 了解元素通用方法
+## 概览元素通用方法
 
 <!--@include: ../..//reference/api/UI/method.md-->
 

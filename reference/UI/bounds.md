@@ -101,3 +101,9 @@ new Bounds(rect.getBounds('box', 'local'))
 ## 归属
 
 ### [UI 元素](/reference/display/UI.md)
+
+## 示例
+
+### 检测元素的包围盒是否碰撞
+
+<<< @/code/advanced/bounds/test.ts
