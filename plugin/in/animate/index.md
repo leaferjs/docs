@@ -8,7 +8,7 @@ import Case from '/component/Case.vue'
 
 支持以 [animation](/reference/UI/animation.md)、[transition](/reference/UI/transition.md)、[animate() 方法](/reference/UI/animate.md)、[Animate 实例](/plugin/in/animate/index.md) 等方式创建动画。
 
-另外元素的 [move()](/reference/UI/position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)、 [ set()](/reference/UI/data.md#set-data-iuiinputdata-transition-itranstion) 方法支持添加动画过渡参数，文本支持 [count 动画](/reference/display/Text.md#文本-count-动画)、[打字机动画](/reference/display/Text.md#打字机动画)
+另外元素的 [move()](/reference/UI/position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)、 [ set()](/reference/UI/data.md#set-data-iuiinputdata-transition-itranstion) 等方法支持添加动画过渡参数，文本支持 [count 动画](/reference/display/Text.md#文本-count-动画)、[打字机动画](/reference/display/Text.md#打字机动画)。
 
 <case name="AnimateFrames" editor=false></case>
 
@@ -74,32 +74,9 @@ bun add @leafer-in/color
 
 动画目标元素，支持普通对象。
 
-### keyframes: [`IKeyframe`](/api/modules.md#ikeyframe)[]
+## 动画选项属性
 
-动画关键帧列表。
-
-```ts
-type IKeyframe = IUIInputData | IAnimateKeyframe
-
-interface IAnimateKeyframe {
-  style: IUIInputData // 元素样式
-
-  easing?: IAnimateEasing // 单独设置关键帧缓动方式
-  delay?: number // 单独设置关键帧延迟播放时长。
-  duration?: number // 单独设置关键帧的固定时长，设置后将忽略 autoDuration
-
-  swing?: number // 摇摆次数（到达 to 的次数），from -> to，to -> from -> to ... ，默认 0
-  loop?: number // 循环次数，默认为 0
-
-  // 分配剩余时间：（总时长 - 总关键帧固定时长）/ 总权重 * 当前权重
-  autoDelay?: number // 自动 delay 的权重， 默认为 0
-  autoDuration?: number // 自动 duration 的权重， 默认为 1
-}
-```
-
-## 动画选项（只读）
-
-动画选项属性可作为初始化参数传入。
+可作为初始化动画选项参数传入，当作为 Animate 实例属性访问时为只读属性。
 
 | 名称                                               | 描述                                                                               |
 | -------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -117,59 +94,26 @@ interface IAnimateKeyframe {
 | [attrs](/plugin/in/animate/options/attrs.md)       | 过渡属性：参与动画过渡的元素属性列表， 默认为所有                                  |
 | [event](/plugin/in/animate/options/event.md)       | 事件：监听动画事件对象                                                             |
 
-## 时长属性（只读）
+## 更多属性
 
-### duration: `number`
-
-动画的总时长（不包含 delay 和循环时间）。
-
-### time: `number`
-
-已经播放的时长（相对 duration，不包含 delay 和循环时间）。
-
-### looped: `number`
-
-已经循环播放了多少次（计数）。
-
-## 状态属性（只读）
-
-### started: `boolean`
-
-动画是否开始。
-
-### running: `boolean`
-
-动画是否正在播放。
-
-### completed: `boolean`
-
-动画是否完成。
-
-### destroyed: `boolean`
-
-动画是否销毁。
-
-## 计算属性（只读）
-
-### style: [`IUIInputData`](/api/interfaces/IUIInputData.md)
-
-当前动画状态的样式。
-
-### fromStyle: [`IUIInputData`](/api/interfaces/IUIInputData.md)
-
-from 帧状态的样式。
-
-### toStyle: [`IUIInputData`](/api/interfaces/IUIInputData.md)
-
-to 帧状态的样式。
-
-### endingStyle: [`IUIInputData`](/api/interfaces/IUIInputData.md)
-
-结束状态的样式
-
-### frames: [`IComputedKeyframe`](/api/interfaces/IComputedKeyframe.md) []
-
-实际用于内部动画的计算关键帧列表。
+| 名称                                               | 描述                                                     |
+| -------------------------------------------------- | -------------------------------------------------------- |
+| 计时                                               |                                                          |
+| [duration](/plugin/in/animate/Animate/time.md)     | 动画的总时长（不包含 delay 和循环时间）                  |
+| [time](/plugin/in/animate/Animate/time.md)         | 已经播放的时长（相对 duration，不包含 delay 和循环时间） |
+| [looped](/plugin/in/animate/Animate/time.md)       | 已经循环播放了多少次（计数）                             |
+| 状态                                               |                                                          |
+| [started](/plugin/in/animate/Animate/state.md)     | 动画是否开始                                             |
+| [running](/plugin/in/animate/Animate/state.md)     | 动画是否正在播放                                         |
+| [completed](/plugin/in/animate/Animate/state.md)   | 动画是否完成                                             |
+| [destroyed](/plugin/in/animate/Animate/state.md)   | 动画是否销毁                                             |
+| 样式                                               |                                                          |
+| [style](/plugin/in/animate/Animate/style.md)       | 当前动画状态的样式                                       |
+| [fromStyle](/plugin/in/animate/Animate/style.md)   | from 帧状态的样式                                        |
+| [toStyle](/plugin/in/animate/Animate/style.md)     | to 帧状态的样式                                          |
+| [endingStyle](/plugin/in/animate/Animate/style.md) | 结束状态的样式                                           |
+| [frames](/plugin/in/animate/Animate/style.md)      | 实际用于内部动画的计算关键帧列表                         |
+| [keyframes](/plugin/in/animate/Animate/style.md)   | 原始动画关键帧列表                                       |
 
 ## 关键方法
 
@@ -185,6 +129,14 @@ to 帧状态的样式。
 | [seek()](/plugin/in/animate/Animate/seek.md)       | 定位动画：定位跳转到指定时间，支持设置具体时间（以秒为单位）或百分比 |
 | [kill()](/plugin/in/animate/Animate/kill.md)       | kill 动画：强行完成并销毁动画                                        |
 | [destroy()](/plugin/in/animate/Animate/destroy.md) | 销毁动画：立即销毁动画，不会执行完成动画操作，仅停留在当前动画状态   |
+
+## 事件
+
+动画事件，通过 on() 监听。
+
+| 名称                                                     | 描述     |
+| -------------------------------------------------------- | -------- |
+| [AnimateEvent](/plugin/in/animate/event/AnimateEvent.md) | 动画事件 |
 
 <!-- ## API
 
@@ -209,3 +161,20 @@ to 帧状态的样式。
 ### 关键帧动画
 
 <<< @/code/plugin/animate/keyframes.ts
+
+### 暂停动画
+
+<<< @/code/plugin/animate/animate/pause.ts
+
+### 定位跳转动画
+
+<<< @/code/plugin/animate/animate/seek/value.ts
+
+### 通过 on() 监听动画事件
+
+支持像元素一样 [监听、移除事件](/reference/UI/on.md)，同时也支持初始化时传入 [监听事件对象](/plugin/in/animate/options/event.md)。
+
+::: code-group
+<<< @/code/plugin/animate/options/event/animate/on.ts [animate]
+<<< @/code/plugin/animate/options/event/on.ts [Animate]
+:::
