@@ -58,7 +58,7 @@ import Case from '/component/Case.vue'
 
 <case name="FlowAutoSize" index=2 count=2 height=160 editor=false></case>
 
-<<< @/code/plugin/flow/flow/x.ts
+<<< @/code/plugin/flow/x.ts
 
 ## 下一步
 

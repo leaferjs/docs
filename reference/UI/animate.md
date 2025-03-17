@@ -16,9 +16,9 @@ import Case from '/component/Case.vue'
 
 ## 关键方法
 
-### animate ( keyframe?: [`IUIInputData`](/api/interfaces/IUIInputData.md) | [`IKeyframe`](/api/modules.md#ikeyframe)[] | [`IAnimation`](/reference/UI/animation.md), options?: [`ITranstion`](/api/modules.md#itransition) ) : [`Animate`](/plugin/in/animate/#animate-类)
+### animate ( keyframe?: [`IUIInputData`](/api/interfaces/IUIInputData.md) | [`IKeyframe`](/api/modules.md#ikeyframe)[] | [`IAnimation`](/reference/UI/animation.md), options?: [`ITranstion`](/api/modules.md#itransition) ) : [`Animate`](/plugin/in/animate/index.md)
 
-执行动画方法，并返回 [动画实例](/plugin/in/animate/#animate-类)。
+执行动画方法，并返回 [动画实例](/plugin/in/animate/index.md)。
 
 关键帧对象。
 
@@ -49,7 +49,7 @@ interface IAnimateKeyframe {
 type ITransition = IAnimateOptions | IAnimateEasingName | number
 ```
 
-深入了解 [动画选项属性](/plugin/in/animate/#animate-类#动画选项-只读)。
+深入了解 [动画选项属性](/plugin/in/animate/index.md#动画选项-只读)。
 
 ```ts
 // 动画选项
@@ -76,7 +76,7 @@ interface IAnimateOptions {
 }
 ```
 
-### animate(): [`Animate`](/plugin/in/animate/#animate-类)
+### animate(): [`Animate`](/plugin/in/animate/index.md)
 
 获取当前运行的动画实例。
 

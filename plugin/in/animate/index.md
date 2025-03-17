@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 动画类，丰富的动画功能，支持延时、循环和 seek，可制作过渡动画、摇摆动画、关键帧动画、路径动画、滚动动画。
 
-支持以 [animation](/reference/UI/animation.md)、[transition](/reference/UI/transition.md)、[animate() 方法](/reference/UI/animate.md)、[Animate 实例](/plugin/in/animate/#animate-类) 等方式创建动画。
+支持以 [animation](/reference/UI/animation.md)、[transition](/reference/UI/transition.md)、[animate() 方法](/reference/UI/animate.md)、[Animate 实例](/plugin/in/animate/index.md) 等方式创建动画。
 
 另外元素的 [move()](/reference/UI/position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)、 [ set()](/reference/UI/data.md#set-data-iuiinputdata-transition-itranstion) 方法支持添加动画过渡参数，文本支持 [count 动画](/reference/display/Text.md#文本-count-动画)、[打字机动画](/reference/display/Text.md#打字机动画)
 
@@ -104,11 +104,9 @@ interface IAnimateKeyframe {
 动画的缓动方式，默认为 ease，查看 [动画曲线示意图](https://easings.net/)。
 
 ```ts
-type IAnimateEasing = IAnimateEasingName | ICubicBezierEasing | IStepsEasing
-
-type IAnimateEasingName =
-  | 'linear'
+type IAnimateEasing =
   | 'ease' // 默认值，慢速开始，中间快，缓慢结束
+  | 'linear' // 线性动画，均匀的进行动画
 
   // 缓动
   | 'ease-in' // 缓慢开始，之后加快
@@ -155,6 +153,8 @@ type IAnimateEasingName =
   | 'bounce-in'
   | 'bounce-out'
   | 'bounce-in-out'
+  | ICubicBezierEasing
+  | IStepsEasing
 
 interface ICubicBezierEasing {
   name: 'cubic-bezier' // 三次贝塞尔曲线 0,0, x1,y1, x2,y2, 1,1

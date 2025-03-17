@@ -178,9 +178,9 @@
 
 \- 🌸 Text 增加 [打字机](/reference/display/Text.md#打字机动画) / [删除文字](/reference/display/Text.md#删除文字动画) 动画效果，只需将 text 属性作为动画样式即可
 
-\- 🌸 Animate 类增加 [style](/plugin/in/animate/#animate-类#style-iuiinputdata) 属性，获取当前动画状态的样式
+\- 🌸 Animate 类增加 [style](/plugin/in/animate/index.md#style-iuiinputdata) 属性，获取当前动画状态的样式
 
-\- 🌸 Animate 类初始化 [target](/plugin/in/animate/#animate-类#target-ui-object) 参数支持普通对象。
+\- 🌸 Animate 类初始化 [target](/plugin/in/animate/index.md#target-ui-object) 参数支持普通对象。
 
 #### 🌿 优化
 
@@ -515,7 +515,7 @@
 
 \- 多选元素时，app.editor 会监听两次交互事件的问题
 
-\- [animation](/reference/UI/animation.md) 初始化 [event](/plugin/in/animate/#animate-类#event-ianimateevents) 监听未生效的问题
+\- [animation](/reference/UI/animation.md) 初始化 [event](/plugin/in/animate/index.md#event-ianimateevents) 监听未生效的问题
 
 \- 🌸 Box 元素有背景图片没加载完时，内部子元素动画不渲染
 

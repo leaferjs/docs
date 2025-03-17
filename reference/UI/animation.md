@@ -56,7 +56,7 @@ interface IAnimateKeyframe {
 }
 ```
 
-深入了解 [动画选项属性](/plugin/in/animate/#animate-类#动画选项-只读)。
+深入了解 [动画选项属性](/plugin/in/animate/index.md#动画选项-只读)。
 
 ```ts
 // 动画选项

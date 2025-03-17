@@ -20,14 +20,14 @@ import Case from '/component/Case.vue'
 
 ### transition： [`ITranstion`](/api/modules.md#itransition)
 
-状态过渡 / 进入状态过渡， 默认为 true。详细了解 [动画选项](/plugin/in/animate/#animate-类#动画选项-只读) 。
+状态过渡 / 进入状态过渡， 默认为 true。详细了解 [动画选项](/plugin/in/animate/index.md#动画选项-只读) 。
 
 ```ts
 // 过渡选项，  number 表示duration， string 表示 easing， object 表示动画选项对象，
 type ITransition = boolean | number | IAnimateEasingName | IAnimateOptions
 ```
 
-深入了解 [动画选项属性](/plugin/in/animate/#animate-类#动画选项-只读)。
+深入了解 [动画选项属性](/plugin/in/animate/index.md#动画选项-只读)。
 
 ```ts
 // 动画选项
