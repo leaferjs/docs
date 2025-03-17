@@ -921,7 +921,7 @@
 
 \- 增加打开、关闭事件 [InnerEditorEvent](/plugin/in/editor/event/InnerEditorEvent.md)
 
-\- 增加 [config.selectAll](/plugin/in/text-editor/#texteditor-编辑器) 配置是否双击后自动全选文本
+\- 增加 [config.selectAll](/plugin/in/text-editor/index.md) 配置是否双击后自动全选文本
 
 \- 修复有 padding 的文本，编辑状态 bounds 不一致的问题
 

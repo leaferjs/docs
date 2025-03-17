@@ -46,6 +46,8 @@ interface IAnimateEventFunction {
 
 ### 通过 on() 监听动画事件
 
+支持像元素一样 [监听、移除事件](/reference/UI/on.md)
+
 ::: code-group
 <<< @/code/plugin/animate/options/event/animate/on.ts [animate]
 <<< @/code/plugin/animate/options/event/on.ts [Animate]

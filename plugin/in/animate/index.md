@@ -99,167 +99,23 @@ interface IAnimateKeyframe {
 
 ## 动画选项（只读）
 
-### easing: [`IAnimateEasing`](/api/modules.md#ianimateeasing)
+动画选项属性可作为初始化参数传入。
 
-动画的缓动方式，默认为 ease，查看 [动画曲线示意图](https://easings.net/)。
-
-```ts
-type IAnimateEasing =
-  | 'ease' // 默认值，慢速开始，中间快，缓慢结束
-  | 'linear' // 线性动画，均匀的进行动画
-
-  // 缓动
-  | 'ease-in' // 缓慢开始，之后加快
-  | 'ease-out' // 开始快，缓慢结束
-  | 'ease-in-out' // 缓慢开始和结束
-
-  // 三角函数
-  | 'sine-in'
-  | 'sine-out'
-  | 'sine-in-out'
-  // 二次方
-  | 'quad-in'
-  | 'quad-out'
-  | 'quad-in-out'
-  // 三次方
-  | 'cubic-in'
-  | 'cubic-out'
-  | 'cubic-in-out'
-  // 四次方
-  | 'quart-in'
-  | 'quart-out'
-  | 'quart-in-out'
-  // 五次方
-  | 'quint-in'
-  | 'quint-out'
-  | 'quint-in-out'
-  // 指数
-  | 'expo-in'
-  | 'expo-out'
-  | 'expo-in-out'
-  // 平方根
-  | 'circ-in'
-  | 'circ-out'
-  | 'circ-in-out'
-  // 单次回弹
-  | 'back-in'
-  | 'back-out'
-  | 'back-in-out'
-  // 多次回弹
-  | 'elastic-in'
-  | 'elastic-out'
-  | 'elastic-in-out'
-  // 重力反弹
-  | 'bounce-in'
-  | 'bounce-out'
-  | 'bounce-in-out'
-  | ICubicBezierEasing
-  | IStepsEasing
-
-interface ICubicBezierEasing {
-  name: 'cubic-bezier' // 三次贝塞尔曲线 0,0, x1,y1, x2,y2, 1,1
-  value: [number, number, number, number] // [x1, y1, x2, y2]
-}
-
-interface IStepsEasing {
-  name: 'steps' // 步长动画
-  // 第一个参数为步数
-  // 第二个参数为取整步数的数学方法 Math.floor(t * steps) / steps， 默认为 floor
-  value: number | [number, 'floor' | 'round' | 'ceil']
-}
-```
-
-### delay: `number`
-
-动画延迟播放的时长。
-
-### duration: `number`
-
-动画的总时长（不包含 delay 和循环时间）。
-
-### ending: [`IAnimateEnding`](/api/modules.md#ianimateending)
-
-动画结束时的样式，默认为 'auto'。
-
-from 表示起点样式，to 表示终点样式。
-
-```ts
-type IAnimateEnding = 'auto' | 'from' | 'to'
-```
-
-### reverse?: `boolean`
-
-是否反向动画 to -> from，默认为 false
-
-### swing?: `boolean` | `number`
-
-是否摇摆循环播放，可设置次数（到达 to 的次数）， from -> to，to -> from -> to ... ，默认 false
-
-### loop: `boolean` | `number`
-
-是否循环播放，可设置次数，默认为 false。
-
-### loopDelay: `number`
-
-进入下一次循环播放的延迟时间。
-
-### speed: `number`
-
-动画的播放倍速，默认为 1。
-
-1 个 10 秒的动画，如果 speed 为 2，则 5 秒就能播完。
-
-### join: `boolean`
-
-是否加入动画前的元素状态作为 from 关键帧。
-
-只有一个关键帧时，强制为 true，进行 from -> to 动画。
-
-多个关键帧时，默认为 false，会按预设的关键帧列表进行动画。
-
-### autoplay: `boolean`
-
-是否自动播放。
-
-### attrs: `string` []
-
-参与动画过渡的元素属性列表， 默认为所有。
-
-### event: [`IAnimateEvents`](/api/interfaces/IAnimateEvent.md)
-
-监听事件。
-
-```ts
-interface IAnimateEvents {
-  created?: IAnimateEventFunction
-
-  play?: IAnimateEventFunction
-  pause?: IAnimateEventFunction
-  stop?: IAnimateEventFunction
-  seek?: IAnimateEventFunction
-
-  update?: IAnimateEventFunction
-  completed?: IAnimateEventFunction
-}
-
-interface IAnimateEventFunction {
-  (animate?: IAnimate): void
-}
-
-// 示例
-const animateOptions = {
-  ease: 'bounce-in',
-  duration: 2,
-  event: {
-    update(animate?: IAnimate) {
-      // 更新中...
-    },
-    completed() {
-      // 动画已完成
-    },
-  },
-}
-```
+| 名称                                               | 描述                                                                               |
+| -------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [easing](/plugin/in/animate/options/easing.md)     | 缓动：动画的缓动方式，默认为 ease                                                  |
+| [delay](/plugin/in/animate/options/delay.md)       | 延迟：动画延迟播放的时长                                                           |
+| [duration](/plugin/in/animate/options/duration.md) | 时长：动画的总时长（不包含 delay 和循环时间）                                      |
+| [speed](/plugin/in/animate/options/speed.md)       | 速度：动画的播放倍速，1 个 10 秒的动画，如果 speed 为 5，则 2 秒就能播完           |
+| [reverse](/plugin/in/animate/options/reverse.md)   | 反向：是否反向动画 to -> from                                                      |
+| [loop](/plugin/in/animate/options/loop.md)         | 循环：是否循环播放，可设置次数                                                     |
+| [loopDelay](/plugin/in/animate/options/loop.md)    | 循环间隔：进入下一次循环播放的延迟时间                                             |
+| [swing](/plugin/in/animate/options/loop.md)        | 摇摆循环：是否摇摆循环播放，可设置到达 to 的次数，from -> to，to -> from -> to ... |
+| [ending](/plugin/in/animate/options/ending.md)     | 结束样式：动画结束时的样式，from 表示起点样式，to 表示终点样式                     |
+| [join](/plugin/in/animate/options/join.md)         | 加入关键帧： 是否加入动画前的元素状态作为 from 关键帧                              |
+| [autoplay](/plugin/in/animate/options/autoplay.md) | 自动播放： 是否自动播放，默认为 true                                               |
+| [attrs](/plugin/in/animate/options/attrs.md)       | 过渡属性：参与动画过渡的元素属性列表， 默认为所有                                  |
+| [event](/plugin/in/animate/options/event.md)       | 事件：监听动画事件对象                                                             |
 
 ## 时长属性（只读）
 
@@ -317,76 +173,18 @@ to 帧状态的样式。
 
 ## 关键方法
 
-### play ( )
+<!-- ### init ( target: [UI](/reference/display/UI.md), keyframe: [`IUIInputData`](/api/interfaces/IUIInputData.md) | [`IKeyframe`](/api/modules.md#ikeyframe) [], options?: options?: [`ITranstion`](/api/modules.md#itransition), isTemp?: `boolean` )
 
-播放动画。
+重新初始化动画。 -->
 
-### pause ( )
-
-暂停动画。
-
-### stop ( )
-
-停止动画。
-
-### seek ( time: `number` | [`IPercentData`](/api/interfaces/IPercentData.md) )
-
-滑动到指定时间，支持设置具体时间（以秒为单位），或百分比（相对 duration 总时长）。
-
-```ts
-interface IPercentData {
-  type: 'percent'
-  value: number
-}
-
-// 假如总时长 duration 为6秒
-
-animate.seek(3) // 3秒
-
-animate.seek({
-  type: 'percent',
-  value: 0.5, // 50% = 3秒
-})
-```
-
-### kill ( )
-
-强行完成并销毁动画。
-
-### init ( target: [UI](/reference/display/UI.md), keyframe: [`IUIInputData`](/api/interfaces/IUIInputData.md) | [`IKeyframe`](/api/modules.md#ikeyframe) [], options?: options?: [`ITranstion`](/api/modules.md#itransition), isTemp?: `boolean` )
-
-重新初始化动画。
-
-### destroy ( )
-
-销毁动画。
-
-## 事件支持
-
-支持像元素一样 [监听、移除事件](/reference/UI/on.md)，支持监听以下事件：
-
-```ts
-interface IAnimateEvents {
-  created?: IAnimateEventFunction
-
-  play?: IAnimateEventFunction
-  pause?: IAnimateEventFunction
-  stop?: IAnimateEventFunction
-  seek?: IAnimateEventFunction
-
-  update?: IAnimateEventFunction
-  completed?: IAnimateEventFunction
-}
-
-interface IAnimateEventFunction {
-  (animate?: IAnimate): void
-}
-
-animate.on('created', (animate) => {
-  // 创建完成
-  console.log(animate)
-})
-```
+| 名称                                               | 描述                                                                 |
+| -------------------------------------------------- | -------------------------------------------------------------------- |
+| [play()](/plugin/in/animate/Animate/play.md)       | 播放动画                                                             |
+| [pause()](/plugin/in/animate/Animate/pause.md)     | 暂停动画                                                             |
+| [stop()](/plugin/in/animate/Animate/stop.md)       | 停止动画： 强行完成动画并暂停                                        |
+| [seek()](/plugin/in/animate/Animate/seek.md)       | 定位动画：定位跳转到指定时间，支持设置具体时间（以秒为单位）或百分比 |
+| [kill()](/plugin/in/animate/Animate/kill.md)       | kill 动画：强行完成并销毁动画                                        |
+| [destroy()](/plugin/in/animate/Animate/destroy.md) | 销毁动画：立即销毁动画，不会执行完成动画操作，仅停留在当前动画状态   |
 
 <!-- ## API
 
