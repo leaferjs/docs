@@ -26,6 +26,12 @@
 
 ## 事件名称
 
+### EditorEvent.BEFORE_SELECT
+
+before 选择元素事件 (下个版本即将支持)。
+
+`editor.before_select`
+
 ### EditorEvent.SELECT
 
 选择元素事件。
@@ -33,6 +39,12 @@
 选择和取消都会触发， 通过 [editor.target](/plugin/in/editor/index.md#target-ui-ui) 获取选中的元素。
 
 `editor.select`
+
+### EditorEvent.BEFORE_HOVER
+
+before hover 元素事件 (下个版本即将支持)。
+
+`editor.before_hover`
 
 ### EditorEvent.HOVER
 

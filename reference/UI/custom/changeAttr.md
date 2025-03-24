@@ -6,7 +6,7 @@
 
 ### changeAttr ( attrName: `string`, defaultValue: [`IValue`](/api/modules.md#ivalue) )
 
-修改元素属性的默认值 （全局操作）。
+修改元素属性的默认值 （全局操作，支持函数返回）。
 
 ## 归属
 
@@ -19,3 +19,7 @@
 后续创建的所有文本，默认填充色都将变为红色， 但不会影响其他类型的元素。
 
 <<< @/code/property/custom/changeAttr.ts
+
+### 修改文本默认填充色为可变颜色
+
+<<< @/code/property/custom/changeAttr2.ts

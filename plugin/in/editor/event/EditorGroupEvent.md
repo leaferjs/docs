@@ -10,6 +10,12 @@
 
 ## 事件名称
 
+### EditorGroupEvent.BEFORE_GROUP
+
+before 编组事件。
+
+`editor.before_group`
+
 ### EditorGroupEvent.GROUP
 
 编组事件。
@@ -28,11 +34,23 @@ before 解组事件。
 
 `editor.ungroup`
 
+### EditorGroupEvent.BEFORE_OPEN
+
+before 双击打开组事件。
+
+`editor.before_open_group`
+
 ### EditorGroupEvent.OPEN
 
 双击打开组事件。
 
 `editor.open_group`
+
+### EditorGroupEvent.BEFORE_CLOSE
+
+before 关闭已打开的组事件。
+
+`editor.before_close_group`
 
 ### EditorGroupEvent.CLOSE
 

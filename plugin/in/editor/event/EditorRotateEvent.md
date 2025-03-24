@@ -14,6 +14,12 @@
 
 ## 事件名称
 
+### EditorRotateEvent.BEFORE_ROTATE
+
+before 旋转元素事件。
+
+`editor.before_rotate`
+
 ### EditorRotateEvent.ROTATE
 
 旋转元素事件。

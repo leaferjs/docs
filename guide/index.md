@@ -58,7 +58,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 ::: tip 提交模版
 **【Bug/建议】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.2
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.5.0
 
 复现步骤：请提供详细的复现逻辑及可直接运行的代码，以便更快解决问题。
 :::
@@ -76,7 +76,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 ::: tip 提交模版
 **【leaferjs】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 1.4.2
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.5.0
 
 #LeaferJS （点击知乎提问框底部的 # 号，可绑定话题）
 :::
@@ -151,7 +151,7 @@ LeaferJS 致力于实现一套简洁、开放、现代化的 UI 绘图语言标�
 
 通过不断革新的图形渲染技术、配套支持， 吸引更多的开发者加入使用，建立起一个开放的生态环境，沟通有无，互相从中受益，推动行业的快速发展，并诞生出更多有创意的技术和产品。
 
-我们的目标不仅是让它成为前沿的 2D 和未来的 3D 引擎技术，还希望它能够为开发者带来极致的开发体验，助力开发者快速构建 AI 时代的网页、应用、设计、游戏和动画等可视化生产力工具（如下一代 local-first 的 Figma、Miro、Notion、Unity、Adobe、Canva、Webflow 等）。
+我们的目标不仅是打造最前沿的 2D 和未来的 3D 引擎技术，更要创造一套简洁、开放、现代化的 UI 绘图标准。我们希望为开发者带来极致的开发体验，助力他们快速构建 AI 时代的网页、应用、设计、画布、游戏和动画等可视化生产力工具，推动下一代本地优先的 Figma、Miro、Notion、Unity、Adobe、Canva、Webflow 等创新产品的诞生。
 
 这是一段漫长而又充满乐趣的旅程，我们正在年复一年、坚定地向这个目标持续前进，可以通过 [开发计划](../plan/) 了解更多信息。
 

@@ -40,6 +40,10 @@ scale： 修改元素的 **缩放属性** 达到调整大小的目的。
 
 ## 示例
 
+### 拖拽控制点修改字体大小，拖拽边框控制文本宽高
+
+<<< @/code/plugin/editor/config/style/point/fontSize.ts
+
 ### 移动元素时隐藏编辑框
 
 <<< @/code/plugin/editor/config/hide-move.ts

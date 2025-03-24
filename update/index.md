@@ -1,5 +1,75 @@
 # 更新
 
+## 2025 / 03 / 22
+
+> v1.5.0
+
+#### 🍇 社区
+
+\- 🌸 [趣设计小程序支持编辑、生成 GIF 动画 - LeaferJS 首个动图产品案例](https://www.leaferjs.com/ui/guide/install/ui/miniapp/start.html#%E9%87%87%E7%94%A8%E5%B0%8F%E7%A8%8B%E5%BA%8F-web-view-%E7%BB%84%E4%BB%B6%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%A1%88%E4%BE%8B) @BO
+
+\- 🌸 [棋盘格示例代码](https://github.com/leaferjs/leafer-ui/blob/main/contributor/code/Checkerboard.ts) [@崮生](https://github.com/2234839)
+
+\- 🌸 更新大量文档及示例，支持在线快速联调示例代码
+
+#### 🌱 新增
+
+\- 🌸 编辑器控制点增加 [resize-rotate 类型](/plugin/in/editor/config/style.md#point-iboxinputdata-iboxinputdata)，支持同时旋转和缩放功能
+
+\- 🌸 编辑器配置增加 [selectedStyle](/plugin/in/editor/config/style.md#selectedstyle-ipathinputdata)，用于区分 hoverStyle
+
+\- 🌸 元素支持直接设置 [editConfig](/reference/UI/editable.md#editconfig-ieditorconfig)、[editOuter](/reference/UI/editable.md#editconfig-ieditorconfig)、[editInner](/reference/UI/editable.md#editconfig-ieditorconfig) 属性，并支持导出到 JSON 中
+
+\- 🌸 编辑器支持给控制点配置 editConfig 实现 [拖拽控制点修改字体大小，拖拽边框控制文本宽高](/plugin/in/editor/config/style.md#拖拽控制点修改字体大小-拖拽边框控制文本宽高)
+
+\- 🌸 增加 [syncExport()](/reference/UI/export.md) 同步导出方法
+
+\- 图形编辑器大部分操作事件统一增加 before 前置事件
+
+\- 编辑器支持配置隐藏 [editBox](/plugin/in/editor/config/select.md#editbox-boolean) 编辑框，满足部分只需要选择元素的场景（如脑图）
+
+\- 元素 [addAttr()](/reference/UI/custom/changeAttr.md) 、[changeAttr()](/reference/UI/custom/changeAttr.md) 静态方法，属性默认值支持函数返回
+
+#### 🪲 修复
+
+\- 🌸 文本编辑器多次换行不符合预期的问题 [#390](https://github.com/leaferjs/leafer-ui/issues/390)
+
+\- [Pen](/reference/display/Pen.md) 元素的 drawPoints() 方法参数类型不支持 IPointData[] 的问题 [#387](https://github.com/leaferjs/leafer-ui/issues/387)
+
+\- 🌸 在执行过缩放 zoom('fit') 之后，后续的放大缩小异常 [#385](https://github.com/leaferjs/leafer-ui/issues/385)
+
+\- 当可编辑文本的文字全部删除后，输入光标会变大 [#384](https://github.com/leaferjs/leafer-ui/issues/384)
+
+\- 🌸 应用 scaleY 为 负数时，缩放效果不正确 [#378](https://github.com/leaferjs/leafer-ui/issues/378)
+
+\- 锁定元素的限制问题 [#374](https://github.com/leaferjs/leafer-ui/issues/374)
+
+\- 箭头样式互换设置后，再次互换设置失败 [#373](https://github.com/leaferjs/leafer-ui/issues/373)
+
+\- 🌸 运动路径 loop 为 false 有问题
+
+\- 修复文本强制不换行时，溢出效果不符合预期的问题
+
+\- 🌸 自动布局多行对齐时，未将行间距计算进去的问题
+
+\- 🌸 微信拉伸图片一直增长内存
+
+\- 编辑多条直线来回镜像会偶发偏移的问题
+
+#### 🌿 优化
+
+\- 🌸 优化编辑器旋转吸附体验
+
+\- 编辑器中间控制点关联 hideOnSmall 逻辑，并优化体验
+
+\- 🌸 未添加到 leafer 中的元素也支持直接导出
+
+\- 优化 clone() 引用问题
+
+#### 🌷 感谢反馈
+
+[@QmagicianEX](https://github.com/QmagicianEX) [@johnnhan](https://github.com/johnnhan) [@youyeke](https://github.com/youyeke) [@PineSongCN](https://github.com/PineSongCN) [@sufangyu](https://github.com/leaferjs/leafer-ui/issues/373) [@Xdy1579883916](https://github.com/Xdy1579883916) [@nbgzc](https://github.com/nbgzc) [@Xdy1579883916](https://github.com/Xdy1579883916) [@瓜尔佳子夜](https://www.zhihu.com/people/gua-er-jia-zi-ye) @哟 @bulabala @杨凯 @胡春东 @南 @第一生产力 @蘑菇君 @xiaou @BO @Ethan @黄某人 @伍超
+
 ## 2025 / 02 / 24
 
 > v1.4.2

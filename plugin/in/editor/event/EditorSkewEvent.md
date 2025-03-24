@@ -22,6 +22,12 @@ Y 轴倾斜值（增量）。
 
 ## 事件名称
 
+### EditorSkewEvent.BEFORE_SKEW
+
+before 倾斜元素事件。
+
+`editor.before_skew`
+
 ### EditorSkewEvent.SKEW
 
 倾斜元素事件。

@@ -27,7 +27,11 @@ enum Direction9 {
 ### pointType：[`IEditPointType`](/api/modules.md#ieditpointtype)
 
 ```ts
-type IEditPointType = 'rotate' | 'resize'
+type IEditPointType =
+  | 'rotate' // 旋转按钮
+  | 'resize' // resize 按钮
+  | 'resize-rotate' // reisze + 旋转按钮
+  | 'button' // 自定义按钮
 ```
 
 <!-- ## 继承元素

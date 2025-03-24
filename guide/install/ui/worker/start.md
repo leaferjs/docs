@@ -37,11 +37,11 @@ bun add @leafer-ui/worker
 ::: code-group
 
 ```js [worker.min.js]
-importScripts('https://unpkg.com/@leafer-ui/worker@1.4.2/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer-ui/worker@1.5.0/dist/worker.min.js')
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-ui/worker@1.4.2/dist/worker.js')
+importScripts('https://unpkg.com/@leafer-ui/worker@1.5.0/dist/worker.js')
 ```
 
 :::

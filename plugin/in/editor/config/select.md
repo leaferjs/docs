@@ -14,6 +14,12 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
+### editBox: `boolean`
+
+是否启用编辑框功能（用于编辑元素），默认启用。
+
+禁用后将隐藏编辑框。
+
 ### selector: `boolean`
 
 是否启用编辑选择器， 默认启用。

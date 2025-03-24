@@ -38,7 +38,7 @@ bun add leafer-draw
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-draw@1.4.2/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-draw@1.5.0/dist/web.min.js"></script>
 <script>
   const { Leafer } = LeaferUI
   // ...
@@ -46,7 +46,7 @@ bun add leafer-draw
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-draw@1.4.2/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-draw@1.5.0/dist/web.js"></script>
 <script>
   const { Leafer } = LeaferUI
   // ...
@@ -55,14 +55,14 @@ bun add leafer-draw
 
 ```html [module.min]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-draw@1.4.2/dist/web.module.min.js'
+  import { Leafer } from 'https://unpkg.com/leafer-draw@1.5.0/dist/web.module.min.js'
   // ...
 </script>
 ```
 
 ```html [module]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-draw@1.4.2/dist/web.module.js'
+  import { Leafer } from 'https://unpkg.com/leafer-draw@1.5.0/dist/web.module.js'
   // ...
 </script>
 ```

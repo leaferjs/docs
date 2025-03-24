@@ -36,14 +36,14 @@ import Case from '/component/Case.vue'
 
 设置控制点样式，可单独设置 4 个点。
 
-并支持通过设置 pointType = `'button'` ｜`'rotate'` 来自定义功能。
+并支持通过设置 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
 
 ```ts
 point: [
-  {},
+  { pointType: 'resize' }, // 默认 resize 按钮
   {
     // 支持 Box 元素的所有属性
-    pointType: 'button',
+    pointType: 'button', // 变为自定义按钮
     event: {
       tap: function () {
         alert('button')
@@ -54,15 +54,17 @@ point: [
       type: 'image',
       url: '/image/leafer.jpg',
     },
-  }, // 变为自定义按钮
+  },
   { pointType: 'rotate' }, // 变为旋转按钮
-  {},
+  { pointType: 'resize-rotate' }, // 变为 resize + 旋转按钮
 ]
 ```
 
 ### middlePoint: [`IBoxInputData`](/reference/display/Box.md)｜ [`IBoxInputData`](/reference/display/Box.md)[]
 
 设置中间控制点样式（会继承基础样式），可单独设置 4 个点，为空时不显示， 默认为空。
+
+并支持通过设置 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
 
 ### rect: [`IBoxInputData`](/reference/display/Box.md)
 
@@ -78,7 +80,7 @@ point: [
 
 设置独立旋转控制点样式（会继承基础样式）， 为空时不显示， 默认为空。
 
-并支持通过设置 pointType = `'button'` 来自定义功能。
+并支持通过设置 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
 
 ```ts
 circle: {
@@ -109,6 +111,10 @@ circle: {
 ### hoverStyle: [`IPathInputData`](/reference/display/Path.md)
 
 hover 样式，目前只能定义笔触和填充样式（会继承基础样式）。
+
+### selectedStyle: [`IPathInputData`](/reference/display/Path.md)
+
+选中元素的样式（区分 hover 样式，多选元素时比较容易看出来），目前只能定义笔触和填充样式（会继承基础样式）。
 
 ### 遮罩
 
@@ -145,3 +151,15 @@ hover 样式，目前只能定义笔触和填充样式（会继承基础样式�
 默认会继承基础样式， 只需覆盖新的样式。
 
 <<< @/code/plugin/editor/config/rotate-point.ts
+
+### 自定义控制点功能类型
+
+::: code-group
+<<< @/code/plugin/editor/config/style/point/pointType.ts [point]
+<<< @/code/plugin/editor/config/style/middlePoint/pointType.ts [middlePoint]
+<<< @/code/plugin/editor/config/style/circle/pointType.ts [circle]
+:::
+
+### 拖拽控制点修改字体大小，拖拽边框控制文本宽高
+
+<<< @/code/plugin/editor/config/style/point/fontSize.ts

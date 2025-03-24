@@ -6,6 +6,12 @@
 
 还可通过 [命令行工具](/create/leafer.md#更新项目中的-leafer-依赖版本号) 更新。
 
-## 最新版本
+## 版本号
 
-当前最新版本为： [v1.4.2](/update/index.md)
+当前最新版本为： [v1.5.0](/update/index.md)
+
+```ts
+import { version } from 'leafer-ui'
+
+console.log(version)
+```

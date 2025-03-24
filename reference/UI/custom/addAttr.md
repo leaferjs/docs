@@ -6,7 +6,7 @@
 
 ### addAttr ( attrName: `string`, defaultValue: [`IValue`](/api/modules.md#ivalue), typeFn?: [IAttrDecorator](/api/interfaces/IAttrDecorator.md) )
 
-新增元素属性（全局操作）， defaultValue 为默认值，typeFn 为数据装饰器（默认为 [boundsType](/api/modules.md#boundstype)）。
+新增元素属性（全局操作）， defaultValue 为默认值（支持函数返回），typeFn 为数据装饰器（默认为 [boundsType](/api/modules.md#boundstype)）。
 
 ## 数据装饰器
 
@@ -39,6 +39,10 @@
 ### 为文本新增一个 float 属性
 
 <<< @/code/property/custom/addAttr.ts
+
+### 为文本新增一个可变的 float 属性
+
+<<< @/code/property/custom/addAttr2.ts
 
 ### 为文本新增一个 dataType 类型的属性
 

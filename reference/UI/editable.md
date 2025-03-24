@@ -56,7 +56,7 @@ rect.heightRange = { min: 10, max: 200 }
 
 ### [resize 元素 / 组元素](/reference/UI/resize.md)
 
-## 只读属性
+## 编辑配置属性
 
 ### editConfig： [`IEditorConfig`](/plugin/in/editor/config/base.md)
 

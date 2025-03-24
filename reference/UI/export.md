@@ -1,6 +1,6 @@
 # 导出
 
-会等待视图内所有网络资源都加载完再进行导出图片。
+导出内容。
 
 ::: tip 注意事项
 需安装 [导出元素插件](/plugin/in/export/index.md) 才能使用，或直接安装 [leafer-editor](/guide/install/editor/start.md)、node 版（已集成导出元素插件）。
@@ -8,9 +8,17 @@
 
 ## 关键方法
 
+### syncExport ( )
+
+syncExport( name: [`IExportFileType`](/api/modules.md#iexportimagetype) | `string`, options?: [`IExportOptions`](/api/interfaces/IExportOptions.md) | `number`): [`IExportResult`](/api/interfaces/IExportResult.md)
+
+同步导出方法，参数同 export() 方法一致, 仅支持图片已经加载成功的情况，不支持同步导出二进制数据。
+
 ### export ( )
 
 export( name: [`IExportFileType`](/api/modules.md#iexportimagetype) | `string`, options?: [`IExportOptions`](/api/interfaces/IExportOptions.md) | `number` | `boolean`): `Promise`<[`IExportResult`](/api/interfaces/IExportResult.md)>
+
+异步导出方法，会等待视图内所有网络资源都加载完再进行导出图片。
 
 支持导出单个元素、画面截图， 默认导出为 1 倍图（元素逻辑尺寸）。
 
@@ -19,12 +27,16 @@ name 为文件名时表示保存文件。
 options 为数字时表示图片质量， 为布尔时表示二进制数据 。
 
 :::tip 注意事项
+[Leafer](/reference/display/Leafer.md) 实例默认导出为内容（非画布），想导出画布需要增加 `screenshot` 截图参数。
+
 单独导出 [App](/reference/display/App.md) 实例，只能为画面截图。
 :::
 
 ```ts
 type IExportFileType = 'canvas' | 'json' | 'jpg' | 'png' | 'webp' ｜ 'bmp' // 后续会支持svg、pdf, bmp 格式需平台自身支持
+```
 
+```ts
 interface IExportOptions {
   quality?: number // 设置 jpg / webp 的图片质量
   blob?: boolean // 导出二进制数据
@@ -68,7 +80,9 @@ interface ICanvasRenderingContext2DSettings {
   desynchronized?: boolean // 低延时渲染，默认为false
   willReadFrequently?: boolean // 用于 getImageData() 加速， 默认为false
 }
+```
 
+```ts
 interface IExportResult {
   data: ILeaferCanvas | IBlob | string | boolean // data为无时表示导出失败
 

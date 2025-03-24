@@ -22,6 +22,12 @@ Y 轴的缩放值（增量）。
 
 ## 事件名称
 
+### EditorScaleEvent.BEFORE_SCALE
+
+before 缩放大小事件（调整元素大小）。
+
+`editor.before_scale`
+
 ### EditorScaleEvent.SCALE
 
 缩放大小事件（调整元素大小）。

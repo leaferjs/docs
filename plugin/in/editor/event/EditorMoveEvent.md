@@ -14,6 +14,12 @@ Y 轴移动距离（世界坐标）
 
 ## 事件名称
 
+### EditorMoveEvent.BEFORE_MOVE
+
+before 移动元素事件。
+
+`editor.before_move`
+
 ### EditorMoveEvent.MOVE
 
 移动元素事件。
