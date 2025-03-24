@@ -89,11 +89,17 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 ### 通过 add 方法添加
 
-<<< @/code/display/Group/create.ts
+::: code-group
+<<< @/code/display/Group/create.ts [Leafer]
+<<< @/code/display/Group/app/create.ts [App]
+:::
 
 ### 通过 children 属性添加
 
-<<< @/code/display/Group/children.ts
+::: code-group
+<<< @/code/display/Group/children.ts [Leafer]
+<<< @/code/display/Group/app/children.ts [App]
+:::
 
 ### 使用 tag 对象创建
 

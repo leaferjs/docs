@@ -75,40 +75,61 @@ sides: 5
 
 ### 绘制三角形
 
-<<< @/code/display/Polygon/triangle.ts
+::: code-group
+<<< @/code/display/Polygon/triangle.ts [Leafer]
+<<< @/code/display/Polygon/app/triangle.ts [App]
+:::
 
 <case name="Polygon" index=1 editor=false></case>
 
 ### 绘制五边形
 
-<<< @/code/display/Polygon/pentagon.ts
+::: code-group
+<<< @/code/display/Polygon/pentagon.ts [Leafer]
+<<< @/code/display/Polygon/app/pentagon.ts [App]
+:::
 
 <case name="Polygon" index=2 editor=false></case>
 
 ### 绘制圆角六边形
 
-<<< @/code/display/Polygon/corner.ts
+::: code-group
+<<< @/code/display/Polygon/corner.ts [Leafer]
+<<< @/code/display/Polygon/app/corner.ts [App]
+:::
 
 <case name="Polygon" index=3 editor=false></case>
 
 ### 绘制自由多边形
 
-<<< @/code/display/Polygon/points.ts
+::: code-group
+<<< @/code/display/Polygon/points.ts [Leafer]
+<<< @/code/display/Polygon/app/points.ts [App]
+:::
 
 <case name="Polygon" index=4 editor=false></case>
 
 ### 绘制平滑多边形
 
-<<< @/code/display/Polygon/curve.ts
+::: code-group
+<<< @/code/display/Polygon/curve.ts [Leafer]
+<<< @/code/display/Polygon/app/curve.ts [App]
+:::
 
 <case name="Polygon" index=6 editor=false></case>
 
 ### 绘制 0.2 曲率的平滑多边形
 
-<<< @/code/display/Polygon/curve-number.ts
+::: code-group
+<<< @/code/display/Polygon/curve-number.ts [Leafer]
+<<< @/code/display/Polygon/app/curve-number.ts [App]
+:::
 
 <case name="Polygon" index=5 editor=false></case>
 
 ### 绘制趋势图
 
-<<< @/code/display/Polygon/chart.ts
+::: code-group
+<<< @/code/display/Polygon/chart.ts [Leafer]
+<<< @/code/display/Polygon/app/chart.ts [App]
+:::

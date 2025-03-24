@@ -56,4 +56,7 @@ type IOverflow = 'show' | 'hide'
 
 ### 创建画板
 
-<<< @/code/display/Frame/create.ts
+::: code-group
+<<< @/code/display/Frame/create.ts [Leafer]
+<<< @/code/display/Frame/app/create.ts [App]
+:::

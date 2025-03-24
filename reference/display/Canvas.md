@@ -99,10 +99,16 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 
 ### 使用 context 绘制
 
-<<< @/code/display/Canvas/context.ts
+::: code-group
+<<< @/code/display/Canvas/context.ts [Leafer]
+<<< @/code/display/Canvas/app/context.ts [App]
+:::
 
 <case name="Pen" index=2 editor=false></case>
 
 ### 使用图形元素绘制
 
-<<< @/code/display/Canvas/draw.ts
+::: code-group
+<<< @/code/display/Canvas/draw.ts [Leafer]
+<<< @/code/display/Canvas/app/draw.ts [App]
+:::

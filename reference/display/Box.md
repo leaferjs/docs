@@ -75,16 +75,25 @@ type IOverflow = 'show' | 'hide'
 
 ### 创建 Box
 
-<<< @/code/display/Box/create.ts
+::: code-group
+<<< @/code/display/Box/create.ts [Leafer]
+<<< @/code/display/Box/app/create.ts [App]
+:::
 
 <case name="Box" index=1 editor=false></case>
 
 ### 隐藏超出宽高的内容
 
-<<< @/code/display/Box/overflow.ts
+::: code-group
+<<< @/code/display/Box/overflow.ts [Leafer]
+<<< @/code/display/Box/app/overflow.ts [App]
+:::
 
 <case name="Box" index=6 editor=false></case>
 
 ### 创建自适应背景的文本
 
-<<< @/code/display/Box/text.ts
+::: code-group
+<<< @/code/display/Box/text.ts [Leafer]
+<<< @/code/display/Box/app/text.ts [App]
+:::

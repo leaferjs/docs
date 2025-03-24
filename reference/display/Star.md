@@ -60,22 +60,34 @@ innerRadius: 0.382
 
 ### 绘制车标
 
-<<< @/code/display/Star/three.ts
+::: code-group
+<<< @/code/display/Star/three.ts [Leafer]
+<<< @/code/display/Star/app/three.ts [App]
+:::
 
 <case name="Star" index=1 editor=false></case>
 
 ### 绘制星光
 
-<<< @/code/display/Star/light.ts
+::: code-group
+<<< @/code/display/Star/light.ts [Leafer]
+<<< @/code/display/Star/app/light.ts [App]
+:::
 
 <case name="Star" index=2 editor=false></case>
 
 ### 绘制五角星
 
-<<< @/code/display/Star/star.ts
+::: code-group
+<<< @/code/display/Star/star.ts [Leafer]
+<<< @/code/display/Star/app/star.ts [App]
+:::
 
 <case name="Star" index=5 editor=false></case>
 
 ### 绘制圆角星形
 
-<<< @/code/display/Star/corner.ts
+::: code-group
+<<< @/code/display/Star/corner.ts [Leafer]
+<<< @/code/display/Star/app/corner.ts [App]
+:::

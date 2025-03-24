@@ -51,16 +51,25 @@ cornerRadius: 20 // all
 
 ### 绘制矩形
 
-<<< @/code/display/Rect/rect.ts
+::: code-group
+<<< @/code/display/Rect/rect.ts [Leafer]
+<<< @/code/display/Rect/app/rect.ts [App]
+:::
 
 <case name="Rect" index=1 editor=false></case>
 
 ### 绘制圆角矩形
 
-<<< @/code/display/Rect/corner.ts
+::: code-group
+<<< @/code/display/Rect/corner.ts [Leafer]
+<<< @/code/display/Rect/app/corner.ts [App]
+:::
 
 <case name="Rect" index=4 editor=false></case>
 
 ### 绘制不同圆角的矩形
 
-<<< @/code/display/Rect/corners.ts
+::: code-group
+<<< @/code/display/Rect/corners.ts [Leafer]
+<<< @/code/display/Rect/app/corners.ts [App]
+:::

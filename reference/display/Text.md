@@ -208,7 +208,10 @@ padding: 20 // all
 
 ### 创建文本
 
-<<< @/code/display/Text/text.ts
+::: code-group
+<<< @/code/display/Text/text.ts [Leafer]
+<<< @/code/display/Text/app/text.ts [App]
+:::
 
 <case name="Box" index=6 editor=false></case>
 
@@ -216,7 +219,10 @@ padding: 20 // all
 
 [Box](./Box.md) 不设置宽高时，支持自适应内容。
 
-<<< @/code/display/Box/text.ts
+::: code-group
+<<< @/code/display/Box/text.ts [Leafer]
+<<< @/code/display/Box/app/text.ts [App]
+:::
 
 ### 文本 count 动画
 

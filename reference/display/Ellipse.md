@@ -71,34 +71,52 @@ innerRadius: 0.5
 
 圆心位于 `width` / 2, `height` / 2 处。
 
-<<< @/code/display/Ellipse/circle.ts
+::: code-group
+<<< @/code/display/Ellipse/circle.ts [Leafer]
+<<< @/code/display/Ellipse/app/circle.ts [App]
+:::
 
 <case name="Ellipse" index=1 editor=false></case>
 
 ### 绘制圆环
 
-<<< @/code/display/Ellipse/ring.ts
+::: code-group
+<<< @/code/display/Ellipse/ring.ts [Leafer]
+<<< @/code/display/Ellipse/app/ring.ts [App]
+:::
 
 <case name="Ellipse" index=2 editor=false></case>
 
 ### 绘制扇形圆环
 
-<<< @/code/display/Ellipse/sectorRing.ts
+::: code-group
+<<< @/code/display/Ellipse/sectorRing.ts [Leafer]
+<<< @/code/display/Ellipse/app/sectorRing.ts [App]
+:::
 
 <case name="Ellipse" index=3 editor=false></case>
 
 ### 绘制扇形
 
-<<< @/code/display/Ellipse/sector.ts
+::: code-group
+<<< @/code/display/Ellipse/sector.ts [Leafer]
+<<< @/code/display/Ellipse/app/sector.ts [App]
+:::
 
 <case name="Ellipse" index=4 editor=false></case>
 
 ### 绘制圆角弧线
 
-<<< @/code/display/Ellipse/arc.ts
+::: code-group
+<<< @/code/display/Ellipse/arc.ts [Leafer]
+<<< @/code/display/Ellipse/app/arc.ts [App]
+:::
 
 <case name="Ellipse" index=5 editor=false></case>
 
 ### 绘制椭圆
 
-<<< @/code/display/Ellipse/ellipse.ts
+::: code-group
+<<< @/code/display/Ellipse/ellipse.ts [Leafer]
+<<< @/code/display/Ellipse/app/ellipse.ts [App]
+:::

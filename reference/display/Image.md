@@ -86,7 +86,10 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 想为图片设置 fill 时，请用 Rect 代替，Rect 不设置宽高也会自适应图片，并支持多个填充。
 
-<<< @/code/display/Image/rect.ts
+::: code-group
+<<< @/code/display/Image/rect.ts [Leafer]
+<<< @/code/display/Image/app/rect.ts [App]
+:::
 
 ## 资源库
 
@@ -112,15 +115,24 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ### 使用默认宽高
 
-<<< @/code/display/Image/stretch.ts
+::: code-group
+<<< @/code/display/Image/stretch.ts [Leafer]
+<<< @/code/display/Image/app/stretch.ts [App]
+:::
 
 ### 固定宽度，自适应高度
 
-<<< @/code/display/Image/width.ts
+::: code-group
+<<< @/code/display/Image/width.ts [Leafer]
+<<< @/code/display/Image/app/width.ts [App]
+:::
 
 ### 固定高度，自适应宽度
 
+::: code-group
 <<< @/code/display/Image/height.ts
+<<< @/code/display/Image/app/height.ts
+:::
 
 ### 监听图片加载
 

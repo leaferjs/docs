@@ -87,52 +87,79 @@ console.log(line.toPoint) // {x: 0, y: 100})  会根据 width 与 rotation 自�
 
 ### 绘制横线
 
-<<< @/code/display/Line/horizontal.ts
+::: code-group
+<<< @/code/display/Line/horizontal.ts [Leafer]
+<<< @/code/display/Line/app/horizontal.ts [App]
+:::
 
 <case name="Line" x = 5 index=1 editor=false></case>
 
 ### 绘制到目标点的直线
 
-<<< @/code/display/Line/lineto.ts
+::: code-group
+<<< @/code/display/Line/lineto.ts [Leafer]
+<<< @/code/display/Line/app/lineto.ts [App]
+:::
 
 <case name="Line" x = 5 index=2 editor=false></case>
 
 ### 绘制斜线
 
-<<< @/code/display/Line/line.ts
+::: code-group
+<<< @/code/display/Line/line.ts [Leafer]
+<<< @/code/display/Line/app/line.ts [App]
+:::
 
 <case name="Line" x = 5 index=6 editor=false></case>
 
 ### 绘制竖线
 
-<<< @/code/display/Line/vertical.ts
+::: code-group
+<<< @/code/display/Line/vertical.ts [Leafer]
+<<< @/code/display/Line/app/vertical.ts [App]
+:::
 
 <case name="Line" x = 5 index=8 editor=false></case>
 
 ### 绘制折线
 
-<<< @/code/display/Line/points.ts
+::: code-group
+<<< @/code/display/Line/points.ts [Leafer]
+<<< @/code/display/Line/app/points.ts [App]
+:::
 
 <case name="Line" x = 5 index=3 editor=false></case>
 
 ### 绘制圆角折线
 
-<<< @/code/display/Line/corner.ts
+::: code-group
+<<< @/code/display/Line/corner.ts [Leafer]
+<<< @/code/display/Line/corner.ts [App]
+:::
 
 <case name="Line" x = 5 index=4 editor=false></case>
 
 ### 绘制曲线
 
-<<< @/code/display/Line/curve.ts
+::: code-group
+<<< @/code/display/Line/curve.ts [Leafer]
+<<< @/code/display/Line/app/curve.ts [App]
+:::
 
 <case name="Line" x = 5 index=7 editor=false></case>
 
 ### 绘制 0.2 曲率的曲线
 
-<<< @/code/display/Line/curve-number.ts
+::: code-group
+<<< @/code/display/Line/curve-number.ts [Leafer]
+<<< @/code/display/Line/app/curve-number.ts [App]
+:::
 
 <case name="Line" x = 5 index=5 editor=false></case>
 
 ### 绘制趋势图
 
-<<< @/code/display/Line/chart.ts
+::: code-group
+<<< @/code/display/Line/chart.ts [Leafer]
+<<< @/code/display/Line/app/chart.ts [App]
+:::

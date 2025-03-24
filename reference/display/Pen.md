@@ -53,28 +53,43 @@ Pen &nbsp;>&nbsp; [Group](./Group.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ### 画出不同颜色的形状
 
-<<< @/code/display/Pen/color.ts
+::: code-group
+<<< @/code/display/Pen/color.ts [Leafer]
+<<< @/code/display/Pen/app/color.ts [App]
+:::
 
 <case name="Pen" index=2 editor=false></case>
 
 ### 画曲线
 
-<<< @/code/display/Pen/line.ts
+::: code-group
+<<< @/code/display/Pen/line.ts [Leafer]
+<<< @/code/display/Pen/app/line.ts [App]
+:::
 
 <case name="Pen" index=3 editor=false></case>
 
 ### 结合图形组件
 
-<<< @/code/display/Pen/add.ts
+::: code-group
+<<< @/code/display/Pen/add.ts [Leafer]
+<<< @/code/display/Pen/app/add.ts [App]
+:::
 
 <case name="Pen" index=4 editor=false></case>
 
 ### 结合图片
 
-<<< @/code/display/Pen/image.ts
+::: code-group
+<<< @/code/display/Pen/image.ts [Leafer]
+<<< @/code/display/Pen/app/image.ts [App]
+:::
 
 <case name="Pen" index=5 editor=false></case>
 
 ### 结合文字
 
-<<< @/code/display/Pen/text.ts
+::: code-group
+<<< @/code/display/Pen/text.ts [Leafer]
+<<< @/code/display/Pen/app/text.ts [App]
+:::

@@ -62,7 +62,10 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 ### 创建路径
 
-<<< @/code/display/Path/cafe.ts
+::: code-group
+<<< @/code/display/Path/cafe.ts [Leafer]
+<<< @/code/display/Path/app/cafe.ts [App]
+:::
 
 <case name="Pen" index=0 editor=false></case>
 
@@ -70,7 +73,10 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 底部圆角矩形与圆形相交，产生挖空效果。
 
-<<< @/code/display/Path/group.ts
+::: code-group
+<<< @/code/display/Path/group.ts [Leafer]
+<<< @/code/display/Path/app/group.ts [App]
+:::
 
 <case name="Rect" index=6 editor=false></case>
 
