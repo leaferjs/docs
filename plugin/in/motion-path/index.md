@@ -35,11 +35,11 @@ bun add @leafer-in/motion-path
 ::: code-group
 
 ```html [motion-path.min]
-<script src="https://unpkg.com/@leafer-in/motion-path@1.5.0/dist/motion-path.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/motion-path@1.5.1/dist/motion-path.min.js"></script>
 ```
 
 ```html [motion-path]
-<script src="https://unpkg.com/@leafer-in/motion-path@1.5.0/dist/motion-path.js"></script>
+<script src="https://unpkg.com/@leafer-in/motion-path@1.5.1/dist/motion-path.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->

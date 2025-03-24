@@ -1,16 +1,20 @@
 # 更新
 
-## 2025 / 03 / 22
+## 2025 / 03 / 24
 
-> v1.5.0
+> v1.5.1
+
+#### 2025 / 03 / 22
+
+v1.5.0
 
 #### 🍇 社区
+
+\- 🌸 更新大量文档及示例，并支持在线调试示例代码，方便初学者理解 LeaferJS 🎉🎉🎉
 
 \- 🌸 [趣设计小程序支持编辑、生成 GIF 动画 - LeaferJS 首个动图产品案例](https://www.leaferjs.com/ui/guide/install/ui/miniapp/start.html#%E9%87%87%E7%94%A8%E5%B0%8F%E7%A8%8B%E5%BA%8F-web-view-%E7%BB%84%E4%BB%B6%E5%AE%9E%E7%8E%B0%E7%9A%84%E6%A1%88%E4%BE%8B) @BO
 
 \- 🌸 [棋盘格示例代码](https://github.com/leaferjs/leafer-ui/blob/main/contributor/code/Checkerboard.ts) [@崮生](https://github.com/2234839)
-
-\- 🌸 更新大量文档及示例，支持在线快速联调示例代码
 
 #### 🌱 新增
 
@@ -29,6 +33,8 @@
 \- 编辑器支持配置隐藏 [editBox](/plugin/in/editor/config/select.md#editbox-boolean) 编辑框，满足部分只需要选择元素的场景（如脑图）
 
 \- 元素 [addAttr()](/reference/UI/custom/changeAttr.md) 、[changeAttr()](/reference/UI/custom/changeAttr.md) 静态方法，属性默认值支持函数返回
+
+\- 增加 [自定义异步任务示例](/reference/resource/Resource.md#添加一个自定义异步任务)，导出图片时会等待此任务执行完再导出
 
 #### 🪲 修复
 
@@ -56,6 +62,8 @@
 
 \- 编辑多条直线来回镜像会偶发偏移的问题
 
+\- Canvas 内部监听 resize 事件时 pixelRatio 的更新逻辑问题
+
 #### 🌿 优化
 
 \- 🌸 优化编辑器旋转吸附体验
@@ -68,7 +76,7 @@
 
 #### 🌷 感谢反馈
 
-[@QmagicianEX](https://github.com/QmagicianEX) [@johnnhan](https://github.com/johnnhan) [@youyeke](https://github.com/youyeke) [@PineSongCN](https://github.com/PineSongCN) [@sufangyu](https://github.com/leaferjs/leafer-ui/issues/373) [@Xdy1579883916](https://github.com/Xdy1579883916) [@nbgzc](https://github.com/nbgzc) [@Xdy1579883916](https://github.com/Xdy1579883916) [@瓜尔佳子夜](https://www.zhihu.com/people/gua-er-jia-zi-ye) @哟 @bulabala @杨凯 @胡春东 @南 @第一生产力 @蘑菇君 @xiaou @BO @Ethan @黄某人 @伍超
+[@QmagicianEX](https://github.com/QmagicianEX) [@johnnhan](https://github.com/johnnhan) [@youyeke](https://github.com/youyeke) [@PineSongCN](https://github.com/PineSongCN) [@sufangyu](https://github.com/leaferjs/leafer-ui/issues/373) [@Xdy1579883916](https://github.com/Xdy1579883916) [@nbgzc](https://github.com/nbgzc) [@Xdy1579883916](https://github.com/Xdy1579883916) [@瓜尔佳子夜](https://www.zhihu.com/people/gua-er-jia-zi-ye) [@skywalker512](https://github.com/skywalker512) @哟 @bulabala @杨凯 @胡春东 @南 @第一生产力 @蘑菇君 @xiaou @BO @Ethan @黄某人 @伍超 @毛豆花生 @do
 
 ## 2025 / 02 / 24
 

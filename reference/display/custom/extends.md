@@ -2,7 +2,7 @@
 
 通过继承其他元素自定义图形（推荐）。
 
-适合于想为元素增加自定义数据属性的场景。绘制复杂的效果，可以通过继承 [Pen](/reference/display/Pen.md) 实现。
+适合于想为元素增加自定义数据属性的场景。绘制复杂的效果，可通过继承 [Pen](/reference/display/Pen.md) / [Group](/reference/display/Group.md) 实现。
 
 ## 示例
 
@@ -13,6 +13,10 @@
 ### 继承 Pen
 
 <<< @/code/display/Custom/Pen/index.ts
+
+### 继承 Group
+
+<<< @/code/display/Custom/Group/index.ts
 
 ## 下一步
 

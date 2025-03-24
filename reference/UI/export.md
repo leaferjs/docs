@@ -131,3 +131,9 @@ interface IExportResult {
 ### 画面截图
 
 <<< @/code/property/export/screenshot.ts
+
+### 添加一个自定义异步任务
+
+导出图片时会等待此任务执行完再导出
+
+<<< @/code/resource/task.ts

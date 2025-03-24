@@ -28,7 +28,7 @@
 
 ### EditorEvent.BEFORE_SELECT
 
-before 选择元素事件 (下个版本即将支持)。
+before 选择元素事件。
 
 `editor.before_select`
 
@@ -42,7 +42,7 @@ before 选择元素事件 (下个版本即将支持)。
 
 ### EditorEvent.BEFORE_HOVER
 
-before hover 元素事件 (下个版本即将支持)。
+before hover 元素事件。
 
 `editor.before_hover`
 
