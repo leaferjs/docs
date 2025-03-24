@@ -10,19 +10,19 @@
 
 ### flip( axis：`'x'` | `'y'` )
 
-按轴方向（ [世界坐标系](/guide/basic/coordinate.md#world)） 镜像/翻转选中元素。
+按轴方向（ [世界坐标系](/guide/advanced/coordinate.md#world-世界坐标系)） 镜像/翻转选中元素。
 
 ### scaleOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math.md#ipointdata), multiplyScaleX: `number`, multiplyScaleY = scaleX)
 
-围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）缩放选中元素 <badge>增量操作</badge>。
+围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ）缩放选中元素 <badge>增量操作</badge>。
 
 ### rotateOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math.md#ipointdata), addRotation: `number`)
 
-围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）旋转选中元素 <badge>增量操作</badge>。
+围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ）旋转选中元素 <badge>增量操作</badge>。
 
 ### skewOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) | [`IPointData`](/reference/interface/math/Math.md#ipointdata), addSkewX: `number`, addSkewY = 0)
 
-围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）倾斜选中元素 <badge>增量操作</badge>。
+围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ）倾斜选中元素 <badge>增量操作</badge>。
 
 ```ts
 // 当前选中元素

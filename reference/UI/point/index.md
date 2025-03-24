@@ -1,7 +1,7 @@
 # 转换坐标
 
-[世界坐标](/guide/basic/coordinate.md#world) 与 [page 坐标](/guide/basic/coordinate.md#page)、
-[本地坐标](/guide/basic/coordinate.md#local)、[内部坐标](/guide/basic/coordinate.md#inner)、[box 坐标](/guide/basic/coordinate.md#box) 的互相转换。
+[世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 与 [page 坐标](/guide/advanced/coordinate.md#page-场景坐标系)、
+[本地坐标](/guide/advanced/coordinate.md#local-本地坐标系)、[内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系)、[box 坐标](/guide/advanced/coordinate.md#box-坐标系) 的互相转换。
 
 支持 [转换移动距离](#转换移动距离)、 在 Leafer 中 [转换浏览器坐标](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata)。另提供了 [快速转换](./high.md) 的高性能方法。
 
@@ -9,59 +9,59 @@
 
 ### getPagePoint ( worldPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取 page 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [page 坐标](/guide/basic/coordinate.md#page) ）。
+获取 page 坐标（ [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 转 [page 坐标](/guide/advanced/coordinate.md#page-场景坐标系) ）。
 
 ### getLocalPoint ( worldPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取本地坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [本地坐标](/guide/basic/coordinate.md#local) ）。
+获取本地坐标（ [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 转 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) ）。
 
 ### getInnerPoint ( worldPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取内部坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [内部坐标](/guide/basic/coordinate.md#inner) ）。
+获取内部坐标（ [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 转 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) ）。
 
 ### getBoxPoint ( worldPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取 box 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [box 坐标](/guide/basic/coordinate.md#box) ）。
+获取 box 坐标（ [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 转 [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ）。
 
 ## 转换 page 坐标
 
 ### getWorldPointByPage ( point: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取世界坐标（ [page 坐标](/guide/basic/coordinate.md#page) 转 [世界坐标](/guide/basic/coordinate.md#world) ）。
+获取世界坐标（ [page 坐标](/guide/advanced/coordinate.md#page-场景坐标系) 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) ）。
 
 ## 转换本地坐标
 
 ### getWorldPointByLocal ( point: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取世界坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [世界坐标](/guide/basic/coordinate.md#world) ）。
+获取世界坐标（ [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) ）。
 
 ### getInnerPointByLocal ( point: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取内部坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [内部坐标](/guide/basic/coordinate.md#inner) ）。
+获取内部坐标（ [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 转 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) ）。
 
 ## 转换内部坐标
 
 ### getWorldPoint ( innerPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取世界坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [世界坐标](/guide/basic/coordinate.md#world) ）。
+获取世界坐标（ [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) ）。
 
 ### getLocalPointByInner ( point: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取本地坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [本地坐标](/guide/basic/coordinate.md#local) ）。
+获取本地坐标（ [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 转 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) ）。
 
 ### getBoxPointByInner ( point: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取 box 坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [box 坐标](/guide/basic/coordinate.md#box) ）。
+获取 box 坐标（ [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 转 [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ）。
 
 ## 转换 box 坐标
 
 ### getWorldPointByBox ( point: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取世界坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [世界坐标](/guide/basic/coordinate.md#world) ）。
+获取世界坐标（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) ）。
 
 ### getInnerPointByBox ( point: [`IPointData`](/reference/interface/math/Math.md#ipointdata), relative?: [`UI`](/reference/display/UI.md), distance?: `boolean` ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取内部坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [内部坐标](/guide/basic/coordinate.md#inner) ）。
+获取内部坐标（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) 转 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) ）。
 
 ## 可选参数说明
 

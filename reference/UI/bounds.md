@@ -10,21 +10,21 @@
 
 ### boxBounds: [`IBoundsData`](/api/interfaces/IBoundsData.md)
 
-元素在 [内部坐标系](/guide/basic/coordinate.md) 中的基础边界（OBB 包围盒）。
+元素在 [内部坐标系](/guide/advanced/coordinate.md) 中的基础边界（OBB 包围盒）。
 
 ### renderBounds: [`IBoundsData`](/api/interfaces/IBoundsData.md)
 
-元素在 [内部坐标系](/guide/basic/coordinate.md) 中的渲染边界（AABB 包围盒）。
+元素在 [内部坐标系](/guide/advanced/coordinate.md) 中的渲染边界（AABB 包围盒）。
 
 ### worldBoxBounds: [`IBoundsData`](/api/interfaces/IBoundsData.md)
 
-元素在 [世界坐标系](/guide/basic/coordinate.md#world) 中的基础边界（AABB 包围盒）。
+元素在 [世界坐标系](/guide/advanced/coordinate.md#world-世界坐标系) 中的基础边界（AABB 包围盒）。
 
 元素在 boxBounds 与 [worldTransform](./transform.md#只读属性) 相乘而来，如果元素旋转了，则是旋转之后取出的新边界。
 
 ### worldRenderBounds: [`IBoundsData`](/api/interfaces/IBoundsData.md)
 
-元素在 [世界坐标系](/guide/basic/coordinate.md#world) 中的渲染边界（AABB 包围盒）。
+元素在 [世界坐标系](/guide/advanced/coordinate.md#world-世界坐标系) 中的渲染边界（AABB 包围盒）。
 
 ## 来源于
 
@@ -60,7 +60,7 @@
 
 获取元素的 AABB 包围盒（边界）。
 
-可获取不同 [坐标体系](/guide/basic/coordinate.md) 下的不同 [边界类型](/guide/basic/bounds.md)，relative 可指定坐标体系或相对元素
+可获取不同 [坐标体系](/guide/advanced/coordinate.md) 下的不同 [边界类型](/guide/advanced/bounds.md)，relative 可指定坐标体系或相对元素
 
 ### getLayoutBounds ( type: [`IBoundsType`](/api/modules.md#iboundstype) = 'box', relative?: [`ILocationType`](/api/modules.md#ilocationtype) | [`UI`](/reference/display/UI.md) = 'world', unscale?: `boolean` ): [`ILayoutBoundsData`](/api/interfaces/ILayoutBoundsData.md)
 
@@ -88,7 +88,7 @@ new Bounds(rect.getBounds('box', 'local'))
 
 ### getWorldBounds ( inner: [`IBoundsData`](/api/interfaces/IBoundsData.md), relative?: [`UI`](/reference/display/UI.md), change?: `boolean`): [`IBoundsData`](/api/interfaces/IBoundsData.md)
 
-获取世界坐标的边界（AABB 包围盒，传入一个 [内部坐标系](/guide/basic/coordinate.md#inner) 的边界进行转换）。
+获取世界坐标的边界（AABB 包围盒，传入一个 [内部坐标系](/guide/advanced/coordinate.md#inner-内部坐标系) 的边界进行转换）。
 
 第二个可选参数：relative?: [`UI`](/reference/display/UI.md)
 

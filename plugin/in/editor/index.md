@@ -124,38 +124,38 @@ bun add @leafer-in/resize
 
 ## 关键方法
 
-| 名称                                                          | 描述                                                                                                                              |
-| ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| 选择                                                          |                                                                                                                                   |
-| [select()](/plugin/in/editor/Editor/select.md)                | 选中元素                                                                                                                          |
-| [cancel()](/plugin/in/editor/Editor/select.md)                | 取消选中元素                                                                                                                      |
-| [hasItem()](/plugin/in/editor/Editor/select.md)               | 是否已选中某个元素                                                                                                                |
-| [addItem()](/plugin/in/editor/Editor/select.md)               | 新增一个元素到选中列表                                                                                                            |
-| [removeItem()](/plugin/in/editor/Editor/select.md)            | 从选中列表中移出元素                                                                                                              |
-| 编组                                                          |                                                                                                                                   |
-| [group()](/plugin/in/editor/Editor/group.md)                  | 将选中的元素进行编组                                                                                                              |
-| [ungroup()](/plugin/in/editor/Editor/group.md)                | 将选中的元素进行解组                                                                                                              |
-| [openGroup()](/plugin/in/editor/Editor/group.md)              | 打开组， 模拟双击打开组的功能                                                                                                     |
-| [closeGroup()](/plugin/in/editor/Editor/group.md)             | 关闭组，关闭双击打开的组                                                                                                          |
-| 内部编辑                                                      |                                                                                                                                   |
-| [openInnerEditor()](/plugin/in/editor/Editor/innerEditor.md)  | 打开元素的内部编辑器                                                                                                              |
-| [closeInnerEditor()](/plugin/in/editor/Editor/innerEditor.md) | 关闭内部编辑器                                                                                                                    |
-| 锁定                                                          |                                                                                                                                   |
-| [lock()](/plugin/in/editor/Editor/lock.md)                    | 锁定选中的元素                                                                                                                    |
-| [unlock()](/plugin/in/editor/Editor/lock.md)                  | 解锁选中的元素                                                                                                                    |
-| 层级                                                          |                                                                                                                                   |
-| [toTop()](/plugin/in/editor/Editor/zIndex.md)                 | 移动选中元素到最顶层（所属 Group 中）                                                                                             |
-| [toBottom()](/plugin/in/editor/Editor/zIndex.md)              | 移动选中元素到最底层（所属 Group 中）                                                                                             |
-| 更新                                                          |                                                                                                                                   |
-| [update()](/plugin/in/editor/Editor/update.md)                | 手动更新编辑器的布局、样式等                                                                                                      |
-| [updateEditBox()](/plugin/in/editor/Editor/update.md)         | 手动更新编辑框，使其贴合元素，一般用于多选元素对齐后操作。                                                                        |
-| [updateEditTool()](/plugin/in/editor/Editor/update.md)        | 更新编辑工具，选择元素后自动调用此方法                                                                                            |
-| 变换                                                          |                                                                                                                                   |
-| [move()](/plugin/in/editor/Editor/transform.md)               | 位移选中元素 <badge>增量操作</badge>                                                                                              |
-| [flip()](/plugin/in/editor/Editor/transform.md)               | 按轴方向（ [世界坐标系](/guide/basic/coordinate.md#world)） 镜像/翻转选中元素                                                     |
-| [scaleOf()](/plugin/in/editor/Editor/transform.md)            | 围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）缩放选中元素 <badge>增量操作</badge> |
-| [rotateOf()](/plugin/in/editor/Editor/transform.md)           | 围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）旋转选中元素 <badge>增量操作</badge> |
-| [skewOf()](/plugin/in/editor/Editor/transform.md)             | 围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）倾斜选中元素 <badge>增量操作</badge> |
+| 名称                                                          | 描述                                                                                                                                        |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| 选择                                                          |                                                                                                                                             |
+| [select()](/plugin/in/editor/Editor/select.md)                | 选中元素                                                                                                                                    |
+| [cancel()](/plugin/in/editor/Editor/select.md)                | 取消选中元素                                                                                                                                |
+| [hasItem()](/plugin/in/editor/Editor/select.md)               | 是否已选中某个元素                                                                                                                          |
+| [addItem()](/plugin/in/editor/Editor/select.md)               | 新增一个元素到选中列表                                                                                                                      |
+| [removeItem()](/plugin/in/editor/Editor/select.md)            | 从选中列表中移出元素                                                                                                                        |
+| 编组                                                          |                                                                                                                                             |
+| [group()](/plugin/in/editor/Editor/group.md)                  | 将选中的元素进行编组                                                                                                                        |
+| [ungroup()](/plugin/in/editor/Editor/group.md)                | 将选中的元素进行解组                                                                                                                        |
+| [openGroup()](/plugin/in/editor/Editor/group.md)              | 打开组， 模拟双击打开组的功能                                                                                                               |
+| [closeGroup()](/plugin/in/editor/Editor/group.md)             | 关闭组，关闭双击打开的组                                                                                                                    |
+| 内部编辑                                                      |                                                                                                                                             |
+| [openInnerEditor()](/plugin/in/editor/Editor/innerEditor.md)  | 打开元素的内部编辑器                                                                                                                        |
+| [closeInnerEditor()](/plugin/in/editor/Editor/innerEditor.md) | 关闭内部编辑器                                                                                                                              |
+| 锁定                                                          |                                                                                                                                             |
+| [lock()](/plugin/in/editor/Editor/lock.md)                    | 锁定选中的元素                                                                                                                              |
+| [unlock()](/plugin/in/editor/Editor/lock.md)                  | 解锁选中的元素                                                                                                                              |
+| 层级                                                          |                                                                                                                                             |
+| [toTop()](/plugin/in/editor/Editor/zIndex.md)                 | 移动选中元素到最顶层（所属 Group 中）                                                                                                       |
+| [toBottom()](/plugin/in/editor/Editor/zIndex.md)              | 移动选中元素到最底层（所属 Group 中）                                                                                                       |
+| 更新                                                          |                                                                                                                                             |
+| [update()](/plugin/in/editor/Editor/update.md)                | 手动更新编辑器的布局、样式等                                                                                                                |
+| [updateEditBox()](/plugin/in/editor/Editor/update.md)         | 手动更新编辑框，使其贴合元素，一般用于多选元素对齐后操作。                                                                                  |
+| [updateEditTool()](/plugin/in/editor/Editor/update.md)        | 更新编辑工具，选择元素后自动调用此方法                                                                                                      |
+| 变换                                                          |                                                                                                                                             |
+| [move()](/plugin/in/editor/Editor/transform.md)               | 位移选中元素 <badge>增量操作</badge>                                                                                                        |
+| [flip()](/plugin/in/editor/Editor/transform.md)               | 按轴方向（ [世界坐标系](/guide/advanced/coordinate.md#world-世界坐标系)） 镜像/翻转选中元素                                                 |
+| [scaleOf()](/plugin/in/editor/Editor/transform.md)            | 围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ）缩放选中元素 <badge>增量操作</badge> |
+| [rotateOf()](/plugin/in/editor/Editor/transform.md)           | 围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ）旋转选中元素 <badge>增量操作</badge> |
+| [skewOf()](/plugin/in/editor/Editor/transform.md)             | 围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ）倾斜选中元素 <badge>增量操作</badge> |
 
 ## 配置 editor
 

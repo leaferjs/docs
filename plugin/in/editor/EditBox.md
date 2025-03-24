@@ -2,7 +2,7 @@
 
 图形编辑器的编辑框容器。
 
-相对元素的 boxBounds 为起点定位，设置了相对 [世界坐标](/guide/basic/coordinate.md#world) 的位置、旋转、镜像属性。
+相对元素的 boxBounds 为起点定位，设置了相对 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 的位置、旋转、镜像属性。
 
 内部添加的控制点，只需相对 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata) 乘以 [world 缩放值](/reference/UI/transform.md#worldtransform-imatrixwithscaledata) **（必须转为正数）** 进行定位即可。
 

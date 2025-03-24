@@ -6,7 +6,7 @@
 
 ### flip( axis：`'x'` | `'y'`, transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion) )
 
-在 [世界坐标系](/guide/basic/coordinate.md#world) 中， 按轴方向 镜像/翻转元素。
+在 [世界坐标系](/guide/advanced/coordinate.md#world-世界坐标系) 中， 按轴方向 镜像/翻转元素。
 
 [`transition`](/reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 

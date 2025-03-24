@@ -8,7 +8,7 @@
 
 ### 元素边界
 
-我们通过定义明确的 [元素边界](/guide/basic/bounds.md) 来进行局部渲染、高效检测光标碰撞。
+我们通过定义明确的 [元素边界](/guide/advanced/bounds.md) 来进行局部渲染、高效检测光标碰撞。
 
 根据情况确定是否需重写 `__updateBoxBounds()` 方法定义正确的 [boxBounds 边界](/reference/UI/bounds.md#boxbounds-iboundsdata)。
 

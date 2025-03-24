@@ -88,29 +88,29 @@
 
 ### 元素上的坐标转换方法
 
-| 名称                                                                             | 描述                                                                                                                               |
-| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [worldTransform](/reference/UI/transform.md#worldtransform-imatrixwithscaledata) | 相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性，转换坐标的因子                                                                 |
-| [localTransform](/reference/UI/transform.md#localtransform-imatrixdata)          | 相对于父元素的变换矩阵，转换坐标的因子                                                                                             |
-| [getPagePoint()](/reference/UI/point/index.md#转换世界坐标)                      | 获取 page 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [page 坐标](/guide/basic/coordinate.md#page) ），支持转换移动距离 |
-| [getLocalPoint()](/reference/UI/point/index.md#转换世界坐标)                     | 获取本地坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [本地坐标](/guide/basic/coordinate.md#local) ），支持转换移动距离   |
-| [getInnerPoint()](/reference/UI/point/index.md#转换世界坐标)                     | 获取内部坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离   |
-| [getBoxPoint()](/reference/UI/point/index.md#转换世界坐标)                       | 获取 box 坐标（ [世界坐标](/guide/basic/coordinate.md#world) 转 [box 坐标](/guide/basic/coordinate.md#box) ），支持转换移动距离    |
-| [getWorldPointByPage()](/reference/UI/point/index.md#转换-page-坐标)             | 获取世界坐标（ [page 坐标](/guide/basic/coordinate.md#page) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
-| [getWorldPointByLocal()](/reference/UI/point/index.md#转换本地坐标)              | 获取世界坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
-| [getInnerPointByLocal()](/reference/UI/point/index.md#转换本地坐标)              | 获取内部坐标（ [本地坐标](/guide/basic/coordinate.md#local) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离   |
-| [getWorldPoint()](/reference/UI/point/index.md#转换内部坐标)                     | 获取世界坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离   |
-| [getLocalPointByInner()](/reference/UI/point/index.md#转换内部坐标)              | 获取本地坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [本地坐标](/guide/basic/coordinate.md#local) ），支持转换移动距离   |
-| [getBoxPointByInner()](/reference/UI/point/index.md#转换内部坐标)                | 获取 box 坐标（ [内部坐标](/guide/basic/coordinate.md#inner) 转 [box 坐标](/guide/basic/coordinate.md#box) ），支持转换移动距离    |
-| [getWorldPointByBox()](/reference/UI/point/index.md#转换内部坐标)                | 获取世界坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [世界坐标](/guide/basic/coordinate.md#world) ），支持转换移动距离     |
-| [getInnerPointByBox()](/reference/UI/point/index.md#转换内部坐标)                | 获取内部坐标（ [box 坐标](/guide/basic/coordinate.md#box) 转 [内部坐标](/guide/basic/coordinate.md#inner) ），支持转换移动距离     |
+| 名称                                                                             | 描述                                                                                                                                                           |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [worldTransform](/reference/UI/transform.md#worldtransform-imatrixwithscaledata) | 相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性，转换坐标的因子                                                                                             |
+| [localTransform](/reference/UI/transform.md#localtransform-imatrixdata)          | 相对于父元素的变换矩阵，转换坐标的因子                                                                                                                         |
+| [getPagePoint()](/reference/UI/point/index.md#转换世界坐标)                      | 获取 page 坐标（ [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 转 [page 坐标](/guide/advanced/coordinate.md#page-场景坐标系) ），支持转换移动距离 |
+| [getLocalPoint()](/reference/UI/point/index.md#转换世界坐标)                     | 获取本地坐标（ [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 转 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) ），支持转换移动距离   |
+| [getInnerPoint()](/reference/UI/point/index.md#转换世界坐标)                     | 获取内部坐标（ [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 转 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) ），支持转换移动距离   |
+| [getBoxPoint()](/reference/UI/point/index.md#转换世界坐标)                       | 获取 box 坐标（ [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 转 [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ），支持转换移动距离        |
+| [getWorldPointByPage()](/reference/UI/point/index.md#转换-page-坐标)             | 获取世界坐标（ [page 坐标](/guide/advanced/coordinate.md#page-场景坐标系) 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) ），支持转换移动距离   |
+| [getWorldPointByLocal()](/reference/UI/point/index.md#转换本地坐标)              | 获取世界坐标（ [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) ），支持转换移动距离   |
+| [getInnerPointByLocal()](/reference/UI/point/index.md#转换本地坐标)              | 获取内部坐标（ [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 转 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) ），支持转换移动距离   |
+| [getWorldPoint()](/reference/UI/point/index.md#转换内部坐标)                     | 获取世界坐标（ [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) ），支持转换移动距离   |
+| [getLocalPointByInner()](/reference/UI/point/index.md#转换内部坐标)              | 获取本地坐标（ [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 转 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) ），支持转换移动距离   |
+| [getBoxPointByInner()](/reference/UI/point/index.md#转换内部坐标)                | 获取 box 坐标（ [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 转 [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ），支持转换移动距离        |
+| [getWorldPointByBox()](/reference/UI/point/index.md#转换内部坐标)                | 获取世界坐标（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) ），支持转换移动距离         |
+| [getInnerPointByBox()](/reference/UI/point/index.md#转换内部坐标)                | 获取内部坐标（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) 转 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) ），支持转换移动距离         |
 
 ### 浏览器原生事件的坐标转换方法
 
-| 名称                                                                                                                                 | 描述                                                                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) | 获取 [世界坐标](/guide/basic/coordinate.md#world)（浏览器原生事件的 client 坐标 转 [世界坐标](/guide/basic/coordinate.md#world)），只能在 App 或 Leafer 实例上调用此方法  |
-| [getPagePointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata)  | 获取 [page 坐标](/guide/basic/coordinate.md#world)（浏览器原生事件的 client 坐标 转 [page 坐标](/guide/basic/coordinate.md#page)），只能在 App 或 Leafer 实例上调用此方法 |
+| 名称                                                                                                                                 | 描述                                                                                                                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) | 获取 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)（浏览器原生事件的 client 坐标 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)），只能在 App 或 Leafer 实例上调用此方法  |
+| [getPagePointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata)  | 获取 [page 坐标](/guide/advanced/coordinate.md#world-世界坐标系)（浏览器原生事件的 client 坐标 转 [page 坐标](/guide/advanced/coordinate.md#page-场景坐标系)），只能在 App 或 Leafer 实例上调用此方法 |
 
 ### 数学计算
 

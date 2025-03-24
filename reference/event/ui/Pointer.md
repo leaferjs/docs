@@ -134,11 +134,11 @@ out 事件。
 
 ### x: `number`
 
-在 [世界坐标](/guide/basic/coordinate.md#world) 中的 x 轴位置。
+在 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 中的 x 轴位置。
 
 ### y: `number`
 
-在 [世界坐标](/guide/basic/coordinate.md#world) 中的 y 轴位置。
+在 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 中的 y 轴位置。
 
 ### width: `number`
 
@@ -196,15 +196,15 @@ x, y 属性的转换。
 
 ### getBoxPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素的 [box 坐标](/guide/basic/coordinate.md#box) 位置，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素的 [box 坐标](/guide/advanced/coordinate.md#box-坐标系) 位置，relative 元素不存在时为当前侦听元素。
 
 ### getInnerPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素的 [内部坐标](/guide/basic/coordinate.md#inner) 位置，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素的 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 位置，relative 元素不存在时为当前侦听元素。
 
 ### getLocalPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素的 [本地坐标](/guide/basic/coordinate.md#local) 位置，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素的 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 位置，relative 元素不存在时为当前侦听元素。
 
 <!--
 ## 继承事件

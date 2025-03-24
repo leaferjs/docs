@@ -76,15 +76,15 @@
 
 ### 元素上的获取方法
 
-| 名称                                                                                                                                                | 描述                                                                                                         |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata)                                                                                          | 元素在 [内部坐标系](/guide/basic/coordinate.md) 中的基础边界（[OBB](/reference/UI/bounds.md) 包围盒）        |
-| [renderBounds](/reference/UI/bounds.md#renderbounds-iboundsdata)                                                                                    | 元素在 [内部坐标系](/guide/basic/coordinate.md) 中的渲染边界（[AABB](/reference/UI/bounds.md) 包围盒）       |
-| [worldBoxBounds](/reference/UI/bounds.md#worldboxbounds-iboundsdata)                                                                                | 元素在 [世界坐标系](/guide/basic/coordinate.md#world) 中的基础边界（[AABB](/reference/UI/bounds.md) 包围盒） |
-| [worldRenderBounds](/reference/UI/bounds.md#worldrenderbounds-iboundsdata)                                                                          | 元素在 [世界坐标系](/guide/basic/coordinate.md#world) 中的渲染边界（[AABB](/reference/UI/bounds.md) 包围盒） |
-| [getBounds()](/reference/UI/bounds.md#getbounds-type-iboundstype-box-relative-ilocationtype-ui-world-iboundsdata)                                   | 获取 [AABB](/reference/UI/bounds.md) 包围盒（边界）                                                          |
-| [getLayoutBounds()](/reference/UI/bounds.md#getlayoutbounds-type-iboundstype-box-relative-ilocationtype-ui-world-unscale-boolean-ilayoutboundsdata) | 获取 [OBB](/reference/UI/bounds.md) 包围盒（边界），含缩放、旋转等布局属性                                   |
-| [getLayoutPoints()](/reference/UI/bounds.md#getlayoutpoints-type-iboundstype-box-relative-ilocationtype-ui-world-ipointdata)                        | 获取 [OBB](/reference/UI/bounds.md) 包围盒（边界）的四个坐标点）                                             |
+| 名称                                                                                                                                                | 描述                                                                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata)                                                                                          | 元素在 [内部坐标系](/guide/advanced/coordinate.md) 中的基础边界（[OBB](/reference/UI/bounds.md) 包围盒）                   |
+| [renderBounds](/reference/UI/bounds.md#renderbounds-iboundsdata)                                                                                    | 元素在 [内部坐标系](/guide/advanced/coordinate.md) 中的渲染边界（[AABB](/reference/UI/bounds.md) 包围盒）                  |
+| [worldBoxBounds](/reference/UI/bounds.md#worldboxbounds-iboundsdata)                                                                                | 元素在 [世界坐标系](/guide/advanced/coordinate.md#world-世界坐标系) 中的基础边界（[AABB](/reference/UI/bounds.md) 包围盒） |
+| [worldRenderBounds](/reference/UI/bounds.md#worldrenderbounds-iboundsdata)                                                                          | 元素在 [世界坐标系](/guide/advanced/coordinate.md#world-世界坐标系) 中的渲染边界（[AABB](/reference/UI/bounds.md) 包围盒） |
+| [getBounds()](/reference/UI/bounds.md#getbounds-type-iboundstype-box-relative-ilocationtype-ui-world-iboundsdata)                                   | 获取 [AABB](/reference/UI/bounds.md) 包围盒（边界）                                                                        |
+| [getLayoutBounds()](/reference/UI/bounds.md#getlayoutbounds-type-iboundstype-box-relative-ilocationtype-ui-world-unscale-boolean-ilayoutboundsdata) | 获取 [OBB](/reference/UI/bounds.md) 包围盒（边界），含缩放、旋转等布局属性                                                 |
+| [getLayoutPoints()](/reference/UI/bounds.md#getlayoutpoints-type-iboundstype-box-relative-ilocationtype-ui-world-ipointdata)                        | 获取 [OBB](/reference/UI/bounds.md) 包围盒（边界）的四个坐标点）                                                           |
 
 ### 数学计算
 

@@ -22,7 +22,7 @@ y 轴倾斜角度，取值范围为 -90 ～ 90。
 
 ### skewOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) ｜ [`IPointData`](../interface/math/Math#ipointdata), addSkewX: `number`, addSkewY = 0, resize?: `boolean`, transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion) )
 
-围绕原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）倾斜元素 <badge>增量操作</badge>，[`transition`](/reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
+围绕原点 origin（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ）倾斜元素 <badge>增量操作</badge>，[`transition`](/reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
 ```ts
 // 围绕中心继续倾斜X轴 45度
@@ -39,7 +39,7 @@ rect.skewOf('center', 45, 0, 2) // 过渡 2 秒
 
 ### skewOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), addSkewX: `number`, addSkewY = 0, resize?: `boolean`, transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion) )
 
-围绕原点 worldOrigin（ [世界坐标](/guide/basic/coordinate.md#world) ）倾斜元素 <badge>增量操作</badge>，[`transition`](/reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
+围绕原点 worldOrigin（ [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) ）倾斜元素 <badge>增量操作</badge>，[`transition`](/reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
 ## 归属
 

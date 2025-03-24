@@ -1,6 +1,6 @@
 # 快速转换
 
-[世界坐标](/guide/basic/coordinate.md#world)与[本地坐标](/guide/basic/coordinate.md#local)、[内部坐标](/guide/basic/coordinate.md#inner)的快速转换， 直接修改传入的坐标，另提供了 [简易转换](./index.md) 的方法。
+[世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)与[本地坐标](/guide/advanced/coordinate.md#local-本地坐标系)、[内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系)的快速转换， 直接修改传入的坐标，另提供了 [简易转换](./index.md) 的方法。
 
 支持 [转换移动距离](#转换移动距离)。
 
@@ -8,19 +8,19 @@
 
 ### worldToInner ( worldPoint:[`IPointData`](/reference/interface/math/Math.md#ipointdata) )
 
-[世界坐标](/guide/basic/coordinate.md#world) 转 [内部坐标](/guide/basic/coordinate.md#inner)， 直接修改 world。
+[世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 转 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系)， 直接修改 world。
 
 ### worldToLocal ( worldPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata) )
 
-[世界坐标](/guide/basic/coordinate.md#world) 转 [本地坐标](/guide/basic/coordinate.md#local)， 直接修改 world。
+[世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 转 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系)， 直接修改 world。
 
 ### innerToWorld ( innerPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata) )
 
-[内部坐标](/guide/basic/coordinate.md#inner) 转 [世界坐标](/guide/basic/coordinate.md#world) ， 直接修改 inner。
+[内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) ， 直接修改 inner。
 
 ### localToWorld ( localPoint: [`IPointData`](/reference/interface/math/Math.md#ipointdata) )
 
-[本地坐标](/guide/basic/coordinate.md#local) 转 [世界坐标](/guide/basic/coordinate.md#world)， 直接修改 local。
+[本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 转 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)， 直接修改 local。
 
 ## 可选参数
 

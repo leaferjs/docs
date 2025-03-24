@@ -39,11 +39,11 @@ rect.move(10, 10, 2) // 过渡 2 秒
 
 ### moveInner ( addX: `number` | [`IPointData`](../interface/math/Math#ipointdata), addY = 0, transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion))
 
-在 [内部坐标系](/guide/basic/coordinate.md) 中位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math.md#ipointdata)。
+在 [内部坐标系](/guide/advanced/coordinate.md) 中位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math.md#ipointdata)。
 
 ### moveWorld ( addWorldX: `number` | [`IPointData`](../interface/math/Math#ipointdata), addWorldY = 0, transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion))
 
-在 [世界坐标系](/guide/basic/coordinate.md#world) 中位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math.md#ipointdata)。
+在 [世界坐标系](/guide/advanced/coordinate.md#world-世界坐标系) 中位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math.md#ipointdata)。
 
 ## 归属
 

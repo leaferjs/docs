@@ -36,7 +36,7 @@ console.log(rect.scale) // {x:1, y: 2}
 
 ### scaleOf ( origin: [`IAlign`](/reference/interface/math/Math.md#ialign) ｜ [`IPointData`](../interface/math/Math#ipointdata), multiplyScaleX: `number`, multiplyScaleY?: `number` | [`ITranstion`](/reference/UI/transition.md#transition-itranstion), resize?: `boolean`, transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion) )
 
-围绕原点 origin（ [box 坐标](/guide/basic/coordinate.md#box) ）缩放元素 <badge>增量操作</badge>。
+围绕原点 origin（ [box 坐标](/guide/advanced/coordinate.md#box-坐标系) ）缩放元素 <badge>增量操作</badge>。
 
 [`resize`](/reference/UI/resize.md) 参数可实现缩放操作转宽高值，[`transition`](/reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 
@@ -55,7 +55,7 @@ rect.scaleOf('center', 1.5, { duration: 2 }) // 过渡 2 秒  = rect.scaleOf('ce
 
 ### scaleOfWorld ( worldOrigin: [`IPointData`](../interface/math/Math#ipointdata), multiplyScaleX: `number`, multiplyScaleY?: `number` | [`ITranstion`](/reference/UI/transition.md#transition-itranstion), resize?: `boolean`, transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion) )
 
-围绕原点 worldOrigin（ [世界坐标](/guide/basic/coordinate.md#world) ）缩放元素 <badge>增量操作</badge>。
+围绕原点 worldOrigin（ [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) ）缩放元素 <badge>增量操作</badge>。
 
 [`resize`](/reference/UI/resize.md) 参数可实现缩放操作转宽高值，[`transition`](/reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 

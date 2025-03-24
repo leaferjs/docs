@@ -807,7 +807,7 @@
 
 \- [export()](/reference/UI/export.md) 导出切片时，自动隐藏切片(当前导出元素)
 
-\- [rotateOf()](/reference/UI/rotation.md#rotateof-origin-ialign-ipointdata-addrotation-number)、[skewOf()](/reference/UI/skew.md#skewof-origin-ialign-ipointdata-addskewx-number-addskewy-0-resize-boolean) 的 origin 参数由 [inner 坐标](/guide/basic/coordinate.md#inner) 改为 [box 坐标](/guide/basic/coordinate.md#box)
+\- [rotateOf()](/reference/UI/rotation.md#rotateof-origin-ialign-ipointdata-addrotation-number)、[skewOf()](/reference/UI/skew.md#skewof-origin-ialign-ipointdata-addskewx-number-addskewy-0-resize-boolean) 的 origin 参数由 [inner 坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 改为 [box 坐标](/guide/advanced/coordinate.md#box-坐标系)
 
 #### 🪲 修复
 
@@ -1405,7 +1405,7 @@ HitCanvasManager.getImageType() 改为 getPixelType()
 
 \- 元素支持 [transformWorld()](/reference/UI/transform.md#相对世界坐标系)、[moveWorld()](/reference/UI/position.md#关键方法)、[scaleOfWorld()](/reference/UI/scale.md#关键方法)、[rotateOfWorld()](/reference/UI/rotation.md#关键方法) 等操作
 
-\- 所有用到 [`ILocationType`](/api/modules.md#ilocationtype) 参数的方法，均已支持 [page 坐标系](/guide/basic/coordinate.md#page)
+\- 所有用到 [`ILocationType`](/api/modules.md#ilocationtype) 参数的方法，均已支持 [page 坐标系](/guide/advanced/coordinate.md#page-场景坐标系)
 
 \- 元素增加 [zoomLayer](/reference/UI/leafer.md) 只读属性， 可直接访问 leafer 的缩放层
 
@@ -1503,7 +1503,7 @@ ui.\_\_.\_\_autoBounds 改为 ui.\_\_.\_\_autoSize
 
 \- 支持组透明效果（同 HTML、Figma、Sketch 一致）
 
-\- 🌸 增加 [page 坐标系](/guide/basic/coordinate.md) 及转换方法 [getPagePoint()](/reference/UI/point/index.md) / [getPage()](/reference/event/ui/UIEvent.md#getpagepoint-ipointdata) / [getPageMove()](/reference/event/ui/Drag.md#getpagemove-ipointdata)
+\- 🌸 增加 [page 坐标系](/guide/advanced/coordinate.md) 及转换方法 [getPagePoint()](/reference/UI/point/index.md) / [getPage()](/reference/event/ui/UIEvent.md#getpagepoint-ipointdata) / [getPageMove()](/reference/event/ui/Drag.md#getpagemove-ipointdata)
 
 \- 🌸 遮罩增加 [maskType](/reference/UI/mask.md#masktype-imasktype)，可支持路径遮罩、PS 剪贴蒙版效果
 

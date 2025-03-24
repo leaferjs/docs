@@ -72,7 +72,7 @@ y 轴倾斜角度，取值范围为 -90 ～ 90。
 
 ### transformWorld ( worldTransform: [`IMatrixData`](/api/interfaces/IMatrixData.md), resize?: `boolean`, transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion) )
 
-transform() 在 [世界坐标系](/guide/basic/coordinate.md#world) 中操作。
+transform() 在 [世界坐标系](/guide/advanced/coordinate.md#world-世界坐标系) 中操作。
 
 [`resize`](/reference/UI/resize.md) 参数可实现缩放操作转宽高值，[`transition`](/reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
 

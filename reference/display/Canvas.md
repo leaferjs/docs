@@ -73,7 +73,7 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 
 绘制图形元素。
 
-以元素的 [inner 坐标](/guide/basic/coordinate.md#inner) 为基准进行绘制，暂时只支持`2d`类型的画布。
+以元素的 [inner 坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 为基准进行绘制，暂时只支持`2d`类型的画布。
 
 ### paint ( )
 

@@ -57,11 +57,11 @@ moveX, moveY 属性的转换。
 
 ### getInnerMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素 [内部坐标](/guide/basic/coordinate.md#inner) 的偏移距离，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 的偏移距离，relative 元素不存在时为当前侦听元素。
 
 ### getLocalMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素 [本地坐标](/guide/basic/coordinate.md#local) 的偏移距离，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 的偏移距离，relative 元素不存在时为当前侦听元素。
 
 <!-- ## 继承事件
 
