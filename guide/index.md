@@ -85,7 +85,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 
 #### 2. 官方支持
 
-由于资源有限，我们优先为 [金牌以上赞助用户](https://www.leaferjs.com/ui/sponsor/#%E5%BC%80%E5%8F%91%E8%B5%9E%E5%8A%A9) 和社区管理员提供支持（如优先修复 Bug、补充缺失功能）。随着资源增加，我们将招募更多专业人员，并开发系统化的 LeaferJS 场景教程。
+由于资源有限，我们优先为 [金牌以上赞助用户](https://www.leaferjs.com/ui/sponsor/#%E8%B5%9E%E5%8A%A9%E7%AD%89%E7%BA%A7) 和社区管理员提供支持（如优先修复 Bug、补充缺失功能）。随着资源增加，我们将招募更多专业人员，并开发系统化的 LeaferJS 场景教程。
 
 #### 3. 询问 AI （即将上线）
 

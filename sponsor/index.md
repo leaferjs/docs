@@ -4,7 +4,7 @@
 
 Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来支持、赞助 LeaferJS ～
 
-<!-- ![leafer](/image/me.jpg) -->
+![leafer](/image/me.jpg)
 
 **LeaferJS** 是一个需要耗费 **数年及数亿元** 才能构建完善的革新引擎（2021 年初 - 未来）。
 
@@ -42,10 +42,10 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 ## 赞助等级
 
-::: tip
+<!-- ::: tip
 我们每月底会发布一篇赞助、社区参与的感谢文章，里面会同步相应的赞助位和名单。
 
-:::
+::: -->
 
 ![coffee](/svg/coffee/coffee-10-story.svg)
 
@@ -121,7 +121,7 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 <!-- ![sponsor](/image/sponsor/first.jpg) -->
 
-## 开发赞助
+<!-- ## 开发赞助
 
 我们能提供一对一咨询的名额有限，只能先专注帮助一批企业，请 [联系我们](https://leaferjs.com/#contact) 后再 [进行赞助](#赞助渠道) 。
 
@@ -135,7 +135,7 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 - 提供一对一深度咨询、技术支持，防止被问题和缺失功能卡住开发进度（2 个名额）。
 
-- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 5 杯专属 蓝色咖啡。
+- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 5 杯专属 蓝色咖啡。 -->
 
 ## 展示时长
 
@@ -175,7 +175,7 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 <img width="320"  style="border-radius:20px" src="/image/sponsor/BoardOS.jpg" />
 
-### 金牌赞助商
+## 金牌赞助商
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
     <a target="_blank" href="https://github.com/dromara/yft-design">
@@ -207,7 +207,7 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
   </a>
 </p>
 
-### 银牌赞助
+## 银牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 5px;">
   <a target="_blank" href="https://www.u-tools.cn/plugins/detail/%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7%20Plus/index.html">
@@ -359,7 +359,7 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
   </a>
 </p>
 
-### 铜牌赞助
+## 铜牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
   <a target="_blank" href="https://afdian.com/u/ea0cd73ce9ba11ef99f052540025c377">

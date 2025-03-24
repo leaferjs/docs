@@ -34,7 +34,7 @@ bun add @leafer-draw/miniapp
 
 ## 下载 CDN 版本
 
-你也可以将库文件直接下载到本地 import 引入。
+你也可以将库文件直接下载到本地 import 引入，这种方式暂时使用不了额外的插件。
 
 ```sh
 
@@ -47,15 +47,11 @@ https://unpkg.com/@leafer-draw/miniapp@1.5.0/dist/miniapp.module.min.js
 
 ## 注意
 
-微信小程序自身加载 svg 图片有问题。
+1. 微信小程序自身加载 svg 图片有问题。
 
-阴影、遮罩等正在适配兼容性。
+2. 阴影等正在适配兼容性。
 
-::: warning 温馨提示
-微信小程序 iOS 端 3.0.0 之后 view 中的 canvas drawImage 无法绘制离屏画布，已找到办法绕过此限制，但仍有部分功能用不了（如图层混合模式，擦除，后续会继续适配）。
-
-等待小程序官方[修复 bug](https://developers.weixin.qq.com/community/develop/doc/000264fc838f08be4d6002d9166c00), 大家可以一起去催一催。复杂应用建议先采用小程序的 [web-view](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html) 方式开发。
-:::
+3. 在 [web-view](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html) 组件中使用时，微信 JS-SDK 上传 PNG 图片会变成 JPG 格式，请使用 HTML5 原生的 input 框上传。
 
 ## 生成海报
 
