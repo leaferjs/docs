@@ -36,7 +36,7 @@ before 倾斜元素事件。
 
 ## 辅助
 
-[editor.editBox.enterPoint](../EditBox.md#enterpoint-editpoint) 表示当前正在操作的控制点。
+[editor.editBox.dragPoint](../EditBox.md#dragpoint-editpoint) 表示当前正在操作的控制点。
 
 ## 继承事件
 
@@ -45,3 +45,9 @@ before 倾斜元素事件。
 <!-- ## API
 
 ### [EditorSkewEvent](/api/classes/EditorSkewEvent.md) -->
+
+## 示例
+
+### 倾斜元素事件
+
+<<< @/code/plugin/editor/event/skew.ts

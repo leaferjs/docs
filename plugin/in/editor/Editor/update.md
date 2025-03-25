@@ -17,3 +17,11 @@
 ## 归属
 
 ### [Editor 元素](/plugin/in/editor/index.md#editor-元素)
+
+## 示例
+
+### 更新编辑器
+
+使配置的中间控制点可以立即显示。
+
+<<< @/code/plugin/editor/editor/update.ts

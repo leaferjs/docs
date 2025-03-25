@@ -4,9 +4,9 @@
 
 > v1.5.1
 
-#### 2025 / 03 / 22
+<!-- #### 2025 / 03 / 22
 
-v1.5.0
+v1.5.0 -->
 
 #### 🍇 社区
 
@@ -815,7 +815,7 @@ v1.5.0
 
 \- [export()](/reference/UI/export.md) 导出切片时，自动隐藏切片(当前导出元素)
 
-\- [rotateOf()](/reference/UI/rotation.md#rotateof-origin-ialign-ipointdata-addrotation-number)、[skewOf()](/reference/UI/skew.md#skewof-origin-ialign-ipointdata-addskewx-number-addskewy-0-resize-boolean) 的 origin 参数由 [inner 坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 改为 [box 坐标](/guide/advanced/coordinate.md#box-坐标系)
+\- [rotateOf()](/reference/UI/rotation.md#rotateof-origin-ialign-ipointdata-addrotation-number-transition-itranstion)、[skewOf()](/reference/UI/skew.md#skewof-origin-ialign-ipointdata-addskewx-number-addskewy-0-resize-boolean-transition-itranstion) 的 origin 参数由 [inner 坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 改为 [box 坐标](/guide/advanced/coordinate.md#box-坐标系)
 
 #### 🪲 修复
 

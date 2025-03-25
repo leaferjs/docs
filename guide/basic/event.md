@@ -46,6 +46,7 @@ rect.emit('pointer.enter', { current: rect })
 
 | 名称                                                                        | 描述                                                                                                                                                        |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 交互                                                                        |                                                                                                                                                             |
 | [hittable](/reference/UI/hit.md)                                            | 元素是否响应鼠标、触摸或其他指针设备的交互事件，类似 CSS 的 pointer-events 属性                                                                             |
 | [hitChildren](/reference/UI/hitChildren.md)                                 | 进一步定义元素子级的可交互性                                                                                                                                |
 | [hitSelf](/reference/UI/hitSelf.md)                                         | 进一步定义自身（不含子元素）的可交互性                                                                                                                      |
@@ -55,6 +56,7 @@ rect.emit('pointer.enter', { current: rect })
 | [draggable](/reference/UI/draggable.md)                                     | 是否允许拖拽                                                                                                                                                |
 | [dragBounds](/reference/UI/dragBounds.md)                                   | 限制元素的拖动范围                                                                                                                                          |
 | [cursor](/reference/UI/cursor.md)                                           | hover 到元素上时，显示的光标样式，支持所有 [CSS 的光标名称](https://developer.mozilla.org/zh-CN/docs/Web/CSS/cursor)                                        |
+| 状态                                                                        |                                                                                                                                                             |
 | [states](/reference/UI/state/state.md#states-istates)                       | 状态列表，可预设复杂多样的元素、游戏状态，用于随时切换， 支持添加 [过渡效果](/reference/UI/transition.md)，需安装 [交互状态插件](/plugin/in/state/index.md) |
 | [state](/reference/UI/state/state.md#state-string)                          | 当前状态，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                                                  |
 | [button](/reference/UI/state/state.md#button-boolean)                       | 设为按钮，子元素将自动同步交互状态，如 state、hover、press...，需安装 [交互状态插件](/plugin/in/state/index.md)                                             |

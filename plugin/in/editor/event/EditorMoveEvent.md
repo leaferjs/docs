@@ -33,3 +33,9 @@ before 移动元素事件。
 <!-- ## API
 
 ### [EditorMoveEvent](/api/classes/EditorMoveEvent.md) -->
+
+## 示例
+
+### 移动元素事件
+
+<<< @/code/plugin/editor/event/move.ts

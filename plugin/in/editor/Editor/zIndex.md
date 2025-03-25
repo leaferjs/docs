@@ -13,3 +13,9 @@
 ## 归属
 
 ### [Editor 元素](/plugin/in/editor/index.md#editor-元素)
+
+## 示例
+
+### 将元素置于顶层
+
+<<< @/code/plugin/editor/editor/top.ts

@@ -65,3 +65,9 @@ before 关闭已打开的组事件。
 <!-- ## API
 
 ### [EditorGroupEvent](/api/classes/EditorGroupEvent.md) -->
+
+## 示例
+
+### 元素编组事件
+
+<<< @/code/plugin/editor/event/group.ts

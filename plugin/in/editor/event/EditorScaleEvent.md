@@ -36,7 +36,7 @@ before 缩放大小事件（调整元素大小）。
 
 ## 辅助
 
-[editor.editBox.enterPoint](../EditBox.md#enterpoint-editpoint) 表示当前正在操作的控制点。
+[editor.editBox.dragPoint](../EditBox.md#dragpoint-editpoint) 表示当前正在操作的控制点。
 
 ## 继承事件
 
@@ -45,3 +45,9 @@ before 缩放大小事件（调整元素大小）。
 <!-- ## API
 
 ### [EditorScaleEvent](/api/classes/EditorScaleEvent.md) -->
+
+## 示例
+
+### 缩放（resize）元素事件
+
+<<< @/code/plugin/editor/event/scale.ts

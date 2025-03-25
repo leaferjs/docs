@@ -32,3 +32,9 @@ group.hitChildren = false
 ## 归属
 
 ### [Editor 元素](/plugin/in/editor/index.md#editor-元素)
+
+## 示例
+
+### 手动编组元素
+
+<<< @/code/plugin/editor/editor/group.ts

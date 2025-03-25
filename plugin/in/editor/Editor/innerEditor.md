@@ -15,3 +15,11 @@
 ## 归属
 
 ### [Editor 元素](/plugin/in/editor/index.md#editor-元素)
+
+## 示例
+
+### 手动打开内部编辑器
+
+进入文本编辑状态。
+
+<<< @/code/plugin/editor/editor/innerEditor.ts

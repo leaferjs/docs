@@ -45,3 +45,9 @@ before 关闭内部编辑器事件
 <!-- ## API
 
 ### [InnerEditorEvent](/api/classes/InnerEditorEvent.md) -->
+
+## 示例
+
+### 打开内部编辑器事件
+
+<<< @/code/plugin/editor/event/innerEditor.ts

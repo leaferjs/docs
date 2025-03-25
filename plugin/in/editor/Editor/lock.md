@@ -15,3 +15,9 @@
 ## 归属
 
 ### [Editor 元素](/plugin/in/editor/index.md#editor-元素)
+
+## 示例
+
+### 手动锁定元素
+
+<<< @/code/plugin/editor/editor/lock.ts

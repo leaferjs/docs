@@ -42,6 +42,10 @@ EditBox &nbsp;>&nbsp; [Group](/reference/display/Group.md) &nbsp;>&nbsp; [UI](/r
 
 顺序为： [top, right, bottom, left]。
 
+### dragPoint：[`EditPoint`](/plugin/in/editor/EditPoint.md)
+
+当前正在拖拽的控制点。
+
 ### enterPoint：[`EditPoint`](/plugin/in/editor/EditPoint.md)
 
 当前正在使用的控制点（触发了 pointer.enter 事件）。
