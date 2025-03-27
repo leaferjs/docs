@@ -148,7 +148,7 @@ import Case from '/component/Case.vue'
 
 ## 概览元素通用方法
 
-<!--@include: ../..//reference/api/UI/method.md-->
+<!--@include: ../../reference/api/UI/method.md-->
 
 ## 下一步
 
