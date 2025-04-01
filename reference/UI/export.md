@@ -38,7 +38,7 @@ interface IExportOptions {
   fill?: string // 设置一个默认背景填充色
 
   scale?: number | IPointData // 缩放比例，默认为1，可用于生成小尺寸的缩略图
-  size?: number | ISizeData // 导出宽高（拉伸）， 自动换算出缩放比例 scale
+  size?: number | IOptionSizeData // 导出宽高（单独设置宽或高，另一边可自适应原始比例，同时设置宽高会拉伸），自动换算出缩放比例 scale
   padding?: number | number[] // 设置内边距, 支持数字或数组 [top, right, bottom, left]
 
   pixelRatio?: number // 像素比，默认为1倍图，可导出适配高清屏的2倍图、3倍图...
@@ -55,9 +55,9 @@ interface IExportOptions {
   onCanvas?: IExportOnCanvasFunction // onCanvas(canvas => { }) 用于叠加绘制自定义内容
 }
 
-interface ISizeData {
-  width: number
-  height: number
+interface IOptionSizeData {
+  width?: number // 宽度，当单独设置宽度时，高度自适应原始比例
+  height?: number // 高度，当单独设置高度时，宽度自适应原始比例
 }
 
 interface IJSONOptions {

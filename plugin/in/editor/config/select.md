@@ -32,6 +32,10 @@ import Case from '/component/Case.vue'
 
 press 为鼠标按下触发， tap 为单击触发。
 
+### multipleSelect: `boolean`
+
+是否启用多选功能，默认启用。
+
 ### boxSelect: `boolean`
 
 是否启用框选功能， 默认启用。

@@ -39,8 +39,11 @@ import Case from '/component/Case.vue'
 并支持通过设置 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
 
 ```ts
+point: { pointType: 'resize' }, // 默认 resize 按钮
+```
+
+```ts
 point: [
-  { pointType: 'resize' }, // 默认 resize 按钮
   {
     // 支持 Box 元素的所有属性
     pointType: 'button', // 变为自定义按钮
@@ -57,6 +60,7 @@ point: [
   },
   { pointType: 'rotate' }, // 变为旋转按钮
   { pointType: 'resize-rotate' }, // 变为 resize + 旋转按钮
+  { pointType: 'skew' }, // 变为倾斜按钮
 ]
 ```
 

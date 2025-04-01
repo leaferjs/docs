@@ -1,5 +1,43 @@
 # 更新
 
+## 2025 / 03 / 31
+
+> v1.5.2
+
+#### 🌱 新增
+
+\- 🌸 [导出图片](/reference/UI/export.md#export)、[图片填充](/reference/UI/paint/image.md#size-number-ioptionsizedata) 的 size 参数支持单独设置宽或高，另一边自适应比例
+
+\- 🌸 编辑器配置增加事件钩子 [beforeMove](/plugin/in/editor/config/event.md#beforemove-ieditorbeforemove)、[beforeScale](/plugin/in/editor/config/event.md#beforescale-ieditorbeforescale)、[beforeRotate](/plugin/in/editor/config/event.md#beforerotate-ieditorbeforerotate) 等，可改变操作数据
+
+\- 🌸 编辑器控制点增加 [skew 类型](/plugin/in/editor/config/style.md#point-iboxinputdata-iboxinputdata)，支持指定中间控制点用于倾斜元素
+
+\- 编辑器配置增加 [multipleSelect](/plugin/in/editor/config/select.md#multipleselect-boolean) 多选开关
+
+\- 可通过 width / height 属性直接获取 Box / Group / Text 等元素的实际宽高
+
+\- 文本 [textDecoration](/reference/display/Text.md#textdecoration-itextdecoration) 增加 'under-delete' 类型，支持下划线与删除线共存
+
+\- 文本 [textDecoration](/reference/display/Text.md#textdecoration-itextdecoration) 支持设置下划线的颜色 `{type: 'under', color: 'red'}`
+
+#### 🪲 修复
+
+\- 🌸 虚线 dashOffset 相交会互相影响的问题 [#398](https://github.com/leaferjs/leafer-ui/issues/398)
+
+\- 🌸 Text 元素设置 padding 后，拖拽时计算异常 [#403](https://github.com/leaferjs/leafer-ui/issues/403)
+
+\- 🌸 Flow 布局 authHeight 下得子元素不符合预期 [#问题](https://www.zhihu.com/question/1888507312550942686/answer/1888523770962092757)
+
+修复默认值类型为 object（如 data 属性），导出 json 不符合预期问题
+
+filter 插件使用不了的问题
+
+修复非折线路径使用圆角的循环问题
+
+#### 🌷 感谢反馈
+
+[@ZackFair5185034](https://github.com/ZackFair5185034) [@Xdy1579883916](https://github.com/leaferjs/leafer-ui/issues/403) [@xingzheng7](https://github.com/xingzheng7) @goosen @hhzzcc @Y @江万江 @毛豆花生 @Ethan @Bob.Chen @索鸟
+
 ## 2025 / 03 / 24
 
 > v1.5.1

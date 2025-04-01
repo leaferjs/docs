@@ -81,7 +81,20 @@ type ITextCase =
 type ITextDecoration =
   | 'under' // 下划线
   | 'delete' // 删除线
+  | 'under-delete' // 下划线 + 删除线
   | 'none'
+  | ITextDecorationData
+
+interface ITextDecorationData {
+  type: ITextDecorationType // 装饰线类型 under / delete / under-delete
+  color: IColor // 装饰线颜色
+}
+
+// 使用类型
+text.textDecoration = 'under' // 下划线
+
+// 使用对象
+text.textDecoration = { type: 'under', color: 'red' } // 标红的下划线
 ```
 
 ### letterSpacing: `number` | `IUnitData`

@@ -104,9 +104,17 @@ type IAlign =
 
 偏移位置。
 
-### size?: `number` ｜ [`ISizeData`](/api/interfaces/ISizeData.md)
+### size?: `number` ｜ [`IOptionSizeData`](/api/interfaces/IOptionSizeData.md)
 
-图片尺寸（拉伸）， 自动换算出 scale。
+图片尺寸， 自动换算出 scale。
+
+```ts
+// 单独设置宽或高，另一边可自适应原始比例，同时设置宽高会拉伸
+interface IOptionSizeData {
+  width?: number // 宽度，当单独设置宽度时，高度自适应原始比例
+  height?: number // 高度，当单独设置高度时，宽度自适应原始比例
+}
+```
 
 ### scale?: `number` ｜ [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
@@ -122,11 +130,19 @@ type IAlign =
 
 偏移位置。
 
-### size?: `number` ｜ [`ISizeData`](/api/interfaces/ISizeData.md)
+### size?: `number` ｜ [`IOptionSizeData`](/api/interfaces/IOptionSizeData.md)
 
-图片尺寸（拉伸）， 自动换算出 scale。
+图片尺寸， 自动换算出 scale。
 
-### scale?: `number`
+```ts
+// 单独设置宽或高，另一边可自适应原始比例，同时设置宽高会拉伸
+interface IOptionSizeData {
+  width?: number // 宽度，当单独设置宽度时，高度自适应原始比例
+  height?: number // 高度，当单独设置高度时，宽度自适应原始比例
+}
+```
+
+### scale?: `number` ｜ [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 平铺图片的缩放比例，优先使用 size 换算出的 scale。
 
