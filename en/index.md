@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 'LeaferJS'
   # text: 'Fast<br/>Beautiful'
-  tagline: '预计12月启动英文版翻译'
+  tagline: '预计5月启动英文版翻译'
   image:
     src: '/svg/bettery/bettery-100-2.svg'
     width: 240

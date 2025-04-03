@@ -24,6 +24,8 @@
 
 限制元素的宽度范围（目前只有编辑器单选元素时可以控制）。
 
+同时编辑器配置支持事件钩子 [beforeScale](/plugin/in/editor/config/event.md#beforescale-ieditorbeforescale) 限制宽度。
+
 ```ts
 interface IRangeSize {
   min?: number
@@ -36,6 +38,8 @@ rect.widthRange = { min: 10, max: 200 }
 ### heightRange: `IRangeSize`
 
 限制元素的高度范围（目前只有编辑器单选元素时可以控制）。
+
+同时编辑器配置支持事件钩子 [beforeScale](/plugin/in/editor/config/event.md#beforescale-ieditorbeforescale) 限制高度。
 
 ```ts
 interface IRangeSize {

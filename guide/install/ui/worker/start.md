@@ -4,9 +4,9 @@
 
 ##
 
-在 WebWorker 环境中运行。
+在 Web Worker 后台多线程环境中运行，不能操作 DOM。
 
-<!-- 如果你需要编辑图形，推荐更省心的 [leafer-editor](/guide/install/editor/worker/start.md)，已集成了图形编辑器相关插件。 -->
+Web 版和 Worker 版可以在同一个项目中共存，按需搭配使用。
 
 ## 安装
 
@@ -30,7 +30,7 @@ bun add @leafer-ui/worker
 
 :::
 
-#### importScripts 引入
+#### 或通过 importScripts 引入
 
 通过全局变量 LeaferUI 访问内部功能。
 

@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.5.2/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.5.2/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.5.3/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.5.3/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.5.2/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.5.2/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.5.3/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.5.3/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
@@ -176,6 +176,8 @@ bun add @leafer-in/resize
 ## 事件
 
 编辑器操作事件，通过 app.editor.on() 监听。
+
+同时支持事件钩子 [beforeMove](/plugin/in/editor/config/event.md#beforemove-ieditorbeforemove)、[beforeScale](/plugin/in/editor/config/event.md#beforescale-ieditorbeforescale)、[beforeRotate](/plugin/in/editor/config/event.md#beforerotate-ieditorbeforerotate) 等，可改变操作数据。
 
 | 名称                                                              | 描述               |
 | ----------------------------------------------------------------- | ------------------ |

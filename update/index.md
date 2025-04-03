@@ -1,5 +1,21 @@
 # 更新
 
+## 2025 / 04 / 03
+
+> v1.5.3
+
+#### 🌱 新增
+
+\- 🌸 编辑器配置增加事件钩子 [beforeSelect](/plugin/in/editor/config/event.md#beforeselect-ieditorbeforeselect)，可改变选择数据
+
+#### 🪲 修复
+
+\- 锁定元素不能再次被选中的问题
+
+#### 🌷 感谢反馈
+
+@李维亮
+
 ## 2025 / 03 / 31
 
 > v1.5.2
@@ -28,11 +44,11 @@
 
 \- 🌸 Flow 布局 authHeight 下得子元素不符合预期 [#问题](https://www.zhihu.com/question/1888507312550942686/answer/1888523770962092757)
 
-修复默认值类型为 object（如 data 属性），导出 json 不符合预期问题
+\- 修复默认值类型为 object（如 data 属性），导出 json 不符合预期问题
 
-filter 插件使用不了的问题
+\- filter 插件使用不了的问题
 
-修复非折线路径使用圆角的循环问题
+\- 修复非折线路径使用圆角的循环问题
 
 #### 🌷 感谢反馈
 
@@ -831,7 +847,7 @@ v1.5.0 -->
 
 \- 🌸 编辑器控制点支持设置 [pointType](/plugin/in/editor/config/style.md#point-iboxinputdata-iboxinputdata) 属性自定义按钮功能
 
-\- 🌸 支持限制元素的宽高 [widthRange](/reference/UI/editable.md#widthrange-irangesize)、 [heightRange](/reference/UI/editable.md#widthrange-irangesize)，
+\- 🌸 支持限制元素的宽高 [widthRange](/reference/UI/editable.md#widthrange-irangesize)、 [heightRange](/reference/UI/editable.md#widthrange-irangesize)
 
 \- 🌸 支持混合使用 origin 、around 属性元素， 并会取其作为旋转点
 
