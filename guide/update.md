@@ -8,7 +8,7 @@
 
 ## 版本号
 
-当前最新版本为： [v1.5.2](/update/index.md)
+当前最新版本为： [v1.5.3](/update/index.md)
 
 ```ts
 import { version } from 'leafer-ui'

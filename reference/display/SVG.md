@@ -12,7 +12,7 @@ svg 图片采用了特殊的渲染逻辑，可以实现高清晰缩放.
 
 通过 url 无法识别出 svg 的情况下，可以通过 [图案填充](/reference/UI/paint/image.md) 指定 format 为 svg。
 
-想修改 svg 图片的颜色，可以采用 [这个办法](https://developers.weixin.qq.com/community/develop/article/doc/000606868600b8d5f2ae12d9551813)。
+想修改 svg 图片的颜色，可以使用 字符串变量的方式加载 svg。
 
 ## 路径
 
