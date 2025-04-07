@@ -18,11 +18,11 @@ Box &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./
 
 ### width: `number`
 
-宽度，不设置宽高时会自适应内容。
+宽度，不设置或设为`undefined`时会自适应内容。
 
 ### height: `number`
 
-高度，不设置宽高时会自适应内容。
+高度，不设置或设为`undefined`时会自适应内容。
 
 ### overflow: `IOverflow`
 

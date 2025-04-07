@@ -18,11 +18,11 @@ Text &nbsp;>&nbsp; [UI](./UI.md)
 
 ### width?: `number`
 
-文本框宽度，不设置时为自动宽度。
+文本框宽度，不设置或设为`undefined`时为自动宽度。
 
 ### height?: `number`
 
-文本框高度，不设置时为自动高度。
+文本框高度，不设置或设为`undefined`时为自动高度。
 
 ### text: `string` | `number`
 

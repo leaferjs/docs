@@ -100,6 +100,14 @@ syncExport( name: [`IExportFileType`](/api/modules.md#iexportimagetype) | `strin
 
 ## 示例
 
+### 导出元素为图片
+
+<<< @/code/property/export/file.ts
+
+### 导出高清图
+
+<<< @/code/property/export/pixelRatio.ts
+
 ### 导出 Base64 编码数据
 
 默认图片质量为 0.92。
@@ -110,25 +118,25 @@ syncExport( name: [`IExportFileType`](/api/modules.md#iexportimagetype) | `strin
 
 <<< @/code/property/export/quality.ts
 
+### 同步导出 Base64 编码数据
+
+<<< @/code/property/syncExport/string.ts
+
 ### 导出二进制数据
 
 <<< @/code/property/export/blob.ts
 
-### 导出文件
+### 导出时绘制水印
 
-浏览器版会直接下载文件，Node.js 版会保存到指定路径。
+<<< @/code/property/export/onCanvas.ts
 
-<<< @/code/property/export/file.ts
-
-### 导出画布
+### 导出为画布
 
 <<< @/code/property/export/canvas.ts
 
-### 导出高清图
+### 导出整个画布
 
-<<< @/code/property/export/pixelRatio.ts
-
-### 画面截图
+将当前应用画布进行截图导出。
 
 <<< @/code/property/export/screenshot.ts
 

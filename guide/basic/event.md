@@ -90,6 +90,8 @@ rect.emit('pointer.enter', { current: rect })
 
 ### [MoveEvent](/reference/event/ui/Move.md) &nbsp; &nbsp; [ZoomEvent](/reference/event/ui/Zoom.md) &nbsp; &nbsp; [RotateEvent](/reference/event/ui/Rotate.md)
 
+### [ImageEvent](/reference/event/basic/Image.md) &nbsp; &nbsp; [ChildEvent](/reference/event/basic/Child.md) &nbsp; &nbsp; [PropertyEvent](/reference/event/basic/Property.md)
+
 ### [LeaferEvent](/reference/event/basic/Leafer.md) &nbsp; &nbsp; [ResizeEvent](/reference/event/basic/Resize.md) &nbsp; &nbsp; [KeyEvent](/reference/event/ui/Key.md)
 
 ### [RenderEvent](/reference/event/basic/Render.md) &nbsp; &nbsp; [LayoutEvent](/reference/event/basic/Layout.md) &nbsp; &nbsp; [WatchEvent](/reference/event/basic/Watch.md) &nbsp; &nbsp;

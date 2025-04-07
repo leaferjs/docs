@@ -30,26 +30,6 @@ import Case from '/component/Case.vue'
 
 <<< @/code/basic/remove/destroy-leafer.ts
 
-## 恭喜 🎉
-
-你已完成基础知识的学习，接下来带你了解几个 **好玩的插件**，放松一下～
-
 ## 下一步
 
-### [动画功能](/guide/plugin/animate.md)
-
-<br/>
-
-### 在前端环境中使用
-
-[Vue](/guide/framework/vue/index.md)
-
-[React](/guide/framework/react/index.md)
-
-### 在服务端渲染中使用
-
-[Nuxt.js](/guide/framework/nuxt/index.md)
-
-[VitePress](/guide/framework/vitepress/index.md)
-
-[Next.js](/guide/framework/next/index.md)
+### [导出元素](/guide/basic/export.md)

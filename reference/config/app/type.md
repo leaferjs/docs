@@ -44,7 +44,7 @@ type ILeaferType =
 
 ## viewport 视口类型
 
-通过滚轮/触摸板滑动或捏合可缩放平移视图，会阻止默认 [右键菜单](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean)。
+通过滚轮/触摸板滑动或捏合可缩放平移视图，会阻止默认 [原生右键菜单](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean)。
 
 ### 平移视图操作
 

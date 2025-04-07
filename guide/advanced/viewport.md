@@ -2,6 +2,8 @@
 
 通过滚轮/触摸板滑动或捏合可缩放平移视图，类似浏览器、设计软件的视口交互功能。
 
+应用默认为 [block 场景类型](/reference/config/app/type.md#block-场景类型)， 可通过配置 [leafer.config.type](/reference/config/app/type.md) 快速更改视口类型，自动添加相应场景的交互逻辑。
+
 ::: tip 注意事项
 需安装 [视口插件](/plugin/in/viewport/index.md) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
 
@@ -11,9 +13,13 @@
 
 另通过 [视图控制插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
 
+## 手动缩放平移视图
+
+通过修改 [Leafer 视口属性](/reference/display/Leafer.md#视口属性-viewport) / [App 视口属性](/reference/display/App.md#视口属性-viewport) 的 [x](/reference/UI/layout.md)、[y](/reference/UI/layout.md)、[scale](/reference/UI/layout.md#scale-number-ipointdata)、[scaleX](/reference/UI/layout.md#scalex-number)、[scaleY](/reference/UI/layout.md#scaley-number) 可缩放平移视图。
+
 ## viewport 视口类型
 
-应用默认为 [block 场景类型](/reference/config/app/type.md#block-场景类型)， 可通过配置 [leafer.config.type](/reference/config/app/type.md) 快速更改视口类型，自动添加相应的场景交互逻辑，注意 viewport 类型会阻止 [原生右键菜单](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean)。
+通过滚轮/触摸板滑动或捏合可缩放平移视图，会阻止默认 [原生右键菜单](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean)。
 
 ### 平移视图操作
 
@@ -74,10 +80,6 @@
 <<< @/code/app/config/type/origin/document.ts [实现原理]
 :::
 
-## 手动平移缩放视图
-
-通过 [Leafer 视口属性](/reference/display/Leafer.md#视口属性-viewport) / [App 视口属性](/reference/display/App.md#视口属性-viewport) 可手动平移缩放视图。
-
 ## 移动端手势控制元素
 
 [图形编辑器](/plugin/in/editor/index.md) 可以配置 [moblie 模式](/reference/config/app/base.md#mobile-boolean) 及 [手势控制元素](/plugin/in/editor/config/enable.md)。
@@ -95,6 +97,10 @@
 ## 视口交互事件
 
 ### [MoveEvent](/reference/event/ui/Move.md) &nbsp; &nbsp; [ZoomEvent](/reference/event/ui/Zoom.md) &nbsp; &nbsp; [RotateEvent](/reference/event/ui/Rotate.md)
+
+## 监听视口变化
+
+应用可以通过 [PropertyEvent](/reference/event/basic/Property.md) 事件监听 [Leafer 视口属性](/reference/display/Leafer.md#视口属性-viewport) / [App 视口属性](/reference/display/App.md#视口属性-viewport) 的 [x](/reference/UI/layout.md)、[y](/reference/UI/layout.md)、[scaleX](/reference/UI/layout.md#scalex-number)、[scaleY](/reference/UI/layout.md#scaley-number) 变化来同步相关逻辑。
 
 ## 下一步
 
