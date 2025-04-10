@@ -362,6 +362,9 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 ## 铜牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
+  <a target="_blank" href="">
+    Lauginwing
+  </a>
   <a target="_blank" href="https://afdian.com/u/ea0cd73ce9ba11ef99f052540025c377">
     在路上
   </a>
