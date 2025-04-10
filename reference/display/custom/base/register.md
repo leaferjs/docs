@@ -20,6 +20,14 @@ TypeScript 环境需在 `tsconfig.json` 配置文件中开启装饰器功能支�
 
 :::
 
+想要做成跨平台元素，需引入 `@leafer-ui/core`（跨平台核心包，用来代替 leafer-ui 包）、`@leafer-ui/interface`（接口） 作为外部依赖。
+
+```ts
+import { Rect } from '@leafer-ui/core'
+
+export class CustomRect extends Rect {}
+```
+
 ## 注册步骤
 
 ### 1. 注册元素
