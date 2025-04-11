@@ -62,7 +62,7 @@ type BlendMode =
 
 ### multiply
 
-正片叠底
+正片叠底，将顶层像素与底层相应像素相乘，结果是一幅更黑暗的图片。
 
 <<< @/code/property/blendMode/multiply.ts
 
@@ -70,7 +70,7 @@ type BlendMode =
 
 ### darken
 
-变暗
+变暗，保留两个图层中最暗的像素。
 
 <<< @/code/property/blendMode/darken.ts
 
@@ -78,7 +78,7 @@ type BlendMode =
 
 ### color-burn
 
-颜色加深
+颜色加深，将反置的底层除以顶层，然后将结果反过来。
 
 <<< @/code/property/blendMode/color-burn.ts
 
@@ -86,7 +86,7 @@ type BlendMode =
 
 ### lighten
 
-变亮
+变亮，两个重叠图形的颜色是通过颜色值相加来确定的。
 
 <<< @/code/property/blendMode/lighten.ts
 
@@ -94,7 +94,7 @@ type BlendMode =
 
 ### color-dodge
 
-颜色减淡
+颜色减淡，将底层除以顶层的反置。
 
 <<< @/code/property/blendMode/color-dodge.ts
 
@@ -102,7 +102,7 @@ type BlendMode =
 
 ### screen
 
-滤色
+滤色，像素被倒转、相乘、再倒转，结果是一幅更明亮的图片（与 multiply 相反）。
 
 <<< @/code/property/blendMode/screen.ts
 
@@ -110,7 +110,7 @@ type BlendMode =
 
 ### overlay
 
-叠加
+叠加，multiply 和 screen 的结合。原本暗的地方更暗，原本亮的地方更亮。
 
 <<< @/code/property/blendMode/overlay.ts
 
@@ -118,7 +118,7 @@ type BlendMode =
 
 ### hard-light
 
-强光
+强光，类似于 overlay，multiply 和 screen 的结合——但上下图层互换了。
 
 <<< @/code/property/blendMode/hard-light.ts
 
@@ -126,7 +126,7 @@ type BlendMode =
 
 ### soft-light
 
-柔光
+柔光，柔和版本的 hard-light。纯黑或纯白不会导致纯黑或纯白。
 
 <<< @/code/property/blendMode/soft-light.ts
 
@@ -134,7 +134,7 @@ type BlendMode =
 
 ### difference
 
-差集
+差集，从顶层减去底层（或反之亦然），始终得到正值。
 
 <<< @/code/property/blendMode/difference.ts
 
@@ -142,7 +142,7 @@ type BlendMode =
 
 ### exclusion
 
-排除
+排除，与 difference 类似，但对比度较低。
 
 <<< @/code/property/blendMode/exclusion.ts
 
@@ -150,7 +150,7 @@ type BlendMode =
 
 ### hue
 
-色相
+色相，保留底层的亮度（luma）和色度（chroma），同时采用顶层的色调（hue）。
 
 <<< @/code/property/blendMode/hue.ts
 
@@ -158,7 +158,7 @@ type BlendMode =
 
 ### saturation
 
-饱和度
+饱和度，保留底层的亮度和色调，同时采用顶层的色度。
 
 <<< @/code/property/blendMode/saturation.ts
 
@@ -166,7 +166,7 @@ type BlendMode =
 
 ### color
 
-颜色
+颜色，保留了底层的亮度，同时采用了顶层的色调和色度。
 
 <<< @/code/property/blendMode/color.ts
 
@@ -174,7 +174,7 @@ type BlendMode =
 
 ### luminosity
 
-明度
+明度，保持底层的色调和色度，同时采用顶层的亮度。
 
 <<< @/code/property/blendMode/luminosity.ts
 
