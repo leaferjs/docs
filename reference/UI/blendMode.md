@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 混合模式， 了解 [混合原理](https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation) 与 [混合效果](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode)。
 
-<case name="BlendMode" editor=false></case>
+<case name="BlendMode" index=1 count=6 editor=false></case>
 
 ## 关键属性
 
@@ -16,8 +16,8 @@ import Case from '/component/Case.vue'
 
 ```ts
 type BlendMode =
-  | 'pass-through' // 穿透，性能最好
-  | 'normal' // 正常，会单独绘制在一个层上，大量使用会有性能问题
+  | 'pass-through' // 穿透，默认值，性能最好
+  | 'normal' // 正常，会单独绘制在一个层上，大量使用会有性能问题，一般用于隔离Group内的混合样式，防止影响Group外的元素
   | 'multiply' // 正片叠底---
   | 'darken' // 变暗
   | 'color-burn' // 颜色加深
@@ -33,6 +33,17 @@ type BlendMode =
   | 'saturation' // 饱和度
   | 'color' // 颜色
   | 'luminosity' // 明度
+  // other
+  | 'source-over' // 在现有画布上绘制新图形。
+  | 'source-in' // 仅在新形状和目标画布重叠的地方绘制新形状。其他的都是透明的。
+  | 'source-out' // 在不与现有画布内容重叠的地方绘制新图形。
+  | 'source-atop' // 只在与现有画布内容重叠的地方绘制新图形。
+  | 'destination-over' // 在现有画布内容的后面绘制新的图形。
+  | 'destination-in' // 仅保留现有画布内容和新形状重叠的部分。其他的都是透明的。
+  | 'destination-out' // 仅保留现有画布内容和新形状不重叠的部分。
+  | 'destination-atop' // 仅保留现有画布内容和新形状重叠的部分。新形状是在现有画布内容的后面绘制的。
+  | 'xor' // 形状在重叠处变为透明，并在其他地方正常绘制。
+  | 'copy' // 只显示新图形。
 ```
 
 ## 穿透模式
@@ -44,3 +55,205 @@ type BlendMode =
 ## 归属
 
 ### [UI 元素](/reference/display/UI.md)
+
+## 示例
+
+<case name="BlendMode" index=2 editor=false></case>
+
+### multiply
+
+正片叠底
+
+<<< @/code/property/blendMode/multiply.ts
+
+<case name="BlendMode" index=3 editor=false></case>
+
+### darken
+
+变暗
+
+<<< @/code/property/blendMode/darken.ts
+
+<case name="BlendMode" index=4 editor=false></case>
+
+### color-burn
+
+颜色加深
+
+<<< @/code/property/blendMode/color-burn.ts
+
+<case name="BlendMode" index=5 editor=false></case>
+
+### lighten
+
+变亮
+
+<<< @/code/property/blendMode/lighten.ts
+
+<case name="BlendMode" index=6 editor=false></case>
+
+### color-dodge
+
+颜色减淡
+
+<<< @/code/property/blendMode/color-dodge.ts
+
+<case name="BlendMode" index=7 editor=false></case>
+
+### screen
+
+滤色
+
+<<< @/code/property/blendMode/screen.ts
+
+<case name="BlendMode" index=8 editor=false></case>
+
+### overlay
+
+叠加
+
+<<< @/code/property/blendMode/overlay.ts
+
+<case name="BlendMode" index=9 editor=false></case>
+
+### hard-light
+
+强光
+
+<<< @/code/property/blendMode/hard-light.ts
+
+<case name="BlendMode" index=10 editor=false></case>
+
+### soft-light
+
+柔光
+
+<<< @/code/property/blendMode/soft-light.ts
+
+<case name="BlendMode" index=11 editor=false></case>
+
+### difference
+
+差集
+
+<<< @/code/property/blendMode/difference.ts
+
+<case name="BlendMode" index=12 editor=false></case>
+
+### exclusion
+
+排除
+
+<<< @/code/property/blendMode/exclusion.ts
+
+<case name="BlendMode" index=13 editor=false></case>
+
+### hue
+
+色相
+
+<<< @/code/property/blendMode/hue.ts
+
+<case name="BlendMode" index=14 editor=false></case>
+
+### saturation
+
+饱和度
+
+<<< @/code/property/blendMode/saturation.ts
+
+<case name="BlendMode" index=15 editor=false></case>
+
+### color
+
+颜色
+
+<<< @/code/property/blendMode/color.ts
+
+<case name="BlendMode" index=16 editor=false></case>
+
+### luminosity
+
+明度
+
+<<< @/code/property/blendMode/luminosity.ts
+
+<case name="BlendMode" index=17 editor=false></case>
+
+### source-over
+
+在现有画布上绘制新图形。
+
+<<< @/code/property/blendMode/source-over.ts
+
+<case name="BlendMode" index=18 editor=false></case>
+
+### source-in
+
+仅在新形状和目标画布重叠的地方绘制新形状。其他的都是透明的。
+
+<<< @/code/property/blendMode/source-in.ts
+
+<case name="BlendMode" index=19 editor=false></case>
+
+### source-out
+
+在不与现有画布内容重叠的地方绘制新图形。
+
+<<< @/code/property/blendMode/source-out.ts
+
+<case name="BlendMode" index=20 editor=false></case>
+
+### source-atop
+
+只在与现有画布内容重叠的地方绘制新图形。
+
+<<< @/code/property/blendMode/source-atop.ts
+
+<case name="BlendMode" index=21 editor=false></case>
+
+### destination-over
+
+在现有画布内容的后面绘制新的图形。
+
+<<< @/code/property/blendMode/destination-over.ts
+
+<case name="BlendMode" index=22 editor=false></case>
+
+### destination-in
+
+仅保留现有画布内容和新形状重叠的部分。其他的都是透明的。
+
+<<< @/code/property/blendMode/destination-in.ts
+
+<case name="BlendMode" index=23 editor=false></case>
+
+### destination-out
+
+仅保留现有画布内容和新形状不重叠的部分。
+
+<<< @/code/property/blendMode/destination-out.ts
+
+<case name="BlendMode" index=24 editor=false></case>
+
+### destination-atop
+
+仅保留现有画布内容和新形状重叠的部分。新形状是在现有画布内容的后面绘制的。
+
+<<< @/code/property/blendMode/destination-atop.ts
+
+<case name="BlendMode" index=25 editor=false></case>
+
+### xor
+
+形状在重叠处变为透明，并在其他地方正常绘制。
+
+<<< @/code/property/blendMode/xor.ts
+
+<case name="BlendMode" index=26 editor=false></case>
+
+### copy
+
+只显示新图形。
+
+<<< @/code/property/blendMode/copy.ts
