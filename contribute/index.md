@@ -96,6 +96,8 @@
 
 ## 产品案例
 
+[图标工坊](https://www.u-tools.cn/plugins/detail/%E5%9B%BE%E6%A0%87%E5%B7%A5%E5%9D%8A/) <badge>你的专属图标定制专家</badge> @散装程序员
+
 [截图工具 Plus](https://www.u.tools/plugins/detail/%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7%20Plus/) <badge>截图与美化一站式的截图插件</badge> @xiaou
 
 [边框水印精灵](https://frameelf.com) <badge>快速为您的照片添加水印</badge> @ozar
