@@ -98,4 +98,4 @@ rect.emit('pointer.enter', { current: rect })
 
 ## 下一步
 
-### [移除内容](/guide/basic/remove.md)
+### [移除元素](/guide/basic/remove.md)

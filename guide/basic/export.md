@@ -80,3 +80,7 @@ import Case from '/component/Case.vue'
 [VitePress](/guide/framework/vitepress/index.md)
 
 [Next.js](/guide/framework/next/index.md)
+
+### 组件式开发（社区提供）
+
+[leafer-vue](https://leafer-vue.netlify.app/)
