@@ -202,6 +202,26 @@ padding: [20, 10] // [ (top-bottom), (right-left)]
 padding: 20 // all
 ```
 
+## 背景框
+
+### boxStyle: [`IBackgroundBoxStyle`](/reference/display/Rect.md)
+
+文字的背景框样式对象，支持 [Rect](/reference/display/Rect.md) 元素的大部分外观样式。
+
+```ts
+boxStyle: {
+  fill: '#32cd79',
+  stroke: 'black',
+  cornerRadius: 6,
+  shadow: {
+    x: 10,
+    y: -10,
+    blur: 20,
+    color: '#FF0000AA'
+  }
+}
+```
+
 ## 编辑属性
 
 ### resizeFontSize: `boolean`
@@ -219,6 +239,8 @@ padding: 20 // all
 
 ## 示例
 
+<case name="Text" index=6 editor=false></case>
+
 ### 创建文本
 
 ::: code-group
@@ -226,11 +248,20 @@ padding: 20 // all
 <<< @/code/display/Text/app/text.ts [App]
 :::
 
+<case name="Text" index=7 editor=false></case>
+
+### 创建带背景框的文本
+
+::: code-group
+<<< @/code/display/Text/boxStyle.ts [Leafer]
+<<< @/code/display/Text/app/boxStyle.ts [App]
+:::
+
 <case name="Box" index=6 editor=false></case>
 
 ### 创建自适应背景的文本
 
-[Box](./Box.md) 不设置宽高时，支持自适应内容。
+背景框的另一种实现方式， [Box](./Box.md) 不设置宽高时，支持自适应内容。
 
 ::: code-group
 <<< @/code/display/Box/text.ts [Leafer]
