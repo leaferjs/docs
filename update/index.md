@@ -1,5 +1,73 @@
 # 更新
 
+## 2025 / 04 / 29
+
+> v1.6.0
+
+#### 🍇 社区
+
+\- 🌸 增加全量 npm 包 [`leafer`](/guide/install/leafer/start.md), 会自动安装 `leafer-ui` 和 `leafer-in/*` 所有插件包
+
+\- 🌸 [图标工坊](https://www.u-tools.cn/plugins/detail/%E5%9B%BE%E6%A0%87%E5%B7%A5%E5%9D%8A/) <badge>你的专属图标定制专家</badge> @散装程序员
+
+#### 🌱 新增
+
+\- 🌸 文本增加 [boxStyle](/reference/display/Text.md#boxstyle-ibackgroundboxstyle) 属性对象，可直接设置文字背景框样式
+
+\- 🌸 元素增加 [dim](/reference/UI/dim.md) / [dimskip](/reference/UI/dim.md) 属性，用于突出主体、淡化其他元素（半透明）。
+
+\- 🌸 应用配置增加 [config.pixelSnap](/reference/config/app/base.md#pixelsnap-boolean) 对齐物理像素， 避免居中线条/图片等元素模糊
+
+\- 应用配置增加 [config.pointSnap](/reference/config/app/base.md#pointsnap-boolean) 对齐逻辑像素， 拖拽元素时对坐标进行取整
+
+\- 应用配置增加 [config.pointer.snap](/reference/config/app/pointer.md#pointer-snap-boolean)，自动对交互事件坐标取整，避免产生小数
+
+\- 🌸 应用配置增加 [config.wheel.posDeltaSpeed](/reference/config/app/wheel.md#wheel-posdeltaspeed-number)，控制正数 delta 滚动速度，设为负数时反向
+
+\- 应用配置增加 [config.wheel.negDeltaSpeed](/reference/config/app/wheel.md#wheel-negdeltaspeed-number)，控制负数 delta 滚动速度，设为负数时反向
+
+\- 图案填充增加 [changeful](/reference/UI/paint/image.md#changeful-boolean) 参数，用于频繁变化 url 的游戏精灵、动图场景，节省额外开销
+
+\- Text 增加 [isOverflow](/reference/display/Text.md#isoverflow-boolean) 计算属性，用于判断文本是否溢出 boxBounds
+
+\- 编辑器增加合并后的缓存配置 [mergedConfig](/plugin/in/editor/index.md#mergedconfig-ieditorconfig)
+
+\- 🌸 Debug 调试配置增加 [showBounds](/reference/debug/basic.md#显示元素包围盒) 参数，可视化查看元素的渲染包围盒、碰撞区域。
+
+#### 🪲 修复
+
+\- 🌸 小程序安卓版频繁 resize 导致内存溢出的问题
+
+\- 🌸 编辑器锁定比例和宽高限制共存时，会出现突破锁定比例的情况
+
+\- 🌸 编辑器 resize 文本宽度后，产生的多行文本高度不会自动增高的问题
+
+\- 自动宽高的居中文本，第一次 resize 会跳动的问题
+
+\- 双指捏合缩放 会触发 LONG_PRESS 事件
+
+\- 自动布局多层嵌套自动宽度不生效的问题
+
+\- 编辑器的编辑框和元素的位置对齐偶尔会有延迟
+
+### 优化
+
+\- 🌸 优化编辑器配置 [mask](/plugin/in/editor/config/style.md#mask-string-boolean) 遮罩层效果，突出显示元素形状
+
+\- 优化编辑器、局部渲染性能
+
+\- 🌸 App 模式下统一走 App 控制渲染帧，按顺序渲染子 Leafer（之前是各自独立控制）
+
+\- 图片元素 resize 过程中不再频繁生成 pattern
+
+\- Text 元素可通过 [content 包围盒](/reference/display/Text.md#获取-content-包围盒) 获取到实际内容的宽高
+
+\- 🌸 加强 Debug 调试重绘区域 [showRepaint](/reference/debug/basic.md#显示重绘区域) 的效果，可快速、明确看出变化的局部渲染区域。
+
+#### 🌷 感谢反馈
+
+[@xhq2025](https://github.com/xhq2025) [@bedphp](https://github.com/bedphp) [@johnnhan](https://github.com/johnnhan) [@跃升](https://www.zhihu.com/people/wang-xue-jun-78-2) @Y @xiaou @hhzzcc @dev_chen @ozar @索鸟 @beyond
+
 ## 2025 / 04 / 03
 
 > v1.5.3

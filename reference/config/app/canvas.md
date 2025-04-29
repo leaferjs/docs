@@ -40,7 +40,9 @@
 
 ### smooth: `boolean`
 
-是否平滑的绘制图片、画布元素。
+是否平滑的绘制图片、画布元素，可能会导致模糊，大部分情况下画面会更自然，避免产生锯齿。
+
+想要图片不模糊，可以继续配置 [config.pixelSnap](/reference/config/app/base.md#pixelsnap-boolean) 属性。
 
 ### contextSettings: `ICanvasRenderingContext2DSettings`
 

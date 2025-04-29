@@ -1,6 +1,6 @@
-# @leafer-game/miniapp
+# @leafer/miniapp
 
-在 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md) 基础上，引入了 [Robot](/plugin/in/robot/index.md) 、[交互状态](/plugin/in/state/index.md) 、 [动画](/plugin/in/animate/index.md)、[运动路径](/plugin/in/motion-path/index.md)、[查找元素](/plugin/in/find/index.md) 插件，适用于小游戏场景。
+全量包，包含 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md) 和 `leafer-in/*` 所有插件包。
 
 ##
 
@@ -15,19 +15,19 @@
 ::: code-group
 
 ```sh [npm]
-npm install @leafer-game/miniapp
+npm install @leafer/miniapp
 ```
 
 ```sh [pnpm]
-pnpm add @leafer-game/miniapp
+pnpm add @leafer/miniapp
 ```
 
 ```sh [yarn]
-yarn add @leafer-game/miniapp
+yarn add @leafer/miniapp
 ```
 
 ```sh [bun]
-bun add @leafer-game/miniapp
+bun add @leafer/miniapp
 ```
 
 :::
@@ -38,9 +38,9 @@ bun add @leafer-game/miniapp
 
 ```sh
 
-https://unpkg.com/@leafer-game/miniapp@1.6.0/dist/miniapp.module.js
+https://unpkg.com/@leafer/miniapp@1.6.0/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-game/miniapp@1.6.0/dist/miniapp.module.min.js
+https://unpkg.com/@leafer/miniapp@1.6.0/dist/miniapp.module.min.js
 
 
 ```
@@ -62,7 +62,7 @@ https://unpkg.com/@leafer-game/miniapp@1.6.0/dist/miniapp.module.min.js
 ::: code-group
 
 ```ts [index.ts]
-import { Leafer, Rect } from '@leafer-game/miniapp'
+import { Leafer, Rect } from '@leafer/miniapp'
 
 Page({
   onReady() {

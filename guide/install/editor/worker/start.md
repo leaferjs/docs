@@ -42,12 +42,12 @@ bun add @leafer-editor/worker
 
 ```js [worker.min.js]
 importScripts(
-  'https://unpkg.com/@leafer-editor/worker@1.5.3/dist/worker.min.js'
+  'https://unpkg.com/@leafer-editor/worker@1.6.0/dist/worker.min.js'
 )
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-editor/worker@1.5.3/dist/worker.js')
+importScripts('https://unpkg.com/@leafer-editor/worker@1.6.0/dist/worker.js')
 ```
 
 :::

@@ -42,6 +42,14 @@
 
 取值范围 0 ～ 1, 默认 0.5。
 
+### wheel.posDeltaSpeed: `number`
+
+正数 delta 滚动速度，可设为负数进行反向 delta 滚动
+
+### wheel.negDeltaSpeed: `number`
+
+负数 delta 滚动速度，可设为负数进行反向 delta 滚动
+
 ### wheel.preventDefault: `boolean`
 
 是否阻止浏览器默认滚动页面事件，默认为 false。

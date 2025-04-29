@@ -2,9 +2,9 @@
 import Case from '/component/Case.vue'
 </script>
 
-# leafer-game
+# leafer
 
-在 [leafer-ui](/guide/install/ui/start.md) 基础上，引入了 [Robot](/plugin/in/robot/index.md) 、[交互状态](/plugin/in/state/index.md) 、 [动画](/plugin/in/animate/index.md)、[运动路径](/plugin/in/motion-path/index.md)、[查找元素](/plugin/in/find/index.md) 插件，适用于小游戏场景。
+全量包，包含 [leafer-ui](/guide/install/ui/start.md) 和 `leafer-in/*` 所有插件包。
 
 ##
 
@@ -19,19 +19,19 @@ import Case from '/component/Case.vue'
 ::: code-group
 
 ```sh [npm]
-npm install leafer-game
+npm install leafer
 ```
 
 ```sh [pnpm]
-pnpm add leafer-game
+pnpm add leafer
 ```
 
 ```sh [yarn]
-yarn add leafer-game
+yarn add leafer
 ```
 
 ```sh [bun]
-bun add leafer-game
+bun add leafer
 ```
 
 :::
@@ -43,17 +43,17 @@ bun add leafer-game
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-game@1.6.0/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer@1.6.0/dist/web.min.js"></script>
 <script>
-  const { Leafer, Robot, Animate } = LeaferUI
+  const { Leafer, Editor, Robot, Animate } = LeaferUI
   // ...
 </script>
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-game@1.6.0/dist/web.js"></script>
+<script src="https://unpkg.com/leafer@1.6.0/dist/web.js"></script>
 <script>
-  const { Leafer, Robot, Animate } = LeaferUI
+  const { Leafer, Editor, Robot, Animate } = LeaferUI
   // ...
 </script>
 ```
@@ -64,7 +64,7 @@ bun add leafer-game
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-game@1.6.0/dist/web.module.min.js'
+  } from 'https://unpkg.com/leafer@1.6.0/dist/web.module.min.js'
   // ...
 </script>
 ```
@@ -75,7 +75,7 @@ bun add leafer-game
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-game@1.6.0/dist/web.module.js'
+  } from 'https://unpkg.com/leafer@1.6.0/dist/web.module.js'
   // ...
 </script>
 ```
@@ -99,13 +99,3 @@ bun add leafer-game
 ## Playground 环境
 
 ### 想直接运行官网示例代码，可以使用 [Playground 环境](/guide/runtime.md) 。
-
-## 开始体验
-
-<case name="Robot" editor=false></case>
-
-试试下面的游戏示例，不用再单独引入插件包。
-
-按住方向键，移动箭头～
-
-<<< @/code/plugin/robot/leafer-game.ts

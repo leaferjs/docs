@@ -38,6 +38,12 @@ type ImagePaintMode =
 
 补充图片格式，目前主要用于通过 url 无法识别的 [svg](../../display/SVG.md) 图片。
 
+### changeful?: `boolean`
+
+是否频繁变化，默认为 false。
+
+设为 true 后不再额外生成高性能 pattern，一般用于频繁变化 url 的游戏精灵、动图场景。
+
 ### sync?: `boolean`
 
 是否同步更新图片的层级缓存， 默认为 false（可获得性能优化）。

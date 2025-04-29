@@ -28,6 +28,20 @@ Debug.exclude = 'Life' // or ['RunTime', 'Life']
 Debug.showRepaint = true
 ```
 
+## 显示元素包围盒
+
+显示元素包围盒线框
+
+```ts
+Debug.showBounds = true
+```
+
+显示碰撞区域（可交互区域）
+
+```ts
+Debug.showBounds = 'hit'
+```
+
 ## 自定义类型
 
 自定义类型的信息可以通过`Debug.filter`与`Debug.exclude`定义是否输出到控制台。
@@ -55,6 +69,10 @@ Debug.showRepaint = true
 ### showRepaint: `boolean`
 
 显示重绘区域
+
+### showBounds: `boolean` | `'hit'`
+
+显示元素包围盒，设为 hit 表示显示碰撞区域。
 
 ## API
 

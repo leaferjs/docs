@@ -1,10 +1,10 @@
-# @leafer-draw/worker
+# @leafer/worker
 
-相对 [@leafer-ui/worker](/guide/install/ui/worker/start.md)，减少了 [App](/reference/display/App.md) 、事件交互等功能，适用于纯绘图场景。
+全量包，包含 [@leafer-ui/worker](/guide/install/ui/worker/start.md) 和 `leafer-in/*` 所有插件包。
 
 ##
 
-### [web 版](/guide/install/draw/start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/draw/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/draw/miniapp/start.md)
+### [web 版](/guide/install/game/start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/game/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/game/miniapp/start.md)
 
 ##
 
@@ -17,19 +17,19 @@ Web 版和 Worker 版可以在同一个项目中共存，按需搭配使用。
 ::: code-group
 
 ```sh [npm]
-npm install @leafer-draw/worker
+npm install @leafer/worker
 ```
 
 ```sh [pnpm]
-pnpm add @leafer-draw/worker
+pnpm add @leafer/worker
 ```
 
 ```sh [yarn]
-yarn add @leafer-draw/worker
+yarn add @leafer/worker
 ```
 
 ```sh [bun]
-bun add @leafer-draw/worker
+bun add @leafer/worker
 ```
 
 :::
@@ -41,11 +41,11 @@ bun add @leafer-draw/worker
 ::: code-group
 
 ```js [worker.min.js]
-importScripts('https://unpkg.com/@leafer-draw/worker@1.6.0/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer/worker@1.6.0/dist/worker.min.js')
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-draw/worker@1.6.0/dist/worker.js')
+importScripts('https://unpkg.com/@leafer/worker@1.6.0/dist/worker.js')
 ```
 
 :::

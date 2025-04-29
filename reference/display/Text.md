@@ -228,6 +228,20 @@ boxStyle: {
 
 自动宽高的文本是否通过修改字体大小进行 resize, 默认为 false。
 
+## 计算属性（只读）
+
+### isOverflow: `boolean`
+
+文本是否溢出了 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata)，文字布局完成后此属性才有值。
+
+## 获取 content 包围盒
+
+获取文字内容的实际宽高（包围盒）
+
+```ts
+const { x, y, width, height } = text.getBounds('content', 'inner')
+```
+
 <!--
 ## 继承元素
 

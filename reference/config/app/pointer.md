@@ -12,6 +12,10 @@
 
 ## 关键属性
 
+### pointer.snap: `boolean`
+
+是否对交互事件坐标取整，避免产生小数，默认为 true。
+
 ### pointer.touch: `boolean`
 
 是否使用 原生 touch 事件 模拟 [PointeEvent](/reference/event/ui/Pointer.md) 事件，默认为 false。

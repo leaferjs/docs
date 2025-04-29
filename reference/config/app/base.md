@@ -46,6 +46,24 @@
 
 是否接收键盘事件， 默认为 true。
 
+## 对齐像素
+
+### pointSnap: `boolean`
+
+对齐逻辑像素：拖拽元素时对坐标进行 round 取整，避免产生小数。
+
+应用运行中修改 [app.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+
+### pixelSnap: `boolean`
+
+对齐物理像素：避免居中线条/图片等元素存在小数坐标导致模糊。
+
+不会修改元素数据，只在渲染的时候对乘以 pixelRatio 后计算的小数像素坐标取整，对居中对齐的 1 像素线条，坐标取整后偏移 0.5 像素。
+
+想要图片不模糊，还可以继续配置 [config.smooth](/reference/config/app/canvas.md#smooth-boolean) 属性。
+
+应用运行中修改 [leafer.confg / app.tree.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+
 ## 示例
 
 ### 手动启动应用

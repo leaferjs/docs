@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.5.3/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.5.3/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.6.0/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.6.0/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.5.3/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.5.3/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.6.0/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.6.0/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
@@ -97,6 +97,10 @@ bun add @leafer-in/resize
 ### mergeConfig: [`IEditorConfig`](/plugin/in/editor/config/base.md)
 
 实际使用的编辑器配置（只读），实时合并编辑器的 [config](#config-ieditorconfig) 与元素的 [editConfig](/reference/UI/editable.md#editconfig-ieditorconfig)，频繁访问会有性能开销。
+
+### mergedConfig: [`IEditorConfig`](/plugin/in/editor/config/base.md)
+
+mergeConfig 的缓存，频繁访问不会有性能问题。
 
 ## 更多属性
 

@@ -49,16 +49,16 @@ bun add @leafer-in/color
 ::: code-group
 
 ```html [animate.min]
-<script src="https://unpkg.com/@leafer-in/animate@1.5.3/dist/animate.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/color@1.5.3/dist/color.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@1.6.0/dist/animate.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@1.6.0/dist/color.min.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
 ```
 
 ```html [animate]
-<script src="https://unpkg.com/@leafer-in/animate@1.5.3/dist/animate.js"></script>
-<script src="https://unpkg.com/@leafer-in/color@1.5.3/dist/color.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@1.6.0/dist/animate.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@1.6.0/dist/color.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
