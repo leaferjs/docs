@@ -96,6 +96,10 @@
 
 ## 产品案例
 
+[4oGen AI](https://4oimage.site/) <badge>AI 高质量图像生成工具</badge> @sunboy
+
+[光影日历](https://frameelf.com/calendar) <badge>DIY 日历</badge> @ozar
+
 [图标工坊](https://www.u-tools.cn/plugins/detail/%E5%9B%BE%E6%A0%87%E5%B7%A5%E5%9D%8A/) <badge>你的专属图标定制专家</badge> @散装程序员
 
 [截图工具 Plus](https://www.u.tools/plugins/detail/%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7%20Plus/) <badge>截图与美化一站式的截图插件</badge> @xiaou

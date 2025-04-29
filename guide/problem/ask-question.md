@@ -2,6 +2,8 @@
 
 [常见问题](/guide/problem/) ｜ [社区问答](https://www.zhihu.com/topic/736459154/unanswered)
 
+简单问题可通过 [DeepWiki](https://deepwiki.com/leaferjs/leafer-ui) 进行 AI 询问～
+
 ### ⏰ 每周 4 天工作制
 
 LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.html)（周一、二、四、五）！

@@ -8,19 +8,25 @@
 
 \- 🌸 增加全量 npm 包 [`leafer`](/guide/install/leafer/start.md), 会自动安装 `leafer-ui` 和 `leafer-in/*` 所有插件包
 
+\- 🌸 [DeepWiki](https://deepwiki.com/leaferjs/leafer-ui) <badge>可进行 AI 询问</badge>
+
+\- 🌸 [4oGen AI](https://4oimage.site/) <badge>AI 高质量图像生成工具</badge> @sunboy
+
 \- 🌸 [图标工坊](https://www.u-tools.cn/plugins/detail/%E5%9B%BE%E6%A0%87%E5%B7%A5%E5%9D%8A/) <badge>你的专属图标定制专家</badge> @散装程序员
+
+\- 🌸 [光影日历](https://frameelf.com/calendar) <badge>DIY 日历</badge> @ozar
 
 #### 🌱 新增
 
 \- 🌸 文本增加 [boxStyle](/reference/display/Text.md#boxstyle-ibackgroundboxstyle) 属性对象，可直接设置文字背景框样式
 
-\- 🌸 元素增加 [dim](/reference/UI/dim.md) / [dimskip](/reference/UI/dim.md) 属性，用于突出主体、淡化其他元素（半透明）。
+\- 🌸 元素增加 [dim](/reference/UI/dim.md) / [dimskip](/reference/UI/dim.md) 属性，用于突出主体、淡化其他元素，适用于产品拆解演示等场景
 
-\- 🌸 应用配置增加 [config.pixelSnap](/reference/config/app/base.md#pixelsnap-boolean) 对齐物理像素， 避免居中线条/图片等元素模糊
+\- 🌸 应用配置增加 [config.pixelSnap](/reference/config/app/base.md#pixelsnap-boolean) 对齐物理像素，避免居中线条/图片等元素模糊
 
-\- 应用配置增加 [config.pointSnap](/reference/config/app/base.md#pointsnap-boolean) 对齐逻辑像素， 拖拽元素时对坐标进行取整
+\- 应用配置增加 [config.pointSnap](/reference/config/app/base.md#pointsnap-boolean) 对齐逻辑像素，拖拽元素时对坐标进行取整
 
-\- 应用配置增加 [config.pointer.snap](/reference/config/app/pointer.md#pointer-snap-boolean)，自动对交互事件坐标取整，避免产生小数
+\- 应用配置增加 [config.pointer.snap](/reference/config/app/pointer.md#pointer-snap-boolean) 参数，将交互事件坐标取整，避免产生小数
 
 \- 🌸 应用配置增加 [config.wheel.posDeltaSpeed](/reference/config/app/wheel.md#wheel-posdeltaspeed-number)，控制正数 delta 滚动速度，设为负数时反向
 
@@ -44,15 +50,15 @@
 
 \- 自动宽高的居中文本，第一次 resize 会跳动的问题
 
-\- 双指捏合缩放 会触发 LONG_PRESS 事件
+\- 移动端双指捏合缩放，仍会触发 LONG_PRESS 事件
 
 \- 自动布局多层嵌套自动宽度不生效的问题
 
 \- 编辑器的编辑框和元素的位置对齐偶尔会有延迟
 
-### 优化
+#### 🌿 优化
 
-\- 🌸 优化编辑器配置 [mask](/plugin/in/editor/config/style.md#mask-string-boolean) 遮罩层效果，突出显示元素形状
+\- 🌸 优化编辑器配置 [mask](/plugin/in/editor/config/style.md#mask-string-boolean) 半透明覆盖遮罩层效果，贴合元素形状，适用于裁剪、截图等场景
 
 \- 优化编辑器、局部渲染性能
 

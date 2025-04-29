@@ -14,7 +14,7 @@
 
 ### pointer.snap: `boolean`
 
-是否对交互事件坐标取整，避免产生小数，默认为 true。
+是否将交互事件坐标取整，避免产生小数，默认为 true。
 
 ### pointer.touch: `boolean`
 
