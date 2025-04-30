@@ -1,10 +1,10 @@
 # @leafer/node
 
-全量包，包含 [@leafer-ui/node](/guide/install/ui/node/start.md) 和 `leafer-in/*` 所有插件包。
+全量包，包含 [@leafer-ui/node](/guide/install/ui/node/start.md) 和 `@leafer-in/*` 所有插件包（[文本编辑](/plugin/in/text-editor/index.md)、[HTML](/plugin/in/html/index.md)插件除外）。
 
 ##
 
-### [web 版](/guide/install/game/start.md) &nbsp; &nbsp; [worker 版](/guide/install/game/worker/start.md) &nbsp; &nbsp; node 版 &nbsp; &nbsp; [小程序版](/guide/install/game/miniapp/start.md)
+### [web 版](/guide/install/leafer/start.md) &nbsp; &nbsp; [worker 版](/guide/install/leafer/worker/start.md) &nbsp; &nbsp; node 版 &nbsp; &nbsp; [小程序版](/guide/install/leafer/miniapp/start.md)
 
 ##
 
@@ -63,6 +63,10 @@ bun add @napi-rs/canvas
 ```
 
 :::
+
+## 更新
+
+了解如何 [快速更新版本](/guide/update.md)。
 
 ## 使用
 

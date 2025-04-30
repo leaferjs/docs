@@ -43,7 +43,7 @@ bun add leafer-game
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-game@1.6.0/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-game@1.6.1/dist/web.min.js"></script>
 <script>
   const { Leafer, Robot, Animate } = LeaferUI
   // ...
@@ -51,7 +51,7 @@ bun add leafer-game
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-game@1.6.0/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-game@1.6.1/dist/web.js"></script>
 <script>
   const { Leafer, Robot, Animate } = LeaferUI
   // ...
@@ -64,7 +64,7 @@ bun add leafer-game
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-game@1.6.0/dist/web.module.min.js'
+  } from 'https://unpkg.com/leafer-game@1.6.1/dist/web.module.min.js'
   // ...
 </script>
 ```
@@ -75,7 +75,7 @@ bun add leafer-game
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-game@1.6.0/dist/web.module.js'
+  } from 'https://unpkg.com/leafer-game@1.6.1/dist/web.module.js'
   // ...
 </script>
 ```
@@ -83,6 +83,10 @@ bun add leafer-game
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
 
 :::
+
+## 更新
+
+了解如何 [快速更新版本](/guide/update.md)。
 
 ## 使用
 

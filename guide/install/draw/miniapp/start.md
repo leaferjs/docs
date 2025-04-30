@@ -32,15 +32,19 @@ bun add @leafer-draw/miniapp
 
 :::
 
+## 更新
+
+了解如何 [快速更新版本](/guide/update.md)。
+
 ## 下载 CDN 版本
 
 你也可以将库文件直接下载到本地 import 引入，这种方式暂时使用不了额外的插件。
 
 ```sh
 
-https://unpkg.com/@leafer-draw/miniapp@1.6.0/dist/miniapp.module.js
+https://unpkg.com/@leafer-draw/miniapp@1.6.1/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-draw/miniapp@1.6.0/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-draw/miniapp@1.6.1/dist/miniapp.module.min.js
 
 
 ```

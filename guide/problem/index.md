@@ -6,6 +6,8 @@ leafer-ui 及官方插件包需要同时更新版本。
 
 如出现旧版本缓存冲突导致的报错，需要删除 lock 文件重新安装一下。
 
+了解如何 [快速更新版本](/guide/update.md)。
+
 ### Creator.editor is not a function
 
 图形编辑器插件未安装，或与主包版本不一致（请修改版本号并删除 lock 文件后重新安装）。
@@ -35,3 +37,7 @@ https://nextjs.org/docs/pages/building-your-application/optimizing/lazy-loading#
 ### 微信 JS-SDK 上传 PNG 图片会变成 JPG 格式
 
 请使用 HTML5 原生的 input 框上传。
+
+### 小程序交互事件偶尔失效
+
+小程序 onLoad 事件时可能画布的大小和 clientRect 还未定型，导致获取到错误的响应区域，可 setTimeout 延时创建 Leafer，即可解决。

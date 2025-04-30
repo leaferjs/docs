@@ -28,6 +28,10 @@ bun add @leafer-ui/miniapp
 
 :::
 
+## 更新
+
+了解如何 [快速更新版本](/guide/update.md)。
+
 ## 微信开发工具中使用 npm 包
 
 [需先了解小程序使用 npm 包的注意事项](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)，并在微信开发工具中勾选将 JS 转换为 ES5。
@@ -50,9 +54,9 @@ var __TEMP2__ =__TEMP__; Object.defineProperty(exports, k, { enumerable: true, c
 
 ```sh
 
-https://unpkg.com/@leafer-ui/miniapp@1.6.0/dist/miniapp.module.js
+https://unpkg.com/@leafer-ui/miniapp@1.6.1/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-ui/miniapp@1.6.0/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-ui/miniapp@1.6.1/dist/miniapp.module.min.js
 ```
 
 ## 环境

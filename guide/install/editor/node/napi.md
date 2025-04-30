@@ -64,6 +64,10 @@ bun add @napi-rs/canvas
 
 :::
 
+## 更新
+
+了解如何 [快速更新版本](/guide/update.md)。
+
 ## 使用
 
 使用方式、全局变量和 [@leafer-ui/node](/guide/install/ui/node/napi.md)一致, 只需改下包名，即可运行官网示例代码。

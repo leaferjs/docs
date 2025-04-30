@@ -35,11 +35,11 @@ bun add @leafer-in/state
 ::: code-group
 
 ```html [state.min]
-<script src="https://unpkg.com/@leafer-in/state@1.6.0/dist/state.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/state@1.6.1/dist/state.min.js"></script>
 ```
 
 ```html [state]
-<script src="https://unpkg.com/@leafer-in/state@1.6.0/dist/state.js"></script>
+<script src="https://unpkg.com/@leafer-in/state@1.6.1/dist/state.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->

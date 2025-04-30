@@ -44,11 +44,11 @@
 
 ### wheel.posDeltaSpeed: `number`
 
-正数 delta 滚动速度，可设为负数进行反向 delta 滚动
+正数 delta 滚动速度，可设为负数反向滚动。
 
 ### wheel.negDeltaSpeed: `number`
 
-负数 delta 滚动速度，可设为负数进行反向 delta 滚动
+负数 delta 滚动速度，可设为负数反向滚动。
 
 ### wheel.preventDefault: `boolean`
 

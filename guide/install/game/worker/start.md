@@ -41,16 +41,20 @@ bun add @leafer-game/worker
 ::: code-group
 
 ```js [worker.min.js]
-importScripts('https://unpkg.com/@leafer-game/worker@1.6.0/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer-game/worker@1.6.1/dist/worker.min.js')
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-game/worker@1.6.0/dist/worker.js')
+importScripts('https://unpkg.com/@leafer-game/worker@1.6.1/dist/worker.js')
 ```
 
 :::
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
+## 更新
+
+了解如何 [快速更新版本](/guide/update.md)。
 
 ## 使用
 

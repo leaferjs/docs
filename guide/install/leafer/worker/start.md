@@ -1,10 +1,10 @@
 # @leafer/worker
 
-全量包，包含 [@leafer-ui/worker](/guide/install/ui/worker/start.md) 和 `leafer-in/*` 所有插件包。
+全量包，包含 [@leafer-ui/worker](/guide/install/ui/worker/start.md) 和 `@leafer-in/*` 所有插件包。
 
 ##
 
-### [web 版](/guide/install/game/start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/game/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/game/miniapp/start.md)
+### [web 版](/guide/install/leafer/start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/leafer/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/leafer/miniapp/start.md)
 
 ##
 
@@ -41,16 +41,20 @@ bun add @leafer/worker
 ::: code-group
 
 ```js [worker.min.js]
-importScripts('https://unpkg.com/@leafer/worker@1.6.0/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer/worker@1.6.1/dist/worker.min.js')
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer/worker@1.6.0/dist/worker.js')
+importScripts('https://unpkg.com/@leafer/worker@1.6.1/dist/worker.js')
 ```
 
 :::
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
+
+## 更新
+
+了解如何 [快速更新版本](/guide/update.md)。
 
 ## 使用
 

@@ -1,5 +1,27 @@
 # 更新
 
+了解如何 [快速更新版本](/guide/update.md)。
+
+## 2025 / 04 / 30
+
+> v1.6.1
+
+#### 🌱 新增
+
+\- 🌸 完善[`leafer`](/guide/install/leafer/start.md) 全量 npm 包使用说明，增加 [import 子包](/guide/install/leafer/start.md#import-子包) 注意事项
+
+\- 小程序交互事件偶尔失效的 [解决方式](/guide/problem/index.md#小程序交互事件偶尔失效)
+
+#### 🪲 修复
+
+\- App 延时销毁会报错的问题，并增加测试用例
+
+\- 移动端双指捏合缩放会触发 LONG_PRESS 事件
+
+#### 🌷 感谢反馈
+
+@dev_chen @ozar @军杨 @NinJa
+
 ## 2025 / 04 / 29
 
 > v1.6.0
@@ -14,7 +36,7 @@
 
 \- 🌸 [图标工坊](https://www.u-tools.cn/plugins/detail/%E5%9B%BE%E6%A0%87%E5%B7%A5%E5%9D%8A/) <badge>你的专属图标定制专家</badge> @散装程序员
 
-\- 🌸 [光影日历](https://frameelf.com/calendar) <badge>DIY 日历</badge> @ozar
+\- 🌸 [光影日历](https://frameelf.com/calendar) <badge>DIY 精美日历</badge> @ozar
 
 #### 🌱 新增
 
@@ -50,7 +72,7 @@
 
 \- 自动宽高的居中文本，第一次 resize 会跳动的问题
 
-\- 移动端双指捏合缩放，仍会触发 LONG_PRESS 事件
+\- 拖拽元素会触发 LONG_PRESS 事件
 
 \- 自动布局多层嵌套自动宽度不生效的问题
 
@@ -72,7 +94,7 @@
 
 #### 🌷 感谢反馈
 
-[@xhq2025](https://github.com/xhq2025) [@bedphp](https://github.com/bedphp) [@johnnhan](https://github.com/johnnhan) [@跃升](https://www.zhihu.com/people/wang-xue-jun-78-2) @Y @xiaou @hhzzcc @dev_chen @ozar @索鸟 @beyond
+[@xhq2025](https://github.com/xhq2025) [@bedphp](https://github.com/bedphp) [@johnnhan](https://github.com/johnnhan) [@跃升](https://www.zhihu.com/people/wang-xue-jun-78-2) @Y @xiaou @hhzzcc @dev_chen @ozar @索鸟 @beyond @Jerry @流云思水
 
 ## 2025 / 04 / 03
 
