@@ -37,7 +37,7 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 🚀 想马上在产品中使用，请安装 [leafer-ui](/guide/install/ui/start.md) （60KB min+gzip），开始你的探索之旅。
 
-也可直接安装 [leafer](/guide/install/leafer/start.md) 全量包, 会自动安装 `leafer-ui` 包和 `leafer-in/*` 所有插件包。
+也可直接安装 [leafer](/guide/install/leafer/start.md) 全量包, 会自动安装 `leafer-ui` 包和 `@leafer-in/*` 所有插件包。
 
 <!--@include: ./problem/ask-question.md-->
 
