@@ -2,7 +2,7 @@
 
 Leafer 事件。
 
-想了解事件的触发顺序，请查看 [应用生命周期](/guide/life/app.md) 图示。
+想了解事件的触发顺序，请查看 [引擎生命周期](/guide/life/leafer.md) 图示。
 
 ::: tip 继承
 LeaferEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
@@ -12,25 +12,25 @@ LeaferEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 ### LeaferEvent.START
 
-启动应用。
+启动引擎。
 
 `leafer.start`
 
 ### LeaferEvent.BEFORE_READY
 
-应用准备就绪前。
+引擎准备就绪前。
 
 `leafer.before_ready`
 
 ### LeaferEvent.READY
 
-应用准备就绪（首次布局完成）。
+引擎准备就绪（首次布局完成）。
 
 `leafer.ready`
 
 ### LeaferEvent.AFTER_READY
 
-应用准备就绪后。
+引擎准备就绪后。
 
 `leafer.after_ready`
 
@@ -42,19 +42,19 @@ LeaferEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 ### LeaferEvent.STOP
 
-应用停止。
+引擎停止。
 
 `leafer.stop`
 
 ### LeaferEvent.RESTART
 
-应用重启。
+引擎重启。
 
 `leafer.restart`
 
 ### LeaferEvent.END
 
-结束应用（即将销毁）。
+结束（即将销毁引擎）。
 
 `leafer.end`
 

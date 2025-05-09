@@ -2,7 +2,7 @@
 
 通过滚轮/触摸板滑动或捏合可缩放平移视图，类似浏览器、设计软件的视口交互功能。
 
-应用默认为 [block 场景类型](/reference/config/app/type.md#block-场景类型)， 可通过配置 [leafer.config.type](/reference/config/app/type.md) 快速更改视口类型，自动添加相应场景的交互逻辑。
+引擎默认为 [block 场景类型](/reference/config/app/type.md#block-场景类型)， 可通过配置 [leafer.config.type](/reference/config/app/type.md) 快速更改视口类型，自动添加相应场景的交互逻辑。
 
 ::: tip 注意事项
 需安装 [视口插件](/plugin/in/viewport/index.md) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
@@ -100,7 +100,7 @@
 
 ## 监听视口变化
 
-应用可以通过 [PropertyEvent](/reference/event/basic/Property.md) 事件监听 [Leafer 视口属性](/reference/display/Leafer.md#视口属性-viewport) / [App 视口属性](/reference/display/App.md#视口属性-viewport) 的 [x](/reference/UI/layout.md)、[y](/reference/UI/layout.md)、[scaleX](/reference/UI/layout.md#scalex-number)、[scaleY](/reference/UI/layout.md#scaley-number) 变化来同步相关逻辑。
+引擎可以通过 [PropertyEvent](/reference/event/basic/Property.md) 事件监听 [Leafer 视口属性](/reference/display/Leafer.md#视口属性-viewport) / [App 视口属性](/reference/display/App.md#视口属性-viewport) 的 [x](/reference/UI/layout.md)、[y](/reference/UI/layout.md)、[scaleX](/reference/UI/layout.md#scalex-number)、[scaleY](/reference/UI/layout.md#scaley-number) 变化来同步相关逻辑。
 
 ## 下一步
 

@@ -1,10 +1,10 @@
-# 应用配置
+# 应用与引擎配置
 
 ### [基础](/reference/config/app/base.md) &nbsp; &nbsp; [视口类型](/reference/config/app/type.md) &nbsp; &nbsp; 画布 &nbsp; &nbsp; [点按](/reference/config/app/pointer.md) &nbsp; &nbsp; [多点](/reference/config/app/multiTouch.md) &nbsp; &nbsp; [触屏](/reference/config/app/touch.md) &nbsp; &nbsp; [滚轮](/reference/config/app/wheel.md) &nbsp; &nbsp; [平移视图](/reference/config/app/move.md) &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md)
 
 ##
 
-应用初始化创建画布的相关配置。
+引擎初始化创建画布的相关配置。
 
 :::tip 注意事项
 [App 结构](/guide/advanced/app.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
@@ -14,7 +14,7 @@
 
 ### view: `object` | `string`
 
-放置应用的的视图容器。
+放置引擎的视图容器。
 
 支持 window 、div、canvas 标签对象，注意 id 字符串不用加 # 号。
 

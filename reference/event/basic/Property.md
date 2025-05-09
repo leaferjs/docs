@@ -2,7 +2,7 @@
 
 元素属性事件，[`leafer.ready`](./Leafer.md) 事件之后才会派发此事件。
 
-事件派发的顺序为：元素自身、Leafer 实例，[渲染生命周期](/guide/life/render.md) 中会监听此事件。
+事件派发的顺序为：元素自身、Leafer 引擎，[渲染生命周期](/guide/life/render.md) 中会监听此事件。
 
 ::: tip 继承
 PropertyEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
@@ -12,13 +12,13 @@ PropertyEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 ### PropertyEvent.CHANGE
 
-同时派发给元素自身、Leafer 实例。
+同时派发给元素自身、Leafer 引擎。
 
 `property.change`
 
 ### PropertyEvent.LEAFER_CHANGE
 
-只派发给 Leafer 实例自身。
+只派发给 Leafer 引擎自身。
 
 `property.leafer_change`
 

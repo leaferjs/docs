@@ -44,15 +44,15 @@
 
 \- 🌸 元素增加 [dim](/reference/UI/dim.md) / [dimskip](/reference/UI/dim.md) 属性，用于突出主体、淡化其他元素，适用于产品拆解演示等场景
 
-\- 🌸 应用配置增加 [config.pixelSnap](/reference/config/app/base.md#pixelsnap-boolean) 对齐物理像素，避免居中线条/图片等元素模糊
+\- 🌸 引擎配置增加 [config.pixelSnap](/reference/config/app/base.md#pixelsnap-boolean) 对齐物理像素，避免居中线条/图片等元素模糊
 
-\- 应用配置增加 [config.pointSnap](/reference/config/app/base.md#pointsnap-boolean) 对齐逻辑像素，拖拽元素时对坐标进行取整
+\- 引擎配置增加 [config.pointSnap](/reference/config/app/base.md#pointsnap-boolean) 对齐逻辑像素，拖拽元素时对坐标进行取整
 
-\- 应用配置增加 [config.pointer.snap](/reference/config/app/pointer.md#pointer-snap-boolean) 参数，将交互事件坐标取整，避免产生小数
+\- 引擎配置增加 [config.pointer.snap](/reference/config/app/pointer.md#pointer-snap-boolean) 参数，将交互事件坐标取整，避免产生小数
 
-\- 🌸 应用配置增加 [config.wheel.posDeltaSpeed](/reference/config/app/wheel.md#wheel-posdeltaspeed-number)，控制正数 delta 滚动速度，设为负数时反向
+\- 🌸 引擎配置增加 [config.wheel.posDeltaSpeed](/reference/config/app/wheel.md#wheel-posdeltaspeed-number)，控制正数 delta 滚动速度，设为负数时反向
 
-\- 应用配置增加 [config.wheel.negDeltaSpeed](/reference/config/app/wheel.md#wheel-negdeltaspeed-number)，控制负数 delta 滚动速度，设为负数时反向
+\- 引擎配置增加 [config.wheel.negDeltaSpeed](/reference/config/app/wheel.md#wheel-negdeltaspeed-number)，控制负数 delta 滚动速度，设为负数时反向
 
 \- 图案填充增加 [changeful](/reference/UI/paint/image.md#changeful-boolean) 参数，用于频繁变化 url 的游戏精灵、动图场景，节省额外开销
 
@@ -196,7 +196,7 @@ v1.5.0 -->
 
 \- 当可编辑文本的文字全部删除后，输入光标会变大 [#384](https://github.com/leaferjs/leafer-ui/issues/384)
 
-\- 🌸 应用 scaleY 为 负数时，缩放效果不正确 [#378](https://github.com/leaferjs/leafer-ui/issues/378)
+\- 🌸 引擎 scaleY 为 负数时，缩放效果不正确 [#378](https://github.com/leaferjs/leafer-ui/issues/378)
 
 \- 锁定元素的限制问题 [#374](https://github.com/leaferjs/leafer-ui/issues/374)
 
@@ -290,7 +290,7 @@ v1.5.0 -->
 
 \- 导出 base64, 浏览器 bmp 文件头未更改
 
-\- 固定宽高的应用程序销毁后，存在一个画布 resize 事件未移除
+\- 固定宽高的引擎销毁后，存在一个画布 resize 事件未移除
 
 #### 🌿 优化
 
@@ -360,7 +360,7 @@ v1.5.0 -->
 
 #### 🌱 新增
 
-\- 🌸 应用配置增加 [grow](/guide/basic/leafer.md#创建自动生长的-leafer) 参数, 可以创建 [自动生长](/reference/config/app/canvas.md#自动生长) 的画布，自动贴合实际内容大小
+\- 🌸 引擎配置增加 [grow](/guide/basic/leafer.md#创建自动生长的-leafer) 参数, 可以创建 [自动生长](/reference/config/app/canvas.md#自动生长) 的画布，自动贴合实际内容大小
 
 \- 🌸 Text 元素的 [textAlign](/reference/display/Text.md#textalign-itextalign) 属性支持设置 'both' 来强制两端对齐文本
 
@@ -463,7 +463,7 @@ v1.5.0 -->
 
 \- 🌸 [leaferjs 高性能 canvas 引擎](https://www.bilibili.com/video/BV1jFkbYREB3/) @前端刘小灰
 
-\- 🌸 文档易用性提升，创建 App、视口交互文档改版，应用配置增加 App 场景示例代码
+\- 🌸 文档易用性提升，创建 App、视口交互文档改版，引擎配置增加 App 场景示例代码
 
 #### 🌱 新增
 
@@ -727,9 +727,9 @@ v1.5.0 -->
 
 \- Text 元素增加 [autoSizeAlign](/reference/display/Text.md#autosizealign-boolean) 属性， 当文本没有宽高且有对齐属性时，是否对齐起始坐标
 
-\- 应用配置增加 [touch.preventDefault](/reference/config/app/touch.md), 自由控制移动端触屏交互体验
+\- 引擎配置增加 [touch.preventDefault](/reference/config/app/touch.md), 自由控制移动端触屏交互体验
 
-\- 应用配置增加 [multiTouch.disabled](/reference/config/app/multiTouch.md), 控制是否禁用多点触屏产生的缩放/平移/旋转事件
+\- 引擎配置增加 [multiTouch.disabled](/reference/config/app/multiTouch.md), 控制是否禁用多点触屏产生的缩放/平移/旋转事件
 
 #### 🪲 修复
 
@@ -873,13 +873,13 @@ v1.5.0 -->
 
 \- 没有宽高的自动布局元素支持 padding
 
-\- 增加 [touch](/reference/config/app/touch.md) 应用配置, 用于配置触摸屏事件
+\- 增加 [touch](/reference/config/app/touch.md) 引擎配置, 用于配置触摸屏事件
 
 \- [config.move.drag](/reference/config/app/move.md#move-drag-boolean-auto) 配置增加 'auto' 类型，整体拖拽平移页面时，仍保留元素交互属性
 
-\- Leafer 增加 [updateClientBounds()](/reference/display/Leafer.md#updateclientbounds) 方法， 用于手动更新应用的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)
+\- Leafer 增加 [updateClientBounds()](/reference/display/Leafer.md#updateclientbounds) 方法， 用于手动更新引擎的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)
 
-\- Leafer 增加 [getPagePointByClient()](/reference/display/Leafer.md#getpagepointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法用于转换浏览器 client 坐标到应用中
+\- Leafer 增加 [getPagePointByClient()](/reference/display/Leafer.md#getpagepointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法用于转换浏览器 client 坐标到引擎中
 
 \- 元素增加 [moveInner()](/reference/UI/transform.md#moveinner-x-number-ipointdata-y-0) 方法，可在内部坐标系中移动元素
 
@@ -927,7 +927,7 @@ v1.5.0 -->
 
 \- 🌸 [iOS 小程序版](/guide/install/ui/miniapp/start.md#注意) 已支持，增加 [App 结构示例](/guide/install/ui/miniapp/start.md#app-结构-图形编辑器)，并支持 [扩展 uniapp 等平台](/guide/install/ui/miniapp/start.md#在其他平台中使用) 🎉🎉🎉
 
-\- 🌸 应用增加 [app.config.mobile](/reference/config/app/base.md#mobile-boolean) 配置，用于优化手机端交互体验
+\- 🌸 引擎增加 [app.config.mobile](/reference/config/app/base.md#mobile-boolean) 配置，用于优化手机端交互体验
 
 \- 元素增加 [event](/reference/UI/on.md) 属性，用于初始化时传入事件进行监听
 
@@ -1009,7 +1009,7 @@ v1.5.0 -->
 
 \- 元素属性改为可选值，在 TS 的 `strictNullChecks` 模式下可设置为 undefined
 
-\- 应用配置增加 [app.config.wheel.disabled](/reference/config/app/wheel.md#wheeldisabled-boolean) 可禁用滚轮事件
+\- 引擎配置增加 [app.config.wheel.disabled](/reference/config/app/wheel.md#wheeldisabled-boolean) 可禁用滚轮事件
 
 \- [export()](/reference/UI/export.md#关键方法)、[toJSON()](/reference/UI/json.md#tojson-iuiinputdata)、[toString()](/reference/UI/json.md#tostring-options-ijsonoptions-string) 支持 JSON 导出选项（可导出元素本地矩阵）
 
@@ -1113,7 +1113,7 @@ v1.5.0 -->
 
 \- Text 增加 [resizeFontSize](/reference/UI/resize.md#resizefontsize-boolean) 属性，可单独控制 resize 字体大小
 
-\- 应用增加 [config.keyEvent](/reference/config/app/base.md#keyevent-boolean) 配置， 用来设置是否接收键盘事件
+\- 引擎增加 [config.keyEvent](/reference/config/app/base.md#keyevent-boolean) 配置， 用来设置是否接收键盘事件
 
 \- DragEvent 增加 [getPageBounds()](/reference/event/ui/Drag.md#getpagebounds-iboundsdata) 方法，获取拖拽形成的边界，可用于快速 [创建图形](/plugin/in/editor/index.md#创建图形模式)
 
@@ -1157,7 +1157,7 @@ v1.5.0 -->
 
 \- 修复文本换行规则问题
 
-\- 修复进入编辑文本后，应用仍会响应键盘事件，造成误操作
+\- 修复进入编辑文本后，引擎仍会响应键盘事件，造成误操作
 
 #### 🪲 修复
 
@@ -1195,9 +1195,9 @@ chrome 刷新页面时不会销毁实例，需要主动销毁，可根据自己�
 
 #### 🌱 新增 🎉🎉🎉
 
-\- 🌸 Leafer 增加 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)，获取应用在浏览器窗口中的位置（client 坐标）及宽高
+\- 🌸 Leafer 增加 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)，获引擎在浏览器窗口中的位置（client 坐标）及宽高
 
-\- 🌸 Leafer 增加 [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法， 用于转换浏览器原生事件坐标到应用中
+\- 🌸 Leafer 增加 [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法， 用于转换浏览器原生事件坐标到引擎中
 
 \- 🌸 元素 [visible](/reference/UI/visible.md) 属性增加 类似 css 的 [`display: none`](/reference/UI/visible.md) 设置
 
@@ -1985,7 +1985,7 @@ leafer.selector.find() // 该方法已移除，改用元素方法 find() / findO
 
 \- [插件开发模版](https://github.com/leaferjs/leafer-x/blob/main/template.md)
 
-\- [config.cursor](/reference/config/app/base.md#cursor-boolean) 应用配置，可停用光标功能。
+\- [config.cursor](/reference/config/app/base.md#cursor-boolean) 引擎配置，可停用光标功能。
 
 #### 修复
 
@@ -2185,7 +2185,7 @@ points 属性变为 corners
 
 \- 先触发 pointer.leave, 再触发 pointer.enter 事件
 
-\- 完善应用与元素的 destroy 机制
+\- 完善引擎与元素的 destroy 机制
 
 #### 变更
 
@@ -2209,7 +2209,7 @@ points 属性变为 corners
 
 \- 自由宽高的文本也支持对齐功能
 
-\- 插件增加 [获取 leafer 实例的方法](/plugin/dev.md#关键方法)
+\- 插件增加 [获取 leafer 引擎的方法](/plugin/dev.md#关键方法)
 
 #### 修复
 

@@ -2,7 +2,7 @@
 
 键盘事件。
 
-只能在 Leafer 实例上监听键盘事件。
+只能在 Leafer 引擎上监听键盘事件。
 
 ::: tip 继承
 KeyEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)

@@ -1,6 +1,6 @@
-# 创建 Leafer
+# 创建 Leafer 引擎
 
-[Leafer](/reference/display/Leafer.md) 实例是一个树状结构（提供了布局、渲染等管理功能），能够独立运行。作为根节点，可以往里面添加子元素，并且子元素可以通过 [Group](/reference/display/Group.md) / [Box](/reference/display/Box.md) 层层嵌套，组成一颗复杂的渲染树。
+[Leafer](/reference/display/Leafer.md) 引擎是一个树状结构（提供了布局、渲染等管理功能），能够独立运行。作为根节点，可以往里面添加子元素，并且子元素可以通过 [Group](/reference/display/Group.md) / [Box](/reference/display/Box.md) 层层嵌套，组成一颗复杂的渲染树。
 
 <br/>
 

@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 元素是否响应鼠标、触摸或其他指针设备的交互事件，类似 CSS 的 pointer-events 属性。
 
-可在 [应用配置](/reference/config/app/pointer.md#pointer-hitradius-number) 中设置默认光标的碰撞半径，或单独设置元素的 [hitRadius](#hitradius-number)。
+可在 [引擎配置](/reference/config/app/pointer.md#pointer-hitradius-number) 中设置默认光标的碰撞半径，或单独设置元素的 [hitRadius](#hitradius-number)。
 
 ## 关键属性
 
@@ -28,7 +28,7 @@ import Case from '/component/Case.vue'
 
 ### hitRadius: `number`
 
-设置光标的碰撞半径，当光标距离元素在 hitRadius 范围内时，应用可以优先拾取到元素。
+设置光标的碰撞半径，当光标距离元素在 hitRadius 范围内时，引擎可以优先拾取到元素。
 
 ## 归属
 

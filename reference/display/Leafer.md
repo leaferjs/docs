@@ -1,6 +1,6 @@
 # Leafer
 
-创建 Leafer，了解初始化 [应用配置](/reference/config/app/base.md)、[视口交互](/guide/advanced/viewport.md)。
+创建 Leafer 引擎，了解初始化 [引擎配置](/reference/config/app/base.md)、[视口交互](/guide/advanced/viewport.md)。
 
 <br/>
 
@@ -48,7 +48,7 @@ App 实例, 如果不存在则是自身。
 
 ### config: [`ILeaferConfig`](/reference/config/app/base.md)
 
-应用的配置对象，部分配置运行中可以修改，立即生效。
+引擎的配置对象，部分配置运行中可以修改，立即生效。
 
 ### canvas: [`ILeaferCanvas`](/api/interfaces/ILeaferCanvas.md)
 
@@ -74,25 +74,25 @@ App 实例, 如果不存在则是自身。
 
 ### created: `boolean`
 
-应用及子元素创建完成（完成首次创建）。
+引擎及子元素创建完成（完成首次创建）。
 
 ### ready: `boolean`
 
-应用是否准备就绪（完成首次布局）。
+引擎是否准备就绪（完成首次布局）。
 
 ### viewReady: `boolean`
 
-应用视图是否准备就绪（完成首次渲染）。
+引擎视图是否准备就绪（完成首次渲染）。
 
 <<< @/code/display/Leafer/ready.ts
 
 ### viewCompleted： `boolean`
 
-应用视图加载完成（画布内的图片加载并渲染完成），会随时会变化。
+引擎视图加载完成（画布内的图片加载并渲染完成），会随时会变化。
 
 ### running: `boolean`
 
-应用是否运行中。
+引擎是否运行中。
 
 ## FPS：`number`
 
@@ -108,9 +108,9 @@ App 实例, 如果不存在则是自身。
 
 ### clientBounds：[`IBoundsData`](../interface/math/Math#iboundsdata)
 
-当前应用在浏览器窗口中的位置（client 坐标）及宽高。
+当前引擎在浏览器窗口中的位置（client 坐标）及宽高。
 
-另可使用 [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法转换浏览器原生事件坐标到应用中。
+另可使用 [getWorldPointByClient()](/reference/display/Leafer.md#getworldpointbyclient-clientpoint-iclientpointdata-update-boolean-ipointdata) 方法转换浏览器原生事件坐标到引擎中。
 
 ## 辅助属性
 
@@ -122,7 +122,7 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 ### list: [`Leafer`](./Leafer.md)[]
 
-当前创建的所有 Leafer 实例。
+当前创建的所有 Leafer 引擎。
 
 ## 关键方法
 
@@ -132,25 +132,25 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 ### waitInit (item: `function`, bind?: `object` )
 
-应用初始化（完成 init 各种管理器）后时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
+引擎初始化（完成 init 各种管理器）后时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已完成则立即执行。
 
 ### waitReady ( item: `function`, bind?: `object` )
 
-应用准备就绪（完成首次布局）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
+引擎准备就绪（完成首次布局）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已完成则立即执行。
 
 ### waitViewReady ( item: `function`, bind?: `object` )
 
-应用视图准备就绪（完成首次渲染）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
+引擎视图准备就绪（完成首次渲染）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已完成则立即执行。
 
 ### waitViewCompleted ( item: `function`, bind?: `object` )
 
-应用视图加载完成（画布内的图片加载并渲染完成）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
+引擎视图加载完成（画布内的图片加载并渲染完成）时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已完成则立即执行。
 
@@ -170,13 +170,13 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 ### start ( )
 
-启动/重启应用。
+启动/重启引擎。
 
 <<< @/code/app/config/start.ts
 
 ### stop ( )
 
-停止应用。
+停止引擎。
 
 将停止渲染、布局，仍会收集元素变化数据待用，可通过 start() 重启。
 
@@ -186,7 +186,7 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 ### destroy ( sync?: `boolean` )
 
-销毁应用，默认采用异步销毁，不会立即执行。
+销毁引擎，默认采用异步销毁，不会立即执行。
 
 当 sync 参数为 true 时，表示同步销毁。
 
@@ -204,7 +204,7 @@ App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序
 
 获取 [page 坐标](/guide/advanced/coordinate.md#world-世界坐标系)（浏览器原生事件的 client 坐标 转 [page 坐标](/guide/advanced/coordinate.md#page-场景坐标系)），update 表示是否强制更新画布的 [clientBounds](/reference/display/Leafer.md#clientbounds-iboundsdata)（一般会自动更新），[通过示例学习](/guide/advanced/coordinate.md#拖拽创建图形)。
 
-可用于转换浏览器原生事件坐标（自带 clientX / clientY 坐标属性）到应用中。
+可用于转换浏览器原生事件坐标（自带 clientX / clientY 坐标属性）到引擎中。
 
 ```ts
 interface IClientPointData {
@@ -243,7 +243,7 @@ leafer.unlockLayout()
 
 ## 配置
 
-### [应用配置](/reference/config/app/base.md)
+### [引擎配置](/reference/config/app/base.md)
 
 ## 视图
 
@@ -272,6 +272,39 @@ leafer.unlockLayout()
 ### [Group](./Group.md) -->
 
 ## 示例
+
+### 创建固定宽高的 Leafer
+
+view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字符串时不用加 # 号。
+
+::: code-group
+<<< @/code/basic/leafer/fixed/window.ts [window]
+<<< @/code/basic/leafer/fixed/div.ts [div]
+<<< @/code/basic/leafer/fixed/canvas.ts [canvas]
+<<< @/code/basic/leafer/fixed/id.ts [id]
+:::
+
+### 创建自适应布局的 Leafer
+
+当画布的父节点尺寸改变后会自动 resize， [了解详情](/reference/config/app/canvas.md#自适应布局)。
+
+::: code-group
+<<< @/code/basic/leafer/auto/full.ts [full]
+<<< @/code/basic/leafer/auto/padding-left.ts [padding-left]
+<<< @/code/basic/leafer/auto/padding.ts [padding]
+:::
+
+### 创建自动生长的 Leafer
+
+画布大小会生长，自动贴合实际内容，用于快速在 HTML 中嵌入 Leafer 元素，[了解详情](/reference/config/app/canvas.md#自动生长)。
+
+注意 [App 结构](/guide/advanced/app.md) 暂不支持此功能。
+
+::: code-group
+<<< @/code/basic/leafer/grow/grow.ts [grow]
+<<< @/code/basic/leafer/grow/grow-width.ts [grow-width]
+<<< @/code/basic/leafer/grow/grow-height.ts [grow-height]
+:::
 
 ### 单独指定缩放层
 

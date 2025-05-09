@@ -128,7 +128,7 @@ IE 不支持
 
 <case name="Rect" index=5 editor=false></case>
 
-创建一个自适应窗口的交互应用，可以直接拖拽矩形。
+创建一个自适应窗口的交互引擎，可以直接拖拽矩形。
 
 ::: code-group
 

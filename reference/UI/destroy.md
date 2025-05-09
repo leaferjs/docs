@@ -28,6 +28,6 @@
 
 <<< @/code/basic/remove/clear.ts
 
-## 销毁应用
+## 销毁引擎
 
 <<< @/code/basic/remove/destroy-leafer.ts

@@ -34,12 +34,15 @@ rotation: 90
 
 ### toPoint: [IPointData](../interface/math/Math#ipointdata)
 
-目标点（相对元素 **起点** 的坐标）， 自动换算出 `width` 与 `rotation`。
+目标点 **（相对 Line 元素的自身坐标计算）**， 自动换算出 `width` 与 `rotation`。
+::: danger 注意
+如发现 toPoint 不符合你的预期， 只需减去 Line 元素 x,y 坐标即可，因为 toPoint 是 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 。
+:::
 
 ```ts
-line.toPoint = { x: 0, y: 100 }
+line.toPoint = { x: 200, y: 100 }
 
-console.log(line.toPoint) // {x: 0, y: 100})  会根据 width 与 rotation 自动换算
+console.log(line.toPoint) // {x: 200, y: 100})  会根据 width 与 rotation 自动换算
 ```
 
 ## points 模式

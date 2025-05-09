@@ -59,7 +59,7 @@ https://unpkg.com/@leafer-editor/miniapp@1.6.1/dist/miniapp.module.min.js
 
 ## 体验
 
-创建一个交互应用，能够横屏，可以拖拽矩形。
+创建一个交互引擎，能够横屏，可以拖拽矩形。
 
 将小程序 miniprogram/pages/index 文件夹下的页面替换成如下内容：
 

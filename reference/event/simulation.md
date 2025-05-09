@@ -2,7 +2,7 @@
 
 可用于自动化测试、回放用户操作，以及你能想到的...
 
-像操控交互设备一样，与应用进行交互，自动触发其他复合事件，如 pointerDown 之后 pointerUp 触发 tap 事件， pointerDown 之后 pointerMove 触发 drag 事件。
+像操控交互设备一样，与引擎进行交互，自动触发其他复合事件，如 pointerDown 之后 pointerUp 触发 tap 事件， pointerDown 之后 pointerMove 触发 drag 事件。
 
 如果只是想简单的触发一个交互事件，可以使用元素的 [emit()](/reference/UI/emit.md) 方法。
 

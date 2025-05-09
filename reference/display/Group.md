@@ -1,6 +1,6 @@
 # Group 元素
 
-创建 Group。类似于 HTML5 中的 DIV，但自身没有填充/描边等外观样式，用于组合多个子元素，可设置 x、y、scale、rotation 等属性，子元素相对其进行定位，支持不断嵌套。
+创建 Group。用于组合多个子元素，自身没有填充/描边等外观样式，可设置 x、y、scale、rotation 等属性，子元素相对其进行定位，支持不断嵌套。
 
 ::: tip 继承
 Group &nbsp;>&nbsp; [UI](./UI.md)

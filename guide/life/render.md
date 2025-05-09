@@ -1,4 +1,4 @@
-# 渲染周期
+# 渲染生命周期
 
 从创建元素到完成渲染会经历数据变化、请求渲染、布局、渲染等一系列过程，从而形成一次完整的渲染生命周期。
 
@@ -10,7 +10,7 @@
 
 ## 示例
 
-生命周期中的不同状态会通过 [ChildEvent](/reference/event/basic/Child.md)、 [PropertyEvent](/reference/event/basic/Property.md)、 [WatchEvent](/reference/event/basic/Watch.md)、 [LayoutEvent](/reference/event/basic/Layout.md)、 [RenderEvent](/reference/event/basic/Render.md)等事件进行通知，你也可以通过 Leafer 实例监听这些事件实现自己的产品逻辑。
+生命周期中的不同状态会通过 [ChildEvent](/reference/event/basic/Child.md)、 [PropertyEvent](/reference/event/basic/Property.md)、 [WatchEvent](/reference/event/basic/Watch.md)、 [LayoutEvent](/reference/event/basic/Layout.md)、 [RenderEvent](/reference/event/basic/Render.md)等事件进行通知，你也可以通过 Leafer 引擎监听这些事件实现自己的产品逻辑。
 
 ### 监听渲染事件
 
@@ -23,7 +23,7 @@
 <br/>
 可继续阅读
 
-🍉 了解应用、元素、属性方法、事件、类库的使用。
+🍉 了解应用、引擎、元素、属性方法、事件、类库的使用。
 
 🍊 了解让你事半功倍的官方、社区插件。
 

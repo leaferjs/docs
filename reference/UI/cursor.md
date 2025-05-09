@@ -76,7 +76,7 @@ Leafer 支持手动强制更新光标样式 [updateCursor()](/reference/display/
 
 ## 停用光标
 
-应用通过 [app.config.cursor](/reference/config/app/base.md#cursor-boolean) 配置，可随时停用光标功能， 之后可完全自定义光标行为。
+引擎通过 [app.config.cursor](/reference/config/app/base.md#cursor-boolean) 配置，可随时停用光标功能， 之后可完全自定义光标行为。
 
 ## 归属
 

@@ -36,7 +36,7 @@ import Case from '/component/Case.vue'
 
 ### 导出整个画布
 
-将当前应用画布进行截图导出。
+将当前引擎画布进行截图导出。
 
 <<< @/code/property/export/screenshot.ts
 
