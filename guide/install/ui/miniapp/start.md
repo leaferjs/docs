@@ -54,9 +54,9 @@ var __TEMP2__ =__TEMP__; Object.defineProperty(exports, k, { enumerable: true, c
 
 ```sh
 
-https://unpkg.com/@leafer-ui/miniapp@1.6.1/dist/miniapp.module.js
+https://unpkg.com/@leafer-ui/miniapp@1.6.2/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-ui/miniapp@1.6.1/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-ui/miniapp@1.6.2/dist/miniapp.module.min.js
 ```
 
 ## 环境
@@ -258,5 +258,7 @@ useCanvas('canvas', wx) // 默认全局变量绑定微信小程序, 可绑定到
 ![珠串设计](https://leaferjs.com/image/case/zhuzi.jpg)
 
 ### 采用 uniapp 实现的原生小程序案例
+
+![转盘侠](https://leaferjs.com/image/case/dzp.jpg)
 
 ![创意表情](https://leaferjs.com/image/case/face.jpg)

@@ -45,7 +45,9 @@ interface IExportOptions {
   smooth?: boolean // 设置画布的平滑绘制属性，默认同当前leafer画布
   contextSettings?: ICanvasRenderingContext2DSettings // 原生画布的 context 设置, 默认同当前leafer画布
 
-  slice?: boolean // 是否为切片，将导出切片bounds内的画布上所有内容
+  clip?: IBoundsData // 相对元素渲染区域进行裁剪，需指定裁剪区域
+
+  slice?: boolean // 是否为切片元素，将导出切片bounds内的画布上所有内容
   trim?: boolean // 是否裁剪透明像素，默认false
   screenshot?: IBoundsData | boolean // 以当前视图比例导出截图，可指定一个截图区域
 
@@ -133,6 +135,12 @@ syncExport( name: [`IExportFileType`](/api/modules.md#iexportimagetype) | `strin
 ### 导出为画布
 
 <<< @/code/property/export/canvas.ts
+
+### 裁剪元素后导出
+
+相对元素渲染区域进行裁剪。
+
+<<< @/code/property/export/clip.ts
 
 ### 导出整个画布
 

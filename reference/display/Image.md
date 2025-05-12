@@ -50,6 +50,10 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 图片是否懒加载，可以加快页面显示速度， 默认为 false。
 
+### placeholderColor: `string`
+
+图片占位符的背景颜色，当图片加载中(延迟 100ms)或加载失败时均会显示。
+
 ## 只读属性
 
 ### ready: `boolean`
@@ -132,6 +136,13 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 ::: code-group
 <<< @/code/display/Image/height.ts
 <<< @/code/display/Image/app/height.ts
+:::
+
+### 图片占位符
+
+::: code-group
+<<< @/code/display/Image/placeholder.ts
+<<< @/code/display/Image/app/placeholder.ts
 :::
 
 ### 监听图片加载

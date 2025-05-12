@@ -28,6 +28,16 @@ Text &nbsp;>&nbsp; [UI](./UI.md)
 
 文本内容。
 
+## 占位符属性
+
+### placeholder: `string`
+
+占位符文本，当文本为空字符串时显示。
+
+### placeholderColor: `string`
+
+占位符文本的颜色。
+
 ## 样式属性
 
 ### fontFamily: `string`
@@ -280,6 +290,15 @@ const { x, y, width, height } = text.getBounds('content', 'inner')
 ::: code-group
 <<< @/code/display/Box/text.ts [Leafer]
 <<< @/code/display/Box/app/text.ts [App]
+:::
+
+### 占位符文本
+
+文本为空字符串时显示占位符文本。
+
+::: code-group
+<<< @/code/display/Text/placeholder.ts [Leafer]
+<<< @/code/display/Text/app/placeholder.ts [App]
 :::
 
 ### 文本 count 动画

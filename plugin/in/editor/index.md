@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.6.1/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.6.1/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.6.2/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.6.2/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.6.1/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.6.1/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.6.2/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.6.2/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>

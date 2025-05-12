@@ -31,11 +31,11 @@ bun add @leafer-in/color
 ::: code-group
 
 ```html [color.min]
-<script src="https://unpkg.com/@leafer-in/color@1.6.1/dist/color.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@1.6.2/dist/color.min.js"></script>
 ```
 
 ```html [color]
-<script src="https://unpkg.com/@leafer-in/color@1.6.1/dist/color.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@1.6.2/dist/color.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->

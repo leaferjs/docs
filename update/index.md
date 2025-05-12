@@ -2,6 +2,36 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 05 / 12
+
+> v1.6.2
+
+#### 🍇 社区
+
+\- 🌸 [转盘侠](https://www.leaferjs.com/ui/guide/install/ui/miniapp/start.html#%E9%87%87%E7%94%A8-uniapp-%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%8E%9F%E7%94%9F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A1%88%E4%BE%8B) <badge>午餐吃什么？来转一转，可 DIY</badge> @王志强
+
+#### 🌱 新增
+
+\- 🌸 Image 增加 [placeholderColor](/reference/display/Image.md#placeholdercolor-string) 图片占位符属性，需设置一个背景色
+
+\- 🌸 Text 增加 [placeholder](/reference/display/Text.md#placeholder-string) 占位符文本属性，可通过 [placeholderColor](/reference/display/Text.md#placeholder-string) 设置颜色
+
+\- 🌸 导出增加 [clip](/reference/UI/export.md#裁剪元素后导出) 裁剪参数，相对元素渲染区域进行裁剪
+
+#### 🪲 修复
+
+\- lockRatio 为 corner 时拖动中间控制点有问题
+
+\- 全部删除文本后会保留一个换行符的问题
+
+#### 🌿 优化
+
+\- 优化首次渲染时，更新全局透明度的性能
+
+#### 🌷 感谢反馈
+
+[@Xdy1579883916](https://github.com/Xdy1579883916) [@HangChengJian](https://github.com/HangChengJian) @BO @测试用户
+
 ## 2025 / 04 / 30
 
 > v1.6.1
