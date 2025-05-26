@@ -34,15 +34,21 @@ new Rect({
 
 侦听事件, options 为 `boolean` 时表示是否为 [捕获类型](/reference/event/flow.md)。
 
+支持多维数组参数监听，如 `on([ [type, listener, options?], ... ])`。
+
 ### once ( type: `string` | `string`[], listener: `IEventListener`, capture?: `boolean` )
 
 只侦听一次事件，capture 表示是否为 [捕获类型](/reference/event/flow.md)。
+
+支持多维数组参数监听，如 `once([ [type, listener, capture?], ... ])`。
 
 ## 新方法
 
 ### on\_ ( type: `string` | `string`[], listener: `IEventListener`, bind?: `IObject`, options?: [`IEventOption`](/api/modules.md#ieventoption)): [`IEventListenerId`](/api/interfaces/IEventListenerId.md)
 
 侦听事件，支持传入 bind 作为 listener 的 this 对象，并返回事件 id，与 [off\_()](./off.md#off) 配套使用。
+
+支持多维数组参数监听，如 `on_([ [type, listener, bind?, options?], ... ])`。
 
 <<< @/code/event/on/simple.ts
 

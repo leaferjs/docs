@@ -54,11 +54,42 @@ y 轴坐标。
 
 克隆一个 Bounds 对象。
 
+### put ( put: [`IBoundsData`](/api/interfaces/IBoundsData.md), align: [`IAlign`](/api/modules.md#ialign) = 'center', putScale?: `IPutScale` )
+
+将一个包围盒放入到指定位置，并会自动修改对齐缩放后 put 的位置及大小。
+
+align 表示对齐位置，默认居中放置，putScale 表示缩放大小，默认为 1。
+
+![方向图](/svg/deriction.svg)
+
+```ts
+// 方位
+type IAlign =
+  | 'top-left'
+  | 'top'
+  | 'top-right'
+  | 'right'
+  | 'bottom-right'
+  | 'bottom'
+  | 'bottom-left'
+  | 'left'
+  | 'center'
+```
+
+```ts
+type IPutScale =
+  | number // 指定缩放比例
+  | 'cover' // 覆盖（相当于background-size: cover）
+  | 'fit' // 适应 (相当于background-size: contain)
+```
+
 ### 缩放
 
-### scale ( scaleX: `number`, scaleY = scaleX ): [`Bounds`](/api/classes/Bounds.md)
+### scale ( scaleX: `number`, scaleY = scaleX, onlySize?: `boolean` ): [`Bounds`](/api/classes/Bounds.md)
 
 围绕原点（0，0）缩放当前 Bounds。
+
+onlySize 为 true 时只缩放宽高。
 
 ### scaleOf ( origin: [`IPointData`](/api/interfaces/IPointData.md), scaleX: `number`, scaleY = scaleX ): [`Bounds`](/api/classes/Bounds.md)
 

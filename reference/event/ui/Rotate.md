@@ -6,7 +6,7 @@
 2. 触摸板: 双指旋转（仅 Safari 支持）
 
 ::: tip 继承
-RotateEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
+RotateEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <br/>
 
@@ -38,6 +38,10 @@ RotateEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic
 ### rotation: `number`
 
 此次旋转事件改变的角度
+
+### multiTouch: `boolean`
+
+是否为多点触屏派发。
 
 <!-- ## 继承事件
 

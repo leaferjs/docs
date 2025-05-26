@@ -43,7 +43,7 @@ bun add leafer-editor
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-editor@1.6.2/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-editor@1.6.3/dist/web.min.js"></script>
 <script>
   const { Leafer, Editor, Arrow } = LeaferUI
   // ...
@@ -51,7 +51,7 @@ bun add leafer-editor
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-editor@1.6.2/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-editor@1.6.3/dist/web.js"></script>
 <script>
   const { Leafer, Editor, Arrow } = LeaferUI
   // ...
@@ -64,7 +64,7 @@ bun add leafer-editor
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-editor@1.6.2/dist/web.module.min.js'
+  } from 'https://unpkg.com/leafer-editor@1.6.3/dist/web.module.min.js'
   // ...
 </script>
 ```
@@ -75,7 +75,7 @@ bun add leafer-editor
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer-editor@1.6.2/dist/web.module.js'
+  } from 'https://unpkg.com/leafer-editor@1.6.3/dist/web.module.js'
   // ...
 </script>
 ```

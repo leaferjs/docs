@@ -34,7 +34,7 @@ bun update
 
 ## 版本号
 
-当前最新版本为： [v1.6.2](/update/index.md)
+当前最新版本为： [v1.6.3](/update/index.md)
 
 ```ts
 import { version } from 'leafer-ui'

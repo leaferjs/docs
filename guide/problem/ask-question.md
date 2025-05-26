@@ -19,7 +19,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 ::: tip 提交模版
 **【Bug/建议】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 1.6.2
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.6.3
 
 复现步骤：请提供详细的复现逻辑及可直接运行的代码，将大幅提升问题解决效率。
 :::
@@ -33,7 +33,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 ::: tip 提交模版
 **【LeaferJS】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx** （需包含 LeaferJS 关键词）
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 1.6.2
+环境：电脑 + window 11 + chrome 131 + leaferjs 1.6.3
 
 #LeaferJS （点击知乎提问框底部的 # 号绑定话题，大家就都能通过 [社区问答](https://www.zhihu.com/topic/736459154/unanswered) 看见问题）
 :::
@@ -42,7 +42,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 
 欢迎加入 [LeaferJS 技术交流群](https://leaferjs.com/#contact)，与社区开发者交流、分享经验、沟通改进产品。
 
-偶尔还有 **福利活动**，不容错过！
+第一时间获取版本更新通知，偶尔还有 **福利活动**，不容错过！
 
 ::: tip 注意事项
 
@@ -54,7 +54,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 
 ### 免责声明
 
-LeaferJS 采用 MIT 协议，免费开源。我们欢迎社区用户相互帮助和贡献，我们没有义务或责任解答、修复所有问题（我们会尽力参与）。为了让 LeaferJS 变得更强大，我们的精力主要投入在产品开发上，希望大家共同参与、互相支持，让社区更加繁荣！
+LeaferJS 采用 MIT 协议，免费开源，使用前请阅读 [免责声明](/guide/disclaimer.md)。我们欢迎社区用户相互帮助和贡献，我们没有义务解答、修复所有问题（会尽力参与），为了让 LeaferJS 变得更强大，我们的精力主要投入在产品开发上，希望大家共同参与、互相支持，让社区更加繁荣！
 
 <!-- 我和社区管理员们会安排固定的时间查看、回复大家的问题，也可将链接转发到 [LeaferJS 技术交流群](https://leaferjs.com/#contact) 里。多次有效回答问题即视为有意愿成为 LeaferJS 社区管理员，可 [联系我们](https://leaferjs.com/#contact) 进管理群。 -->
 

@@ -6,7 +6,7 @@
 2. 鼠标: Ctrl / Command + 滚轮。
 
 ::: tip 继承
-ZoomEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
+ZoomEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <br/>
 
@@ -38,6 +38,10 @@ ZoomEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/E
 ### scale: number
 
 此次缩放事件改变的 scale 大小
+
+### multiTouch: `boolean`
+
+是否为多点触屏派发。
 
 <!-- ## 继承事件
 

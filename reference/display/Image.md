@@ -134,15 +134,15 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 ### 固定高度，自适应宽度
 
 ::: code-group
-<<< @/code/display/Image/height.ts
-<<< @/code/display/Image/app/height.ts
+<<< @/code/display/Image/height.ts [Leafer]
+<<< @/code/display/Image/app/height.ts [App]
 :::
 
 ### 图片占位符
 
 ::: code-group
-<<< @/code/display/Image/placeholder.ts
-<<< @/code/display/Image/app/placeholder.ts
+<<< @/code/display/Image/placeholder.ts [Leafer]
+<<< @/code/display/Image/app/placeholder.ts [App]
 :::
 
 ### 监听图片加载

@@ -47,6 +47,10 @@ MoveEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Point
 
 此次移动事件偏移的 Y 轴距离（世界坐标）
 
+### multiTouch: `boolean`
+
+是否为多点触屏派发。
+
 ## 转换坐标方法
 
 moveX, moveY 属性的转换。

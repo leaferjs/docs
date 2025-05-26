@@ -2,6 +2,56 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 05 / 26
+
+> v1.6.3
+
+#### 🌱 新增
+
+\- 🌸 增加 [BoundsEvent](/reference/event/basic/Bounds.md) 事件, 提供丰富的元素 resize、包围盒变化监测事件
+
+\- 🌸 事件监听方法 [on()](/reference/UI/on.md#关键方法) 、 [on\_()](/reference/UI/on.md#关键方法) 、 [once()](/reference/UI/on.md#关键方法) 支持多维数组参数，可一次监听多个不同参数的事件
+
+\- 🌸 Bounds 类增加 [put()](/reference/math/Bounds.md#put-put-iboundsdata-align-ialign-center-putscale-iputscale) 方法，可将一个包围盒放入到指定位置，并自动对齐、fit/cover 缩放
+
+\- Bounds 类 [scale()](/reference/math/Bounds.md#scale-scalex-number-scaley-scalex-onlysize-boolean-bounds) 方法增加 onlySize 参数，用于只缩放宽高
+
+\- Point 类 的 [move()](/reference/math/Point.md#move-x-number-ipointdata-y-number-point) 方法支持传入坐标对象
+
+\- [MoveEvent](/reference/event/ui/Move.md) 、 [ZoomEvent](/reference/event/ui/Zoom.md) 、 [RotateEvent](/reference/event/ui/Rotate.md) 事件增加 multiTouch 属性，可判断为触屏派发
+
+#### 🪲 修复
+
+\- 🌸 文本外描边不清晰，且有 1px 以下的间隙 [#143](https://github.com/leaferjs/leafer-ui/issues/143) [#393](https://github.com/leaferjs/leafer-ui/issues/393)
+
+\- 🌸 使用 letterSpacing 后，emoji 显示不正常
+
+\- 🌸 app 导出时设置 size 参数后缩放屏幕不正常的问题
+
+\- 苹果手机上外边框加上阴影后跑偏的问题
+
+\- 居中文本旋转角度后，双击编辑文本会偏移位置的问题
+
+\- 多边形 curve 模式下存在重复坐标导致路径错误，运动路径不生效的问题
+
+\- zIndex 偶发不生效的问题
+
+\- stroke、fill 为空数组时会报错的问题
+
+#### 🌿 优化
+
+\- 🌸 优化不包含 spread 的单个阴影渲染性能，同时优化编辑器控制点的阴影性能
+
+\- 🌸 优化外描边的性能及清晰度
+
+\- 🌸 支持 [导出 App](/reference/UI/export.md#export) 上的有效内容，解除 App 最大只能导出当前分辨率的的限制
+
+\- 减少 Image 的创建开销，优化性能
+
+#### 🌷 感谢反馈
+
+[@johnnhan](https://github.com/johnnhan) [@mozbia](https://github.com/mozbia) [@Xdy1579883916](https://github.com/Xdy1579883916) [@18398773590](https://github.com/18398773590) [@HangChengJian](https://github.com/HangChengJian) [@Chocoer](https://github.com/Chocoer) [@bedphp](https://github.com/bedphp) @王进元 @测试用户
+
 ## 2025 / 05 / 12
 
 > v1.6.2

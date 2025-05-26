@@ -28,6 +28,10 @@ y 轴坐标。
 
 克隆一个 Point 对象。
 
+### move ( x: `number` | [`IPointData`](/api/interfaces/IPointData.md), y: `number`): [`Point`](/api/classes/Point.md)
+
+移动坐标。
+
 ### 缩放
 
 ### scale ( scaleX: `number`, scaleY = scaleX ): [`Point`](/api/classes/Point.md)
