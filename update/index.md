@@ -2,6 +2,24 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 05 / 27
+
+> v1.6.6
+
+#### 🪲 修复
+
+\- leafer-editor 包编辑文本有重影的问题
+
+\- 使用箭头功能报错的问题
+
+#### 🌿 优化
+
+优化 [`leafer`](/guide/install/leafer/start.md)、 [leafer-game](/guide/install/game/start.md)、 [leafer-editor](/guide/install/editor/start.md) 等场景包的锁定版本机制
+
+#### 🌷 感谢反馈
+
+[@FZliweiliang](https://github.com/FZliweiliang) @Rainbow
+
 ## 2025 / 05 / 26
 
 > v1.6.3

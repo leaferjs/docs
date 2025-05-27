@@ -2,12 +2,12 @@
 
 ## 关键属性
 
-### event：[`IEventMap`](/api/interfaces/IEventMap.md)
+### event：[`IEventListenerMap`](/api/interfaces/IEventListenerMap.md)
 
 仅支持初始化时传入监听事件（不能导出为 JSON）。
 
 ```ts
-export interface IEventMap {
+export interface IEventListenerMap {
   [name: string]: IEventListener | [IEventListener, IEventOption]
 }
 
