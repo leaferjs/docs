@@ -28,6 +28,26 @@ yarn update
 bun update
 ```
 
+或只更新 leafer 相关的所有包（建议做成一个 package.json 命令）.
+
+::: code-group
+
+```sh [npm]
+npm update leafer-ui @leafer-in/editor ... # 插件包必须放在主包之后
+```
+
+```sh [pnpm]
+pnpm update leafer-ui @leafer-in/editor ... # 插件包必须放在主包之后
+```
+
+```sh [yarn]
+yarn update leafer-ui @leafer-in/editor ... # 插件包必须放在主包之后
+```
+
+```sh [bun]
+bun update leafer-ui @leafer-in/editor ... # 插件包必须放在主包之后
+```
+
 通过 script 标签引入的只需统一修改版本号至最新版本即可。
 
 :::
