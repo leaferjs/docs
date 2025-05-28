@@ -2,23 +2,27 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
-## 2025 / 05 / 27
+## 2025 / 05 / 28
 
-> v1.6.6
+> v1.6.7
 
 #### 🪲 修复
 
-\- leafer-editor 包编辑文本有重影的问题
+\- 实时导出缩略图，导致编辑文本有重影的问题
+
+\- 自动宽度的文本会偶发自动换行的问题
+
+\- 浏览器页面滚动后编辑文本有偏移的问题
 
 \- 使用箭头功能报错的问题
 
 #### 🌿 优化
 
-优化 [`leafer`](/guide/install/leafer/start.md)、 [leafer-game](/guide/install/game/start.md)、 [leafer-editor](/guide/install/editor/start.md) 等场景包的锁定版本机制
+优化 [leafer](/guide/install/leafer/start.md)、 [leafer-game](/guide/install/game/start.md)、 [leafer-editor](/guide/install/editor/start.md) 等集成包的版本锁定机制
 
 #### 🌷 感谢反馈
 
-[@FZliweiliang](https://github.com/FZliweiliang) @Rainbow
+[@FZliweiliang](https://github.com/FZliweiliang) [@minbaby](https://github.com/minbaby) @Rainbow @Run away
 
 ## 2025 / 05 / 26
 
