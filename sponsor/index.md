@@ -1,14 +1,14 @@
-# 赞助 LeaferJS，荣登百万咖啡墙
+# 赞助 Leafer，荣登 “像素生长 · 咖啡墙”
 
-<br/>
+##
 
-Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来支持、赞助 LeaferJS ～
+Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢前来支持 LeaferJS ～
 
-![leafer](/image/me.jpg)
+<!-- ![leafer](/image/me.jpg) -->
 
-**LeaferJS** 是一个需要耗费 **数年及数亿元** 才能构建完善的革新引擎（2021 年初 - 未来）。
+**LeaferJS** 是一个需要耗费 **数年** 才能构建完善的革新引擎（2021 年初 - 未来）。
 
-我们的目标不仅是打造最前沿的 2D 和未来的 3D 引擎技术，更要创造一套简洁、开放、现代化的 UI 绘图标准。我们希望为开发者带来极致的开发体验，助力他们快速构建 AI 时代的网页、应用、设计、画布、游戏和动画等可视化生产力工具，推动下一代本地优先的 Figma、Miro、Notion、Unity、Adobe、Canva、Webflow 等创新产品的诞生。
+我们的目标不仅是打造前沿的 2D 和未来的 3D 引擎技术，更要创造一套简洁、开放、现代化的 UI 绘图标准。我们希望为开发者带来极致的开发体验，助力他们快速构建 AI 时代的网页、应用、设计、画布、游戏和动画等可视化生产力工具，推动下一代本地优先的 Figma、Miro、Notion、Unity、Adobe、Canva、Webflow 等创新产品的诞生。
 
 为了推动更多创新生产力工具的诞生，我们将 LeaferJS 开源并采用 MIT 许可协议，**这意味着你可以免费使用 LeaferJS，并将其应用于任何商业场景，真正让技术自由释放潜力**。
 
@@ -28,17 +28,17 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 [推动 LeaferJS **在全球范围内流行起来，惠及 1000 万+开发者**](/blog/2024-11-20.md)
 
-我们还需要 **建立一个开发者商店和需求中心，** 让优秀的产品、教程、组件、插件等可以推给有需要的人，使生产力有效流动起来，这样我们就可以专心在各自擅长的地方分工协作带来收益。
+<!-- 我们还需要 **建立一个开发者商店和需求中心，** 让优秀的产品、教程、组件、插件等可以推给有需要的人，使生产力有效流动起来，这样我们就可以专心在各自擅长的地方分工协作带来收益。 -->
 
-## 性能目标
+<!-- ## 性能目标
 
 实现流畅运行 **十万级动态复杂游戏元素**，同时支持 **百万级静态复杂元素** 的编辑（GPU 加速）。
 
-目前，全球尚无公司实现过这样的技术突破（性能提升 10 倍以上）。为了向这一目标迈进，我们后期会针对特殊场景推出 **商业版加速方案**，为需要极致性能的开发者提供专属支持。同时，这些技术突破也将逐步惠及免费版，让所有用户都能享受技术升级带来的便利。
+目前，全球尚无公司实现过这样的技术突破（性能提升 10 倍以上）。为了向这一目标迈进，我们后期会针对特殊场景推出 **商业版加速方案**，为需要极致性能的开发者提供专属支持。同时，这些技术突破也将逐步惠及免费版，让所有用户都能享受技术升级带来的便利。 -->
 
-为了让大家感受到即将到来的性能，我们提供了一个能够容纳 [百万杯咖啡的网红墙](https://www.leaferjs.com/coffee/)，并能流畅操作及编辑，欢迎大家体验，目前还有很多不足的地方，后面会不断优化。
-
-<img width="320"  style="border-radius:20px" src="https://www.leaferjs.com/image/case/coffee.jpg" />
+<!-- 为了让大家感受到即将到来的性能，我们提供了一个能够容纳 [百万杯咖啡的网红墙](https://www.pxgrow.com/coffee/)，并能流畅操作及编辑，欢迎大家体验，目前还有很多不足的地方，后面会不断优化。 -->
+<!--
+<img width="320"  style="border-radius:20px" src="https://www.leaferjs.com/image/case/coffee.jpg" /> -->
 
 ## 赞助等级
 
@@ -51,37 +51,38 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 ### 🥉 铜牌赞助（¥10 / 月）
 
-**适合** 希望获得社区曝光和表达支持的 **个人开发者（1000 个名额）**，[进行赞助](#赞助渠道)。
+**适合** 希望获得社区曝光和表达支持的 **个人开发者**，[进行赞助](#赞助渠道)。
 
 - [leaferjs.com](https://www.leaferjs.com) 首页 [铜牌赞助](https://leaferjs.com/#contact) 名单。
 
-- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 1 杯专属 粉色咖啡。
+- [咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 粉色咖啡。
 
-- [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的铜牌赞助 名单。
+<!-- - [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的铜牌赞助 名单。 -->
 
 ![coffee](/svg/coffee/coffee-100-story.svg)
 
 ### 🥈 银牌赞助（¥100 / 月）
 
-**适合** 希望获得社区曝光和表达支持的 **团队、个人开发者（100 个名额）**，[进行赞助](#赞助渠道)。
+**适合** 希望获得社区曝光和表达支持的 **团队、个人开发者**，[进行赞助](#赞助渠道)。
 
 - [leaferjs.com](https://www.leaferjs.com) 首页 [银牌赞助](https://leaferjs.com/#silver-sponsor) 头像 / logo 展示位。
 
-- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 1 杯专属 青色咖啡。
+- [咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 青色咖啡。
 
-- [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的银牌赞助 头像 / logo 展示位。
+<!-- - [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的银牌赞助 头像 / logo 展示位。 -->
 
 ![coffee](/svg/coffee/coffee-1000-story.svg)
 
 ### 🥇 金牌赞助商（¥1,000 / 月）
 
-**适合** 希望获得社区曝光和表达支持的 **中小型企业（30 个名额）**， [联系我们](https://leaferjs.com/#contact) 后再 [进行赞助](#赞助渠道) 。
+**适合** 希望获得社区曝光和表达支持的 **中小型企业**， [联系我们](https://leaferjs.com/#contact) 后再 [进行赞助](#赞助渠道) 。
 
 - [leaferjs.com](https://www.leaferjs.com) 首页 [金牌赞助商](https://leaferjs.com/#gold-sponsor) logo 展示位。
 
-- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 1 杯专属 蓝色咖啡。
+- [咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 蓝色咖啡。
 
-- [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的金牌赞助商 logo 展示位。
+<!-- - [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的金牌赞助商 logo 展示位。 -->
+<!--
 
 ### 💍 铂金赞助商（¥5,000 / 月）
 
@@ -89,7 +90,7 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 - [leaferjs.com](https://www.leaferjs.com) 首页铂金赞助商 大号 logo 展示位（金牌赞助商的上方）。
 
-- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 5 杯专属 蓝色咖啡。
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 上增加 5 杯专属 蓝色咖啡。
 
 - [官方文档](https://www.leaferjs.com/ui/guide/) 右侧边栏及 [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的铂金赞助商 logo 展示位。
 
@@ -99,7 +100,7 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 - [leaferjs.com](https://www.leaferjs.com) 首屏无需滚动的钻石赞助商 logo 展示位。
 
-- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 10 杯专属 蓝色咖啡。
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 上增加 10 杯专属 蓝色咖啡。
 
 - [官方文档](https://www.leaferjs.com/ui/guide/) 右侧边栏及 [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的钻石赞助商 logo 展示位。
 
@@ -111,13 +112,13 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 - [leaferjs.com](https://www.leaferjs.com) 首页顶部的独家赞助商 logo 展示位。
 
-- [百万咖啡墙](https://www.leaferjs.com/coffee/) 顶部唯一 logo 展示位，独家冠名权。
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 顶部唯一 logo 展示位，独家冠名权。
 
-- [百万咖啡墙](https://www.leaferjs.com/coffee/) 增加 100 杯专属 蓝色咖啡。
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 增加 100 杯专属 蓝色咖啡。
 
 - [官方文档](https://www.leaferjs.com/ui/guide/) 右侧边栏及 [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的独家赞助商 logo 展示位。
 
-- 推广合作（制造热点事件）
+- 推广合作（制造热点事件） -->
 
 <!-- ![sponsor](/image/sponsor/first.jpg) -->
 
@@ -129,51 +130,57 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢你前来�
 
 - 提供一对一问题咨询，防止被问题卡住开发进度，提升效率（10 个名额）。
 
-- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 1 杯专属 蓝色咖啡。
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 蓝色咖啡。
 
 ### 💍 VIP 铂金赞助商（¥5,000 / 月）
 
 - 提供一对一深度咨询、技术支持，防止被问题和缺失功能卡住开发进度（2 个名额）。
 
-- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上增加 5 杯专属 蓝色咖啡。 -->
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 上增加 5 杯专属 蓝色咖啡。 -->
 
 ## 展示时长
 
-- 赞助位至少会展示完相应的赞助月数，若该赞助等级的数量未满，将会继续展示（但会降低透明度），持续赞助会显示累计次数徽标。
+- 赞助位至少会展示完相应的赞助月数，若该赞助等级的数量未满，将会继续展示。
+<!--
+（但会降低透明度），持续赞助会显示累计次数徽标 -->
 
-- [百万咖啡墙](https://www.leaferjs.com/coffee/) 上的咖啡没有展示时长限制。
+- [咖啡墙](https://www.pxgrow.com/coffee/) 上的咖啡没有展示时长限制。
 
 ## 赞助渠道
 
-我们目前通过 [爱发电平台](https://afdian.com/a/leaferjs) 和 [微信文章打赏](#微信文章打赏) 来接收赞助，爱发电也是 [Vue.js](https://cn.vuejs.org/sponsor/) 中国区的赞助渠道。
+我们目前通过自己的 [PxGrow 像素生长](https://www.pxgrow.com/coffee/sponsor/) 企业网站接受用户和企业赞助。
+
+<!-- 我们目前通过 [爱发电平台](https://afdian.com/a/leaferjs) 和 [微信文章打赏](#微信文章打赏) 来接收赞助，爱发电也是 [Vue.js](https://cn.vuejs.org/sponsor/) 中国区的赞助渠道。 -->
 
 银牌、铜牌赞助最晚会在第 2 天同步到相应的赞助位。
 
 #### 发票
 
-金牌以上的赞助，支持 [联系我们](https://leaferjs.com/#contact) 获取发票用于报销，有条件的公司建议尽量向领导申请赞助，以获得有限的一对一服务，提高工作效率。
+金牌以上的赞助，支持 [联系我们](https://leaferjs.com/#contact) 获取发票用于报销。
 
-#### 头像（logo）
+<!-- #### 头像（logo）
 
-银牌、铜牌赞助会采用爱发电用户头像，请在赞助当天上传头像，第 2 天采集之后将不再更新。
+银牌、铜牌赞助会采用爱发电用户头像，请在赞助当天上传头像，第 2 天采集之后将不再更新。 -->
 
 <!-- 金牌以上的赞助，请在赞助时 [联系我们](https://leaferjs.com/#contact) 提供 logo、官网链接，不上首页可不提供。 -->
 
-#### 故事（story 标识）
+<!-- #### 故事（story 标识）
 
-可在赞助时留言一个可跳转的主页或 GitHub 链接，最好是有故事。
+可在赞助时留言一个可跳转的主页或 GitHub 链接，最好是有故事。 -->
 
-#### 微信文章打赏
+<!-- #### 微信文章打赏
 
-通过微信文章可以快速进行打赏，无需繁琐登录，赞助头像昵称将直接采集微信打赏帐号的信息。
+通过微信文章可以快速进行打赏，无需繁琐登录，赞助头像昵称将直接采集微信打赏帐号的信息。 -->
 
-<img width="320"  style="border-radius:20px" src="/image/wx-ds.png" />
+<!-- <img width="320"  style="border-radius:20px" src="/image/wx-ds.png" /> -->
 
-## 赞助证书
+## 开源赞助荣誉证书
 
-赞助成功上墙后（最晚第 2 天），可前往 [百万咖啡墙](https://www.leaferjs.com/coffee/) 点击头像领取赞助证书，分享至朋友圈。
+赞助成功上墙后，可前往 [像素生长 · 咖啡墙](https://www.pxgrow.com/coffee/) 点击头像领取开源赞助荣誉证书。
 
-<img width="320"  style="border-radius:20px" src="/image/sponsor/BoardOS.jpg" />
+<a href="https://boardos.online/" aria-label="BoardOS"  target="_blank" rel="noopener" >
+   <img width="320"  style="border-radius:20px" src="/image/sponsor/BoardOS.jpg" />
+</a>
 
 ## 金牌赞助商
 
