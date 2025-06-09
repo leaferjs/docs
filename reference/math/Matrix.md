@@ -140,6 +140,8 @@ y 轴坐标（矩阵原点），默认为 0。
 
 设置矩阵数据，来源于布局数据 {x,y, scaleX,scaleY,rotation, skewX, skewY}，支持设置 [origin](/reference/UI/origin.md)、[around](/reference/UI/around.md)。
 
+合成矩阵的顺序为： rotate -> skew -> scale -> translate。
+
 ### getLayout ( origin?: [`IPointData`](/api/interfaces/IPointData.md), around?: [`IPointData`](/api/interfaces/IPointData.md), firstSkewY?: `boolean` ): [`ILayoutData`](/api/interfaces/ILayoutData.md)
 
 分解矩阵，获取布局数据 {x,y, scaleX,scaleY,rotation, skewX, skewY}, 支持设置 [origin](/reference/UI/origin.md)、[around](/reference/UI/around.md) 再转换, firstSkewY 表示优先转换 skewY。

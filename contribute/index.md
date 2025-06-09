@@ -166,6 +166,8 @@
 
 #### 新版
 
+[leafer-x-clip-resize-inner-editor](https://github.com/Xdy1579883916/leafer-x-clip-resize-inner-editor) <badge>简易版图片裁剪编辑器</badge> @Rainbow
+
 [leafer-x-path-editor](https://www.npmjs.com/package/leafer-x-path-editor) <badge>路径编辑器插件</badge> [@xjq7](https://github.com/xjq7)
 
 [leafer-x-snap](https://www.npmjs.com/package/leafer-x-snap) <badge>吸附插件</badge> [@tuntun](https://github.com/tuntun0609)

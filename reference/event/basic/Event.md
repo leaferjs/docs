@@ -51,7 +51,11 @@
 
 停止事件传递，如果同一个元素有多个侦听函数，会等待执行完后再停止传递（阻止事件向父节点传递）。
 
-同时会调用原生事件的 stopPropagation()。
+同时会调用原生事件的 stopPropagation()，
+
+::: tip 注意
+click 等复合事件为内部二次合成，阻止不了原生同名事件。
+:::
 
 ### stopNow ( )
 
@@ -59,11 +63,19 @@
 
 同时会调用原生事件的 stopImmediatePropagation()。
 
+::: tip 注意
+click 等复合事件为内部二次合成，阻止不了原生同名事件。
+:::
+
 ### stopDefault ( )
 
 阻止默认事件。
 
-同时会调用原生事件的 preventDefault()
+同时会调用原生事件的 preventDefault()。
+
+::: tip 注意
+click 等复合事件为内部二次合成，阻止不了原生同名事件。
+:::
 
 <!--
 ## API

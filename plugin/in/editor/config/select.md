@@ -43,3 +43,7 @@ press 为鼠标按下触发， tap 为单击触发。
 ### continuousSelect: `boolean`
 
 单击是否可以连续多选元素，一般用于手机端多选元素，默认关闭。
+
+### preventEditInner: `boolean`
+
+双击时是否阻止打开元素内部编辑器，默认为否。

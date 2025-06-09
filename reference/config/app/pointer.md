@@ -12,13 +12,19 @@
 
 ## 关键属性
 
+### pointer.type: `'mouse'` | `'pointer'` | `'touch'`
+
+采用哪种 原生事件类型 触发 [PointeEvent](/reference/event/ui/Pointer.md) 事件，默认为 'pointer'。
+
+mouse 表示原生 MouseEvent 事件，touch 表示原生 TouchEvent 事件。
+
 ### pointer.snap: `boolean`
 
 是否将交互事件坐标取整，避免产生小数，默认为 true。
 
-### pointer.touch: `boolean`
+<!-- ### pointer.touch: `boolean`
 
-是否使用 原生 touch 事件 模拟 [PointeEvent](/reference/event/ui/Pointer.md) 事件，默认为 false。
+是否使用 原生 touch 事件 模拟 [PointeEvent](/reference/event/ui/Pointer.md) 事件，默认为 false。 -->
 
 ### pointer.hitRadius: `number`
 

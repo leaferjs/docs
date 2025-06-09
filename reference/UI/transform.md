@@ -20,6 +20,8 @@ import Case from '/component/Case.vue'
 
 ## 来源于
 
+合成矩阵的顺序为： rotate -> skew -> scale -> translate。
+
 ### x: `number`
 
 x 轴位置。
