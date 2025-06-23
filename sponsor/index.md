@@ -185,7 +185,10 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢前来支�
 ## 金牌赞助商
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
-    <a target="_blank" href="https://github.com/dromara/yft-design">
+    <a target="_blank" href="https://xpai.design">
+    <img width="180" style="border-radius:40px" title="迅排设计" src="https://www.leaferjs.com/image/sponsor/gold/xp.jpg" />
+  </a>
+  <a target="_blank" href="https://github.com/dromara/yft-design">
     <img width="180" style="border-radius:40px" title="yft-design" src="https://www.leaferjs.com/image/sponsor/gold/yft.jpg" />
   </a>
   <a target="_blank" href="https://www.finclip.com/landing/miniappgame?from=leafer">
@@ -217,6 +220,12 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢前来支�
 ## 银牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 5px;">
+  <a target="_blank" href="">
+    <img width="40" style="border-radius:20px" title="goosen" src="https://www.leaferjs.com/image/sponsor/user/122.jpeg" />
+  </a>
+  <a target="_blank" href="">
+    <img width="40" style="border-radius:20px" title="dev_chen" src="https://www.leaferjs.com/image/sponsor/user/137.jpg" />
+  </a>
   <a target="_blank" href="https://www.u-tools.cn/plugins/detail/%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7%20Plus/index.html">
     <img width="40" style="border-radius:20px" title="截图工具 Plus" src="https://www.leaferjs.com/image/sponsor/user/135.png" />
   </a>
@@ -369,6 +378,12 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢前来支�
 ## 铜牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
+  <a target="_blank" href="https://afdian.com/u/1009611a25a911f0a50b52540025c377">
+    黑色摩天仑
+  </a>
+  <a target="_blank" href="">
+    Charm
+  </a>
   <a target="_blank" href="">
     Lauginwing
   </a>

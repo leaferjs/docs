@@ -2,6 +2,8 @@
 
 编辑器的旋转事件，通过 `app.editor.on()` 监听。
 
+编辑器可通过配置 [beforeRotate](/plugin/in/editor/config/event.md#beforerotate-ieditorbeforerotate) 钩子改变旋转数据。
+
 ## 事件属性
 
 ### rotation: `number`

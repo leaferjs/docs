@@ -2,6 +2,8 @@
 
 编辑器的选中/取消事件，通过 `app.editor.on()` 监听。
 
+编辑器可通过配置 [beforeSelect](/plugin/in/editor/config/event.md#beforeselect-ieditorbeforeselect) 钩子改变选择数据。
+
 ## 事件属性
 
 ### editor: [`Editor`](/plugin/in/editor/index.md)

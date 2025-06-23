@@ -2,6 +2,8 @@
 
 编辑器的调整大小（resize 元素）事件，通过 `app.editor.on()` 监听。
 
+编辑器可通过配置 [beforeScale](/plugin/in/editor/config/event.md#beforescale-ieditorbeforescale) 钩子改变 scale 数据。
+
 ## 事件属性
 
 ### worldOrigin: [`IPointData`](/api/interfaces/IPointData.md)

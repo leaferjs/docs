@@ -2,6 +2,8 @@
 
 编辑器的移动事件，通过 `app.editor.on()` 监听。
 
+编辑器可通过配置 [beforeMove](/plugin/in/editor/config/event.md#beforemove-ieditorbeforemove) 钩子改变移动数据。
+
 ## 事件属性
 
 ### moveX: `number`

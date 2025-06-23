@@ -2,6 +2,8 @@
 
 编辑器的倾斜事件，通过 `app.editor.on()` 监听。
 
+编辑器可通过配置 [beforeSkew](/plugin/in/editor/config/event.md#beforeskew-ieditorbeforeskew) 钩子改变倾斜数据。
+
 ## 事件属性
 
 ### worldOrigin: [`IPointData`](/api/interfaces/IPointData.md)
