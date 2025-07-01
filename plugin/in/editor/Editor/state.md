@@ -38,6 +38,26 @@
 
 是否正在拖拽编辑器，包含拖拽控制点、边。
 
+### gesturing: `boolean`
+
+是否正在通过移动端手势拖拽、缩放、旋转编辑器。
+
+### moving: `boolean`
+
+是否正在移动编辑器位置。
+
+### resizing: `boolean`
+
+是否正在 reisze 编辑器。
+
+### rotating: `boolean`
+
+是否正在旋转编辑。
+
+### skewing: `boolean`
+
+是否正在倾斜编辑器。
+
 ## 归属
 
 ### [Editor 元素](/plugin/in/editor/index.md#editor-元素)

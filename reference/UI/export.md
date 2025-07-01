@@ -23,7 +23,7 @@ options 为数字时表示图片质量， 为布尔时表示二进制数据 。
 :::tip 注意事项
 [Leafer](/reference/display/Leafer.md) 引擎默认导出为内容（非画布），想导出画布需要增加 `screenshot` 截图参数。
 
-<del>单独导出 [App](/reference/display/App.md) 实例，只能为画面截图。</del> <badge>v1.7.0 之后不再限制</badge>
+<del>单独导出 [App](/reference/display/App.md) 实例，只能为画面截图。</del> <badge>v1.8.0 之后不再限制</badge>
 :::
 
 ```ts
@@ -81,6 +81,8 @@ interface ICanvasRenderingContext2DSettings {
 ```ts
 interface IExportResult {
   data: ILeaferCanvas | IBlob | string | boolean // data为无时表示导出失败
+
+  error?: any // 导出失败时的内部报错信息
 
   width?: number // 图片宽度(实际像素)
   height?: number // 图片高度(实际像素)

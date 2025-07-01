@@ -36,6 +36,37 @@
 
 当属性有变化时，不会重新布局和渲染。
 
+## 普通属性
+
+#### createAttr ( defaultValue: `any` )
+
+创建一个普通属性，数据不会进入导出 JSON 中，仅转换为 getter/setter。
+
+可解决 JS 类继承的执行顺序导致重写内部方法时，访问属性取不到值的问题。
+
+::: code-group
+
+```ts
+import { createAttr } from '@leafer-ui/core' // 引入跨平台核心包
+
+class Custom {
+  @createAttr(true)
+  public canUse: number // 转成 getter/setter， 默认值为true
+}
+```
+
+```js
+import { createAttr } from '@leafer-ui/core' // 引入跨平台核心包
+
+class Custom {
+  canUse = true
+}
+
+createAttr(true)(Custom.prototype, 'canUse') // 转成 getter/setter， 默认值为true
+```
+
+:::
+
 ## 特殊处理
 
 ### set 逻辑处理

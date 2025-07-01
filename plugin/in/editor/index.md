@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.7.0/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.7.0/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.8.0/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.8.0/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.7.0/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.7.0/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.8.0/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.8.0/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
@@ -115,6 +115,11 @@ mergeConfig 的缓存，频繁访问不会有性能问题。
 | [innerEditing](/plugin/in/editor/Editor/state.md)   | 是否处于内部编辑状态，双击单个元素进入内部编辑状态（有内部编辑器的情况）                                                                       |
 | [groupOpening](/plugin/in/editor/Editor/state.md)   | 是否处于打开组状态，双击组可进入打开状态，方便选择组内元素                                                                                     |
 | [dragging](/plugin/in/editor/Editor/state.md)       | 是否正在拖拽编辑器，包含拖拽控制点、边                                                                                                         |
+| [gesturing](/plugin/in/editor/Editor/state.md)      | 是否正在通过移动端手势拖拽、缩放、旋转编辑器                                                                                                   |
+| [moving](/plugin/in/editor/Editor/state.md)         | 是否正在移动编辑器位置                                                                                                                         |
+| [resizing](/plugin/in/editor/Editor/state.md)       | 是否正在 reisze 编辑器                                                                                                                         |
+| [rotating](/plugin/in/editor/Editor/state.md)       | 是否正在旋转编辑器                                                                                                                             |
+| [skewing](/plugin/in/editor/Editor/state.md)        | 是否正在倾斜编辑器                                                                                                                             |
 | 列表                                                |                                                                                                                                                |
 | [list](/plugin/in/editor/Editor/list.md)            | 当前选中的元素列表（只读），未选中时为空数组                                                                                                   |
 | [leafList](/plugin/in/editor/Editor/list.md)        | 当前选中的元素列表对象（只读）， 未选中时为空列表对象                                                                                          |

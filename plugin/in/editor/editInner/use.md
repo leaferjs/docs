@@ -20,6 +20,12 @@
 
 点击完成按钮会退出内部编辑器。
 
+## 常见问题
+
+### 1. 访问自定义属性取不到值？
+
+给自定义属性增加 [createAttr()](/reference/display/custom/base/attr.md#普通属性) 装饰器， 可解决 JS 类继承的执行顺序导致重写内部方法时，访问属性取不到值的问题。
+
 ## 继承
 
 ### [InnerEditor](../InnerEditor.md)

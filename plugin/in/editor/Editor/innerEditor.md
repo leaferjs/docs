@@ -2,11 +2,18 @@
 
 ## 关键方法
 
-### openInnerEditor( target?: [`UI`](/reference/display/UI.md), select?: `boolean`)
+### openInnerEditor( target?: [`UI`](/reference/display/UI.md), nameOrSelect?: `string`, select?: `boolean`)
 
 打开元素的内部编辑器。
 
-支持传入一个可选的 target 进行编辑，select 表示是否同时选中 target。
+支持传入一个可选的 target 进行编辑。
+
+nameOrSelect 参数可以指定内部编辑器的名称， select 表示是否同时选中 target。
+
+```ts
+app.editor.openInnerEditor(rect, true)
+app.editor.openInnerEditor(rect, 'ClipEditor', true) // 指定内部编辑器名称
+```
 
 ### closeInnerEditor()
 

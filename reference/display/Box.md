@@ -20,9 +20,13 @@ Box &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./
 
 宽度，不设置或设为`undefined`时会自适应内容。
 
+可通过 [isAutoWidth](/reference/UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
+
 ### height: `number`
 
 高度，不设置或设为`undefined`时会自适应内容。
+
+可通过 [isAutoHeight](/reference/UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
 
 ### overflow: `IOverflow`
 

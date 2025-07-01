@@ -20,9 +20,13 @@ Text &nbsp;>&nbsp; [UI](./UI.md)
 
 文本框宽度，不设置或设为`undefined`时为自动宽度。
 
+可通过 [isAutoWidth](/reference/UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
+
 ### height?: `number`
 
 文本框高度，不设置或设为`undefined`时为自动高度。
+
+可通过 [isAutoHeight](/reference/UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
 
 ### text: `string` | `number`
 
@@ -237,6 +241,12 @@ boxStyle: {
 ### resizeFontSize: `boolean`
 
 自动宽高的文本是否通过修改字体大小进行 resize, 默认为 false。
+
+## 辅助属性
+
+### renderSpread: `number`
+
+强制扩大渲染边界数值，防止文本渲染边界测量不正确导致花屏, 默认为 0。
 
 ## 计算属性（只读）
 

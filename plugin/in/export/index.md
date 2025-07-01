@@ -31,11 +31,11 @@ bun add @leafer-in/export
 ::: code-group
 
 ```html [export.min]
-<script src="https://unpkg.com/@leafer-in/export@1.7.0/dist/export.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/export@1.8.0/dist/export.min.js"></script>
 ```
 
 ```html [export]
-<script src="https://unpkg.com/@leafer-in/export@1.7.0/dist/export.js"></script>
+<script src="https://unpkg.com/@leafer-in/export@1.8.0/dist/export.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->

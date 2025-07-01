@@ -16,6 +16,8 @@
 
 ### 继承 Group
 
+自定义元素的情况下，可能不需要导出子级 JSON, 可设置 [childlessJSON](/reference/display/Group.md#childlessjson-boolean) 属性为 `true`。
+
 <<< @/code/display/Custom/Group/index.ts
 
 ## 下一步

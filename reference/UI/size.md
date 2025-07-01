@@ -24,6 +24,16 @@
 当高度为负数时，为让程序继续运行，将重置为正数，并使用 -scaleY 镜像代替，开发环境中会发出一个警告。
 :::
 
+## 只读属性
+
+### isAutoWidth: `boolean`
+
+是否为自动宽度。
+
+### isAutoHeight: `boolean`
+
+是否为自动高度。
+
 ## 归属
 
 ### [UI 元素](/reference/display/UI.md)

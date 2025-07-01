@@ -14,6 +14,10 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
+### spread: `number`
+
+编辑器框向外的扩展值，可扩大编辑框与实际元素之间的间隙，默认为 0。
+
 ### stroke: `string`
 
 设置控制点和编辑框的描边颜色，默认为 `#836DFF`。

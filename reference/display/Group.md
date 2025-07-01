@@ -24,11 +24,11 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 子元素是否跟随 resize， 默认为 true。
 
-<!-- ## 辅助属性
+## 辅助属性
 
-### zIndex: `number`
+### childlessJSON: `boolean`
 
-子元素可以通过设置 zIndex 控制自身在 父 Group 中的层叠顺序, 默认为 0。 -->
+导出 JSON 时是否导出子元素 JSON（一般用于自定义元素）, 默认为 true。
 
 ## 关键方法
 

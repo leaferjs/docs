@@ -16,9 +16,13 @@ import Case from '/component/Case.vue'
 
 ### around: [`Around`](/reference/UI/around.md)
 
-指定中心点旋转、缩放大小， 默认为无。
+指定旋转、缩放、倾斜的中心点， 默认为无。
 
 设置 'center' 表示正中心点 {x:0.5, y: 0.5}, 设置 {x:1, y:1} 表示右下角，相对编辑框宽高比例。
+
+### rotateAround: [`Around`](/reference/UI/around.md)
+
+单独指定旋转的中心点，比 around 优先级更高 默认为无。
 
 ### lockRatio: `boolean` | `'corner'`
 
