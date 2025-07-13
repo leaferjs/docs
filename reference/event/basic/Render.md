@@ -40,7 +40,7 @@ RenderEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 单次渲染前。
 
-`render.beforee`
+`render.before`
 
 ### RenderEvent.RENDER
 

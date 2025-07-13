@@ -78,9 +78,9 @@ type IZoomType =
 leafer.zoom('fit')
 
 // 动画过渡
-leafer.zoom('fit', null, null, true)
+leafer.zoom('fit', 0, null, true)
 
-leafer.zoom('fit', null, null, 2) // 过渡 2 秒
+leafer.zoom('fit', 0, null, 2) // 过渡 2 秒
 ```
 
 ## 示例

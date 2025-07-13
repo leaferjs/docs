@@ -28,7 +28,7 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 ### childlessJSON: `boolean`
 
-导出 JSON 时是否导出子元素 JSON（一般用于自定义元素）, 默认为 true。
+导出 JSON 时是否阻止子元素一起导出（一般用于自定义元素）, 默认为 false。
 
 ## 关键方法
 

@@ -55,6 +55,8 @@
 
 ::: tip 注意
 click 等复合事件为内部二次合成，阻止不了原生同名事件。
+
+另 PointEvent 事件默认阻止不了原生 MouseEvent 事件，需要修改 [app.config.pointer.type](/reference/config/app/pointer.md#pointer-type-mouse-pointer-touch) 类型。
 :::
 
 ### stopNow ( )
@@ -65,6 +67,8 @@ click 等复合事件为内部二次合成，阻止不了原生同名事件。
 
 ::: tip 注意
 click 等复合事件为内部二次合成，阻止不了原生同名事件。
+
+另 PointEvent 事件默认阻止不了原生 MouseEvent 事件，需要修改 [app.config.pointer.type](/reference/config/app/pointer.md#pointer-type-mouse-pointer-touch) 类型。
 :::
 
 ### stopDefault ( )
@@ -75,6 +79,8 @@ click 等复合事件为内部二次合成，阻止不了原生同名事件。
 
 ::: tip 注意
 click 等复合事件为内部二次合成，阻止不了原生同名事件。
+
+另 PointEvent 事件默认阻止不了原生 MouseEvent 事件，需要修改 [app.config.pointer.type](/reference/config/app/pointer.md#pointer-type-mouse-pointer-touch) 类型。
 :::
 
 <!--
