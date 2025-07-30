@@ -66,7 +66,7 @@ App 实例, 如果不存在则是自身。
 
 缩放平移视图层， 默认为 Leafer 自身，可 [单独指定缩放层](/reference/display/Leafer.md#单独指定缩放层)。
 
-可以手动修改它的 [x](/reference/UI/layout.md)、[y](/reference/UI/layout.md)、[scale](/reference/UI/layout.md#scale-number-ipointdata)、[scaleX](/reference/UI/layout.md#scalex-number)、[scaleY](/reference/UI/layout.md#scaley-number) 属性进行缩放平移视图。
+可以手动修改它的 [x](/reference/UI/layout.md)、[y](/reference/UI/layout.md)、[scale](/reference/UI/layout.md#scale-number-ipointdata)、[scaleX](/reference/UI/layout.md#scalex-number)、[scaleY](/reference/UI/layout.md#scaley-number) 属性进行缩放平移视图，监听 [视图变化事件](/reference/event/basic/Leafer.md#视图事件)。
 
 另通过 [视图控制插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
 
@@ -319,3 +319,7 @@ view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字�
 ### 监听浏览器 unload 事件自动销毁
 
 <<< @/code/app/unload.ts
+
+### 监听 Leafer 缩放变化事件
+
+<<< @/code/event/leafer/scale.ts

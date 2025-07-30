@@ -30,6 +30,12 @@ import Case from '/component/Case.vue'
 
 设置光标的碰撞半径，当光标距离元素在 hitRadius 范围内时，引擎可以优先拾取到元素。
 
+## 关键方法
+
+### hit ( worldPoint: [`IPointData`](../interface/math/Math#ipointdata), hitRadius: `number` = 0 ): `boolean`
+
+快速检测 worldPoint 坐标点（[世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)）是否碰撞到元素，支持设置点的碰撞半径 hitRadius 。
+
 ## 归属
 
 ### [UI 元素](/reference/display/UI.md)

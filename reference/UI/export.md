@@ -23,7 +23,7 @@ options 为数字时表示图片质量， 为布尔时表示二进制数据 。
 :::tip 注意事项
 [Leafer](/reference/display/Leafer.md) 引擎默认导出为内容（非画布），想导出画布需要增加 `screenshot` 截图参数。
 
-<del>单独导出 [App](/reference/display/App.md) 实例，只能为画面截图。</del> <badge>v1.8.0 之后不再限制</badge>
+<del>单独导出 [App](/reference/display/App.md) 实例，只能为画面截图。</del> <badge>v1.9.0 之后不再限制</badge>
 :::
 
 ```ts
@@ -45,7 +45,7 @@ interface IExportOptions {
   smooth?: boolean // 设置画布的平滑绘制属性，默认同当前leafer画布
   contextSettings?: ICanvasRenderingContext2DSettings // 原生画布的 context 设置, 默认同当前leafer画布
 
-  clip?: IBoundsData // 相对元素渲染区域进行裁剪，需指定裁剪区域
+  clip?: IBoundsData // 相对元素的实际渲染包围盒进行裁剪，需指定裁剪区域，设置 size、scale 会影响元素的实际渲染包围盒， 设置 pixelRatio 不会影响
 
   slice?: boolean // 是否为切片元素，将导出切片bounds内的画布上所有内容
   trim?: boolean // 是否裁剪透明像素，默认false

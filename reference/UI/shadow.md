@@ -23,6 +23,7 @@ interface ShadowEffect {
   color: Color
   blendMode?: BlendMode
   visible?: boolean
+  scaleFixed?: 'zoom-in' | false // 缩放时是否固定原有比例，zoom-in表示仅在放大时固定比例（缩小时仍跟随缩小）
   box?: boolean // 和 CSS3 中的 boxShadow 效果一致, 只显示图形外部的阴影
 }
 ```
@@ -44,3 +45,7 @@ interface ShadowEffect {
 ### 绘制 boxShadow 阴影
 
 <<< @/code/property/shadow/box.ts
+
+### 阴影不随画布放大
+
+<<< @/code/plugin/editor/frame/transparent.ts

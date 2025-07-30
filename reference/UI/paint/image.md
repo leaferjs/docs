@@ -163,20 +163,46 @@ interface IOptionSizeData {
 
 平铺图片的缩放比例，优先使用 size 换算出的 scale。
 
-### scaleFixed?: `boolean`
+### scaleFixed?: `boolean` | `'zoom-in'`
 
-固定平铺图片的全局缩放比例，不跟随画布缩放。
+固定平铺图片的全局缩放比例，不跟随画布缩放，默认为 false。
+
+'zoom-in' 表示仅在放大时固定比例（缩小时仍跟随缩小）。
 
 ### rotation?: `number`
 
 旋转角度, 以 90 度递增旋转。
 
+设置 freeTransform 后可设置任意角度。
+
+### freeTransform?: `boolean`
+
+是否进行自由变换，将忽略 rotation 的特殊旋转逻辑，方便进行手动编辑
+
+### gap: [`IGap`](/api/modules.md#igap) | [`IPointGap`](/api/interfaces/IPointGap.md)
+
+平铺图片之间的间距， 默认为 0。
+
+```ts
+// 设置 auto / fit 会均分剩余的空间，auto 最小值为 0，fit 允许为负数。
+type IGap = number | 'auto' | 'fit'
+
+interface IPointGap {
+  x?: IGap // 单独设置 x 轴间距
+  y?: IGap // 单独设置 y 轴间距
+}
+```
+
 ### repeat?: [`IRepeat`](/api/modules.md#irepeat)
 
 重复背景的方式，可设置重复 x 或 y 轴， 默认同时重复两个轴。
 
+并且支持单独设置 x 轴和 y 轴的平铺数量。
+
 ```ts
-type IRepeat = boolean | 'x' | 'y'
+type IRepeat = boolean | 'x' | 'y' | IPointData
+
+const repeat = { x: 10, y: 6 } // 设置 x、y 轴平铺图片的个数
 ```
 
 ## 子描边属性
@@ -284,3 +310,7 @@ rect.stroke = [
 ### repeat 平铺模式旋转 90 度
 
 <<< @/code/property/fill/image/repeat90.ts
+
+### repeat 平铺模式不随画布缩放
+
+<<< @/code/plugin/editor/frame/transparent.ts

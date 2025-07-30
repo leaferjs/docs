@@ -35,11 +35,11 @@ type StrokeAlign = 'inside' | 'center' | 'outside' //  内部  |  居中 ｜ 外
 
 描边的宽度, 默认为 1。
 
-### strokeWidthFixed?: `boolean`
+### strokeWidthFixed?: `'zoom-in'` | `false`
 
 是否固定线宽，默认为 false。
 
-固定线宽后，当画面放大时，线宽不会跟随放大，画面缩小时仍会跟随缩小（防止堆成一团）。
+设置 'zoom-in' 后， 线宽不会跟随画面放大，画面缩小时仍会跟随缩小（防止堆成一团）。
 
 在此场景下，建议 strokeAlign 使用高性能的居中描边， 另 [hitFill](/reference/UI/hit.md#hitfill-ihittype) 为 all 可节省填充操作。
 

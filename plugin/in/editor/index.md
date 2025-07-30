@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.8.0/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.8.0/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.9.0/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.9.0/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.8.0/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.8.0/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.9.0/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.9.0/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
@@ -307,3 +307,7 @@ mergeConfig 的缓存，频繁访问不会有性能问题。
 <<< @/code/plugin/editor/create-mode.ts
 <<< @/code/plugin/editor/create-mode.js
 :::
+
+### 背景为透明方格的画板
+
+<<< @/code/plugin/editor/frame/transparent.ts

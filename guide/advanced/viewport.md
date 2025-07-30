@@ -86,6 +86,12 @@
 
 也可以自己监听 [视口交互事件](#视口交互事件) 实现手势控制元素（需 [阻止事件冒泡](/reference/event/basic/Event.md#stop)）。
 
+## 监听视口变化
+
+引擎可以通过 [PropertyEvent](/reference/event/basic/Property.md) 事件监听 [Leafer 视口属性](/reference/display/Leafer.md#视口属性-viewport) / [App 视口属性](/reference/display/App.md#视口属性-viewport) 的 [x](/reference/UI/layout.md)、[y](/reference/UI/layout.md)、[scaleX](/reference/UI/layout.md#scalex-number)、[scaleY](/reference/UI/layout.md#scaley-number) 变化来同步相关逻辑。
+
+Leafer 实例作为 [缩放平移层](/reference/display/Leafer.md#视口属性-viewport) 时，可直接监听自身 [视图变化事件](/reference/event/basic/Leafer.md#视图事件)。
+
 ## 更多示例
 
 ### [鼠标滚动直接缩放视图](/reference/config/app/wheel.md#鼠标滚动直接缩放视图)
@@ -94,13 +100,11 @@
 
 ### [单独指定缩放层](/reference/display/Leafer.md#单独指定缩放层)
 
+### [监听 Leafer 缩放变化事件](/reference/event/basic/Leafer.md#监听-leafer-缩放变化事件)
+
 ## 视口交互事件
 
 ### [MoveEvent](/reference/event/ui/Move.md) &nbsp; &nbsp; [ZoomEvent](/reference/event/ui/Zoom.md) &nbsp; &nbsp; [RotateEvent](/reference/event/ui/Rotate.md)
-
-## 监听视口变化
-
-引擎可以通过 [PropertyEvent](/reference/event/basic/Property.md) 事件监听 [Leafer 视口属性](/reference/display/Leafer.md#视口属性-viewport) / [App 视口属性](/reference/display/App.md#视口属性-viewport) 的 [x](/reference/UI/layout.md)、[y](/reference/UI/layout.md)、[scaleX](/reference/UI/layout.md#scalex-number)、[scaleY](/reference/UI/layout.md#scaley-number) 变化来同步相关逻辑。
 
 ## 下一步
 

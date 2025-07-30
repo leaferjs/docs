@@ -34,6 +34,14 @@ import Case from '/component/Case.vue'
 
 旋转吸附间隔，当靠近间隔点时，慢慢旋转会被吸附到间隔点上，默认为每 45 度。
 
+### dragLimitAnimate: `boolean` | `number`
+
+限制了 [dragBounds](/reference/UI/dragBounds.md) 的元素是否在拖拽结束时进行动画归位，默认为 false (实时限制)。
+
+可以设置动画速度 0.1 ～ 0.9，设为 true 的速度为 0.3。
+
+此配置会覆盖 Leafer 的 [pointer.dragLimitAnimate](/reference/config/app/pointer.md#pointer-draglimitanimate-boolean-number) 配置。
+
 ## 示例
 
 <case name="EditorConfig" index=7 x=20></case>

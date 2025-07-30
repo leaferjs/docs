@@ -18,6 +18,26 @@ import Case from '/component/Case.vue'
 
 是否接收键盘事件（如方向键移动），默认为 true。
 
+### multipleSelectKey: [IShortcutKeysCheck](/api/interfaces/IShortcutKeysCheck.md)
+
+多选元素的快捷键钩子函数。
+
+```ts
+multipleSelectKey(event) {
+    return event.shiftKey || event.ctrlKey // 默认为 shiftKey
+}
+```
+
+### rotateKey: [IShortcutKeysCheck](/api/interfaces/IShortcutKeysCheck.md)
+
+在 resize 控制点上按下某个快捷键，会变旋转功能的钩子函数。
+
+```ts
+rotateKey(event) {
+    return event.ctrlKey // 默认值
+}
+```
+
 <!-- ### dualEvent: `boolean`
 
 是否派发双重事件， 默认为 false。

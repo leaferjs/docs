@@ -2,13 +2,85 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
-## 2025 / 06 / 30
+## 2025 / 07 / 29
 
-> v1.8.0
+> v1.9.0
 
 #### 🍇 社区
 
-多款高级插件即将上线 🎉🎉🎉
+[只需 1.5 秒的 Canvas 绘图引擎插件](https://www.douyin.com/video/7527462651733003578) <badge>视频博主分享</badge> @程序员 Rain
+
+[leafer-x-easy-snap](https://www.npmjs.com/package/leafer-x-easy-snap) <badge>吸附插件(加强版)</badge> @Rainbow
+
+[wzq-leafer-ui](https://ext.dcloud.net.cn/plugin?name=wzq-leafer-ui) 在 renderjs 中实现 uniapp 使用 leafer-ui 示例 @王志强
+
+#### 🌱 新增
+
+\- 🌸 [LeaferEvent](/reference/event/basic/Leafer.md#视图事件) 增加 [TRANSFORM](/reference/event/basic/Leafer.md#视图事件)、[MOVE](/reference/event/basic/Leafer.md#视图事件)、[SCALE](/reference/event/basic/Leafer.md#视图事件)、ROTATE、SKEW [视口属性](/reference/display/Leafer.md#视口属性-viewport) 变化事件
+
+\- 🌸 元素增加 [hit()](/reference/UI/hit.md#hit-worldpoint-ipointdata-hitradius-number-0-boolean) 方法，可快速检测 point（支持碰撞半径）是否碰撞到元素
+
+\- 🌸 平铺图片增加 [gap](/reference/UI/paint/image.md#gap-igap-ipointgap) 参数，支持设置间距，或自动间距，让平铺图片正好铺满元素
+
+\- 平铺图片支持通过 [repeat](/reference/UI/paint/image.md#repeat-irepeat) 属性控制平铺个数
+
+\- 平铺图片增加 [freeTransform](/reference/UI/paint/image.md#freetransform-boolean) 自由变换属性，方便进行手动编辑
+
+\- 🌸 Leafer 配置增加 [pointer.dragLimitAnimate](/reference/config/app/pointer.md#pointer-draglimitanimate-boolean-number)， 使 [dragBounds](/reference/UI/dragBounds.md) 元素在拖拽结束时动画归位
+
+\- 编辑器配置同时也增加了 [dragLimitAnimate](/plugin/in/editor/config/control.md#draglimitanimate-boolean-number) 参数，会覆盖 [pointer.dragLimitAnimate](/reference/config/app/pointer.md#pointer-draglimitanimate-boolean-number) 配置。
+
+\- 🌸 编辑器配置增加 [multipleSelectKey](/plugin/in/editor/config/event.md#multipleselectkey-ishortcutkeyscheck)、[rotateKey](/plugin/in/editor/config/event.md#multipleselectkey-ishortcutkeyscheck) 钩子，支持自定义多选元素快捷键
+
+\- 编辑器配置增加 [hideResizeLines](/plugin/in/editor/config/base.md#hideresizelines-boolean)、[hideRotatePoints](/plugin/in/editor/config/base.md#hideresizelines-boolean) 配置，可隐藏四周控制线、旋转控制点
+
+\- 在多个填充、描边样式中可标记某一个对象为编辑状态（editing 设为 true）
+
+\- UIEvent 增加 isHoldKeys() 通用方法，可检测是否按住快捷键组合，预留语义化类型接口
+
+\- 🌸 阴影增加 [scaleFixed](/reference/UI/shadow.md) 参数，可不跟随画布放大
+
+#### 🪲 修复
+
+\- 🌸 编辑器开启 'font-size' 添加居中文字调整大小会漂移 [#522](https://github.com/leaferjs/leafer-ui/issues/522)
+
+\- 🌸 修复 clip 导出含 spread 阴影的效果不正确的问题 [#511](https://github.com/leaferjs/leafer-ui/issues/511)
+
+\- 🌸 修复 view 进行了 transform 后点击位置不准的问题 [#507](https://github.com/leaferjs/leafer-ui/issues/507)
+
+\- 修复内部编辑器和编组事件会重复触发一次的问题
+
+\- 修复设置 clipping 遮罩后，上层元素的 blendMode 不能与之混合的问题
+
+\- 修复多个 mask 同时堆叠时的交互问题（底部存在无遮罩元素）
+
+\- 修复 mask 父元素的 bounds 计算问题（底部存在无遮罩元素）
+
+\- 修复编辑器首次选中元素后， move 图标不切换的问题
+
+\- 手动关闭裁剪框报错
+
+\- 修复 zoom()方法 padding 参数为 null 会报错的问题
+
+#### 🌿 优化
+
+\- 🌸 在 web 端开启图片 resize 优化，避免 resize 大图卡顿
+
+\- 🌸 Leafer 配置 dragAnimate 支持设置速度, 推荐 0.8 ～ 0.95
+
+\- 🌸 优化 Frame 内无相交子元素的选择体验，靠近边缘就能命中
+
+\- 自动布局兼容 gap 可能为字符串数字的情况 [#544](https://github.com/leaferjs/leafer-ui/issues/544)
+
+\- 微信小程序提示 wx.getSystemInfoSync 方法 [#552](https://github.com/leaferjs/leafer-ui/issues/552)
+
+#### 🌷 感谢反馈
+
+[@bob-chen](https://github.com/bob-chen) [@HangChengJian](https://github.com/HangChengJian) [@bedphp](https://github.com/bedphp) [@FZliweiliang](https://github.com/FZliweiliang) [@mozbia](https://github.com/leaferjs/leafer-ui/issues/511) [@ghfkui](https://github.com/ghfkui) @CML @闰土 @do @Jerry
+
+## 2025 / 06 / 30
+
+> v1.8.0
 
 #### 🌱 新增
 
@@ -20,7 +92,7 @@
 
 \- 自定义元素、工具增加属性装饰器 [createAttr()](/reference/display/custom/base/attr.md#普通属性)，可将属性转成 getter/setter，防止取不到值
 
-\- Group 增加 [childlessJSON](/reference/display/Group.md#childlessjson-boolean) 属性，自定义元素时可配置不导出子级 JSON
+\- Group 增加 [childlessJSON](/reference/display/Group.md#childlessjson-boolean) 属性，自定义元素时可配置不导出子元素 JSON
 
 \- 元素增加 [renderSpread](/reference/UI/bounds.md#renderspread-number) 属性，可强制扩大渲染边界，防止文本等渲染边界测量不正确导致花屏
 
