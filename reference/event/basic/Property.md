@@ -22,6 +22,14 @@ PropertyEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 `property.leafer_change`
 
+### 额外事件
+
+### PropertyEvent.SCROLL
+
+元素 scrollX、scrollY 属性变化事件
+
+`property.scroll`
+
 ## 关键属性
 
 ### target: [`ILeaf`](/api/interfaces/ILeaf.md)

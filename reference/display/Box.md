@@ -30,10 +30,17 @@ Box &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./
 
 ### overflow: `IOverflow`
 
-如何显示超出宽高的内容，默认为 show。
+如何显示超出宽高的内容，默认为 'show' 。
+
+设置 'scroll' 类型时， 需安装 scroller 滚动条插件才能生效（即将上线）。
 
 ```ts
-type IOverflow = 'show' | 'hide'
+type IOverflow =
+  | 'show' // 显示
+  | 'hide' // 隐藏
+  | 'scroll' // 显示滚动条
+  | 'x-scroll' // 仅显示x轴滚动条
+  | 'y-scroll' // 仅显示y轴滚动条
 ```
 
 ## 滚动属性
@@ -65,6 +72,12 @@ type IOverflow = 'show' | 'hide'
 ### isOverflow: `boolean`
 
 子元素是否溢出了 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata)，Box 布局完成后此属性才有值。
+
+### scrollWorldTransform: [`IMatrixWithScaleData`](/api/interfaces/IMatrixWithScaleData.md)
+
+滚动区域相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性。
+
+不存在滚动时，会返回元素的 [worldTransform](/reference/UI/transform.md#worldtransform-imatrixwithscaledata) 变换矩阵。
 
 ## 路径模式
 

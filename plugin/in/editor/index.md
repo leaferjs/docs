@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.9.0/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.9.0/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.9.2/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.9.2/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.9.0/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.9.0/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.9.2/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.9.2/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
@@ -90,9 +90,13 @@ bun add @leafer-in/resize
 
 ## 次要属性
 
-### hoverTarget：[`UI`](/reference/display/UI.md)
+### hoverTarget: [`UI`](/reference/display/UI.md)
 
 设置 hover 状态的元素， 默认通过 [编辑选择器](/plugin/in/editor/config/select.md#selector-boolean) 自动选取 [editable](/reference/UI/editable.md) 元素。
+
+### targetLeafer: [Leafer](/reference/display/Leafer.md)
+
+第一个目标元素所在的 leafer 实例层（只读）。
 
 ### mergeConfig: [`IEditorConfig`](/plugin/in/editor/config/base.md)
 

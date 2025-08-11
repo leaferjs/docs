@@ -2,6 +2,58 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 08 / 08
+
+> v1.9.2
+
+#### 🍇 社区
+
+scroller 滚动条插件已开发完成，下周上线 🎉🎉🎉
+
+#### 🌱 新增
+
+\- 🌸 元素增加 [dragBoundsType](/reference/UI/dragBounds.md#dragboundstype-idragboundstype) 属性， 可指定 [dragBounds](/reference/UI/dragBounds.md) 区域是在元素的内部还是外部
+
+\- 🌸 [Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 的 [overflow](/reference/display/Box.md#overflow-ioverflow) 属性支持滚动条功能，需安装 scroller 滚动条插件
+
+\- [Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 元素增加 [scrollWorldTransform](/reference/display/Box.md#scrollworldtransform-imatrixwithscaledata) 属性，用于获取滚动区域的变换矩阵
+
+\- 增加 [PropertyEvent.SCROLL](/reference/event/basic/Property.md#propertyevent-scroll) 滚动属性变化事件，可监听元素 scrollX、scrollY 属性变化
+
+\- 图形编辑器增加 [targetLeafer](/plugin/in/editor/index.md#targetleafer-leafer) 只读属性，返回目标元素所在的 leafer 实例层
+
+#### 🪲 修复
+
+\- 🌸 修复 App 单画布模式下，浏览器缩小后操作可能会有残影的问题
+
+#### 🌿 优化
+
+\- 优化 [scroll](/reference/config/app/move.md#move-scroll-boolean-x-y-limit-x-limit-y-limit) 交互体验, 增加滚动限制拉拽动画
+
+\- 优化 [textOverflow](/reference/display/Text.md#textoverflow-ioverflow-string) 类型提示
+
+\- 元素的 one() 与 clone() 方法返回对应的元素类型
+
+\- 通过 [draggable](/reference/UI/draggable.md) 锁定轴移动时，不进行 [dragLimitAnimate](/reference/config/app/pointer.md#pointer-draglimitanimate-boolean-number) 动画
+
+#### 🌷 感谢反馈
+
+[@HangChengJian](https://github.com/HangChengJian) [@bedphp](https://github.com/bedphp) [@fixji](https://github.com/fixji) @张老爷 @闰土 @第一生产力
+
+## 2025 / 08 / 01
+
+> v1.9.1
+
+#### 🪲 修复
+
+\- 🌸 修复 iOS Safari 18.5 之后裁剪导出带外描边的阴影偏移问题
+
+\- 🌸 修复应用配置 pixelRatio 不生效的问题
+
+#### 🌷 感谢反馈
+
+[@mozbia](https://github.com/mozbia) @闰土
+
 ## 2025 / 07 / 29
 
 > v1.9.0
@@ -76,7 +128,7 @@
 
 #### 🌷 感谢反馈
 
-[@bob-chen](https://github.com/bob-chen) [@HangChengJian](https://github.com/HangChengJian) [@bedphp](https://github.com/bedphp) [@FZliweiliang](https://github.com/FZliweiliang) [@mozbia](https://github.com/leaferjs/leafer-ui/issues/511) [@ghfkui](https://github.com/ghfkui) @CML @闰土 @do @Jerry
+[@bob-chen](https://github.com/bob-chen) [@HangChengJian](https://github.com/HangChengJian) [@bedphp](https://github.com/bedphp) [@FZliweiliang](https://github.com/FZliweiliang) [@mozbia](https://github.com/mozbia) [@ghfkui](https://github.com/ghfkui) @CML @闰土 @do @Jerry
 
 ## 2025 / 06 / 30
 

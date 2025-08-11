@@ -112,7 +112,7 @@
 
 [创意表情](https://www.leaferjs.com/ui/guide/install/ui/miniapp/start.html#%E9%87%87%E7%94%A8-uniapp-%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%8E%9F%E7%94%9F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A1%88%E4%BE%8B) <badge>DIY 有趣的微信表情</badge> @goosen
 
-[Lazyva 懒画](https://canvas.lazykit.cn) <badge>在线设计工具（支持移动端）</badge> @ozar
+[Lazyva 懒画](https://lazyva.com) <badge>在线设计工具（支持移动端）</badge> @ozar
 
 [简单设计](https://jiandan.link) <badge>免费在线设计、图片处理工具</badge> @Ove🚀
 
