@@ -32,7 +32,7 @@ Box &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./
 
 如何显示超出宽高的内容，默认为 'show' 。
 
-设置 'scroll' 类型时， 需安装 scroller 滚动条插件才能生效（即将上线）。
+设置 'scroll' 类型时， 需安装 Box 滚动条插件才能使用（即将上线）。
 
 ```ts
 type IOverflow =
@@ -54,6 +54,31 @@ type IOverflow =
 ### scrollY: `number`
 
 内部元素在 y 轴上的滚动量。
+
+### scrollConfig: [`IScrollConfig`](/api/interfaces/IScrollConfig.md)
+
+滚动条的样式、功能配置，需安装 Box 滚动条插件才能使用（即将上线）。
+
+```ts
+interface IScrollConfig {
+  theme?: IScrollTheme // 滚动条主题， 可自定义注册
+  style?: IBoxInputData // 滚动条样式，支持Box元素的外观样式
+  size?: number // 滚动条的size
+  cornerRadius?: number // 滚动条的圆角，默认取size的一半
+  endsMargin?: number // 滚动条两端的间距
+  sideMargin?: number // 滚动条两侧的间距
+  minSize?: number // 最小显示size
+  scaleFixed?: IScaleFixed // 缩放时是否固定原有比例
+  scrollType?: 'drag' | 'move' | 'both' // 滚动类型，move表示只支持MoveEvent事件滚动，drag表示只支持拖拽滚动条的DragEvent事件滚动
+  stopDefault?: boolean // 是否阻止默认视图滚动
+  hideOnActionEnd?: boolean | 'hover' | 'scroll' // 操作结束时是否自动隐藏
+}
+
+type IScrollTheme = 'light' | 'dark' | (string & {})
+
+// 缩放时是否固定原有比例，zoom-in表示仅在放大时固定比例（缩小时仍跟随缩小）
+type IScaleFixed = boolean | 'zoom-in'
+```
 
 ## 编辑属性
 

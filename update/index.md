@@ -2,13 +2,27 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
-## 2025 / 08 / 08
+## 2025 / 08 / 11
 
-> v1.9.2
+> v1.9.3
 
 #### 🍇 社区
 
-scroller 滚动条插件已开发完成，下周上线 🎉🎉🎉
+[Box 滚动条](https://www.pxgrow.com/docs/plugin/official/scroller/index.html) 官方增强插件，预计明天下午正式上线 🎉🎉🎉
+
+#### 🌱 新增
+
+\- 🌸 [Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 增加 [scrollConfig](/reference/display/Box.md#scrollconfig-iscrollconfig) 滚动条配置属性
+
+\- 🌸 编辑器配置增加 [beforeEditOuter](/plugin/in/editor/config/event.md#beforeeditouter-ieditoreditouterdata) / [beforeEditInner](/plugin/in/editor/config/event.md#beforeeditouter-ieditoreditouterdata) 钩子配置，可修改打开编辑工具的逻辑
+
+#### 🌷 感谢反馈
+
+@CML
+
+## 2025 / 08 / 08
+
+> v1.9.2
 
 #### 🌱 新增
 

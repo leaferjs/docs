@@ -59,6 +59,38 @@ beforeSelect(data) {
 }
 ```
 
+### beforeEditOuter: [`IEditorEditOuterData`](/api/interfaces/IEditorEditOuterData.md)
+
+打开元素编辑工具 [editOuter](/reference/UI/editable.md#editouter-string) 的前置钩子函数。
+
+参数 data 为 `{ target, name }`, name 为将打开的编辑工具名称，如 'EditTool'。
+
+返回 `false` 时将忽略本次打开操作，返回 字符串 时将修改 name，直接打开指定的编辑工具。
+
+```ts
+beforeEditOuter(data) {
+    const { target, name } = data // target 为 app.editor.element
+    return true // return false | name
+}
+```
+
+### beforeEditInner: [`IEditorEditInnerData`](/api/modules.md#ieditoreditinnerdata)
+
+打开元素内部编辑工具 [editInner](/reference/UI/editable.md#editinner-string) 的前置钩子函数。
+
+参数 data 为 `{ target, name }`, name 为将打开的编辑工具名称，如 'PathEditor'。
+
+返回 `false` 时将忽略本次打开操作，返回 字符串 时将修改 name，直接打开指定的编辑工具。
+
+```ts
+beforeEditInner(data) {
+    const { target, name } = data // target 为打开内部编辑器的目标元素
+    return true // return false | name
+}
+```
+
+---
+
 ### beforeMove: [`IEditorBeforeMove`](/api/interfaces/IEditorBeforeMove.md)
 
 移动元素事件的前置钩子函数。
