@@ -2,19 +2,47 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 08 / 14
+
+> v1.9.4
+
+#### 🌱 新增
+
+\- 🌸 元素属性设为 null 和 undefined 均返回默认值
+
+\- 🌸 Box 内部与世界坐标转换时，增加滚动因子
+
+#### 🪲 修复
+
+\- 🌸 修复鼠标上下滚动视图为大距离时，效果不一致的问题
+
+\- overflow 设为 null 报错的问题
+
+\- Box 滚动条偶发超出区域的问题
+
+\- Box 滚动条取消后，拖动元素可能会超出容器的问题
+
+#### 🌿 优化
+
+\- 🌸 简化外联 Box 滚动逻辑，最大化迁移代码到插件中
+
+#### 🌷 感谢反馈
+
+[@johnnhan](https://github.com/johnnhan) [@littleTigerRunRunRun](https://github.com/littleTigerRunRunRun) @dev_chen @SaltedFish @Jerry
+
 ## 2025 / 08 / 11
 
 > v1.9.3
 
 #### 🍇 社区
 
-[Box 滚动条](https://www.pxgrow.com/docs/plugin/official/scroller/index.html) 官方增强插件，预计明天下午正式上线 🎉🎉🎉
+[Box 滚动条](https://www.pxgrow.com/plugin/view/?id=10003) 官方增强插件已上线 🎉🎉🎉
 
 #### 🌱 新增
 
 \- 🌸 [Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 增加 [scrollConfig](/reference/display/Box.md#scrollconfig-iscrollconfig) 滚动条配置属性
 
-\- 🌸 编辑器配置增加 [beforeEditOuter](/plugin/in/editor/config/event.md#beforeeditouter-ieditoreditouterdata) / [beforeEditInner](/plugin/in/editor/config/event.md#beforeeditouter-ieditoreditouterdata) 钩子配置，可修改打开编辑工具的逻辑
+\- 🌸 编辑器配置增加 [beforeEditOuter](/plugin/in/editor/config/event.md#beforeeditouter-ieditoreditouterdata) / [beforeEditInner](/plugin/in/editor/config/event.md#beforeeditouter-ieditoreditouterdata) 钩子，可修改打开编辑工具的逻辑
 
 #### 🌷 感谢反馈
 
