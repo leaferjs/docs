@@ -50,6 +50,8 @@
 
 ## 场景案例
 
+[leafer-flow](https://github.com/2992362310/leafer-flow) [预览](https://2992362310.github.io/leafer-flow/) <badge>类 excalidraw 产品方向</badge> [@GDO](https://github.com/2992362310/leafer-flow)
+
 [俄罗斯方块小游戏](https://bgyh2003.github.io/tetris_page/) [@小唐](https://github.com/bgyh2003)
 
 [luminous 在线画板](https://luminous.xjq.icu/) [@xjq7](https://github.com/xjq7)
@@ -165,6 +167,8 @@
 [leafer-x-guide-line](http://afdian.com/item/d2f62a74b13611ef99b75254001e7c00) <badge>吸附线插件</badge> [@毛豆花生](http://afdian.com/a/huaisheng)
 
 #### 新版
+
+[leafer-x-polyline-editor](https://www.npmjs.com/package/leafer-x-polyline-editor) <badge>折线编辑插件</badge> @johnnhan
 
 [leafer-x-easy-snap](https://www.npmjs.com/package/leafer-x-easy-snap) <badge>吸附插件(加强版)</badge> @Rainbow
 

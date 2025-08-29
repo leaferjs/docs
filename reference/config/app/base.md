@@ -18,6 +18,16 @@
 
 引擎运行中修改 [leafer.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
 
+### maxFPS: `number`
+
+设置最高渲染帧率， 默认与当前显示器的刷新频率一致（一般为每秒 60 帧，最高 120 帧）。
+
+降低渲染帧率可以节省性能开销，建议设置成能被 60 整除的数字，如 30、20、15。
+
+:::tip 注意事项
+[App 结构](/guide/advanced/app.md) 下需设置在 [子层 Leafer](/reference/display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
+:::
+
 ### usePartRender: `boolean`
 
 是否使用 局部渲染， 默认为 true。

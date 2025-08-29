@@ -15,7 +15,7 @@ hero:
       text: 快速上手
       link: /guide/
     - theme: alt
-      text: 前往官网
+      text: 网站首页
       link: https://www.leaferjs.com
 
 features:

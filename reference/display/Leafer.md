@@ -26,9 +26,13 @@ App 实例, 如果不存在则是自身。
 
 获取/修改画布宽度。
 
+设为空值时，将自动布局（以实际 canvas 标签的父级 div 或其他标签，作为自动布局的容器）。
+
 ### height: `number`
 
 获取/修改画布高度。
+
+设为空值时，将自动布局（以实际 canvas 标签的父级 div 或其他标签，作为自动布局的容器）。
 
 ### pixelRatio: `number`
 
@@ -96,7 +100,9 @@ App 实例, 如果不存在则是自身。
 
 ## FPS：`number`
 
-实时渲染帧率，默认为 60 帧。
+实时渲染帧率， 默认与当前显示器的刷新频率一致（一般为每秒 60 帧，最高 120 帧）。
+
+引擎支持配置 [maxFPS](/reference/config/app/base.md#maxfps-number) 来控制最高渲染帧率，节省性能开销。
 
 ### layoutLocked: `boolean`
 

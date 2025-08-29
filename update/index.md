@@ -2,6 +2,52 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 08 / 28
+
+> v1.9.5
+
+#### 🍇 社区
+
+\- 🌸 [leafer-x-polyline-editor](https://www.npmjs.com/package/leafer-x-polyline-editor) <badge>折线编辑插件</badge> @johnnhan
+
+\- 🌸 [leafer-flow](https://github.com/2992362310/leafer-flow) [预览](https://2992362310.github.io/leafer-flow/) <badge>类 excalidraw 产品方向</badge> [@GDO](https://github.com/2992362310/leafer-flow)
+
+#### 🌱 新增
+
+\- 🌸 应用支持配置 [maxFPS](/reference/config/app/base.md#maxfps-number) 来控制最高渲染帧率，节省性能开销
+
+\- 🌸 应用的 [width](/reference/display/Leafer.md#width-number) / [height](/reference/display/Leafer.md#width-number) 支持重新设置为空值，进行自动布局
+
+\- 🌸 箭头支持通过 [registerArrow()](/plugin/in/arrow/index.md#registerarrow-name-string-data-ipathdataarrow) 注册自定义箭头样式，预留箭头比例缩放功能
+
+\- 增加 [path()](/plugin/in/arrow/index.md#注册自定义箭头样式) 方法，用于快速创建的 [PathCreator](/reference/path/PathCreator.md) 实例，可以像 Canvas 2D 一样 绘制路径
+
+#### 🪲 修复
+
+\- 🌸 箭头元素编辑线跟 Line 元素不一致的问题
+
+\- 🌸 points 箭头存在圆角时，箭头方向有问题
+
+\- 修复 v1.9.2 之后应用多次缩放会产生偏移的问题
+
+\- Node 端图片绘制锯齿的问题 [#561](https://github.com/leaferjs/leafer-ui/issues/561)
+
+\- 销毁应用时偶发 canvasManager 未定义的问题
+
+#### 🌿 优化
+
+\- 🌸 应用 zoom 放大、缩小定位在有规律的刻度上 [#584](https://github.com/leaferjs/leafer-ui/issues/584)
+
+\- 🌸 优化 svg 图片渲染，底层按整数倍预渲染，避免产生杂色加深线条
+
+\- 优化 arcTo 圆角折线 转路径的精确性
+
+\- 元素初始化参数类型转移到 TS 声明中，减少实体代码
+
+#### 🌷 感谢反馈
+
+[@johnnhan](https://github.com/johnnhan) [@bedphp](https://github.com/bedphp) [@ml-bright](https://github.com/ml-bright) [@Han-JuZhongRen](https://github.com/Han-JuZhongRen) [@ZeeLyn](https://github.com/ZeeLyn) [@chenyomi](https://github.com/chenyomi) @dev_chen @小小城 @hyh
+
 ## 2025 / 08 / 14
 
 > v1.9.4

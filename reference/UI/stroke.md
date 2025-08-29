@@ -91,15 +91,15 @@ interface IStrokeStyle {
 
 // 蚂蚁线效果
 rect.stroke = [
-    {type: 'solid', color: 'white'}, // 第二个描边为虚线
-    {type: 'solid', color: 'black', style: {  dashPattern: [3, 3] }}
+    {type: 'solid', color: 'white'},
+    {type: 'solid', color: 'black', style: {  dashPattern: [3, 3] }} // 第二个描边为虚线
 ]
 
 // 模拟内中外三层描边效果
 rect.stroke = [
-    {type: 'solid', color: 'white'}, // 多个描边宽度
+    {type: 'solid', color: 'blue', style: {  strokeWidth: 10 }},
     {type: 'solid', color: 'black', style: {  strokeWidth: 5 }},
-    {type: 'solid', color: 'blue', style: {  strokeWidth: 10 }}
+    {type: 'solid', color: 'white'}, // 多个描边宽度
 ]
 ```
 
