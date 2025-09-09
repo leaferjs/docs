@@ -31,9 +31,24 @@ App &nbsp;>&nbsp; [Leafer](./Leafer.md) &nbsp;>&nbsp; [Group](./Group.md) &nbsp;
 
 是否为 App 实例， 默认为 true 。
 
-### children: `Leafer`[]
+### children: [`Leafer`](./Leafer.md)[]
 
 子 Leafer 引擎列表。
+
+### mode: [`ILeaferMode`](/api/modules.md#ileafermode)
+
+设置应用的交互模式，默认为 normal，[查看示例](#绘制模式)。
+
+设为 'draw' 将进入绘制模式/绘画模式，此时会停用[图形编辑器](/plugin/in/editor/index.md)，图形元素不再响应交互事件。
+
+设为 'preview' 将进入预览模式，此时会停用[图形编辑器](/plugin/in/editor/index.md)，图形元素仍可响应交互事件。
+
+```ts
+type ILeaferMode =
+  | 'normal' // 正常模式
+  | 'draw' // 绘制模式
+  | 'preview' // 预览模式
+```
 
 ## 统一结构
 
@@ -111,6 +126,13 @@ App 默认可以通过 [add()](/reference/display/App.md#add-leafer-leafer) 方�
 
 <<< @/code/plugin/editor/frame/origin.ts [实现原理]
 
+:::
+
+### 绘制模式
+
+::: code-group
+<<< @/code/plugin/editor/create-mode.ts
+<<< @/code/plugin/editor/create-mode.js
 :::
 
 <!-- ## 继承元素

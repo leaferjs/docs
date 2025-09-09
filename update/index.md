@@ -2,6 +2,36 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 09 / 08
+
+> v1.9.6
+
+#### 🍇 社区
+
+\- 🌸 [Web-Sport-Data-Overlay](https://github.com/dalang911/Web-Sport-Data-Overlay) [视频介绍](https://www.bilibili.com/video/BV1m9fEYRE6u/?vd_source=24e87517eebd755a4ebf44acdddf2781) <badge>在线制作运动数据视频</badge> [@浪先生](https://github.com/dalang911)
+
+#### 🌱 新增
+
+\- 🌸 App 增加 [mode](/reference/display/App.md#mode-ileafermode) 属性，可设置进入绘制/绘画模式、预览模式
+
+\- 🌸 文本 [textDecoration](/reference/display/Text.md#textdecoration-itextdecoration) 下划线对象支持 offset 属性
+
+\- 支持扩展阴影变形高级插件（斜切、旋转）
+
+#### 🪲 修复
+
+\- 🌸 boxStyle 非初始化时设置 fill 对象不能生效的问题
+
+#### 🌿 优化
+
+\- 🌸 导出图片后，及时清理已回收的临时画布，节省内存
+
+\- 完善编辑器 resize 操作时的 dragBounds 限制效果
+
+#### 🌷 感谢反馈
+
+[@mozbia](https://github.com/mozbia) [@ml-bright](https://github.com/ml-bright) [@kekesita](https://github.com/kekesita) [@szw321127](https://github.com/szw321127)
+
 ## 2025 / 08 / 28
 
 > v1.9.5

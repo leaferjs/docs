@@ -32,7 +32,7 @@ Frame &nbsp;>&nbsp; [Box](./Box.md) &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](
 
 如何显示超出宽高的内容，默认为 hide。
 
-设置 'scroll' 类型时， 需安装 scroller 滚动条插件才能生效（即将上线）。
+设置 'scroll' 类型时， 需安装 [Box 滚动条高级插件](https://www.pxgrow.com/plugin/view/?id=10003)。
 
 ```ts
 type IOverflow =

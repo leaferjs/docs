@@ -84,8 +84,6 @@ from: {
 
 ## 子描边属性
 
-## 子描边属性
-
 ### style?: [`IStrokeStyle`](/api/interfaces/IStrokeStyle.md)
 
 当为元素设置多个描边时，可设置子描边样式 `style` ，用于覆盖 [主描边样式](/reference/UI/stroke.md#描边样式属性)。

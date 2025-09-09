@@ -50,6 +50,8 @@
 
 ## 场景案例
 
+[Web-Sport-Data-Overlay](https://github.com/dalang911/Web-Sport-Data-Overlay) [预览](https://www.bilibili.com/video/BV1m9fEYRE6u/?vd_source=24e87517eebd755a4ebf44acdddf2781) <badge>在线制作运动数据视频</badge> [@浪先生](https://github.com/dalang911)
+
 [leafer-flow](https://github.com/2992362310/leafer-flow) [预览](https://2992362310.github.io/leafer-flow/) <badge>类 excalidraw 产品方向</badge> [@GDO](https://github.com/2992362310/leafer-flow)
 
 [俄罗斯方块小游戏](https://bgyh2003.github.io/tetris_page/) [@小唐](https://github.com/bgyh2003)

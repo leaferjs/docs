@@ -102,6 +102,7 @@ type ITextDecoration =
 interface ITextDecorationData {
   type: ITextDecorationType // 装饰线类型 under / delete / under-delete
   color: IColor // 装饰线颜色
+  offset?: number // 下划线的偏移距离，为了不影响显示，有最小值和最大值限制。
 }
 
 // 使用类型
@@ -109,6 +110,9 @@ text.textDecoration = 'under' // 下划线
 
 // 使用对象
 text.textDecoration = { type: 'under', color: 'red' } // 标红的下划线
+
+// 下划线偏移
+text.textDecoration = { type: 'under', color: 'red', offset: -2 }
 ```
 
 ### letterSpacing: `number` | `IUnitData`

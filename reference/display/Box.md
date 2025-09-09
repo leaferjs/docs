@@ -32,7 +32,7 @@ Box &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./
 
 如何显示超出宽高的内容，默认为 'show' 。
 
-设置 'scroll' 类型时， 需安装 Box 滚动条插件才能使用（即将上线）。
+设置 'scroll' 类型时， 需安装 [Box 滚动条高级插件](https://www.pxgrow.com/plugin/view/?id=10003)。
 
 ```ts
 type IOverflow =
@@ -57,7 +57,7 @@ type IOverflow =
 
 ### scrollConfig: [`IScrollConfig`](/api/interfaces/IScrollConfig.md)
 
-滚动条的样式、功能配置，需安装 Box 滚动条插件才能使用（即将上线）。
+滚动条的样式、功能配置，需安装 [Box 滚动条高级插件](https://www.pxgrow.com/plugin/view/?id=10003)。
 
 ```ts
 interface IScrollConfig {
