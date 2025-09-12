@@ -28,6 +28,7 @@ enum Direction9 {
 
 ```ts
 type IEditPointType =
+  | 'move' // 移动按钮
   | 'rotate' // 旋转按钮
   | 'resize' // resize 按钮
   | 'resize-rotate' // reisze + 旋转按钮

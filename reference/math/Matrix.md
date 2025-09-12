@@ -64,6 +64,10 @@ y 轴坐标（矩阵原点），默认为 0。
 
 从外部视图缩放矩阵， 直接修改 a,b,c,d。
 
+### pixelScale( pixelRatio: `number`): [`Matrix`](/api/classes/Matrix.md)
+
+放大 pixelRatio 比例，a,b,c,d,e,f 均与 pixelRatio 相乘，一般用于抹平画布像素比差异的场景。
+
 ### scaleOfOuter ( origin: [`IPointData`](/api/interfaces/IPointData.md), scaleX: `number`, scaleY = scaleX ): [`Matrix`](/api/classes/Matrix.md)
 
 以外部视图坐标 origin 为原点，缩放矩阵。

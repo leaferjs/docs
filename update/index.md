@@ -2,6 +2,36 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 09 / 11
+
+> v1.9.7
+
+#### 🍇 社区
+
+\- 🌸 [突出显示元素官方插件](/plugin/in/bright/index.md) 发布 🎉🎉🎉
+
+\- 🌸 裁剪图片高级插件明天正式发布
+
+\- 🌸 阴影变形高级插件（斜切、旋转） 明天进入内测阶段
+
+\- web 端后台渲染高级插件明天进入公测阶段
+
+#### 🌱 新增
+
+\- 🌸 元素增加 [bright](/reference/UI/bright.md) 属性，用于突出显示，并置顶渲染元素，可结合 [dim](/reference/UI/dim.md) 淡化其他元素
+
+\- 🌸 编辑器增加 [bright](/plugin/in/editor/config/style.md#bright-boolean)、 [dimOthers](/plugin/in/editor/config/style.md#bright-boolean) 配置，可突出显示选中元素，淡化其他内容
+
+\- 🌸 编辑器 point 控制点和 [resizeLine](/plugin/in/editor/config/style.md#resizeline-iboxinputdata) 控制线的 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 支持配置为 move 类型
+
+\- 增加 Platform.render(canvas, options) 方法，支持同时收集并渲染置顶元素
+
+\- Matrix 增加 [pixelScale()](/reference/math/Matrix.md#pixelscale-pixelratio-number-matrix) 方法，用于抹平画布像素比差异的场景
+
+#### 🌷 感谢反馈
+
+@闰土 @CML
+
 ## 2025 / 09 / 08
 
 > v1.9.6

@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.9.6/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.9.6/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.9.7/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.9.7/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.9.6/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.9.6/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.9.7/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.9.7/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
@@ -94,9 +94,13 @@ bun add @leafer-in/resize
 
 设置 hover 状态的元素， 默认通过 [编辑选择器](/plugin/in/editor/config/select.md#selector-boolean) 自动选取 [editable](/reference/UI/editable.md) 元素。
 
-### targetLeafer: [Leafer](/reference/display/Leafer.md)
+### targetLeafer: [`Leafer`](/reference/display/Leafer.md)
 
 第一个目标元素所在的 leafer 实例层（只读）。
+
+### dimTarget: [`Group`](/reference/display/Group.md) | [`Group`](/reference/display/Group.md) []
+
+指定编辑器 [dimOthers](/plugin/in/editor/config/style.md#bright-boolean) 配置的容器节点，用于确定淡化内容的范围，支持数组，默认为 `targetLeafer`。
 
 ### mergeConfig: [`IEditorConfig`](/plugin/in/editor/config/base.md)
 

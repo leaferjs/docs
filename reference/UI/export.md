@@ -23,7 +23,7 @@ options 为数字时表示图片质量， 为布尔时表示二进制数据 。
 :::tip 注意事项
 [Leafer](/reference/display/Leafer.md) 引擎默认导出为内容（非画布），想导出画布需要增加 `screenshot` 截图参数。
 
-<del>单独导出 [App](/reference/display/App.md) 实例，只能为画面截图。</del> <badge>v1.9.6 之后不再限制</badge>
+<del>单独导出 [App](/reference/display/App.md) 实例，只能为画面截图。</del> <badge>v1.9.7 之后不再限制</badge>
 :::
 
 ```ts
