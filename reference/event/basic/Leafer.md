@@ -100,6 +100,22 @@ app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
 
 `leafer.skew`
 
+### 交互模式
+
+### LeaferEvent.UPDATE_MODE
+
+Leafer 实例的 [mode](/reference/display/App.md#mode-ileafermode) 交互模式变化事件。
+
+app 应用结构需在 app 上监听此事件。
+
+`leafer.update_mode`
+
+```ts
+app.on_(LeaferEvent.UPDATE_MODE, (data: { mode: ILeaferMode }) => {
+  if (data.mode && data.mode !== 'normal') this.cancel()
+})
+```
+
 <!-- ## 继承事件
 
 ### [Event](./Event.md) -->

@@ -1,6 +1,6 @@
 # bright
 
-突出显示元素，置顶渲染，可与[dim](./dim.md) 淡化元素属性结合使用，适用于产品拆解演示等场景。
+突出显示元素，置顶渲染，可与 [dim](/reference/UI/dim.md) 淡化元素属性结合使用，适用于产品拆解演示等场景。
 
 另外图形编辑器配置 [bright](/plugin/in/editor/config/style.md#bright-boolean)、 [dimOthers](/plugin/in/editor/config/style.md#bright-boolean)，可突出显示选中元素，淡化其他内容。
 

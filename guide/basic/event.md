@@ -44,29 +44,30 @@ rect.emit('pointer.enter', { current: rect })
 
 ## 了解元素交互属性
 
-| 名称                                                                        | 描述                                                                                                                                                        |
-| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 交互                                                                        |                                                                                                                                                             |
-| [hittable](/reference/UI/hit.md)                                            | 元素是否响应鼠标、触摸或其他指针设备的交互事件，类似 CSS 的 pointer-events 属性                                                                             |
-| [hitChildren](/reference/UI/hitChildren.md)                                 | 进一步定义元素子级的可交互性                                                                                                                                |
-| [hitSelf](/reference/UI/hitSelf.md)                                         | 进一步定义自身（不含子元素）的可交互性                                                                                                                      |
-| [hitFill](/reference/UI/hitFill.md)                                         | 进一步定义元素 [fill](/reference/UI/fill.md) 的可交互性，设置 pixel 可以进行 PNG / SVG 图片的像素级检测，过滤掉透明像素                                     |
-| [hitStroke](/reference/UI/hitStroke.md)                                     | 进一步定义元素 [stroke](/reference/UI/stroke.md) 的可交互性                                                                                                 |
-| [editable](/reference/UI/editable.md)                                       | 是否允许编辑，需安装 [图形编辑器插件](/plugin/in/editor/index.md)                                                                                           |
-| [draggable](/reference/UI/draggable.md)                                     | 是否允许拖拽                                                                                                                                                |
-| [dragBounds](/reference/UI/dragBounds.md)                                   | 限制元素的拖动范围                                                                                                                                          |
-| [cursor](/reference/UI/cursor.md)                                           | hover 到元素上时，显示的光标样式，支持所有 [CSS 的光标名称](https://developer.mozilla.org/zh-CN/docs/Web/CSS/cursor)                                        |
-| 状态                                                                        |                                                                                                                                                             |
-| [states](/reference/UI/state/state.md#states-istates)                       | 状态列表，可预设复杂多样的元素、游戏状态，用于随时切换， 支持添加 [过渡效果](/reference/UI/transition.md)，需安装 [交互状态插件](/plugin/in/state/index.md) |
-| [state](/reference/UI/state/state.md#state-string)                          | 当前状态，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                                                  |
-| [button](/reference/UI/state/state.md#button-boolean)                       | 设为按钮，子元素将自动同步交互状态，如 state、hover、press...，需安装 [交互状态插件](/plugin/in/state/index.md)                                             |
-| [hoverStyle](/reference/UI/state/hover.md#hoverstyle-iuiinputdata)          | 光标移入时的交互样式， 移出后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                     |
-| [pressStyle](/reference/UI/state/press.md#pressstyle-iuiinputdata)          | 光标按下时的交互样式， 抬起后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                     |
-| [focusStyle](/reference/UI/state/focus.md#focusstyle-iuiinputdata)          | 元素 focus() 时的聚焦样式， 失去焦点后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                                            |
-| [selected](/reference/UI/state/selected.md#selected-boolean)                | 是否选中，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                                                  |
-| [selectedStyle](/reference/UI/state/selected.md#selectedstyle-iuiinputdata) | 元素 `selected` 设为 true 时的选中样式， `selected` 设为 false 后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                 |
-| [disabled](/reference/UI/state/disabled.md#disabled-boolean)                | 是否禁用，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                                                  |
-| [disabledStyle](/reference/UI/state/disabled.md#disabledstyle-iuiinputdata) | 元素 `disabled` 设为 true 时的禁用样式， `disabled` 设为 false 后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                 |
+| 名称                                                                         | 描述                                                                                                                                                        |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 交互                                                                         |                                                                                                                                                             |
+| [hittable](/reference/UI/hit.md)                                             | 元素是否响应鼠标、触摸或其他指针设备的交互事件，类似 CSS 的 pointer-events 属性                                                                             |
+| [hitChildren](/reference/UI/hitChildren.md)                                  | 进一步定义元素子级的可交互性                                                                                                                                |
+| [hitSelf](/reference/UI/hitSelf.md)                                          | 进一步定义自身（不含子元素）的可交互性                                                                                                                      |
+| [hitFill](/reference/UI/hitFill.md)                                          | 进一步定义元素 [fill](/reference/UI/fill.md) 的可交互性，设置 pixel 可以进行 PNG / SVG 图片的像素级检测，过滤掉透明像素                                     |
+| [hitStroke](/reference/UI/hitStroke.md)                                      | 进一步定义元素 [stroke](/reference/UI/stroke.md) 的可交互性                                                                                                 |
+| [editable](/reference/UI/editable.md)                                        | 是否允许编辑，需安装 [图形编辑器插件](/plugin/in/editor/index.md)                                                                                           |
+| [draggable](/reference/UI/draggable.md)                                      | 是否允许拖拽                                                                                                                                                |
+| [dragBounds](/reference/UI/dragBounds.md)                                    | 限制元素的拖动范围                                                                                                                                          |
+| [dragBoundsType](/reference/UI/dragBounds.md#dragboundstype-idragboundstype) | 拖动范围类型，是在元素的外面还是里面                                                                                                                        |
+| [cursor](/reference/UI/cursor.md)                                            | hover 到元素上时，显示的光标样式，支持所有 [CSS 的光标名称](https://developer.mozilla.org/zh-CN/docs/Web/CSS/cursor)                                        |
+| 状态                                                                         |                                                                                                                                                             |
+| [states](/reference/UI/state/state.md#states-istates)                        | 状态列表，可预设复杂多样的元素、游戏状态，用于随时切换， 支持添加 [过渡效果](/reference/UI/transition.md)，需安装 [交互状态插件](/plugin/in/state/index.md) |
+| [state](/reference/UI/state/state.md#state-string)                           | 当前状态，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                                                  |
+| [button](/reference/UI/state/state.md#button-boolean)                        | 设为按钮，子元素将自动同步交互状态，如 state、hover、press...，需安装 [交互状态插件](/plugin/in/state/index.md)                                             |
+| [hoverStyle](/reference/UI/state/hover.md#hoverstyle-iuiinputdata)           | 光标移入时的交互样式， 移出后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                     |
+| [pressStyle](/reference/UI/state/press.md#pressstyle-iuiinputdata)           | 光标按下时的交互样式， 抬起后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                     |
+| [focusStyle](/reference/UI/state/focus.md#focusstyle-iuiinputdata)           | 元素 focus() 时的聚焦样式， 失去焦点后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                                            |
+| [selected](/reference/UI/state/selected.md#selected-boolean)                 | 是否选中，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                                                  |
+| [selectedStyle](/reference/UI/state/selected.md#selectedstyle-iuiinputdata)  | 元素 `selected` 设为 true 时的选中样式， `selected` 设为 false 后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                 |
+| [disabled](/reference/UI/state/disabled.md#disabled-boolean)                 | 是否禁用，需安装 [交互状态插件](/plugin/in/state/index.md)                                                                                                  |
+| [disabledStyle](/reference/UI/state/disabled.md#disabledstyle-iuiinputdata)  | 元素 `disabled` 设为 true 时的禁用样式， `disabled` 设为 false 后自动还原，需安装 [交互状态插件](/plugin/in/state/index.md)                                 |
 
 ## 了解元素事件方法
 

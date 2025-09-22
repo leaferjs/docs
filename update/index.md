@@ -8,13 +8,13 @@
 
 #### 🍇 社区
 
-\- 🌸 [突出显示元素官方插件](/plugin/in/bright/index.md) 发布 🎉🎉🎉
+\- 🌸 [突出显示元素-官方插件](/plugin/in/bright/index.md) 发布 🎉🎉🎉
 
-\- 🌸 裁剪图片高级插件明天正式发布
+\- 🌸 [裁剪图片-专业插件](https://www.pxgrow.com/plugin/view/?id=10000) 正式发布 🎉🎉🎉
 
-\- 🌸 阴影变形高级插件（斜切、旋转） 明天进入内测阶段
+\- 🌸 [阴影变形-增强插件](https://www.pxgrow.com/plugin/view/?id=10005) 进入内测阶段
 
-\- web 端后台渲染高级插件明天进入公测阶段
+\- [后台运行-增强插件](https://www.pxgrow.com/plugin/view/?id=10004) 进入公测阶段
 
 #### 🌱 新增
 

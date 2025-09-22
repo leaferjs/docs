@@ -97,6 +97,10 @@
 
 [shadow](/reference/UI/shadow.md) &nbsp; &nbsp; [innerShadow](/reference/UI/innerShadow.md)
 
+### 淡化 / 突出
+
+[dim](/reference/UI/dim.md) &nbsp; &nbsp; [bright](/reference/UI/bright.md)
+
 ### 裁剪 / 擦除
 
 [clip](/reference/UI/clip.md) &nbsp; &nbsp; [mask](/reference/UI/mask.md) &nbsp; &nbsp; [eraser](/reference/UI/eraser.md)

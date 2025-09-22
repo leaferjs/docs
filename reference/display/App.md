@@ -37,11 +37,13 @@ App &nbsp;>&nbsp; [Leafer](./Leafer.md) &nbsp;>&nbsp; [Group](./Group.md) &nbsp;
 
 ### mode: [`ILeaferMode`](/api/modules.md#ileafermode)
 
-设置应用的交互模式，默认为 normal，[查看示例](#绘制模式)。
+设置应用的交互模式， 默认为 normal，[查看示例](#绘制模式)。
 
 设为 'draw' 将进入绘制模式/绘画模式，此时会停用[图形编辑器](/plugin/in/editor/index.md)，图形元素不再响应交互事件。
 
 设为 'preview' 将进入预览模式，此时会停用[图形编辑器](/plugin/in/editor/index.md)，图形元素仍可响应交互事件。
+
+修改模式时会触发 [LeaferEvent.UPDATE_MODE](/reference/event/basic/Leafer.md#leaferevent-update-mode) 事件。
 
 ```ts
 type ILeaferMode =

@@ -88,7 +88,7 @@ to: {x: 0.5, y: 1} // 底部居中
 
 ### opacity?: `number`
 
-不透明度，默认为 1，暂时仅针对渐变色标中 color 为 [颜色对象](/reference/interface/ui/Color.md#rgb) 有效。
+不透明度，默认为 1，渐变色标中 color 为非 [颜色对象](/reference/interface/ui/Color.md#rgb) 时需安装 [color 插件](/plugin/in/color/) 才能生效。
 
 ## 子描边属性
 
@@ -134,6 +134,6 @@ to: {x: 0.5, y: 1} // 底部居中
 
 一般用于多个填充做叠加效果。
 
-opacity 暂时只对 color 为 [颜色对象](/reference/interface/ui/Color.md#rgb) 有效， 或直接使用 `rgba(255,75,75,0,5)` 字符串颜色。
+color 为 [颜色对象](/reference/interface/ui/Color.md#rgb) 时 opacity 直接生效， 为非 [颜色对象](/reference/interface/ui/Color.md#rgb) 时需安装 [color 插件](/plugin/in/color/) 才能生效， 或直接使用 `rgba(255,75,75,0,5)` 字符串颜色。
 
 <<< @/code/property/fill/angular/opacity.ts

@@ -1,6 +1,6 @@
 # dim
 
-淡化元素（半透明），可与[bright](./bright.md) 突出元素属性结合使用，适用于产品拆解演示等场景。
+淡化元素（半透明），可与 [bright](/reference/UI/bright.md) 突出元素属性结合使用，适用于产品拆解演示等场景。
 
 另外图形编辑器配置 [bright](/plugin/in/editor/config/style.md#bright-boolean)、 [dimOthers](/plugin/in/editor/config/style.md#bright-boolean)，可突出显示选中元素，淡化其他内容。
 
@@ -20,7 +20,7 @@
 
 跳过淡化，突出显示元素，但不会置顶渲染，默认为 false。
 
-如需置顶渲染可用 [bright](./bright.md) 属性。
+如需置顶渲染可用 [bright](/reference/UI/bright.md) 属性。
 
 ## 归属
 

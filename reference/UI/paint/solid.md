@@ -30,7 +30,7 @@ import Case from '/component/Case.vue'
 
 ### opacity?: `number`
 
-不透明度，默认为 1，暂时仅针对 color 为 [颜色对象](/reference/interface/ui/Color.md#rgb) 有效。
+不透明度，默认为 1， color 为非 [颜色对象](/reference/interface/ui/Color.md#rgb) 时需安装 [color 插件](/plugin/in/color/) 才能生效。
 
 ## 子描边属性
 
