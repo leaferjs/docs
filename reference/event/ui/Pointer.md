@@ -162,21 +162,21 @@ out 事件。
 
 ### pressure: `number`
 
-按压的压力值，取值范围: 0 ～ 1.
+按压的压力值，取值范围: 0 ～ 1。
 
 ### tangentialPressure?: `number`
 
-pen（手写笔） 按压的切向压力值，取值范围: -1 ～ 1.
+pen（手写笔） 按压的切向压力值，取值范围: -1 ～ 1。
 
-当 pointerType 为 'pen' 时才存在此属性.
+当 pointerType 为 'pen' 时才存在此属性。
 
 ### tiltX?: `number`
 
-pen 与 y 轴构成的平面，和 y-z 平面之间的夹角， 取值范围: -90, 90.
+pen 与 y 轴构成的平面，和 y-z 平面之间的夹角， 取值范围: -90, 90。
 
 ### tiltY?: `number`
 
-pen 与 x 轴构成的平面，和 x-z 平面之间的夹角， 取值范围: -90, 90.
+pen 与 x 轴构成的平面，和 x-z 平面之间的夹角， 取值范围: -90, 90。
 
 ### twist?: `number`
 
@@ -184,7 +184,7 @@ pen 围绕自身主轴顺时针旋转的角度，取值范围是 [0, 359] 度。
 
 ### isCancel: `boolean`
 
-是否为取消（原生事件 pointer.cancel 或其他原因导致的取消）触发的 PointerEvent.UP 事件
+是否为取消（原生事件 pointer.cancel 或其他原因导致的取消）触发的 PointerEvent.UP 事件。
 
 ## 转换坐标方法
 

@@ -17,19 +17,19 @@ MoveEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Point
 
 ### MoveEvent.START
 
-开始移动事件
+开始移动事件。
 
 `move.start`
 
 ### MoveEvent.MOVE
 
-移动事件
+移动事件。
 
 `move`
 
 ### MoveEvent.END
 
-结束移动事件
+结束移动事件。
 
 `move.end`
 
@@ -37,15 +37,23 @@ MoveEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Point
 
 ### moveType: `'move'` | `'drag'`
 
-移动视图的类型，drag 表示通过拖拽事件移动，move 表示通过滚轮、双指滑动事件移动
+移动视图的类型，drag 表示通过拖拽事件移动，move 表示通过滚轮、双指滑动事件移动。
 
 ### moveX: `number`
 
-此次移动事件偏移的 X 轴距离（世界坐标）
+此次移动事件偏移的 X 轴距离（世界坐标）。
 
 ### moveY: `number`
 
-此次移动事件偏移的 Y 轴距离（世界坐标）
+此次移动事件偏移的 Y 轴距离（世界坐标）。
+
+### totalX: `number`
+
+本轮移动事件偏移的 X 轴总距离（世界坐标）。
+
+### totalY: `number`
+
+本轮移动事件偏移的 Y 轴总距离（世界坐标）。
 
 ### multiTouch: `boolean`
 
@@ -66,6 +74,22 @@ moveX, moveY 属性的转换。
 ### getLocalMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
 
 获取事件相对于 relative 元素 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 的偏移距离，relative 元素不存在时为当前侦听元素。
+
+### 移动总距离
+
+totalX, totalY 属性的转换。
+
+### getPageTotal ( ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+
+获取事件在 page 坐标系中的总偏移距离。
+
+### getInnerTotal ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+
+获取事件相对于 relative 元素 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 的总偏移距离，relative 元素不存在时为当前侦听元素。
+
+### getLocalTotal ( relative: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+
+获取事件相对于 relative 元素 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 的总偏移距离，relative 元素不存在时为当前侦听元素。
 
 <!-- ## 继承事件
 

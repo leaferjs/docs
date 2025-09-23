@@ -17,27 +17,31 @@ ZoomEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEv
 
 ### ZoomEvent.START
 
-开始缩放事件
+开始缩放事件。
 
 `zoom.start`
 
 ### ZoomEvent.ZOOM
 
-缩放事件
+缩放事件。
 
 `zoom`
 
 ### ZoomEvent.END
 
-结束缩放事件
+结束缩放事件。
 
 `zoom.end`
 
 ## 关键属性
 
-### scale: number
+### scale: `number`
 
-此次缩放事件改变的 scale 大小
+此次缩放事件改变的 scale 大小。
+
+### totalScale: `number`
+
+本轮缩放事件改变的 scale 总大小。
 
 ### multiTouch: `boolean`
 

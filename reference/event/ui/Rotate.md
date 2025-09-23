@@ -17,19 +17,19 @@ RotateEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UI
 
 ### RotateEvent.START
 
-开始旋转事件
+开始旋转事件。
 
 `rotate.start`
 
 ### RotateEvent.ROTATE
 
-旋转事件
+旋转事件。
 
 `rotate`
 
 ### RotateEvent.END
 
-结束旋转事件
+结束旋转事件。
 
 `rotate.end`
 
@@ -37,7 +37,11 @@ RotateEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UI
 
 ### rotation: `number`
 
-此次旋转事件改变的角度
+此次旋转事件改变的角度。
+
+### totalRotation: `number`
+
+本轮旋转事件改变的总角度。
 
 ### multiTouch: `boolean`
 

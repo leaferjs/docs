@@ -2,6 +2,52 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 09 / 22
+
+> v1.9.8
+
+#### 🌱 新增
+
+\- 🌸 应用多点触屏配置增加 [singleGesture](/reference/config/app/multiTouch.md#multitouch-singlegesture-boolean-isinglegestureconfig) 属性，用于识别并锁定单一手势操作
+
+\- 🌸 手势移动、缩放、旋转元素支持兼容吸附、限制逻辑
+
+\- 🌸 [MoveEvent](/reference/event/ui/Move.md#totalx-number) / [ZoomEvent](/reference/event/ui/Zoom.md) / [RotateEvent](/reference/event/ui/Rotate.md#totalrotation-number) 增加 total 属性，记录总的变化值
+
+\- 元素属性 [renderSpread](/reference/UI/bounds.md#renderspread-ifournumber) 支持按四个方向单独扩张渲染包围盒
+
+<!-- \- 增加 FourNumberHelper 辅助器， 可对 4 个方向的数字做运算处理 -->
+
+\- ['clipping-path'](/reference/UI/mask.md#mask-boolean-imasktype) 遮罩类型支持显示外描边
+
+\- 图形编辑器增加 [diagonalRotateKey](/plugin/in/editor/config/event.md#diagonalrotatekey-ishortcutkeyscheck) 配置，支持自定义对角旋转的快捷键
+
+#### 🪲 修复
+
+\- 🌸 裁剪 svg 图片拉伸后，清晰度未同步更新的问题
+
+\- 🌸 hoverStyle 未引入动画插件时，不会还原的问题
+
+\- 🌸 最新版 firefox 中，在 head 中引入 script 初始化时访问 body 会报错
+
+\- 图形编辑器 beforeSelect 阻止前执行了功能代码，导致 dimOthers 阻止取消元素会闪一下
+
+\- 文本 autoSizeAlign 为 false 时编辑文本会跳动的问题
+
+\- 销毁应用，报 mode 错误的问题
+
+#### 🌿 优化
+
+\- 🌸 优化渲染帧率控制、采样，避免掉帧
+
+\- 🌸 重构阴影、渲染边界，支持按四个方向单独扩张，紧贴元素
+
+\- 🌸 阴影投影形状采用 strokeRenderBounds, 减少投影区域并避免 offset 太大导致阴影模糊
+
+#### 🌷 感谢反馈
+
+[@mozbia](https://github.com/mozbia) [@ml-bright](https://github.com/ml-bright) [@johnnhan](https://github.com/johnnhan) [@yunxifd](https://github.com/yunxifd) [@margin666](https://github.com/margin666) [@szw321127](https://github.com/szw321127) [@dawumusic](https://github.com/dawumusic) [@thiszhangjin](https://github.com/thiszhangjin) @毛豆花生 @索鸟 @Rainbow @闰土 @dev_chen @hhzzcc
+
 ## 2025 / 09 / 11
 
 > v1.9.7
@@ -294,7 +340,7 @@
 
 \- Group 增加 [childlessJSON](/reference/display/Group.md#childlessjson-boolean) 属性，自定义元素时可配置不导出子元素 JSON
 
-\- 元素增加 [renderSpread](/reference/UI/bounds.md#renderspread-number) 属性，可强制扩大渲染边界，防止文本等渲染边界测量不正确导致花屏
+\- 元素增加 [renderSpread](/reference/UI/bounds.md#renderspread-ifournumber) 属性，可强制扩大渲染边界，防止文本等渲染边界测量不正确导致花屏
 
 \- 🌸 元素增加 [isAutoWidth](/reference/UI/size.md#isautowidth-boolean)、[isAutoHeight](/reference/UI/size.md#isautowidth-boolean) 属性，用于判断是否为自动宽高
 

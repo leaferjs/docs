@@ -38,11 +38,15 @@ rotateKey(event) {
 }
 ```
 
-<!-- ### dualEvent: `boolean`
+### diagonalRotateKey: [IShortcutKeysCheck](/api/interfaces/IShortcutKeysCheck.md)
 
-是否派发双重事件， 默认为 false。
+对角旋转的快捷键钩子函数。
 
-开启后，首次点击元素时，元素可以接收 tap 等鼠标事件。 -->
+```ts
+diagonalRotateKey(event) {
+    return event.shiftKey // 默认值
+}
+```
 
 ### beforeSelect: [`IEditorBeforeSelect`](/api/interfaces/IEditorBeforeSelect.md)
 

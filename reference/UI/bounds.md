@@ -50,9 +50,16 @@
 
 ## 辅助属性
 
-### renderSpread: `number`
+### renderSpread: [`IFourNumber`](/reference/interface/math/Math.md#ifournumber)
 
 强制扩大渲染边界数值，防止文本等渲染边界测量不正确导致花屏, 默认为 0。
+
+```ts
+renderSpread: [20, 10, 20, 10] // [top, right, bottom, left]
+renderSpread: [20, 10, 20] // [top, (right-left), bottom]
+renderSpread: [20, 10] // [ (top-bottom), (right-left)]
+renderSpread: 20 // all
+```
 
 ### 其他
 

@@ -14,19 +14,19 @@ DragEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEv
 
 ### DragEvent.START
 
-开始拖动事件
+开始拖动事件.
 
 `drag.start`
 
 ### DragEvent.DRAG
 
-拖动事件中
+拖动事件中.
 
 `drag`
 
 ### DragEvent.END
 
-结束拖动事件
+结束拖动事件.
 
 `drag.end`
 
@@ -62,19 +62,19 @@ DragEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEv
 
 ### moveX: `number`
 
-拖动事件偏移的 X 轴距离（世界坐标）
+拖动事件偏移的 X 轴距离（世界坐标）.
 
 ### moveY: `number`
 
-拖动事件偏移的 Y 轴距离（世界坐标）
+拖动事件偏移的 Y 轴距离（世界坐标）.
 
 ### totalX: `number`
 
-本轮拖动事件偏移的 X 轴总距离（世界坐标）
+本轮拖动事件偏移的 X 轴总距离（世界坐标）.
 
 ### totalY: `number`
 
-本轮拖动事件偏移的 Y 轴总距离（世界坐标）
+本轮拖动事件偏移的 Y 轴总距离（世界坐标）.
 
 ## 转换坐标方法
 

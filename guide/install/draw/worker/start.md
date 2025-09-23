@@ -41,11 +41,11 @@ bun add @leafer-draw/worker
 ::: code-group
 
 ```js [worker.min.js]
-importScripts('https://unpkg.com/@leafer-draw/worker@1.9.7/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer-draw/worker@1.9.8/dist/worker.min.js')
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-draw/worker@1.9.7/dist/worker.js')
+importScripts('https://unpkg.com/@leafer-draw/worker@1.9.8/dist/worker.js')
 ```
 
 :::

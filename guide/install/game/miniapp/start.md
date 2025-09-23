@@ -42,9 +42,9 @@ bun add @leafer-game/miniapp
 
 ```sh
 
-https://unpkg.com/@leafer-game/miniapp@1.9.7/dist/miniapp.module.js
+https://unpkg.com/@leafer-game/miniapp@1.9.8/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-game/miniapp@1.9.7/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-game/miniapp@1.9.8/dist/miniapp.module.min.js
 
 
 ```

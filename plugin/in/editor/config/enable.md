@@ -53,3 +53,7 @@ import Case from '/component/Case.vue'
 ### 禁用缩放
 
 <<< @/code/plugin/editor/config/resizeable.ts
+
+### 移动端手势操作元素
+
+<<< @/code/plugin/editor/config/gesture.ts
