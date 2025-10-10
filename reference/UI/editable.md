@@ -93,3 +93,7 @@ Text 默认为: `'TextEditor'`，可自定义 [内部编辑器](/plugin/in/edito
 ### editable 元素才能被选中
 
 <<< @/code/plugin/editor/editable.ts
+
+### editable 元素单独配置 hover 编辑样式
+
+<<< @/code/plugin/editor/editable/hover.ts

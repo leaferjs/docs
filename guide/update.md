@@ -54,7 +54,7 @@ bun update leafer-ui @leafer-in/editor ... # 插件包必须放在主包之后
 
 ## 版本号
 
-当前最新版本为： [v1.9.10](/update/index.md)
+当前最新版本为： [v1.9.11](/update/index.md)
 
 ```ts
 import { version } from 'leafer-ui'
