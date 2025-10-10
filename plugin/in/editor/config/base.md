@@ -46,6 +46,14 @@ scale： 修改元素的 **缩放属性** 达到调整大小的目的。
 
 是否隐藏四周的旋转控制点。
 
+### 像素对齐
+
+### ignorePixelSnap: `boolean`
+
+忽略选中元素对齐像素，可防止 [对齐像素](/reference/config/app/base.md#对齐像素) 造成编辑操作抖动。
+
+注意： sky 层必须配置 [pixelSnap](/reference/config/app/base.md#对齐像素) 为 false，否则编辑框仍会抖动。
+
 ## 示例
 
 ### 拖拽控制点修改字体大小，拖拽边框控制文本宽高

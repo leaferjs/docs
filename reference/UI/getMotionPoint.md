@@ -2,6 +2,8 @@
 
 运动路径上指定位置的 坐标点。
 
+可结合 [motionPath](/reference/UI/motionPath.md)、[motion](/reference/UI/motion.md)、 [getMotionTotal()](/reference/UI/getMotionTotal.md)。
+
 ::: tip 注意事项
 需安装 [运动路径插件](/plugin/in/motion-path/index.md) 才能使用。
 :::

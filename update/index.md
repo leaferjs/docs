@@ -8,27 +8,25 @@
 
 #### 🍇 社区
 
-\- 🌸 [裁剪图片-专业插件](https://www.pxgrow.com/plugin/view/?id=10000) v1.0.4 发布，支持裁剪 Image、Line、Path 等元素 🎉🎉🎉
+\- 🌸 [裁剪图片-专业插件](https://www.pxgrow.com/plugin/view/?id=10000) v1.0.4 发布，支持 Image、Line、Path 等元素 🎉🎉🎉
 
 #### 🌱 新增
 
 \- 🌸 元素的编辑器配置 [editConfig](/reference/UI/editable.md#editconfig-ieditorconfig) 支持独立设置 hover / hoverStyle，可立即生效
 
-<!-- svg 无法直接显示 html 实体字符，内部解码为 unicode 显示 -->
-
 \- 🌸 Image 元素支持进入 Rect 元素模式，url 属性值需为空，导出 json 时才会包含 fill 属性
+
+\- 🌸 HTMLText 增加 [decodeText()](/plugin/in/html/index.md#decodetext-text-string-string)、[addUnicodeEntity()](/plugin/in/html/index.md#addunicodeentity-entity-string-iobject-unicode-string) 方法，用于转换实体字符
 
 \- 元素 [get()](/reference/UI/data.md#get-name-string-ivalue) 方法支持类型提示
 
-\- 编辑器单选元素后，移动元素事件支持冒泡给编辑框及上级父元素
+\- 图形编辑器增加 [rectThrough](/plugin/in/editor/config/style.md#rectthrough-boolean) 配置，可配置交互事件是否可穿透 rect 区域
 
-\- 编辑器增加配置 rectThrough，可配置交互事件是否可穿透 rect 区域
-
-\- 编辑器增加配置 ignorePixelSnap，防止使用 [对齐像素](/reference/config/app/base.md#对齐像素) 后造成操作抖动
+\- 图形编辑器增加 [ignorePixelSnap](/plugin/in/editor/config/base.md#ignorepixelsnap-boolean) 配置，防止 [对齐像素](/reference/config/app/base.md#对齐像素) 后造成编辑操作抖动
 
 #### 🪲 修复
 
-\- 🌸 HTMLText 元素不支持常用 html 实体字符的问题，如空格 &nbsp 等
+\- 🌸 HTMLText 元素不支持常用 html 实体字符的问题，如空格 &nbsp 等;
 
 \- 🌸 编辑器 lockRatio 锁定比例并镜像时会不断抖动的问题
 
@@ -39,6 +37,10 @@
 \- 修复阴影 spread 为负数时，放大元素后阴影有留白的问题
 
 \- 自动宽高的 SVG 图片裁剪后横向拉伸会模糊的问题
+
+#### 🌿 优化
+
+\- 🌸 编辑器单选元素后，移动元素事件支持冒泡给编辑框 editBox 及上级元素
 
 #### 🌷 感谢反馈
 

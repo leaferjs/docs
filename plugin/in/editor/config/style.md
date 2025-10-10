@@ -84,6 +84,10 @@ point: [
 
 设置编辑框的样式（会继承基础样式）。
 
+### rectThrough: `boolean`
+
+交互事件是否可穿透 rect 区域，默认为 true。
+
 ### area: [`IRectInputData`](/reference/display/Rect.md)
 
 框选区域的样式（会继承基础样式）。
