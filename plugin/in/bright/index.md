@@ -31,11 +31,11 @@ bun add @leafer-in/bright
 ::: code-group
 
 ```html [bright.min]
-<script src="https://unpkg.com/@leafer-in/bright@1.9.11/dist/bright.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/bright@1.9.12/dist/bright.min.js"></script>
 ```
 
 ```html [bright]
-<script src="https://unpkg.com/@leafer-in/bright@1.9.11/dist/bright.js"></script>
+<script src="https://unpkg.com/@leafer-in/bright@1.9.12/dist/bright.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->

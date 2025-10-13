@@ -41,14 +41,14 @@ bun add @leafer-in/arrow
 ::: code-group
 
 ```html [arrow.min]
-<script src="https://unpkg.com/@leafer-in/arrow@1.9.11/dist/arrow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.9.12/dist/arrow.min.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
 ```
 
 ```html [arrow]
-<script src="https://unpkg.com/@leafer-in/arrow@1.9.11/dist/arrow.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@1.9.12/dist/arrow.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
