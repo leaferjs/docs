@@ -221,6 +221,9 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢前来支�
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 5px;">
   <a target="_blank" href="">
+    <img width="40" style="border-radius:20px" title="ARAM" src="https://api.pxgrow.com/uploads/avatar/3Pv/P26/zw/u.jpg" />
+  </a>
+  <a target="_blank" href="">
     <img width="40" style="border-radius:20px" title="Winning" src="https://www.pxgrow.com/image/user/default/4.jpg" />
   </a>
   <a target="_blank" href="">
@@ -387,6 +390,18 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢前来支�
 ## 铜牌赞助
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
+  <a target="_blank" href="">
+    用户3wTwAz3x
+  </a>
+  <a target="_blank" href="">
+    用户zw8T39zC
+  </a>
+  <a target="_blank" href="">
+    稀饭、微凉
+  </a>
+  <a target="_blank" href="">
+    用户CzP9SCT4
+  </a>
   <a target="_blank" href="https://www.haozhuji.net">
     便宜VPS服务器
   </a>
