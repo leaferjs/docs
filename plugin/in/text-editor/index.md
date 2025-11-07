@@ -55,14 +55,14 @@ bun add @leafer-in/text-editor
 ::: code-group
 
 ```html [text-editor.min]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.9.12/dist/text-editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.10.0/dist/text-editor.min.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
 ```
 
 ```html [text-editor]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.9.12/dist/text-editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.10.0/dist/text-editor.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
@@ -78,12 +78,15 @@ bun add @leafer-in/text-editor
 
 文本编辑器配置。
 
-可监听 [InnerEditorEvent.BEFORE_OPEN](/plugin/in/editor/event/InnerEditorEvent.md) 事件，提前配置 app.editor.innerEditor.config。
+打开文本编辑器后，可直接通过 app.editor.innerEditor 访问到 文本编辑器实例 。
 
 ```ts
 interface ITextEditorConfig {
   selectAll: boolean // 是否自动全选文本，默认为true
 }
+
+// 配置文本编辑器，v1.10.0 开始支持
+app.editor.getInnerEditor('TextEditor').config.selectAll = false
 ```
 
 ### editDom: `HTMLDivElement`

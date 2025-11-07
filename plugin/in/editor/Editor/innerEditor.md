@@ -2,6 +2,15 @@
 
 ## 关键方法
 
+### getInnerEditor ( name: `string` ): [`innerEditor`](/plugin/in/editor/Editor/display.md)
+
+获取内部编辑器实例（单例），name 为内部编辑器的名称。
+
+```ts
+// 配置文本编辑器
+app.editor.getInnerEditor('TextEditor').config.selectAll = false
+```
+
 ### openInnerEditor( target?: [`UI`](/reference/display/UI.md), nameOrSelect?: `string`, select?: `boolean`)
 
 打开元素的内部编辑器。

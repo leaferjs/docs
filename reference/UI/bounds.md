@@ -86,7 +86,7 @@ renderSpread: 20 // all
 获取元素的 OBB 包围盒（边界）的四个坐标点 [topLeft, topRight, bottomRight, bottomLeft]。
 
 ```ts
-type ILocationType = 'world' | 'local' | 'inner' // 坐标体系
+type ILocationType = 'world' | 'page' | 'local' | 'inner' // 坐标体系
 type IBoundsType = 'content' | 'box' | 'stroke' | 'margin' | 'render' // 边界类型
 
 rect.getBounds('box', 'local')

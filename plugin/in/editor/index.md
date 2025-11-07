@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@1.9.12/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.9.12/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.10.0/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.10.0/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@1.9.12/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.9.12/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@1.10.0/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.10.0/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
@@ -155,6 +155,7 @@ mergeConfig 的缓存，频繁访问不会有性能问题。
 | [openGroup()](/plugin/in/editor/Editor/group.md)              | 打开组， 模拟双击打开组的功能                                                                                                               |
 | [closeGroup()](/plugin/in/editor/Editor/group.md)             | 关闭组，关闭双击打开的组                                                                                                                    |
 | 内部编辑                                                      |                                                                                                                                             |
+| [getInnerEditor()](/plugin/in/editor/Editor/innerEditor.md)   | 获取内部编辑器实例                                                                                                                          |
 | [openInnerEditor()](/plugin/in/editor/Editor/innerEditor.md)  | 打开元素的内部编辑器                                                                                                                        |
 | [closeInnerEditor()](/plugin/in/editor/Editor/innerEditor.md) | 关闭内部编辑器                                                                                                                              |
 | 锁定                                                          |                                                                                                                                             |
@@ -166,6 +167,8 @@ mergeConfig 的缓存，频繁访问不会有性能问题。
 | 更新                                                          |                                                                                                                                             |
 | [update()](/plugin/in/editor/Editor/update.md)                | 手动更新编辑器的布局、样式等                                                                                                                |
 | [updateEditBox()](/plugin/in/editor/Editor/update.md)         | 手动更新编辑框，使其贴合元素，一般用于多选元素对齐后操作。                                                                                  |
+| 编辑工具                                                      |                                                                                                                                             |
+| [getEditTool()](/plugin/in/editor/Editor/update.md)           | 获取编辑工具实例                                                                                                                            |
 | [updateEditTool()](/plugin/in/editor/Editor/update.md)        | 更新编辑工具，选择元素后自动调用此方法                                                                                                      |
 | 变换                                                          |                                                                                                                                             |
 | [move()](/plugin/in/editor/Editor/transform.md)               | 位移选中元素 <badge>增量操作</badge>                                                                                                        |

@@ -41,3 +41,7 @@ https://nextjs.org/docs/pages/building-your-application/optimizing/lazy-loading#
 ### 小程序交互事件偶尔失效
 
 小程序 onLoad 事件时可能画布的大小和 clientRect 还未定型，导致获取到错误的响应区域，可 setTimeout 延时创建 Leafer，即可解决。
+
+### node 版渲染内容为空
+
+skia-canvas 的最新版本有兼容性问题， 目前只支持 2.x 版本。

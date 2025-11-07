@@ -2,9 +2,47 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 11 / 07
+
+> v1.10.0
+
+#### 🍇 社区
+
+\- 🌸 [光速引擎系列插件](https://www.pxgrow.com/?#plugin) 即将陆续发布~
+
+\- 🌸 [leafer-unified](https://www.npmjs.com/package/leafer-unified) 安装一个包，同时支持 leafer 的 web 和 node 版本 [@kooriookami](https://github.com/kooriookami)
+
+#### 🌱 新增
+
+\- 🌸 [textAlign](/reference/display/Text.md#textalign-itextalign) 属性新增 'justify-letter'、'both-letter' 字符级两端对齐类型
+
+\- 编辑器 [resizeLine](/plugin/in/editor/config/style.md#resizeline-iboxinputdata-iboxinputdata) 配置支持数组，可以单独设置每条控制边的样式
+
+\- 编辑器增加 [getEditTool()](/plugin/in/editor/Editor/update.md) 、[getInnerEditor()](/plugin/in/editor/Editor/innerEditor.md) 方法，可直接获取编辑工具、内部编辑器实例
+
+#### 🪲 修复
+
+\- 🌸 修复编辑器 hideOnMove 配置在移动端双指移动、旋转、缩放不会隐藏的问题
+
+\- 🌸 修复 Box 里面的元素比自己大时，且 Box 有旋转，会导致拾取元素不正
+
+\- 修复直线改用 EditTool 工具操作会报错的问题
+
+\- 修改编辑器配置 rect 透明度设为 0 之后不会还原的问题
+
+#### 🌿 优化
+
+\- 🌸 重构 PaintImage 等内部图片绘制逻辑
+
+\- 🌸 优化绘制原图性能
+
+#### 🌷 感谢反馈
+
+[@mozbia](https://github.com/mozbia) [@johnnhan](https://github.com/johnnhan) [@1LEFT](https://github.com/1LEFT) [@kekesita](https://github.com/kekesita) [@bgyh2003](https://github.com/bgyh2003) [@hcweb](https://github.com/hcweb) [@parox2014](https://github.com/parox2014) [@szw321127](https://github.com/szw321127) [@kekesita](https://github.com/kekesita) [@kooriookami](https://github.com/kooriookami) @闰土 @goosen
+
 ## 2025 / 10 / 13
 
-> v1.9.12
+> v1.9.12（稳定版）
 
 #### 🪲 修复
 

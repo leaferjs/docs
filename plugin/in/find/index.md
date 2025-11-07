@@ -31,11 +31,11 @@ bun add @leafer-in/find
 ::: code-group
 
 ```html [find.min]
-<script src="https://unpkg.com/@leafer-in/find@1.9.12/dist/find.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/find@1.10.0/dist/find.min.js"></script>
 ```
 
 ```html [find]
-<script src="https://unpkg.com/@leafer-in/find@1.9.12/dist/find.js"></script>
+<script src="https://unpkg.com/@leafer-in/find@1.10.0/dist/find.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->

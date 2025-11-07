@@ -12,7 +12,7 @@ import Case from '/component/Case.vue'
 
 ### type: `string`
 
-填充类型为 `radial`。
+填充类型为 `angular`。
 
 ### from?: [`IAlign`](/api/modules.md#ialign) | [`IUnitPointData`](/api/interfaces/IUnitPointData.md)
 

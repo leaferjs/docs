@@ -188,8 +188,10 @@ type ITextAlign =
   | 'left' // 左对齐
   | 'center' // 居中对齐
   | 'right' // 右对齐
-  | 'justify' // 两端对齐段落
-  | 'both' // 强制两端对齐文本，补充 justify 的不足
+  | 'justify' // 两端对齐段落，最后一行会忽略对齐
+  | 'justify-letter' // 增加字符的间距来实现两端对齐
+  | 'both' // 强制两端对齐文本，补充 justify 的不足，每一行都会对齐
+  | 'both-letter' // 增加字符的间距来实现强制两端对齐
 ```
 
 ### verticalAlign: `IVerticalAlign`

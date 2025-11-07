@@ -30,7 +30,7 @@ bun add @leafer-ui/node
 
 ## skia &nbsp;｜&nbsp; [napi](./napi.md#skia-napi)
 
-[skia-canvas](https://www.npmjs.com/package/skia-canvas) 用于在服务端环境中替代 Canvas 的功能， 底层基于 skia，需单独安装，安装编译时间会比较长，请耐心等待。
+[skia-canvas](https://www.npmjs.com/package/skia-canvas) 用于在服务端环境中替代 Canvas 的功能， 底层基于 skia，需单独安装，安装编译时间会比较长，请耐心等待，注意 skia-canvas 目前只支持 2.x 版本。
 
 ::: code-group
 

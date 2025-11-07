@@ -74,11 +74,15 @@ point: [
 
 并支持通过设置 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
 
-### resizeLine: [`IBoxInputData`](/reference/display/Box.md)
+### resizeLine: [`IBoxInputData`](/reference/display/Box.md) ｜ [`IBoxInputData`](/reference/display/Box.md)[]
 
 设置编辑框四周的隐藏控制线样式，可通过设置 `height` 来控制线条的粗细，默认为 10px。
 
 并支持通过设置 [pointType](/plugin/in/editor/EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
+
+```ts
+resizeLine: [{ pointType: 'move' }, {}], // 限制只能左右拉伸
+```
 
 ### rect: [`IBoxInputData`](/reference/display/Box.md)
 
