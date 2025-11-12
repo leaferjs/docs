@@ -2,13 +2,35 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 11 / 12
+
+> v1.10.1
+
+#### 🍇 社区
+
+\- 🌸 [光速引擎 · Viewport Lighter 插件](https://www.pxgrow.com/?#plugin) 开始公测 🎉🎉🎉，复杂画布流畅缩放～
+
+\- 🌸 [光速引擎 · Image Lighter 插件](https://www.pxgrow.com/?#plugin) 开始公测 🎉🎉🎉，超大图浏览、编辑不卡～
+
+#### 🪲 修复
+
+\- 🌸 文本设置了填充对象，但是 visible 都为 false 时报错的问题
+
+\- 🌸 裁剪模式下，图片放大后绘制原图未进行裁剪的问题
+
+#### 🌿 优化
+
+\- 🌸 重构内部计算 paint，去除冗余属性，节省内存占用
+
+#### 🌷 感谢反馈
+
+[@Xdy1579883916](https://github.com/Xdy1579883916) [@bgyh2003](https://github.com/bgyh2003)
+
 ## 2025 / 11 / 07
 
 > v1.10.0
 
 #### 🍇 社区
-
-\- 🌸 [光速引擎系列插件](https://www.pxgrow.com/?#plugin) 即将陆续发布~
 
 \- 🌸 [leafer-unified](https://www.npmjs.com/package/leafer-unified) 安装一个包，同时支持 leafer 的 web 和 node 版本 [@kooriookami](https://github.com/kooriookami)
 
@@ -24,11 +46,11 @@
 
 \- 🌸 修复编辑器 hideOnMove 配置在移动端双指移动、旋转、缩放不会隐藏的问题
 
-\- 🌸 修复 Box 里面的元素比自己大时，且 Box 有旋转，会导致拾取元素不正
+\- 🌸 修复 Box 里面的元素比自己大时，且 Box 有旋转，会导致拾取元素不准的问题
 
-\- 修复直线改用 EditTool 工具操作会报错的问题
+\- 修复直线改用 EditTool 工具后，操作会报错的问题
 
-\- 修改编辑器配置 rect 透明度设为 0 之后不会还原的问题
+\- 修改编辑器配置 rect 透明度为 0 后，不会还原的问题
 
 #### 🌿 优化
 
