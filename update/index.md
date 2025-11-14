@@ -10,7 +10,7 @@
 
 \- 🌸 [光速引擎 · Viewport Lighter 插件](https://www.pxgrow.com/?#plugin) 开始公测 🎉🎉🎉，复杂画布流畅缩放～
 
-\- 🌸 [光速引擎 · Image Lighter 插件](https://www.pxgrow.com/?#plugin) 开始公测 🎉🎉🎉，超大图浏览、编辑不卡～
+\- 🌸 [光速引擎 · Image Lighter 插件](https://www.pxgrow.com/?#plugin) 开始公测 🎉🎉🎉，超大图浏览编辑不卡～
 
 #### 🪲 修复
 
