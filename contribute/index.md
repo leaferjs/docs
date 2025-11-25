@@ -170,6 +170,8 @@
 
 #### 新版
 
+[leafer-x-effect-text](https://www.npmjs.com/package/leafer-x-effect-text) 多层文字特效 @Rainbow
+
 [leafer-unified](https://www.npmjs.com/package/leafer-unified) 安装一个包，同时支持 leafer 的 web 和 node 版本 [@kooriookami](https://github.com/kooriookami)
 
 [leafer-x-polyline-editor](https://www.npmjs.com/package/leafer-x-polyline-editor) <badge>折线编辑插件</badge> @johnnhan

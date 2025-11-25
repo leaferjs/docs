@@ -2,6 +2,44 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 11 / 25
+
+> v1.11.0
+
+更新文档正在努力完善中...
+
+#### 🍇 社区
+
+\- 🌸 [WL Draw 开源白板应用](https://github.com/warmeaf/wl-draw) 🎉🎉🎉 [预览地址](https://warmeaf.github.io/wl-draw/) @暖叶
+
+\- 🌸 [钢笔工具专业插件](https://www.pxgrow.com/?#plugin) 即将发布，支持可视化路径创建与编辑～
+
+#### 🌱 新增
+
+\- 🌸 添加适合可视化编辑的路径节点命令接口 IPathCommandNode
+
+\- 🌸 PointerEvent.MOVE 事件增加 [dragging](/reference/event/ui/Pointer.md#dragging-boolean) 、[moving](/reference/event/ui/Pointer.md#dragging-boolean) 状态属性
+
+\- 文本编辑器 editDom 增加一个默认 className(.leafer-text-editor)
+
+\- 图形编辑器增加 getItem() 方法
+
+\- Point 类 getDistancePoint() 方法增加从 to 开始出发的计算参数
+
+\- Point 增加 isSame() 判断方法
+
+#### 🪲 修复
+
+\- 🌸 修复箭头反复切换有无，偶发不能更新渲染的问题
+
+\- 修复空文本情况设置 selectAll，双击进入编辑报错
+
+\- 优化 overflow 值异常时会报错的问题
+
+#### 🌷 感谢反馈
+
+[@Xdy1579883916](https://github.com/Xdy1579883916) [@johnnhan](https://github.com/johnnhan) @暖叶 @xiaou @洋葱
+
 ## 2025 / 11 / 12
 
 > v1.10.1

@@ -186,6 +186,16 @@ pen 围绕自身主轴顺时针旋转的角度，取值范围是 [0, 359] 度。
 
 是否为取消（原生事件 pointer.cancel 或其他原因导致的取消）触发的 PointerEvent.UP 事件。
 
+## 辅助属性
+
+### dragging: `boolean`
+
+当前是否处于拖拽状态，仅适用于 PointerEvent.MOVE 事件。
+
+### moving: `boolean`
+
+当前是否处于拖动视图状态，仅适用于 PointerEvent.MOVE 事件。
+
 ## 转换坐标方法
 
 x, y 属性的转换。
