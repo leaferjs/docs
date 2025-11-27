@@ -76,9 +76,17 @@ y 轴坐标。
 
 获取到目标点 to 的距离。
 
-### getDistancePoint ( to: [`IPointData`](/api/interfaces/IPointData.md), distance:`number`) [`Point`](/api/classes/Point.md)
+### getDistancePoint ( to: [`IPointData`](/api/interfaces/IPointData.md), distance: `number`, changeTo: `boolean`, fromTo: `boolean`) [`Point`](/api/classes/Point.md)
 
 获取到目标点 to 之间指定距离的一个坐标点， 支持获取延长线上的坐标点。
+
+changeTo 表示返回结果赋值到 to 上，节省创建 point 对象开销。
+
+fromTo 表示 distance 从 to 的位置开始算起（默认从当前点开始算起）。
+
+### isSame ( point: [`IPointData`](/api/interfaces/IPointData.md) ): `boolean`
+
+判断是否与另一个 point 相等。
 
 ### reset ():[`Point`](/api/classes/Point.md)
 

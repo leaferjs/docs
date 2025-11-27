@@ -4,29 +4,27 @@
 
 ## 2025 / 11 / 25
 
-> v1.11.0
-
-更新文档正在努力完善中...
+> v1.11.1
 
 #### 🍇 社区
 
 \- 🌸 [WL Draw 开源白板应用](https://github.com/warmeaf/wl-draw) 🎉🎉🎉 [预览地址](https://warmeaf.github.io/wl-draw/) @暖叶
 
-\- 🌸 [钢笔工具专业插件](https://www.pxgrow.com/?#plugin) 即将发布，支持可视化路径创建与编辑～
+\- 🌸 [Path Editor 专业插件](https://www.pxgrow.com/?#plugin) Alpha 版发布，支持可视化创建与编辑路径～
 
 #### 🌱 新增
 
-\- 🌸 添加适合可视化编辑的路径节点命令接口 IPathCommandNode
+\- 🌸 添加适合可视化编辑的路径节点命令接口 [IPathCommandNode](/api/modules.md#ipathcommandnode)
 
 \- 🌸 PointerEvent.MOVE 事件增加 [dragging](/reference/event/ui/Pointer.md#dragging-boolean) 、[moving](/reference/event/ui/Pointer.md#dragging-boolean) 状态属性
 
-\- 文本编辑器 editDom 增加一个默认 className(.leafer-text-editor)
+\- 文本编辑器 [editDom](/plugin/in/text-editor/index.md#editdom-htmldivelement) 默认添加 css 类名：'leafer-text-editor'
 
-\- 图形编辑器增加 getItem() 方法
+\- 图形编辑器增加 getItem( index ) 方法
 
-\- Point 类 getDistancePoint() 方法增加从 to 开始出发的计算参数
+\- Point 类 [getDistancePoint()](/reference/math/Point.md#getdistancepoint-to-ipointdata-distancenumber-changeto-boolean-fromto-boolean-point) 方法增加 distance 从 to 的位置开始算起的可选参数
 
-\- Point 增加 isSame() 判断方法
+\- Point 增加 [isSame()](/reference/math/Point.md#issame-point-ipointdata-boolean) 判断方法
 
 #### 🪲 修复
 

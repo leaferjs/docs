@@ -55,14 +55,14 @@ bun add @leafer-in/text-editor
 ::: code-group
 
 ```html [text-editor.min]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.11.0/dist/text-editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.11.1/dist/text-editor.min.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
 ```
 
 ```html [text-editor]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.11.0/dist/text-editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.11.1/dist/text-editor.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
@@ -85,13 +85,15 @@ interface ITextEditorConfig {
   selectAll: boolean // 是否自动全选文本，默认为true
 }
 
-// 配置文本编辑器，v1.11.0 开始支持
+// 配置文本编辑器，v1.11.1 开始支持
 app.editor.getInnerEditor('TextEditor').config.selectAll = false
 ```
 
 ### editDom: `HTMLDivElement`
 
 编辑文本框，覆盖在画布上的可编辑 dom 元素（用来临时代替文本）。
+
+默认添加了 css 类名：'leafer-text-editor'
 
 <!-- ## 继承
 
