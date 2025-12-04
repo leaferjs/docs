@@ -2,15 +2,35 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
-## 2025 / 11 / 25
+## 2025 / 12 / 1
+
+> v1.11.2
+
+#### 🍇 社区
+
+\- 🌸 [Path Editor 专业插件(钢笔工具)](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.0-beta 版将发布～
+
+#### 🌱 新增
+
+\- 🌸 新增可视化路径节点的控制手柄名称、类型相关外部接口
+
+#### 🌷 感谢反馈
+
+@小志
+
+## 2025 / 11 / 27
 
 > v1.11.1
 
 #### 🍇 社区
 
+\- 🌸 [光速引擎 · Viewport Lighter 插件](https://www.pxgrow.com/?#plugin) v1.0.0 正式版发布 🎉🎉🎉
+
 \- 🌸 [WL Draw 开源白板应用](https://github.com/warmeaf/wl-draw) 🎉🎉🎉 [预览地址](https://warmeaf.github.io/wl-draw/) @暖叶
 
-\- 🌸 [Path Editor 专业插件](https://www.pxgrow.com/?#plugin) Alpha 版发布，支持可视化创建与编辑路径～
+\- 🌸 [leafer-x-effect-text](https://www.npmjs.com/package/leafer-x-effect-text) 功能强大的特效文字插件 [预览地址](https://leafer-x-effect-text.vercel.app/) @Rainbow
+
+\- 🌸 [Path Editor 专业插件](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.0-alpha.2 发布，支持可视化创建与编辑路径～
 
 #### 🌱 新增
 

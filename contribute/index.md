@@ -50,6 +50,8 @@
 
 ## 场景案例
 
+[WL Draw 开源白板应用](https://github.com/warmeaf/wl-draw) 🎉🎉🎉 [预览地址](https://warmeaf.github.io/wl-draw/) @暖叶
+
 [Web-Sport-Data-Overlay](https://github.com/dalang911/Web-Sport-Data-Overlay) [预览](https://www.bilibili.com/video/BV1m9fEYRE6u/?vd_source=24e87517eebd755a4ebf44acdddf2781) <badge>在线制作运动数据视频</badge> [@浪先生](https://github.com/dalang911)
 
 [leafer-flow](https://github.com/2992362310/leafer-flow) [预览](https://2992362310.github.io/leafer-flow/) <badge>类 excalidraw 产品方向</badge> [@GDO](https://github.com/2992362310/leafer-flow)
@@ -170,7 +172,7 @@
 
 #### 新版
 
-[leafer-x-effect-text](https://www.npmjs.com/package/leafer-x-effect-text) 多层文字特效 @Rainbow
+[leafer-x-effect-text](https://www.npmjs.com/package/leafer-x-effect-text) 特效文字插件 [预览地址](https://leafer-x-effect-text.vercel.app/) @Rainbow
 
 [leafer-unified](https://www.npmjs.com/package/leafer-unified) 安装一个包，同时支持 leafer 的 web 和 node 版本 [@kooriookami](https://github.com/kooriookami)
 
