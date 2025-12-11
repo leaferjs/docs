@@ -10,11 +10,11 @@
 
 ### leafList: [`LeafList`](/reference/list/LeafList.md)
 
-当前选中的元素列表对象（只读）， 未选中时为空列表对象.
+当前选中的元素列表对象（只读）， 未选中时为空列表对象。
 
 ### openedGroupList: [`LeafList`](/reference/list/LeafList.md)
 
-当前处于打开状态的组列表对象（只读）， 未选中时为空列表对象.
+当前处于打开状态的组列表对象（只读）， 未选中时为空列表对象。
 
 ## 归属
 

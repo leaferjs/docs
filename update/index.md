@@ -2,13 +2,45 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 12 / 11
+
+> v1.12.0
+
+#### 🍇 社区
+
+\- 🌸 [光速引擎 · Image Lighter 插件](https://www.pxgrow.com/plugin/view/?id=10006) v1.0.0-beta.2 发布 🎉🎉🎉，大图浏览编辑不卡～
+
+\- 🌸 [光速引擎 · Viewport Lighter 插件](https://www.pxgrow.com/?#plugin) v1.0.1 发布，10 万级元素流畅缩放～
+
+\- 🌸 [Path Editor 专业插件 (钢笔工具)](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.0-beta.2 发布，已经完善~
+
+\- [Box 滚动条插件](https://www.pxgrow.com/plugin/view/?id=10003) 即将进入开源阶段 🎉🎉🎉
+
+#### 🌱 新增
+
+\- 🌸 应用新增 [usePartLayout](/reference/config/app/base.md#usepartlayout-boolean) 配置，可自行控制是否开启局部布局进行优化
+
+\- 🌸 应用新增 [useCellRender](/reference/config/app/base.md#usecellrender-boolean) 配置接口，可用于优化大量重复内容覆盖渲染的场景
+
+\- 🌸 文本 [textEditing](/reference/display/Text.md#textediting-boolean) 编辑状态不进行 JSON 导出
+
+#### 🪲 修复
+
+\- 🌸 编辑路径元素 scaleX、scaleY 有差异时，显示路径 hover 描边有问题
+
+\- 图片 url 为空值时异常的问题
+
+#### 🌷 感谢反馈
+
+[@Xdy1579883916](https://github.com/Xdy1579883916) @dev_chen @小志 @张老爷 @李维亮 @岁月 @Jerson Suen @阿问 @Max
+
 ## 2025 / 12 / 1
 
 > v1.11.2
 
 #### 🍇 社区
 
-\- 🌸 [Path Editor 专业插件(钢笔工具)](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.0-beta 版将发布～
+\- 🌸 [Path Editor 专业插件 (钢笔工具)](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.0-beta 版已发布 🎉🎉🎉
 
 #### 🌱 新增
 

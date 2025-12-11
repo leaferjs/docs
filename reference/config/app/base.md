@@ -14,7 +14,7 @@
 
 启动后，可以通过 [app.stop()](/reference/display/Leafer.md#start)、 [app.start()](/reference/display/Leafer.md#start) 手动控制渲染。
 
-## 渲染属性
+## 渲染布局属性
 
 引擎运行中修改 [leafer.config](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
 
@@ -31,6 +31,24 @@
 ### usePartRender: `boolean`
 
 是否使用 局部渲染， 默认为 true。
+
+:::tip 注意事项
+[App 结构](/guide/advanced/app.md) 下需设置在 [子层 Leafer](/reference/display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
+:::
+
+### useCellRender: `boolean`
+
+是否使用 cell 模式渲染， 默认为 false。
+
+可用于优化大量重复内容覆盖渲染的场景，目前为预留接口，需后期开发对应的功能插件。
+
+:::tip 注意事项
+[App 结构](/guide/advanced/app.md) 下需设置在 [子层 Leafer](/reference/display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
+:::
+
+### usePartLayout: `boolean`
+
+是否使用 局部布局， 默认为 true。
 
 :::tip 注意事项
 [App 结构](/guide/advanced/app.md) 下需设置在 [子层 Leafer](/reference/display/Leafer.md) 的 config 上，如 ground、tree、sky 层。

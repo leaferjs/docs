@@ -48,6 +48,8 @@ Text &nbsp;>&nbsp; [UI](./UI.md)
 
 字体， 同 css，多个字体用逗号隔开。
 
+注意：带空格的字体内部需要再加一层引号或删除空格，字体的首个字符不能为数字。
+
 ### fontSize: `number`
 
 文字大小。
@@ -247,6 +249,10 @@ boxStyle: {
 ### resizeFontSize: `boolean`
 
 自动宽高的文本是否通过修改字体大小进行 resize, 默认为 false。
+
+## textEditing: `boolean`
+
+当前文本是否处于编辑状态中（只读），v1.12.0 起不会进行 JSON 导出。
 
 ## 辅助属性
 

@@ -18,7 +18,7 @@
 
 新增一个元素到选中列表。
 
-### removeItem ( item:[`UI`](/reference/display/UI.md) )
+### removeItem ( item: [`UI`](/reference/display/UI.md) )
 
 从选中列表中移出元素。
 
