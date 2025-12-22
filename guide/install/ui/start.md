@@ -10,6 +10,8 @@ import Case from '/component/Case.vue'
 
 在 Web 环境中运行，已适配移动端。
 
+继承了 [跨平台核心包](/guide/install/ui/core/index.md)。
+
 ## 安装
 
 确保你已安装了 [Node.js](https://nodejs.org/zh-cn/)。
@@ -49,7 +51,7 @@ bun add leafer-ui
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-ui@1.12.0/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-ui@1.12.1/dist/web.min.js"></script>
 <script>
   const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui 的所有功能
 
@@ -61,7 +63,7 @@ bun add leafer-ui
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-ui@1.12.0/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-ui@1.12.1/dist/web.js"></script>
 <script>
   const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui的所有功能
 
@@ -74,14 +76,14 @@ bun add leafer-ui
 
 ```html [module.min]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@1.12.0/dist/web.module.min.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@1.12.1/dist/web.module.min.js'
   // ...
 </script>
 ```
 
 ```html [module]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@1.12.0/dist/web.module.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@1.12.1/dist/web.module.js'
   // ...
 </script>
 ```

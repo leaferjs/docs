@@ -2,7 +2,7 @@
 
 LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高效绘图 、UI 交互（小游戏、互动应用、组态）、图形编辑。
 
-[![leaferjs](/svg/leaferjs.svg?d=013007)](/sponsor/index.md)
+[![leaferjs](/svg/leaferjs.svg?d=013007)](/guide/index.md#使命与愿景)
 
 提供了丰富的 UI 绘图元素，和开箱即用的功能，如自动布局、图形编辑、SVG 导出等，方便与 PS、 Figma、Sketch 等产品进行对接。并为跨平台开发提供了统一的交互事件，如拖拽、旋转、缩放手势等。
 
@@ -15,9 +15,9 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 如果你觉得不错，请帮我们点个 [Star](https://github.com/leaferjs/leafer-ui) 🌟 ，让这个库被更多的人看见 ✨ ✨ ✨
 
 <div style="display:flex; gap: 12px">
-<a href="https://gitee.com/leaferjs/leafer-ui" aria-label="gitee"  target="_blank" rel="noopener" >
+<!-- <a href="https://gitee.com/leaferjs/leafer-ui" aria-label="gitee"  target="_blank" rel="noopener" >
     <img width="98"  titel="gitee" src="https://www.leaferjs.com/svg/gitee-stars.svg" />
-</a>
+</a> -->
 <a target="_blank" href="https://github.com/leaferjs/leafer-ui">
   <img width="120" title="github" src="https://www.leaferjs.com/svg/github-stars.svg?d=0912" />
 </a>
@@ -27,7 +27,9 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 **[1. 准备在线 Playground 环境](/guide/runtime.md)**
 
-可通过 **Cloud Studio** 模版创建一个 **LeaferJS 项目**，用于运行、练习后续的示例代码。
+<!-- 可通过 **Cloud Studio** 模版创建一个 **LeaferJS 项目**， -->
+
+用于运行、练习后续的示例代码。
 
 **[2. 学习 LeaferJS 快速入门教程](/guide/basic/leafer.md)**
 

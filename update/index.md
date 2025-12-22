@@ -2,6 +2,18 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2025 / 12 / 22
+
+> v1.12.1
+
+#### 🪲 修复
+
+\- 🌸 Frame / Box 元素 fill 为空且 overflow 为 hide 时会触发偶尔选不中子元素的问题
+
+#### 🌷 感谢反馈
+
+[@mozbia](https://github.com/mozbia) [@lianyuan008](https://github.com/leaferjs/leafer-ui/issues/709) @Logan
+
 ## 2025 / 12 / 11
 
 > v1.12.0
@@ -10,7 +22,7 @@
 
 \- 🌸 [光速引擎 · Image Lighter 插件](https://www.pxgrow.com/plugin/view/?id=10006) v1.0.0-beta.2 发布 🎉🎉🎉，大图浏览编辑不卡～
 
-\- 🌸 [光速引擎 · Viewport Lighter 插件](https://www.pxgrow.com/?#plugin) v1.0.1 发布，10 万级元素流畅缩放～
+\- 🌸 [光速引擎 · Viewport Lighter 插件](https://www.pxgrow.com/plugin/view/?id=10002) v1.0.1 发布，10 万级元素流畅缩放～
 
 \- 🌸 [Path Editor 专业插件 (钢笔工具)](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.0-beta.2 发布，已经完善~
 

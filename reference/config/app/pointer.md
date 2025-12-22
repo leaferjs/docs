@@ -38,7 +38,7 @@ mouse 表示原生 MouseEvent 事件，touch 表示原生 TouchEvent 事件。
 
 ### pointer.through: `boolean`
 
-点击事件是否获取穿透路径，通过穿透路径可以找到被当前元素遮挡的底部元素。
+点击事件是否获取 [穿透路径](/reference/event/ui/UIEvent.md#throughpath-ileaflist)，通过穿透路径可以找到被当前元素遮挡的底部元素。
 
 ### pointer.tapMore: `boolean`
 

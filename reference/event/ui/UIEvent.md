@@ -24,7 +24,9 @@ UIEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 事件穿透的对象列表，不受层级覆盖影响，从上到下只要碰撞到区域就算。
 
-当[配置引擎](/reference/config/app/pointer.md#获取穿透路径)获取穿透列表，且有点击操作时才存在此属性。
+当 [配置引擎](/reference/config/app/pointer.md#获取穿透路径)获取穿透列表，且有点击操作时才存在此属性。
+
+也可以自行通过 [pick()](/reference/UI/pick.md) 方法拾取。
 
 ### altKey: `boolean`
 

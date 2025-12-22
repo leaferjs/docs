@@ -32,6 +32,10 @@ y 轴方向的阴影偏移量
 
 是否可见， 默认为 true。
 
+### scaleFixed?: `'zoom-in'` | `false`
+
+缩放画布时是否固定阴影原有比例，zoom-in 表示仅在放大时固定比例（缩小时仍跟随缩小）
+
 ### box?: boolean
 
 是否为 boxShadow （只显示图形外部的阴影）, 默认为 false。

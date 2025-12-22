@@ -6,6 +6,8 @@
 
 在小程序环境中运行。
 
+继承了 [跨平台核心包](/guide/install/ui/core/index.md)。
+
 ## 安装
 
 ::: code-group
@@ -54,9 +56,9 @@ var __TEMP2__ =__TEMP__; Object.defineProperty(exports, k, { enumerable: true, c
 
 ```sh
 
-https://unpkg.com/@leafer-ui/miniapp@1.12.0/dist/miniapp.module.js
+https://unpkg.com/@leafer-ui/miniapp@1.12.1/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-ui/miniapp@1.12.0/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-ui/miniapp@1.12.1/dist/miniapp.module.min.js
 ```
 
 ## 环境
