@@ -92,6 +92,8 @@ resizeLine: [{ pointType: 'move' }, {}], // 限制只能左右拉伸
 
 交互事件是否可穿透 rect 区域，默认为 true。
 
+如果不想编辑框内可以选中上层覆盖的其他元素，可以设为 false。
+
 ### area: [`IRectInputData`](/reference/display/Rect.md)
 
 框选区域的样式（会继承基础样式）。
@@ -137,6 +139,12 @@ hover 样式，目前只能定义笔触和填充样式（会继承基础样式�
 ### selectedStyle: [`IPathInputData`](/reference/display/Path.md)
 
 选中元素的样式（区分 hover 样式，多选元素时比较容易看出来），目前只能定义笔触和填充样式（会继承基础样式）。
+
+### selectedPathType: `'path'` | `'render-path'`
+
+选中元素描边采用的路径类型，默认为 'render-path'。
+
+当元素设置圆角、curve 时，'path' 为原始路径，'render-path' 是应用了圆角、curve 时之后的最终渲染路径。
 
 ### 遮罩层
 

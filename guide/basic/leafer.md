@@ -23,7 +23,11 @@ view 参数支持 window 、div、canvas 标签对象，注意 view 为 id 字�
 
 当画布的父节点尺寸改变后会自动 resize， [了解详情](/reference/config/app/canvas.md#自适应布局)。
 
-以实际 canvas 标签的父级 div 或其他标签，作为自动布局的容器。
+<!-- 以实际 canvas 标签的父级 div 或其他标签，作为自动布局的容器。 -->
+
+如果传入的 view 为 div 时，以该 div 作为自动布局容器（div 需要有自动宽高信息）。
+
+如果传入的 view 为 canvas 时，以 canvas 所在的父级元素为自动布局容器。
 
 ::: code-group
 <<< @/code/basic/leafer/auto/full.ts [full]

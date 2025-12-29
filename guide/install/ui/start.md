@@ -16,22 +16,36 @@ import Case from '/component/Case.vue'
 
 确保你已安装了 [Node.js](https://nodejs.org/zh-cn/)。
 
+需使用插件时，建议同时安装 [跨平台核心包](/guide/install/ui/core/index.md)，防止出现更新问题。
+
 ::: code-group
 
 ```sh [npm]
 npm install leafer-ui
+
+# 需使用插件时，推荐同时安装跨平台核心包，防止出现更新版本不同步问题
+npm install leafer-ui @leafer-ui/core @leafer-ui/draw
 ```
 
 ```sh [pnpm]
 pnpm add leafer-ui
+
+# 需使用插件时，推荐同时安装跨平台核心包，防止出现更新版本不同步问题
+pnpm add leafer-ui @leafer-ui/core @leafer-ui/draw
 ```
 
 ```sh [yarn]
 yarn add leafer-ui
+
+# 需使用插件时，推荐同时安装跨平台核心包，防止出现更新版本不同步问题
+yarn add leafer-ui @leafer-ui/core @leafer-ui/draw
 ```
 
 ```sh [bun]
 bun add leafer-ui
+
+# 需使用插件时，建议同时安装跨平台核心包，防止出现更新问题
+bun add leafer-ui @leafer-ui/core @leafer-ui/draw
 ```
 
 :::
@@ -51,7 +65,7 @@ bun add leafer-ui
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-ui@1.12.1/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-ui@1.12.2/dist/web.min.js"></script>
 <script>
   const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui 的所有功能
 
@@ -63,7 +77,7 @@ bun add leafer-ui
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-ui@1.12.1/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-ui@1.12.2/dist/web.js"></script>
 <script>
   const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui的所有功能
 
@@ -76,14 +90,14 @@ bun add leafer-ui
 
 ```html [module.min]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@1.12.1/dist/web.module.min.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@1.12.2/dist/web.module.min.js'
   // ...
 </script>
 ```
 
 ```html [module]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@1.12.1/dist/web.module.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@1.12.2/dist/web.module.js'
   // ...
 </script>
 ```

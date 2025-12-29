@@ -49,16 +49,16 @@ bun add @leafer-in/color
 ::: code-group
 
 ```html [animate.min]
-<script src="https://unpkg.com/@leafer-in/animate@1.12.1/dist/animate.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/color@1.12.1/dist/color.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@1.12.2/dist/animate.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@1.12.2/dist/color.min.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
 ```
 
 ```html [animate]
-<script src="https://unpkg.com/@leafer-in/animate@1.12.1/dist/animate.js"></script>
-<script src="https://unpkg.com/@leafer-in/color@1.12.1/dist/color.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@1.12.2/dist/animate.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@1.12.2/dist/color.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
@@ -90,6 +90,7 @@ bun add @leafer-in/color
 | [swing](/plugin/in/animate/options/loop.md)        | 摇摆循环：是否摇摆循环播放，可设置到达 to 的次数，from -> to，to -> from -> to ... |
 | [ending](/plugin/in/animate/options/ending.md)     | 结束样式：动画结束时的样式，from 表示起点样式，to 表示终点样式                     |
 | [join](/plugin/in/animate/options/join.md)         | 加入关键帧： 是否加入动画前的元素状态作为 from 关键帧                              |
+| [jump](/plugin/in/animate/options/jump.md)         | 首帧跳转： 是否先跳到第一帧再延时等待                                              |
 | [autoplay](/plugin/in/animate/options/autoplay.md) | 自动播放： 是否自动播放，默认为 true                                               |
 | [attrs](/plugin/in/animate/options/attrs.md)       | 过渡属性：参与动画过渡的元素属性列表， 默认为所有                                  |
 | [event](/plugin/in/animate/options/event.md)       | 事件：监听动画事件对象                                                             |

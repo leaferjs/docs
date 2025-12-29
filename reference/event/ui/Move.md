@@ -27,6 +27,10 @@ MoveEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Point
 
 `move`
 
+### MoveEvent.DRAG_ANIMATE
+
+应用配置 [config.move.dragAnimate](/reference/config/app/move.md#move-draganimate-boolean) 产生的惯性动画移动时间，在 MoveEvent.END 之前触发。
+
 ### MoveEvent.END
 
 结束移动事件。

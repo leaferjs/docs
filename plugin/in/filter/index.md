@@ -31,11 +31,11 @@ bun add @leafer-in/filter
 ::: code-group
 
 ```html [filter.min]
-<script src="https://unpkg.com/@leafer-in/filter@1.12.1/dist/filter.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/filter@1.12.2/dist/filter.min.js"></script>
 ```
 
 ```html [filter]
-<script src="https://unpkg.com/@leafer-in/filter@1.12.1/dist/filter.js"></script>
+<script src="https://unpkg.com/@leafer-in/filter@1.12.2/dist/filter.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->

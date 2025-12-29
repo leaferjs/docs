@@ -26,7 +26,7 @@ Frame &nbsp;>&nbsp; [Box](./Box.md) &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](
 
 ### fill: `string` | [`Paint`](../interface/ui/Paint) ｜ [`Paint`](../interface/ui/Paint.md)[]
 
-默认白色背景。
+默认白色背景，如果想设为透明背景，可以设置空字符串 或'#FFF0'。
 
 ### overflow: `IOverflow`
 

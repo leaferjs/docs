@@ -6,9 +6,11 @@ import Case from '/component/Case.vue'
 
 ## 关键方法
 
-### seek ( time: `number` | [`IPercentData`](/api/interfaces/IPercentData.md) )
+### seek ( time: `number` | [`IPercentData`](/api/interfaces/IPercentData.md), includeDelay?: `boolean` )
 
 定位跳转到指定时间，支持设置具体时间（以秒为单位），或百分比（相对 duration 总时长）。
+
+设置 includeDelay 参数表示将 主 delay 时间包含在总时长中 seek。
 
 ## 归属
 

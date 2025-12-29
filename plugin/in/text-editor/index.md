@@ -55,14 +55,14 @@ bun add @leafer-in/text-editor
 ::: code-group
 
 ```html [text-editor.min]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.12.1/dist/text-editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.12.2/dist/text-editor.min.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
 ```
 
 ```html [text-editor]
-<script src="https://unpkg.com/@leafer-in/text-editor@1.12.1/dist/text-editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@1.12.2/dist/text-editor.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
@@ -85,7 +85,7 @@ interface ITextEditorConfig {
   selectAll: boolean // 是否自动全选文本，默认为true
 }
 
-// 配置文本编辑器，v1.12.1 开始支持
+// 配置文本编辑器
 app.editor.getInnerEditor('TextEditor').config.selectAll = false
 ```
 

@@ -51,16 +51,16 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [flow.min]
-<script src="https://unpkg.com/@leafer-in/flow@1.12.1/dist/flow.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.12.1/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.12.2/dist/flow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.12.2/dist/resize.min.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>
 ```
 
 ```html [flow]
-<script src="https://unpkg.com/@leafer-in/flow@1.12.1/dist/flow.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@1.12.1/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/flow@1.12.2/dist/flow.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@1.12.2/dist/resize.js"></script>
 <script>
   const { Flow } = LeaferIN.flow
 </script>
