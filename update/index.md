@@ -2,6 +2,52 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2026 / 01 / 23
+
+> v2.0.0
+
+#### 🍇 社区
+
+\- 🌸 [光速引擎 · Image Lighter 插件](https://www.pxgrow.com/plugin/view/?id=10006) 正式版发布 🎉🎉🎉，支持瓦片图和 LOD 图按需自动加载
+
+\- 🌸 [光速引擎 · Viewport Lighter 插件](https://www.pxgrow.com/plugin/view/?id=10002) v1.0.3 发布
+
+\- 🌸 [Path Editor 专业插件](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.1 发布
+
+\- 🌸 [综合信息管理系统](https://github.com/omni-system-creator/omni) 开源 [预览地址](https://os.jinlan.info) @大蜻蜓队长
+
+\- 🌸 [leafer-x-dotwuxian](https://www.npmjs.com/package/leafer-x-dotwuxian) 无限点阵插件 [@scory01](https://github.com/scory01)
+
+\- 🌸 [leafer-canvas-player](https://www.npmjs.com/package/leafer-canvas-player) 视频播放 player [@rideWind97](https://github.com/rideWind97)
+
+\- 🌸 [leafer-connector](https://www.npmjs.com/package/leafer-connector) 连线插件(加强版) [@rideWind97](https://github.com/rideWind97)
+
+#### 🌱 新增
+
+\- 🌸 图案平铺增加 [interlace](/reference/UI/paint/image.md#interlace-number-ipercentdata-iinterlace) 属性，支持交错排列
+
+\- 🌸 应用增加 [config.move.scrollSpread](/reference/config/app/move.md#move-scrollspread-ifournumber) 配置，限制滚动范围时，可扩展一点边界
+
+\- 🌸 导出图片的 clip 参数增加 [clip.rotation](/reference/UI/export.md#export) 属性，可旋转裁剪区域
+
+#### 🪲 修复
+
+\- 🌸 修复采用 pixel 碰撞检测时，会抖动一下的问题
+
+\- 🌸 渲染无宽高的遮罩不符合预期的问题
+
+\- 🌸 修复letterSpacing设置对象值为0时，显示乱码的问题
+
+\- Ellipse 元素画弧线时，不能闭合路径的问题
+
+\- 图片拖动在某些安卓机型产生残影的问题 
+
+\- 修复自动任务可能被取消、重复执行的问题
+
+#### 🌷 感谢反馈
+
+[@mozbia](https://github.com/mozbia) [@kekesita](https://github.com/kekesita) [@wucc26](https://github.com/wucc26) [@paiDaXing-web](https://github.com/paiDaXing-web) @小志 @闰土 @走到群众中去 @大隐隐于地球 @南橘北枳 @张老爷 @Rainbow
+
 ## 2025 / 12 / 27
 
 > v1.12.2

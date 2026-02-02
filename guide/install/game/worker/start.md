@@ -41,11 +41,11 @@ bun add @leafer-game/worker
 ::: code-group
 
 ```js [worker.min.js]
-importScripts('https://unpkg.com/@leafer-game/worker@1.12.2/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer-game/worker@2.0.0/dist/worker.min.js')
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-game/worker@1.12.2/dist/worker.js')
+importScripts('https://unpkg.com/@leafer-game/worker@2.0.0/dist/worker.js')
 ```
 
 :::

@@ -55,11 +55,11 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢前来支�
 
 - [leaferjs.com](https://www.leaferjs.com) 首页 [铜牌赞助](https://leaferjs.com/#contact) 名单。
 
-- [咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 粉色咖啡。
+<!-- - [咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 粉色咖啡。 -->
 
 <!-- - [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的铜牌赞助 名单。 -->
 
-![coffee](/svg/coffee/coffee-100-story.svg)
+<!-- ![coffee](/svg/coffee/coffee-100-story.svg) -->
 
 ### 🥈 银牌赞助（¥100 / 月）
 
@@ -67,11 +67,11 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢前来支�
 
 - [leaferjs.com](https://www.leaferjs.com) 首页 [银牌赞助](https://leaferjs.com/#silver-sponsor) 头像 / logo 展示位。
 
-- [咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 青色咖啡。
+<!-- - [咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 青色咖啡。 -->
 
 <!-- - [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的银牌赞助 头像 / logo 展示位。 -->
 
-![coffee](/svg/coffee/coffee-1000-story.svg)
+<!-- ![coffee](/svg/coffee/coffee-1000-story.svg) -->
 
 ### 🥇 金牌赞助商（¥1,000 / 月）
 
@@ -79,7 +79,7 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢前来支�
 
 - [leaferjs.com](https://www.leaferjs.com) 首页 [金牌赞助商](https://leaferjs.com/#gold-sponsor) logo 展示位。
 
-- [咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 蓝色咖啡。
+<!-- - [咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 蓝色咖啡。 -->
 
 <!-- - [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的金牌赞助商 logo 展示位。 -->
 <!--
@@ -185,6 +185,9 @@ Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢前来支�
 ## 金牌赞助商
 
 <p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;">
+ <a target="_blank" rel="sponsored" href="https://www.photiu.ai">
+    <img width="180" style="border-radius:40px" title="Photiu" src="https://www.leaferjs.com/image/sponsor/gold/photiu.png" />
+  </a>
   <a target="_blank" rel="sponsored" href="https://xpai.design">
     <img width="180" style="border-radius:40px" title="迅排设计" src="https://www.leaferjs.com/image/sponsor/gold/xp.jpg" />
   </a>

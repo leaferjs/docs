@@ -45,7 +45,7 @@ interface IExportOptions {
   smooth?: boolean // 设置画布的平滑绘制属性，默认同当前leafer画布
   contextSettings?: ICanvasRenderingContext2DSettings // 原生画布的 context 设置, 默认同当前leafer画布
 
-  clip?: IBoundsData // 相对元素的实际渲染包围盒进行裁剪，需指定裁剪区域，设置 size、scale 会影响元素的实际渲染包围盒， 设置 pixelRatio 不会影响
+  clip?: IBoundsDataWithOptionRotation // 相对元素的实际渲染包围盒进行裁剪，需指定裁剪区域，支持rotation，设置 size、scale 会影响元素的实际渲染包围盒， 设置 pixelRatio 不会影响
 
   slice?: boolean // 是否为切片元素，将导出切片bounds内的画布上所有内容
   trim?: boolean // 是否裁剪透明像素，默认false
@@ -55,6 +55,22 @@ interface IExportOptions {
 
   relative?: ILocationType | IUI // 相对坐标系 或父元素 的缩放比例导出，默认Leafer为 inner, 其他元素为 local，可以单独设置: inner |  local | world
   onCanvas?: IExportOnCanvasFunction // onCanvas(canvas => { }) 用于叠加绘制自定义内容
+}
+
+interface IPointData {
+  x: number
+  y: number
+}
+
+interface IBoundsData {
+  x: number
+  y: number
+  width: number
+  height: number
+}
+
+interface IBoundsDataWithOptionRotation extends IBoundsData {
+  rotation?: number
 }
 
 interface IOptionSizeData {

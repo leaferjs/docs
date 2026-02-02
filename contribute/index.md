@@ -4,6 +4,12 @@
 
 ## 文章
 
+[国产 Canvas 引擎！神器！](https://juejin.cn/post/7566104702569742355) @前端开发爱好者
+
+[国产 Canvas 王者来袭！LeaferJS 凭什么碾压同类库，成为开发者新宠？](https://mp.weixin.qq.com/s/KeqFNup5ZZUaN1i_W0KK_Q) @AI 前端探索
+
+[[开源]国产 Canvas 引擎崛起！LeaferJS：1.5 秒渲染 100 万图形，性能吊打国外同类](https://mp.weixin.qq.com/s/WheWOybbZ040pzwc-x1YQA) @格子开源栈
+
 [【随易访谈】三年磨一剑，LeaferJS 图形框架，绝境中盛开-万超](https://mp.weixin.qq.com/s/uYa-ZFZRik0inh2bmusBbA) @陈随易
 
 [【前端新风向】LeaferJS：革新级图形引擎，前端开发的新利器！](https://mp.weixin.qq.com/s/nJc5LEXTmjXBz6sVvEhScg) @web 前端智汇堂
@@ -50,7 +56,9 @@
 
 ## 场景案例
 
-[WL Draw 开源白板应用](https://github.com/warmeaf/wl-draw) 🎉🎉🎉 [预览地址](https://warmeaf.github.io/wl-draw/) @暖叶
+[综合信息管理系统](https://github.com/omni-system-creator/omni) 🎉🎉🎉 [预览地址](https://os.jinlan.info) @大蜻蜓队长
+
+[WL Draw 开源白板应用](https://github.com/warmeaf/wl-draw) [预览地址](https://warmeaf.github.io/wl-draw/) @暖叶
 
 [Web-Sport-Data-Overlay](https://github.com/dalang911/Web-Sport-Data-Overlay) [预览](https://www.bilibili.com/video/BV1m9fEYRE6u/?vd_source=24e87517eebd755a4ebf44acdddf2781) <badge>在线制作运动数据视频</badge> [@浪先生](https://github.com/dalang911)
 
@@ -101,6 +109,8 @@
 [绘制动画图表](https://codepen.io/kooro/pen/poQPqwq) @Biu
 
 ## 产品案例
+
+[OmniSystem](https://os.jinlan.info) <badge>综合信息管理系统</badge> @大蜻蜓队长
 
 [4oGen AI](https://4oimage.site/) <badge>AI 高质量图像生成工具</badge> @sunboy
 
@@ -171,6 +181,12 @@
 [leafer-x-guide-line](http://afdian.com/item/d2f62a74b13611ef99b75254001e7c00) <badge>吸附线插件</badge> [@毛豆花生](http://afdian.com/a/huaisheng)
 
 #### 新版
+
+[leafer-x-dotwuxian](https://www.npmjs.com/package/leafer-x-dotwuxian) 无限点阵插件 [@scory01](https://github.com/scory01)
+
+[leafer-canvas-player](https://www.npmjs.com/package/leafer-canvas-player) 视频播放 player [@rideWind97](https://github.com/rideWind97)
+
+[leafer-connector](https://www.npmjs.com/package/leafer-connector) 连线插件(加强版) [@rideWind97](https://github.com/rideWind97)
 
 [leafer-x-effect-text](https://www.npmjs.com/package/leafer-x-effect-text) 特效文字插件 [预览地址](https://leafer-x-effect-text.vercel.app/) @Rainbow
 

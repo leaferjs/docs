@@ -4,6 +4,8 @@ LeaferJS 正在迈入 AI 时代！为了让 AI 更好地理解和使用 LeaferJS
 
 现在可通过 [DeepWiki](https://deepwiki.com/leaferjs/leafer-ui) 进行 AI 询问～
 
+[相关AI知识库](https://context7.com/?q=leafer)
+
 ## 第一阶段：准备训练 AI 的数据（当前阶段）
 
 目前，我们正在收集和整理 LeaferJS 相关的数据，包括：

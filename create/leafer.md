@@ -63,8 +63,8 @@ npm create leafer@latest update
     <span style="color:#5e9177;font-weight: 600;">Fetching Leafer version...</span>
     <span style="color:var(--vt-c-green);">✔</span> <span style="color:#888;font-weight: 600;">The following Leafer dependencies can be updated:</span>
     <span style="color:#89DDFF;">{
-      "leafer-editor": "^1.12.2",
-      "@leafer-in/animate": "^1.12.2"
+      "leafer-editor": "^2.0.0",
+      "@leafer-in/animate": "^2.0.0"
     }</span>
     <span style="color:#888;font-weight: 600;">Do you want to update them? <span style="color:#888;">… <span style="color:#89DDFF;text-decoration:underline;">yes</span></span></span>
     <span style="color:var(--vt-c-green);">✔</span> <span style="color:#888;font-weight: 600;">Dependencies updated successfully! Please run <span style="color:#5e9177;font-weight: 600;">npm install</span> to install the latest versions.</span>

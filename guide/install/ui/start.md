@@ -65,7 +65,7 @@ bun add leafer-ui @leafer-ui/core @leafer-ui/draw
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-ui@1.12.2/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-ui@2.0.0/dist/web.min.js"></script>
 <script>
   const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui 的所有功能
 
@@ -77,7 +77,7 @@ bun add leafer-ui @leafer-ui/core @leafer-ui/draw
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-ui@1.12.2/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-ui@2.0.0/dist/web.js"></script>
 <script>
   const { Leafer } = LeaferUI // 全局变量，包含 leafer-ui的所有功能
 
@@ -90,14 +90,14 @@ bun add leafer-ui @leafer-ui/core @leafer-ui/draw
 
 ```html [module.min]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@1.12.2/dist/web.module.min.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@2.0.0/dist/web.module.min.js'
   // ...
 </script>
 ```
 
 ```html [module]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@1.12.2/dist/web.module.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@2.0.0/dist/web.module.js'
   // ...
 </script>
 ```

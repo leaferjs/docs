@@ -32,6 +32,17 @@
 
 设置 'y-limit'，表示只能纵向滚动，且限制在有内容的区域内滚动。
 
+## move.scrollSpread: [`IFourNumber`](/reference/interface/math/Math.md#ifournumber)
+
+限制滚动范围时，可扩展一点边界，可以分别设置 4 个方向的值，默认为 0。
+
+```ts
+scrollSpread: [20, 10, 20, 10] // [top, right, bottom, left]
+scrollSpread: [20, 10, 20] // [top, (right-left), bottom]
+scrollSpread: [20, 10] // [ (top-bottom), (right-left)]
+scrollSpread: 20 // all
+```
+
 ### move.drag: `boolean` | `'auto'`
 
 拖拽时是否平移视图，默认为 false。

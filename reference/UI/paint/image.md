@@ -179,7 +179,7 @@ interface IOptionSizeData {
 
 是否进行自由变换，将忽略 rotation 的特殊旋转逻辑，方便进行手动编辑
 
-### gap: [`IGap`](/api/modules.md#igap) | [`IPointGap`](/api/interfaces/IPointGap.md)
+### gap?: [`IGap`](/api/modules.md#igap) | [`IPointGap`](/api/interfaces/IPointGap.md)
 
 平铺图片之间的间距， 默认为 0。
 
@@ -190,6 +190,34 @@ type IGap = number | 'auto' | 'fit'
 interface IPointGap {
   x?: IGap // 单独设置 x 轴间距
   y?: IGap // 单独设置 y 轴间距
+}
+```
+
+### interlace?: `number` | `IPercentData` | `IInterlace`
+
+平铺图片交错排列。
+
+```ts
+interface IInterlace {
+  type: 'x' | 'y'
+  offset: number | IPercentData
+}
+
+interface IPercentData {
+  type: 'percent'
+  value: number
+}
+
+// 数字
+interlace: 100 // 下一行 X 轴偏移 100px
+
+// 百分比
+interlace: { type: 'percent', value: 0.5}  // 下一行 x 轴偏移 图案大小的50%
+
+// Y 轴交错
+interlace: { // 下一列 Y 轴偏移 图案大小的 50%
+  type: 'y'
+  offset:  { type: 'percent', value: 0.5}
 }
 ```
 
