@@ -44,6 +44,14 @@
 
 想要图片不模糊，可以继续配置 [config.pixelSnap](/reference/config/app/base.md#pixelsnap-boolean) 属性。
 
+```ts
+// 想要smooth能实时生效，需要同时修改画布的smooth
+leafer.canvas.smooth = true
+// app.tree.canvas.smooth = true
+
+leafer.forceRender() // 必要时可强制渲染一次整个画布
+```
+
 ### contextSettings: `ICanvasRenderingContext2DSettings`
 
 原生画布的 context 设置， [了解更多](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext#contextattributes)。

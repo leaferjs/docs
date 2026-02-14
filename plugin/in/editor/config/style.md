@@ -134,11 +134,11 @@ circle: {
 
 ### hoverStyle: [`IPathInputData`](/reference/display/Path.md)
 
-hover 样式，目前只能定义笔触和填充样式（会继承基础样式）。
+hover 样式，目前只能定义笔触、填充、简单阴影样式（会继承基础样式）。
 
 ### selectedStyle: [`IPathInputData`](/reference/display/Path.md)
 
-选中元素的样式（区分 hover 样式，多选元素时比较容易看出来），目前只能定义笔触和填充样式（会继承基础样式）。
+选中元素的样式（区分 hover 样式，多选元素时比较容易看出来），目前只能定义笔触、填充、简单阴影样式（会继承基础样式）。
 
 ### selectedPathType: `'path'` | `'render-path'`
 

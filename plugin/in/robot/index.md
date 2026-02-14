@@ -47,14 +47,14 @@ bun add @leafer-in/robot
 ::: code-group
 
 ```html [robot.min]
-<script src="https://unpkg.com/@leafer-in/robot@2.0.0/dist/robot.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/robot@2.0.1/dist/robot.min.js"></script>
 <script>
   const { Robot } = LeaferIN.robot
 </script>
 ```
 
 ```html [robot]
-<script src="https://unpkg.com/@leafer-in/robot@2.0.0/dist/robot.js"></script>
+<script src="https://unpkg.com/@leafer-in/robot@2.0.1/dist/robot.js"></script>
 <script>
   const { Robot } = LeaferIN.robot
 </script>

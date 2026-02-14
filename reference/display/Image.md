@@ -30,7 +30,9 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ### url: `string`
 
-图片地址。
+图片 url 地址，支持 Blob url、Data url(Base64)。
+
+我们还提供了 [资源库](/reference/resource/Resource.md)，支持原始图片对象、画布对象转 url， 及预加载图片。
 
 ::: tip 注意事项
 [Image](./Image.md) 暂时不支持设置 fill 属性（内部已使用），可使用 [Rect](./Rect.md) 元素代替。

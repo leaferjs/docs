@@ -2,6 +2,52 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2026 / 02 / 10
+
+> v2.0.1
+
+😊 所有社区插件包需要兼容一下 2.0 主版本，辛苦各位～
+
+#### 🍇 社区
+
+\- 🌸 [Gradient Editor 专业插件](https://www.pxgrow.com/plugin/view/?id=10010) beta版本发布 🎉🎉🎉，可视化控制色彩渐变
+
+\- 🌸 [Path Editor 专业插件](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.3 发布
+
+\- 🌸 [Viewport Lighter 专业插件](https://www.pxgrow.com/plugin/view/?id=10002) v1.0.5 发布
+
+\- 🌸 AnimImage 动图增强插件即将开发完成 @官方
+
+\- 🌸 [富文本编辑器](https://chenyomi.github.io/leafer-htmltext-edit-website/) beta版本发布 🎉🎉🎉 [@chenyomi
+](https://github.com/chenyomi)
+
+#### 🌱 新增
+
+\- 🌸 编辑器 [hoverStyle](/plugin/in/editor/config/style.md#hoverstyle-ipathinputdata)、[selectedStyle](/plugin/in/editor/config/style.md#hoverstyle-ipathinputdata) 配置对象支持设置简单的阴影
+
+\- 🌸 3个点的折线支持最大化圆角显示
+
+\- [scroller 插件](https://www.pxgrow.com/plugin/view/?id=10003) 加入到全量插件包中
+
+#### 🪲 修复
+
+\- 🌸 平铺图片 [interlace](/reference/UI/paint/image.md#interlace-number-ipercentdata-iinterlace) 交错排列 value 为 0 时的显示问题
+
+\- 🌸 元素宽高设为0时不符合预期，变成了自动宽高的问题
+
+\- 特定条件下创建模板项目输入包名无效的问题 👍[@214L](https://github.com/214L)
+
+\- 文本只有高度时，textOverflow 设为 hide 不生效的问题
+
+\- 文字自动宽高时，textOverflow 设为 hide 后导致自动不了的问题
+
+\- [scroller 插件](https://www.pxgrow.com/plugin/view/?id=10003) 兼容 2.0 版本
+
+#### 🌷 感谢反馈
+
+[@ranyunlong](https://github.com/ranyunlong) [@dawumusic](https://github.com/dawumusic) [@chenyomi
+](https://github.com/chenyomi) [@johnnhan](https://github.com/johnnhan) [@liesauer](https://github.com/liesauer) [@Xdy1579883916](https://github.com/Xdy1579883916) [@ZhengNan-coder](https://github.com/ZhengNan-coder) @小志 @闰土 @Mapotato @走到群众中去
+
 ## 2026 / 01 / 23
 
 > v2.0.0

@@ -31,11 +31,11 @@ bun add @leafer-in/resize
 ::: code-group
 
 ```html [resize.min]
-<script src="https://unpkg.com/@leafer-in/resize@2.0.0/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@2.0.1/dist/resize.min.js"></script>
 ```
 
 ```html [resize]
-<script src="https://unpkg.com/@leafer-in/resize@2.0.0/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@2.0.1/dist/resize.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->

@@ -18,7 +18,9 @@ import Case from '/component/Case.vue'
 
 ### url: `string`
 
-图片 url 地址。
+图片 url 地址，支持 Blob url、Data url(Base64)。
+
+我们还提供了 [资源库](/reference/resource/Resource.md)，支持原始图片对象、画布对象转 url， 及预加载图片。
 
 ### mode?: `ImagePaintMode`
 

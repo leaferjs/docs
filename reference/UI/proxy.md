@@ -12,6 +12,12 @@ getter 响应式数据，用于代理元素数据。
 
 ::: tip
 注意：访问 proxyData 后会自动创建响应式数据对象 \_\_proxyData，注意合理使用，会增加内存开销。
+
+```ts
+// 取消选中元素后，建议立即清理代理数据，否则会额外占用内存、缓存过期的数据
+ui.clearProxyData()
+```
+
 :::
 
 ## 数据层级
@@ -33,6 +39,10 @@ proxyData.fill = { ...proxyData.fill, rotation: 30 } // 有效， 已更新为�
 ### createProxyData ( ): [`IUIInputData`](/api/interfaces/IUIInputData.md)
 
 根据不同的前端框架创建响应式数据 \_\_proxyData（内部使用）。
+
+### clearProxyData ( ): [`IUIInputData`](/api/interfaces/IUIInputData.md)
+
+清理 proxyData 数据，取消选中元素后，建议立即清理，否则会一直占用内存、缓存过期数据。
 
 ### setProxyAttr ( name: `string`, newValue: [`IValue`](/api/modules.md#ivalue) )
 
@@ -124,11 +134,17 @@ UI.prototype.createProxyData = function () {
       () => proxyData[name], // source
       (newValue) => {
         if (this.__.__get(name) !== newValue) (this as any)[name] = newValue
-      } // callback
+      }, // callback
     )
   }
 
   return proxyData
+}
+
+// 清理响应式数据
+
+UI.prototype.clearProxyData = function () {
+  if (this.__proxyData) delete this.__proxyData
 }
 ```
 

@@ -32,7 +32,7 @@ import Case from '/component/Case.vue'
 
 ### rotateGap: `number`
 
-旋转吸附间隔，当靠近间隔点时，慢慢旋转会被吸附到间隔点上，默认为每 45 度。
+旋转吸附 snap 间隔，当靠近间隔点时，慢慢旋转会被吸附到间隔点上，默认为每 45 度。
 
 ### dragLimitAnimate: `boolean` | `number`
 
