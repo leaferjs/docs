@@ -16,6 +16,8 @@ import Case from '/component/Case.vue'
 
 填充类型为 `image`。
 
+填充类型同时支持 `film` 和 `video` ，需要安装相应的扩展插件。
+
 ### url: `string`
 
 图片 url 地址，支持 Blob url、Data url(Base64)。

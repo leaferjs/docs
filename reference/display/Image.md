@@ -35,12 +35,12 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 我们还提供了 [资源库](/reference/resource/Resource.md)，支持原始图片对象、画布对象转 url， 及预加载图片。
 
 ::: tip 注意事项
-[Image](./Image.md) 暂时不支持设置 fill 属性（内部已使用），可使用 [Rect](./Rect.md) 元素代替。
+[Image](./Image.md) 设置 url 后，不支持同时设置 [fill](/reference/UI/fill.md) 属性（url 会覆盖 [fill](/reference/UI/fill.md) ），单独设置 [fill](/reference/UI/fill.md) 代替 url 是可以的。
 :::
 
 ## 辅助属性
 
-[图案填充](/reference/UI/paint/image.md) 的元素也支持这些辅助属性。
+带 [图案填充](/reference/UI/paint/image.md) 的元素自身也支持这些辅助属性（属性需要设置在元素上）。
 
 ### pixelRatio: `number`
 
@@ -88,20 +88,13 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 <<< @/code/display/Image/cross.ts
 
-### 使用 Rect 代替 Image
-
-想为图片设置 fill 时，请用 Rect 代替，Rect 不设置宽高也会自适应图片，并支持多个填充。
-
-::: code-group
-<<< @/code/display/Image/rect.ts [Leafer]
-<<< @/code/display/Image/app/rect.ts [App]
-:::
-
 ## 资源库
 
 我们还提供了 [资源库](/reference/resource/Resource.md)，可预加载图片，原始图片对象、画布对象可转为 url。
 
 引擎中的所有图片都会通过 资源库 有序并行加载，当图片不再使用时，会进入回收列表，到达阈值会自动销毁。
+
+<<< @/code/resource/image/load.ts
 
 ## 图片事件
 
@@ -124,6 +117,24 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 ::: code-group
 <<< @/code/display/Image/stretch.ts [Leafer]
 <<< @/code/display/Image/app/stretch.ts [App]
+:::
+
+### 使用 fill 代替 url
+
+fill 可支持多个填充。
+
+::: code-group
+<<< @/code/display/Image/fill.ts [Leafer]
+<<< @/code/display/Image/app/fill.ts [App]
+:::
+
+### 使用 Rect 代替 Image
+
+想为图片设置 fill 时，请用 Rect 代替，Rect 不设置宽高也会自适应图片，并支持多个填充。
+
+::: code-group
+<<< @/code/display/Image/rect.ts [Leafer]
+<<< @/code/display/Image/app/rect.ts [App]
 :::
 
 ### 固定宽度，自适应高度

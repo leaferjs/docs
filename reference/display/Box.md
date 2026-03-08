@@ -92,6 +92,8 @@ type IScaleFixed = boolean | 'zoom-in'
 
 子元素是否跟随 resize， 默认为 false。
 
+子文本 [Text](/reference/display/Text.md) 需要设置 [resizeFontSize](/reference/display/Text.md#resizefontsize-boolean) 才能跟随 resize。
+
 ## 计算属性（只读）
 
 ### isOverflow: `boolean`

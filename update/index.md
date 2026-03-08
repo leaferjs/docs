@@ -2,6 +2,60 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2026 / 02 / 24
+
+> v2.0.2
+
+#### 🍇 社区
+
+官方 PxGrow 插件 🎉🎉🎉
+
+\- 🌸 [Quantum Viewport](https://www.pxgrow.com/plugin/view/?id=10008) v1.0.0 发布，百万级场景轻松缩放
+
+\- 🌸 [Regions Lighter](https://www.pxgrow.com/plugin/view/?id=10016) v1.0.0-beta 发布，多个动画区域独立渲染
+
+\- 🌸 [Film](https://www.pxgrow.com/plugin/view/?id=10011) v1.0.0-beta 发布，轻松渲染动图
+
+\- 🌸 [Tiler](https://www.pxgrow.com/plugin/view/?id=10001) v1.0.0 发布，轻松实现图片平铺编辑
+
+\- [Gradient Editor](https://www.pxgrow.com/plugin/view/?id=10010) v1.0.0-beta.2 发布
+
+\- [Path Editor](https://www.pxgrow.com/plugin/view/?id=10009) v1.0.4 发布
+
+\- [Image Lighter](https://www.pxgrow.com/plugin/view/?id=10006) v1.0.6 发布
+
+\- [Clipper](https://www.pxgrow.com/plugin/view/?id=10000) v1.0.7 发布
+
+场景案例 🎉🎉🎉
+
+\- 🌸 [照片拼图小工具](https://pr.kuaitu.cc/user.html)
+
+\- 🌸 [拼图工坊小游戏](https://pintugongfan.space.z.ai)
+
+#### 🌱 新增
+
+\- 🌸 子元素增加 [skipJSON](/reference/UI/json.md#skipjson-boolean) 属性，支持设置跳过JSON导出
+
+\- [Resource](/reference/resource/Resource.md) 开放 [queue](/reference/resource/Resource.md#queue-taskprocessor) 属性，全局按顺序执行的任务队列，防止阻塞主线程渲染
+
+\- 图案填充增加 film、video 类型扩展接口
+
+#### 🪲 修复
+
+\- 🌸 修复首次拖动元素时未触发 DragEvent 事件的问题
+
+\- 🌸 修复 SimulateElement 元素会被意外导出 JSON 的问题
+
+\- 没有注册的 tag 只进行警告，不阻塞程序执行
+
+#### 🌿 优化
+
+\- 🌸 缩放画面时，减少一次可能产生的额外布局
+
+#### 🌷 感谢反馈
+
+[@dream-weave](https://github.com/dream-weave) [@rojer95](https://github.com/rojer95) @闰土 @小志 @Mapotato @岁月 @曹建雄
+
 ## 2026 / 02 / 10
 
 > v2.0.1
@@ -16,7 +70,7 @@
 
 \- 🌸 [Viewport Lighter 专业插件](https://www.pxgrow.com/plugin/view/?id=10002) v1.0.5 发布
 
-\- 🌸 AnimImage 动图增强插件即将开发完成 @官方
+\- 🌸 Film 动图增强插件即将开发完成 @官方
 
 \- 🌸 [富文本编辑器](https://chenyomi.github.io/leafer-htmltext-edit-website/) beta版本发布 🎉🎉🎉 [@chenyomi
 ](https://github.com/chenyomi)
