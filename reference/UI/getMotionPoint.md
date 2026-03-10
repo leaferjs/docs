@@ -30,4 +30,4 @@ interface IRotationPointData {
 
 ## 示例
 
-<<< @/code/contest/dragon/step3.ts
+<<< @/code/game/dragon.ts

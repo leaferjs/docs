@@ -185,6 +185,8 @@ text.textOverflow = '...'
 
 文本对齐方式，可以设置 'both' 来强制两端对齐文本。
 
+当文本没有设置宽高时，可使用 [autoSizeAlign](#autosizealign-boolean) 改变默认对齐行为。
+
 ```ts
 type ITextAlign =
   | 'left' // 左对齐
@@ -200,6 +202,8 @@ type ITextAlign =
 
 文本垂直对齐。
 
+当文本没有设置宽高时，可使用 [autoSizeAlign](#autosizealign-boolean) 改变默认对齐行为。
+
 ```ts
 type IVerticalAlign =
   | 'top' // 顶部对齐
@@ -209,9 +213,9 @@ type IVerticalAlign =
 
 ### autoSizeAlign: `boolean`
 
-当文本没有宽高且有对齐属性时，是否对齐起点坐标，默认为 true。
+当文本没有宽高时，是否对齐起点坐标，默认为 true，和设计软件效果一致。
 
-如希望文本位置从起点坐标开始，可设为 false。
+设为 false 可忽略对齐属性，和 HTML 效果一致。
 
 ### padding: `number` | `number`[]
 

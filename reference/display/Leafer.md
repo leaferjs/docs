@@ -74,6 +74,40 @@ App 实例, 如果不存在则是自身。
 
 另通过 [视图控制插件](/plugin/in/view/index.md) / [滚动条插件](/plugin/in/scroll/index.md) 可以便捷控制视图，支持居中显示内容、聚集到指定元素。
 
+### 画布平移 move
+
+### x: `number`
+
+x 轴画布平移位置。
+
+### y: `number`
+
+y 轴画布平移位置。
+
+### 画布缩放 zoom
+
+### scaleX: `number`
+
+x 轴画布缩放比例， 为负数时表示镜像 X 轴。
+
+### scaleY: `number`
+
+y 轴画布缩放比例，为负数时表示镜像 Y 轴。
+
+### 计算属性
+
+### scale: `number` ｜ [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+
+快速设置 / 获取 scaleX, scaleY。
+
+```ts
+app.tree.scale = 2 // scaleX = 2, scaleY = 2
+console.log(app.tree.scale) // 2
+
+app.tree.scale = { x: 1, y: 2 } // scaleX = 1, scaleY = 2
+console.log(app.tree.scale) // {x:1, y: 2}
+```
+
 ## 状态属性
 
 ### created: `boolean`
@@ -123,6 +157,20 @@ App 实例, 如果不存在则是自身。
 ### zIndex: `number`
 
 App 结构下，可以通过设置 zIndex 控制自身在 App 中的层叠顺序, 默认为 0。
+
+## 缓存属性
+
+需安装 [查找元素插件](/plugin/in/find/index.md) 才能使用, App 结构下要设置在子 Leafer 实例上才能生效。
+
+### cacheId: `boolean`
+
+是否在创建元素时，全局缓存id元素，提升查找 [id](/reference/UI/find.md#通过-id-查找) 的速度。
+
+### cacheInnerId: `boolean`
+
+是否在创建元素时，全局缓存innerId元素，提升查找 [innerId](/reference/UI/find.md#通过-innerid-查找) 的速度。
+
+启用 cacheInnerId 时，必须同时启用 cacheId 才能生效。
 
 ## 静态属性
 

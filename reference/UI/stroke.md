@@ -35,11 +35,17 @@ type StrokeAlign = 'inside' | 'center' | 'outside' //  内部  |  居中 ｜ 外
 
 描边的宽度, 默认为 1。
 
-### strokeWidthFixed?: `'zoom-in'` | `false`
+### strokeScaleFixed?: `'zoom-in'` | `number` | `boolean`
 
-是否固定线宽，默认为 false。
+<del>strokeWidthFixed?: `'zoom-in'` | `false`</del>
 
-设置 'zoom-in' 后， 线宽不会跟随画面放大，画面缩小时仍会跟随缩小（防止堆成一团）。
+固定描边线宽的全局缩放，默认为 false。
+
+设为 true 表示，无论线宽不会跟随画面缩放，请谨慎使用（可能会带来残影）。
+
+设置 'zoom-in' 或 数字 1 时， 表示线宽不会跟随画面放大，但会跟随缩小（防止堆成一团）。
+
+设置 0～1 之间的小数时，表示在画面缩小到这个缩放值的时候，线宽才开始变小。
 
 在此场景下，建议 strokeAlign 使用高性能的居中描边， 另 [hitFill](/reference/UI/hit.md#hitfill-ihittype) 为 all 可节省填充操作。
 
@@ -82,7 +88,7 @@ rect.dashPattern = [20, 10] // [线段，间隙]
 ```ts
 interface IStrokeStyle {
     strokeWidth?: number // 描边的宽度
-    strokeWidthFixed?: boolean // 是否固定线宽，不随画布视图放大
+    strokeScaleFixed?: false // 是否取消固定线宽功能
     strokeCap?: 'none' | 'round' | 'square' // 无 | 圆形 | 方形 (描边的端点形状)
     strokeJoin?: 'miter' ｜ 'bevel' | 'round' //  直角 ｜ 平角 ｜ 圆角 (描边的拐角处理)
     dashPattern?: number[] // 虚线描边的数值

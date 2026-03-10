@@ -2,6 +2,60 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2026 / 03 / 09
+
+> v2.0.3
+
+助你快速打造 AI 无限画布
+
+#### 🍇 社区
+
+官方 PxGrow 插件 🎉🎉🎉
+
+\- 🌸 [Linker](https://www.pxgrow.com/plugin/view/?id=10014) v1.0.0-beta 发布，高性能的连线元素
+
+\- 🌸 [Image Filter](https://www.pxgrow.com/plugin/view/?id=10013) v1.0.0-beta 发布，轻松添加图片滤镜
+
+\- 🌸 [Vector Lighter](https://www.pxgrow.com/plugin/view/?id=10007) v1.0.0-beta 发布，复杂矢量阴影渲染丝滑
+
+#### 🌱 新增
+
+\- 🌸 [scale-fixed 插件](/plugin/in/scale-fixed/index.md) 发布 🎉🎉🎉
+
+\- 🌸 元素新增 [scaleFixed](/reference/UI/scaleFixed.md) 属性， 可固定元素的全局缩放，不随视图放大
+
+\- 🌸 箭头支持 [修改大小](/plugin/in/arrow/index.md#箭头大小放大2倍)、[旋转角度](/plugin/in/arrow/index.md#箭头增量旋转30度)，支持自定义 [fill箭头](/plugin/in/arrow/index.md#注册自定义箭头样式)
+
+\- 箭头元素支持 [固定线宽](/reference/UI/stroke.md#strokescalefixed-zoom-in-number-boolean) ，缩放过程中会自动更新路径和箭头大小
+
+\- 元素增加 [asPath()](/reference/UI/getPath.md#aspath-curve-boolean-pathforrender-boolean-ipathcommanddata) 方法， 可快速转成路径元素
+
+\- editTool、innerEditor 工具增加 [editConfig](/plugin/in/editor/EditTool.md#editconfig-ieditorconfig)，可临时覆盖编辑器配置
+
+\- Leafer 新增 [cacheId](/reference/display/Leafer.md#cacheid-boolean) 和 [cacheInnerId](/reference/display/Leafer.md#cacheid-boolean) 属性，允许创建元素时缓存id，提升查询 id 速度
+
+\- Bounds 增加 [getPoint()](/reference/math/Bounds.md#getpoint-around-iaround-onlyboxsize-boolean-to-ipointdata-ipointdata) 方法，可以获取指定方位的点坐标
+
+#### 🪲 修复
+
+\- 🌸 修复App的view采用canvas时，在小数pixelRatio设备上会出现残影的问题
+
+\- 修复编辑器没有配置 dimOthers 时仍会强制修改元素的 dim 和 bright 的问题
+
+\- 修复编辑器禁用旋转时，中间的控制点仍可能会出现旋转光标的问题
+
+\- 修复相同的坐标点会导致箭头方向错误的问题
+
+\- 修复 [Ellipse](/reference/display/Ellipse.md) 元素未转路径时不支持箭头的问题，内部自动转路径
+
+#### 🌿 优化
+
+\- 🌸 元素新增 [strokeScaleFixed](/reference/UI/stroke.md#strokescalefixed-zoom-in-number-boolean) 属性代替 strokeWidthFixed（老代码仍兼容）
+
+#### 🌷 感谢反馈
+
+[@Nxtspace](https://github.com/Nxtspace) [@terminus318](https://github.com/terminus318) [@Shooter-oss](https://github.com/Shooter-oss) [@18398773590](https://github.com/leaferjs/leafer-ui/issues/446) [@johnnhan](https://github.com/leaferjs/leafer-ui/issues/416) @小志 @闰土 @走到群众中去 @hyh @李子
+
 ## 2026 / 02 / 24
 
 > v2.0.2

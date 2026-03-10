@@ -156,6 +156,14 @@ onlySize 为 true 时只缩放宽高。
 
 获取 [topLeft, topRight, bottomRight, bottomLeft] 4 个坐标点。
 
+### getPoint ( around: [`IAround`](/reference/UI/around.md), onlyBoxSize?: `boolean`, to?: [`IPointData`](/api/interfaces/IPointData.md) ): [`IPointData`](/api/interfaces/IPointData.md)
+
+获取包围盒中 around 点的坐标。
+
+onlyBoxSize 表示不包含 Bounds 的起始坐标，默认为 false。
+
+如果存在 to, 则将结果设置给 to。
+
 ### 碰撞检测
 
 ### hitPoint ( point: [`IPointData`](/api/interfaces/IPointData.md), pointMatrix?: [`IMatrixData`](/api/interfaces/IMatrixData.md) ): `boolean`

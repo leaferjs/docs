@@ -1,6 +1,6 @@
 # @leafer-editor/miniapp
 
-在 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md) 基础上，引入了 [图形编辑器](/plugin/in/editor/index.md)、[视口](/plugin/in/viewport/index.md)、[视图控制](/plugin/in/view/index.md) 、[滚动条](/plugin/in/scroll/index.md)、[箭头](/plugin/in/arrow/index.md)、[查找元素](/plugin/in/find/index.md)、[导出元素](/plugin/in/export/index.md) 插件，适用于在线图形编辑的场景。
+在 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md) 基础上，引入了 [图形编辑器](/plugin/in/editor/index.md)、[视口](/plugin/in/viewport/index.md)、[视图控制](/plugin/in/view/index.md) 、[滚动条](/plugin/in/scroll/index.md)、[箭头](/plugin/in/arrow/index.md)、[查找元素](/plugin/in/find/index.md)、[导出元素](/plugin/in/export/index.md)、[scale-fixed 插件](/plugin/in/scale-fixed/index.md) 插件，适用于在线图形编辑的场景。
 
 ##
 
@@ -42,9 +42,9 @@ bun add @leafer-editor/miniapp
 
 ```sh
 
-https://unpkg.com/@leafer-editor/miniapp@2.0.2/dist/miniapp.module.js
+https://unpkg.com/@leafer-editor/miniapp@2.0.3/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-editor/miniapp@2.0.2/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-editor/miniapp@2.0.3/dist/miniapp.module.min.js
 
 
 ```

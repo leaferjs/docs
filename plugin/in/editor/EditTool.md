@@ -10,6 +10,10 @@
 
 编辑工具的视图容器。
 
+### editConfig: [`IEditorConfig`](/plugin/in/editor/config/base.md)
+
+编辑工具的临时独立编辑配置（会覆盖主编辑配置），只在打开编辑工具期间有效，关闭后还原。
+
 ### eventIds?: `IEventListenerId`[]
 
 监听事件的 id 列表（可选），支持自动销毁，通过 [on\_()](/reference/UI/on.md#on-1) 监听可返回 事件 id， 并可绑定 this。

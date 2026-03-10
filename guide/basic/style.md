@@ -64,15 +64,15 @@ import Case from '/component/Case.vue'
 
 支持进一步设置描边样式。
 
-| 名称                                                                       | 描述                             | 值                                |
-| -------------------------------------------------------------------------- | -------------------------------- | --------------------------------- |
-| [strokeAlign](/reference/UI/stroke.md#strokealign-strokealign)             | 描边的对齐方式                   | 'inside' 、 'center' 、 'outside' |
-| [strokeWidth](/reference/UI/stroke.md#strokewidth-number)                  | 描边的宽度                       | `number`                          |
-| [strokeWidthFixed](/reference/UI/stroke.md#strokewidthfixed-zoom-in-false) | 是否固定线宽（不受视图放大影响） | `'zoom-in'` / `false`             |
-| [strokeCap](/reference/UI/stroke.md#strokecap-strokecap)                   | 描边的端点形状                   | 'none' 、 'round' 、'square'      |
-| [strokeJoin](/reference/UI/stroke.md#strokejoin-strokejoin)                | 描边的拐角处理                   | 'miter' 、 'bevel' 、 'round'     |
-| [dashPattern](/reference/UI/stroke.md#dashpattern-number)                  | 虚线描边                         | `number`[]                        |
-| [dashOffset](/reference/UI/stroke.md#dashoffset-number)                    | 虚线描边的起点偏移值             | `number`                          |
+| 名称                                                                                | 描述                             | 值                                  |
+| ----------------------------------------------------------------------------------- | -------------------------------- | ----------------------------------- |
+| [strokeAlign](/reference/UI/stroke.md#strokealign-strokealign)                      | 描边的对齐方式                   | 'inside' 、 'center' 、 'outside'   |
+| [strokeWidth](/reference/UI/stroke.md#strokewidth-number)                           | 描边的宽度                       | `number`                            |
+| [strokeScaleFixed](/reference/UI/stroke.md#strokescalefixed-zoom-in-number-boolean) | 是否固定线宽（不受视图放大影响） | `'zoom-in'` 、 `number` 、`boolean` |
+| [strokeCap](/reference/UI/stroke.md#strokecap-strokecap)                            | 描边的端点形状                   | 'none' 、 'round' 、'square'        |
+| [strokeJoin](/reference/UI/stroke.md#strokejoin-strokejoin)                         | 描边的拐角处理                   | 'miter' 、 'bevel' 、 'round'       |
+| [dashPattern](/reference/UI/stroke.md#dashpattern-number)                           | 虚线描边                         | `number`[]                          |
+| [dashOffset](/reference/UI/stroke.md#dashoffset-number)                             | 虚线描边的起点偏移值             | `number`                            |
 
 <<< @/code/basic/style/stroke-options.ts
 
