@@ -101,25 +101,37 @@ interface IAnimateKeyframe {
 
 <case name="AnimatePage" editor=false></case>
 
-<<< @/code/property/animation/page.ts
+::: code-group
+<<< @/code/property/animation/page.ts [Leafer]
+<<< @/code/property/animation/app/page.ts [App]
+:::
 
 <case name="Animate" editor=false></case>
 
 ### 摇摆循环动画
 
-<<< @/code/property/animation/rect.ts
+::: code-group
+<<< @/code/property/animation/rect.ts [Leafer]
+<<< @/code/property/animation/app/rect.ts [App]
+:::
 
 <case name="AnimateColor" editor=false></case>
 
 ### 颜色过渡动画
 
-<<< @/code/property/animation/color.ts
+::: code-group
+<<< @/code/property/animation/color.ts [Leafer]
+<<< @/code/property/animation/app/color.ts [App]
+:::
 
 <case name="AnimateFrames" editor=false></case>
 
 ### 关键帧动画
 
-<<< @/code/property/animation/keyframes.ts
+::: code-group
+<<< @/code/property/animation/keyframes.ts [Leafer]
+<<< @/code/property/animation/app/keyframes.ts [App]
+:::
 
 <case name="Arrow" index=24 editor=false></case>
 

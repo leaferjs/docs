@@ -24,4 +24,7 @@
 
 ### 等待元素被添加到父元素中时，执行回调
 
-<<< @/code/property/parent/wait.ts
+::: code-group
+<<< @/code/property/parent/wait.ts [Leafer]
+<<< @/code/property/parent/app/wait.ts [App]
+:::

@@ -26,4 +26,7 @@
 
 ## 示例
 
-<<< @/code/property/state/focusStyle.ts
+::: code-group
+<<< @/code/property/state/focusStyle.ts [Leafer]
+<<< @/code/property/state/app/focusStyle.ts [App]
+:::

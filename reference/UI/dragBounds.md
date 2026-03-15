@@ -29,4 +29,7 @@ type IDragBoundsType =
 
 ### 限制元素在 Frame 内拖动
 
-<<< @/code/property/dragBounds/frame.ts
+::: code-group
+<<< @/code/property/dragBounds/frame.ts [Leafer]
+<<< @/code/property/dragBounds/app/frame.ts [App]
+:::

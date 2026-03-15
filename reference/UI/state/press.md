@@ -28,4 +28,7 @@ pointer.down 状态， 支持添加 [过渡效果](/reference/UI/transition.md)�
 
 ### 鼠标按下颜色加深
 
-<<< @/code/property/state/pressStyle.ts
+::: code-group
+<<< @/code/property/state/pressStyle.ts [Leafer]
+<<< @/code/property/state/app/pressStyle.ts [App]
+:::

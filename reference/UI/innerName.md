@@ -16,4 +16,7 @@
 
 ### 显示矩形元素的 innerName
 
-<<< @/code/property/name/innerName.ts
+::: code-group
+<<< @/code/property/name/innerName.ts [Leafer]
+<<< @/code/property/name/app/innerName.ts [App]
+:::

@@ -18,4 +18,7 @@ import Case from '/component/Case.vue'
 
 ### 停用子元素交互事件
 
-<<< @/code/property/hit/hitChildren.ts
+::: code-group
+<<< @/code/property/hit/hitChildren.ts [Leafer]
+<<< @/code/property/hit/app/hitChildren.ts [App]
+:::

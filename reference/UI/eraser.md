@@ -36,22 +36,34 @@ type IEraserType =
 
 ### 将圆环设为橡皮擦
 
-<<< @/code/property/eraser/ui.ts
+::: code-group
+<<< @/code/property/eraser/ui.ts [Leafer]
+<<< @/code/property/eraser/app/ui.ts [App]
+:::
 
 <case name="Eraser" index=1 editor=false></case>
 
 ### 将半透明的圆环设为橡皮擦
 
-<<< @/code/property/eraser/opacity.ts
+::: code-group
+<<< @/code/property/eraser/opacity.ts [Leafer]
+<<< @/code/property/eraser/app/opacity.ts [App]
+:::
 
 <case name="Eraser" index=2 editor=false></case>
 
 ### 将圆形组设为橡皮擦
 
-<<< @/code/property/eraser/group.ts
+::: code-group
+<<< @/code/property/eraser/group.ts [Leafer]
+<<< @/code/property/eraser/app/group.ts [App]
+:::
 
 <case name="Eraser" index=5 editor=false></case>
 
 ### 将路径设为橡皮擦
 
-<<< @/code/property/eraser/path.ts
+::: code-group
+<<< @/code/property/eraser/path.ts [Leafer]
+<<< @/code/property/eraser/app/path.ts [App]
+:::

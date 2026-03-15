@@ -16,4 +16,7 @@
 
 ### 调整矩形的显示顺序
 
-<<< @/code/property/zIndex/rect.ts
+::: code-group
+<<< @/code/property/zIndex/rect.ts [Leafer]
+<<< @/code/property/zIndex/app/rect.ts [App]
+:::

@@ -26,20 +26,35 @@
 
 ### 通过 id 查找
 
-<<< @/code/property/findOne/id.ts
+::: code-group
+<<< @/code/property/findOne/id.ts [Leafer]
+<<< @/code/property/findOne/app/id.ts [App]
+:::
 
 ### 通过 innerId 查找
 
-<<< @/code/property/findOne/innerId.ts
+::: code-group
+<<< @/code/property/findOne/innerId.ts [Leafer]
+<<< @/code/property/findOne/app/innerId.ts [App]
+:::
 
 ### 通过 className 查找
 
-<<< @/code/property/findOne/className.ts
+::: code-group
+<<< @/code/property/findOne/className.ts [Leafer]
+<<< @/code/property/findOne/app/className.ts [App]
+:::
 
 ### 通过 tag 查找
 
-<<< @/code/property/findOne/tag.ts
+::: code-group
+<<< @/code/property/findOne/tag.ts [Leafer]
+<<< @/code/property/findOne/app/tag.ts [App]
+:::
 
 ### 通过 函数 查找
 
-<<< @/code/property/findOne/method.ts
+::: code-group
+<<< @/code/property/findOne/method.ts [Leafer]
+<<< @/code/property/findOne/app/method.ts [App]
+:::

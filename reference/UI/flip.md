@@ -28,8 +28,14 @@ rect.flip('x', 2) // 过渡 2 秒
 
 ### 按 X 轴镜像元素
 
-<<< @/code/property/flip/flip.ts
+::: code-group
+<<< @/code/property/flip/flip.ts [Leafer]
+<<< @/code/property/flip/app/flip.ts [App]
+:::
 
 ### 按 X 轴镜像元素，有动画过渡
 
-<<< @/code/property/flip/transition.ts
+::: code-group
+<<< @/code/property/flip/transition.ts [Leafer]
+<<< @/code/property/flip/app/transition.ts [App]
+:::

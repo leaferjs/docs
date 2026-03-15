@@ -34,4 +34,7 @@ type IHitType =
 
 拖动矩形试一试。
 
-<<< @/code/property/hit/stroke-visible.ts
+::: code-group
+<<< @/code/property/hit/stroke-visible.ts [Leafer]
+<<< @/code/property/hit/app/stroke-visible.ts [App]
+:::

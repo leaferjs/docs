@@ -50,10 +50,15 @@ interface IStates {
 
 ### 点击切换元素状态
 
+::: code-group
 <<< @/code/property/state/state.ts
+<<< @/code/property/state/app/state.ts
 
 <case name="Transition" editor=false></case>
 
 ### 同步 hover 状态的按钮
 
-<<< @/code/property/transition/button.ts
+::: code-group
+<<< @/code/property/transition/button.ts [Leafer]
+<<< @/code/property/transition/app/button.ts [App]
+:::

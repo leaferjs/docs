@@ -22,4 +22,7 @@
 需安装 [查找元素插件](/plugin/in/find/index.md) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)、 [leafer-editor](/guide/install/editor/start.md) （已集成查找元素插件）
 :::
 
-<<< @/code/property/find/tag.ts
+::: code-group
+<<< @/code/property/find/tag.ts [Leafer]
+<<< @/code/property/find/app/tag.ts [App]
+:::

@@ -53,8 +53,14 @@ rect.move(10, 10, 2) // 过渡 2 秒
 
 ### 通过 move() 移动元素
 
-<<< @/code/property/move/move.ts
+::: code-group
+<<< @/code/property/move/move.ts [Leafer]
+<<< @/code/property/move/app/move.ts [App]
+:::
 
 ### 通过 move() 移动元素，有动画过渡
 
-<<< @/code/property/move/transition.ts
+::: code-group
+<<< @/code/property/move/transition.ts [Leafer]
+<<< @/code/property/move/app/transition.ts [App]
+:::

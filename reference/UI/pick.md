@@ -32,4 +32,7 @@ interface IPickResult {
 
 ### 通过 point 拾取元素
 
-<<< @/code/property/pick/point.ts
+::: code-group
+<<< @/code/property/pick/point.ts [Leafer]
+<<< @/code/property/pick/app/point.ts [App]
+:::

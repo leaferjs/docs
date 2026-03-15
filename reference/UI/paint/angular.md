@@ -110,7 +110,10 @@ to: {x: 0.5, y: 1} // 底部居中
 
 从中心 -> 底部居中垂直绘制的渐变
 
-<<< @/code/property/fill/angular/a.ts
+::: code-group
+<<< @/code/property/fill/angular/a.ts [Leafer]
+<<< @/code/property/fill/angular/app/a.ts [App]
+:::
 
 <case name="Angular" index=2 editor=false></case>
 
@@ -118,7 +121,10 @@ to: {x: 0.5, y: 1} // 底部居中
 
 从左上角 -> 中心呈 45 度绘制的渐变。
 
-<<< @/code/property/fill/angular/from.ts
+::: code-group
+<<< @/code/property/fill/angular/from.ts [Leafer]
+<<< @/code/property/fill/angular/app/from.ts [App]
+:::
 
 <case name="Angular" index=1 editor=false></case>
 
@@ -126,7 +132,10 @@ to: {x: 0.5, y: 1} // 底部居中
 
 从中心 -> 右下角 呈 45 度, 且拉伸比例为 0.1 绘制的渐变。
 
-<<< @/code/property/fill/angular/stretch.ts
+::: code-group
+<<< @/code/property/fill/angular/stretch.ts [Leafer]
+<<< @/code/property/fill/angular/app/stretch.ts [App]
+:::
 
 <case name="Angular" index=6 editor=false></case>
 
@@ -136,4 +145,7 @@ to: {x: 0.5, y: 1} // 底部居中
 
 color 为 [颜色对象](/reference/interface/ui/Color.md#rgb) 时 opacity 直接生效， 为非 [颜色对象](/reference/interface/ui/Color.md#rgb) 时需安装 [color 插件](/plugin/in/color/) 才能生效， 或直接使用 `rgba(255,75,75,0,5)` 字符串颜色。
 
-<<< @/code/property/fill/angular/opacity.ts
+::: code-group
+<<< @/code/property/fill/angular/opacity.ts [Leafer]
+<<< @/code/property/fill/angular/app/opacity.ts [App]
+:::

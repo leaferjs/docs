@@ -38,13 +38,19 @@ interface ShadowEffect {
 
 ### 绘制阴影
 
-<<< @/code/property/shadow/offset.ts
+::: code-group
+<<< @/code/property/shadow/offset.ts [Leafer]
+<<< @/code/property/shadow/app/offset.ts [App]
+:::
 
 <case name="Shadow" index=0 editor=false></case>
 
 ### 绘制 boxShadow 阴影
 
-<<< @/code/property/shadow/box.ts
+::: code-group
+<<< @/code/property/shadow/box.ts [Leafer]
+<<< @/code/property/shadow/app/box.ts [App]
+:::
 
 ### 阴影不随画布放大
 

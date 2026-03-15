@@ -78,28 +78,43 @@ polygon.setTransform(transform) // 重设 transform，会自动处理 around 的
 
 ### 围绕坐标(50,50) 为中心进行绘制
 
-<<< @/code/property/around/center.ts
+::: code-group
+<<< @/code/property/around/center.ts [Leafer]
+<<< @/code/property/around/app/center.ts [App]
+:::
 
 <case name="Around" index=1 editor=false></case>
 
 ### 围绕坐标(50,50) 为中心缩放 1.5 倍
 
-<<< @/code/property/around/scale.ts
+::: code-group
+<<< @/code/property/around/scale.ts [Leafer]
+<<< @/code/property/around/app/scale.ts [App]
+:::
 
 <case name="Around" index=2 editor=false></case>
 
 ### 围绕坐标(50,50) 为中心旋转 45 度
 
-<<< @/code/property/around/rotate.ts
+::: code-group
+<<< @/code/property/around/rotate.ts [Leafer]
+<<< @/code/property/around/app/rotate.ts [App]
+:::
 
 <case name="Around" index=3 editor=false></case>
 
 ### 围绕坐标(50,50) 为中心倾斜 45 度
 
-<<< @/code/property/around/skew.ts
+::: code-group
+<<< @/code/property/around/skew.ts [Leafer]
+<<< @/code/property/around/app/skew.ts [App]
+:::
 
 <case name="Around" index=4 editor=false></case>
 
 ### around 坐标点(50,50) 在矩形的右下角
 
-<<< @/code/property/around/right.ts
+::: code-group
+<<< @/code/property/around/right.ts [Leafer]
+<<< @/code/property/around/app/right.ts [App]
+:::

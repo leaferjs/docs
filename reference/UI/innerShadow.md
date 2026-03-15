@@ -37,4 +37,7 @@ interface ShadowEffect {
 
 ### 绘制内阴影
 
-<<< @/code/property/innerShadow/blur.ts
+::: code-group
+<<< @/code/property/innerShadow/blur.ts [Leafer]
+<<< @/code/property/innerShadow/app/blur.ts [App]
+:::

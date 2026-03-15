@@ -56,13 +56,22 @@ group.childlessJSON = true
 
 ### 创建方式
 
-<<< @/code/property/json/create.ts
+::: code-group
+<<< @/code/property/json/create.ts [Leafer]
+<<< @/code/property/json/app/create.ts [App]
+:::
 
-<<< @/code/property/json/leafer.ts
+::: code-group
+<<< @/code/property/json/leafer.ts [Leafer]
+<<< @/code/property/json/app/leafer.ts [App]
+:::
 
 ### set 方式
 
-<<< @/code/property/json/set.ts
+::: code-group
+<<< @/code/property/json/set.ts [Leafer]
+<<< @/code/property/json/app/set.ts [App]
+:::
 
 ## 归属
 

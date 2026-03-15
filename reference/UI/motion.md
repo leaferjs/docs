@@ -43,4 +43,4 @@ rect.motion = {
 
 <case name="AnimatePath" editor=false height=240></case>
 
-<<< @/code/plugin/animate/path.ts
+<<< @/code/plugin/animate/path.ts [Leafer]

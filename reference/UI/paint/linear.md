@@ -102,7 +102,10 @@ from: {
 
 从顶部居中 -> 底部居中垂直绘制的渐变
 
-<<< @/code/property/fill/linear/a.ts
+::: code-group
+<<< @/code/property/fill/linear/a.ts [Leafer]
+<<< @/code/property/fill/linear/app/a.ts [App]
+:::
 
 <case name="Linear" index=1 editor=false></case>
 
@@ -110,7 +113,10 @@ from: {
 
 从左上角 -> 右下角呈 45 度绘制的渐变。
 
-<<< @/code/property/fill/linear/from.ts
+::: code-group
+<<< @/code/property/fill/linear/from.ts [Leafer]
+<<< @/code/property/fill/linear/app/from.ts [App]
+:::
 
 <case name="Linear" index=6 editor=false></case>
 
@@ -120,4 +126,7 @@ from: {
 
 color 为 [颜色对象](/reference/interface/ui/Color.md#rgb) 时 opacity 直接生效， 为非 [颜色对象](/reference/interface/ui/Color.md#rgb) 时需安装 [color 插件](/plugin/in/color/) 才能生效， 或直接使用 `rgba(255,75,75,0,5)` 字符串颜色。
 
-<<< @/code/property/fill/linear/opacity.ts
+::: code-group
+<<< @/code/property/fill/linear/opacity.ts [Leafer]
+<<< @/code/property/fill/linear/app/opacity.ts [App]
+:::

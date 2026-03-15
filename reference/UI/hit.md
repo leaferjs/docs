@@ -44,4 +44,7 @@ import Case from '/component/Case.vue'
 
 ### 停用元素响应交互事件
 
-<<< @/code/property/hit/hittable.ts
+::: code-group
+<<< @/code/property/hit/hittable.ts [Leafer]
+<<< @/code/property/hit/app/hittable.ts [App]
+:::

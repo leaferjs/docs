@@ -78,7 +78,10 @@ Group 会强制子元素跟随 resize，不用设置此参数。
 
 ### 调整 Group 大小，不使用 scale 属性
 
-<<< @/code/property/resize/group.ts
+::: code-group
+<<< @/code/property/resize/group.ts [Leafer]
+<<< @/code/property/resize/group.ts [App]
+:::
 
 ### scaleOf 增加 resize 参数
 

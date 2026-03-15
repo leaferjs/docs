@@ -20,4 +20,7 @@
 
 ### 获取元素的字符串路径
 
-<<< @/code/property/getPathString/get.ts
+::: code-group
+<<< @/code/property/getPathString/get.ts [Leafer]
+<<< @/code/property/getPathString/app/get.ts [App]
+:::

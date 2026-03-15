@@ -44,10 +44,16 @@ text.textOverflow = '...'
 
 ### 裁剪掉超出宽高的内容
 
-<<< @/code/display/Box/overflow.ts
+::: code-group
+<<< @/code/display/Box/overflow.ts [Leafer]
+<<< @/code/display/Box/app/overflow.ts [App]
+:::
 
 <case name="ImageFill" index=4 editor=false></case>
 
 ### 快速裁剪图片
 
-<<< @/code/property/fill/image/clip.ts
+::: code-group
+<<< @/code/property/fill/image/clip.ts [Leafer]
+<<< @/code/property/fill/image/app/clip.ts [App]
+:::

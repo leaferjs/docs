@@ -88,7 +88,10 @@ Leafer 支持手动强制更新光标样式 [updateCursor()](/reference/display/
 
 ### 设置光标
 
-<<< @/code/property/cursor/name.ts
+::: code-group
+<<< @/code/property/cursor/name.ts [Leafer]
+<<< @/code/property/cursor/app/name.ts [App]
+:::
 
 <case name="Cursor" index=5 editor=false></case>
 
@@ -96,4 +99,7 @@ Leafer 支持手动强制更新光标样式 [updateCursor()](/reference/display/
 
 支持 png、 svg 格式的图片, 偏移距离 x、y 为可选字段。
 
-<<< @/code/property/cursor/image.ts
+::: code-group
+<<< @/code/property/cursor/image.ts [Leafer]
+<<< @/code/property/cursor/app/image.ts [App]
+:::

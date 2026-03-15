@@ -18,8 +18,14 @@
 
 后续创建的所有文本，默认填充色都将变为红色， 但不会影响其他类型的元素。
 
-<<< @/code/property/custom/changeAttr.ts
+::: code-group
+<<< @/code/property/custom/changeAttr.ts [Leafer]
+<<< @/code/property/custom/app/changeAttr.ts [App]
+:::
 
 ### 修改文本默认填充色为可变颜色
 
-<<< @/code/property/custom/changeAttr2.ts
+::: code-group
+<<< @/code/property/custom/changeAttr2.ts [Leafer]
+<<< @/code/property/custom/app/changeAttr2.ts [App]
+:::

@@ -20,4 +20,7 @@ y 轴偏移量。
 
 ### 偏移元素
 
-<<< @/code/property/offset/offset.ts
+::: code-group
+<<< @/code/property/offset/offset.ts [Leafer]
+<<< @/code/property/offset/app/offset.ts [App]
+:::

@@ -24,4 +24,7 @@
 
 ## 示例
 
-<<< @/code/property/state/disabledStyle.ts
+::: code-group
+<<< @/code/property/state/disabledStyle.ts [Leafer]
+<<< @/code/property/state/app/disabledStyle.ts [App]
+:::

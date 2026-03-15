@@ -28,4 +28,7 @@ import Case from '/component/Case.vue'
 
 ## 示例
 
-<<< @/code/property/state/selectedStyle.ts
+::: code-group
+<<< @/code/property/state/selectedStyle.ts [Leafer]
+<<< @/code/property/state/app/selectedStyle.ts [App]
+:::

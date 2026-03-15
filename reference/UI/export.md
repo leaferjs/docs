@@ -122,49 +122,79 @@ syncExport( name: [`IExportFileType`](/api/modules.md#iexportimagetype) | `strin
 
 ### 导出元素为图片
 
-<<< @/code/property/export/file.ts
+::: code-group
+<<< @/code/property/export/file.ts [Leafer]
+<<< @/code/property/export/app/file.ts [App]
+:::
 
 ### 导出高清图
 
-<<< @/code/property/export/pixelRatio.ts
+::: code-group
+<<< @/code/property/export/pixelRatio.ts [Leafer]
+<<< @/code/property/export/app/pixelRatio.ts [App]
+:::
 
 ### 导出 Base64 编码数据
 
 默认图片质量为 0.92。
 
-<<< @/code/property/export/string.ts
+::: code-group
+<<< @/code/property/export/string.ts [Leafer]
+<<< @/code/property/export/app/string.ts [App]
+:::
 
 手动设置图片质量。
 
-<<< @/code/property/export/quality.ts
+::: code-group
+<<< @/code/property/export/quality.ts [Leafer]
+<<< @/code/property/export/app/quality.ts [App]
+:::
 
 ### 同步导出 Base64 编码数据
 
-<<< @/code/property/syncExport/string.ts
+::: code-group
+<<< @/code/property/syncExport/string.ts [Leafer]
+<<< @/code/property/syncExport/app/string.ts [App]
+:::
 
 ### 导出二进制数据
 
-<<< @/code/property/export/blob.ts
+::: code-group
+<<< @/code/property/export/blob.ts [Leafer]
+<<< @/code/property/export/app/blob.ts [App]
+:::
 
 ### 导出时绘制水印
 
-<<< @/code/property/export/onCanvas.ts
+::: code-group
+<<< @/code/property/export/onCanvas.ts [Leafer]
+<<< @/code/property/export/app/onCanvas.ts [App]
+:::
 
 ### 导出为画布
 
-<<< @/code/property/export/canvas.ts
+::: code-group
+<<< @/code/property/export/canvas.ts [Leafer]
+<<< @/code/property/export/app/canvas.ts [App]
+:::
 
 ### 裁剪元素后导出
 
 相对元素渲染区域进行裁剪。
 
-<<< @/code/property/export/clip.ts
+::: code-group
+<<< @/code/property/export/clip.ts [Leafer]
+<<< @/code/property/export/app/clip.ts [App]
+:::
 
 ### 导出整个画布
 
 将当前引擎画布进行截图导出。
 
-<<< @/code/property/export/screenshot.ts
+::: code-group
+<<< @/code/property/export/screenshot.ts [Leafer]
+<<< @/code/property/export/app/screenshot.ts [App]
+:::
 
 ### 添加一个自定义异步任务
 

@@ -40,25 +40,37 @@ type IMaskType =
 
 ### 将圆环设为遮罩
 
-<<< @/code/property/mask/ui.ts
+::: code-group
+<<< @/code/property/mask/ui.ts [Leafer]
+<<< @/code/property/mask/app/ui.ts [App]
+:::
 
 <case name="Mask" index=1 editor=false></case>
 
 ### 将半透明的圆环设为遮罩
 
-<<< @/code/property/mask/opacity.ts
+::: code-group
+<<< @/code/property/mask/opacity.ts [Leafer]
+<<< @/code/property/mask/app/opacity.ts [App]
+:::
 
 <case name="Mask" index=2 editor=false></case>
 
 ### 将圆形组设为遮罩
 
-<<< @/code/property/mask/group.ts
+::: code-group
+<<< @/code/property/mask/group.ts [Leafer]
+<<< @/code/property/mask/app/group.ts [App]
+:::
 
 <case name="Mask" index=5 editor=false></case>
 
 ### 将路径设为遮罩
 
-<<< @/code/property/mask/path.ts
+::: code-group
+<<< @/code/property/mask/path.ts [Leafer]
+<<< @/code/property/mask/app/path.ts [App]
+:::
 
 ## 快速设置遮罩
 
@@ -66,4 +78,7 @@ type IMaskType =
 
 通过自定义函数可以为 Group 快速设置 mask 元素，默认会将遮罩添加到 Group 内 最底部。
 
-<<< @/code/property/mask/fast.ts
+::: code-group
+<<< @/code/property/mask/fast.ts [Leafer]
+<<< @/code/property/mask/app/fast.ts [App]
+:::

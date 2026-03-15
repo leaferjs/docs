@@ -28,4 +28,7 @@ pointer.enter 状态， 支持添加 [过渡效果](/reference/UI/transition.md)
 
 ### 鼠标移入颜色加深
 
-<<< @/code/property/state/hoverStyle.ts
+::: code-group
+<<< @/code/property/state/hoverStyle.ts [Leafer]
+<<< @/code/property/state/app/hoverStyle.ts [App]
+:::

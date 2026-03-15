@@ -119,7 +119,10 @@ rect.stroke = [
 
 ### 纯色描边
 
-<<< @/code/property/stroke/solid/a.ts
+::: code-group
+<<< @/code/property/stroke/solid/a.ts [Leafer]
+<<< @/code/property/stroke/solid/app/a.ts [App]
+:::
 
 <case name="GradientStroke" index=0  editor=false></case>
 
@@ -127,7 +130,10 @@ rect.stroke = [
 
 支持 [线性渐变](./paint/linear.md)、[径向渐变](./paint/radial.md)、[角度渐变](./paint/angular.md) 等类型。
 
-<<< @/code/property/stroke/linear/a.ts
+::: code-group
+<<< @/code/property/stroke/linear/a.ts [Leafer]
+<<< @/code/property/stroke/linear/app/a.ts [App]
+:::
 
 <case name="ImageStroke" index=0  editor=false></case>
 
@@ -135,7 +141,10 @@ rect.stroke = [
 
 [图案描边](./paint/image.md) 支持 覆盖、适应、裁剪、平铺等模式。
 
-<<< @/code/property/stroke/image/a.ts
+::: code-group
+<<< @/code/property/stroke/image/a.ts [Leafer]
+<<< @/code/property/stroke/image/app/a.ts [App]
+:::
 
 <case name="Strokes" index=0  editor=false></case>
 
@@ -143,10 +152,16 @@ rect.stroke = [
 
 描边的 opacity 暂时仅针对 [颜色对象](/reference/interface/ui/Color.md#rgb) 和图片有效。
 
-<<< @/code/property/stroke/mutil/a.ts
+::: code-group
+<<< @/code/property/stroke/mutil/a.ts [Leafer]
+<<< @/code/property/stroke/mutil/app/a.ts [App]
+:::
 
 <case name="Stroke" index=3  editor=false></case>
 
 ### 绘制虚线
 
-<<< @/code/property/stroke/dash/a.ts
+::: code-group
+<<< @/code/property/stroke/dash/a.ts [Leafer]
+<<< @/code/property/stroke/dash/app/a.ts [App]
+:::

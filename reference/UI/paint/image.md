@@ -279,43 +279,64 @@ const repeat = { x: 10, y: 6 } // 设置 x、y 轴平铺图片的个数
 
 ### cover 覆盖模式
 
-<<< @/code/property/fill/image/cover.ts
+::: code-group
+<<< @/code/property/fill/image/cover.ts [Leafer]
+<<< @/code/property/fill/image/app/cover.ts [App]
+:::
 
 <case name="ImageFill" index=1 editor=false></case>
 
 ### cover 覆盖模式旋转 90 度
 
-<<< @/code/property/fill/image/cover90.ts
+::: code-group
+<<< @/code/property/fill/image/cover90.ts [Leafer]
+<<< @/code/property/fill/image/app/cover90.ts [App]
+:::
 
 <case name="ImageFill" index=2 editor=false></case>
 
 ### fit 适应模式
 
-<<< @/code/property/fill/image/fit.ts
+::: code-group
+<<< @/code/property/fill/image/fit.ts [Leafer]
+<<< @/code/property/fill/image/app/fit.ts [App]
+:::
 
 <case name="ImageFill" index=3 editor=false></case>
 
 ### stretch 拉伸模式
 
-<<< @/code/property/fill/image/stretch.ts
+::: code-group
+<<< @/code/property/fill/image/stretch.ts [Leafer]
+<<< @/code/property/fill/image/app/stretch.ts [App]
+:::
 
 <case name="ImageFill" index=4 editor=false></case>
 
 ### clip 裁剪模式
 
-<<< @/code/property/fill/image/clip.ts
+::: code-group
+<<< @/code/property/fill/image/clip.ts [Leafer]
+<<< @/code/property/fill/image/app/clip.ts [App]
+:::
 
 <case name="ImageFill" index=5 editor=false></case>
 
 ### repeat 平铺模式
 
-<<< @/code/property/fill/image/repeat.ts
+::: code-group
+<<< @/code/property/fill/image/repeat.ts [Leafer]
+<<< @/code/property/fill/image/app/repeat.ts [App]
+:::
 
 <case name="ImageFill" index=6 editor=false></case>
 
 ### repeat 平铺模式旋转 90 度
 
-<<< @/code/property/fill/image/repeat90.ts
+::: code-group
+<<< @/code/property/fill/image/repeat90.ts [Leafer]
+<<< @/code/property/fill/image/app/repeat90.ts [App]
+:::
 
 ### repeat 平铺模式不随画布缩放
 

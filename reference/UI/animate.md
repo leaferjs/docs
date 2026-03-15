@@ -94,16 +94,25 @@ interface IAnimateOptions {
 
 ### 摇摆循环动画
 
-<<< @/code/property/animate/rect.ts
+::: code-group
+<<< @/code/property/animate/rect.ts [Leafer]
+<<< @/code/property/animate/app/rect.ts [App]
+:::
 
 <case name="AnimateColor" editor=false></case>
 
 ### 颜色过渡动画
 
-<<< @/code/property/animate/color.ts
+::: code-group
+<<< @/code/property/animate/color.ts [Leafer]
+<<< @/code/property/animate/app/color.ts [App]
+:::
 
 <case name="AnimateFrames" editor=false></case>
 
 ### 关键帧动画
 
-<<< @/code/property/animate/keyframes.ts
+::: code-group
+<<< @/code/property/animate/keyframes.ts [Leafer]
+<<< @/code/property/animate/app/keyframes.ts [App]
+:::

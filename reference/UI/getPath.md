@@ -22,4 +22,7 @@
 
 ### 获取元素的数字路径
 
-<<< @/code/property/getPath/get.ts
+::: code-group
+<<< @/code/property/getPath/get.ts [Leafer]
+<<< @/code/property/getPath/app/get.ts [App]
+:::

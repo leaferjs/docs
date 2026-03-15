@@ -28,8 +28,14 @@
 
 ### 元素不随画面放大
 
-<<< @/code/property/scaleFixed/index.ts
+::: code-group
+<<< @/code/property/scaleFixed/index.ts [Leafer]
+<<< @/code/property/scaleFixed/app/index.ts [App]
+:::
 
 ### 画布缩放到0.5时才跟随缩小
 
-<<< @/code/property/scaleFixed/min.ts
+::: code-group
+<<< @/code/property/scaleFixed/min.ts [Leafer]
+<<< @/code/property/scaleFixed/app/min.ts [App]
+:::

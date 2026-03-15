@@ -45,8 +45,14 @@ rect.rotateOf('center', 45, 2) // 过渡 2 秒
 
 ### 通过 rotateOf() 旋转元素
 
-<<< @/code/property/rotate/rotate.ts
+::: code-group
+<<< @/code/property/rotate/rotate.ts [Leafer]
+<<< @/code/property/rotate/app/rotate.ts [App]
+:::
 
 ### 通过 rotateOf() 旋转元素，有动画过渡
 
-<<< @/code/property/rotate/transition.ts
+::: code-group
+<<< @/code/property/rotate/transition.ts [Leafer]
+<<< @/code/property/rotate/app/transition.ts [App]
+:::

@@ -65,8 +65,14 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 ### 使用画笔绘制
 
-<<< @/code/property/path/pen.ts
+::: code-group
+<<< @/code/property/path/pen.ts [Leafer]
+<<< @/code/property/path/app/pen.ts [App]
+:::
 
 ### 使用路径数据
 
-<<< @/code/property/path/path.ts
+::: code-group
+<<< @/code/property/path/path.ts [Leafer]
+<<< @/code/property/path/app/path.ts [App]
+:::

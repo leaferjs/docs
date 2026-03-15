@@ -26,7 +26,10 @@ import Case from '/component/Case.vue'
 
 ### 纯色填充
 
-<<< @/code/property/fill/solid/a.ts
+::: code-group
+<<< @/code/property/fill/solid/a.ts [Leafer]
+<<< @/code/property/fill/solid/app/a.ts [App]
+:::
 
 <case name="Fill" index=1 editor=false></case>
 
@@ -34,7 +37,10 @@ import Case from '/component/Case.vue'
 
 支持 [线性渐变](./paint/linear.md)、[径向渐变](./paint/radial.md)、[角度渐变](./paint/angular.md) 等类型。
 
-<<< @/code/property/fill/linear/a.ts
+::: code-group
+<<< @/code/property/fill/linear/a.ts [Leafer]
+<<< @/code/property/fill/linear/app/a.ts [App]
+:::
 
 <case name="Fill" index=5 editor=false></case>
 
@@ -42,7 +48,10 @@ import Case from '/component/Case.vue'
 
 [图案填充](./paint/image.md) 支持 覆盖、适应、裁剪、平铺等模式。
 
-<<< @/code/property/fill/image/cover.ts
+::: code-group
+<<< @/code/property/fill/image/cover.ts [Leafer]
+<<< @/code/property/fill/image/app/cover.ts [App]
+:::
 
 <case name="Fill" index=4  editor=false></case>
 
@@ -50,4 +59,7 @@ import Case from '/component/Case.vue'
 
 填充的 opacity 暂时仅针对 [颜色对象](/reference/interface/ui/Color.md#rgb) 和图片有效。
 
-<<< @/code/property/fill/mutil/a.ts
+::: code-group
+<<< @/code/property/fill/mutil/a.ts [Leafer]
+<<< @/code/property/fill/mutil/app/a.ts [App]
+:::

@@ -20,8 +20,14 @@
 
 ### 隐藏元素
 
-<<< @/code/property/visible/visible.ts
+::: code-group
+<<< @/code/property/visible/visible.ts [Leafer]
+<<< @/code/property/visible/app/visible.ts [App]
+:::
 
 ### 隐藏元素，且不占空间
 
-<<< @/code/property/visible/none.ts
+::: code-group
+<<< @/code/property/visible/none.ts [Leafer]
+<<< @/code/property/visible/app/none.ts [App]
+:::

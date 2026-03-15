@@ -26,4 +26,7 @@
 
 ### 设置不透明度
 
-<<< @/code/property/opacity/opacity.ts
+::: code-group
+<<< @/code/property/opacity/opacity.ts [Leafer]
+<<< @/code/property/opacity/app/opacity.ts [App]
+:::

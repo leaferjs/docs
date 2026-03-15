@@ -111,8 +111,14 @@ rect.__.width // 50, 返回计算数据 50% = 100 * (50 / 100)，box.width变化
 
 ### 通过 set() 修改属性
 
-<<< @/code/property/set/set.ts
+::: code-group
+<<< @/code/property/set/set.ts [Leafer]
+<<< @/code/property/set/app/set.ts [App]
+:::
 
 ### 通过 set() 修改属性，有动画过渡
 
-<<< @/code/property/set/transition.ts
+::: code-group
+<<< @/code/property/set/transition.ts [Leafer]
+<<< @/code/property/set/app/transition.ts [App]
+:::

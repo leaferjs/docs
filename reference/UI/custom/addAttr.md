@@ -38,12 +38,21 @@
 
 ### 为文本新增一个 float 属性
 
-<<< @/code/property/custom/addAttr.ts
+::: code-group
+<<< @/code/property/custom/addAttr.ts [Leafer]
+<<< @/code/property/custom/app/addAttr.ts [App]
+:::
 
 ### 为文本新增一个可变的 float 属性
 
-<<< @/code/property/custom/addAttr2.ts
+::: code-group
+<<< @/code/property/custom/addAttr2.ts [Leafer]
+<<< @/code/property/custom/app/addAttr2.ts [App]
+:::
 
 ### 为文本新增一个 dataType 类型的属性
 
-<<< @/code/property/custom/addAttr-datatype.ts
+::: code-group
+<<< @/code/property/custom/addAttr-datatype.ts [Leafer]
+<<< @/code/property/custom/app/addAttr-datatype.ts [App]
+:::

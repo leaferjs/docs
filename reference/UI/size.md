@@ -42,8 +42,14 @@
 
 ### 创建矩形，并设置宽高
 
-<<< @/code/display/Rect/rect.ts
+::: code-group
+<<< @/code/display/Rect/rect.ts [Leafer]
+<<< @/code/display/Rect/app/rect.ts [App]
+:::
 
 ### 调整 Group 大小，不使用 scale 属性
 
-<<< @/code/property/resize/group.ts
+::: code-group
+<<< @/code/property/resize/group.ts [Leafer]
+<<< @/code/property/resize/app/group.ts [App]
+:::

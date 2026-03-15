@@ -68,4 +68,7 @@ interface IAnimateOptions {
 
 ### 有过渡效果的按钮
 
-<<< @/code/property/transition/button.ts
+::: code-group
+<<< @/code/property/transition/button.ts [Leafer]
+<<< @/code/property/transition/app/button.ts [App]
+:::

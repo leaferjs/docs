@@ -70,25 +70,37 @@ polygon.setTransform(transform) // 重设 transform，会自动处理 origin 的
 
 ### 设置原点在中心
 
-<<< @/code/property/origin/center.ts
+::: code-group
+<<< @/code/property/origin/center.ts [Leafer]
+<<< @/code/property/origin/app/center.ts [App]
+:::
 
 <case name="Around" index=1 editor=false></case>
 
 ### 围绕原点缩放 1.5 倍
 
-<<< @/code/property/origin/scale.ts
+::: code-group
+<<< @/code/property/origin/scale.ts [Leafer]
+<<< @/code/property/origin/app/scale.ts [App]
+:::
 
 <case name="Around" index=2 editor=false></case>
 
 ### 围绕原点旋转 45 度
 
-<<< @/code/property/origin/rotate.ts
+::: code-group
+<<< @/code/property/origin/rotate.ts [Leafer]
+<<< @/code/property/origin/app/rotate.ts [App]
+:::
 
 <case name="Around" index=3 editor=false></case>
 
 ### 围绕原点倾斜 45 度
 
-<<< @/code/property/origin/skew.ts
+::: code-group
+<<< @/code/property/origin/skew.ts [Leafer]
+<<< @/code/property/origin/app/skew.ts [App]
+:::
 
 ## 归属
 

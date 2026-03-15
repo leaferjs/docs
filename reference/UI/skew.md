@@ -49,8 +49,14 @@ rect.skewOf('center', 45, 0, 2) // 过渡 2 秒
 
 ### 通过 skewOf() 倾斜元素
 
-<<< @/code/property/rotate/rotate.ts
+::: code-group
+<<< @/code/property/skew/skew.ts [Leafer]
+<<< @/code/property/skew/app/skew.ts [App]
+:::
 
 ### 通过 skewOf() 倾斜元素，有动画过渡
 
-<<< @/code/property/rotate/transition.ts
+::: code-group
+<<< @/code/property/skew/transition.ts [Leafer]
+<<< @/code/property/skew/app/transition.ts [App]
+:::

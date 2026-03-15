@@ -64,7 +64,10 @@ type BlendMode =
 
 正片叠底，将顶层像素与底层相应像素相乘，结果是一幅更黑暗的图片。
 
-<<< @/code/property/blendMode/multiply.ts
+::: code-group
+<<< @/code/property/blendMode/multiply.ts [Leafer]
+<<< @/code/property/blendMode/app/multiply.ts [App]
+:::
 
 <case name="BlendMode" index=3 editor=false></case>
 
@@ -72,7 +75,10 @@ type BlendMode =
 
 变暗，保留两个图层中最暗的像素。
 
-<<< @/code/property/blendMode/darken.ts
+::: code-group
+<<< @/code/property/blendMode/darken.ts [Leafer]
+<<< @/code/property/blendMode/app/darken.ts [App]
+:::
 
 <case name="BlendMode" index=4 editor=false></case>
 
@@ -80,7 +86,10 @@ type BlendMode =
 
 颜色加深，将反置的底层除以顶层，然后将结果反过来。
 
-<<< @/code/property/blendMode/color-burn.ts
+::: code-group
+<<< @/code/property/blendMode/color-burn.ts [Leafer]
+<<< @/code/property/blendMode/app/color-burn.ts [App]
+:::
 
 <case name="BlendMode" index=5 editor=false></case>
 
@@ -88,7 +97,10 @@ type BlendMode =
 
 变亮，两个重叠图形的颜色是通过颜色值相加来确定的。
 
-<<< @/code/property/blendMode/lighten.ts
+::: code-group
+<<< @/code/property/blendMode/lighten.ts [Leafer]
+<<< @/code/property/blendMode/app/lighten.ts [App]
+:::
 
 <case name="BlendMode" index=6 editor=false></case>
 
@@ -96,7 +108,10 @@ type BlendMode =
 
 颜色减淡，将底层除以顶层的反置。
 
-<<< @/code/property/blendMode/color-dodge.ts
+::: code-group
+<<< @/code/property/blendMode/color-dodge.ts [Leafer]
+<<< @/code/property/blendMode/app/color-dodge.ts [App]
+:::
 
 <case name="BlendMode" index=7 editor=false></case>
 
@@ -104,7 +119,10 @@ type BlendMode =
 
 滤色，像素被倒转、相乘、再倒转，结果是一幅更明亮的图片（与 multiply 相反）。
 
-<<< @/code/property/blendMode/screen.ts
+::: code-group
+<<< @/code/property/blendMode/screen.ts [Leafer]
+<<< @/code/property/blendMode/app/screen.ts [App]
+:::
 
 <case name="BlendMode" index=8 editor=false></case>
 
@@ -112,7 +130,10 @@ type BlendMode =
 
 叠加，multiply 和 screen 的结合。原本暗的地方更暗，原本亮的地方更亮。
 
-<<< @/code/property/blendMode/overlay.ts
+::: code-group
+<<< @/code/property/blendMode/overlay.ts [Leafer]
+<<< @/code/property/blendMode/app/overlay.ts [App]
+:::
 
 <case name="BlendMode" index=9 editor=false></case>
 
@@ -120,7 +141,10 @@ type BlendMode =
 
 强光，类似于 overlay，multiply 和 screen 的结合——但上下图层互换了。
 
-<<< @/code/property/blendMode/hard-light.ts
+::: code-group
+<<< @/code/property/blendMode/hard-light.ts [Leafer]
+<<< @/code/property/blendMode/app/hard-light.ts [App]
+:::
 
 <case name="BlendMode" index=10 editor=false></case>
 
@@ -128,7 +152,10 @@ type BlendMode =
 
 柔光，柔和版本的 hard-light。纯黑或纯白不会导致纯黑或纯白。
 
-<<< @/code/property/blendMode/soft-light.ts
+::: code-group
+<<< @/code/property/blendMode/soft-light.ts [Leafer]
+<<< @/code/property/blendMode/app/soft-light.ts [App]
+:::
 
 <case name="BlendMode" index=11 editor=false></case>
 
@@ -136,7 +163,10 @@ type BlendMode =
 
 差集，从顶层减去底层（或反之亦然），始终得到正值。
 
-<<< @/code/property/blendMode/difference.ts
+::: code-group
+<<< @/code/property/blendMode/difference.ts [Leafer]
+<<< @/code/property/blendMode/app/difference.ts [App]
+:::
 
 <case name="BlendMode" index=12 editor=false></case>
 
@@ -144,7 +174,10 @@ type BlendMode =
 
 排除，与 difference 类似，但对比度较低。
 
-<<< @/code/property/blendMode/exclusion.ts
+::: code-group
+<<< @/code/property/blendMode/exclusion.ts [Leafer]
+<<< @/code/property/blendMode/app/exclusion.ts [App]
+:::
 
 <case name="BlendMode" index=13 editor=false></case>
 
@@ -152,7 +185,10 @@ type BlendMode =
 
 色相，保留底层的亮度（luma）和色度（chroma），同时采用顶层的色调（hue）。
 
-<<< @/code/property/blendMode/hue.ts
+::: code-group
+<<< @/code/property/blendMode/hue.ts [Leafer]
+<<< @/code/property/blendMode/app/hue.ts [App]
+:::
 
 <case name="BlendMode" index=14 editor=false></case>
 
@@ -160,7 +196,10 @@ type BlendMode =
 
 饱和度，保留底层的亮度和色调，同时采用顶层的色度。
 
-<<< @/code/property/blendMode/saturation.ts
+::: code-group
+<<< @/code/property/blendMode/saturation.ts [Leafer]
+<<< @/code/property/blendMode/app/saturation.ts [App]
+:::
 
 <case name="BlendMode" index=15 editor=false></case>
 
@@ -168,7 +207,10 @@ type BlendMode =
 
 颜色，保留了底层的亮度，同时采用了顶层的色调和色度。
 
-<<< @/code/property/blendMode/color.ts
+::: code-group
+<<< @/code/property/blendMode/color.ts [Leafer]
+<<< @/code/property/blendMode/app/color.ts [App]
+:::
 
 <case name="BlendMode" index=16 editor=false></case>
 
@@ -176,7 +218,10 @@ type BlendMode =
 
 明度，保持底层的色调和色度，同时采用顶层的亮度。
 
-<<< @/code/property/blendMode/luminosity.ts
+::: code-group
+<<< @/code/property/blendMode/luminosity.ts [Leafer]
+<<< @/code/property/blendMode/app/luminosity.ts [App]
+:::
 
 <case name="BlendMode" index=17 editor=false></case>
 
@@ -184,7 +229,10 @@ type BlendMode =
 
 在现有画布上绘制新图形。
 
-<<< @/code/property/blendMode/source-over.ts
+::: code-group
+<<< @/code/property/blendMode/source-over.ts [Leafer]
+<<< @/code/property/blendMode/app/source-over.ts [App]
+:::
 
 <case name="BlendMode" index=18 editor=false></case>
 
@@ -192,7 +240,10 @@ type BlendMode =
 
 仅在新形状和目标画布重叠的地方绘制新形状。其他的都是透明的。
 
-<<< @/code/property/blendMode/source-in.ts
+::: code-group
+<<< @/code/property/blendMode/source-in.ts [Leafer]
+<<< @/code/property/blendMode/app/source-in.ts [App]
+:::
 
 <case name="BlendMode" index=19 editor=false></case>
 
@@ -200,7 +251,10 @@ type BlendMode =
 
 在不与现有画布内容重叠的地方绘制新图形。
 
-<<< @/code/property/blendMode/source-out.ts
+::: code-group
+<<< @/code/property/blendMode/source-out.ts [Leafer]
+<<< @/code/property/blendMode/app/source-out.ts [App]
+:::
 
 <case name="BlendMode" index=20 editor=false></case>
 
@@ -208,7 +262,10 @@ type BlendMode =
 
 只在与现有画布内容重叠的地方绘制新图形。
 
-<<< @/code/property/blendMode/source-atop.ts
+::: code-group
+<<< @/code/property/blendMode/source-atop.ts [Leafer]
+<<< @/code/property/blendMode/app/source-atop.ts [App]
+:::
 
 <case name="BlendMode" index=21 editor=false></case>
 
@@ -216,7 +273,10 @@ type BlendMode =
 
 在现有画布内容的后面绘制新的图形。
 
-<<< @/code/property/blendMode/destination-over.ts
+::: code-group
+<<< @/code/property/blendMode/destination-over.ts [Leafer]
+<<< @/code/property/blendMode/app/destination-over.ts [App]
+:::
 
 <case name="BlendMode" index=22 editor=false></case>
 
@@ -224,7 +284,10 @@ type BlendMode =
 
 仅保留现有画布内容和新形状重叠的部分。其他的都是透明的。
 
-<<< @/code/property/blendMode/destination-in.ts
+::: code-group
+<<< @/code/property/blendMode/destination-in.ts [Leafer]
+<<< @/code/property/blendMode/app/destination-in.ts [App]
+:::
 
 <case name="BlendMode" index=23 editor=false></case>
 
@@ -232,7 +295,10 @@ type BlendMode =
 
 仅保留现有画布内容和新形状不重叠的部分。
 
-<<< @/code/property/blendMode/destination-out.ts
+::: code-group
+<<< @/code/property/blendMode/destination-out.ts [Leafer]
+<<< @/code/property/blendMode/app/destination-out.ts [App]
+:::
 
 <case name="BlendMode" index=24 editor=false></case>
 
@@ -240,7 +306,10 @@ type BlendMode =
 
 仅保留现有画布内容和新形状重叠的部分。新形状是在现有画布内容的后面绘制的。
 
-<<< @/code/property/blendMode/destination-atop.ts
+::: code-group
+<<< @/code/property/blendMode/destination-atop.ts [Leafer]
+<<< @/code/property/blendMode/app/destination-atop.ts [App]
+:::
 
 <case name="BlendMode" index=25 editor=false></case>
 
@@ -248,7 +317,10 @@ type BlendMode =
 
 形状在重叠处变为透明，并在其他地方正常绘制。
 
-<<< @/code/property/blendMode/xor.ts
+::: code-group
+<<< @/code/property/blendMode/xor.ts [Leafer]
+<<< @/code/property/blendMode/app/xor.ts [App]
+:::
 
 <case name="BlendMode" index=26 editor=false></case>
 
@@ -256,4 +328,7 @@ type BlendMode =
 
 只显示新图形。
 
-<<< @/code/property/blendMode/copy.ts
+::: code-group
+<<< @/code/property/blendMode/copy.ts [Leafer]
+<<< @/code/property/blendMode/app/copy.ts [App]
+:::

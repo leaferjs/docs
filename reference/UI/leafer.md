@@ -44,4 +44,7 @@ Leafer 引擎的 [缩放平移视图层](/reference/display/Leafer.md#zoomlayer-
 
 ### 等待元素被添加到引擎中时，执行回调
 
-<<< @/code/property/leafer/wait.ts
+::: code-group
+<<< @/code/property/leafer/wait.ts [Leafer]
+<<< @/code/property/leafer/app/wait.ts [App]
+:::

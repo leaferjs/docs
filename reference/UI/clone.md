@@ -16,4 +16,7 @@
 
 ### 克隆元素，并设置位置
 
-<<< @/code/property/clone/clone.ts
+::: code-group
+<<< @/code/property/clone/clone.ts [Leafer]
+<<< @/code/property/clone/app/clone.ts [App]
+:::

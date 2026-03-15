@@ -48,4 +48,7 @@ import Case from '/component/Case.vue'
 
 <case name="SolidFill" index=0 editor=false></case>
 
-<<< @/code/property/fill/solid/a.ts
+::: code-group
+<<< @/code/property/fill/solid/a.ts [Leafer]
+<<< @/code/property/fill/solid/app/a.ts [App]
+:::

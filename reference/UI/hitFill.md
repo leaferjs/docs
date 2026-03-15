@@ -34,4 +34,7 @@ type IHitType =
 
 拖动矩形试一试。
 
-<<< @/code/property/hit/all.ts
+::: code-group
+<<< @/code/property/hit/all.ts [Leafer]
+<<< @/code/property/hit/app/all.ts [App]
+:::
