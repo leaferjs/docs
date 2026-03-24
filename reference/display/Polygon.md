@@ -61,6 +61,10 @@ sides: 5
 
 圆角大小，使图形拐角处变的圆滑。
 
+## box 元素
+
+### [PolygonBox](/plugin/in/box/PolygonBox.md)
+
 <!-- ## 继承元素
 
 ### [UI](./UI.md) -->

@@ -55,6 +55,10 @@ endAngle: 180
 innerRadius: 0.5
 ```
 
+## box 元素
+
+### [EllipseBox](/plugin/in/box/EllipseBox.md)
+
 <!-- ## 继承元素
 
 ### [UI](./UI.md) -->

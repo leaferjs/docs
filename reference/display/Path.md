@@ -48,6 +48,10 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 :::
 
+## box 元素
+
+### [PathBox](/plugin/in/box/PathBox.md)
+
 <!-- ## 继承元素
 
 ### [UI](./UI.md) -->

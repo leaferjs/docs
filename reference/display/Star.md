@@ -46,6 +46,10 @@ innerRadius: 0.382
 
 圆角大小，使图形拐角处变的圆滑。
 
+## box 元素
+
+### [StarBox](/plugin/in/box/StarBox.md)
+
 <!-- ## 继承元素
 
 ### [UI](./UI.md) -->

@@ -1,8 +1,8 @@
 ## 社区提问指南
 
-[常见问题](/guide/problem/) ｜ [社区问答](https://www.zhihu.com/topic/736459154/unanswered)
+[常见问题](/guide/problem/) ｜ [社区问答](https://www.zhihu.com/topic/736459154/unanswered) ｜ [提交 issue](https://github.com/leaferjs/leafer-ui/issues)
 
-简单问题可通过 [DeepWiki](https://deepwiki.com/leaferjs/leafer-ui) 进行 AI 询问～
+简单问题可通过右下角的 AI 气泡对话框进行询问～
 
 ### ⏰ 每周 4 天工作制
 
@@ -19,7 +19,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 ::: tip 提交模版
 **【Bug/建议】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx**
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 2.0.3
+环境：电脑 + window 11 + chrome 131 + leaferjs 2.0.4
 
 复现步骤：请提供详细的复现逻辑及可直接运行的代码，将大幅提升问题解决效率。
 :::
@@ -33,7 +33,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 ::: tip 提交模版
 **【LeaferJS】xxxxxxxxxxx 标题 xxxxxxxxxxxxxx** （需包含 LeaferJS 关键词）
 
-环境：电脑 + window 11 + chrome 131 + leaferjs 2.0.3
+环境：电脑 + window 11 + chrome 131 + leaferjs 2.0.4
 
 #LeaferJS （点击知乎提问框底部的 # 号绑定话题，大家就都能通过 [社区问答](https://www.zhihu.com/topic/736459154/unanswered) 看见问题）
 :::

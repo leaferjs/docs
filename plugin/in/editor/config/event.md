@@ -18,6 +18,14 @@ import Case from '/component/Case.vue'
 
 是否接收键盘事件（如方向键移动），默认为 true。
 
+### arrowStep: `number`
+
+方向键移动步长，默认为 1。
+
+### arrowFastStep: `number`
+
+按住 shift 键的移动步长，默认为 10。
+
 ### multipleSelectKey: [IShortcutKeysCheck](/api/interfaces/IShortcutKeysCheck.md)
 
 多选元素的快捷键钩子函数。
@@ -157,6 +165,17 @@ beforeSkew(data) {
 }
 ```
 
+### onCopy: [`IEditorOnCopy`](/api/interfaces/IEditorOnCopy.md)
+
+返回 true 表示进行了copy操作（必须返回），查看 [代码示例](#按住alt键移动可复制元素)。
+
+```ts
+onCopy() {
+    // clone elements
+    return true
+}
+```
+
 ## 示例
 
 ### 限制最小编辑尺寸
@@ -167,3 +186,7 @@ beforeSkew(data) {
 <<< @/code/plugin/editor/config/event/beforeScale/index.ts [最小尺寸]
 <<< @/code/plugin/editor/config/event/beforeScale/flip.ts [可镜像操作]
 :::
+
+### 按住alt键移动可复制元素
+
+<<< @/code/plugin/editor/config/copy.ts

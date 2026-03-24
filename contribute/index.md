@@ -2,6 +2,10 @@
 
 本页面收录用户参与 LeaferJS 的相关内容，展现形式会不断优化，欢迎通过 issues [自荐投稿](https://github.com/leaferjs/leafer-x)。
 
+#### 开源故事
+
+[从“零图形背景”到“海报编辑器上线”：与 LeaferJS 相爱相杀的日子](https://www.leaferjs.com/ui/blog/2026-03-20.html) @Ranbow
+
 ## 文章
 
 [国产 Canvas 引擎！神器！](https://juejin.cn/post/7566104702569742355) @前端开发爱好者
@@ -176,9 +180,9 @@
 
 ## 插件
 
-#### 赞助
+### AI
 
-[leafer-x-guide-line](http://afdian.com/item/d2f62a74b13611ef99b75254001e7c00) <badge>吸附线插件</badge> [@毛豆花生](http://afdian.com/a/huaisheng)
+[leafer-x-design-system](https://www.npmjs.com/package/leafer-x-design-system) <badge>设计系统生成器</badge> [@q86830-hue](https://github.com/q86830-hue)
 
 #### 新版
 
@@ -215,6 +219,10 @@
 [leafer-x-ruler](https://www.npmjs.com/package/leafer-x-ruler) <badge>标尺线插件</badge> @毛豆花生
 
 [leafer-x-tooltip](https://www.npmjs.com/package/leafer-x-tooltip?activeTab=readme) <badge>提示框插件</badge> @子洋
+
+#### 赞助
+
+[leafer-x-guide-line](http://afdian.com/item/d2f62a74b13611ef99b75254001e7c00) <badge>吸附线插件</badge> [@毛豆花生](http://afdian.com/a/huaisheng)
 
 #### 老版
 

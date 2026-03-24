@@ -100,6 +100,10 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ### [ImageEvent](/reference/event/basic/Image.md)
 
+## box 元素
+
+### [ImageBox](/plugin/in/box/ImageBox.md)
+
 <!-- ## 继承元素
 
 ### [Rect](./Rect.md) -->

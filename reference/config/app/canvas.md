@@ -18,6 +18,10 @@
 
 支持 window 、div、canvas 标签对象，注意 id 字符串不用加 # 号。
 
+### shadowDOM: `boolean`
+
+是否为 shaodwDOM，用于支持微前端环境。
+
 ### width: `number`
 
 画布宽度。

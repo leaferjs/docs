@@ -2,6 +2,58 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2026 / 03 / 24
+
+> v2.0.4
+
+#### 🍇 社区
+
+\- 🌸 上线 [Leafer AI 知识库](https://github.com/leaferjs/ai-docs) 🎉🎉🎉，支持 [MCP](https://context7.com/leaferjs/ai-docs) 和 AI 对话框，方便使用 AI 编写代码
+
+\- 🌸 [leafer-x-design-system](https://www.npmjs.com/package/leafer-x-design-system) <badge>设计系统生成器</badge> [@q86830-hue](https://github.com/q86830-hue)
+
+\- 🌸 [Shanyue Design](https://github.com/er-shao/ShanyueDesign) <badge>开源海报设计器</badge> [@田家二少](https://github.com/er-shao)
+
+#### 📙 开源故事
+
+\- 🌸 [从“零图形背景”到“海报编辑器上线”：与 LeaferJS 相爱相杀的日子](https://www.leaferjs.com/ui/blog/2026-03-20.html)
+
+#### 🌱 新增
+
+\- 🌸 [box 插件](/plugin/in/box/index.md) 发布 🎉🎉🎉，让基础元素支持 Box 能力，可往里面添加子元素
+
+<!-- \- 🌸 Node 端 [skia-canvas](/guide/install/ui/node/start.md) 支持 3.x 版本 -->
+
+\- 🌸 编辑器增加 [onCopy](/plugin/in/editor/config/event.md#oncopy-ieditoroncopy) 钩子函数配置，按住Alt键移动元素可复制元素
+
+\- 🌸 编辑器增加按住 Shift + [方向键步长配置](/plugin/in/editor/config/event.md#arrowstep-number)
+
+\- 应用开放 [wheel.delta](/reference/config/app/wheel.md#wheel-delta-ipointdata) 配置，用于基准 delta 速度校准
+
+\- 应用增加 [shadowDOM](/reference/config/app/canvas.md#shadowdom-boolean) 配置，支持微前端环境
+
+#### 🪲 修复
+
+\- 🌸 小程序频繁拖拽图片在某些机型上会内存溢出的问题
+
+\- 🌸 表情符号被切割后宽度计算不准确的问题
+
+\- 带滚动条的元素，滚动后编辑不准确的问题
+
+\- 元素 [getBoxPoint()](/reference/UI/point/index.md#getboxpoint-worldpoint-ipointdata-relative-ui-distance-boolean-ipointdata) 方法获取距离不准确的问题
+
+\- [BoundsEvent.WORLD](/reference/event/basic/Bounds.md#boundsevent-world) 事件未传递元素的问题
+
+#### 🌿 优化
+
+\- 🌸 带滚动条的元素，获取内部坐标不再包含滚动值，需手动处理，防止产生很多编辑问题
+
+增加虚拟content坐标系，来代表滚动区域内的内容坐标，后续会提供转换方法
+
+#### 🌷 感谢反馈
+
+[@rojer95](https://github.com/leaferjs/leafer-ui/issues/810) [@kekesita](https://github.com/leaferjs/leafer-ui/issues/805) [@liesauer](https://github.com/leaferjs/leafer-in/issues/20) @闰土 @小志 @王进元 @哆啦C梦昵称要长才能测出BUG啦
+
 ## 2026 / 03 / 09
 
 > v2.0.3

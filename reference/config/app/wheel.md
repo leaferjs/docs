@@ -54,6 +54,22 @@
 
 是否阻止浏览器默认滚动页面事件，默认为 false。
 
+### wheel.delta: [`IPointData`](/reference/interface/math/Math#ipointdata)
+
+基准 delta 速度校准，可根据不同系统、浏览器细化定制。
+
+当设置 moveSpeed、zoomSpeed 起不到效果时可调整此参数，设置最佳值。
+
+以下为默认值：
+
+```ts
+  // 基准速度（会影响zoomSpeed)，可根据不同系统、浏览器细化定制
+  delta: {
+    x: 80 / 4, // 鼠标横向滚动的一格产生的 delta 值，可通过原始鼠标滚轮事件查看 delta 值是否匹配
+    y: 8.0 // 鼠标竖向滚动一格产生的 delta 值
+  },
+```
+
 ## 示例
 
 ### 鼠标滚动直接缩放视图
