@@ -2,6 +2,34 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2026 / 03 / 30
+
+> v2.0.6
+
+#### 🍇 社区
+
+\- 🌸 [leafer-react](https://github.com/HanMaXiao/leafer-react) 组件库启动，欢迎感兴趣的同学一起参与 @极简主义
+
+\- 🌸 [小行星幸存者游戏](https://asteroid-gurvivor-game.vercel.app/) @极简主义
+
+#### 🌱 新增
+
+\- 🌸 元素角度渐变新增 [rotation](/reference/UI/paint/angular.md#rotation-number) 属性
+
+\- 🌸 元素增加 [clearProxyData](/reference/UI/proxy.md#clearproxydata-iuiinputdata) 接口
+
+#### 🪲 修复
+
+\- 🌸 频繁重置fill导致图片自动宽高失效一次，会出现闪屏的问题
+
+#### 🌿 优化
+
+\- firefox 最新版角度渐变已修复旋转90度的问题，已取消 [Platform.conicGradientRotate90](/reference/UI/paint/angular.md#to-ialign-iunitpointdata)
+
+#### 🌷 感谢反馈
+
+[@1L2018](https://github.com/leaferjs/leafer-ui/issues/820) @小志 @闰土
+
 ## 2026 / 03 / 24
 
 > v2.0.5

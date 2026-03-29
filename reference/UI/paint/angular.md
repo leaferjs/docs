@@ -66,6 +66,16 @@ from: {
 to: {x: 0.5, y: 1} // 底部居中
 ``` -->
 
+极少数浏览器默认的 to 会是 right，可通过以下配置进行单独校准。
+
+```ts
+Platform.conicGradientRotate90 = true // 多旋转90度，用于校准
+```
+
+### rotation?: `number`
+
+以 from 为中心，继续旋转的角度，取值范围 0～360，默认为 0。
+
 ### stretch?: `number`
 
 垂直于 from -> to 拉伸，相对图形的宽度比例， 使渐变形成椭圆形， 默认为 1。
