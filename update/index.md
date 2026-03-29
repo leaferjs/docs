@@ -4,6 +4,12 @@
 
 ## 2026 / 03 / 24
 
+> v2.0.5
+
+#### 🌱 新增
+
+\- 🌸 Node 端 [skia-canvas](/guide/install/ui/node/start.md) 支持 3.x 版本
+
 > v2.0.4
 
 #### 🍇 社区
@@ -21,8 +27,6 @@
 #### 🌱 新增
 
 \- 🌸 [box 插件](/plugin/in/box/index.md) 发布 🎉🎉🎉，让基础元素支持 Box 能力，可往里面添加子元素
-
-<!-- \- 🌸 Node 端 [skia-canvas](/guide/install/ui/node/start.md) 支持 3.x 版本 -->
 
 \- 🌸 编辑器增加 [onCopy](/plugin/in/editor/config/event.md#oncopy-ieditoroncopy) 钩子函数配置，按住Alt键移动元素可复制元素
 
