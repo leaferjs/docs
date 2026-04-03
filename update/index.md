@@ -2,6 +2,20 @@
 
 了解如何 [快速更新版本](/guide/update.md)。
 
+## 2026 / 04 / 03
+
+> v2.0.7
+
+#### 🌱 新增
+
+\- 🌸 [路径圆角插件](/plugin/in/corner/index.md) 发布 🎉🎉🎉
+
+\- 🌸 [Ellipse](/reference/display/Ellipse.md#cornerradius-number)、 [Path](/reference/display/Path.md#cornerradius-number) 元素支持圆角功能 [cornerRadius](/reference/UI/corner.md) 属性
+
+#### 🌷 感谢反馈
+
+@闰土
+
 ## 2026 / 03 / 30
 
 > v2.0.6
@@ -11,6 +25,10 @@
 \- 🌸 [leafer-react](https://github.com/HanMaXiao/leafer-react) 组件库启动，欢迎感兴趣的同学一起参与 @极简主义
 
 \- 🌸 [小行星幸存者游戏](https://asteroid-gurvivor-game.vercel.app/) @极简主义
+
+#### 📙 开源故事
+
+\- 🌸 [放弃笨重的 3D：我用 LeaferJS 重塑了学校图书馆选座系统](/blog/2026-03-30.md)
 
 #### 🌱 新增
 
@@ -50,7 +68,7 @@
 
 #### 📙 开源故事
 
-\- 🌸 [从“零图形背景”到“海报编辑器上线”：与 LeaferJS 相爱相杀的日子](https://www.leaferjs.com/ui/blog/2026-03-20.html)
+\- 🌸 [从“零图形背景”到“海报编辑器上线”：与 LeaferJS 相爱相杀的日子](/blog/2026-03-20.md)
 
 #### 🌱 新增
 

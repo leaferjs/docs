@@ -55,6 +55,16 @@ endAngle: 180
 innerRadius: 0.5
 ```
 
+## 圆角属性
+
+### cornerRadius: `number`
+
+圆角大小，使图形拐角处变的圆滑。
+
+::: tip 注意事项
+需安装 [corner 插件](/plugin/in/corner/index.md) 才能使用，或直接安装 [leafer](/guide/install/editor/start.md) 全量包（已集成该插件）。
+:::
+
 ## box 元素
 
 ### [EllipseBox](/plugin/in/box/EllipseBox.md)
@@ -117,6 +127,15 @@ innerRadius: 0.5
 :::
 
 <case name="Ellipse" index=5 editor=false></case>
+
+### 绘制带圆角的扇形圆环
+
+::: code-group
+<<< @/code/display/Ellipse/sectorRingCorner.ts [Leafer]
+<<< @/code/display/Ellipse/app/sectorRingCorner.ts [App]
+:::
+
+<case name="Ellipse" index=6 editor=false></case>
 
 ### 绘制椭圆
 

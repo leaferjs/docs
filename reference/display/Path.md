@@ -48,6 +48,16 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 :::
 
+## 圆角属性
+
+### cornerRadius: `number`
+
+圆角大小，使路径拐角处变的圆滑。
+
+::: tip 注意事项
+曲线与折线、折线与曲线之间的圆角需安装 [corner 插件](/plugin/in/corner/index.md) 才能使用。
+:::
+
 ## box 元素
 
 ### [PathBox](/plugin/in/box/PathBox.md)

@@ -85,7 +85,7 @@ bun add leafer-ui @leafer-ui/core @leafer-ui/draw
 
 ## 版本号
 
-当前最新版本为： [v2.0.6](/update/index.md)
+当前最新版本为： [v2.0.7](/update/index.md)
 
 ```ts
 import { version } from 'leafer-ui'
