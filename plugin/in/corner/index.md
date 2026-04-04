@@ -33,11 +33,11 @@ bun add @leafer-in/corner
 ::: code-group
 
 ```html [corner.min]
-<script src="https://unpkg.com/@leafer-in/corner@2.0.7/dist/corner.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/corner@2.0.8/dist/corner.min.js"></script>
 ```
 
 ```html [corner]
-<script src="https://unpkg.com/@leafer-in/corner@2.0.7/dist/corner.js"></script>
+<script src="https://unpkg.com/@leafer-in/corner@2.0.8/dist/corner.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->

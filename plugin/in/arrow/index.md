@@ -41,14 +41,14 @@ bun add @leafer-in/arrow
 ::: code-group
 
 ```html [arrow.min]
-<script src="https://unpkg.com/@leafer-in/arrow@2.0.7/dist/arrow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@2.0.8/dist/arrow.min.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
 ```
 
 ```html [arrow]
-<script src="https://unpkg.com/@leafer-in/arrow@2.0.7/dist/arrow.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@2.0.8/dist/arrow.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
@@ -134,7 +134,7 @@ interface IPathDataArrow {
   connect?: IPathDataArrowOffset // 箭头与线条的连接点位置
   offset?: IPathDataArrowOffset // 箭头偏移距离，与末端对齐
   path: IPathCommandData // 只支持 M、L、C、Q、O 绘图命令
-  fill?: boolean // v2.0.7 开始支持启用fill箭头，fill箭头的stroke不能为透明颜色值，可以整体设置元素的opacity实现
+  fill?: boolean // v2.0.8 开始支持启用fill箭头，fill箭头的stroke不能为透明颜色值，可以整体设置元素的opacity实现
 }
 
 interface IPathDataArrowOffset {
