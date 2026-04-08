@@ -46,8 +46,8 @@ bun add @leafer-in/corner
 
 ## 下一步
 
-### [Ellipse](/reference/display/Ellipse.md#cornerradius-number)
+### [Ellipse](../../../reference/display/Ellipse.md#cornerradius-number)
 
-### [Path](/reference/display/Path.md#cornerradius-number)
+### [Path](../../../reference/display/Path.md#cornerradius-number)
 
-### [cornerRadius 属性](/reference/UI/corner.md)
+### [cornerRadius 属性](../../../reference/UI/corner.md)

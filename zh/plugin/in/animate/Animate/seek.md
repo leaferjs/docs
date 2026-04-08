@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 ## 关键方法
 
-### seek ( time: `number` | [`IPercentData`](/api/interfaces/IPercentData.md), includeDelay?: `boolean` )
+### seek ( time: `number` | [`IPercentData`](../../../../api/interfaces/IPercentData.md), includeDelay?: `boolean` )
 
 定位跳转到指定时间，支持设置具体时间（以秒为单位），或百分比（相对 duration 总时长）。
 
@@ -14,7 +14,7 @@ import Case from '/component/Case.vue'
 
 ## 归属
 
-### [Animate 类](/plugin/in/animate/index.md)
+### [Animate 类](../index.md)
 
 ## 示例
 

@@ -76,4 +76,4 @@ Debug.showBounds = 'hit'
 
 ## API
 
-### [Debug](/api/classes/Debug.md)
+### [Debug](../../api/classes/Debug.md)

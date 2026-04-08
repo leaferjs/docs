@@ -2,7 +2,7 @@
 
 我们目前提供了三种 Playground 环境可供你选择。
 
-另外还有 [create-leafer 命令行工具](/create/leafer.md)，可快速创建 Vue + Leafer 项目，管理、升级、开发插件。
+另外还有 [create-leafer 命令行工具](../create/leafer.md)，可快速创建 Vue + Leafer 项目，管理、升级、开发插件。
 
 ## Cloud Studio
 
@@ -52,7 +52,7 @@ git pull --recurse-submodules
 
 :::
 
-将在本地创建一个 [LeaferJS](https://github.com/leaferjs/LeaferJS.git) 项目，并自动下载 [leafer](https://github.com/leaferjs/leafer)、[leafer-ui](https://github.com/leaferjs/leafer-ui)、[leafer-in](https://github.com/leaferjs/leafer-in)、[leafer-draw](https://github.com/leaferjs/leafer-draw)、 [leafer-game](/guide/install/game/start.md)、[leafer-editor](https://github.com/leaferjs/leafer-editor) 子仓库到 src 目录。
+将在本地创建一个 [LeaferJS](https://github.com/leaferjs/LeaferJS.git) 项目，并自动下载 [leafer](https://github.com/leaferjs/leafer)、[leafer-ui](https://github.com/leaferjs/leafer-ui)、[leafer-in](https://github.com/leaferjs/leafer-in)、[leafer-draw](https://github.com/leaferjs/leafer-draw)、 [leafer-game](./install/game/start.md)、[leafer-editor](https://github.com/leaferjs/leafer-editor) 子仓库到 src 目录。
 
 安装启动完成后，可在浏览器中访问：`localhost:10101`
 

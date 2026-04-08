@@ -6,7 +6,7 @@ API 文档 通过 TypeDoc 自动生成，用于帮助用户了解内部数据结
 
 API 文档存在部分未开放的属性、方法，请谨慎调用。
 
-[指南文档](/guide/index.md) 覆盖了 API 的主要功能，注释详细且完全开放。
+[指南文档](../guide/index.md) 覆盖了 API 的主要功能，注释详细且完全开放。
 :::
 
 ## Table of contents

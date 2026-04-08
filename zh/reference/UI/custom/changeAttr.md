@@ -4,13 +4,13 @@
 
 ## 关键属性
 
-### changeAttr ( attrName: `string`, defaultValue: [`IValue`](/api/modules.md#ivalue) )
+### changeAttr ( attrName: `string`, defaultValue: [`IValue`](../../../api/modules.md#ivalue) )
 
 修改元素属性的默认值 （全局操作，支持函数返回）。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../../display/UI.md)
 
 ## 示例
 

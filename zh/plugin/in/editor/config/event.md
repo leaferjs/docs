@@ -4,13 +4,13 @@ import Case from '/component/Case.vue'
 
 # 编辑器配置
 
-### [基础](/plugin/in/editor/config/base.md) &nbsp; &nbsp; 事件 &nbsp; &nbsp; [样式](/plugin/in/editor/config/style.md) &nbsp; &nbsp; [按钮组](/plugin/in/editor/config/buttons.md) &nbsp; &nbsp; [光标](/plugin/in/editor/config/cursor.md) &nbsp; &nbsp; [选择](/plugin/in/editor/config/select.md) &nbsp; &nbsp; [控制](/plugin/in/editor/config/control.md) &nbsp; &nbsp; [启用](/plugin/in/editor/config/enable.md) &nbsp; &nbsp; [内部编辑器](/plugin/in/editor/config/innerEditor.md)
+### [基础](./base.md) &nbsp; &nbsp; 事件 &nbsp; &nbsp; [样式](./style.md) &nbsp; &nbsp; [按钮组](./buttons.md) &nbsp; &nbsp; [光标](./cursor.md) &nbsp; &nbsp; [选择](./select.md) &nbsp; &nbsp; [控制](./control.md) &nbsp; &nbsp; [启用](./enable.md) &nbsp; &nbsp; [内部编辑器](./innerEditor.md)
 
 ##
 
-事件相关配置，应用运行中可实时修改 [app.editor.config](/plugin/in/editor/index.md#config-ieditorconfig) 生效。
+事件相关配置，应用运行中可实时修改 [app.editor.config](../index.md#config-ieditorconfig) 生效。
 
-同时元素拥有 [独立的编辑配置](/reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
+同时元素拥有 [独立的编辑配置](../../../../reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
 
 ## 关键属性
 
@@ -26,7 +26,7 @@ import Case from '/component/Case.vue'
 
 按住 shift 键的移动步长，默认为 10。
 
-### multipleSelectKey: [IShortcutKeysCheck](/api/interfaces/IShortcutKeysCheck.md)
+### multipleSelectKey: [IShortcutKeysCheck](../../../../api/interfaces/IShortcutKeysCheck.md)
 
 多选元素的快捷键钩子函数。
 
@@ -36,7 +36,7 @@ multipleSelectKey(event) {
 }
 ```
 
-### rotateKey: [IShortcutKeysCheck](/api/interfaces/IShortcutKeysCheck.md)
+### rotateKey: [IShortcutKeysCheck](../../../../api/interfaces/IShortcutKeysCheck.md)
 
 在 resize 控制点上按下某个快捷键，会变旋转功能的钩子函数。
 
@@ -46,7 +46,7 @@ rotateKey(event) {
 }
 ```
 
-### diagonalRotateKey: [IShortcutKeysCheck](/api/interfaces/IShortcutKeysCheck.md)
+### diagonalRotateKey: [IShortcutKeysCheck](../../../../api/interfaces/IShortcutKeysCheck.md)
 
 对角旋转的快捷键钩子函数。
 
@@ -56,9 +56,9 @@ diagonalRotateKey(event) {
 }
 ```
 
-### beforeSelect: [`IEditorBeforeSelect`](/api/interfaces/IEditorBeforeSelect.md)
+### beforeSelect: [`IEditorBeforeSelect`](../../../../api/interfaces/IEditorBeforeSelect.md)
 
-选择元素事件的前置钩子函数， 仅在初始化配置或修改 [app.editor.config](/plugin/in/editor/index.md#config-ieditorconfig) 有效。
+选择元素事件的前置钩子函数， 仅在初始化配置或修改 [app.editor.config](../index.md#config-ieditorconfig) 有效。
 
 参数 data 为选择数据 `{ target }`。
 
@@ -71,9 +71,9 @@ beforeSelect(data) {
 }
 ```
 
-### beforeEditOuter: [`IEditorEditOuterData`](/api/interfaces/IEditorEditOuterData.md)
+### beforeEditOuter: [`IEditorEditOuterData`](../../../../api/interfaces/IEditorEditOuterData.md)
 
-打开元素编辑工具 [editOuter](/reference/UI/editable.md#editouter-string) 的前置钩子函数。
+打开元素编辑工具 [editOuter](../../../../reference/UI/editable.md#editouter-string) 的前置钩子函数。
 
 参数 data 为 `{ target, name }`, name 为将打开的编辑工具名称，如 'EditTool'。
 
@@ -86,9 +86,9 @@ beforeEditOuter(data) {
 }
 ```
 
-### beforeEditInner: [`IEditorEditInnerData`](/api/modules.md#ieditoreditinnerdata)
+### beforeEditInner: [`IEditorEditInnerData`](../../../../api/modules.md#ieditoreditinnerdata)
 
-打开元素内部编辑工具 [editInner](/reference/UI/editable.md#editinner-string) 的前置钩子函数。
+打开元素内部编辑工具 [editInner](../../../../reference/UI/editable.md#editinner-string) 的前置钩子函数。
 
 参数 data 为 `{ target, name }`, name 为将打开的编辑工具名称，如 'PathEditor'。
 
@@ -103,7 +103,7 @@ beforeEditInner(data) {
 
 ---
 
-### beforeMove: [`IEditorBeforeMove`](/api/interfaces/IEditorBeforeMove.md)
+### beforeMove: [`IEditorBeforeMove`](../../../../api/interfaces/IEditorBeforeMove.md)
 
 移动元素事件的前置钩子函数。
 
@@ -118,7 +118,7 @@ beforeMove(data) {
 }
 ```
 
-### beforeScale: [`IEditorBeforeScale`](/api/interfaces/IEditorBeforeScale.md)
+### beforeScale: [`IEditorBeforeScale`](../../../../api/interfaces/IEditorBeforeScale.md)
 
 resize 元素事件的前置钩子函数。
 
@@ -126,7 +126,7 @@ resize 元素事件的前置钩子函数。
 
 返回 `false` 时将忽略本次编辑操作，返回 `{ scaleX, scaleY }` 时将修改缩放操作数据。
 
-另外元素可直接设置 [widthRange](/reference/UI/editable.md#widthrange-irangesize)、 [heightRange](/reference/UI/editable.md#widthrange-irangesize) 支持限制宽高范围。
+另外元素可直接设置 [widthRange](../../../../reference/UI/editable.md#widthrange-irangesize)、 [heightRange](../../../../reference/UI/editable.md#widthrange-irangesize) 支持限制宽高范围。
 
 ```ts
 beforeScale(data) {
@@ -135,7 +135,7 @@ beforeScale(data) {
 }
 ```
 
-### beforeRotate: [`IEditorBeforeRotate`](/api/interfaces/IEditorBeforeRotate.md)
+### beforeRotate: [`IEditorBeforeRotate`](../../../../api/interfaces/IEditorBeforeRotate.md)
 
 旋转元素事件的前置钩子函数。
 
@@ -150,7 +150,7 @@ beforeRotate(data) {
 }
 ```
 
-### beforeSkew: [`IEditorBeforeSkew`](/api/interfaces/IEditorBeforeSkew.md)
+### beforeSkew: [`IEditorBeforeSkew`](../../../../api/interfaces/IEditorBeforeSkew.md)
 
 倾斜元素事件的前置钩子函数。
 
@@ -165,7 +165,7 @@ beforeSkew(data) {
 }
 ```
 
-### onCopy: [`IEditorOnCopy`](/api/interfaces/IEditorOnCopy.md)
+### onCopy: [`IEditorOnCopy`](../../../../api/interfaces/IEditorOnCopy.md)
 
 返回 true 表示进行了copy操作（必须返回），查看 [代码示例](#按住alt键移动可复制元素)。
 

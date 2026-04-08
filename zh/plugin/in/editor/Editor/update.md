@@ -12,7 +12,7 @@
 
 ## 编辑工具
 
-### getEditTool ( name: `string` ): [`EditTool`](/plugin/in/editor/Editor/display.md)
+### getEditTool ( name: `string` ): [`EditTool`](./display.md)
 
 获取编辑工具实例（单例），name 为内部编辑器的名称。
 
@@ -27,7 +27,7 @@ const config = app.editor.getEditTool('LineEditTool').config
 
 ## 归属
 
-### [Editor 元素](/plugin/in/editor/index.md#editor-元素)
+### [Editor 元素](../index.md#editor-元素)
 
 ## 示例
 

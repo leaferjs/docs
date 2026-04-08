@@ -8,8 +8,8 @@
 
 是否允许拖拽， 可锁定在 x 或 y 轴移动， 默认为 false。
 
-另支持 [限制拖动范围](/reference/UI/dragBounds.md)。
+另支持 [限制拖动范围](./dragBounds.md)。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)

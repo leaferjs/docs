@@ -4,7 +4,7 @@
 
 ## 事件属性
 
-### editTarget: [`Group`](/reference/display/Group.md)
+### editTarget: [`Group`](../../../../reference/display/Group.md)
 
 当前操作的目标组。
 
@@ -60,11 +60,11 @@ before 关闭已打开的组事件。
 
 ## 继承事件
 
-### [Event](/reference/event/basic/Event.md)
+### [Event](../../../../reference/event/basic/Event.md)
 
 <!-- ## API
 
-### [EditorGroupEvent](/api/classes/EditorGroupEvent.md) -->
+### [EditorGroupEvent](../../../../api/classes/EditorGroupEvent.md) -->
 
 ## 示例
 

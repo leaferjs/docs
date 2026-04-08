@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Ellipse 元素
 
-绘制圆、圆环、扇形圆环、扇形、弧线、椭圆，想从中心点绘制，可以了解 [around](/reference/UI/around.md)。
+绘制圆、圆环、扇形圆环、扇形、弧线、椭圆，想从中心点绘制，可以了解 [around](../UI/around.md)。
 
 <case name="Ellipse" editor=false></case>
 
@@ -62,12 +62,12 @@ innerRadius: 0.5
 圆角大小，使图形拐角处变的圆滑。
 
 ::: tip 注意事项
-需安装 [corner 插件](/plugin/in/corner/index.md) 才能使用，或直接安装 [leafer](/guide/install/editor/start.md) 全量包（已集成该插件）。
+需安装 [corner 插件](../../plugin/in/corner/index.md) 才能使用，或直接安装 [leafer](../../guide/install/editor/start.md) 全量包（已集成该插件）。
 :::
 
 ## box 元素
 
-### [EllipseBox](/plugin/in/box/EllipseBox.md)
+### [EllipseBox](../../plugin/in/box/EllipseBox.md)
 
 <!-- ## 继承元素
 
@@ -75,7 +75,7 @@ innerRadius: 0.5
 
 <!-- ## API
 
-### [Ellipse](/api/classes/Ellipse.md) -->
+### [Ellipse](../../api/classes/Ellipse.md) -->
 
 ## 示例
 

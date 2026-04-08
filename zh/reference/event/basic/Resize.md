@@ -28,7 +28,7 @@ ResizeEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 新的分辨率。
 
-### old: [`IScreenSizeData`](/api/interfaces/IScreenSizeData.md)
+### old: [`IScreenSizeData`](../../../api/interfaces/IScreenSizeData.md)
 
 老的尺寸信息。
 
@@ -39,7 +39,7 @@ ResizeEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 <!--
 ## API
 
-### [ResizeEvent](/api/classes/ResizeEvent.md) -->
+### [ResizeEvent](../../../api/classes/ResizeEvent.md) -->
 
 ## 示例
 

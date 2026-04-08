@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 元素是否响应鼠标、触摸或其他指针设备的交互事件，类似 CSS 的 pointer-events 属性。
 
-可在 [引擎配置](/reference/config/app/pointer.md#pointer-hitradius-number) 中设置默认光标的碰撞半径，或单独设置元素的 [hitRadius](#hitradius-number)。
+可在 [引擎配置](../config/app/pointer.md#pointer-hitradius-number) 中设置默认光标的碰撞半径，或单独设置元素的 [hitRadius](#hitradius-number)。
 
 ## 关键属性
 
@@ -22,7 +22,7 @@ import Case from '/component/Case.vue'
 
 ### hitBox: `boolean`
 
-元素的 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata) 区域是否总是响应交互事件（包含透明像素），默认为 false。
+元素的 [boxBounds](./bounds.md#boxbounds-iboundsdata) 区域是否总是响应交互事件（包含透明像素），默认为 false。
 
 一般用于带 padding 的 Text 元素，Group 不支持此属性。
 
@@ -34,11 +34,11 @@ import Case from '/component/Case.vue'
 
 ### hit ( worldPoint: [`IPointData`](../interface/math/Math#ipointdata), hitRadius: `number` = 0 ): `boolean`
 
-快速检测 worldPoint 坐标点（[世界坐标](/guide/advanced/coordinate.md#world-世界坐标系)）是否碰撞到元素，支持设置点的碰撞半径 hitRadius 。
+快速检测 worldPoint 坐标点（[世界坐标](../../guide/advanced/coordinate.md#world-世界坐标系)）是否碰撞到元素，支持设置点的碰撞半径 hitRadius 。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

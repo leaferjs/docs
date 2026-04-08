@@ -54,10 +54,10 @@ bun add @leafer-in/motion-path
 
 ## 下一步
 
-### [motionPath](/reference/UI/motionPath.md)
+### [motionPath](../../../reference/UI/motionPath.md)
 
-### [motion](/reference/UI/motion.md)
+### [motion](../../../reference/UI/motion.md)
 
-### [getMotionTotal()](/reference/UI/getMotionTotal.md)
+### [getMotionTotal()](../../../reference/UI/getMotionTotal.md)
 
-### [getMotionPoint()](/reference/UI/getMotionPoint.md)
+### [getMotionPoint()](../../../reference/UI/getMotionPoint.md)

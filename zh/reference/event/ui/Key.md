@@ -55,4 +55,4 @@ KeyEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Ev
 <!--
 ## API
 
-### [KeyEvent](/api/classes/KeyEvent.md) -->
+### [KeyEvent](../../../api/classes/KeyEvent.md) -->

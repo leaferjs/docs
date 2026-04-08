@@ -6,12 +6,12 @@ import Case from '/component/Case.vue'
 
 运动路径。
 
-可结合 [motion](/reference/UI/motion.md)、 [getMotionTotal()](/reference/UI/getMotionTotal.md)、[getMotionPoint()](/reference/UI/getMotionPoint.md) 使用。
+可结合 [motion](./motion.md)、 [getMotionTotal()](./getMotionTotal.md)、[getMotionPoint()](./getMotionPoint.md) 使用。
 
 ::: tip 注意事项
-需安装 [运动路径插件](/plugin/in/motion-path/index.md) 才能使用，另外路径动画功能 需安装 [动画插件](/plugin/in/animate/index.md) 。
+需安装 [运动路径插件](../../plugin/in/motion-path/index.md) 才能使用，另外路径动画功能 需安装 [动画插件](../../plugin/in/animate/index.md) 。
 
-或直接安装 [leafer-game](/guide/install/game/start.md)（已集成运动路径插件）。
+或直接安装 [leafer-game](../../guide/install/game/start.md)（已集成运动路径插件）。
 :::
 
 ## 关键属性
@@ -30,7 +30,7 @@ import Case from '/component/Case.vue'
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

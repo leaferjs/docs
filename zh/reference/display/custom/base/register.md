@@ -2,7 +2,7 @@
 
 自定义元素的第 1 步是： **注册元素**。
 
-注册成功后可以导入导出 [JSON](/reference/UI/json.md) 。
+注册成功后可以导入导出 [JSON](../../../UI/json.md) 。
 
 ## 注意事项
 
@@ -38,7 +38,7 @@ export class CustomRect extends Rect {}
 
 ### 2. 定义标签名
 
-定义全局唯一的 [tag](/reference/UI/tag.md) 名称。
+定义全局唯一的 [tag](../../../UI/tag.md) 名称。
 
 导入 json 时，通过 tag 属性查找对应元素类进行实例化。
 
@@ -53,4 +53,4 @@ export class CustomRect extends Rect {}
 
 ## 下一步
 
-### [注册数据](/reference/display/custom/base/data.md)
+### [注册数据](./data.md)

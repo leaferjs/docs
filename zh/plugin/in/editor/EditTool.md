@@ -2,21 +2,21 @@
 
 默认编辑工具。
 
-一般用来编辑元素的尺寸、外形，选中元素时会自动载入，了解 [自定义编辑工具](/plugin/in/editor/editOuter/register.md)。
+一般用来编辑元素的尺寸、外形，选中元素时会自动载入，了解 [自定义编辑工具](./editOuter/register.md)。
 
 ## 关键属性
 
-### view: [`IGroup`](/reference/display/Group.md)
+### view: [`IGroup`](../../../reference/display/Group.md)
 
 编辑工具的视图容器。
 
-### editConfig: [`IEditorConfig`](/plugin/in/editor/config/base.md)
+### editConfig: [`IEditorConfig`](./config/base.md)
 
 编辑工具的临时独立编辑配置（会覆盖主编辑配置），只在打开编辑工具期间有效，关闭后还原。
 
 ### eventIds?: `IEventListenerId`[]
 
-监听事件的 id 列表（可选），支持自动销毁，通过 [on\_()](/reference/UI/on.md#on-1) 监听可返回 事件 id， 并可绑定 this。
+监听事件的 id 列表（可选），支持自动销毁，通过 [on\_()](../../../reference/UI/on.md#on-1) 监听可返回 事件 id， 并可绑定 this。
 
 ## 只读属性
 
@@ -24,11 +24,11 @@
 
 编辑工具的唯一标签名。
 
-### editor: [`Editor`](/plugin/in/editor/index.md)
+### editor: [`Editor`](./index.md)
 
 编辑器，载入后才有值。
 
-### editBox: [`EditBox`](/plugin/in/editor/EditBox.md)
+### editBox: [`EditBox`](./EditBox.md)
 
 编辑框，载入后才有值。
 
@@ -84,7 +84,7 @@
 
 ## 自定义
 
-### [自定义编辑工具](/plugin/in/editor/editOuter/register.md)
+### [自定义编辑工具](./editOuter/register.md)
 
 ## 继承
 
@@ -92,4 +92,4 @@
 
 <!-- ## API
 
-### [EditTool](/api/classes/EditTool.md) -->
+### [EditTool](../../../api/classes/EditTool.md) -->

@@ -8,7 +8,7 @@ import Case from '/component/Case.vue'
 
 :::tip 注意事项
 
-[Image](/reference/display/Image.md) / [PointerEvent](/reference/event/ui/Pointer.md) / [DragEvent](/reference/event/ui/Drag.md) 会与浏览器的全局变量冲突，需使用以下别名。
+[Image](../../reference/display/Image.md) / [PointerEvent](../../reference/event/ui/Pointer.md) / [DragEvent](../../reference/event/ui/Drag.md) 会与浏览器的全局变量冲突，需使用以下别名。
 
 :::
 

@@ -10,7 +10,7 @@
 
 ## 示例
 
-生命周期中的不同状态会通过 [LeaferEvent](/reference/event/basic/Leafer.md)进行通知，你也可以通过 Leafer 实例监听这些事件实现自己的产品逻辑。
+生命周期中的不同状态会通过 [LeaferEvent](../../reference/event/basic/Leafer.md)进行通知，你也可以通过 Leafer 实例监听这些事件实现自己的产品逻辑。
 
 ### 监听 ready 事件
 
@@ -18,4 +18,4 @@
 
 ## 下一步
 
-### [渲染生命周期](/guide/life/render.md)
+### [渲染生命周期](./render.md)

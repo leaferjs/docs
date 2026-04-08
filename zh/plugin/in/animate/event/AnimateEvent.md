@@ -48,7 +48,7 @@
 
 ## 示例
 
-支持像元素一样 [监听、移除事件](/reference/UI/on.md)，同时也支持初始化时传入 [监听事件对象](/plugin/in/animate/options/event.md)。
+支持像元素一样 [监听、移除事件](../../../../reference/UI/on.md)，同时也支持初始化时传入 [监听事件对象](../options/event.md)。
 
 ::: code-group
 <<< @/code/plugin/animate/options/event/on.ts [Animate]

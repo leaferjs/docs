@@ -10,7 +10,7 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### cursor: [`ICursorType`](/api/modules.md#icursortype) | [`ICursorType`](/api/modules.md#icursortype)[]
+### cursor: [`ICursorType`](../../api/modules.md#icursortype) | [`ICursorType`](../../api/modules.md#icursortype)[]
 
 hover 到元素上时，显示的光标样式，支持所有 [CSS 的光标名称](https://developer.mozilla.org/zh-CN/docs/Web/CSS/cursor)。
 
@@ -72,15 +72,15 @@ interface IImageCursor {
 
 ## 手动更新
 
-Leafer 支持手动强制更新光标样式 [updateCursor()](/reference/display/Leafer.md#updatecursor-cursor-icursortype)。
+Leafer 支持手动强制更新光标样式 [updateCursor()](../display/Leafer.md#updatecursor-cursor-icursortype)。
 
 ## 停用光标
 
-引擎通过 [app.config.cursor](/reference/config/app/base.md#cursor-boolean) 配置，可随时停用光标功能， 之后可完全自定义光标行为。
+引擎通过 [app.config.cursor](../config/app/base.md#cursor-boolean) 配置，可随时停用光标功能， 之后可完全自定义光标行为。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

@@ -1,6 +1,6 @@
 # @leafer-ui/worker
 
-### [web 版](/guide/install/ui/start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/ui/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/ui/miniapp/start.md)
+### [web 版](../start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](../node/start.md) &nbsp; &nbsp; [小程序版](../miniapp/start.md)
 
 ##
 
@@ -8,7 +8,7 @@
 
 Web 版和 Worker 版可以在同一个项目中共存，按需搭配使用。
 
-继承了 [跨平台核心包](/guide/install/ui/core/index.md)。
+继承了 [跨平台核心包](../core/index.md)。
 
 ## 安装
 
@@ -52,7 +52,7 @@ importScripts('https://unpkg.com/@leafer-ui/worker@2.0.8/dist/worker.js')
 
 ## 更新
 
-了解如何 [快速更新版本](/guide/update.md)。
+了解如何 [快速更新版本](../../../update.md)。
 
 ## 体验
 

@@ -2,7 +2,7 @@
 
 ## 关键方法
 
-### getInnerEditor ( name: `string` ): [`innerEditor`](/plugin/in/editor/Editor/display.md)
+### getInnerEditor ( name: `string` ): [`innerEditor`](./display.md)
 
 获取内部编辑器实例（单例），name 为内部编辑器的名称。
 
@@ -11,7 +11,7 @@
 app.editor.getInnerEditor('TextEditor').config.selectAll = false
 ```
 
-### openInnerEditor( target?: [`UI`](/reference/display/UI.md), nameOrSelect?: `string`, select?: `boolean`)
+### openInnerEditor( target?: [`UI`](../../../../reference/display/UI.md), nameOrSelect?: `string`, select?: `boolean`)
 
 打开元素的内部编辑器。
 
@@ -30,7 +30,7 @@ app.editor.openInnerEditor(rect, 'ClipEditor', true) // 指定内部编辑器名
 
 ## 归属
 
-### [Editor 元素](/plugin/in/editor/index.md#editor-元素)
+### [Editor 元素](../index.md#editor-元素)
 
 ## 示例
 

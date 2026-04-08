@@ -4,11 +4,11 @@
 
 ## 事件属性
 
-### editTarget: [`UI`](/reference/display/UI.md)
+### editTarget: [`UI`](../../../../reference/display/UI.md)
 
 当前编辑的目标元素。
 
-### innerEditor: [`InnerEditor`](/plugin/in/editor/InnerEditor.md)
+### innerEditor: [`InnerEditor`](../InnerEditor.md)
 
 内部编辑器。
 
@@ -40,11 +40,11 @@ before 关闭内部编辑器事件
 
 ## 继承事件
 
-### [Event](/reference/event/basic/Event.md)
+### [Event](../../../../reference/event/basic/Event.md)
 
 <!-- ## API
 
-### [InnerEditorEvent](/api/classes/InnerEditorEvent.md) -->
+### [InnerEditorEvent](../../../../api/classes/InnerEditorEvent.md) -->
 
 ## 示例
 

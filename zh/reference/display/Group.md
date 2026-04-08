@@ -7,7 +7,7 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 <br/>
 
-注意：实际宽高随子元素变化，不能设置 width / hegiht，需通过 [bounds](/reference/UI/bounds.md) 获取实际宽高信息。
+注意：实际宽高随子元素变化，不能设置 width / hegiht，需通过 [bounds](../UI/bounds.md) 获取实际宽高信息。
 :::
 
 ## 关键属性（只读）
@@ -16,7 +16,7 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 子元素列表，不能直接操作。
 
-[图形编辑器](/plugin/in/editor/index.md#编组) 中使用时，需将 [hitChildren](/reference/UI/hitChildren.md) 设为 false，只能通过双击进组编辑子元素。
+[图形编辑器](../../plugin/in/editor/index.md#编组) 中使用时，需将 [hitChildren](../UI/hitChildren.md) 设为 false，只能通过双击进组编辑子元素。
 
 ## 编辑属性
 
@@ -66,7 +66,7 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 添加子元素在指定的元素后面。
 
-<!-- ### clone ( ):[`UI`](/reference/display/UI.md)
+<!-- ### clone ( ):[`UI`](./UI.md)
 
 克隆当前元素。 -->
 
@@ -83,7 +83,7 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 <!-- ## API
 
-### [Group](/api/classes/Group.md) -->
+### [Group](../../api/classes/Group.md) -->
 
 ## 示例
 
@@ -107,6 +107,6 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 ### 使用条件移除
 
-支持所有 [find()](/reference/UI/find.md) 条件参数 。
+支持所有 [find()](../UI/find.md) 条件参数 。
 
 <<< @/code/basic/remove/remove-tag.ts

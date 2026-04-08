@@ -6,19 +6,19 @@ import Case from '/component/Case.vue'
 
 动画方法，支持延时、循环和 seek，可制作过渡动画、摇摆动画、关键帧动画、路径动画。
 
-另外元素的 [move()](/reference/UI/position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)、 [ set()](/reference/UI/data.md#set-data-iuiinputdata-transition-itranstion) 等方法支持添加动画过渡参数，文本支持 [count 动画](/reference/display/Text.md#文本-count-动画)、[打字机动画](/reference/display/Text.md#打字机动画)。
+另外元素的 [move()](./position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)、 [ set()](./data.md#set-data-iuiinputdata-transition-itranstion) 等方法支持添加动画过渡参数，文本支持 [count 动画](../display/Text.md#文本-count-动画)、[打字机动画](../display/Text.md#打字机动画)。
 
 ::: tip 注意事项
-需安装 [动画插件](/plugin/in/animate/index.md) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)（已集成动画插件）。
+需安装 [动画插件](../../plugin/in/animate/index.md) 才能使用，或直接安装 [leafer-game](../../guide/install/game/start.md)（已集成动画插件）。
 :::
 
 <case name="Animate" editor=false></case>
 
 ## 关键方法
 
-### animate ( keyframe?: [`IUIInputData`](/api/interfaces/IUIInputData.md) | [`IKeyframe`](/api/modules.md#ikeyframe)[] | [`IAnimation`](/reference/UI/animation.md), options?: [`ITranstion`](/api/modules.md#itransition) ) : [`Animate`](/plugin/in/animate/index.md)
+### animate ( keyframe?: [`IUIInputData`](../../api/interfaces/IUIInputData.md) | [`IKeyframe`](../../api/modules.md#ikeyframe)[] | [`IAnimation`](./animation.md), options?: [`ITranstion`](../../api/modules.md#itransition) ) : [`Animate`](../../plugin/in/animate/index.md)
 
-执行动画方法，并返回 [动画实例](/plugin/in/animate/index.md)。
+执行动画方法，并返回 [动画实例](../../plugin/in/animate/index.md)。
 
 关键帧对象。
 
@@ -49,7 +49,7 @@ interface IAnimateKeyframe {
 type ITransition = IAnimateOptions | IAnimateEasingName | number
 ```
 
-深入了解 [动画选项属性](/plugin/in/animate/index.md#动画选项属性)。
+深入了解 [动画选项属性](../../plugin/in/animate/index.md#动画选项属性)。
 
 ```ts
 // 动画选项
@@ -76,7 +76,7 @@ interface IAnimateOptions {
 }
 ```
 
-### animate(): [`Animate`](/plugin/in/animate/index.md)
+### animate(): [`Animate`](../../plugin/in/animate/index.md)
 
 获取当前运行的动画实例。
 
@@ -86,7 +86,7 @@ interface IAnimateOptions {
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

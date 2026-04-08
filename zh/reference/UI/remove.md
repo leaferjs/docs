@@ -8,13 +8,13 @@
 
 移除当前元素。
 
-### remove ( child: [`UI`](/reference/display/UI.md))
+### remove ( child: [`UI`](../display/UI.md))
 
 组元素移除指定的子元素。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 
@@ -24,6 +24,6 @@
 
 ### 条件移除
 
-同 [find()](/reference/UI/find.md) 方法的参数一致，内部会先 find() 再批量移除。
+同 [find()](./find.md) 方法的参数一致，内部会先 find() 再批量移除。
 
 <<< @/code/basic/remove/remove-tag.ts

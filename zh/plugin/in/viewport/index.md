@@ -1,6 +1,6 @@
 # 视口
 
-通过滚轮/触摸板滑动或捏合可 [缩放平移视图](/guide/advanced/viewport.md)，类似浏览器、设计软件的视口交互功能。
+通过滚轮/触摸板滑动或捏合可 [缩放平移视图](../../../guide/advanced/viewport.md)，类似浏览器、设计软件的视口交互功能。
 
 ## 安装插件
 
@@ -44,4 +44,4 @@ bun add @leafer-in/viewport
 
 ## 下一步
 
-### [缩放平移视图](/guide/advanced/viewport.md)
+### [缩放平移视图](../../../guide/advanced/viewport.md)

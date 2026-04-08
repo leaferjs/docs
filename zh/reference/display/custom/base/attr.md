@@ -18,19 +18,19 @@
 
 自动为数据属性生成有相关业务功能的 setter/getter 函数，常用如下：
 
-### [boundsType](/api/modules.md#boundstype)
+### [boundsType](../../../../api/modules.md#boundstype)
 
 边界类型。
 
 当属性有变化时，会引起元素的重新布局和渲染。
 
-### [surfaceType](/api/modules.md#boundstype)
+### [surfaceType](../../../../api/modules.md#boundstype)
 
 表面类型。
 
 当属性有变化时，会引起元素的重新渲染， 但不会布局。
 
-### [dataType](/api/modules.md#datatype)
+### [dataType](../../../../api/modules.md#datatype)
 
 数据类型。
 
@@ -114,4 +114,4 @@ export class CustomData extends RectData {
 
 ## 下一步
 
-### [添加方法](/reference/display/custom/base/method.md)
+### [添加方法](./method.md)

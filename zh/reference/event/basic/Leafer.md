@@ -2,7 +2,7 @@
 
 Leafer 事件。
 
-想了解事件的触发顺序，请查看 [引擎生命周期](/guide/life/leafer.md) 图示。
+想了解事件的触发顺序，请查看 [引擎生命周期](../../../guide/life/leafer.md) 图示。
 
 ::: tip 继承
 LeaferEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
@@ -62,7 +62,7 @@ LeaferEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 ### LeaferEvent.TRANSFORM
 
-Leafer 实例的 x、y、scaleX、scaleY、rotation、skew [视口属性](/reference/display/Leafer.md#视口属性-viewport) 变化事件。
+Leafer 实例的 x、y、scaleX、scaleY、rotation、skew [视口属性](../../display/Leafer.md#视口属性-viewport) 变化事件。
 
 app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
 
@@ -70,7 +70,7 @@ app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
 
 ### LeaferEvent.MOVE
 
-Leafer 实例的 x、y [视口属性](/reference/display/Leafer.md#视口属性-viewport) 变化事件。
+Leafer 实例的 x、y [视口属性](../../display/Leafer.md#视口属性-viewport) 变化事件。
 
 app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
 
@@ -78,7 +78,7 @@ app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
 
 ### LeaferEvent.SCALE
 
-Leafer 实例的 scale、scaleX、scaleY [视口属性](/reference/display/Leafer.md#视口属性-viewport) 变化事件。
+Leafer 实例的 scale、scaleX、scaleY [视口属性](../../display/Leafer.md#视口属性-viewport) 变化事件。
 
 app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
 
@@ -86,7 +86,7 @@ app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
 
 ### LeaferEvent.ROTATE
 
-Leafer 实例的 rotation [视口属性](/reference/display/Leafer.md#视口属性-viewport) 变化事件。
+Leafer 实例的 rotation [视口属性](../../display/Leafer.md#视口属性-viewport) 变化事件。
 
 app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
 
@@ -94,7 +94,7 @@ app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
 
 ### LeaferEvent.SKEW
 
-Leafer 实例的 skew [视口属性](/reference/display/Leafer.md#视口属性-viewport) 变化事件。
+Leafer 实例的 skew [视口属性](../../display/Leafer.md#视口属性-viewport) 变化事件。
 
 app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
 
@@ -104,7 +104,7 @@ app 应用结构需在 app.tree 等子 Leafer 上监听此事件。
 
 ### LeaferEvent.UPDATE_MODE
 
-Leafer 实例的 [mode](/reference/display/App.md#mode-ileafermode) 交互模式变化事件。
+Leafer 实例的 [mode](../../display/App.md#mode-ileafermode) 交互模式变化事件。
 
 app 应用结构需在 app 上监听此事件。
 
@@ -122,7 +122,7 @@ app.on_(LeaferEvent.UPDATE_MODE, (data: { mode: ILeaferMode }) => {
 
 <!-- ## API
 
-### [LeaferEvent](/api/classes/LeaferEvent.md) -->
+### [LeaferEvent](../../../api/classes/LeaferEvent.md) -->
 
 ## 示例
 

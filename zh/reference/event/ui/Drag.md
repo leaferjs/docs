@@ -7,7 +7,7 @@ DragEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEv
 
 <br/>
 
-[ script 标签引入](/guide/install/ui/start.md#通过-script-标签引入) 需用别名 **MyDragEvent** 代替。
+[ script 标签引入](../../../guide/install/ui/start.md#通过-script-标签引入) 需用别名 **MyDragEvent** 代替。
 :::
 
 ## 事件名称
@@ -82,47 +82,47 @@ DragEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEv
 
 moveX, moveY 属性的转换。
 
-### getPageMove ( ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getPageMove ( ): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
 获取事件在 page 坐标系中的偏移距离。
 
-### getInnerMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getInnerMove ( relative?: [`UI`](../../display/UI.md)): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 的偏移距离，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [内部坐标](../../../guide/advanced/coordinate.md#inner-内部坐标系) 的偏移距离，relative 元素不存在时为当前侦听元素。
 
-### getLocalMove ( relative: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getLocalMove ( relative: [`UI`](../../display/UI.md)): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 的偏移距离，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [本地坐标](../../../guide/advanced/coordinate.md#local-本地坐标系) 的偏移距离，relative 元素不存在时为当前侦听元素。
 
 ### 移动总距离
 
 totalX, totalY 属性的转换。
 
-### getPageTotal ( ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getPageTotal ( ): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
 获取事件在 page 坐标系中的总偏移距离。
 
-### getInnerTotal ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getInnerTotal ( relative?: [`UI`](../../display/UI.md)): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 的总偏移距离，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [内部坐标](../../../guide/advanced/coordinate.md#inner-内部坐标系) 的总偏移距离，relative 元素不存在时为当前侦听元素。
 
-### getLocalTotal ( relative: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getLocalTotal ( relative: [`UI`](../../display/UI.md)): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 的总偏移距离，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [本地坐标](../../../guide/advanced/coordinate.md#local-本地坐标系) 的总偏移距离，relative 元素不存在时为当前侦听元素。
 
 ### 拖拽区域
 
-### getPageBounds ( ): [`IBoundsData`](/reference/interface/math/Math.md#iboundsdata)
+### getPageBounds ( ): [`IBoundsData`](../../interface/math/Math.md#iboundsdata)
 
-获取事件在 page 坐标系中形成的拖拽区域，可用于快速 [创建图形](/plugin/in/editor/index.md#创建图形模式)。
+获取事件在 page 坐标系中形成的拖拽区域，可用于快速 [创建图形](../../../plugin/in/editor/index.md#创建图形模式)。
 
 ## 静态方法
 
-### DragEvent.setList ( list: [`ILeaf`](/api/interfaces/ILeaf.md) |[`ILeaf`](/api/interfaces/ILeaf.md)[] | [`ILeafList`](/api/interfaces/ILeafList.md) )
+### DragEvent.setList ( list: [`ILeaf`](../../../api/interfaces/ILeaf.md) |[`ILeaf`](../../../api/interfaces/ILeaf.md)[] | [`ILeafList`](../../../api/interfaces/ILeafList.md) )
 
 另外设置拖拽的对象列表（会跟随鼠标移动），[`drop`](./Drop.md) 事件触发后自动重置。
 
-### DragEvent.setData ( data: [`IObject`](/api/interfaces/IObject.md) )
+### DragEvent.setData ( data: [`IObject`](../../../api/interfaces/IObject.md) )
 
 设置拖拽数据，[`drop`](./Drop.md) 事件触发后自动重置。
 
@@ -132,13 +132,13 @@ totalX, totalY 属性的转换。
 
 <!-- ## API
 
-### [DragEvent](/api/classes/DragEvent.md) -->
+### [DragEvent](../../../api/classes/DragEvent.md) -->
 
 ## 示例
 
 ### 手动拖拽元素
 
-默认 [drggable](/reference/UI/draggable.md) 为 true 或 [DragEvent.setList()](./Drag.md#静态方法) 的元素会自动拖拽。
+默认 [drggable](../../UI/draggable.md) 为 true 或 [DragEvent.setList()](./Drag.md#静态方法) 的元素会自动拖拽。
 
 ::: code-group
 <<< @/code/event-ui/drag/simple.ts

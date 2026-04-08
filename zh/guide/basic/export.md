@@ -7,7 +7,7 @@ import Case from '/component/Case.vue'
 将元素导出为图片、JSON。
 
 ::: tip 注意事项
-需安装 [导出元素插件](/plugin/in/export/index.md) 才能使用，或直接安装 [leafer-editor](/guide/install/editor/start.md)、node 版（已集成导出元素插件）。
+需安装 [导出元素插件](../../plugin/in/export/index.md) 才能使用，或直接安装 [leafer-editor](../install/editor/start.md)、node 版（已集成导出元素插件）。
 :::
 
 ### 导出元素为图片
@@ -49,13 +49,13 @@ import Case from '/component/Case.vue'
 | 名称                                                                     | 描述                                                                                                            |
 | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
 | 路径                                                                     |                                                                                                                 |
-| [getPath()](/reference/UI/getPath.md)                                    | 获取元素的数字路径（Canvas [绘图命令](/reference/interface/ui/PathData.md#canvas-命令)）                        |
-| [getPathString()](/reference/UI/getPathString.md)                        | 获取元素的字符串路径（Canvas [绘图命令](/reference/interface/ui/PathData.md#canvas-命令)，包含非 SVG 绘图命令） |
+| [getPath()](../../reference/UI/getPath.md)                                    | 获取元素的数字路径（Canvas [绘图命令](../../reference/interface/ui/PathData.md#canvas-命令)）                        |
+| [getPathString()](../../reference/UI/getPathString.md)                        | 获取元素的字符串路径（Canvas [绘图命令](../../reference/interface/ui/PathData.md#canvas-命令)，包含非 SVG 绘图命令） |
 | 导出                                                                     |                                                                                                                 |
-| [export()](/reference/UI/export.md)                                      | 异步导出元素为图片、json、画布，支持截图、切片，可下载，需安装 [导出插件](/plugin/in/export/index.md)           |
-| [syncExport()](/reference/UI/export.md#syncexport)                       | 同步导出元素为图片、json、画布，支持截图、切片，可下载，需安装 [导出插件](/plugin/in/export/index.md)           |
-| [toJSON()](/reference/UI/json.md)                                        | 导出 JSON 对象                                                                                                  |
-| [toString()](/reference/UI/json.md#tostring-options-ijsonoptions-string) | 导出 JSON 字符串                                                                                                |
+| [export()](../../reference/UI/export.md)                                      | 异步导出元素为图片、json、画布，支持截图、切片，可下载，需安装 [导出插件](../../plugin/in/export/index.md)           |
+| [syncExport()](../../reference/UI/export.md#syncexport)                       | 同步导出元素为图片、json、画布，支持截图、切片，可下载，需安装 [导出插件](../../plugin/in/export/index.md)           |
+| [toJSON()](../../reference/UI/json.md)                                        | 导出 JSON 对象                                                                                                  |
+| [toString()](../../reference/UI/json.md#tostring-options-ijsonoptions-string) | 导出 JSON 字符串                                                                                                |
 
 ## 恭喜 🎉
 
@@ -63,23 +63,23 @@ import Case from '/component/Case.vue'
 
 ## 下一步
 
-### [动画功能](/guide/plugin/animate.md)
+### [动画功能](../plugin/animate.md)
 
 <br/>
 
 ### 在前端环境中使用
 
-[Vue](/guide/framework/vue/index.md)
+[Vue](../framework/vue/index.md)
 
-[React](/guide/framework/react/index.md)
+[React](../framework/react/index.md)
 
 ### 在服务端渲染中使用
 
-[Nuxt.js](/guide/framework/nuxt/index.md)
+[Nuxt.js](../framework/nuxt/index.md)
 
-[VitePress](/guide/framework/vitepress/index.md)
+[VitePress](../framework/vitepress/index.md)
 
-[Next.js](/guide/framework/next/index.md)
+[Next.js](../framework/next/index.md)
 
 ### 组件式开发（社区提供）
 

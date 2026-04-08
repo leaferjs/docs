@@ -4,13 +4,13 @@ import Case from '/component/Case.vue'
 
 # 编辑器配置
 
-### [基础](/plugin/in/editor/config/base.md) &nbsp; &nbsp; [事件](/plugin/in/editor/config/event.md) &nbsp; &nbsp; [样式](/plugin/in/editor/config/style.md) &nbsp; &nbsp; [按钮组](/plugin/in/editor/config/buttons.md) &nbsp; &nbsp; [光标](/plugin/in/editor/config/cursor.md) &nbsp; &nbsp; [选择](/plugin/in/editor/config/select.md) &nbsp; &nbsp; [控制](/plugin/in/editor/config/control.md) &nbsp; &nbsp; 启用 &nbsp; &nbsp; [内部编辑器](/plugin/in/editor/config/innerEditor.md)
+### [基础](./base.md) &nbsp; &nbsp; [事件](./event.md) &nbsp; &nbsp; [样式](./style.md) &nbsp; &nbsp; [按钮组](./buttons.md) &nbsp; &nbsp; [光标](./cursor.md) &nbsp; &nbsp; [选择](./select.md) &nbsp; &nbsp; [控制](./control.md) &nbsp; &nbsp; 启用 &nbsp; &nbsp; [内部编辑器](./innerEditor.md)
 
 ##
 
-启动功能配置，应用运行中可实时修改 [app.editor.config](/plugin/in/editor/index.md#config-ieditorconfig) 生效。
+启动功能配置，应用运行中可实时修改 [app.editor.config](../index.md#config-ieditorconfig) 生效。
 
-同时元素拥有 [独立的编辑配置](/reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
+同时元素拥有 [独立的编辑配置](../../../../reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
 
 ## 关键属性
 

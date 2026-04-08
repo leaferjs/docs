@@ -44,4 +44,4 @@ bun add @leafer-in/scale-fixed
 
 ## 下一步
 
-### [scaleFixed 属性](/reference/UI/scaleFixed.md)
+### [scaleFixed 属性](../../../reference/UI/scaleFixed.md)

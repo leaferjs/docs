@@ -7,7 +7,7 @@ import Case from '/component/Case.vue'
 类似 Flex 的自动布局，更简单、直观，可以快速自动排版内容。
 
 ::: tip 注意事项
-需安装 [自动布局插件](/plugin/in/flow/index.md) 才能使用。
+需安装 [自动布局插件](../../plugin/in/flow/index.md) 才能使用。
 :::
 
 <br/>
@@ -62,4 +62,4 @@ import Case from '/component/Case.vue'
 
 ## 下一步
 
-### [图形编辑器](/guide/plugin/editor.md)
+### [图形编辑器](./editor.md)

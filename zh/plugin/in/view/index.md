@@ -44,11 +44,11 @@ bun add @leafer-in/view
 
 ## 归属
 
-### [Leafer](/reference/display/Leafer.md) 元素
+### [Leafer](../../../reference/display/Leafer.md) 元素
 
 ## 关键方法
 
-### zoom ( zoomType: [`IZoomType`](/api/modules.md#izoomtype), padding?: [`IFourNumber`](/reference/interface/math/Math.md#ifournumber), scroll?: `boolean` | `'x'` | `'y'` , transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion)): [`IBoundsData`](/reference/interface/math/Math.md#iboundsdata)
+### zoom ( zoomType: [`IZoomType`](../../../api/modules.md#izoomtype), padding?: [`IFourNumber`](../../../reference/interface/math/Math.md#ifournumber), scroll?: `boolean` | `'x'` | `'y'` , transition?: [`ITranstion`](../../../reference/UI/transition.md#transition-itranstion)): [`IBoundsData`](../../../reference/interface/math/Math.md#iboundsdata)
 
 `zoomType` 为缩放类型， 支持放大、缩小、fit、fit-width、fit-height 视图，聚焦元素、区域。
 
@@ -56,7 +56,7 @@ bun add @leafer-in/view
 
 `scroll` 参数表示是否只进行平移，不缩放，可以设置仅平移 x 轴或 y 轴。
 
-[`transition`](/reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
+[`transition`](../../../reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](../../../guide/plugin/animate.md) 过渡。
 
 函数返回一个缩放后的焦点区域（世界坐标系）。
 

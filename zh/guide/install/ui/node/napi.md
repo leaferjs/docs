@@ -1,12 +1,12 @@
 # @leafer-ui/node
 
-### [web 版](/guide/install/ui/start.md) &nbsp; &nbsp; [worker 版](/guide/install/ui/worker/start.md) &nbsp; &nbsp; node 版 &nbsp; &nbsp; [小程序版](/guide/install/ui/miniapp/start.md)
+### [web 版](../start.md) &nbsp; &nbsp; [worker 版](../worker/start.md) &nbsp; &nbsp; node 版 &nbsp; &nbsp; [小程序版](../miniapp/start.md)
 
 ##
 
-在服务端 node 环境中运行，可用于后台绘图、生成图片、自动化测试，能够 [模拟用户交互](/reference/event/simulation.md)。
+在服务端 node 环境中运行，可用于后台绘图、生成图片、自动化测试，能够 [模拟用户交互](../../../../reference/event/simulation.md)。
 
-继承了 [跨平台核心包](/guide/install/ui/core/index.md)。
+继承了 [跨平台核心包](../core/index.md)。
 
 ## 安装
 
@@ -60,7 +60,7 @@ bun add @napi-rs/canvas
 
 ## 更新
 
-了解如何 [快速更新版本](/guide/update.md)。
+了解如何 [快速更新版本](../../../update.md)。
 
 ### 体验
 

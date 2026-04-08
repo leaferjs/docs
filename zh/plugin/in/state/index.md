@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # 交互状态
 
-使元素支持 [hover](/reference/UI/state/hover.md) 、 [press](/reference/UI/state/press.md) 、 [focus](/reference/UI/state/focus.md) 、 [selected](/reference/UI/state/selected.md) 、 [disabled](/reference/UI/state/disabled.md) 交互状态样式。
+使元素支持 [hover](../../../reference/UI/state/hover.md) 、 [press](../../../reference/UI/state/press.md) 、 [focus](../../../reference/UI/state/focus.md) 、 [selected](../../../reference/UI/state/selected.md) 、 [disabled](../../../reference/UI/state/disabled.md) 交互状态样式。
 
 ## 安装插件
 
@@ -56,12 +56,12 @@ bun add @leafer-in/state
 
 ## 下一步
 
-### [hover 状态样式](/reference/UI/state/hover.md)
+### [hover 状态样式](../../../reference/UI/state/hover.md)
 
-### [press 状态样式](/reference/UI/state/press.md)
+### [press 状态样式](../../../reference/UI/state/press.md)
 
-### [focus 状态样式](/reference/UI/state/focus.md)
+### [focus 状态样式](../../../reference/UI/state/focus.md)
 
-### [selected 状态样式](/reference/UI/state/selected.md)
+### [selected 状态样式](../../../reference/UI/state/selected.md)
 
-### [disabled 状态样式](/reference/UI/state/disabled.md)
+### [disabled 状态样式](../../../reference/UI/state/disabled.md)

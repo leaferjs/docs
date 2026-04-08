@@ -12,8 +12,8 @@
 
 ## 自定义
 
-可自定义快捷键： 通过监听 [键盘事件](/reference/event/ui/Key.md)，实时修改 [编辑器配置](/plugin/in/editor/config/base.md) 实现。
+可自定义快捷键： 通过监听 [键盘事件](../../../../reference/event/ui/Key.md)，实时修改 [编辑器配置](../config/base.md) 实现。
 
 ## 归属
 
-### [Editor 元素](/plugin/in/editor/index.md#editor-元素)
+### [Editor 元素](../index.md#editor-元素)

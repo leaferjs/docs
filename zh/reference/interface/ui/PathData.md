@@ -14,7 +14,7 @@ const data = 'M 0 0 L 100 100 L 0 100 Z'
 
 数字路径数据, 使用高性能、纯数字的一维数组。
 
-只支持 Canvas 绘图命令，可通过 [PathCreator](/reference/path/PathCreator.md) 快速创建。
+只支持 Canvas 绘图命令，可通过 [PathCreator](../../path/PathCreator.md) 快速创建。
 
 ```ts
 const data = [1, 0, 0, 2, 100, 100, 2, 0, 100, 11] // M 0 0 L 100 100 L 0 100 Z

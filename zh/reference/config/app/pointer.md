@@ -1,20 +1,20 @@
 # 应用与引擎配置
 
-### [基础](/reference/config/app/base.md) &nbsp; &nbsp; [视口类型](/reference/config/app/type.md) &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; 点按 &nbsp; &nbsp; [多点](/reference/config/app/multiTouch.md) &nbsp; &nbsp; [触屏](/reference/config/app/touch.md) &nbsp; &nbsp; [滚轮](/reference/config/app/wheel.md) &nbsp; &nbsp; [平移视图](/reference/config/app/move.md) &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md)
+### [基础](./base.md) &nbsp; &nbsp; [视口类型](./type.md) &nbsp; &nbsp; [画布](./canvas.md) &nbsp; &nbsp; 点按 &nbsp; &nbsp; [多点](./multiTouch.md) &nbsp; &nbsp; [触屏](./touch.md) &nbsp; &nbsp; [滚轮](./wheel.md) &nbsp; &nbsp; [平移视图](./move.md) &nbsp; &nbsp; [缩放视图](./zoom.md)
 
 ##
 
-点按操作相关配置，引擎运行中修改 [app.config.pointer](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+点按操作相关配置，引擎运行中修改 [app.config.pointer](../../display/Leafer.md#config-ileaferconfig) 立即生效。
 
 :::tip 注意事项
-[App 结构](/guide/advanced/app.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
+[App 结构](../../../guide/advanced/app.md) 下只能设置在 [App](../../display/App.md) 的 config 上。
 :::
 
 ## 关键属性
 
 ### pointer.type: `'mouse'` | `'pointer'` | `'touch'`
 
-采用哪种 原生事件类型 触发 [PointeEvent](/reference/event/ui/Pointer.md) 事件，默认为 'pointer'。
+采用哪种 原生事件类型 触发 [PointeEvent](../../event/ui/Pointer.md) 事件，默认为 'pointer'。
 
 mouse 表示原生 MouseEvent 事件，touch 表示原生 TouchEvent 事件。
 
@@ -24,7 +24,7 @@ mouse 表示原生 MouseEvent 事件，touch 表示原生 TouchEvent 事件。
 
 <!-- ### pointer.touch: `boolean`
 
-是否使用 原生 touch 事件 模拟 [PointeEvent](/reference/event/ui/Pointer.md) 事件，默认为 false。 -->
+是否使用 原生 touch 事件 模拟 [PointeEvent](../../event/ui/Pointer.md) 事件，默认为 false。 -->
 
 ### pointer.hitRadius: `number`
 
@@ -38,7 +38,7 @@ mouse 表示原生 MouseEvent 事件，touch 表示原生 TouchEvent 事件。
 
 ### pointer.through: `boolean`
 
-点击事件是否获取 [穿透路径](/reference/event/ui/UIEvent.md#throughpath-ileaflist)，通过穿透路径可以找到被当前元素遮挡的底部元素。
+点击事件是否获取 [穿透路径](../../event/ui/UIEvent.md#throughpath-ileaflist)，通过穿透路径可以找到被当前元素遮挡的底部元素。
 
 ### pointer.tapMore: `boolean`
 
@@ -72,7 +72,7 @@ mouse 表示原生 MouseEvent 事件，touch 表示原生 TouchEvent 事件。
 
 ### pointer.dragLimitAnimate: `boolean` | `number`
 
-限制了 [dragBounds](/reference/UI/dragBounds.md) 的元素是否在拖拽结束时进行动画归位，默认为 false (实时限制)。
+限制了 [dragBounds](../../UI/dragBounds.md) 的元素是否在拖拽结束时进行动画归位，默认为 false (实时限制)。
 
 可以设置动画速度 0.1 ～ 0.9，设为 true 的速度为 0.3。
 

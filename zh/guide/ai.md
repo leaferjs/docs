@@ -27,7 +27,7 @@ Gitee: [https://gitee.com/leaferjs/ai-docs](https://gitee.com/leaferjs/ai-docs)
 
 如果你对此感兴趣，欢迎参与社区示例代码的收集，共同打造更强大的 LeaferJS AI：
 
-[LeaferJS 全网代码征集，让 AI 学会 LeaferJS](/blog/2025-02-07-1.md)
+[LeaferJS 全网代码征集，让 AI 学会 LeaferJS](../blog/2025-02-07-1.md)
 
 ## 第二阶段：训练 AI
 

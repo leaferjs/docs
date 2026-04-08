@@ -4,31 +4,31 @@ import Case from '/component/Case.vue'
 
 # 编辑器事件
 
-## [EditorEvent](/api/classes/EditorEvent.md)
+## [EditorEvent](../../../api/classes/EditorEvent.md)
 
 基础事件。
 
-继承 [Event](/reference/event/basic/Event.md) 事件。
+继承 [Event](../../../reference/event/basic/Event.md) 事件。
 
 ### 事件属性
 
-### editor: [`Editor`](/plugin/in/editor/index.md)
+### editor: [`Editor`](./index.md)
 
 编辑器对象。
 
-### value：[`UI`](/reference/display/UI.md) | [`UI`](/reference/display/UI.md)[]
+### value：[`UI`](../../../reference/display/UI.md) | [`UI`](../../../reference/display/UI.md)[]
 
 选中 / hover 元素。
 
-### oldValue：[`UI`](/reference/display/UI.md) | [`UI`](/reference/display/UI.md)[]
+### oldValue：[`UI`](../../../reference/display/UI.md) | [`UI`](../../../reference/display/UI.md)[]
 
 旧的选中 / hover 元素。
 
-### list： [`UI`](/reference/display/UI.md)[]
+### list： [`UI`](../../../reference/display/UI.md)[]
 
 选中 / hover 元素列表，没有时为空数组。
 
-### oldList： [`UI`](/reference/display/UI.md)[]
+### oldList： [`UI`](../../../reference/display/UI.md)[]
 
 旧的选中 / hover 元素列表，没有时为空数组。
 
@@ -38,7 +38,7 @@ import Case from '/component/Case.vue'
 
 选择元素事件。
 
-选择和取消都会触发， 通过 [editor.target](/plugin/in/editor/index.md#target-ui-ui) 获取选中的元素。
+选择和取消都会触发， 通过 [editor.target](./index.md#target-ui-ui) 获取选中的元素。
 
 `editor.select`
 
@@ -46,11 +46,11 @@ import Case from '/component/Case.vue'
 
 hover 元素事件。
 
-选择和取消都会触发， 通过 [editor.hoverTarget](/plugin/in/editor/index.md#hovertarget-ui) 获取选中的元素列表。
+选择和取消都会触发， 通过 [editor.hoverTarget](./index.md#hovertarget-ui) 获取选中的元素列表。
 
 `editor.hover`
 
-## [EditorMoveEvent](/api/classes/EditorMoveEvent.md)
+## [EditorMoveEvent](../../../api/classes/EditorMoveEvent.md)
 
 移动事件。
 
@@ -74,7 +74,7 @@ Y 轴移动距离（世界坐标）
 
 `editor.move`
 
-## [EditorScaleEvent](/api/classes/EditorScaleEvent.md)
+## [EditorScaleEvent](../../../api/classes/EditorScaleEvent.md)
 
 缩放大小事件。
 
@@ -82,7 +82,7 @@ Y 轴移动距离（世界坐标）
 
 ### 事件属性
 
-### worldOrigin: [`IPointData`](/api/interfaces/IPointData.md)
+### worldOrigin: [`IPointData`](../../../api/interfaces/IPointData.md)
 
 围绕的中心点（世界坐标）。
 
@@ -94,7 +94,7 @@ X 轴的缩放值
 
 Y 轴的缩放值
 
-### transform?: [`IMatrixData`](/api/interfaces/IMatrixData.md)
+### transform?: [`IMatrixData`](../../../api/interfaces/IMatrixData.md)
 
 变换属性，当选择多个元素进行缩放大小时，内部会通过 transform 操作元素进行变换。
 
@@ -106,7 +106,7 @@ Y 轴的缩放值
 
 `editor.scale`
 
-## [EditorRotateEvent](/api/classes/EditorRotateEvent.md)
+## [EditorRotateEvent](../../../api/classes/EditorRotateEvent.md)
 
 旋转事件。
 
@@ -118,7 +118,7 @@ Y 轴的缩放值
 
 旋转角度。
 
-### transform?: [`IMatrixData`](/api/interfaces/IMatrixData.md)
+### transform?: [`IMatrixData`](../../../api/interfaces/IMatrixData.md)
 
 变换属性，当选择多个元素进行旋转时，内部会通过 transform 操作元素进行变换。
 
@@ -130,7 +130,7 @@ Y 轴的缩放值
 
 `editor.rotate`
 
-## [EditorSkewEvent](/api/classes/EditorSkewEvent.md)
+## [EditorSkewEvent](../../../api/classes/EditorSkewEvent.md)
 
 倾斜事件。
 
@@ -138,7 +138,7 @@ Y 轴的缩放值
 
 ### 事件属性
 
-### worldOrigin: [`IPointData`](/api/interfaces/IPointData.md)
+### worldOrigin: [`IPointData`](../../../api/interfaces/IPointData.md)
 
 围绕的中心点（世界坐标）。
 
@@ -150,7 +150,7 @@ X 轴倾斜值。
 
 Y 轴倾斜值。
 
-### transform?: [`IMatrixData`](/api/interfaces/IMatrixData.md)
+### transform?: [`IMatrixData`](../../../api/interfaces/IMatrixData.md)
 
 变换属性，当选择多个元素进行倾斜时，内部会通过 transform 操作元素进行变换。
 

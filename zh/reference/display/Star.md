@@ -48,7 +48,7 @@ innerRadius: 0.382
 
 ## box 元素
 
-### [StarBox](/plugin/in/box/StarBox.md)
+### [StarBox](../../plugin/in/box/StarBox.md)
 
 <!-- ## 继承元素
 
@@ -56,7 +56,7 @@ innerRadius: 0.382
 
 <!-- ## API
 
-### [Star](/api/classes/Star.md) -->
+### [Star](../../api/classes/Star.md) -->
 
 ## 示例
 

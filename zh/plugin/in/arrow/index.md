@@ -9,7 +9,7 @@ import Case from '/component/Case.vue'
 <case name="Arrow" editor=false></case>
 
 ::: tip 继承
-Arrow &nbsp;>&nbsp; [Line](/reference/display/Line.md) &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+Arrow &nbsp;>&nbsp; [Line](../../../reference/display/Line.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 :::
 
 ## 安装插件
@@ -64,13 +64,13 @@ bun add @leafer-in/arrow
 
 起始箭头， 默认无。
 
-[支持自定义箭头样式](#注册自定义箭头样式)，[Line](/reference/display/Leaf.md) / [Path](/reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
+[支持自定义箭头样式](#注册自定义箭头样式)，[Line](../../../reference/display/Leaf.md) / [Path](../../../reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
 
 ### endArrow: `IArrowType`
 
 结束箭头， 默认为 angle。
 
-[支持自定义箭头样式](#注册自定义箭头样式)，[Line](/reference/display/Leaf.md) / [Path](/reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
+[支持自定义箭头样式](#注册自定义箭头样式)，[Line](../../../reference/display/Leaf.md) / [Path](../../../reference/display/Path.md) 等路径元素也支持此属性（需引入此插件包）。
 
 ```ts
 type IArrowType =
@@ -113,7 +113,7 @@ interface IArrowTypeData {
 
 ## 路径模式
 
-### [path 优先模式](/reference/UI/path.md)
+### [path 优先模式](../../../reference/UI/path.md)
 
 ## 圆角属性
 
@@ -123,7 +123,7 @@ interface IArrowTypeData {
 
 ## 静态方法
 
-### registerArrow ( name: `string`, data: [`IPathDataArrow`](/api/interfaces/IPathDataArrow.md) )
+### registerArrow ( name: `string`, data: [`IPathDataArrow`](../../../api/interfaces/IPathDataArrow.md) )
 
 注册自定义箭头样式，[查看示例](#注册自定义箭头样式)。
 
@@ -146,7 +146,7 @@ interface IPathDataArrowOffset {
 
 <!-- ## 继承元素
 
-### [Line](/reference/display/Line.md) -->
+### [Line](../../../reference/display/Line.md) -->
 
 ## 示例
 
@@ -164,19 +164,19 @@ interface IPathDataArrowOffset {
 
 <case name="Arrow" index=9 editor=false></case>
 
-[strokeJoin](/reference/UI/stroke.md#strokejoin-strokejoin) 变得平滑
+[strokeJoin](../../../reference/UI/stroke.md#strokejoin-strokejoin) 变得平滑
 
 <<< @/code/plugin/arrow/angle/round-cap.ts
 
 <case name="Arrow" index=10 editor=false></case>
 
-[strokeCap](/reference/UI/stroke.md#strokecap-strokecap) 变得平滑
+[strokeCap](../../../reference/UI/stroke.md#strokecap-strokecap) 变得平滑
 
 <<< @/code/plugin/arrow/angle/round-join.ts
 
 <case name="Arrow" index=8 editor=false></case>
 
-[strokeCap](/reference/UI/stroke.md#strokecap-strokecap) / [strokeJoin](/reference/UI/stroke.md#strokejoin-strokejoin) 都变得平滑
+[strokeCap](../../../reference/UI/stroke.md#strokecap-strokecap) / [strokeJoin](../../../reference/UI/stroke.md#strokejoin-strokejoin) 都变得平滑
 
 <<< @/code/plugin/arrow/angle/round.ts
 
@@ -194,7 +194,7 @@ interface IPathDataArrowOffset {
 
 <case name="Arrow" index=23 editor=false></case>
 
-[strokeCap](/reference/UI/stroke.md#strokecap-strokecap) / [strokeJoin](/reference/UI/stroke.md#strokejoin-strokejoin) 都变得平滑
+[strokeCap](../../../reference/UI/stroke.md#strokecap-strokecap) / [strokeJoin](../../../reference/UI/stroke.md#strokejoin-strokejoin) 都变得平滑
 
 <<< @/code/plugin/arrow/arrow-round.ts
 
@@ -268,6 +268,6 @@ interface IPathDataArrowOffset {
 
 ### 注册自定义箭头样式
 
-path() 方法创建的 PathCreator 实例，可以像 Canvas 2D API 一样快速 [绘制路径](/reference/path/PathCreator.md)。
+path() 方法创建的 PathCreator 实例，可以像 Canvas 2D API 一样快速 [绘制路径](../../../reference/path/PathCreator.md)。
 
 <<< @/code/plugin/arrow/custom/index.ts

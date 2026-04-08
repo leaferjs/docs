@@ -8,21 +8,21 @@
 
 x 轴位置。
 
-注意 [offsetX](/reference/UI/offset.md)、[around](/reference/UI/around.md) 会改变元素的实际位置。
+注意 [offsetX](./offset.md)、[around](./around.md) 会改变元素的实际位置。
 
 ### y: `number`
 
 y 轴位置。
 
-注意 [offsetY](/reference/UI/offset.md)、[around](/reference/UI/around.md) 会改变元素的实际位置。
+注意 [offsetY](./offset.md)、[around](./around.md) 会改变元素的实际位置。
 
 ## 关键方法
 
-### move ( addX: `number` | [`IPointData`](../interface/math/Math#ipointdata), addY = 0, transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion))
+### move ( addX: `number` | [`IPointData`](../interface/math/Math#ipointdata), addY = 0, transition?: [`ITranstion`](./transition.md#transition-itranstion))
 
-位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math.md#ipointdata)。
+位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](../interface/math/Math.md#ipointdata)。
 
-[`transition`](/reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
+[`transition`](./transition.md#transition-itranstion) 参数表示是否进行 [动画](../../guide/plugin/animate.md) 过渡。
 
 ```ts
 // 沿 X/Y 轴同时移动 10 像素
@@ -37,17 +37,17 @@ rect.move(10, 10, true)
 rect.move(10, 10, 2) // 过渡 2 秒
 ```
 
-### moveInner ( addX: `number` | [`IPointData`](../interface/math/Math#ipointdata), addY = 0, transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion))
+### moveInner ( addX: `number` | [`IPointData`](../interface/math/Math#ipointdata), addY = 0, transition?: [`ITranstion`](./transition.md#transition-itranstion))
 
-在 [内部坐标系](/guide/advanced/coordinate.md) 中位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math.md#ipointdata)。
+在 [内部坐标系](../../guide/advanced/coordinate.md) 中位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](../interface/math/Math.md#ipointdata)。
 
-### moveWorld ( addWorldX: `number` | [`IPointData`](../interface/math/Math#ipointdata), addWorldY = 0, transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion))
+### moveWorld ( addWorldX: `number` | [`IPointData`](../interface/math/Math#ipointdata), addWorldY = 0, transition?: [`ITranstion`](./transition.md#transition-itranstion))
 
-在 [世界坐标系](/guide/advanced/coordinate.md#world-世界坐标系) 中位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](/reference/interface/math/Math.md#ipointdata)。
+在 [世界坐标系](../../guide/advanced/coordinate.md#world-世界坐标系) 中位移元素 <badge>增量操作</badge>， 支持直接传入 [坐标对象](../interface/math/Math.md#ipointdata)。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

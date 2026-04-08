@@ -12,7 +12,7 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### flowAlign: [`IFlowAlign`](/api/modules.md#iflowalign) | [`IFlowAxisAlign`](/api/interfaces/IFlowAxisAlign.md)
+### flowAlign: [`IFlowAlign`](../../../../api/modules.md#iflowalign) | [`IFlowAxisAlign`](../../../../api/interfaces/IFlowAxisAlign.md)
 
 对齐子元素的方式， 默认为 top-left。
 
@@ -56,7 +56,7 @@ type IAxisAlign = 'from' | 'center' | 'to'
 
 ## 归属
 
-### [Flow 元素](/plugin/in/flow/index.md)
+### [Flow 元素](../index.md)
 
 ## 示例
 

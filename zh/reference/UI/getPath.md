@@ -12,11 +12,11 @@
 
 ### asPath ( curve?: `boolean`, pathForRender?: `boolean`): [`IPathCommandData`](../interface/ui/PathData.md)
 
-强制转换元素为路径，等于执行 `rect.path = rect.getPath()`，具体原理可以了解一下 [path 路径优先模式](/reference/UI/path.md)。
+强制转换元素为路径，等于执行 `rect.path = rect.getPath()`，具体原理可以了解一下 [path 路径优先模式](./path.md)。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

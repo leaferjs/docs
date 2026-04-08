@@ -44,6 +44,6 @@ bun add @leafer-in/find
 
 ## 下一步
 
-### [find ()](/reference/UI/find.md)
+### [find ()](../../../reference/UI/find.md)
 
-### [findOne ()](/reference/UI/findOne.md)
+### [findOne ()](../../../reference/UI/findOne.md)

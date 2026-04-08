@@ -4,12 +4,12 @@ import Case from '/component/Case.vue'
 
 # state
 
-元素的状态，可预设复杂多样的元素、游戏状态，用于随时切换， 支持添加 [过渡效果](/reference/UI/transition.md)。
+元素的状态，可预设复杂多样的元素、游戏状态，用于随时切换， 支持添加 [过渡效果](../transition.md)。
 
-[Box](/reference/display/Box.md) / [Group ](/reference/display/Group.md)可通过设置 [button](/reference/UI/state/state.md#button-boolean) 属性，使子元素自动同步交互状态。
+[Box](../../display/Box.md) / [Group ](../../display/Group.md)可通过设置 [button](./state.md#button-boolean) 属性，使子元素自动同步交互状态。
 
 ::: tip 注意事项
-需安装 [交互状态插件](/plugin/in/state/index.md) 才能使用。
+需安装 [交互状态插件](../../../plugin/in/state/index.md) 才能使用。
 :::
 
 ## 状态优先级
@@ -18,7 +18,7 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### states: [`IStates`](/api/interfaces/IStates.md)
+### states: [`IStates`](../../../api/interfaces/IStates.md)
 
 预设状态列表， 一个键值对象。
 
@@ -42,7 +42,7 @@ interface IStates {
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../../display/UI.md)
 
 ## 示例
 

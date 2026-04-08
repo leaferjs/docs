@@ -2,7 +2,7 @@
 
 布局事件。
 
-想了解事件的触发顺序，请查看 [渲染生命周期](/guide/life/render.md) 图示。
+想了解事件的触发顺序，请查看 [渲染生命周期](../../../guide/life/render.md) 图示。
 
 ::: tip 继承
 LayoutEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
@@ -10,7 +10,7 @@ LayoutEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 ## 关键属性
 
-### data: [`ILayoutBlockData`](/api/interfaces/ILayoutBlockData.md)[]
+### data: [`ILayoutBlockData`](../../../api/interfaces/ILayoutBlockData.md)[]
 
 布局数据。
 
@@ -68,7 +68,7 @@ LayoutEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 <!--
 ## API
 
-### [LayoutEvent](/api/classes/LayoutEvent.md) -->
+### [LayoutEvent](../../../api/classes/LayoutEvent.md) -->
 
 ## 示例
 

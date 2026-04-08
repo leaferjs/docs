@@ -8,7 +8,7 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### padding: [`IFourNumber`](/reference/interface/math/Math.md#ifournumber)
+### padding: [`IFourNumber`](../../../../reference/interface/math/Math.md#ifournumber)
 
 容器的内边距, 默认为 0。
 
@@ -21,7 +21,7 @@ padding: 20 // all
 
 ## 归属
 
-### [Flow 元素](/plugin/in/flow/index.md)
+### [Flow 元素](../index.md)
 
 ## 示例
 

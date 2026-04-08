@@ -6,17 +6,17 @@ import Case from '/component/Case.vue'
 
 动画属性，支持延时、循环和 seek，可制作过渡动画、摇摆动画、关键帧动画、路径动画。
 
-另外元素的 [move()](/reference/UI/position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)、 [ set()](/reference/UI/data.md#set-data-iuiinputdata-transition-itranstion) 等方法支持添加动画过渡参数，文本支持 [count 动画](/reference/display/Text.md#文本-count-动画)、[打字机动画](/reference/display/Text.md#打字机动画)。
+另外元素的 [move()](./position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)、 [ set()](./data.md#set-data-iuiinputdata-transition-itranstion) 等方法支持添加动画过渡参数，文本支持 [count 动画](../display/Text.md#文本-count-动画)、[打字机动画](../display/Text.md#打字机动画)。
 
 ::: tip 注意事项
-需安装 [动画插件](/plugin/in/animate/index.md) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)（已集成动画插件）。
+需安装 [动画插件](../../plugin/in/animate/index.md) 才能使用，或直接安装 [leafer-game](../../guide/install/game/start.md)（已集成动画插件）。
 :::
 
 <case name="AnimateFrames" editor=false></case>
 
 ## 关键属性
 
-### animation： [`IAnimation`](/api/modules.md#ianimation) | [`IAnimation`](/api/modules.md#ianimation)[]
+### animation： [`IAnimation`](../../api/modules.md#ianimation) | [`IAnimation`](../../api/modules.md#ianimation)[]
 
 动画 / 入场动画，支持多个动画叠加。
 
@@ -30,7 +30,7 @@ interface IStyleAnimation extends IAnimateOptions {
 }
 ```
 
-深入了解 [动画选项属性](/plugin/in/animate/index.md#动画选项属性)。
+深入了解 [动画选项属性](../../plugin/in/animate/index.md#动画选项属性)。
 
 ```ts
 // 动画选项
@@ -85,13 +85,13 @@ interface IAnimateKeyframe {
 }
 ```
 
-### animationOut： [`IAnimation`](/api/modules.md#ianimation) | [`IAnimation`](/api/modules.md#ianimation)[]
+### animationOut： [`IAnimation`](../../api/modules.md#ianimation) | [`IAnimation`](../../api/modules.md#ianimation)[]
 
-出场动画，支持多个动画叠加， 元素被移除 或 [visible](/reference/UI/visible.md) 为 0 时执行。
+出场动画，支持多个动画叠加， 元素被移除 或 [visible](./visible.md) 为 0 时执行。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

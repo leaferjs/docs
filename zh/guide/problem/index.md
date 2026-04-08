@@ -6,7 +6,7 @@ leafer-ui 及官方插件包需要同时更新版本。
 
 如出现旧版本缓存冲突导致的报错，需要删除 lock 文件重新安装一下。
 
-了解如何 [快速更新版本](/guide/update.md)。
+了解如何 [快速更新版本](../update.md)。
 
 ### Creator.editor is not a function
 

@@ -26,7 +26,7 @@ Rect &nbsp;>&nbsp; [UI](./UI.md)
 
 ## 圆角属性
 
-### cornerRadius: [`IFourNumber`](/reference/interface/math/Math.md#ifournumber)
+### cornerRadius: [`IFourNumber`](../interface/math/Math.md#ifournumber)
 
 圆角大小，可以分别设置 4 个圆角，默认为 0。
 
@@ -43,7 +43,7 @@ cornerRadius: 20 // all
 
 <!-- ## API
 
-### [Rect](/api/classes/Rect.md) -->
+### [Rect](../../api/classes/Rect.md) -->
 
 ## 示例
 

@@ -4,21 +4,21 @@
 
 ## 关键属性
 
-### data: [`IObject`](/api/interfaces/IObject.md)
+### data: [`IObject`](../../api/interfaces/IObject.md)
 
 预留给用户的自定义数据对象，我们永远不会占用， 默认为空对象 {}，使用时需重新赋值一个新的对象。
 
 ## 内部属性
 
-### \_\_: [`IUIInputData`](/api/interfaces/IUIInputData.md)
+### \_\_: [`IUIInputData`](../../api/interfaces/IUIInputData.md)
 
 内部数据处理实例（两个下划线的变量）。
 
 ## 关键方法
 
-### set ( data?: [`IUIInputData`](/api/interfaces/IUIInputData.md), transition?: [`ITranstion`](/reference/UI/transition.md#transition-itranstion))
+### set ( data?: [`IUIInputData`](../../api/interfaces/IUIInputData.md), transition?: [`ITranstion`](./transition.md#transition-itranstion))
 
-设置元素样式，[`transition`](/reference/UI/transition.md#transition-itranstion) 参数表示是否进行 [动画](/guide/plugin/animate.md) 过渡。
+设置元素样式，[`transition`](./transition.md#transition-itranstion) 参数表示是否进行 [动画](../../guide/plugin/animate.md) 过渡。
 
 ```ts
 // 设置 x、y 属性
@@ -30,17 +30,17 @@ rect.set({ x: 100, y: 200 }, true)
 rect.set({ x: 100, y: 200 }, 2) // 过渡 2 秒
 ```
 
-### reset ( data?: [`IUIInputData`](/api/interfaces/IUIInputData.md))
+### reset ( data?: [`IUIInputData`](../../api/interfaces/IUIInputData.md))
 
 重置元素样式, 支持传入一个新的样式 data。
 
 可以通过重写 reset 方法加入自定义的元素初始化逻辑。
 
-### get ( ): [`IUIInputData`](/api/interfaces/IUIInputData.md)
+### get ( ): [`IUIInputData`](../../api/interfaces/IUIInputData.md)
 
 获取设置过的样式属性数据（输入数据）。
 
-### get ( name: `string` ): [`IValue`](/api/modules.md#ivalue)
+### get ( name: `string` ): [`IValue`](../../api/modules.md#ivalue)
 
 获取设置过的属性值（输入数据），未设置返回 `undefine`。
 
@@ -105,7 +105,7 @@ rect.__.width // 50, 返回计算数据 50% = 100 * (50 / 100)，box.width变化
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

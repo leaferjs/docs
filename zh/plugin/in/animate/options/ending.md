@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### ending: [`IAnimateEnding`](/api/modules.md#ianimateending)
+### ending: [`IAnimateEnding`](../../../../api/modules.md#ianimateending)
 
 动画结束时的样式，默认为 'auto'。
 
@@ -18,7 +18,7 @@ type IAnimateEnding = 'auto' | 'from' | 'to'
 
 ## 归属
 
-### [Animate 类](/plugin/in/animate/index.md)
+### [Animate 类](../index.md)
 
 ## 示例
 

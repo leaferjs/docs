@@ -2,10 +2,10 @@
 
 运动路径的总长度。
 
-可结合 [motionPath](/reference/UI/motionPath.md)、[motion](/reference/UI/motion.md)、[getMotionPoint()](/reference/UI/getMotionPoint.md) 使用。
+可结合 [motionPath](./motionPath.md)、[motion](./motion.md)、[getMotionPoint()](./getMotionPoint.md) 使用。
 
 ::: tip 注意事项
-需安装 [运动路径插件](/plugin/in/motion-path/index.md) 才能使用。
+需安装 [运动路径插件](../../plugin/in/motion-path/index.md) 才能使用。
 :::
 
 ## 关键方法
@@ -18,7 +18,7 @@
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

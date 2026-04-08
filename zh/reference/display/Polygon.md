@@ -53,7 +53,7 @@ sides: 5
 
 ## 路径模式
 
-### [path 优先模式](/reference/UI/path.md)
+### [path 优先模式](../UI/path.md)
 
 ## 圆角属性
 
@@ -63,7 +63,7 @@ sides: 5
 
 ## box 元素
 
-### [PolygonBox](/plugin/in/box/PolygonBox.md)
+### [PolygonBox](../../plugin/in/box/PolygonBox.md)
 
 <!-- ## 继承元素
 
@@ -71,7 +71,7 @@ sides: 5
 
 <!-- ## API
 
-### [Polygon](/api/classes/Polygon.md) -->
+### [Polygon](../../api/classes/Polygon.md) -->
 
 ## 示例
 

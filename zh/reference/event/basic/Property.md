@@ -2,7 +2,7 @@
 
 元素属性事件，[`leafer.ready`](./Leafer.md) 事件之后才会派发此事件。
 
-事件派发的顺序为：元素自身、Leafer 引擎，[渲染生命周期](/guide/life/render.md) 中会监听此事件。
+事件派发的顺序为：元素自身、Leafer 引擎，[渲染生命周期](../../../guide/life/render.md) 中会监听此事件。
 
 ::: tip 继承
 PropertyEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
@@ -32,7 +32,7 @@ PropertyEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 ## 关键属性
 
-### target: [`ILeaf`](/api/interfaces/ILeaf.md)
+### target: [`ILeaf`](../../../api/interfaces/ILeaf.md)
 
 目标对象
 
@@ -54,7 +54,7 @@ PropertyEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 
-### [PropertyEvent](/api/classes/PropertyEvent.md) -->
+### [PropertyEvent](../../../api/classes/PropertyEvent.md) -->
 
 ## 示例
 

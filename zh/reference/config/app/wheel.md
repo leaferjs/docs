@@ -1,13 +1,13 @@
 # 应用与引擎配置
 
-### [基础](/reference/config/app/base.md) &nbsp; &nbsp; [视口类型](/reference/config/app/type.md) &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; [点按](/reference/config/app/pointer.md) &nbsp; &nbsp; [多点](/reference/config/app/multiTouch.md) &nbsp; &nbsp; [触屏](/reference/config/app/touch.md) &nbsp; &nbsp; 滚轮 &nbsp; &nbsp; [平移视图](/reference/config/app/move.md) &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md)
+### [基础](./base.md) &nbsp; &nbsp; [视口类型](./type.md) &nbsp; &nbsp; [画布](./canvas.md) &nbsp; &nbsp; [点按](./pointer.md) &nbsp; &nbsp; [多点](./multiTouch.md) &nbsp; &nbsp; [触屏](./touch.md) &nbsp; &nbsp; 滚轮 &nbsp; &nbsp; [平移视图](./move.md) &nbsp; &nbsp; [缩放视图](./zoom.md)
 
 ##
 
-滚轮操作相关配置, 引擎运行中修改 [app.config.wheel](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+滚轮操作相关配置, 引擎运行中修改 [app.config.wheel](../../display/Leafer.md#config-ileaferconfig) 立即生效。
 
 :::tip 注意事项
-[App 结构](/guide/advanced/app.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
+[App 结构](../../../guide/advanced/app.md) 下只能设置在 [App](../../display/App.md) 的 config 上。
 :::
 
 ## 关键属性
@@ -54,7 +54,7 @@
 
 是否阻止浏览器默认滚动页面事件，默认为 false。
 
-### wheel.delta: [`IPointData`](/reference/interface/math/Math#ipointdata)
+### wheel.delta: [`IPointData`](../../interface/math/Math.md#ipointdata)
 
 基准 delta 速度校准，可根据不同系统、浏览器细化定制。
 

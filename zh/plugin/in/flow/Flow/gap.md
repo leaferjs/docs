@@ -10,7 +10,7 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### gap: [`IGap`](/api/modules.md#igap) | [`IPointGap`](/api/interfaces/IPointGap.md)
+### gap: [`IGap`](../../../../api/modules.md#igap) | [`IPointGap`](../../../../api/interfaces/IPointGap.md)
 
 子元素之间的间距， 默认为 0。
 
@@ -26,7 +26,7 @@ interface IPointGap {
 
 ## 归属
 
-### [Flow 元素](/plugin/in/flow/index.md)
+### [Flow 元素](../index.md)
 
 ## 示例
 

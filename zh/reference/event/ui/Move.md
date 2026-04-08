@@ -1,6 +1,6 @@
 # MoveEvent
 
-移动事件，一般用于[视口交互](/guide/advanced/viewport.md)中平移 视图 或 元素。
+移动事件，一般用于[视口交互](../../../guide/advanced/viewport.md)中平移 视图 或 元素。
 
 1. 移动端/触摸板: 双指滑动。
 2. 鼠标: 滚轮（纵向滚动），Shift + 滚轮（横向滚动）。
@@ -10,7 +10,7 @@ MoveEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Point
 
 <br/>
 
-需安装 [视口插件](/plugin/in/viewport/index.md) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
+需安装 [视口插件](../../../plugin/in/viewport/index.md) 才能使用， 或直接安装 [leafer-editor](../../../guide/install/editor/start.md)（已集成此插件）。
 :::
 
 ## 事件名称
@@ -29,7 +29,7 @@ MoveEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Point
 
 ### MoveEvent.DRAG_ANIMATE
 
-应用配置 [config.move.dragAnimate](/reference/config/app/move.md#move-draganimate-boolean) 产生的惯性动画移动时间，在 MoveEvent.END 之前触发。
+应用配置 [config.move.dragAnimate](../../config/app/move.md#move-draganimate-boolean) 产生的惯性动画移动时间，在 MoveEvent.END 之前触发。
 
 ### MoveEvent.END
 
@@ -67,33 +67,33 @@ MoveEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Point
 
 moveX, moveY 属性的转换。
 
-### getPageMove ( ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getPageMove ( ): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
 获取事件在 page 坐标系中的偏移距离。
 
-### getInnerMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getInnerMove ( relative?: [`UI`](../../display/UI.md)): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 的偏移距离，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [内部坐标](../../../guide/advanced/coordinate.md#inner-内部坐标系) 的偏移距离，relative 元素不存在时为当前侦听元素。
 
-### getLocalMove ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getLocalMove ( relative?: [`UI`](../../display/UI.md)): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 的偏移距离，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [本地坐标](../../../guide/advanced/coordinate.md#local-本地坐标系) 的偏移距离，relative 元素不存在时为当前侦听元素。
 
 ### 移动总距离
 
 totalX, totalY 属性的转换。
 
-### getPageTotal ( ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getPageTotal ( ): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
 获取事件在 page 坐标系中的总偏移距离。
 
-### getInnerTotal ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getInnerTotal ( relative?: [`UI`](../../display/UI.md)): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 的总偏移距离，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [内部坐标](../../../guide/advanced/coordinate.md#inner-内部坐标系) 的总偏移距离，relative 元素不存在时为当前侦听元素。
 
-### getLocalTotal ( relative: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getLocalTotal ( relative: [`UI`](../../display/UI.md)): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 的总偏移距离，relative 元素不存在时为当前侦听元素。
+获取事件相对于 relative 元素 [本地坐标](../../../guide/advanced/coordinate.md#local-本地坐标系) 的总偏移距离，relative 元素不存在时为当前侦听元素。
 
 <!-- ## 继承事件
 
@@ -101,7 +101,7 @@ totalX, totalY 属性的转换。
 
 <!-- ## API
 
-### [MoveEvent](/api/classes/MoveEvent.md) -->
+### [MoveEvent](../../../api/classes/MoveEvent.md) -->
 
 ## 示例
 

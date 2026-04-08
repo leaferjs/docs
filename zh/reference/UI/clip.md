@@ -10,7 +10,7 @@ import Case from '/component/Case.vue'
 
 [Text](../display/Text.md) 支持通过 textOverflow 实现裁剪内容的效果。
 
-另外通过 [图案填充](/reference/UI/paint/image.md#clip-裁剪模式属性) 的 clip 模式可以快速实现裁剪图片效果。
+另外通过 [图案填充](./paint/image.md#clip-裁剪模式属性) 的 clip 模式可以快速实现裁剪图片效果。
 
 ## 关键属性
 
@@ -36,7 +36,7 @@ text.textOverflow = '...'
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

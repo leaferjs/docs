@@ -4,13 +4,13 @@
 
 ## 关键属性
 
-### clone ( data?: [`IUIInputData`](/api/interfaces/IUIInputData.md))
+### clone ( data?: [`IUIInputData`](../../api/interfaces/IUIInputData.md))
 
 克隆当前元素，可以增加 data 参数覆盖旧数据。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

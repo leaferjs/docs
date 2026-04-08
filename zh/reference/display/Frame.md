@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Frame 元素
 
-创建画板。继承自 [Box](/reference/display/Box.md)，默认白色背景、会裁剪掉超出宽高的内容，类似于 HTML5 中的页面，一般用于设计软件中创建画板。
+创建画板。继承自 [Box](./Box.md)，默认白色背景、会裁剪掉超出宽高的内容，类似于 HTML5 中的页面，一般用于设计软件中创建画板。
 
 <case name="Frame" editor=false></case>
 
@@ -53,13 +53,13 @@ type IOverflow =
 
 ### isOverflow: `boolean`
 
-子元素是否溢出了 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata)，Box 布局完成后此属性才有值。
+子元素是否溢出了 [boxBounds](../UI/bounds.md#boxbounds-iboundsdata)，Box 布局完成后此属性才有值。
 
-### scrollWorldTransform: [`IMatrixWithScaleData`](/api/interfaces/IMatrixWithScaleData.md)
+### scrollWorldTransform: [`IMatrixWithScaleData`](../../api/interfaces/IMatrixWithScaleData.md)
 
 滚动区域相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性。
 
-不存在滚动时，会返回元素的 [worldTransform](/reference/UI/transform.md#worldtransform-imatrixwithscaledata) 变换矩阵。
+不存在滚动时，会返回元素的 [worldTransform](../UI/transform.md#worldtransform-imatrixwithscaledata) 变换矩阵。
 
 <!-- ## 继承元素
 
@@ -67,7 +67,7 @@ type IOverflow =
 
 <!-- ## API
 
-### [Frame](/api/classes/Frame.md) -->
+### [Frame](../../api/classes/Frame.md) -->
 
 ## 示例
 

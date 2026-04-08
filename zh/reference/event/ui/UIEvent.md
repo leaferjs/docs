@@ -10,23 +10,23 @@ UIEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 ### x: `number`
 
-在 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 中的 x 轴位置。
+在 [世界坐标](../../../guide/advanced/coordinate.md#world-世界坐标系) 中的 x 轴位置。
 
 ### y: `number`
 
-在 [世界坐标](/guide/advanced/coordinate.md#world-世界坐标系) 中的 y 轴位置。
+在 [世界坐标](../../../guide/advanced/coordinate.md#world-世界坐标系) 中的 y 轴位置。
 
-### path: [`ILeafList`](/api/interfaces/ILeafList.md)
+### path: [`ILeafList`](../../../api/interfaces/ILeafList.md)
 
 事件流经的对象列表。
 
-### throughPath?: [`ILeafList`](/api/interfaces/ILeafList.md)
+### throughPath?: [`ILeafList`](../../../api/interfaces/ILeafList.md)
 
 事件穿透的对象列表，不受层级覆盖影响，从上到下只要碰撞到区域就算。
 
-当 [配置引擎](/reference/config/app/pointer.md#获取穿透路径)获取穿透列表，且有点击操作时才存在此属性。
+当 [配置引擎](../../config/app/pointer.md#获取穿透路径)获取穿透列表，且有点击操作时才存在此属性。
 
-也可以自行通过 [pick()](/reference/UI/pick.md) 方法拾取。
+也可以自行通过 [pick()](../../UI/pick.md) 方法拾取。
 
 ### altKey: `boolean`
 
@@ -75,21 +75,21 @@ UIEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 x, y 属性的转换。
 
-### getPagePoint ( ): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getPagePoint ( ): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
 获取事件在 page 坐标系中的位置。
 
-### getBoxPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getBoxPoint ( relative?: [`UI`](../../display/UI.md)): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素的 [box 坐标](/guide/advanced/coordinate.md#box-坐标系) 位置，relative 元素 不存在时为当前侦听元素。
+获取事件相对于 relative 元素的 [box 坐标](../../../guide/advanced/coordinate.md#box-坐标系) 位置，relative 元素 不存在时为当前侦听元素。
 
-### getInnerPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getInnerPoint ( relative?: [`UI`](../../display/UI.md)): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素的 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 位置，relative 元素 不存在时为当前侦听元素。
+获取事件相对于 relative 元素的 [内部坐标](../../../guide/advanced/coordinate.md#inner-内部坐标系) 位置，relative 元素 不存在时为当前侦听元素。
 
-### getLocalPoint ( relative?: [`UI`](/reference/display/UI.md)): [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### getLocalPoint ( relative?: [`UI`](../../display/UI.md)): [`IPointData`](../../interface/math/Math.md#ipointdata)
 
-获取事件相对于 relative 元素的 [本地坐标](/guide/advanced/coordinate.md#local-本地坐标系) 位置，relative 元素 不存在时为当前侦听元素。
+获取事件相对于 relative 元素的 [本地坐标](../../../guide/advanced/coordinate.md#local-本地坐标系) 位置，relative 元素 不存在时为当前侦听元素。
 
 <!-- ## 继承事件
 
@@ -98,4 +98,4 @@ x, y 属性的转换。
 <!--
 ## API
 
-### [UIEvent](/api/classes/UIEvent.md) -->
+### [UIEvent](../../../api/classes/UIEvent.md) -->

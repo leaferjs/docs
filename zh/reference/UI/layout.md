@@ -8,19 +8,19 @@
 
 x 轴位置。
 
-注意 [offsetX](/reference/UI/offset.md)、[around](/reference/UI/around.md) 会改变元素的实际位置。
+注意 [offsetX](./offset.md)、[around](./around.md) 会改变元素的实际位置。
 
 ### y: `number`
 
 y 轴位置。
 
-注意 [offsetY](/reference/UI/offset.md)、[around](/reference/UI/around.md) 会改变元素的实际位置。
+注意 [offsetY](./offset.md)、[around](./around.md) 会改变元素的实际位置。
 
 ### width: `number`
 
 元素的宽度。
 
-不支持直接设置的元素、Group 可通过 [resizeWidth()](/reference/UI/resize.md) 调整，通过 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata) 获取实际宽度 。
+不支持直接设置的元素、Group 可通过 [resizeWidth()](./resize.md) 调整，通过 [boxBounds](./bounds.md#boxbounds-iboundsdata) 获取实际宽度 。
 
 :::tip
 当宽度为负数时，为让程序继续运行，将重置为正数，并使用 -scaleX 镜像代替，开发环境中会发出一个警告。
@@ -30,7 +30,7 @@ y 轴位置。
 
 元素的高度，仅部分元素支持直接设置。
 
-不支持直接设置的元素、Group 可通过 [resizeHeight()](/reference/UI/resize.md) 调整，通过 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata) 获取实际高度。
+不支持直接设置的元素、Group 可通过 [resizeHeight()](./resize.md) 调整，通过 [boxBounds](./bounds.md#boxbounds-iboundsdata) 获取实际高度。
 
 :::tip
 当高度为负数时，为让程序继续运行，将重置为正数，并使用 -scaleY 镜像代替，开发环境中会发出一个警告。
@@ -58,7 +58,7 @@ y 轴倾斜角度，取值范围为 -90 ～ 90。
 
 ## 计算属性
 
-### scale: `number` ｜ [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### scale: `number` ｜ [`IPointData`](../interface/math/Math.md#ipointdata)
 
 快速设置 scaleX, scaleY
 
@@ -78,10 +78,10 @@ console.log(leaf.scale) // {x:1, y: 2}
 
 ## 更多
 
-### [transform 属性方法](/reference/UI/transform.md)
+### [transform 属性方法](./transform.md)
 
-### [bounds 属性方法](/reference/UI/bounds.md)
+### [bounds 属性方法](./bounds.md)
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)

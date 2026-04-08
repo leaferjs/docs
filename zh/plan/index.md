@@ -19,7 +19,7 @@
 
 导入导出 （已完成）
 
-[字符串对象](/reference/interface/ui/String.md)
+[字符串对象](../reference/interface/ui/String.md)
 
 动画 （已完成）
 

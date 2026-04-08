@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # ImagePaint 对象
 
-图案填充对象, 可设置给 [fill](/reference/UI/fill.md) 或 [stroke](/reference/UI/stroke.md) 属性，支持使用 svg 格式的图片。
+图案填充对象, 可设置给 [fill](../fill.md) 或 [stroke](../stroke.md) 属性，支持使用 svg 格式的图片。
 
 <case name="ImageFill" editor=false></case>
 
@@ -22,7 +22,7 @@ import Case from '/component/Case.vue'
 
 图片 url 地址，支持 Blob url、Data url(Base64)。
 
-我们还提供了 [资源库](/reference/resource/Resource.md)，支持原始图片对象、画布对象转 url， 及预加载图片。
+我们还提供了 [资源库](../../resource/Resource.md)，支持原始图片对象、画布对象转 url， 及预加载图片。
 
 ### mode?: `ImagePaintMode`
 
@@ -56,7 +56,7 @@ type ImagePaintMode =
 
 ## 基础属性
 
-### blendMode?: [`BlendMode`](/reference/UI/blendMode.md)
+### blendMode?: [`BlendMode`](../blendMode.md)
 
 混合模式，默认为 normal。
 
@@ -66,7 +66,7 @@ type ImagePaintMode =
 
 ### opacity?: `number`
 
-不透明度，默认为 1，暂时仅针对[颜色对象](/reference/interface/ui/Color.md#rgb)和图片有效。
+不透明度，默认为 1，暂时仅针对[颜色对象](../../interface/ui/Color.md#rgb)和图片有效。
 
 ### align: `IAlign`
 
@@ -100,7 +100,7 @@ type IAlign =
 
 旋转角度, 以 90 度递增旋转。
 
-### padding?: [`IFourNumber`](/reference/interface/math/Math.md#ifournumber)
+### padding?: [`IFourNumber`](../../interface/math/Math.md#ifournumber)
 
 内边距，默认为 0。
 
@@ -121,11 +121,11 @@ interface ISizeData {
 }
 ```
 
-### offset?: [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### offset?: [`IPointData`](../../interface/math/Math.md#ipointdata)
 
 偏移位置。
 
-### size?: `number` ｜ [`IOptionSizeData`](/api/interfaces/IOptionSizeData.md)
+### size?: `number` ｜ [`IOptionSizeData`](../../../api/interfaces/IOptionSizeData.md)
 
 图片尺寸， 自动换算出 scale。
 
@@ -137,7 +137,7 @@ interface IOptionSizeData {
 }
 ```
 
-### scale?: `number` ｜ [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### scale?: `number` ｜ [`IPointData`](../../interface/math/Math.md#ipointdata)
 
 缩放大小， 优先使用 size 换算出的 scale。
 
@@ -147,11 +147,11 @@ interface IOptionSizeData {
 
 ## repeat 平铺模式属性
 
-### offset?: [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### offset?: [`IPointData`](../../interface/math/Math.md#ipointdata)
 
 偏移位置。
 
-### size?: `number` ｜ [`IOptionSizeData`](/api/interfaces/IOptionSizeData.md)
+### size?: `number` ｜ [`IOptionSizeData`](../../../api/interfaces/IOptionSizeData.md)
 
 图片尺寸， 自动换算出 scale。
 
@@ -163,7 +163,7 @@ interface IOptionSizeData {
 }
 ```
 
-### scale?: `number` ｜ [`IPointData`](/reference/interface/math/Math.md#ipointdata)
+### scale?: `number` ｜ [`IPointData`](../../interface/math/Math.md#ipointdata)
 
 平铺图片的缩放比例，优先使用 size 换算出的 scale。
 
@@ -183,7 +183,7 @@ interface IOptionSizeData {
 
 是否进行自由变换，将忽略 rotation 的特殊旋转逻辑，方便进行手动编辑
 
-### gap?: [`IGap`](/api/modules.md#igap) | [`IPointGap`](/api/interfaces/IPointGap.md)
+### gap?: [`IGap`](../../../api/modules.md#igap) | [`IPointGap`](../../../api/interfaces/IPointGap.md)
 
 平铺图片之间的间距， 默认为 0。
 
@@ -225,7 +225,7 @@ interlace: { // 下一列 Y 轴偏移 图案大小的 50%
 }
 ```
 
-### repeat?: [`IRepeat`](/api/modules.md#irepeat)
+### repeat?: [`IRepeat`](../../../api/modules.md#irepeat)
 
 重复背景的方式，可设置重复 x 或 y 轴， 默认同时重复两个轴。
 
@@ -239,11 +239,11 @@ const repeat = { x: 10, y: 6 } // 设置 x、y 轴平铺图片的个数
 
 ## 子描边属性
 
-### style?: [`IStrokeStyle`](/api/interfaces/IStrokeStyle.md)
+### style?: [`IStrokeStyle`](../../../api/interfaces/IStrokeStyle.md)
 
-当为元素设置多个描边时，可设置子描边样式 `style` ，用于覆盖 [主描边样式](/reference/UI/stroke.md#描边样式属性)。
+当为元素设置多个描边时，可设置子描边样式 `style` ，用于覆盖 [主描边样式](../stroke.md#描边样式属性)。
 
-可形成蚂蚁线、模拟内中外三层描边等各种效果，[了解具体设置](/reference/UI/stroke.md#子描边属性)。
+可形成蚂蚁线、模拟内中外三层描边等各种效果，[了解具体设置](../stroke.md#子描边属性)。
 
 ## 图片缓存
 
@@ -261,17 +261,17 @@ const repeat = { x: 10, y: 6 } // 设置 x、y 轴平铺图片的个数
 
 ## 资源库
 
-我们还提供了 [资源库](/reference/resource/Resource.md)，可预加载图片，原始图片对象、画布对象可转为 url
+我们还提供了 [资源库](../../resource/Resource.md)，可预加载图片，原始图片对象、画布对象可转为 url
 
 引擎中的所有图片都会通过 资源库 有序并行加载，当图片不再使用时，会进入回收列表，到达阈值会自动销毁。
 
 ## 图片事件
 
-### [ImageEvent](/reference/event/basic/Image.md)
+### [ImageEvent](../../event/basic/Image.md)
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../../display/UI.md)
 
 ## 示例
 

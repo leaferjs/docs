@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Box 元素
 
-创建 Box。支持 [Group](/reference/display/Group.md) 的功能和 [Rect](/reference/display/Rect.md) 的外观样式， 类似于 HTML5 中的 DIV，可以不断嵌套 。
+创建 Box。支持 [Group](./Group.md) 的功能和 [Rect](./Rect.md) 的外观样式， 类似于 HTML5 中的 DIV，可以不断嵌套 。
 
 <case name="Box" editor=false></case>
 
@@ -20,13 +20,13 @@ Box &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./
 
 宽度，不设置或设为`undefined`时会自适应内容。
 
-可通过 [isAutoWidth](/reference/UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
+可通过 [isAutoWidth](../UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
 
 ### height: `number`
 
 高度，不设置或设为`undefined`时会自适应内容。
 
-可通过 [isAutoHeight](/reference/UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
+可通过 [isAutoHeight](../UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
 
 ### overflow: `IOverflow`
 
@@ -55,7 +55,7 @@ type IOverflow =
 
 内部元素在 y 轴上的滚动量。
 
-### scrollConfig: [`IScrollConfig`](/api/interfaces/IScrollConfig.md)
+### scrollConfig: [`IScrollConfig`](../../api/interfaces/IScrollConfig.md)
 
 滚动条的样式、功能配置，需安装 [Box 滚动条高级插件](https://www.pxgrow.com/plugin/view/?id=10003)。
 
@@ -86,29 +86,29 @@ type IScaleFixed = boolean | 'zoom-in'
 
 是否为文本框，默认为 false。
 
-为文本框时，可在编辑器中双击 Box 元素直接编辑内部的 [editable](/reference/UI/editable.md) 子文本，适用于输入框、便利贴、脑图、流程图等编辑文本的场景。
+为文本框时，可在编辑器中双击 Box 元素直接编辑内部的 [editable](../UI/editable.md) 子文本，适用于输入框、便利贴、脑图、流程图等编辑文本的场景。
 
 ### resizeChildren: `boolean`
 
 子元素是否跟随 resize， 默认为 false。
 
-子文本 [Text](/reference/display/Text.md) 需要设置 [resizeFontSize](/reference/display/Text.md#resizefontsize-boolean) 才能跟随 resize。
+子文本 [Text](./Text.md) 需要设置 [resizeFontSize](./Text.md#resizefontsize-boolean) 才能跟随 resize。
 
 ## 计算属性（只读）
 
 ### isOverflow: `boolean`
 
-子元素是否溢出了 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata)，Box 布局完成后此属性才有值。
+子元素是否溢出了 [boxBounds](../UI/bounds.md#boxbounds-iboundsdata)，Box 布局完成后此属性才有值。
 
-### scrollWorldTransform: [`IMatrixWithScaleData`](/api/interfaces/IMatrixWithScaleData.md)
+### scrollWorldTransform: [`IMatrixWithScaleData`](../../api/interfaces/IMatrixWithScaleData.md)
 
 滚动区域相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性。
 
-不存在滚动时，会返回元素的 [worldTransform](/reference/UI/transform.md#worldtransform-imatrixwithscaledata) 变换矩阵。
+不存在滚动时，会返回元素的 [worldTransform](../UI/transform.md#worldtransform-imatrixwithscaledata) 变换矩阵。
 
 ## 路径模式
 
-### [path 优先模式](/reference/UI/path.md)
+### [path 优先模式](../UI/path.md)
 
 <!--
 ## 继承元素
@@ -117,7 +117,7 @@ type IScaleFixed = boolean | 'zoom-in'
 
 <!-- ## API
 
-### [Box](/api/classes/Box.md) -->
+### [Box](../../api/classes/Box.md) -->
 
 ## 示例
 

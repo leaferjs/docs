@@ -10,7 +10,7 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### flowWrap: [`IFlowWrap`](/api/modules.md#iflowwrap)
+### flowWrap: [`IFlowWrap`](../../../../api/modules.md#iflowwrap)
 
 是否自动换行， 默认不换行。
 
@@ -20,7 +20,7 @@ type IFlowWrap = boolean | 'reverse' // reverse表示颠倒行顺序
 
 ## 归属
 
-### [Flow 元素](/plugin/in/flow/index.md)
+### [Flow 元素](../index.md)
 
 ## 示例
 

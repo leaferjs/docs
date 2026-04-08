@@ -4,13 +4,13 @@ import Case from '/component/Case.vue'
 
 # 编辑器配置
 
-### [基础](/plugin/in/editor/config/base.md) &nbsp; &nbsp; [事件](/plugin/in/editor/config/event.md) &nbsp; &nbsp; [样式](/plugin/in/editor/config/style.md) &nbsp; &nbsp; [按钮组](/plugin/in/editor/config/buttons.md) &nbsp; &nbsp; [光标](/plugin/in/editor/config/cursor.md) &nbsp; &nbsp; 选择 &nbsp; &nbsp; [控制](/plugin/in/editor/config/control.md) &nbsp; &nbsp; [启用](/plugin/in/editor/config/enable.md) &nbsp; &nbsp; [内部编辑器](/plugin/in/editor/config/innerEditor.md)
+### [基础](./base.md) &nbsp; &nbsp; [事件](./event.md) &nbsp; &nbsp; [样式](./style.md) &nbsp; &nbsp; [按钮组](./buttons.md) &nbsp; &nbsp; [光标](./cursor.md) &nbsp; &nbsp; 选择 &nbsp; &nbsp; [控制](./control.md) &nbsp; &nbsp; [启用](./enable.md) &nbsp; &nbsp; [内部编辑器](./innerEditor.md)
 
 ##
 
-选择方式配置，仅在初始化配置或应用运行中修改 [app.editor.config](/plugin/in/editor/index.md#config-ieditorconfig) 有效。
+选择方式配置，仅在初始化配置或应用运行中修改 [app.editor.config](../index.md#config-ieditorconfig) 有效。
 
-同时元素拥有 [独立的编辑配置](/reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
+同时元素拥有 [独立的编辑配置](../../../../reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
 
 ## 关键属性
 
@@ -24,7 +24,7 @@ import Case from '/component/Case.vue'
 
 是否启用编辑选择器， 默认启用。
 
-可以通过交互来选取 [editable](/reference/UI/editable.md) 元素， 并支持显示 hover 状态。
+可以通过交互来选取 [editable](../../../../reference/UI/editable.md) 元素， 并支持显示 hover 状态。
 
 ### select: `'press'` | `'tap'`
 

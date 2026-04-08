@@ -6,7 +6,7 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### easing: [`IAnimateEasing`](/api/modules.md#ianimateeasing)
+### easing: [`IAnimateEasing`](../../../../api/modules.md#ianimateeasing)
 
 动画的缓动方式，默认为 ease，查看 [动画曲线示意图](https://easings.net/)。
 
@@ -78,7 +78,7 @@ interface IStepsEasing {
 
 ## 归属
 
-### [Animate 类](/plugin/in/animate/index.md)
+### [Animate 类](../index.md)
 
 ## 示例
 

@@ -12,7 +12,7 @@ App 元素 暂不支持直接导入导出。
 
 ## 导出
 
-### toJSON ( options?: `IJSONOptions` ): [`IUIInputData`](/api/interfaces/IUIInputData.md)
+### toJSON ( options?: `IJSONOptions` ): [`IUIInputData`](../../api/interfaces/IUIInputData.md)
 
 导出 JSON 对象。
 
@@ -75,4 +75,4 @@ group.childlessJSON = true
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)

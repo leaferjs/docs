@@ -6,27 +6,27 @@ import Case from '/component/Case.vue'
 
 ## 关键属性（只读）
 
-### style: [`IUIInputData`](/api/interfaces/IUIInputData.md)
+### style: [`IUIInputData`](../../../../api/interfaces/IUIInputData.md)
 
 当前动画状态的样式。
 
-### fromStyle: [`IUIInputData`](/api/interfaces/IUIInputData.md)
+### fromStyle: [`IUIInputData`](../../../../api/interfaces/IUIInputData.md)
 
 from 帧状态的样式。
 
-### toStyle: [`IUIInputData`](/api/interfaces/IUIInputData.md)
+### toStyle: [`IUIInputData`](../../../../api/interfaces/IUIInputData.md)
 
 to 帧状态的样式。
 
-### endingStyle: [`IUIInputData`](/api/interfaces/IUIInputData.md)
+### endingStyle: [`IUIInputData`](../../../../api/interfaces/IUIInputData.md)
 
 结束状态的样式
 
-### frames: [`IComputedKeyframe`](/api/interfaces/IComputedKeyframe.md) []
+### frames: [`IComputedKeyframe`](../../../../api/interfaces/IComputedKeyframe.md) []
 
 实际用于内部动画的计算关键帧列表。
 
-### keyframes: [`IKeyframe`](/api/modules.md#ikeyframe)[]
+### keyframes: [`IKeyframe`](../../../../api/modules.md#ikeyframe)[]
 
 原始动画关键帧列表。
 
@@ -51,7 +51,7 @@ interface IAnimateKeyframe {
 
 ## 归属
 
-### [Animate 类](/plugin/in/animate/index.md)
+### [Animate 类](../index.md)
 
 ## 示例
 

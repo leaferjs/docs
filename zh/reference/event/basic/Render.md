@@ -2,7 +2,7 @@
 
 渲染事件。
 
-想了解事件的触发顺序，请查看 [渲染生命周期](/guide/life/render.md) 图示。
+想了解事件的触发顺序，请查看 [渲染生命周期](../../../guide/life/render.md) 图示。
 
 ::: tip 继承
 RenderEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
@@ -10,11 +10,11 @@ RenderEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 ## 关键属性
 
-### renderBounds: [`IBounds`](/api/interfaces/IBounds.md)
+### renderBounds: [`IBounds`](../../../api/interfaces/IBounds.md)
 
 渲染区域。
 
-### renderOptions: [`IRenderOptions`](/api/interfaces/IRenderOptions.md)
+### renderOptions: [`IRenderOptions`](../../../api/interfaces/IRenderOptions.md)
 
 渲染选项。
 
@@ -82,7 +82,7 @@ RenderEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 
-### [RenderEvent](/api/classes/RenderEvent.md) -->
+### [RenderEvent](../../../api/classes/RenderEvent.md) -->
 
 ## 示例
 

@@ -1,13 +1,13 @@
 # 应用与引擎配置
 
-### [基础](/reference/config/app/base.md) &nbsp; &nbsp; 视口类型 &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; [点按](/reference/config/app/pointer.md) &nbsp; &nbsp; [多点](/reference/config/app/multiTouch.md) &nbsp; &nbsp; [触屏](/reference/config/app/touch.md) &nbsp; &nbsp; [滚轮](/reference/config/app/wheel.md) &nbsp; &nbsp; [平移视图](/reference/config/app/move.md) &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md)
+### [基础](./base.md) &nbsp; &nbsp; 视口类型 &nbsp; &nbsp; [画布](./canvas.md) &nbsp; &nbsp; [点按](./pointer.md) &nbsp; &nbsp; [多点](./multiTouch.md) &nbsp; &nbsp; [触屏](./touch.md) &nbsp; &nbsp; [滚轮](./wheel.md) &nbsp; &nbsp; [平移视图](./move.md) &nbsp; &nbsp; [缩放视图](./zoom.md)
 
 ##
 
 初始化视口类型，引擎运行中不可再更改。
 
 :::tip 注意事项
-[App 结构](/guide/advanced/app.md) 下需设置在 [子层 Leafer](/reference/display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
+[App 结构](../../../guide/advanced/app.md) 下需设置在 [子层 Leafer](../../display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
 :::
 
 ## 关键属性
@@ -36,29 +36,29 @@ type ILeaferType =
 
 ## block 场景类型
 
-[Leafer](/reference/display/Leafer.md) 里面的元素可以像 HTML 的普通块状元素一样融入到浏览器页面中，响应交互事件。
+[Leafer](../../display/Leafer.md) 里面的元素可以像 HTML 的普通块状元素一样融入到浏览器页面中，响应交互事件。
 
-移动端在元素 draggable / editable 属性为 `false`，及没有监听 DragEvent.DRAG 的空间上拖拽可直接滑动页面，了解 [touch 配置](/reference/config/app/touch.md#touchpreventdefault-boolean-auto)。
+移动端在元素 draggable / editable 属性为 `false`，及没有监听 DragEvent.DRAG 的空间上拖拽可直接滑动页面，了解 [touch 配置](./touch.md#touchpreventdefault-boolean-auto)。
 
 <<< @/code/app/config/type/block.ts
 
 ## viewport 视口类型
 
-通过滚轮/触摸板滑动或捏合可缩放平移视图，会阻止默认 [原生右键菜单](/reference/config/app/pointer.md#pointer-preventdefaultmenu-boolean)。
+通过滚轮/触摸板滑动或捏合可缩放平移视图，会阻止默认 [原生右键菜单](./pointer.md#pointer-preventdefaultmenu-boolean)。
 
 ### 平移视图操作
 
 1. 移动端/触摸板: 双指滑动。
 2. 鼠标: 滚轮（纵向滚动），Shift + 滚轮（横向滚动）。
 
-更多配置请看 [app.config.move](/reference/config/app/move.md)， 提供了丰富的配置功能，涵盖各种场景。
+更多配置请看 [app.config.move](./move.md)， 提供了丰富的配置功能，涵盖各种场景。
 
 ### 缩放视图操作
 
 1. 移动端/触摸板: 双指捏合。
 2. 鼠标: Ctrl / Command + 滚轮。
 
-更多配置请看 [app.config.zoom](/reference/config/app/zoom.md) / [app.config.wheel](/reference/config/app/wheel.md)。
+更多配置请看 [app.config.zoom](./zoom.md) / [app.config.wheel](./wheel.md)。
 
 ::: code-group
 

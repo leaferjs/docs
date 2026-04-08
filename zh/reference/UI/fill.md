@@ -14,11 +14,11 @@ import Case from '/component/Case.vue'
 
 填充背景或文字。
 
-支持 [纯色](/reference/UI/paint/solid.md)、 [线性渐变](/reference/UI/paint/linear.md)、[径向渐变](/reference/UI/paint/radial.md)、[角度渐变](/reference/UI/paint/angular.md)、[图案填充](/reference/UI/paint/image.md) 等类型， 支持多个填充同时叠加。
+支持 [纯色](./paint/solid.md)、 [线性渐变](./paint/linear.md)、[径向渐变](./paint/radial.md)、[角度渐变](./paint/angular.md)、[图案填充](./paint/image.md) 等类型， 支持多个填充同时叠加。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 
@@ -57,7 +57,7 @@ import Case from '/component/Case.vue'
 
 ### 多个填充叠加
 
-填充的 opacity 暂时仅针对 [颜色对象](/reference/interface/ui/Color.md#rgb) 和图片有效。
+填充的 opacity 暂时仅针对 [颜色对象](../interface/ui/Color.md#rgb) 和图片有效。
 
 ::: code-group
 <<< @/code/property/fill/mutil/a.ts [Leafer]

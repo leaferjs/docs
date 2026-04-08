@@ -4,19 +4,19 @@ import Case from '/component/Case.vue'
 
 # path
 
-路径优先模式，可用于修改 [Box](/reference/display/Box.md) 的形状、普通元素转路径。
+路径优先模式，可用于修改 [Box](../display/Box.md) 的形状、普通元素转路径。
 
 设置 path 数据 或调用 [pen 画笔](#pen-pathcreator) 后可以将普通元素转为路径模式，优先渲染手动绘制的路径。
 
 ## 关键属性
 
-### path: [`IPathString`](/reference/interface/ui/PathData.md#ipathstring) ｜ [`IPathCommandData`](/reference/interface/ui/PathData.md)
+### path: [`IPathString`](../interface/ui/PathData.md#ipathstring) ｜ [`IPathCommandData`](../interface/ui/PathData.md)
 
-路径数据，支持 SVG 与 Cavnas [绘图命令](/reference/interface/ui/PathData.md)。
+路径数据，支持 SVG 与 Cavnas [绘图命令](../interface/ui/PathData.md)。
 
 可通过 [pen 画笔](#pen-pathcreator) 快速绘制路径。
 
-**元素当前形状转路径：[getPath()](/reference/UI/getPath.md)**
+**元素当前形状转路径：[getPath()](./getPath.md)**
 
 ```ts
 // 如多边形内部转成路径，方便进行路径编辑
@@ -41,9 +41,9 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 将 `path` 设为 null 后，可还原为非路径模式。
 
-### pen: [PathCreator](/reference/path/PathCreator.md)
+### pen: [PathCreator](../path/PathCreator.md)
 
-画笔，可以像 Canvas 2D API 一样快速 [绘制路径](/reference/path/PathCreator.md)，并提供了一些新的方法。
+画笔，可以像 Canvas 2D API 一样快速 [绘制路径](../path/PathCreator.md)，并提供了一些新的方法。
 
 画笔实际上修改的是元素 path 属性数据。
 
@@ -57,7 +57,7 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

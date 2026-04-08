@@ -6,9 +6,9 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### event: [`IAnimateEvents`](/api/interfaces/IAnimateEvent.md)
+### event: [`IAnimateEvents`](../../../../api/interfaces/IAnimateEvent.md)
 
-监听事件对象，同时支持 [AnimateEvent](/plugin/in/animate/event/AnimateEvent.md) 方式。
+监听事件对象，同时支持 [AnimateEvent](../event/AnimateEvent.md) 方式。
 
 ```ts
 interface IAnimateEvents {
@@ -30,7 +30,7 @@ interface IAnimateEventFunction {
 
 ## 归属
 
-### [Animate 类](/plugin/in/animate/index.md)
+### [Animate 类](../index.md)
 
 ## 示例
 
@@ -46,7 +46,7 @@ interface IAnimateEventFunction {
 
 ### 通过 on() 监听动画事件
 
-支持像元素一样 [监听、移除事件](/reference/UI/on.md)
+支持像元素一样 [监听、移除事件](../../../../reference/UI/on.md)
 
 ::: code-group
 <<< @/code/plugin/animate/options/event/animate/on.ts [animate]

@@ -7,7 +7,7 @@ import Case from '/component/Case.vue'
 默认支持折线圆角，曲线圆角需安装插件。
 
 ::: tip 注意事项
-曲线与折线、折线与曲线之间的圆角需安装 [corner 插件](/plugin/in/corner/index.md) 才能使用。
+曲线与折线、折线与曲线之间的圆角需安装 [corner 插件](../../plugin/in/corner/index.md) 才能使用。
 :::
 
 ## 关键属性
@@ -24,7 +24,7 @@ import Case from '/component/Case.vue'
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

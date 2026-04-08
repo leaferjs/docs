@@ -57,11 +57,11 @@ interface ICanvasRenderingContext2DSettings {
 
 [导入画布](#json) 是否已经完成。
 
-### canvas: [`ILeaferCanvas`](/api/interfaces/ILeaferCanvas.md)
+### canvas: [`ILeaferCanvas`](../../api/interfaces/ILeaferCanvas.md)
 
 跨平台的画布封装对象。
 
-### context: [`ICanvasContext2D`](/api/interfaces/ICanvasContext2D.md)
+### context: [`ICanvasContext2D`](../../api/interfaces/ICanvasContext2D.md)
 
 跨平台的 `2d` 上下文对象，同 HTML 的 Canvas.getContext('2d') 接口一致。
 
@@ -69,11 +69,11 @@ interface ICanvasRenderingContext2DSettings {
 
 ### draw ( )
 
-draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/interfaces/IPointData.md) , scale?: `number` | [`IPointData`](/api/interfaces/IPointData.md), rotation?: `number`)
+draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](../../api/interfaces/IPointData.md) , scale?: `number` | [`IPointData`](../../api/interfaces/IPointData.md), rotation?: `number`)
 
 绘制图形元素。
 
-以元素的 [inner 坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 为基准进行绘制，暂时只支持`2d`类型的画布。
+以元素的 [inner 坐标](../../guide/advanced/coordinate.md#inner-内部坐标系) 为基准进行绘制，暂时只支持`2d`类型的画布。
 
 ### paint ( )
 
@@ -85,7 +85,7 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 
 导出 JSON：将 canvas 数据生成一个 base64 的 url 属性。
 
-导入 JSON：通过 url 属性异步加载图片还原 canvas，可监听 [ImageEvent.LOADED](/reference/event/basic/Image.md#imageevent-loaded)。
+导入 JSON：通过 url 属性异步加载图片还原 canvas，可监听 [ImageEvent.LOADED](../event/basic/Image.md#imageevent-loaded)。
 
 <!-- ## 继承元素
 
@@ -93,7 +93,7 @@ draw(ui: [`UI`](./UI.md) | [`Group`](./Group.md), offset?: [`IPointData`](/api/i
 
 <!-- ## API
 
-### [Canvas](/api/classes/Canvas.md) -->
+### [Canvas](../../api/classes/Canvas.md) -->
 
 ## 示例
 

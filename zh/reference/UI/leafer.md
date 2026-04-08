@@ -4,11 +4,11 @@
 
 ## 只读属性
 
-### leafer: [`Leafer`](/reference/display/Leafer.md)
+### leafer: [`Leafer`](../display/Leafer.md)
 
 元素所在的 Leafer 引擎。
 
-### app: [`App`](/reference/display/Leafer.md) ｜ [`Leafer`](/reference/display/Leafer.md)
+### app: [`App`](../display/Leafer.md) ｜ [`Leafer`](../display/Leafer.md)
 
 元素所在的 App 实例（根应用），非 App 结构时为 Leafer。
 
@@ -18,27 +18,27 @@
 
 ### leaferIsCreated: `boolean`
 
-Leafer 引擎及子元素 [创建完成](/reference/display/Leafer.md#created-boolean)（完成首次创建）。
+Leafer 引擎及子元素 [创建完成](../display/Leafer.md#created-boolean)（完成首次创建）。
 
 ### leaferIsReady: `boolean`
 
-Leafer 引擎是否 [准备就绪](/reference/display/Leafer.md#ready-boolean)（完成首次布局）。
+Leafer 引擎是否 [准备就绪](../display/Leafer.md#ready-boolean)（完成首次布局）。
 
-### zoomLayer: [`Group`](/reference/display/Group.md)
+### zoomLayer: [`Group`](../display/Group.md)
 
-Leafer 引擎的 [缩放平移视图层](/reference/display/Leafer.md#zoomlayer-group)。
+Leafer 引擎的 [缩放平移视图层](../display/Leafer.md#zoomlayer-group)。
 
 ## 辅助方法
 
 ### waitLeafer ( item: `function`, bind?: `object` )
 
-等待元素有 [`leafer`](/reference/UI/leafer.md) 属性时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
+等待元素有 [`leafer`](./leafer.md) 属性时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已存在则立即执行。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

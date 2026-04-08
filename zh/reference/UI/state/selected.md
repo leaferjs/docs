@@ -4,12 +4,12 @@ import Case from '/component/Case.vue'
 
 # selected
 
-选中状态， 支持添加 [过渡效果](/reference/UI/transition.md)。
+选中状态， 支持添加 [过渡效果](../transition.md)。
 
-[Box](/reference/display/Box.md) / [Group ](/reference/display/Group.md)可通过设置 [button](/reference/UI/state/state.md#button-boolean) 属性，使子元素自动同步交互状态。
+[Box](../../display/Box.md) / [Group ](../../display/Group.md)可通过设置 [button](./state.md#button-boolean) 属性，使子元素自动同步交互状态。
 
 ::: tip 注意事项
-需安装 [交互状态插件](/plugin/in/state/index.md) 才能使用。
+需安装 [交互状态插件](../../../plugin/in/state/index.md) 才能使用。
 :::
 
 ## 关键属性
@@ -18,13 +18,13 @@ import Case from '/component/Case.vue'
 
 是否选中。
 
-### selectedStyle: [`IUIInputData`](/api/interfaces/IUIInputData.md)
+### selectedStyle: [`IUIInputData`](../../../api/interfaces/IUIInputData.md)
 
 元素 `selected` 设为 true 时的选中样式， `selected` 设为 false 后自动还原。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../../display/UI.md)
 
 ## 示例
 

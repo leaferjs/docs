@@ -4,13 +4,13 @@
 
 ## 关键属性
 
-### dropTo ( parent: [`Group`](/reference/display/Group.md), index?: `number`)
+### dropTo ( parent: [`Group`](../display/Group.md), index?: `number`)
 
 将元素拖拽放置到另一个父容器中，同时保持在世界坐标中的显示位置不变， `index`表示放置的层级。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

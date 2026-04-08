@@ -4,33 +4,33 @@
 
 像操控交互设备一样，与引擎进行交互，自动触发其他复合事件，如 pointerDown 之后 pointerUp 触发 tap 事件， pointerDown 之后 pointerMove 触发 drag 事件。
 
-如果只是想简单的触发一个交互事件，可以使用元素的 [emit()](/reference/UI/emit.md) 方法。
+如果只是想简单的触发一个交互事件，可以使用元素的 [emit()](../UI/emit.md) 方法。
 
 ## 关键方法
 
 所有的模拟方法在 leafer.interaction 实例上。
 
-### pointerDown ( data: [`IPointerEvent`](/api/interfaces/IPointerEvent.md) )
+### pointerDown ( data: [`IPointerEvent`](../../api/interfaces/IPointerEvent.md) )
 
 按下指针。
 
-### pointerMove ( data: [`IPointerEvent`](/api/interfaces/IPointerEvent.md) )
+### pointerMove ( data: [`IPointerEvent`](../../api/interfaces/IPointerEvent.md) )
 
 移动指针。
 
-### pointerUp ( data?: [`IPointerEvent`](/api/interfaces/IPointerEvent.md) )
+### pointerUp ( data?: [`IPointerEvent`](../../api/interfaces/IPointerEvent.md) )
 
 抬起指针。
 
-### zoom ( data: [`IZoomEvent`](/api/interfaces/IZoomEvent.md) )
+### zoom ( data: [`IZoomEvent`](../../api/interfaces/IZoomEvent.md) )
 
 缩放操作。
 
-### move ( data: [`IMoveEvent`](/api/interfaces/IMoveEvent.md) )
+### move ( data: [`IMoveEvent`](../../api/interfaces/IMoveEvent.md) )
 
 平移操作。
 
-### rotate ( data: [`IRotateEvent`](/api/interfaces/IRotateEvent.md) )
+### rotate ( data: [`IRotateEvent`](../../api/interfaces/IRotateEvent.md) )
 
 旋转操作。
 

@@ -16,11 +16,11 @@
 
 ## 关键方法
 
-### loadImage ( key: `string`, format?: [`IExportFileType`](/api/modules.md#iexportimagetype) ): Promise<[`ILeaferImage`](/api/interfaces/ILeaferImage.md)>
+### loadImage ( key: `string`, format?: [`IExportFileType`](../../api/modules.md#iexportimagetype) ): Promise<[`ILeaferImage`](../../api/interfaces/ILeaferImage.md)>
 
 预加载图片资源，`key` 为图片的 url 地址，`format` 用于强制定义图片类型 。
 
-### setImage ( key: `string`, value: `string` | [`IObject`](/api/interfaces/IObject.md) | [`ILeaferImage`](/api/interfaces/ILeaferImage.md) | [`ILeaferCanvas`](/api/interfaces/ILeaferCanvas.md), format?: [`IExportFileType`](/api/modules.md#iexportimagetype) ): [`ILeaferImage`](/api/interfaces/ILeaferImage.md)
+### setImage ( key: `string`, value: `string` | [`IObject`](../../api/interfaces/IObject.md) | [`ILeaferImage`](../../api/interfaces/ILeaferImage.md) | [`ILeaferCanvas`](../../api/interfaces/ILeaferCanvas.md), format?: [`IExportFileType`](../../api/modules.md#iexportimagetype) ): [`ILeaferImage`](../../api/interfaces/ILeaferImage.md)
 
 自定义图片资源的 `key`，建议采用 leafer://协议 + 类型后缀名，方便识别导出资源。
 
@@ -30,7 +30,7 @@
 
 ### set ( key: `string`, value: `any` )
 
-设置资源的 `key`, 图像类型必须为 [`ILeaferImage`](/api/interfaces/ILeaferImage.md)。
+设置资源的 `key`, 图像类型必须为 [`ILeaferImage`](../../api/interfaces/ILeaferImage.md)。
 
 ### get ( key: `string` ): `any`
 
@@ -64,7 +64,7 @@
 
 ### 添加一个自定义异步任务
 
-[export()](/reference/UI/export.md) 导出图片时，会等待此任务执行完再导出.
+[export()](../UI/export.md) 导出图片时，会等待此任务执行完再导出.
 
 <<< @/code/resource/task.ts
 

@@ -8,7 +8,7 @@
 
 元素的宽度，仅部分元素支持直接设置。
 
-不支持直接设置的元素、Group 可通过 [resizeWidth()](/reference/UI/resize.md) 调整，通过 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata) 获取实际宽度 。
+不支持直接设置的元素、Group 可通过 [resizeWidth()](./resize.md) 调整，通过 [boxBounds](./bounds.md#boxbounds-iboundsdata) 获取实际宽度 。
 
 :::tip
 当宽度为负数时，为让程序继续运行，将重置为正数，并使用 -scaleX 镜像代替，开发环境中会发出一个警告。
@@ -18,7 +18,7 @@
 
 元素的高度，仅部分元素支持直接设置。
 
-不支持直接设置的元素、Group 可通过 [resizeHeight()](/reference/UI/resize.md) 调整，通过 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata) 获取实际高度。
+不支持直接设置的元素、Group 可通过 [resizeHeight()](./resize.md) 调整，通过 [boxBounds](./bounds.md#boxbounds-iboundsdata) 获取实际高度。
 
 :::tip
 当高度为负数时，为让程序继续运行，将重置为正数，并使用 -scaleY 镜像代替，开发环境中会发出一个警告。
@@ -36,7 +36,7 @@
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

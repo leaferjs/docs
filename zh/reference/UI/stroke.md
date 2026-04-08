@@ -14,18 +14,18 @@ import Case from '/component/Case.vue'
 
 描边。
 
-支持 [纯色](/reference/UI/paint/solid.md)、 [线性渐变](/reference/UI/paint/linear.md)、[径向渐变](/reference/UI/paint/radial.md)、[角度渐变](/reference/UI/paint/angular.md)、[图案](/reference/UI/paint/image.md) 等类型， 支持多个描边同时叠加。
+支持 [纯色](./paint/solid.md)、 [线性渐变](./paint/linear.md)、[径向渐变](./paint/radial.md)、[角度渐变](./paint/angular.md)、[图案](./paint/image.md) 等类型， 支持多个描边同时叠加。
 
 :::danger 描边方式
 
-[UI](/reference/display/UI.md) 和闭合类图形 默认为 内描边，[Path](../display/Path.md) / [Line](../display/Line.md) 默认为 居中描边, [Text](../display/Text.md) 默认为 外描边。
+[UI](../display/UI.md) 和闭合类图形 默认为 内描边，[Path](../display/Path.md) / [Line](../display/Line.md) 默认为 居中描边, [Text](../display/Text.md) 默认为 外描边。
 :::
 
 ## 描边样式属性
 
 ### strokeAlign?: `StrokeAlign`
 
-描边的对齐方式，[UI](/reference/display/UI.md) 和闭合类图形 默认为 inside，[Path](../display/Path.md) / [Line](../display/Line.md) 默认为 center, [Text](../display/Text.md) 默认为 outside。
+描边的对齐方式，[UI](../display/UI.md) 和闭合类图形 默认为 inside，[Path](../display/Path.md) / [Line](../display/Line.md) 默认为 center, [Text](../display/Text.md) 默认为 outside。
 
 ```tsx
 type StrokeAlign = 'inside' | 'center' | 'outside' //  内部  |  居中 ｜ 外部
@@ -47,7 +47,7 @@ type StrokeAlign = 'inside' | 'center' | 'outside' //  内部  |  居中 ｜ 外
 
 设置 0～1 之间的小数时，表示在画面缩小到这个缩放值的时候，线宽才开始变小。
 
-在此场景下，建议 strokeAlign 使用高性能的居中描边， 另 [hitFill](/reference/UI/hit.md#hitfill-ihittype) 为 all 可节省填充操作。
+在此场景下，建议 strokeAlign 使用高性能的居中描边， 另 [hitFill](./hit.md#hitfill-ihittype) 为 all 可节省填充操作。
 
 ### strokeCap?: `StrokeCap`
 
@@ -79,11 +79,11 @@ rect.dashPattern = [20, 10] // [线段，间隙]
 
 ## 子描边属性
 
-当为元素设置多个描边时，可设置子描边样式 `style` ，用于覆盖 [主描边样式](/reference/UI/stroke.md#描边样式属性)。
+当为元素设置多个描边时，可设置子描边样式 `style` ，用于覆盖 [主描边样式](./stroke.md#描边样式属性)。
 
 可形成蚂蚁线、模拟内中外三层描边等各种效果。
 
-[纯色](/reference/UI/paint/solid.md#子描边属性)、 [线性渐变](/reference/UI/paint/linear.md#子描边属性)、[径向渐变](/reference/UI/paint/radial.md#子描边属性)、[角度渐变](/reference/UI/paint/angular.md#子描边属性)、[图案](/reference/UI/paint/image.md#子描边属性) 等类型均支持子描边样式。
+[纯色](./paint/solid.md#子描边属性)、 [线性渐变](./paint/linear.md#子描边属性)、[径向渐变](./paint/radial.md#子描边属性)、[角度渐变](./paint/angular.md#子描边属性)、[图案](./paint/image.md#子描边属性) 等类型均支持子描边样式。
 
 ```ts
 interface IStrokeStyle {
@@ -111,7 +111,7 @@ rect.stroke = [
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 
@@ -150,7 +150,7 @@ rect.stroke = [
 
 ### 多个描边叠加
 
-描边的 opacity 暂时仅针对 [颜色对象](/reference/interface/ui/Color.md#rgb) 和图片有效。
+描边的 opacity 暂时仅针对 [颜色对象](../interface/ui/Color.md#rgb) 和图片有效。
 
 ::: code-group
 <<< @/code/property/stroke/mutil/a.ts [Leafer]

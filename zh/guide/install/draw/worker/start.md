@@ -1,10 +1,10 @@
 # @leafer-draw/worker
 
-相对 [@leafer-ui/worker](/guide/install/ui/worker/start.md)，减少了 [App](/reference/display/App.md) 、事件交互等功能，适用于纯绘图场景。
+相对 [@leafer-ui/worker](../../ui/worker/start.md)，减少了 [App](../../../../reference/display/App.md) 、事件交互等功能，适用于纯绘图场景。
 
 ##
 
-### [web 版](/guide/install/draw/start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/draw/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/draw/miniapp/start.md)
+### [web 版](../start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](../node/start.md) &nbsp; &nbsp; [小程序版](../miniapp/start.md)
 
 ##
 
@@ -54,8 +54,8 @@ importScripts('https://unpkg.com/@leafer-draw/worker@2.0.8/dist/worker.js')
 
 ## 更新
 
-了解如何 [快速更新版本](/guide/update.md)。
+了解如何 [快速更新版本](../../../update.md)。
 
 ## 使用
 
-使用方式、全局变量和 [@leafer-ui/worker](/guide/install/ui/worker/start.md)一致, 只需改下包名，即可运行官网示例代码。
+使用方式、全局变量和 [@leafer-ui/worker](../../ui/worker/start.md)一致, 只需改下包名，即可运行官网示例代码。

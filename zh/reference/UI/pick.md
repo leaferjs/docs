@@ -26,7 +26,7 @@ interface IPickResult {
 
 ## 归属
 
-### [Group](/reference/display/Group.md)
+### [Group](../display/Group.md)
 
 ## 示例
 

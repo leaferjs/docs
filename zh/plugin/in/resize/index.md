@@ -44,4 +44,4 @@ bun add @leafer-in/resize
 
 ## 下一步
 
-### [resize 元素 / 容器](/reference/UI/resize.md)
+### [resize 元素 / 容器](../../../reference/UI/resize.md)

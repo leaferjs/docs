@@ -2,7 +2,7 @@
 
 我们提供了一种非常自由的插件开发方式，并支持跨平台 - [访问 GitHub 插件中心](https://github.com/leaferjs/leafer-x)。
 
-可以通过 [create-leafer 命令行工具](/create/leafer.md#快速创建-leaferx-插件模板) 快速创建插件。
+可以通过 [create-leafer 命令行工具](../create/leafer.md#快速创建-leaferx-插件模板) 快速创建插件。
 
 ##
 
@@ -32,7 +32,7 @@ LeaferX.selector # 全局变量
 
 为了帮助大家快速上手， 我们已经准备好了插件开发模版，涵盖了运行、测试、打包的功能。
 
-并提供了 [create-leafer 命令行工具](/create/leafer.md#快速创建-leaferx-插件模板)，用于快速创建插件，省去手动替换内容。
+并提供了 [create-leafer 命令行工具](../create/leafer.md#快速创建-leaferx-插件模板)，用于快速创建插件，省去手动替换内容。
 
 ## 插件开发模版
 
@@ -133,4 +133,4 @@ const selector = new Selector()
 
 ## 插件示例
 
-### [图形编辑器插件](/plugin/in/editor/index.md)
+### [图形编辑器插件](./in/editor/index.md)

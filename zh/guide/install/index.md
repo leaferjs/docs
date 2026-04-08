@@ -20,4 +20,4 @@
 
 也可直接安装 [leafer](https://leaferjs.com/ui/guide/install/leafer/start.md) 全量包, 会自动安装 `leafer-ui` 包和 `@leafer-in/*` 所有插件包。
 
-可通过 [import 子包](/guide/install/leafer/start.md#import-子包) 缩小打包体积，让官方示例代码可直接复制使用，需了解 [注意事项](/guide/install/leafer/start.md#import-子包)！
+可通过 [import 子包](./leafer/start.md#import-子包) 缩小打包体积，让官方示例代码可直接复制使用，需了解 [注意事项](./leafer/start.md#import-子包)！

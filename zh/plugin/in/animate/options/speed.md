@@ -14,7 +14,7 @@ import Case from '/component/Case.vue'
 
 ## 归属
 
-### [Animate 类](/plugin/in/animate/index.md)
+### [Animate 类](../index.md)
 
 ## 示例
 

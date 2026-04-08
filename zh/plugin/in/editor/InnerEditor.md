@@ -2,25 +2,25 @@
 
 内部编辑器。
 
-一般用来编辑文本、路径等内部细节，通过双击元素打开，了解 [自定义内部编辑器](/plugin/in/editor/editInner/register.md)。
+一般用来编辑文本、路径等内部细节，通过双击元素打开，了解 [自定义内部编辑器](./editInner/register.md)。
 
 ## 关键属性
 
-### editTarget: [`UI`](/reference/display/UI.md)
+### editTarget: [`UI`](../../../reference/display/UI.md)
 
 当前编辑的目标元素。
 
-### view: [`IGroup`](/reference/display/Group.md)
+### view: [`IGroup`](../../../reference/display/Group.md)
 
 内部编辑器的视图容器。
 
-### editConfig: [`IEditorConfig`](/plugin/in/editor/config/base.md)
+### editConfig: [`IEditorConfig`](./config/base.md)
 
 内部编辑器的临时独立编辑配置（会覆盖主编辑配置），只在打开内部编辑器期间有效，关闭后还原。
 
 ### eventIds?: `IEventListenerId`[]
 
-监听事件的 id 列表（可选），支持自动销毁，通过 [on\_()](/reference/UI/on.md#on-1) 监听可返回 事件 id， 并可绑定 this。
+监听事件的 id 列表（可选），支持自动销毁，通过 [on\_()](../../../reference/UI/on.md#on-1) 监听可返回 事件 id， 并可绑定 this。
 
 ## 只读属性
 
@@ -28,11 +28,11 @@
 
 内部编辑器的唯一标签名。
 
-### editor: [`Editor`](/plugin/in/editor/index.md)
+### editor: [`Editor`](./index.md)
 
 编辑器。
 
-### editBox: [`EditBox`](/plugin/in/editor/EditBox.md)
+### editBox: [`EditBox`](./EditBox.md)
 
 编辑框。
 
@@ -70,8 +70,8 @@
 
 ## 自定义
 
-### [自定义内部编辑器](/plugin/in/editor/editInner/register.md)
+### [自定义内部编辑器](./editInner/register.md)
 
 <!-- ## API
 
-### [InnerEditor](/api/classes/InnerEditor.md) -->
+### [InnerEditor](../../../api/classes/InnerEditor.md) -->

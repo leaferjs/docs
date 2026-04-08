@@ -45,4 +45,4 @@
 
 ## 下一步
 
-### [使用编辑工具](/plugin/in/editor/editOuter/use.md)
+### [使用编辑工具](./use.md)

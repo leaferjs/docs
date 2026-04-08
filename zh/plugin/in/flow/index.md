@@ -9,18 +9,18 @@ import Case from '/component/Case.vue'
 <case name="Flow" count=6 height=160 editor=false></case>
 
 ::: tip 继承
-Flow &nbsp;>&nbsp; [Box](/reference/display/Box.md) &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+Flow &nbsp;>&nbsp; [Box](../../../reference/display/Box.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 <br/>
 
-[Box](/reference/display/Box.md) / [Frame](/reference/display/Frame.md) 元素也支持自动布局属性（ 需引入此插件）。
+[Box](../../../reference/display/Box.md) / [Frame](../../../reference/display/Frame.md) 元素也支持自动布局属性（ 需引入此插件）。
 
-暂时未适配 [图形编辑](/plugin/in/editor/index.md) 功能，自动布局的元素频繁变化时，对性能的消耗会比较大，后期会优化～
+暂时未适配 [图形编辑](../editor/index.md) 功能，自动布局的元素频繁变化时，对性能的消耗会比较大，后期会优化～
 :::
 
 ## 安装插件
 
-需要安装 flow 插件、[resize 插件](/plugin/in/resize/index.md) 才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/flow)。
+需要安装 flow 插件、[resize 插件](../resize/index.md) 才能使用，[点此访问 Github 仓库](https://github.com/leaferjs/leafer-in/tree/main/packages/flow)。
 
 ::: code-group
 
@@ -74,27 +74,27 @@ bun add @leafer-in/resize
 
 | 名称                                           | 描述                                                                          |
 | ---------------------------------------------- | ----------------------------------------------------------------------------- |
-| [flow](/plugin/in/flow/Flow/flow.md)           | 布局方向：是否进行自动布局，可进一步指定布局的轴方向 x 或 y ，默认为 x 轴     |
-| [flowWrap](/plugin/in/flow/Flow/flowWrap.md)   | 自动换行：是否自动换行， 默认不换行                                           |
-| [flowAlign](/plugin/in/flow/Flow/flowAlign.md) | 对齐：对齐子元素的方式， 默认为 top-left                                      |
-| [gap](/plugin/in/flow/Flow/gap.md)             | 间距：子元素之间的间距， 默认为 0                                             |
-| [padding](/plugin/in/flow/Flow/padding.md)     | 内边距：容器的内边距, 默认为 0                                                |
-| [itemBox](/plugin/in/flow/Flow/itemBox.md)     | 盒类型：采用子元素的哪个 [盒类型](/guide/advanced/bounds.md) 来布局, 默认 box |
+| [flow](./Flow/flow.md)           | 布局方向：是否进行自动布局，可进一步指定布局的轴方向 x 或 y ，默认为 x 轴     |
+| [flowWrap](./Flow/flowWrap.md)   | 自动换行：是否自动换行， 默认不换行                                           |
+| [flowAlign](./Flow/flowAlign.md) | 对齐：对齐子元素的方式， 默认为 top-left                                      |
+| [gap](./Flow/gap.md)             | 间距：子元素之间的间距， 默认为 0                                             |
+| [padding](./Flow/padding.md)     | 内边距：容器的内边距, 默认为 0                                                |
+| [itemBox](./Flow/itemBox.md)     | 盒类型：采用子元素的哪个 [盒类型](../../../guide/advanced/bounds.md) 来布局, 默认 box |
 
 ## Flow 内的子元素布局属性
 
 | 名称                                               | 描述                                                                      |
 | -------------------------------------------------- | ------------------------------------------------------------------------- |
-| [inFlow](/plugin/in/flow/Flow/inFlow.md)           | 加入布局：元素是否加入自动布局, 默认会加入（父元素为自动布局的情况下）    |
-| [autoWidth](/plugin/in/flow/Flow/autoWidth.md)     | 自动宽度：分配剩余宽度给此元素（忽略 width），类似 Flex 的 grow / shrink  |
-| [autoHeight](/plugin/in/flow/Flow/autoHeight.md)   | 自动高度：分配剩余高度给此元素（忽略 height），类似 Flex 的 grow / shrink |
-| [widthRange](/plugin/in/flow/Flow/widthRange.md)   | 限制宽度：限制 autoWidth 影响的宽度范围                                   |
-| [heightRange](/plugin/in/flow/Flow/heightRange.md) | 限制高度：限制 autoHeight 影响的高度范围                                  |
-| [lockRatio](/plugin/in/flow/Flow/lockRatio.md)     | 锁定比例：采用自动宽高时，是否锁定原始宽高比例                            |
+| [inFlow](./Flow/inFlow.md)           | 加入布局：元素是否加入自动布局, 默认会加入（父元素为自动布局的情况下）    |
+| [autoWidth](./Flow/autoWidth.md)     | 自动宽度：分配剩余宽度给此元素（忽略 width），类似 Flex 的 grow / shrink  |
+| [autoHeight](./Flow/autoHeight.md)   | 自动高度：分配剩余高度给此元素（忽略 height），类似 Flex 的 grow / shrink |
+| [widthRange](./Flow/widthRange.md)   | 限制宽度：限制 autoWidth 影响的宽度范围                                   |
+| [heightRange](./Flow/heightRange.md) | 限制高度：限制 autoHeight 影响的高度范围                                  |
+| [lockRatio](./Flow/lockRatio.md)     | 锁定比例：采用自动宽高时，是否锁定原始宽高比例                            |
 
 <!-- ## 继承元素
 
-### [Box](/reference/display/Box.md) -->
+### [Box](../../../reference/display/Box.md) -->
 
 ## 示例
 

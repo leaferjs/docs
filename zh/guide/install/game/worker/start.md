@@ -1,10 +1,10 @@
 # @leafer-game/worker
 
-在 [@leafer-ui/worker](/guide/install/ui/worker/start.md) 基础上，引入了 [Robot](/plugin/in/robot/index.md) 、[交互状态](/plugin/in/state/index.md) 、 [动画](/plugin/in/animate/index.md)、[运动路径](/plugin/in/motion-path/index.md)、[查找元素](/plugin/in/find/index.md) 插件，适用于小游戏场景。
+在 [@leafer-ui/worker](../../ui/worker/start.md) 基础上，引入了 [Robot](../../../../plugin/in/robot/index.md) 、[交互状态](../../../../plugin/in/state/index.md) 、 [动画](../../../../plugin/in/animate/index.md)、[运动路径](../../../../plugin/in/motion-path/index.md)、[查找元素](../../../../plugin/in/find/index.md) 插件，适用于小游戏场景。
 
 ##
 
-### [web 版](/guide/install/game/start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](/guide/install/game/node/start.md) &nbsp; &nbsp; [小程序版](/guide/install/game/miniapp/start.md)
+### [web 版](../start.md) &nbsp; &nbsp; worker 版 &nbsp; &nbsp; [node 版](../node/start.md) &nbsp; &nbsp; [小程序版](../miniapp/start.md)
 
 ##
 
@@ -54,8 +54,8 @@ importScripts('https://unpkg.com/@leafer-game/worker@2.0.8/dist/worker.js')
 
 ## 更新
 
-了解如何 [快速更新版本](/guide/update.md)。
+了解如何 [快速更新版本](../../../update.md)。
 
 ## 使用
 
-使用方式、全局变量和 [@leafer-ui/worker](/guide/install/ui/worker/start.md)一致, 只需改下包名，即可运行官网示例代码。
+使用方式、全局变量和 [@leafer-ui/worker](../../ui/worker/start.md)一致, 只需改下包名，即可运行官网示例代码。

@@ -20,13 +20,13 @@ Text &nbsp;>&nbsp; [UI](./UI.md)
 
 文本框宽度，不设置或设为`undefined`时为自动宽度。
 
-可通过 [isAutoWidth](/reference/UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
+可通过 [isAutoWidth](../UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
 
 ### height?: `number`
 
 文本框高度，不设置或设为`undefined`时为自动高度。
 
-可通过 [isAutoHeight](/reference/UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
+可通过 [isAutoHeight](../UI/size.md#isautowidth-boolean) 属性判断是否为自动宽度。
 
 ### text: `string` | `number`
 
@@ -230,9 +230,9 @@ padding: 20 // all
 
 ## 背景框
 
-### boxStyle: [`IBackgroundBoxStyle`](/reference/display/Rect.md)
+### boxStyle: [`IBackgroundBoxStyle`](./Rect.md)
 
-文字的背景框样式对象，支持 [Rect](/reference/display/Rect.md) 元素的大部分外观样式。
+文字的背景框样式对象，支持 [Rect](./Rect.md) 元素的大部分外观样式。
 
 ```ts
 boxStyle: {
@@ -268,7 +268,7 @@ boxStyle: {
 
 ### isOverflow: `boolean`
 
-文本是否溢出了 [boxBounds](/reference/UI/bounds.md#boxbounds-iboundsdata)，文字布局完成后此属性才有值。
+文本是否溢出了 [boxBounds](../UI/bounds.md#boxbounds-iboundsdata)，文字布局完成后此属性才有值。
 
 ## 获取 content 包围盒
 
@@ -285,7 +285,7 @@ const { x, y, width, height } = text.getBounds('content', 'inner')
 
 <!-- ## API
 
-### [Text](/api/classes/Text.md) -->
+### [Text](../../api/classes/Text.md) -->
 
 ## 示例
 
@@ -329,7 +329,7 @@ const { x, y, width, height } = text.getBounds('content', 'inner')
 
 ### 文本 count 动画
 
-text 属性传入数字，可支持 count [动画](/guide/plugin/animate.md)，示例中的文本将从 0 到 100 动态变化。
+text 属性传入数字，可支持 count [动画](../../guide/plugin/animate.md)，示例中的文本将从 0 到 100 动态变化。
 
 <<< @/code/property/animation/count.ts
 

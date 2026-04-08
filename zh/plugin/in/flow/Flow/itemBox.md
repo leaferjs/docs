@@ -10,11 +10,11 @@ import Case from '/component/Case.vue'
 
 ### itemBox: `'box'` | `'stroke'`
 
-采用子元素的哪个 [盒类型](/guide/advanced/bounds.md) 来布局, 默认 box。
+采用子元素的哪个 [盒类型](../../../../guide/advanced/bounds.md) 来布局, 默认 box。
 
 ## 归属
 
-### [Flow 元素](/plugin/in/flow/index.md)
+### [Flow 元素](../index.md)
 
 ## 示例
 

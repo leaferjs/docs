@@ -2,7 +2,7 @@
 
 ## 关键方法
 
-### off ( type?: `string` | `string`[], listener?: `IEventListener`, options?:[`IEventListenerOptions`](/api/interfaces/IEventListenerOptions.md) | `boolean` )
+### off ( type?: `string` | `string`[], listener?: `IEventListener`, options?:[`IEventListenerOptions`](../../api/interfaces/IEventListenerOptions.md) | `boolean` )
 
 移除事件。
 
@@ -10,13 +10,13 @@
 
 ## 新方法
 
-### off\_ ( id: [`IEventListenerId`](/api/interfaces/IEventListenerId.md) | [`IEventListenerId`](/api/interfaces/IEventListenerId.md)[] ):
+### off\_ ( id: [`IEventListenerId`](../../api/interfaces/IEventListenerId.md) | [`IEventListenerId`](../../api/interfaces/IEventListenerId.md)[] ):
 
 移除事件， 与 [on\_()](./on.md#on_) 配套使用。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

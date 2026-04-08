@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Image 元素
 
-图片对象，支持使用 svg 格式的图片，另外所有图形都支持通过 [图案填充](/reference/UI/paint/image.md) 来显示图片。
+图片对象，支持使用 svg 格式的图片，另外所有图形都支持通过 [图案填充](../UI/paint/image.md) 来显示图片。
 
 <case name="ImageFill" editor=false></case>
 
@@ -15,7 +15,7 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 <br/>
 
-注意：[script 标签引入](/guide/install/ui/start.md#通过-script-标签引入) 需用别名 **MyImage** 代替。
+注意：[script 标签引入](../../guide/install/ui/start.md#通过-script-标签引入) 需用别名 **MyImage** 代替。
 :::
 
 ## 关键属性
@@ -32,15 +32,15 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 图片 url 地址，支持 Blob url、Data url(Base64)。
 
-我们还提供了 [资源库](/reference/resource/Resource.md)，支持原始图片对象、画布对象转 url， 及预加载图片。
+我们还提供了 [资源库](../resource/Resource.md)，支持原始图片对象、画布对象转 url， 及预加载图片。
 
 ::: tip 注意事项
-[Image](./Image.md) 设置 url 后，不支持同时设置 [fill](/reference/UI/fill.md) 属性（url 会覆盖 [fill](/reference/UI/fill.md) ），单独设置 [fill](/reference/UI/fill.md) 代替 url 是可以的。
+[Image](./Image.md) 设置 url 后，不支持同时设置 [fill](../UI/fill.md) 属性（url 会覆盖 [fill](../UI/fill.md) ），单独设置 [fill](../UI/fill.md) 代替 url 是可以的。
 :::
 
 ## 辅助属性
 
-带 [图案填充](/reference/UI/paint/image.md) 的元素自身也支持这些辅助属性（属性需要设置在元素上）。
+带 [图案填充](../UI/paint/image.md) 的元素自身也支持这些辅助属性（属性需要设置在元素上）。
 
 ### pixelRatio: `number`
 
@@ -62,7 +62,7 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 图片是否已经加载完成。
 
-### image?: [`ILeaferImage`](/api/interfaces/ILeaferImage.md)
+### image?: [`ILeaferImage`](../../api/interfaces/ILeaferImage.md)
 
 原始图片封装对象, 图片加载完成才存在。
 
@@ -90,7 +90,7 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ## 资源库
 
-我们还提供了 [资源库](/reference/resource/Resource.md)，可预加载图片，原始图片对象、画布对象可转为 url。
+我们还提供了 [资源库](../resource/Resource.md)，可预加载图片，原始图片对象、画布对象可转为 url。
 
 引擎中的所有图片都会通过 资源库 有序并行加载，当图片不再使用时，会进入回收列表，到达阈值会自动销毁。
 
@@ -98,11 +98,11 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ## 图片事件
 
-### [ImageEvent](/reference/event/basic/Image.md)
+### [ImageEvent](../event/basic/Image.md)
 
 ## box 元素
 
-### [ImageBox](/plugin/in/box/ImageBox.md)
+### [ImageBox](../../plugin/in/box/ImageBox.md)
 
 <!-- ## 继承元素
 
@@ -110,7 +110,7 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 <!-- ## API
 
-### [Image](/api/classes/Image.md) -->
+### [Image](../../api/classes/Image.md) -->
 
 ## 示例
 

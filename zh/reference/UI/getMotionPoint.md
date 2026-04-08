@@ -2,15 +2,15 @@
 
 运动路径上指定位置的 坐标点。
 
-可结合 [motionPath](/reference/UI/motionPath.md)、[motion](/reference/UI/motion.md)、 [getMotionTotal()](/reference/UI/getMotionTotal.md)。
+可结合 [motionPath](./motionPath.md)、[motion](./motion.md)、 [getMotionTotal()](./getMotionTotal.md)。
 
 ::: tip 注意事项
-需安装 [运动路径插件](/plugin/in/motion-path/index.md) 才能使用。
+需安装 [运动路径插件](../../plugin/in/motion-path/index.md) 才能使用。
 :::
 
 ## 关键方法
 
-### getMotionPoint ( ): [`IRotationPointData`](/api/interfaces/IRotationPointData.md)
+### getMotionPoint ( ): [`IRotationPointData`](../../api/interfaces/IRotationPointData.md)
 
 获取运动路径上指定位置的 坐标点, 返回一个包含 rotation 的 坐标点, 如下：
 
@@ -26,7 +26,7 @@ interface IRotationPointData {
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

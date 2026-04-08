@@ -8,26 +8,26 @@ import Case from '/component/Case.vue'
 
 与 CSS 略有不同，只能用于元素的状态过渡，如 state、hoverStyle、pressStyle ...
 
-另外元素的 [move()](/reference/UI/position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)、 [ set()](/reference/UI/data.md#set-data-iuiinputdata-transition-itranstion) 等方法支持添加动画过渡参数，文本支持 [count 动画](/reference/display/Text.md#文本-count-动画)、[打字机动画](/reference/display/Text.md#打字机动画)。
+另外元素的 [move()](./position.md#move-addx-number-ipointdata-addy-0-transition-itranstion)、 [ set()](./data.md#set-data-iuiinputdata-transition-itranstion) 等方法支持添加动画过渡参数，文本支持 [count 动画](../display/Text.md#文本-count-动画)、[打字机动画](../display/Text.md#打字机动画)。
 
 ::: tip 注意事项
-需安装 [动画插件](/plugin/in/animate/index.md) 才能使用，或直接安装 [leafer-game](/guide/install/game/start.md)（已集成动画插件）。
+需安装 [动画插件](../../plugin/in/animate/index.md) 才能使用，或直接安装 [leafer-game](../../guide/install/game/start.md)（已集成动画插件）。
 :::
 
 <case name="AnimateColor" editor=false></case>
 
 ## 关键属性
 
-### transition： [`ITranstion`](/api/modules.md#itransition)
+### transition： [`ITranstion`](../../api/modules.md#itransition)
 
-状态过渡 / 进入状态过渡， 默认为 true。详细了解 [动画选项](/plugin/in/animate/index.md#动画选项属性) 。
+状态过渡 / 进入状态过渡， 默认为 true。详细了解 [动画选项](../../plugin/in/animate/index.md#动画选项属性) 。
 
 ```ts
 // 过渡选项，  number 表示duration， string 表示 easing， object 表示动画选项对象，
 type ITransition = boolean | number | IAnimateEasingName | IAnimateOptions
 ```
 
-深入了解 [动画选项属性](/plugin/in/animate/index.md#动画选项属性)。
+深入了解 [动画选项属性](../../plugin/in/animate/index.md#动画选项属性)。
 
 ```ts
 // 动画选项
@@ -54,13 +54,13 @@ interface IAnimateOptions {
 }
 ```
 
-### transitionOut： [`ITranstion`](/api/modules.md#itransition)
+### transitionOut： [`ITranstion`](../../api/modules.md#itransition)
 
 退出状态时的过渡效果，未设置时使用 transition。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

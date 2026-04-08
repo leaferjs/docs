@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # LinearGradient 对象
 
-线性渐变对象, 可设置给 [fill](/reference/UI/fill.md) 或 [stroke](/reference/UI/stroke.md) 属性。
+线性渐变对象, 可设置给 [fill](../fill.md) 或 [stroke](../stroke.md) 属性。
 
 <case name="Linear"  editor=false></case>
 
@@ -14,7 +14,7 @@ import Case from '/component/Case.vue'
 
 填充类型为 `linear`。
 
-### from?: [`IAlign`](/api/modules.md#ialign) | [`IUnitPointData`](/api/interfaces/IUnitPointData.md)
+### from?: [`IAlign`](../../../api/modules.md#ialign) | [`IUnitPointData`](../../../api/interfaces/IUnitPointData.md)
 
 渐变的起始控制点, 相对元素的实际内容定位， 默认为 top。
 
@@ -58,11 +58,11 @@ from: {
 }
 ```
 
-### to?: [`IAlign`](/api/modules.md#ialign) | [`IUnitPointData`](/api/interfaces/IUnitPointData.md)
+### to?: [`IAlign`](../../../api/modules.md#ialign) | [`IUnitPointData`](../../../api/interfaces/IUnitPointData.md)
 
 渐变的末端控制点, 相对元素的实际内容定位， 默认为 bottom。
 
-### stops: [`ColorStop`](/reference/interface/ui/Color.md#colorstop)[] ｜ [`StringColor`](/reference/interface/ui/Color.md#stringcolor)[]
+### stops: [`ColorStop`](../../interface/ui/Color.md#colorstop)[] ｜ [`StringColor`](../../interface/ui/Color.md#stringcolor)[]
 
 渐变色标数组。
 
@@ -70,7 +70,7 @@ from: {
 
 ## 基础属性
 
-### blendMode?: [`BlendMode`](/reference/UI/blendMode.md)
+### blendMode?: [`BlendMode`](../blendMode.md)
 
 混合模式，默认为 normal。
 
@@ -80,19 +80,19 @@ from: {
 
 ### opacity?: `number`
 
-不透明度，默认为 1，渐变色标中 color 为非 [颜色对象](/reference/interface/ui/Color.md#rgb) 时需安装 [color 插件](/plugin/in/color/) 才能生效。
+不透明度，默认为 1，渐变色标中 color 为非 [颜色对象](../../interface/ui/Color.md#rgb) 时需安装 [color 插件](/plugin/in/color/) 才能生效。
 
 ## 子描边属性
 
-### style?: [`IStrokeStyle`](/api/interfaces/IStrokeStyle.md)
+### style?: [`IStrokeStyle`](../../../api/interfaces/IStrokeStyle.md)
 
-当为元素设置多个描边时，可设置子描边样式 `style` ，用于覆盖 [主描边样式](/reference/UI/stroke.md#描边样式属性)。
+当为元素设置多个描边时，可设置子描边样式 `style` ，用于覆盖 [主描边样式](../stroke.md#描边样式属性)。
 
-可形成蚂蚁线、模拟内中外三层描边等各种效果，[了解具体设置](/reference/UI/stroke.md#子描边属性)。
+可形成蚂蚁线、模拟内中外三层描边等各种效果，[了解具体设置](../stroke.md#子描边属性)。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../../display/UI.md)
 
 ## 示例
 
@@ -124,7 +124,7 @@ from: {
 
 一般用于多个填充做叠加效果。
 
-color 为 [颜色对象](/reference/interface/ui/Color.md#rgb) 时 opacity 直接生效， 为非 [颜色对象](/reference/interface/ui/Color.md#rgb) 时需安装 [color 插件](/plugin/in/color/) 才能生效， 或直接使用 `rgba(255,75,75,0,5)` 字符串颜色。
+color 为 [颜色对象](../../interface/ui/Color.md#rgb) 时 opacity 直接生效， 为非 [颜色对象](../../interface/ui/Color.md#rgb) 时需安装 [color 插件](/plugin/in/color/) 才能生效， 或直接使用 `rgba(255,75,75,0,5)` 字符串颜色。
 
 ::: code-group
 <<< @/code/property/fill/linear/opacity.ts [Leafer]

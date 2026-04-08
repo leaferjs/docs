@@ -1,10 +1,10 @@
 # @leafer/miniapp
 
-全量包，包含 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md) 和 `@leafer-in/*` 所有插件包（[文本编辑](/plugin/in/text-editor/index.md)、[HTML](/plugin/in/html/index.md)插件除外）。
+全量包，包含 [@leafer-ui/miniapp](../../ui/miniapp/start.md) 和 `@leafer-in/*` 所有插件包（[文本编辑](../../../../plugin/in/text-editor/index.md)、[HTML](../../../../plugin/in/html/index.md)插件除外）。
 
 ##
 
-### [web 版](/guide/install/leafer/start.md) &nbsp; &nbsp; [worker 版](/guide/install/leafer/worker/start.md) &nbsp; &nbsp; [node 版](/guide/install/leafer/node/start.md) &nbsp; &nbsp; 小程序版
+### [web 版](../start.md) &nbsp; &nbsp; [worker 版](../worker/start.md) &nbsp; &nbsp; [node 版](../node/start.md) &nbsp; &nbsp; 小程序版
 
 ##
 
@@ -34,7 +34,7 @@ bun add @leafer/miniapp
 
 ## 更新
 
-了解如何 [快速更新版本](/guide/update.md)。
+了解如何 [快速更新版本](../../../update.md)。
 
 ## 下载 CDN 版本
 
@@ -120,4 +120,4 @@ page {
 
 ## 使用
 
-使用方式、全局变量和 [@leafer-ui/miniapp](/guide/install/ui/miniapp/start.md) 一致, 只需改下包名，即可运行官网示例代码。
+使用方式、全局变量和 [@leafer-ui/miniapp](../../ui/miniapp/start.md) 一致, 只需改下包名，即可运行官网示例代码。

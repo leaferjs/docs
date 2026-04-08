@@ -1,13 +1,13 @@
 # 应用与引擎配置
 
-### [基础](/reference/config/app/base.md) &nbsp; &nbsp; [视口类型](/reference/config/app/type.md) &nbsp; &nbsp; [画布](/reference/config/app/canvas.md) &nbsp; &nbsp; [点按](/reference/config/app/pointer.md) &nbsp; &nbsp; [多点](/reference/config/app/multiTouch.md) &nbsp; &nbsp; [触屏](/reference/config/app/touch.md) &nbsp; &nbsp; [滚轮](/reference/config/app/wheel.md) &nbsp; &nbsp; 平移视图 &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md)
+### [基础](./base.md) &nbsp; &nbsp; [视口类型](./type.md) &nbsp; &nbsp; [画布](./canvas.md) &nbsp; &nbsp; [点按](./pointer.md) &nbsp; &nbsp; [多点](./multiTouch.md) &nbsp; &nbsp; [触屏](./touch.md) &nbsp; &nbsp; [滚轮](./wheel.md) &nbsp; &nbsp; 平移视图 &nbsp; &nbsp; [缩放视图](./zoom.md)
 
 ##
 
-平移视图相关配置，引擎运行中修改 [app.config.move](/reference/display/Leafer.md#config-ileaferconfig) 立即生效。
+平移视图相关配置，引擎运行中修改 [app.config.move](../../display/Leafer.md#config-ileaferconfig) 立即生效。
 
 :::tip 注意事项
-[App 结构](/guide/advanced/app.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
+[App 结构](../../../guide/advanced/app.md) 下只能设置在 [App](../../display/App.md) 的 config 上。
 :::
 
 ## 关键属性
@@ -32,7 +32,7 @@
 
 设置 'y-limit'，表示只能纵向滚动，且限制在有内容的区域内滚动。
 
-## move.scrollSpread: [`IFourNumber`](/reference/interface/math/Math.md#ifournumber)
+## move.scrollSpread: [`IFourNumber`](../../interface/math/Math.md#ifournumber)
 
 限制滚动范围时，可扩展一点边界，可以分别设置 4 个方向的值，默认为 0。
 

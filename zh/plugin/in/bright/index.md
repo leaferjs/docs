@@ -44,6 +44,6 @@ bun add @leafer-in/bright
 
 ## 下一步
 
-### [bright](/reference/UI/bright.md)
+### [bright](../../../reference/UI/bright.md)
 
-### [dim](/reference/UI/dim.md)
+### [dim](../../../reference/UI/dim.md)

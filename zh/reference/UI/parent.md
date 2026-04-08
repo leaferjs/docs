@@ -4,7 +4,7 @@
 
 ## 只读属性
 
-### parent: [`Group`](/reference/display/Group.md)
+### parent: [`Group`](../display/Group.md)
 
 父元素。
 
@@ -12,13 +12,13 @@
 
 ### waitParent ( item: `function`, bind?: `object` )
 
-等待元素有 [`parent`](/reference/UI/parent.md) 属性时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
+等待元素有 [`parent`](./parent.md) 属性时执行 item 函数，可通过参数 `bind` 绑定 item 函数 的 this 对象。
 
 已存在则立即执行。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

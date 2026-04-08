@@ -3,14 +3,14 @@
 导出内容。
 
 ::: tip 注意事项
-需安装 [导出元素插件](/plugin/in/export/index.md) 才能使用，或直接安装 [leafer-editor](/guide/install/editor/start.md)、node 版（已集成导出元素插件）。
+需安装 [导出元素插件](../../plugin/in/export/index.md) 才能使用，或直接安装 [leafer-editor](../../guide/install/editor/start.md)、node 版（已集成导出元素插件）。
 :::
 
 ## 关键方法
 
 ### export ( )
 
-export( name: [`IExportFileType`](/api/modules.md#iexportimagetype) | `string`, options?: [`IExportOptions`](/api/interfaces/IExportOptions.md) | `number` | `boolean`): `Promise`<[`IExportResult`](/api/interfaces/IExportResult.md)>
+export( name: [`IExportFileType`](../../api/modules.md#iexportimagetype) | `string`, options?: [`IExportOptions`](../../api/interfaces/IExportOptions.md) | `number` | `boolean`): `Promise`<[`IExportResult`](../../api/interfaces/IExportResult.md)>
 
 异步导出方法，会等待视图内所有网络资源都加载完再进行导出图片。
 
@@ -21,9 +21,9 @@ name 为文件名时表示保存文件。
 options 为数字时表示图片质量， 为布尔时表示二进制数据 。
 
 :::tip 注意事项
-[Leafer](/reference/display/Leafer.md) 引擎默认导出为内容（非画布），想导出画布需要增加 `screenshot` 截图参数。
+[Leafer](../display/Leafer.md) 引擎默认导出为内容（非画布），想导出画布需要增加 `screenshot` 截图参数。
 
-<del>单独导出 [App](/reference/display/App.md) 实例，只能为画面截图。</del>
+<del>单独导出 [App](../display/App.md) 实例，只能为画面截图。</del>
 :::
 
 ```ts
@@ -110,13 +110,13 @@ interface IExportResult {
 
 ### syncExport ( )
 
-syncExport( name: [`IExportFileType`](/api/modules.md#iexportimagetype) | `string`, options?: [`IExportOptions`](/api/interfaces/IExportOptions.md) | `number`): [`IExportResult`](/api/interfaces/IExportResult.md)
+syncExport( name: [`IExportFileType`](../../api/modules.md#iexportimagetype) | `string`, options?: [`IExportOptions`](../../api/interfaces/IExportOptions.md) | `number`): [`IExportResult`](../../api/interfaces/IExportResult.md)
 
 同步导出方法，参数同 export() 方法一致, 仅支持图片已经加载成功的情况，不支持同步导出二进制数据。
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

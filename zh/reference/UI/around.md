@@ -10,11 +10,11 @@ import Case from '/component/Case.vue'
 
 图中将元素内部的 around 坐标点(中心位置) ， 移动到元素的 (x,y) 坐标对齐放置并旋转 30 度。
 
-与 [origin](/reference/UI/origin.md) 的区别： 多了一个步骤，会把元素内部的 around 点移动到元素的 (x,y) 坐标。
+与 [origin](./origin.md) 的区别： 多了一个步骤，会把元素内部的 around 点移动到元素的 (x,y) 坐标。
 
 ## 关键属性
 
-### around: [`IAlign`](/api/modules.md#ialign) | [`IUnitPointData`](/api/interfaces/IUnitPointData.md)
+### around: [`IAlign`](../../api/modules.md#ialign) | [`IUnitPointData`](../../api/interfaces/IUnitPointData.md)
 
 元素内部的 around 点，相对元素的实际内容定位，基础元素及 Group 均支持。
 
@@ -54,7 +54,7 @@ rect.around = {
 }
 ```
 
-**保持原位不动，切换元素的 around 点： [localTransform](/reference/UI/transform.md#localtransform-imatrixdata) 、[setTransform()](/reference/UI/transform.md#settransform-matrix-imatrixdata-resize-boolean-transition-itranstion)**
+**保持原位不动，切换元素的 around 点： [localTransform](./transform.md#localtransform-imatrixdata) 、[setTransform()](./transform.md#settransform-matrix-imatrixdata-resize-boolean-transition-itranstion)**
 
 ```ts
 // 多边形原始 around
@@ -70,7 +70,7 @@ polygon.setTransform(transform) // 重设 transform，会自动处理 around 的
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

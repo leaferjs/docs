@@ -29,7 +29,7 @@ interface ShadowEffect {
 
 ## 归属
 
-### [UI 元素](/reference/display/UI.md)
+### [UI 元素](../display/UI.md)
 
 ## 示例
 

@@ -2,11 +2,11 @@
 
 编辑器的倾斜事件，通过 `app.editor.on()` 监听。
 
-编辑器可通过配置 [beforeSkew](/plugin/in/editor/config/event.md#beforeskew-ieditorbeforeskew) 钩子改变倾斜数据。
+编辑器可通过配置 [beforeSkew](../config/event.md#beforeskew-ieditorbeforeskew) 钩子改变倾斜数据。
 
 ## 事件属性
 
-### worldOrigin: [`IPointData`](/api/interfaces/IPointData.md)
+### worldOrigin: [`IPointData`](../../../../api/interfaces/IPointData.md)
 
 围绕的中心点（世界坐标）。
 
@@ -18,7 +18,7 @@ X 轴倾斜值（增量）。
 
 Y 轴倾斜值（增量）。
 
-### transform?: [`IMatrixData`](/api/interfaces/IMatrixData.md)
+### transform?: [`IMatrixData`](../../../../api/interfaces/IMatrixData.md)
 
 变换属性（增量），当选择多个元素进行倾斜时，内部会通过 transform 操作元素进行变换。
 
@@ -42,11 +42,11 @@ before 倾斜元素事件。
 
 ## 继承事件
 
-### [Event](/reference/event/basic/Event.md)
+### [Event](../../../../reference/event/basic/Event.md)
 
 <!-- ## API
 
-### [EditorSkewEvent](/api/classes/EditorSkewEvent.md) -->
+### [EditorSkewEvent](../../../../api/classes/EditorSkewEvent.md) -->
 
 ## 示例
 

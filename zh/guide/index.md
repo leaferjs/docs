@@ -6,11 +6,11 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 提供了丰富的 UI 绘图元素，和开箱即用的功能，如自动布局、图形编辑、SVG 导出等，方便与 PS、 Figma、Sketch 等产品进行对接。并为跨平台开发提供了统一的交互事件，如拖拽、旋转、缩放手势等。
 
-📗 [图文并茂、由浅入深的了解 LeaferJS](/blog/2024-07-09.md)
+📗 [图文并茂、由浅入深的了解 LeaferJS](../blog/2024-07-09.md)
 
-📙 [全新动画、状态、过渡、游戏功能](/blog/2024-09-20.md)
+📙 [全新动画、状态、过渡、游戏功能](../blog/2024-09-20.md)
 
-<!-- 📘 [绝境中盛开，LeaferJS 的创业故事](/blog/2024-04-08.md) -->
+<!-- 📘 [绝境中盛开，LeaferJS 的创业故事](../blog/2024-04-08.md) -->
 
 如果你觉得不错，请帮我们点个 [Star](https://github.com/leaferjs/leafer-ui) 🌟 ，让这个库被更多的人看见 ✨ ✨ ✨
 
@@ -25,21 +25,21 @@ LeaferJS 是一款好用的 Canvas 引擎，革新的开发体验，可用于高
 
 ## 快速入门
 
-**[1. 准备在线 Playground 环境](/guide/runtime.md)**
+**[1. 准备在线 Playground 环境](./runtime.md)**
 
 <!-- 可通过 **Cloud Studio** 模版创建一个 **LeaferJS 项目**， -->
 
 用于运行、练习后续的示例代码。
 
-**[2. 学习 LeaferJS 快速入门教程](/guide/basic/leafer.md)**
+**[2. 学习 LeaferJS 快速入门教程](./basic/leafer.md)**
 
 跟随官网教程步骤（文档底部有下一步引导按钮）从浅到深的学习，动手调试每一段示例代码。
 
 ## 快速安装
 
-🚀 想马上在产品中使用，请安装 [leafer-ui](/guide/install/ui/start.md) （66KB min+gzip 零依赖），开始你的探索之旅。
+🚀 想马上在产品中使用，请安装 [leafer-ui](./install/ui/start.md) （66KB min+gzip 零依赖），开始你的探索之旅。
 
-也可直接安装 [leafer](/guide/install/leafer/start.md) 全量包, 会自动安装 `leafer-ui` 包和 `@leafer-in/*` 所有插件包。
+也可直接安装 [leafer](./install/leafer/start.md) 全量包, 会自动安装 `leafer-ui` 包和 `@leafer-in/*` 所有插件包。
 
 ## 社区提问指南
 
@@ -97,7 +97,7 @@ LeaferJS 试行 [4 天工作制](https://www.leaferjs.com/ui/blog/2025-02-06.htm
 
 ### 免责声明
 
-LeaferJS 采用 MIT 协议，免费开源，使用前请阅读 [免责声明](/guide/disclaimer.md)。我们欢迎社区用户相互帮助和贡献，我们没有义务解答、修复所有问题（会尽力参与），为了让 LeaferJS 变得更强大，我们的精力主要投入在产品开发上，希望大家共同参与、互相支持，让社区更加繁荣！
+LeaferJS 采用 MIT 协议，免费开源，使用前请阅读 [免责声明](./disclaimer.md)。我们欢迎社区用户相互帮助和贡献，我们没有义务解答、修复所有问题（会尽力参与），为了让 LeaferJS 变得更强大，我们的精力主要投入在产品开发上，希望大家共同参与、互相支持，让社区更加繁荣！
 
 ## 增强 LeaferJS
 
@@ -169,4 +169,4 @@ LeaferJS 不仅致力打造前沿的 2D 和未来的 3D 引擎技术，更希望
 
 我们知道成功并非一蹴而就，所以我们接纳路途中的失败、偶尔的躺平，只要拥有坚韧的气质和永不放弃的精神，从失败中吸取教训，不断成长，积累一个个小小的胜利，就一定会抵达目的地。
 
-希望我们能一起创办出 **一家像胖东来一样的新型互联网企业和社区，** 如果你喜欢这样的文化，欢迎阅读 [贡献指南](/contribute/guide.md)，可以一起参与进来。
+希望我们能一起创办出 **一家像胖东来一样的新型互联网企业和社区，** 如果你喜欢这样的文化，欢迎阅读 [贡献指南](../contribute/guide.md)，可以一起参与进来。

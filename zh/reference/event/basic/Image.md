@@ -8,7 +8,7 @@ ImageEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 ## 关键属性
 
-### image: [`ILeaferImage`](/api/interfaces/ILeaferImage.md)
+### image: [`ILeaferImage`](../../../api/interfaces/ILeaferImage.md)
 
 原始图片封装对象。
 
@@ -24,7 +24,7 @@ ImageEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 图案填充的属性名: `fill` | `stroke`
 
-### attrValue: [`ImagePaint`](/reference/UI/paint/image.md)
+### attrValue: [`ImagePaint`](../../UI/paint/image.md)
 
 图案填充的属性值。
 
@@ -55,7 +55,7 @@ ImageEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 
-### [ImageEvent](/api/classes/LeaferEvent.md) -->
+### [ImageEvent](../../../api/classes/LeaferEvent.md) -->
 
 ## 示例
 

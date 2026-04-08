@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Path 元素
 
-绘制路径，可以画出任意形状的图形， 了解 [绘图命令](/reference/interface/ui/PathData.md)。
+绘制路径，可以画出任意形状的图形， 了解 [绘图命令](../interface/ui/PathData.md)。
 
 <case name="Path" editor=false></case>
 
@@ -16,9 +16,9 @@ Path &nbsp;>&nbsp; [UI](./UI.md)
 
 ## 关键属性
 
-### path: [`IPathString`](/reference/interface/ui/PathData.md#ipathstring) ｜ [`IPathCommandData`](/reference/interface/ui/PathData.md#ipathcommanddata) ｜ [`IPathCommandObject`](/reference/interface/ui/PathData.md#ipathcommandobject)[]
+### path: [`IPathString`](../interface/ui/PathData.md#ipathstring) ｜ [`IPathCommandData`](../interface/ui/PathData.md#ipathcommanddata) ｜ [`IPathCommandObject`](../interface/ui/PathData.md#ipathcommandobject)[]
 
-路径数据，支持 [SVG 绘图字符串](/reference/interface/ui/PathData.md#ipathstring) 、 [绘图数字数组](/reference/interface/ui/PathData.md#ipathcommanddata)、[绘图对象数组](/reference/interface/ui/PathData.md#ipathcommandobject)。
+路径数据，支持 [SVG 绘图字符串](../interface/ui/PathData.md#ipathstring) 、 [绘图数字数组](../interface/ui/PathData.md#ipathcommanddata)、[绘图对象数组](../interface/ui/PathData.md#ipathcommandobject)。
 
 可通过 [pen 画笔](#pen-pathcreator) 快速绘制路径。
 
@@ -34,9 +34,9 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 ## 只读属性
 
-### pen: [PathCreator](/reference/path/PathCreator.md)
+### pen: [PathCreator](../path/PathCreator.md)
 
-画笔，可以像 Canvas 2D API 一样快速 [绘制路径](/reference/path/PathCreator.md)，并提供了一些新的方法。
+画笔，可以像 Canvas 2D API 一样快速 [绘制路径](../path/PathCreator.md)，并提供了一些新的方法。
 
 画笔实际上修改的是元素 path 属性数据。
 
@@ -55,12 +55,12 @@ type WindingRule: =  "nonzero" | "evenodd"
 圆角大小，使路径拐角处变的圆滑。
 
 ::: tip 注意事项
-曲线与折线、折线与曲线之间的圆角需安装 [corner 插件](/plugin/in/corner/index.md) 才能使用。
+曲线与折线、折线与曲线之间的圆角需安装 [corner 插件](../../plugin/in/corner/index.md) 才能使用。
 :::
 
 ## box 元素
 
-### [PathBox](/plugin/in/box/PathBox.md)
+### [PathBox](../../plugin/in/box/PathBox.md)
 
 <!-- ## 继承元素
 
@@ -68,7 +68,7 @@ type WindingRule: =  "nonzero" | "evenodd"
 
 <!-- ## API
 
-### [Path](/api/classes/Path.md) -->
+### [Path](../../api/classes/Path.md) -->
 
 ## 示例
 

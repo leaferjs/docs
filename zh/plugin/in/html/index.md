@@ -9,7 +9,7 @@ HTML 富文本，用于渲染 HTML 相关内容。
 <case name="HTMLText" height=100></case>
 
 ::: tip 继承
-HTMLText &nbsp;>&nbsp; [Image](/reference/display/Image.md) &nbsp;>&nbsp; [Rect](/reference/display/Rect.md) &nbsp;>&nbsp; [UI](/reference/display/UI.md)
+HTMLText &nbsp;>&nbsp; [Image](../../../reference/display/Image.md) &nbsp;>&nbsp; [Rect](../../../reference/display/Rect.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 :::
 
 <!-- # HTML 插件
@@ -207,7 +207,7 @@ LeaferJS 内部对 SVG 渲染做了很多优化，不会有太大的性能影响
 
 ## 继承元素
 
-### [Image](/reference/display/Image.md)
+### [Image](../../../reference/display/Image.md)
 
 ## 示例
 

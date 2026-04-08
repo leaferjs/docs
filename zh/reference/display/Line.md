@@ -36,7 +36,7 @@ rotation: 90
 
 目标点 **（相对 Line 元素的自身坐标计算）**， 自动换算出 `width` 与 `rotation`。
 ::: danger 注意
-如发现 toPoint 不符合你的预期， 只需减去 Line 元素 x,y 坐标即可，因为 toPoint 是 [内部坐标](/guide/advanced/coordinate.md#inner-内部坐标系) 。
+如发现 toPoint 不符合你的预期， 只需减去 Line 元素 x,y 坐标即可，因为 toPoint 是 [内部坐标](../../guide/advanced/coordinate.md#inner-内部坐标系) 。
 :::
 
 ```ts
@@ -67,7 +67,7 @@ console.log(line.toPoint) // {x: 200, y: 100})  会根据 width 与 rotation 自
 
 ## 路径模式
 
-### [path 优先模式](/reference/UI/path.md)
+### [path 优先模式](../UI/path.md)
 
 ## 圆角属性
 
@@ -82,7 +82,7 @@ console.log(line.toPoint) // {x: 200, y: 100})  会根据 width 与 rotation 自
 <!--
 ## API
 
-### [Line](/api/classes/Line.md) -->
+### [Line](../../api/classes/Line.md) -->
 
 ## 示例
 

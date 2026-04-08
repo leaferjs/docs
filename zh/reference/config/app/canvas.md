@@ -1,13 +1,13 @@
 # 应用与引擎配置
 
-### [基础](/reference/config/app/base.md) &nbsp; &nbsp; [视口类型](/reference/config/app/type.md) &nbsp; &nbsp; 画布 &nbsp; &nbsp; [点按](/reference/config/app/pointer.md) &nbsp; &nbsp; [多点](/reference/config/app/multiTouch.md) &nbsp; &nbsp; [触屏](/reference/config/app/touch.md) &nbsp; &nbsp; [滚轮](/reference/config/app/wheel.md) &nbsp; &nbsp; [平移视图](/reference/config/app/move.md) &nbsp; &nbsp; [缩放视图](/reference/config/app/zoom.md)
+### [基础](./base.md) &nbsp; &nbsp; [视口类型](./type.md) &nbsp; &nbsp; 画布 &nbsp; &nbsp; [点按](./pointer.md) &nbsp; &nbsp; [多点](./multiTouch.md) &nbsp; &nbsp; [触屏](./touch.md) &nbsp; &nbsp; [滚轮](./wheel.md) &nbsp; &nbsp; [平移视图](./move.md) &nbsp; &nbsp; [缩放视图](./zoom.md)
 
 ##
 
 引擎初始化创建画布的相关配置。
 
 :::tip 注意事项
-[App 结构](/guide/advanced/app.md) 下只能设置在 [App](/reference/display/App.md) 的 config 上。
+[App 结构](../../../guide/advanced/app.md) 下只能设置在 [App](../../display/App.md) 的 config 上。
 :::
 
 ## 关键属性
@@ -46,7 +46,7 @@
 
 是否平滑的绘制图片、画布元素，可能会导致模糊，大部分情况下画面会更自然，避免产生锯齿。
 
-想要图片不模糊，可以继续配置 [config.pixelSnap](/reference/config/app/base.md#pixelsnap-boolean) 属性。
+想要图片不模糊，可以继续配置 [config.pixelSnap](./base.md#pixelsnap-boolean) 属性。
 
 ```ts
 // 想要smooth能实时生效，需要同时修改画布的smooth
@@ -97,7 +97,7 @@ interface ICanvasRenderingContext2DSettings {
 
 画布是否自动生长， 贴合实际内容，默认为 false。
 
-注意 [App 结构](/guide/advanced/app.md) 暂不支持此功能。
+注意 [App 结构](../../../guide/advanced/app.md) 暂不支持此功能。
 
 设为 true 或 'render' 表示依据内容的 render 包围盒，重置画布大小。
 

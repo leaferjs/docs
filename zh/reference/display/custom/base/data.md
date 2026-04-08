@@ -32,7 +32,7 @@
 
 ## 了解数据结构
 
-### [数据分层结构](/reference/UI/data.md#数据分层结构)
+### [数据分层结构](../../../UI/data.md#数据分层结构)
 
 ## 示例
 
@@ -45,4 +45,4 @@
 
 ## 下一步
 
-### [添加属性](/reference/display/custom/base/attr.md)
+### [添加属性](./attr.md)

@@ -2,7 +2,7 @@
 
 ## @leafer-ui/core
 
-通过引入 `@leafer-ui/draw`（跨平台绘制核心包，不包含交互功能）、`@leafer-ui/core`（跨平台核心包，继承 draw，包含交互功能）、`@leafer-ui/interface`（接口） 作为外部依赖，可[开发跨平台插件](/plugin/dev.md)、产品功能。
+通过引入 `@leafer-ui/draw`（跨平台绘制核心包，不包含交互功能）、`@leafer-ui/core`（跨平台核心包，继承 draw，包含交互功能）、`@leafer-ui/interface`（接口） 作为外部依赖，可[开发跨平台插件](../../../../plugin/dev.md)、产品功能。
 
 `leafer-ui` 等平台包基于 `@leafer-ui/core` 核心包组装平台差异化功能。
 

@@ -60,7 +60,7 @@
 
 ## 归属
 
-### [Editor 元素](/plugin/in/editor/index.md#editor-元素)
+### [Editor 元素](../index.md#editor-元素)
 
 ## 示例
 

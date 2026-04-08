@@ -2,7 +2,7 @@
 
 编辑器的移动事件，通过 `app.editor.on()` 监听。
 
-编辑器可通过配置 [beforeMove](/plugin/in/editor/config/event.md#beforemove-ieditorbeforemove) 钩子改变移动数据。
+编辑器可通过配置 [beforeMove](../config/event.md#beforemove-ieditorbeforemove) 钩子改变移动数据。
 
 ## 事件属性
 
@@ -30,11 +30,11 @@ before 移动元素事件。
 
 ## 继承事件
 
-### [Event](/reference/event/basic/Event.md)
+### [Event](../../../../reference/event/basic/Event.md)
 
 <!-- ## API
 
-### [EditorMoveEvent](/api/classes/EditorMoveEvent.md) -->
+### [EditorMoveEvent](../../../../api/classes/EditorMoveEvent.md) -->
 
 ## 示例
 

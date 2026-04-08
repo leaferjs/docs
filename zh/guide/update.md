@@ -1,10 +1,10 @@
 # 快速更新
 
-平台包、 [跨平台核心包](/guide/install/ui/core/index.md)、官方插件包的版本号为了方便大家记忆，均保持统一更新。
+平台包、 [跨平台核心包](./install/ui/core/index.md)、官方插件包的版本号为了方便大家记忆，均保持统一更新。
 
 如出现旧版本缓存冲突导致的报错，需删除 **lock 文件** 及 **node_modules** 重装一下。
 
-<!-- 还可通过 [命令行工具](/create/leafer.md#更新项目中的-leafer-依赖版本号) 更新。 -->
+<!-- 还可通过 [命令行工具](../create/leafer.md#更新项目中的-leafer-依赖版本号) 更新。 -->
 
 ## 一键更新
 
@@ -55,7 +55,7 @@ bun update leafer-ui @leafer-in/editor ... # 插件包必须放在主包之后
 
 ## 一劳永逸的办法
 
-首次直接安装 [跨平台核心包](/guide/install/ui/core/index.md)，可以避免手动修改插件版本号，导致出现两个核心包版本的问题。
+首次直接安装 [跨平台核心包](./install/ui/core/index.md)，可以避免手动修改插件版本号，导致出现两个核心包版本的问题。
 
 ::: code-group
 
@@ -79,13 +79,13 @@ yarn add leafer-ui @leafer-ui/core @leafer-ui/draw
 bun add leafer-ui @leafer-ui/core @leafer-ui/draw
 ```
 
-或直接安装一个 [leafer](/guide/install/leafer/start.md) 全量包, 通过 [import 子包](/guide/install/leafer/start.md#import-子包) 缩小打包体积。
+或直接安装一个 [leafer](./install/leafer/start.md) 全量包, 通过 [import 子包](./install/leafer/start.md#import-子包) 缩小打包体积。
 
 :::
 
 ## 版本号
 
-当前最新版本为： [v2.0.8](/update/index.md)
+当前最新版本为： [v2.0.8](../update/index.md)
 
 ```ts
 import { version } from 'leafer-ui'

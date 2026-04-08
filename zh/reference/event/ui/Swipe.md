@@ -38,7 +38,7 @@ SwipeEvent &nbsp;>&nbsp; [DragEvent](./Drag) &nbsp;>&nbsp; [PointerEvent](./Poin
 
 <!-- ## API
 
-### [SwipeEvent](/api/classes/SwipeEvent.md) -->
+### [SwipeEvent](../../../api/classes/SwipeEvent.md) -->
 
 ## 示例
 

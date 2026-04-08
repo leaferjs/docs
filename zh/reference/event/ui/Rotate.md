@@ -1,6 +1,6 @@
 # RotateEvent
 
-旋转事件，一般用于 [视口交互](/guide/advanced/viewport.md) 中旋转 视图 或 元素。
+旋转事件，一般用于 [视口交互](../../../guide/advanced/viewport.md) 中旋转 视图 或 元素。
 
 1. 移动端: 双指旋转
 2. 触摸板: 双指旋转（仅 Safari 支持）
@@ -10,7 +10,7 @@ RotateEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UI
 
 <br/>
 
-需安装 [视口插件](/plugin/in/viewport/index.md) 才能使用， 或直接安装 [leafer-editor](/guide/install/editor/start.md)（已集成此插件）。
+需安装 [视口插件](../../../plugin/in/viewport/index.md) 才能使用， 或直接安装 [leafer-editor](../../../guide/install/editor/start.md)（已集成此插件）。
 :::
 
 ## 事件名称
@@ -53,7 +53,7 @@ RotateEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UI
 
 <!-- ## API
 
-### [RotateEvent](/api/classes/RotateEvent.md) -->
+### [RotateEvent](../../../api/classes/RotateEvent.md) -->
 
 ## 示例
 
