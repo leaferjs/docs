@@ -1,1 +1,3 @@
-files: []
+files:
+  - source: /zh/**/*
+    translation: /%two_letters_code%/**/%original_file_name%
