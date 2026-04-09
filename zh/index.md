@@ -3,8 +3,6 @@ layout: home
 
 hero:
   name: 'LeaferJS'
-  #text: 'Fast Beautiful'
-  #tagline: '简洁、开放、现代化的 UI 绘图与交互框架'
   tagline: '好用的 Canvas 引擎，革新的开发体验'
   image:
     src: '/svg/bettery/bettery-100-2.svg'
