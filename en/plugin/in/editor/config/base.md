@@ -1,0 +1,65 @@
+<script setup>
+import Case from '/component/Case.vue'
+</script>
+
+# 编辑器配置
+
+### 基础 &nbsp; &nbsp; [事件](./event.md) &nbsp; &nbsp; [样式](./style.md) &nbsp; &nbsp; [按钮组](./buttons.md) &nbsp; &nbsp; [光标](./cursor.md) &nbsp; &nbsp; [选择](./select.md) &nbsp; &nbsp; [控制](./control.md) &nbsp; &nbsp; [启用](./enable.md) &nbsp; &nbsp; [内部编辑器](./innerEditor.md)
+
+##
+
+基础配置，引擎运行中可实时修改 [app.editor.config](../index.md#config-ieditorconfig) 生效。
+
+同时元素拥有 [独立的编辑配置](../../../../reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
+
+## 关键属性
+
+### editSize: `'size'` | `'scale'` | `'font-size'`
+
+调整元素大小的方式，默认为 size。
+
+size： 修改元素的 **宽高、路径** 达到调整大小的目的。
+
+font-size： 修改文本的 **fontSize** 达到调整大小的目的。
+
+scale： 修改元素的 **缩放属性** 达到调整大小的目的。
+
+不同元素可 [单独设置 editSize ](../../../../reference/UI/editable.md#editconfig-ieditorconfig) 。
+
+### 隐藏
+
+### hideOnMove: `boolean`
+
+是否在移动元素时隐藏编辑框， 默认为否。
+
+### hideOnSmall: `boolean` | `number`
+
+是否在元素很小的时候隐藏编辑器控制点，默认为 true。
+
+可以设置一个最小的 size, 默认最小的 size 为 10 (表示 10 x 10 的大小)。
+
+### hideResizeLines: `boolean`
+
+是否隐藏四周的控制线。
+
+### hideRotatePoints: `boolean`
+
+是否隐藏四周的旋转控制点。
+
+### 像素对齐
+
+### ignorePixelSnap: `boolean`
+
+忽略选中元素对齐像素，可防止 [对齐像素](../../../../reference/config/app/base.md#对齐像素) 造成编辑操作抖动。
+
+注意： sky 层必须配置 [pixelSnap](../../../../reference/config/app/base.md#对齐像素) 为 false，否则编辑框仍会抖动。
+
+## 示例
+
+### 拖拽控制点修改字体大小，拖拽边框控制文本宽高
+
+<<< @/code/plugin/editor/config/style/point/fontSize.ts
+
+### 移动元素时隐藏编辑框
+
+<<< @/code/plugin/editor/config/hide-move.ts
