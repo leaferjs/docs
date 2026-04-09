@@ -2,6 +2,7 @@ import { defineAdditionalConfig } from 'vitepress'
 import { apiSidebar } from './config/sidebar/api'
 import { docSidebar } from './config/sidebar/doc'
 import { nav } from './config/nav'
+import { search } from './config/search'
 
 
 export default defineAdditionalConfig({
@@ -11,6 +12,8 @@ export default defineAdditionalConfig({
             '/': { base: '/', items: docSidebar },
             '/api/': { base: '/', items: apiSidebar }
         },
+
+        search,
 
         outlineTitle: '导航',
 

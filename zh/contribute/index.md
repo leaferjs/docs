@@ -4,7 +4,11 @@
 
 #### 开源故事
 
-[从“零图形背景”到“海报编辑器上线”：与 LeaferJS 相爱相杀的日子](https://www.leaferjs.com/ui/blog/2026-03-20.html) @Ranbow
+[做不起 Canva？我们用 LeaferJS 做了一个开源版在线设计器](../blog/2026-04-09.md) @Gzm Design
+
+[放弃笨重的 3D：我用 LeaferJS 重塑了学校图书馆选座系统](../blog/2026-03-30.md) @Seeridia
+
+[从“零图形背景”到“海报编辑器上线”：与 LeaferJS 相爱相杀的日子](../blog/2026-03-20.html) @Ranbow
 
 ## 文章
 
@@ -185,6 +189,8 @@
 [leafer-x-design-system](https://www.npmjs.com/package/leafer-x-design-system) <badge>设计系统生成器</badge> [@q86830-hue](https://github.com/q86830-hue)
 
 #### 新版
+
+[leafer-x-echarts](https://www.npmjs.com/package/leafer-x-echarts) echarts插件 [@sedrew](https://github.com/sedrew)
 
 [leafer-x-dotwuxian](https://www.npmjs.com/package/leafer-x-dotwuxian) 无限点阵插件 [@scory01](https://github.com/scory01)
 

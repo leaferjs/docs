@@ -867,6 +867,7 @@ export const docSidebar: DefaultTheme.SidebarItem[] = [
     {
         text: '🍇 社区免费插件',
         items: [
+            { text: 'echarts插件', link: 'https://www.npmjs.com/package/leafer-x-echarts' },
             { text: '无限点阵插件', link: 'https://www.npmjs.com/package/leafer-x-dotwuxian' },
             { text: '视频播放 player', link: 'https://www.npmjs.com/package/leafer-canvas-player' },
             { text: '连线插件(加强版)', link: 'https://www.npmjs.com/package/leafer-connector' },
