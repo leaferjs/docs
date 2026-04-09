@@ -1,0 +1,227 @@
+<script setup>
+import Case from '/component/Case.vue'
+</script>
+
+# 编辑器配置
+
+### [基础](./base.md) &nbsp; &nbsp; [事件](./event.md) &nbsp; &nbsp; 样式 &nbsp; &nbsp; [按钮组](./buttons.md) &nbsp; &nbsp; [光标](./cursor.md) &nbsp; &nbsp; [选择](./select.md) &nbsp; &nbsp; [控制](./control.md) &nbsp; &nbsp; [启用](./enable.md) &nbsp; &nbsp; [内部编辑器](./innerEditor.md)
+
+##
+
+样式配置，应用运行中可实时修改 [app.editor.config](../index.md#config-ieditorconfig) 生效。
+
+同时元素拥有 [独立的编辑配置](../../../../reference/UI/editable.md#editconfig-ieditorconfig) 属性，可实时覆盖主配置。
+
+## 关键属性
+
+### spread: `number`
+
+编辑器框向外的扩展值，可扩大编辑框与实际元素之间的间隙，默认为 0。
+
+### stroke: `string`
+
+设置控制点和编辑框的描边颜色，默认为 `#836DFF`。
+
+### strokeWidth: `number`
+
+设置控制点和编辑框的描边大小。
+
+### pointSize: `number`
+
+设置控制点的大小。
+
+### pointRadius: `number`
+
+设置控制点的圆角半径
+
+### 精确控制样式
+
+### point: [`IBoxInputData`](../../../../reference/display/Box.md) ｜ [`IBoxInputData`](../../../../reference/display/Box.md)[]
+
+设置控制点样式，可单独设置 4 个点。
+
+并支持通过设置 [pointType](../EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
+
+```ts
+point: { pointType: 'resize' }, // 默认 resize 按钮
+```
+
+```ts
+point: [
+  {
+    // 支持 Box 元素的所有属性
+    pointType: 'button', // 变为自定义按钮
+    event: {
+      tap: function () {
+        alert('button')
+      },
+    },
+    fill: {
+      // 使用图片
+      type: 'image',
+      url: '/image/leafer.jpg',
+    },
+  },
+  { pointType: 'rotate' }, // 变为旋转按钮
+  { pointType: 'resize-rotate' }, // 变为 resize + 旋转按钮
+  { pointType: 'skew' }, // 变为倾斜按钮
+]
+```
+
+### middlePoint: [`IBoxInputData`](../../../../reference/display/Box.md)｜ [`IBoxInputData`](../../../../reference/display/Box.md)[]
+
+设置中间控制点样式（会继承基础样式），可单独设置 4 个点，为空时不显示， 默认为空。
+
+并支持通过设置 [pointType](../EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
+
+### resizeLine: [`IBoxInputData`](../../../../reference/display/Box.md) ｜ [`IBoxInputData`](../../../../reference/display/Box.md)[]
+
+设置编辑框四周的隐藏控制线样式，可通过设置 `height` 来控制线条的粗细，默认为 10px。
+
+并支持通过设置 [pointType](../EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
+
+```ts
+resizeLine: [{ pointType: 'move' }, {}], // 限制只能左右拉伸
+```
+
+### rect: [`IBoxInputData`](../../../../reference/display/Box.md)
+
+设置编辑框的样式（会继承基础样式）。
+
+### rectThrough: `boolean`
+
+交互事件是否可穿透 rect 区域，默认为 true。
+
+如果不想编辑框内可以选中上层覆盖的其他元素，可以设为 false。
+
+### area: [`IRectInputData`](../../../../reference/display/Rect.md)
+
+框选区域的样式（会继承基础样式）。
+
+### 旋转按钮
+
+### circle: [`IBoxInputData`](../../../../reference/display/Box.md)
+
+设置独立旋转控制点样式（会继承基础样式）， 为空时不显示， 默认为空。
+
+并支持通过设置 [pointType](../EditPoint.md#pointtype-ieditpointtype) 来自定义控制点功能类型。
+
+```ts
+circle: {
+  pointType: 'button',
+  cursor: 'pointer',
+  event: {
+    tap: function () {
+      alert('button')
+    },
+  },
+}, // 变为自定义按钮
+```
+
+### circleDirection: `'top'` | `'right'` | `'bottom'` | `'left'`
+
+独立旋转控制点的方位， 默认为 bottom（如果 buttonsDirection 为 bottom ，则为 top）。
+
+### circleMargin: `number`,
+
+独立旋转控制点到编辑框的外边距， 默认采用 buttonsMargin。
+
+### 光标移入
+
+### hover: `boolean`
+
+是否显示 hover 状态，默认显示。
+
+### hoverStyle: [`IPathInputData`](../../../../reference/display/Path.md)
+
+hover 样式，目前只能定义笔触、填充、简单阴影样式（会继承基础样式）。
+
+### selectedStyle: [`IPathInputData`](../../../../reference/display/Path.md)
+
+选中元素的样式（区分 hover 样式，多选元素时比较容易看出来），目前只能定义笔触、填充、简单阴影样式（会继承基础样式）。
+
+### selectedPathType: `'path'` | `'render-path'`
+
+选中元素描边采用的路径类型，默认为 'render-path'。
+
+当元素设置圆角、curve 时，'path' 为原始路径，'render-path' 是应用了圆角、curve 时之后的最终渲染路径。
+
+### 遮罩层
+
+### mask: `string` | `boolean`
+
+是否添加全局半透明覆盖遮罩层，可设置颜色值，如 `rgba(0,0,0,0.8)`，默认为 false。
+
+设为 true 或色彩值时，选中元素会突出显示，其他区域变暗，适用于裁剪、截图等场景。
+
+### 突出显示
+
+### bright: `boolean`
+
+突出显示，并置顶渲染选中元素，默认为 false，[查看示例](#突出显示-置顶渲染元素)。
+
+源于元素 [bright](../../../../reference/UI/bright.md) 属性。
+
+### dimOthers: `boolean` | `number`
+
+淡化其他元素，突出选中元素，通过叠加透明度来淡化元素，默认为 false，[查看示例](#突出显示并置顶渲染-淡化其他元素)。
+
+设为 true 时会自动设置 0.2 的透明度，也可设置一个透明度数值。
+
+源于元素 [dim](../../../../reference/UI/dim.md) / [dimskip](../../../../reference/UI/dim.md) 属性。
+
+另可通过设置编辑器 [dimTarget](../index.md#dimtarget-group-group) 属性确定淡化内容的范围（支持数组）。
+
+## 示例
+
+<case name="EditorConfig" index=4 x=20></case>
+
+### 显示所有控制点
+
+<<< @/code/plugin/editor/config/mobile.ts
+
+<case name="EditorConfig" index=2 x=20></case>
+
+### 快速修改样式
+
+<<< @/code/plugin/editor/config/rect.ts
+
+<case name="EditorConfig" index=9 x=20 height=170></case>
+
+### 自定义样式
+
+默认会继承基础样式， 只需覆盖新的样式。
+
+<<< @/code/plugin/editor/config/points.ts
+
+<case name="EditorConfig" index=11 x=20 height=160></case>
+
+### 显示底部旋转控制点
+
+默认会继承基础样式， 只需覆盖新的样式。
+
+<<< @/code/plugin/editor/config/rotate-point.ts
+
+### 自定义控制点功能类型
+
+:::code-group
+<<< @/code/plugin/editor/config/style/point/pointType.ts [point]
+<<< @/code/plugin/editor/config/style/middlePoint/pointType.ts [middlePoint]
+<<< @/code/plugin/editor/config/style/circle/pointType.ts [circle]
+:::
+
+### 拖拽控制点修改字体大小，拖拽边框控制文本宽高
+
+<<< @/code/plugin/editor/config/style/point/fontSize.ts
+
+### 突出显示，置顶渲染元素
+
+<<< @/code/property/bright/app/bright.ts
+
+### 突出显示并置顶渲染，淡化其他元素
+
+<<< @/code/property/bright/app/dim.ts
+
+### 突出主体，淡化其他元素
+
+<<< @/code/property/dim/app/dim.ts
