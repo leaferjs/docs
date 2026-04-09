@@ -5,8 +5,6 @@ import { nav } from './config/nav'
 
 
 export default defineAdditionalConfig({
-    description: 'Vite & Vue powered static site generator.',
-
     themeConfig: {
         nav,
         sidebar: {
