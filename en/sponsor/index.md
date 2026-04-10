@@ -1,0 +1,771 @@
+# 赞助 LeaferJS
+
+##
+
+Hi，你好，我是 LeaferJS 的创始人万超（Leafer），感谢前来支持 LeaferJS ～
+
+<!-- ![leafer](/image/me.jpg) -->
+
+**LeaferJS** 是一个需要耗费 **数年** 才能构建完善的革新引擎（2021 年初 - 未来）。
+
+我们不仅致力打造前沿的 2D 和未来的 3D 引擎技术，更希望创造一套简洁、开放、现代化的 UI 绘图标准。让开发者能够快速地构建 AI 时代的网页、应用、设计、画布、游戏和动画等可视化生产力工具，推动下一代本地优先的 Figma、Miro、Notion、Unity、Adobe、Canva、Webflow 等创新产品诞生，并激发更多创意技术和应用。
+
+为了推动更多创新生产力工具的诞生，我们将 LeaferJS 开源并采用 MIT 许可协议，**这意味着你可以免费使用 LeaferJS，并将其应用于任何商业场景，真正让技术自由释放潜力**。
+
+## 大家庭
+
+从选择开源的那一刻起，LeaferJS 就不再只属于某一个人，而是我们共同拥有和维护的大家庭。
+
+当你选择使用 LeaferJS 时，你也成为了 这个充满活力的大家庭 的一员，踏入这座建设中的“技术城堡”。**只有通过每位成员的热情参与、赞助、贡献，这座城堡才能逐步走向完善，** 你的每一次参与，都是在为自己能够收获到更丰富的功能和社区资源，播下一颗种子。
+
+**你的每一次赞助，不仅是对 LeaferJS 的认可，更是对技术创新与开源生态的推动**。它能帮助我们专注研发、持续优化性能，吸引更多顶尖开发者加入，激励社区中的优秀贡献者，并为全球开发者带来更强大、创新的功能与服务。
+
+让我们一起携手，为 LeaferJS 打造一个更加辉煌的未来！
+
+<!-- 📙 [绝境中盛开，LeaferJS 的创业故事](../blog/2024-04-08.md) -->
+
+## 社区目标
+
+[推动 LeaferJS **在全球范围内流行起来，惠及 1000 万+开发者**](../blog/2024-11-20.md)
+
+## 赞助方式
+
+- 企业赞助：适合企业，[了解详情](https://www.pxgrow.com/vip/logo/)
+- 咖啡赞助：适合个人，[前往赞助](https://www.pxgrow.com/coffee/sponsor/)
+
+<!-- 我们还需要 **建立一个开发者商店和需求中心，** 让优秀的产品、教程、组件、插件等可以推给有需要的人，使生产力有效流动起来，这样我们就可以专心在各自擅长的地方分工协作带来收益。 -->
+
+<!-- ## 性能目标
+
+实现流畅运行 **十万级动态复杂游戏元素**，同时支持 **百万级静态复杂元素** 的编辑（GPU 加速）。
+
+目前，全球尚无公司实现过这样的技术突破（性能提升 10 倍以上）。为了向这一目标迈进，我们后期会针对特殊场景推出 **商业版加速方案**，为需要极致性能的开发者提供专属支持。同时，这些技术突破也将逐步惠及免费版，让所有用户都能享受技术升级带来的便利。 -->
+
+<!-- 为了让大家感受到即将到来的性能，我们提供了一个能够容纳 [百万杯咖啡的网红墙](https://www.pxgrow.com/coffee/)，并能流畅操作及编辑，欢迎大家体验，目前还有很多不足的地方，后面会不断优化。 -->
+
+<!--
+<img width="320"  style="border-radius:20px" src="https://www.leaferjs.com/image/case/coffee.jpg" /> -->
+
+<!-- ## 赞助等级 -->
+
+<!-- ::: tip
+我们每月底会发布一篇赞助、社区参与的感谢文章，里面会同步相应的赞助位和名单。
+
+::: -->
+
+<!--
+![coffee](/svg/coffee/coffee-10-story.svg)
+
+### 🥉 铜牌赞助（¥10 / 月）
+
+**适合** 希望获得社区曝光和表达支持的 **个人开发者**，[进行赞助](#赞助渠道)。
+
+- [leaferjs.com](https://www.leaferjs.com) 首页 [铜牌赞助](https://leaferjs.com/#contact) 名单。
+
+
+### 🥈 银牌赞助（¥100 / 月）
+
+**适合** 希望获得社区曝光和表达支持的 **团队、个人开发者**，[进行赞助](#赞助渠道)。
+
+- [leaferjs.com](https://www.leaferjs.com) 首页 [银牌赞助](https://leaferjs.com/#silver-sponsor) 头像 / logo 展示位。
+
+
+### 🥇 金牌赞助商（¥1,000 / 月）
+
+**适合** 希望获得社区曝光和表达支持的 **中小型企业**， [联系我们](https://leaferjs.com/#contact) 后再 [进行赞助](#赞助渠道) 。
+
+- [leaferjs.com](https://www.leaferjs.com) 首页 [金牌赞助商](https://leaferjs.com/#gold-sponsor) logo 展示位。 -->
+
+<!-- - [咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 蓝色咖啡。 -->
+
+<!-- - [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的金牌赞助商 logo 展示位。 -->
+
+<!--
+
+### 💍 铂金赞助商（¥5,000 / 月）
+
+**适合** 希望获得社区曝光和表达支持的 **中大型企业（8 个名额）**，[联系我们](https://leaferjs.com/#contact) 后再 [进行赞助](#赞助渠道) 。
+
+- [leaferjs.com](https://www.leaferjs.com) 首页铂金赞助商 大号 logo 展示位（金牌赞助商的上方）。
+
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 上增加 5 杯专属 蓝色咖啡。
+
+- [官方文档](https://www.leaferjs.com/ui/guide/) 右侧边栏及 [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的铂金赞助商 logo 展示位。
+
+### 💎 钻石赞助商（¥10,000 / 月）
+
+**适合** 希望获得较大曝光和深度参与的 **中大型企业（3 个名额）**，[联系我们](https://leaferjs.com/#contact) 后再 [进行赞助](#赞助渠道) 。
+
+- [leaferjs.com](https://www.leaferjs.com) 首屏无需滚动的钻石赞助商 logo 展示位。
+
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 上增加 10 杯专属 蓝色咖啡。
+
+- [官方文档](https://www.leaferjs.com/ui/guide/) 右侧边栏及 [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的钻石赞助商 logo 展示位。
+
+- 推广合作（制造热点事件）
+
+### 👑 独家赞助商（¥100,000 / 月）
+
+**适合** 希望获得顶级曝光和深度参与的 **大型企业（1 个名额）**，[联系我们](https://leaferjs.com/#contact)。
+
+- [leaferjs.com](https://www.leaferjs.com) 首页顶部的独家赞助商 logo 展示位。
+
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 顶部唯一 logo 展示位，独家冠名权。
+
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 增加 100 杯专属 蓝色咖啡。
+
+- [官方文档](https://www.leaferjs.com/ui/guide/) 右侧边栏及 [leafer-ui](https://github.com/leaferjs/leafer-ui) 仓库主页的独家赞助商 logo 展示位。
+
+- 推广合作（制造热点事件） -->
+
+<!-- ![sponsor](/image/sponsor/first.jpg) -->
+
+<!-- ## 开发赞助
+
+我们能提供一对一咨询的名额有限，只能先专注帮助一批企业，请 [联系我们](https://leaferjs.com/#contact) 后再 [进行赞助](#赞助渠道) 。
+
+### 🥇 VIP 金牌赞助商（¥1,000 / 月）
+
+- 提供一对一问题咨询，防止被问题卡住开发进度，提升效率（10 个名额）。
+
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 上增加 1 杯专属 蓝色咖啡。
+
+### 💍 VIP 铂金赞助商（¥5,000 / 月）
+
+- 提供一对一深度咨询、技术支持，防止被问题和缺失功能卡住开发进度（2 个名额）。
+
+- [百万咖啡墙](https://www.pxgrow.com/coffee/) 上增加 5 杯专属 蓝色咖啡。 -->
+
+<!-- ## 展示时长
+
+- 赞助位至少会展示完相应的赞助月数，若该赞助等级的数量未满，将会继续展示。
+
+
+- [咖啡墙](https://www.pxgrow.com/coffee/) 上的咖啡没有展示时长限制。
+
+## 赞助渠道
+
+我们目前通过自己的 [PxGrow 像素生长](https://www.pxgrow.com/coffee/sponsor/) 企业网站接受用户和企业赞助。 -->
+
+<!-- 我们目前通过 [爱发电平台](https://afdian.com/a/leaferjs) 和 [微信文章打赏](#微信文章打赏) 来接收赞助，爱发电也是 [Vue.js](https://cn.vuejs.org/sponsor/) 中国区的赞助渠道。 -->
+
+<!-- 银牌、铜牌赞助最晚会在第 2 天同步到相应的赞助位。
+
+#### 发票
+
+金牌以上的赞助，支持 [联系我们](https://leaferjs.com/#contact) 获取发票用于报销。 -->
+
+<!-- #### 头像（logo）
+
+银牌、铜牌赞助会采用爱发电用户头像，请在赞助当天上传头像，第 2 天采集之后将不再更新。 -->
+
+<!-- 金牌以上的赞助，请在赞助时 [联系我们](https://leaferjs.com/#contact) 提供 logo、官网链接，不上首页可不提供。 -->
+
+<!-- #### 故事（story 标识）
+
+可在赞助时留言一个可跳转的主页或 GitHub 链接，最好是有故事。 -->
+
+<!-- #### 微信文章打赏
+
+通过微信文章可以快速进行打赏，无需繁琐登录，赞助头像昵称将直接采集微信打赏帐号的信息。 -->
+
+<!-- <img width="320"  style="border-radius:20px" src="/image/wx-ds.png" /> -->
+
+## 开源赞助荣誉证书
+
+赞助咖啡成功上墙后，可前往 [像素生长 · 咖啡墙](https://www.pxgrow.com/coffee/) 点击头像领取开源赞助荣誉证书。
+
+<a href="https://boardos.online/" rel="sponsored" aria-label="BoardOS"  target="_blank" >
+   <img width="320"  style="border-radius:20px" src="/image/sponsor/BoardOS.jpg" />
+</a>
+
+## 金牌赞助商
+
+<p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;"><a target="_blank" rel="sponsored" href="https://easysearch.cn">
+    <img width="180" style="border-radius:40px;background-color: white" title="Easysearch - 企业级的分布式搜索型数据库" src="https://www.leaferjs.com/image/sponsor/gold/easysearch.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://boardos.online">
+    <img width="180" style="border-radius:40px" title="在线实时白板协作系统" src="https://www.leaferjs.com/image/sponsor/gold/boardos.svg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.photiu.ai">
+    <img width="180" style="border-radius:40px" title="Photiu" src="https://www.leaferjs.com/image/sponsor/gold/photiu.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://xpai.design">
+    <img width="180" style="border-radius:40px" title="迅排设计" src="https://www.leaferjs.com/image/sponsor/gold/xp.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://github.com/dromara/yft-design">
+    <img width="180" style="border-radius:40px" title="yft-design" src="https://www.leaferjs.com/image/sponsor/gold/yft.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.finclip.com/landing/miniappgame?from=leafer">
+    <img width="180" style="border-radius:40px" title="FinClip" src="https://www.leaferjs.com/image/sponsor/gold/finclip.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://f.style">
+    <img width="180" style="border-radius:40px" title="hiif" src="https://www.leaferjs.com/image/sponsor/gold/hiif.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.seafox.cc">
+    <img width="180" style="border-radius:40px" title="seafox" src="https://www.leaferjs.com/image/sponsor/gold/seafox.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://dooring.vip">
+    <img width="180" style="border-radius:40px" title="dooring" src="https://www.leaferjs.com/image/sponsor/gold/dooring.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://pro.kuaitu.cc">
+    <img width="180" style="border-radius:40px" title="快图设计" src="https://www.leaferjs.com/image/sponsor/gold/kuaitu.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://chensuiyi.me">
+    <img width="180" style="border-radius:40px" title="前端之虎陈随易" src="https://www.leaferjs.com/image/sponsor/gold/chensuiyi.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="http://www.yunform.cn">
+    <img width="180" style="border-radius:40px" title="数据查询录入表单页面制作效率工具" src="https://www.leaferjs.com/image/sponsor/gold/yunform.svg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.pxgrow.com/vip/logo/">
+    <img width="180" style="border-radius:40px" title="赞助我们" src="https://www.leaferjs.com/image/sponsor/gold/add.jpg" />
+  </a>
+</p>
+
+## 银牌赞助
+
+<p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 5px;"><a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="ARAM" src="https://api.pxgrow.com/uploads/avatar/3Pv/P26/zw/u.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="Winning" src="https://www.pxgrow.com/image/user/default/4.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="刘洋" src="https://www.pxgrow.com/image/user/default/2.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="张老爷" src="https://api.pxgrow.com/uploads/avatar/76z/6wz/Px/u.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="KevinJiaCN" src="https://www.pxgrow.com/image/user/default/3.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="goosen" src="https://www.pxgrow.com/image/sponsor/user/122.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="dev_chen" src="https://www.pxgrow.com/image/sponsor/user/137.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="frameelf">
+    <img width="40" style="border-radius:20px" title="o" src="https://api.pxgrow.com/uploads/avatar/3Pv/P2S/ww/u.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="Y" src="https://www.pxgrow.com/image/sponsor/user/131.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://github.com/daodaolee">
+    <img width="40" style="border-radius:20px" title="道里" src="https://www.pxgrow.com/image/sponsor/user/108.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="dong" src="https://www.pxgrow.com/image/sponsor/user/yellow.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="三一" src="https://www.pxgrow.com/image/sponsor/user/151.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.fastadmin.net">
+    <img width="40" style="border-radius:20px" title="F4nniu" src="https://api.pxgrow.com/uploads/avatar/3Pv/P26/P3/u.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="风之影" src="https://www.pxgrow.com/image/sponsor/user/81.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="😊" src="https://www.pxgrow.com/image/sponsor/user/79.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://pro.kuaitu.cc/">
+    <img width="40" style="border-radius:20px" title="快图设计" src="https://www.pxgrow.com/image/sponsor/user/72.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="ycteng" src="https://www.pxgrow.com/image/sponsor/user/purple.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://afdian.com/a/herobeast">
+    <img width="40" style="border-radius:20px" title="herobeast" src="https://www.pxgrow.com/image/sponsor/user/63.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="Evel" src="https://www.pxgrow.com/image/sponsor/user/62.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="icezeros" src="https://www.pxgrow.com/image/sponsor/user/purple.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="林伟强@青柠设计" src="https://www.pxgrow.com/image/sponsor/user/purple.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://github.com/Misakey-Mikoto">
+    <img width="40" style="border-radius:20px" title="misakey" src="https://www.pxgrow.com/image/sponsor/user/orange.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="junna" src="https://www.pxgrow.com/image/sponsor/user/57.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="http://www.nickspace.cn">
+    <img width="40" style="border-radius:20px" title="NickSpace" src="https://www.pxgrow.com/image/sponsor/user/purple.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://afdian.com/a/ziiziz">
+    <img width="40" style="border-radius:20px" title="YGG" src="https://www.pxgrow.com/image/sponsor/user/55.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="tony" src="https://www.pxgrow.com/image/sponsor/user/51.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="lk" src="https://api.pxgrow.com/uploads/avatar/39A/334/wC/u.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="用户z89CSwv9" src="https://www.pxgrow.com/image/user/default/2.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="南" src="https://www.pxgrow.com/image/sponsor/user/purple.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title=".." src="https://www.pxgrow.com/image/sponsor/user/44.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="__tynam" src="https://www.pxgrow.com/image/sponsor/user/43.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://github.com/zhixiaotong">
+    <img width="40" style="border-radius:20px" title="知晓同丶" src="https://www.pxgrow.com/image/sponsor/user/42.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="馒头" src="https://www.pxgrow.com/image/sponsor/user/41.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="刘杨" src="https://www.pxgrow.com/image/sponsor/user/26.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="Biu" src="https://www.pxgrow.com/image/sponsor/user/32.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.leaferjs.com">
+    <img width="40" style="border-radius:20px" title="Leafer" src="https://www.pxgrow.com/image/sponsor/user/4.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="sunboy" src="https://www.pxgrow.com/image/sponsor/user/36.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="张恒来啦" src="https://www.pxgrow.com/image/sponsor/user/35.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="呆若牦牛" src="https://www.pxgrow.com/image/sponsor/user/34.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="艳霞" src="https://www.pxgrow.com/image/sponsor/user/33.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="skywalker512" src="https://www.pxgrow.com/image/sponsor/user/21.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.u-tools.cn/plugins/detail/%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7%20Plus/index.html">
+    <img width="40" style="border-radius:20px" title="xiaou@截图工具" src="https://www.pxgrow.com/image/sponsor/user/135.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="黄鸭梨" src="https://www.pxgrow.com/image/sponsor/user/yellow.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="子洋" src="https://www.pxgrow.com/image/sponsor/user/17.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="一只胖憨憨" src="https://api.pxgrow.com/uploads/avatar/249/AzA/32/u.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="danshen.me">
+    <img width="40" style="border-radius:20px" title="channely" src="https://www.pxgrow.com/image/sponsor/user/15.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="ibryang" src="https://www.pxgrow.com/image/user/default/2.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="用户3PvP2Sxw" src="https://www.pxgrow.com/image/user/default/2.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="kooriookami" src="https://www.pxgrow.com/image/user/default/3.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="毛豆花生" src="https://www.pxgrow.com/image/sponsor/user/8.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://afdian.com/a/programschool">
+    <img width="40" style="border-radius:20px" title="编程学院" src="https://www.pxgrow.com/image/sponsor/user/7.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://afdian.com/u/8230187ef5a811eeba2d5254001e7c00">
+    <img width="40" style="border-radius:20px" title="Jikun" src="https://www.pxgrow.com/image/sponsor/user/5.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="robot" src="https://www.pxgrow.com/image/sponsor/user/29.jpeg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="黄某人" src="https://www.pxgrow.com/image/user/default/3.jpg" />
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    <img width="40" style="border-radius:20px" title="爱发电用户_xugk" src="https://www.pxgrow.com/image/sponsor/user/yellow.png" />
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.pxgrow.com/vip/logo/">
+    <img width="40" style="border-radius:20px" title="赞助我们" src="https://www.leaferjs.com/image/sponsor/silver/add.jpg" />
+  </a>
+</p>
+
+## 铜牌赞助
+
+<p style="display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;"><a target="_blank" rel="sponsored" href="">
+    龙眼吃多了上火
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户zw8T392T
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户z89CSw69
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户CzP9SCAz
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    Kim
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户249AzA8v
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    l0f5c7bf
+  </a>
+  <a target="_blank" rel="sponsored" href="www.ai5.cn">
+    夏先生
+  </a>
+  <a target="_blank" rel="sponsored" href="https://blog.yinuosnowball.top/">
+    yinuo
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户3wTwAz78
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户zw8T39zT
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户249AzA82
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户CzP9SCvz
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户39A334xT
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户3wTwAz3x
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户zw8T39zC
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    稀饭、微凉
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户CzP9SCT4
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.haozhuji.net">
+    便宜VPS服务器
+  </a>
+  <a target="_blank" rel="sponsored" href="https://unibest.tech">
+    菲鸽
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    szhua
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    Cheng
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    Suezp
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    beyond
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户3PvP2S63
+  </a>
+  <a target="_blank" rel="sponsored" href="frameelf">
+    o
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    Arvin
+  </a>
+  <a target="_blank" rel="sponsored" href="finallycc.vip">
+    finallycc
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户39A3346C
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    大雷
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户CzP9SC4z
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    随风
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户z89CSwT9
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户3wTwAzCx
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    UPMuling
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    军杨
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    桔子雨工作室
+  </a>
+  <a target="_blank" rel="sponsored" href="https://llmapi.fit">
+    用户zw8T37xC
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    前端炒饭仔
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户z89CSw46
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    崮生
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.hudongdian.cn">
+    互动矩阵
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.cnblogs.com/maplepie">
+    ZhanYoHo
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    何佳Q
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    coderhyh
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    早上好啊
+  </a>
+  <a target="_blank" rel="sponsored" href="https://pro.kuaitu.cc">
+    快图设计
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    do
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    毛哥哥
+  </a>
+  <a target="_blank" rel="sponsored" href="https://xpai.design">
+    迅排设计
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户z89CSw86
+  </a>
+  <a target="_blank" rel="sponsored" href=" ">
+    糖果
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    南城以北
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    黑色摩天仑
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    Charm
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    Lauginwing
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    在路上
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    Jerry
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    张余🌈
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    李狗嗨。💢
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户zw8T376T
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    用户249AzA2v
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    ʚ LMT ɞ
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    格子
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    等等
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    goosen
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.fastadmin.net">
+    F4nniu
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    梁福斌
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    江万江
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    杨超
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    ToB Dev
+  </a>
+  <a target="_blank" rel="sponsored" href="https://me.yicode.tech">
+    前端之虎陈随易
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    A☀️云☀️A
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    zhk
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_c9c82
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.wktline.com">
+    轻简历
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_0fac0
+  </a>
+  <a target="_blank" rel="sponsored" href="https://wangyesheji.cn">
+    wangyesheji.cn
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    风间
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_Tqsm
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_6KpE
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    星小志
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    zwm
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_3725c
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    Noth1ng
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    纳西妲の√
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_Ahb9
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_7617d
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    冷漠
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_9RXB
+  </a>
+  <a target="_blank" rel="sponsored" href="https://afdian.com/a/smzdd">
+    今日值得读
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_49sT
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_NFCS
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_43ad8
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_30455
+  </a>
+  <a target="_blank" rel="sponsored" href="https://github.com/ztkuaikuai">
+    砖吐筷筷
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    xiaozhang
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_b47b3
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    longbow1998
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_5d755
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_b76b8
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_e70c2
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.u-tools.cn/plugins/detail/%E6%88%AA%E5%9B%BE%E5%B7%A5%E5%85%B7%20Plus/index.html">
+    xiaou@截图工具
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    ousiri
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_039dc
+  </a>
+  <a target="_blank" rel="sponsored" href="https://github.com/Barrior">
+    花祁
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_99f39
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    坤坤
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_X6hp
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    ycteng
+  </a>
+  <a target="_blank" rel="sponsored" href="https://afdian.com/u/dcd4b080fba411eeb64652540025c377">
+    曹吉美爸爸
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    啸沧海
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    Ronny
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_UXEV
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    Biu
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    王志强
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    SaltedFish
+  </a>
+  <a target="_blank" rel="sponsored" href="https://afdian.com/u/8230187ef5a811eeba2d5254001e7c00">
+    爱发电用户_76f9d
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    PD.新城คิดถึง
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    糖颂缘冥倾
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    ALBERT.
+  </a>
+  <a target="_blank" rel="sponsored" href="">
+    爱发电用户_Pbm7
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.leaferjs.com">
+    Leafer
+  </a>
+  <a target="_blank" rel="sponsored" href="https://www.pxgrow.com/coffee/sponsor/">
+    赞助我们
+  </a>
+</p>
