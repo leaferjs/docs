@@ -126,9 +126,9 @@ curve 表示转换为平滑曲线，设置 0 ～ 1 控制曲率，或设置 true
 
 close 表示是否闭合折线。
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Group](./Group.md) -->
+### Pen &nbsp;>&nbsp; [Group](./Group.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 <!--
 ## API

@@ -30,6 +30,10 @@ Star &nbsp;>&nbsp; [UI](./UI.md)
 
 内部逻辑：在内外圆上每 (360 / corners) 度取一个点，再将点连成线，组成一个多角星形。
 
+### startAngle: `number`
+
+起始偏移[角度](../interface/math/Math#rotation), 默认为 0, 取值范围为 -180 ～ 180。
+
 ### innerRadius: `number`
 
 内半径比例，默认 0.382，取值范围为 0.0 ～ 1.0。
@@ -50,9 +54,9 @@ innerRadius: 0.382
 
 ### [StarBox](../../plugin/in/box/StarBox.md)
 
-<!-- ## 继承元素
+## 继承元素
 
-### [UI](./UI.md) -->
+### Star &nbsp;>&nbsp; [UI](./UI.md)
 
 <!-- ## API
 

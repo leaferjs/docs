@@ -278,10 +278,9 @@ boxStyle: {
 const { x, y, width, height } = text.getBounds('content', 'inner')
 ```
 
-<!--
 ## 继承元素
 
-### [UI](./UI.md) -->
+### Text &nbsp;>&nbsp; [UI](./UI.md)
 
 <!-- ## API
 

@@ -72,19 +72,19 @@ bun add @leafer-in/resize
 
 ## 关键属性
 
-| 名称                                           | 描述                                                                          |
-| ---------------------------------------------- | ----------------------------------------------------------------------------- |
-| [flow](./Flow/flow.md)           | 布局方向：是否进行自动布局，可进一步指定布局的轴方向 x 或 y ，默认为 x 轴     |
-| [flowWrap](./Flow/flowWrap.md)   | 自动换行：是否自动换行， 默认不换行                                           |
-| [flowAlign](./Flow/flowAlign.md) | 对齐：对齐子元素的方式， 默认为 top-left                                      |
-| [gap](./Flow/gap.md)             | 间距：子元素之间的间距， 默认为 0                                             |
-| [padding](./Flow/padding.md)     | 内边距：容器的内边距, 默认为 0                                                |
+| 名称                             | 描述                                                                                  |
+| -------------------------------- | ------------------------------------------------------------------------------------- |
+| [flow](./Flow/flow.md)           | 布局方向：是否进行自动布局，可进一步指定布局的轴方向 x 或 y ，默认为 x 轴             |
+| [flowWrap](./Flow/flowWrap.md)   | 自动换行：是否自动换行， 默认不换行                                                   |
+| [flowAlign](./Flow/flowAlign.md) | 对齐：对齐子元素的方式， 默认为 top-left                                              |
+| [gap](./Flow/gap.md)             | 间距：子元素之间的间距， 默认为 0                                                     |
+| [padding](./Flow/padding.md)     | 内边距：容器的内边距, 默认为 0                                                        |
 | [itemBox](./Flow/itemBox.md)     | 盒类型：采用子元素的哪个 [盒类型](../../../guide/advanced/bounds.md) 来布局, 默认 box |
 
 ## Flow 内的子元素布局属性
 
-| 名称                                               | 描述                                                                      |
-| -------------------------------------------------- | ------------------------------------------------------------------------- |
+| 名称                                 | 描述                                                                      |
+| ------------------------------------ | ------------------------------------------------------------------------- |
 | [inFlow](./Flow/inFlow.md)           | 加入布局：元素是否加入自动布局, 默认会加入（父元素为自动布局的情况下）    |
 | [autoWidth](./Flow/autoWidth.md)     | 自动宽度：分配剩余宽度给此元素（忽略 width），类似 Flex 的 grow / shrink  |
 | [autoHeight](./Flow/autoHeight.md)   | 自动高度：分配剩余高度给此元素（忽略 height），类似 Flex 的 grow / shrink |
@@ -92,9 +92,9 @@ bun add @leafer-in/resize
 | [heightRange](./Flow/heightRange.md) | 限制高度：限制 autoHeight 影响的高度范围                                  |
 | [lockRatio](./Flow/lockRatio.md)     | 锁定比例：采用自动宽高时，是否锁定原始宽高比例                            |
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Box](../../../reference/display/Box.md) -->
+### Flow &nbsp;>&nbsp; [Box](../../../reference/display/Box.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 ## 示例
 

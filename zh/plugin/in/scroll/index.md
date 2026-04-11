@@ -82,9 +82,9 @@ type IScrollBarTheme = 'light' | 'dark' | IBoxInputData
 
 引擎配置 [config.move.scroll = 'limit' ](../../../reference/config/app/move.md#move-scroll-boolean-x-y-limit-x-limit-y-limit) 可限制在有内容的区域滚动
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Group](../../../reference/display/Group.md) -->
+### ScrollBar &nbsp;>&nbsp; [Group](../../../reference/display/Group.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 <!-- ## API
 

@@ -124,6 +124,14 @@ console.log(app.zoomLayer.scale) // 2
 
 ### [缩放平移视图](../../guide/advanced/viewport.md)
 
+## 继承元素
+
+### App &nbsp;>&nbsp; [Leafer](./Leafer.md) &nbsp;>&nbsp; [Group](./Group.md) &nbsp;>&nbsp; [UI](./UI.md)
+
+<!-- ## API
+
+### [App](../../api/classes/App.md) -->
+
 ## 示例
 
 <case name="Editor" index=2 count=2 x=20></case>
@@ -146,11 +154,3 @@ console.log(app.zoomLayer.scale) // 2
 <<< @/code/plugin/editor/create-mode.ts
 <<< @/code/plugin/editor/create-mode.js
 :::
-
-<!-- ## 继承元素
-
-### [Leafer](./Leafer.md) -->
-
-<!-- ## API
-
-### [App](../../api/classes/App.md) -->

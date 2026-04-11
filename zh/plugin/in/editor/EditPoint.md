@@ -35,9 +35,9 @@ type IEditPointType =
   | 'button' // 自定义按钮
 ```
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Box](../../../reference/display/Box.md) -->
+### EditPoint &nbsp;>&nbsp; [Box](../../../reference/display/Box.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 <!-- ## API
 

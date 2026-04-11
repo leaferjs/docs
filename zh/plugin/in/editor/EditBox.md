@@ -84,9 +84,9 @@ Y 轴是否存在镜像翻转（scaleY 为负数）。
 
 获取中间控制点的样式， 返回一个数组。
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Group](../../../reference/display/Group.md) -->
+### EditBox &nbsp;>&nbsp; [Group](../../../reference/display/Group.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 <!-- ## API
 

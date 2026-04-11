@@ -280,7 +280,7 @@ interface IClientPointData {
 
 ### unlockLayout ( )
 
-## 示例
+解锁布局。
 
 通过锁定可以避免多次重复布局，列表越大，性能优化效果越明显。
 
@@ -321,9 +321,9 @@ leafer.unlockLayout()
 
 ### [ResizeEvent](../event/basic/Resize.md)
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Group](./Group.md) -->
+### Leafer &nbsp;>&nbsp; [Group](./Group.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ## 示例
 

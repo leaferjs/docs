@@ -144,9 +144,9 @@ interface IPathDataArrowOffset {
 }
 ```
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Line](../../../reference/display/Line.md) -->
+### Arrow &nbsp;>&nbsp; [Line](../../../reference/display/Line.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 ## 示例
 

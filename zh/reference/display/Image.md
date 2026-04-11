@@ -104,9 +104,9 @@ Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 ### [ImageBox](../../plugin/in/box/ImageBox.md)
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Rect](./Rect.md) -->
+### Image &nbsp;>&nbsp; [Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 <!-- ## API
 

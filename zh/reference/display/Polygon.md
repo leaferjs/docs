@@ -35,6 +35,10 @@ Polygon &nbsp;>&nbsp; [UI](./UI.md)
 sides: 5
 ```
 
+### startAngle: `number`
+
+起始偏移[角度](../interface/math/Math#rotation), 默认为 0, 取值范围为 -180 ～ 180。
+
 ## points 模式
 
 可通过 points 定义自由多边形。
@@ -65,9 +69,9 @@ sides: 5
 
 ### [PolygonBox](../../plugin/in/box/PolygonBox.md)
 
-<!-- ## 继承元素
+## 继承元素
 
-### [UI](./UI.md) -->
+### Polygon &nbsp;>&nbsp; [UI](./UI.md)
 
 <!-- ## API
 

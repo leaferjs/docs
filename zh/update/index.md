@@ -2,6 +2,20 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 04 / 13
+
+> v2.0.9
+
+#### 🌱 新增
+
+\- 🌸 [Rect](../reference/display/Rect.md)、[Box](../reference/display/Box.md) 支持通过 strokeWidth 单独设置四条边
+
+\- 🌸 [Polygon](../reference/display/Polygon.md#startangle-number)、[Star](../reference/display/Star.md#startangle-number) 新增 startAngle 属性，可偏移起始角度
+
+#### 🌷 感谢反馈
+
+@小丑的尾巴不见了 @小志
+
 ## 2026 / 04 / 03
 
 > v2.0.8

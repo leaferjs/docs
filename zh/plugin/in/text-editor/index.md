@@ -95,9 +95,9 @@ app.editor.getInnerEditor('TextEditor').config.selectAll = false
 
 默认添加了 css 类名：'leafer-text-editor'
 
-<!-- ## 继承
+## 继承
 
-### [InnerEditor](../editor/InnerEditor.md) -->
+### TextEditor &nbsp;>&nbsp; [InnerEditor](../editor/InnerEditor.md)
 
 ## 示例
 

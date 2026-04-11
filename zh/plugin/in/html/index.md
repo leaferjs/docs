@@ -207,7 +207,7 @@ LeaferJS 内部对 SVG 渲染做了很多优化，不会有太大的性能影响
 
 ## 继承元素
 
-### [Image](../../../reference/display/Image.md)
+### HTMLText &nbsp;>&nbsp; [Image](../../../reference/display/Image.md) &nbsp;>&nbsp; [Rect](../../../reference/display/Rect.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 ## 示例
 

@@ -110,10 +110,9 @@ type IScaleFixed = boolean | 'zoom-in'
 
 ### [path 优先模式](../UI/path.md)
 
-<!--
 ## 继承元素
 
-### [Group](./Group.md) + [Rect](./Rect.md) -->
+### Box &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 <!-- ## API
 

@@ -116,9 +116,9 @@ interface IRobotAnimation {
 
 是否循环播放动作中的图片帧。
 
-<!-- ## 继承元素
+## 继承元素
 
-### [UI](../../../reference/display/UI.md) -->
+### Robot &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 <!-- ## API
 

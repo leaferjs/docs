@@ -69,9 +69,9 @@ innerRadius: 0.5
 
 ### [EllipseBox](../../plugin/in/box/EllipseBox.md)
 
-<!-- ## 继承元素
+## 继承元素
 
-### [UI](./UI.md) -->
+### Ellipse &nbsp;>&nbsp; [UI](./UI.md)
 
 <!-- ## API
 

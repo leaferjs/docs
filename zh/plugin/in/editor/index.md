@@ -112,66 +112,66 @@ mergeConfig 的缓存，频繁访问不会有性能问题。
 
 ## 更多属性
 
-| 名称                                                | 描述                                                                                                                                           |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| 状态                                                |                                                                                                                                                |
-| [visible](./Editor/state.md)        | 是否显示编辑器，隐藏后，交互功能也将禁用                                                                                                       |
-| [hittable](./Editor/state.md)       | 编辑器是否响应交互事件，设为 false 后，将禁用编辑器交互                                                                                        |
-| [single](./Editor/state.md)         | 是否只选中了单个元素                                                                                                                           |
-| [multiple](./Editor/state.md)       | 是否选中了多个元素                                                                                                                             |
-| [editing](./Editor/state.md)        | 是否处于编辑状态，选择元素后即进入编辑状态                                                                                                     |
-| [innerEditing](./Editor/state.md)   | 是否处于内部编辑状态，双击单个元素进入内部编辑状态（有内部编辑器的情况）                                                                       |
-| [groupOpening](./Editor/state.md)   | 是否处于打开组状态，双击组可进入打开状态，方便选择组内元素                                                                                     |
-| [dragging](./Editor/state.md)       | 是否正在拖拽编辑器，包含拖拽控制点、边                                                                                                         |
-| [gesturing](./Editor/state.md)      | 是否正在通过移动端手势拖拽、缩放、旋转编辑器                                                                                                   |
-| [moving](./Editor/state.md)         | 是否正在移动编辑器位置                                                                                                                         |
-| [resizing](./Editor/state.md)       | 是否正在 reisze 编辑器                                                                                                                         |
-| [rotating](./Editor/state.md)       | 是否正在旋转编辑器                                                                                                                             |
-| [skewing](./Editor/state.md)        | 是否正在倾斜编辑器                                                                                                                             |
-| 列表                                                |                                                                                                                                                |
-| [list](./Editor/list.md)            | 当前选中的元素列表（只读），未选中时为空数组                                                                                                   |
-| [leafList](./Editor/list.md)        | 当前选中的元素列表对象（只读）， 未选中时为空列表对象                                                                                          |
-| [openedGroupList](./Editor/list.md) | 当前处于打开状态的组列表对象（只读）， 未选中时为空列表对象                                                                                    |
-| 显示元素                                            |                                                                                                                                                |
+| 名称                                | 描述                                                                                                                                   |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 状态                                |                                                                                                                                        |
+| [visible](./Editor/state.md)        | 是否显示编辑器，隐藏后，交互功能也将禁用                                                                                               |
+| [hittable](./Editor/state.md)       | 编辑器是否响应交互事件，设为 false 后，将禁用编辑器交互                                                                                |
+| [single](./Editor/state.md)         | 是否只选中了单个元素                                                                                                                   |
+| [multiple](./Editor/state.md)       | 是否选中了多个元素                                                                                                                     |
+| [editing](./Editor/state.md)        | 是否处于编辑状态，选择元素后即进入编辑状态                                                                                             |
+| [innerEditing](./Editor/state.md)   | 是否处于内部编辑状态，双击单个元素进入内部编辑状态（有内部编辑器的情况）                                                               |
+| [groupOpening](./Editor/state.md)   | 是否处于打开组状态，双击组可进入打开状态，方便选择组内元素                                                                             |
+| [dragging](./Editor/state.md)       | 是否正在拖拽编辑器，包含拖拽控制点、边                                                                                                 |
+| [gesturing](./Editor/state.md)      | 是否正在通过移动端手势拖拽、缩放、旋转编辑器                                                                                           |
+| [moving](./Editor/state.md)         | 是否正在移动编辑器位置                                                                                                                 |
+| [resizing](./Editor/state.md)       | 是否正在 reisze 编辑器                                                                                                                 |
+| [rotating](./Editor/state.md)       | 是否正在旋转编辑器                                                                                                                     |
+| [skewing](./Editor/state.md)        | 是否正在倾斜编辑器                                                                                                                     |
+| 列表                                |                                                                                                                                        |
+| [list](./Editor/list.md)            | 当前选中的元素列表（只读），未选中时为空数组                                                                                           |
+| [leafList](./Editor/list.md)        | 当前选中的元素列表对象（只读）， 未选中时为空列表对象                                                                                  |
+| [openedGroupList](./Editor/list.md) | 当前处于打开状态的组列表对象（只读）， 未选中时为空列表对象                                                                            |
+| 显示元素                            |                                                                                                                                        |
 | [buttons](./Editor/display.md)      | 按钮组，用于放置自定义按钮，整体 [around](../../../reference/UI/around.md) 对齐， 位于编辑器底部，可以 [进行配置](./config/buttons.md) |
-| [editBox](./Editor/display.md)      | 编辑框，负责编辑框的显示与交互，了解 [EditBox](./EditBox.md)、[EditPoint](./EditPoint.md) 类                   |
-| [editTool](./Editor/display.md)     | 当前使用的编辑工具，用来编辑元素的尺寸、外形，选中元素时会自动载入，可 [自定义编辑工具](./editOuter/register.md)               |
-| [innerEditor](./Editor/display.md)  | 当前使用的内部编辑器，用来编辑文本、路径等内部细节，通过双击元素打开， 可 [自定义内部编辑器](./editInner/register.md)          |
-| [selector](./Editor/display.md)     | 选择器，负责单选、多选、框选元素的交互，渲染元素选中、hover 线框                                                                               |
+| [editBox](./Editor/display.md)      | 编辑框，负责编辑框的显示与交互，了解 [EditBox](./EditBox.md)、[EditPoint](./EditPoint.md) 类                                           |
+| [editTool](./Editor/display.md)     | 当前使用的编辑工具，用来编辑元素的尺寸、外形，选中元素时会自动载入，可 [自定义编辑工具](./editOuter/register.md)                       |
+| [innerEditor](./Editor/display.md)  | 当前使用的内部编辑器，用来编辑文本、路径等内部细节，通过双击元素打开， 可 [自定义内部编辑器](./editInner/register.md)                  |
+| [selector](./Editor/display.md)     | 选择器，负责单选、多选、框选元素的交互，渲染元素选中、hover 线框                                                                       |
 
 ## 关键方法
 
-| 名称                                                          | 描述                                                                                                                                        |
-| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| 选择                                                          |                                                                                                                                             |
-| [select()](./Editor/select.md)                | 选中元素                                                                                                                                    |
-| [cancel()](./Editor/select.md)                | 取消选中元素                                                                                                                                |
-| [hasItem()](./Editor/select.md)               | 是否已选中某个元素                                                                                                                          |
-| [addItem()](./Editor/select.md)               | 新增一个元素到选中列表                                                                                                                      |
-| [removeItem()](./Editor/select.md)            | 从选中列表中移出元素                                                                                                                        |
-| 编组                                                          |                                                                                                                                             |
-| [group()](./Editor/group.md)                  | 将选中的元素进行编组                                                                                                                        |
-| [ungroup()](./Editor/group.md)                | 将选中的元素进行解组                                                                                                                        |
-| [openGroup()](./Editor/group.md)              | 打开组， 模拟双击打开组的功能                                                                                                               |
-| [closeGroup()](./Editor/group.md)             | 关闭组，关闭双击打开的组                                                                                                                    |
-| 内部编辑                                                      |                                                                                                                                             |
-| [getInnerEditor()](./Editor/innerEditor.md)   | 获取内部编辑器实例                                                                                                                          |
-| [openInnerEditor()](./Editor/innerEditor.md)  | 打开元素的内部编辑器                                                                                                                        |
-| [closeInnerEditor()](./Editor/innerEditor.md) | 关闭内部编辑器                                                                                                                              |
-| 锁定                                                          |                                                                                                                                             |
-| [lock()](./Editor/lock.md)                    | 锁定选中的元素                                                                                                                              |
-| [unlock()](./Editor/lock.md)                  | 解锁选中的元素                                                                                                                              |
-| 层级                                                          |                                                                                                                                             |
-| [toTop()](./Editor/zIndex.md)                 | 移动选中元素到最顶层（所属 Group 中）                                                                                                       |
-| [toBottom()](./Editor/zIndex.md)              | 移动选中元素到最底层（所属 Group 中）                                                                                                       |
-| 更新                                                          |                                                                                                                                             |
-| [update()](./Editor/update.md)                | 手动更新编辑器的布局、样式等                                                                                                                |
-| [updateEditBox()](./Editor/update.md)         | 手动更新编辑框，使其贴合元素，一般用于多选元素对齐后操作。                                                                                  |
-| 编辑工具                                                      |                                                                                                                                             |
-| [getEditTool()](./Editor/update.md)           | 获取编辑工具实例                                                                                                                            |
-| [updateEditTool()](./Editor/update.md)        | 更新编辑工具，选择元素后自动调用此方法                                                                                                      |
-| 变换                                                          |                                                                                                                                             |
-| [move()](./Editor/transform.md)               | 位移选中元素 <badge>增量操作</badge>                                                                                                        |
+| 名称                                          | 描述                                                                                                                                                |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 选择                                          |                                                                                                                                                     |
+| [select()](./Editor/select.md)                | 选中元素                                                                                                                                            |
+| [cancel()](./Editor/select.md)                | 取消选中元素                                                                                                                                        |
+| [hasItem()](./Editor/select.md)               | 是否已选中某个元素                                                                                                                                  |
+| [addItem()](./Editor/select.md)               | 新增一个元素到选中列表                                                                                                                              |
+| [removeItem()](./Editor/select.md)            | 从选中列表中移出元素                                                                                                                                |
+| 编组                                          |                                                                                                                                                     |
+| [group()](./Editor/group.md)                  | 将选中的元素进行编组                                                                                                                                |
+| [ungroup()](./Editor/group.md)                | 将选中的元素进行解组                                                                                                                                |
+| [openGroup()](./Editor/group.md)              | 打开组， 模拟双击打开组的功能                                                                                                                       |
+| [closeGroup()](./Editor/group.md)             | 关闭组，关闭双击打开的组                                                                                                                            |
+| 内部编辑                                      |                                                                                                                                                     |
+| [getInnerEditor()](./Editor/innerEditor.md)   | 获取内部编辑器实例                                                                                                                                  |
+| [openInnerEditor()](./Editor/innerEditor.md)  | 打开元素的内部编辑器                                                                                                                                |
+| [closeInnerEditor()](./Editor/innerEditor.md) | 关闭内部编辑器                                                                                                                                      |
+| 锁定                                          |                                                                                                                                                     |
+| [lock()](./Editor/lock.md)                    | 锁定选中的元素                                                                                                                                      |
+| [unlock()](./Editor/lock.md)                  | 解锁选中的元素                                                                                                                                      |
+| 层级                                          |                                                                                                                                                     |
+| [toTop()](./Editor/zIndex.md)                 | 移动选中元素到最顶层（所属 Group 中）                                                                                                               |
+| [toBottom()](./Editor/zIndex.md)              | 移动选中元素到最底层（所属 Group 中）                                                                                                               |
+| 更新                                          |                                                                                                                                                     |
+| [update()](./Editor/update.md)                | 手动更新编辑器的布局、样式等                                                                                                                        |
+| [updateEditBox()](./Editor/update.md)         | 手动更新编辑框，使其贴合元素，一般用于多选元素对齐后操作。                                                                                          |
+| 编辑工具                                      |                                                                                                                                                     |
+| [getEditTool()](./Editor/update.md)           | 获取编辑工具实例                                                                                                                                    |
+| [updateEditTool()](./Editor/update.md)        | 更新编辑工具，选择元素后自动调用此方法                                                                                                              |
+| 变换                                          |                                                                                                                                                     |
+| [move()](./Editor/transform.md)               | 位移选中元素 <badge>增量操作</badge>                                                                                                                |
 | [flip()](./Editor/transform.md)               | 按轴方向（ [世界坐标系](../../../guide/advanced/coordinate.md#world-世界坐标系)） 镜像/翻转选中元素                                                 |
 | [scaleOf()](./Editor/transform.md)            | 围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](../../../guide/advanced/coordinate.md#box-坐标系) ）缩放选中元素 <badge>增量操作</badge> |
 | [rotateOf()](./Editor/transform.md)           | 围绕 [element](#element-ui) 元素的原点 origin（ [box 坐标](../../../guide/advanced/coordinate.md#box-坐标系) ）旋转选中元素 <badge>增量操作</badge> |
@@ -199,8 +199,8 @@ mergeConfig 的缓存，频繁访问不会有性能问题。
 
 同时支持事件钩子 [beforeMove](./config/event.md#beforemove-ieditorbeforemove)、[beforeScale](./config/event.md#beforescale-ieditorbeforescale)、[beforeRotate](./config/event.md#beforerotate-ieditorbeforerotate) 等，可改变操作数据。
 
-| 名称                                                              | 描述               |
-| ----------------------------------------------------------------- | ------------------ |
+| 名称                                              | 描述               |
+| ------------------------------------------------- | ------------------ |
 | [EditorEvent](./event/EditorEvent.md)             | 选中、取消元素事件 |
 | [EditorMoveEvent](./event/EditorMoveEvent.md)     | 移动事件           |
 | [EditorScaleEvent](./event/EditorScaleEvent.md)   | 调整大小事件       |
@@ -209,7 +209,6 @@ mergeConfig 的缓存，频繁访问不会有性能问题。
 | [EditorGroupEvent](./event/EditorGroupEvent.md)   | 编组事件           |
 | [InnerEditorEvent](./event/InnerEditorEvent.md)   | 内部编辑器事件     |
 
-<!--
 ## 编辑工具
 
 用来编辑元素的尺寸、外形，选中元素时会自动载入。
@@ -230,12 +229,11 @@ mergeConfig 的缓存，频繁访问不会有性能问题。
 
 ### [InnerEditor](./InnerEditor.md)
 
-### [自定义内部编辑器](./editInner/register.md) -->
+### [自定义内部编辑器](./editInner/register.md)
 
-<!--
 ## 继承元素
 
-### [Group](../../../reference/display/Group.md) -->
+### Editor &nbsp;>&nbsp; [Group](../../../reference/display/Group.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 
 <!-- ## API
 

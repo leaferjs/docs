@@ -66,20 +66,9 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 添加子元素在指定的元素后面。
 
-<!-- ### clone ( ):[`UI`](./UI.md)
+## 继承元素
 
-克隆当前元素。 -->
-
-<!-- ### 批量操作
-
-### addMany ( child: [`UI`](./UI.md), child[`UI`](./UI.md), ... )
-
-添加多个子元素，推荐使用 add ( [child, child, ...] ) 代替。
- -->
-
-<!-- ## 继承元素
-
-### [UI](./UI.md) -->
+### Group &nbsp;>&nbsp; [UI](./UI.md)
 
 <!-- ## API
 

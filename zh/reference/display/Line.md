@@ -75,9 +75,9 @@ console.log(line.toPoint) // {x: 200, y: 100})  会根据 width 与 rotation 自
 
 圆角大小，使折线拐角处变的圆滑。
 
-<!-- ## 继承元素
+## 继承元素
 
-### [UI](./UI.md) -->
+### Line &nbsp;>&nbsp; [UI](./UI.md)
 
 <!--
 ## API

@@ -1,6 +1,6 @@
 # leafer-draw
 
-相对 [leafer-ui](../ui/start.md)，减少了 [App](../../../reference/display/App.md) 、事件交互等功能，适用于纯绘图场景（50KB min+gzip）。
+相对 [leafer-ui](../ui/start.md)，减少了 [App](../../../reference/display/App.md) 、事件交互等功能，适用于纯绘图场景（58KB min+gzip）。
 
 ##
 

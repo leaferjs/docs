@@ -61,9 +61,9 @@ type IOverflow =
 
 不存在滚动时，会返回元素的 [worldTransform](../UI/transform.md#worldtransform-imatrixwithscaledata) 变换矩阵。
 
-<!-- ## 继承元素
+## 继承元素
 
-### [Box](./Box.md) -->
+### Frame &nbsp;>&nbsp; [Box](./Box.md) &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
 
 <!-- ## API
 
