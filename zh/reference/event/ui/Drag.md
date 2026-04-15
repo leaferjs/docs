@@ -126,9 +126,9 @@ totalX, totalY 属性的转换。
 
 设置拖拽数据，[`drop`](./Drop.md) 事件触发后自动重置。
 
-<!-- ## 继承事件
+## 继承事件
 
-### [PointerEvent](./Pointer) -->
+### DragEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 

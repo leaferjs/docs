@@ -216,10 +216,9 @@ x, y 属性的转换。
 
 获取事件相对于 relative 元素的 [本地坐标](../../../guide/advanced/coordinate.md#local-本地坐标系) 位置，relative 元素不存在时为当前侦听元素。
 
-<!--
 ## 继承事件
 
-### [UIEvent](./UIEvent.md) -->
+### PointerEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 

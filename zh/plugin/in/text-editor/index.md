@@ -12,16 +12,6 @@ import Case from '/component/Case.vue'
 TextEditor &nbsp;>&nbsp; [InnerEditor](../editor/InnerEditor.md)
 :::
 
-<!-- # 文本编辑
-
-双击文本进入编辑状态，需要先安装 [图形编辑器](../editor/index.md) 插件。 -->
-
-<!-- ## beta 版 公测插件 (本周会随新版本完全开放)
-
-目前该插件仅供公测用户体验使用、参与测试。
-
-稳定后会开放给大众使用，可通过 [发电](/sponsor/charge.md) 获得 公测资格。 -->
-
 ## 适用平台
 
 目前仅 web 平台 PC 端支持。

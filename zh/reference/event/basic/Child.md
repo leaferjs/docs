@@ -60,10 +60,9 @@ ChildEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 父元素。
 
-<!--
 ## 继承事件
 
-### [Event](./Event.md) -->
+### ChildEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 

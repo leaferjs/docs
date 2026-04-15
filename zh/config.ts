@@ -9,8 +9,8 @@ export default defineAdditionalConfig({
     themeConfig: {
         nav,
         sidebar: {
-            '/': { base: '/', items: docSidebar },
-            '/api/': { base: '/', items: apiSidebar }
+            '/': docSidebar,
+            '/api/': apiSidebar
         },
 
         search,

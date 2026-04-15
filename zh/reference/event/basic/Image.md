@@ -48,10 +48,9 @@ ImageEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 `image.error`
 
-<!--
 ## 继承事件
 
-### [Event](./Event.md) -->
+### ImageEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 

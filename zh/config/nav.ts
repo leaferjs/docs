@@ -3,9 +3,9 @@ import { DefaultTheme } from 'vitepress'
 export const nav: DefaultTheme.NavItem[] = [
     {
         text: '✨ AI', items: [
-            { text: '询问AI - DeepWiki', link: 'https://deepwiki.com/leaferjs/ai-docs' },
             { text: '询问AI - Context7', link: 'https://context7.com/leaferjs/ai-docs?tab=chat', },
-            { text: 'MCP', link: 'https://context7.com/leaferjs/ai-docs', },
+            { text: '询问AI - DeepWiki', link: 'https://deepwiki.com/leaferjs/ai-docs' },
+            { text: 'MCP & Skills', link: 'https://context7.com/leaferjs/ai-docs', },
             { text: 'Leafer AI 知识库', link: 'https://github.com/leaferjs/ai-docs', },
         ]
     },
@@ -26,7 +26,6 @@ export const nav: DefaultTheme.NavItem[] = [
         text: '生态', items: [
             { text: '官方 PxGrow 生态', link: 'https://www.pxgrow.com', },
             { text: '社区参与', link: '/contribute/' },
-            { text: 'AI 训练计划', link: '/guide/ai' },
             { text: '贡献指南', link: '/contribute/guide' },
         ]
     },

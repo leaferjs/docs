@@ -28,9 +28,9 @@ WatchEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 观察数据。
 
-<!-- ## 继承事件
+## 继承事件
 
-### [Event](./Event.md) -->
+### WatchEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!--
 ## API

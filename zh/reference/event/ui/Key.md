@@ -48,9 +48,9 @@ KeyEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Ev
 
 是否按住某一个物理按键。
 
-<!-- ## 继承事件
+## 继承事件
 
-### [UIEvent](./UIEvent) -->
+### KeyEvent &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!--
 ## API

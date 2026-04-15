@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: 'LeaferJS'
-  tagline: '好用的 Canvas 引擎，革新的开发体验'
+  tagline: '好用的 Canvas 引擎，轻松实现图形交互与编辑'
   image:
     src: '/svg/bettery/bettery-100-2.svg'
     width: 200

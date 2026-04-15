@@ -39,7 +39,7 @@ LeaferJS 是一款革新、好用的 Canvas 引擎，轻松实现图形交互与
 
 ## 社区提问指南
 
-[常见问题](/guide/problem/) ｜ [社区问答](https://www.zhihu.com/topic/736459154/unanswered) ｜ [提交 issue](https://github.com/leaferjs/leafer-ui/issues)
+[常见问题](./problem/) ｜ [社区问答](https://www.zhihu.com/topic/736459154/unanswered) ｜ [提交 issue](https://github.com/leaferjs/leafer-ui/issues)
 
 简单问题可通过右下角的 AI 气泡对话框进行询问～
 

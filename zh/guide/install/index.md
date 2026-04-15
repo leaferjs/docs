@@ -2,11 +2,11 @@
 
 ## 通用场景
 
-🚀 想马上在产品中使用，请安装 [leafer-ui](https://leaferjs.com/ui/guide/install/ui/start.html)（66KB min+gzip 零依赖），开始你的探索之旅。
+🚀 想马上在产品中使用，请安装 [leafer-ui](https://leaferjs.com/ui/guide/install/ui/start.html)（70KB min+gzip 零依赖），开始你的探索之旅。
 
 ## 高效绘图场景
 
-高效绘图场景，推荐直接安装更轻量的 [leafer-draw](https://leaferjs.com/ui/guide/install/draw/start.html) （56KB min+gzip）。
+高效绘图场景，推荐直接安装更轻量的 [leafer-draw](https://leaferjs.com/ui/guide/install/draw/start.html) （58KB min+gzip）。
 
 ## 游戏开发场景
 

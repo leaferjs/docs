@@ -76,9 +76,9 @@ RenderEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <<< @/code/platform/render.ts
 
-<!-- ## 继承事件
+## 继承事件
 
-### [Event](./Event.md) -->
+### RenderEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 

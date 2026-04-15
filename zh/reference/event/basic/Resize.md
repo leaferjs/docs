@@ -32,9 +32,9 @@ ResizeEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 老的尺寸信息。
 
-<!-- ## 继承事件
+## 继承事件
 
-### [Event](./Event.md) -->
+### ResizeEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!--
 ## API

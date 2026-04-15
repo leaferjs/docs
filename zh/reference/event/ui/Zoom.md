@@ -47,9 +47,9 @@ ZoomEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEv
 
 是否为多点触屏派发。
 
-<!-- ## 继承事件
+## 继承事件
 
-### [UIEvent](./UIEvent) -->
+### ZoomEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEvent.md) &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 

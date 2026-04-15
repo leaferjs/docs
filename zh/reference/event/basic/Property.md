@@ -48,9 +48,9 @@ PropertyEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 新的值。
 
-<!-- ## 继承事件
+## 继承事件
 
-### [Event](./Event.md) -->
+### PropertyEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 

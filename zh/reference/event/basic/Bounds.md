@@ -46,6 +46,10 @@ BoundsEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 `bounds.world`
 
+## 继承事件
+
+### BoundsEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
+
 ## 示例
 
 ::: code-group

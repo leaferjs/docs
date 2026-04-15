@@ -61,9 +61,9 @@ LayoutEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 `layout.end`
 
-<!-- ## 继承事件
+## 继承事件
 
-### [Event](./Event.md) -->
+### LayoutEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!--
 ## API

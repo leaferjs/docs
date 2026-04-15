@@ -64,6 +64,10 @@ polygon.origin = 'right'
 polygon.setTransform(transform) // 重设 transform，会自动处理 origin 的变化
 ```
 
+## 归属
+
+### [UI 元素](../display/UI.md)
+
 ## 示例
 
 <case name="Around" index=0  editor=false></case>
@@ -101,7 +105,3 @@ polygon.setTransform(transform) // 重设 transform，会自动处理 origin 的
 <<< @/code/property/origin/skew.ts [Leafer]
 <<< @/code/property/origin/app/skew.ts [App]
 :::
-
-## 归属
-
-### [UI 元素](../display/UI.md)

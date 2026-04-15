@@ -116,9 +116,9 @@ app.on_(LeaferEvent.UPDATE_MODE, (data: { mode: ILeaferMode }) => {
 })
 ```
 
-<!-- ## 继承事件
+## 继承事件
 
-### [Event](./Event.md) -->
+### LeaferEvent &nbsp;>&nbsp; [Event](../basic/Event.md)
 
 <!-- ## API
 
