@@ -2,10 +2,13 @@ import { defineAdditionalConfig } from 'vitepress'
 import { apiSidebar } from './config/sidebar/api'
 import { docSidebar } from './config/sidebar/doc'
 import { nav } from './config/nav'
-import { search } from './config/search'
+//import { search } from './config/search'
 
 
 export default defineAdditionalConfig({
+    description: "LeaferJS Docs",
+    lang: 'zh-CN',
+
     themeConfig: {
         nav,
         sidebar: {
@@ -13,7 +16,7 @@ export default defineAdditionalConfig({
             '/api/': apiSidebar
         },
 
-        search,
+        //search,
 
         outlineTitle: '导航',
 

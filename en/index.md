@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/
+      link: /en/guide/
     - theme: alt
       text: Homepage
       link: https://www.leaferjs.com

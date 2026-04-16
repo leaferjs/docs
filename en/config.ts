@@ -10,6 +10,9 @@ prefixLang(docSidebar, 'en')
 prefixLang(apiSidebar, 'en')
 
 export default defineAdditionalConfig({
+    description: "LeaferJS Docs",
+    lang: 'en-US',
+
     themeConfig: {
         nav,
         sidebar: {
@@ -19,8 +22,18 @@ export default defineAdditionalConfig({
 
         search,
 
+        outlineTitle: 'On this page',
+
+        lastUpdatedText: 'Last updated',
+
+        docFooter: {
+            prev: 'Previous',
+            next: 'Next'
+        },
+
         editLink: {
-            pattern: 'https://github.com/leaferjs/docs/edit/main/:path'
+            pattern: 'https://github.com/leaferjs/docs/edit/main/:path',
+            text: 'Edit this page on GitHub'
         },
     }
 })
