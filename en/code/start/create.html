@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Demo | Leafer UI</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script src="https://unpkg.com/leafer-ui@2.0.7/dist/web.min.js"></script>
+  </head>
+  <body></body>
+  <script>
+    var leafer = new LeaferUI.Leafer({ view: window })
+
+    var rect = new LeaferUI.Rect({
+      x: 100,
+      y: 100,
+      width: 200,
+      height: 200,
+      fill: '#32cd79',
+      cornerRadius: [50, 80, 0, 80],
+      draggable: true,
+    })
+
+    leafer.add(rect)
+  </script>
+</html>
