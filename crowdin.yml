@@ -1,1 +1,5 @@
-files: []
+files:
+  - source: /zh/**/*
+    ignore:
+      - /zh/api/**/*
+    translation: /%two_letters_code%/**/%original_file_name%
