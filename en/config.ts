@@ -2,7 +2,6 @@ import { defineAdditionalConfig } from 'vitepress'
 import { apiSidebar } from '../zh/config/sidebar/api'
 import { docSidebar } from './config/sidebar/doc'
 import { nav } from './config/nav'
-import { search } from './config/search'
 import { prefixLang } from '../helper/lang'
 
 prefixLang(nav as any, 'en')
@@ -17,10 +16,7 @@ export default defineAdditionalConfig({
         nav,
         sidebar: {
             '/en/': docSidebar,
-            '/en/api/': apiSidebar
         },
-
-        search,
 
         outlineTitle: 'On this page',
 

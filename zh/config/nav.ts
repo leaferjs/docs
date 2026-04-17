@@ -19,7 +19,7 @@ export const nav: DefaultTheme.NavItem[] = [
 
         ]
     },
-    { text: 'API', link: '/api/index.md', activeMatch: '/api/' },
+    { text: 'API', link: 'https://www.leaferjs.com/api/' },
 
     { text: 'Playground', link: 'https://www.leaferjs.com/playground/' },
     {

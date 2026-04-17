@@ -72,7 +72,7 @@ Apply a transformation operation, which is automatically decomposed into layout 
 
 The `resize` parameter converts scaling into width/height changes. The `transition` parameter enables animation transitions.
 
-### transformWorld ( worldTransform: [`IMatrixData`](../../api/interfaces/IMatrixData.md), resize?: `boolean`, transition?: [`ITranstion`](../../api/interfaces/ITranstion.md) )
+### transformWorld ( worldTransform: [`IMatrixData`](../../api/interfaces/IMatrixData.md), resize?: `boolean`, transition?: [`ITranstion`](./transition.md#transition-itranstion) )
 
 Same as `transform()`, but operates in the [world coordinate system](../../guide/advanced/coordinate.md#world-world-coordinate-system).
 
