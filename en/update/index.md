@@ -6,15 +6,31 @@
 
 > v2.0.9
 
-#### 🌱 新增
+#### 🍇 社区
 
-\- 🌸 [Rect](../reference/display/Rect.md)、[Box](../reference/display/Box.md) 支持通过 strokeWidth 单独设置四条边
+\- 🌸 文档英文版初步翻译完成（由 AI 辅助，欢迎社区参与校对） 🎉🎉🎉
+
+\- 🌸 [leafer-x-echarts](https://www.npmjs.com/package/leafer-x-echarts) echarts插件 [@sedrew](https://github.com/sedrew)
+
+#### 📙 开源故事
+
+\- 🌸 [做不起 Canva？我们用 LeaferJS 做了一个开源版在线设计器](../blog/2026-04-09.md) @Gzm Design
+
+#### 🌱 新增
 
 \- 🌸 [Polygon](../reference/display/Polygon.md#startangle-number)、[Star](../reference/display/Star.md#startangle-number) 新增 startAngle 属性，可偏移起始角度
 
+#### 🪲 修复
+
+\- 🌸 [dragBounds](../reference/UI/dragBounds.md) 偶发限制不住范围的问题
+
+\- 编辑器缩放文字大小时，未同步缩放lineHeight、 letterSpacing导致跳动的问题
+
+\- 部分功能兼容抖音小程序 [#832](https://github.com/leaferjs/leafer-ui/issues/832)
+
 #### 🌷 感谢反馈
 
-@小丑的尾巴不见了 @小志
+[@13191868165](https://github.com/leaferjs/leafer-ui/issues/832) [@zmb95](https://github.com/leaferjs/leafer-ui/issues/825) [@FZliweiliang](https://github.com/leaferjs/leafer-ui/issues/831) @小丑的尾巴不见了 @小志
 
 ## 2026 / 04 / 03
 
