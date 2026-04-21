@@ -31,11 +31,11 @@ Or include via script tag and access plugin features through the global variable
 ::: code-group
 
 ```html [resize.min]
-<script src="https://unpkg.com/@leafer-in/resize@2.0.8/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@2.0.9/dist/resize.min.js"></script>
 ```
 
 ```html [resize]
-<script src="https://unpkg.com/@leafer-in/resize@2.0.8/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@2.0.9/dist/resize.js"></script>
 ```
 
 <!-- If unpkg is not accessible, you can replace it with https://cdn.jsdelivr.net/npm -->

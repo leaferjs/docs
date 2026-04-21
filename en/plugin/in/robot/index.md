@@ -47,14 +47,14 @@ Or include via script tag and access plugin features through the global variable
 ::: code-group
 
 ```html [robot.min]
-<script src="https://unpkg.com/@leafer-in/robot@2.0.8/dist/robot.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/robot@2.0.9/dist/robot.min.js"></script>
 <script>
   const { Robot } = LeaferIN.robot
 </script>
 ```
 
 ```html [robot]
-<script src="https://unpkg.com/@leafer-in/robot@2.0.8/dist/robot.js"></script>
+<script src="https://unpkg.com/@leafer-in/robot@2.0.9/dist/robot.js"></script>
 <script>
   const { Robot } = LeaferIN.robot
 </script>

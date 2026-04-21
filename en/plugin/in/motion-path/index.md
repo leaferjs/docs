@@ -35,11 +35,11 @@ Or include via script tag and access plugin features through the global variable
 ::: code-group
 
 ```html [motion-path.min]
-<script src="https://unpkg.com/@leafer-in/motion-path@2.0.8/dist/motion-path.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/motion-path@2.0.9/dist/motion-path.min.js"></script>
 ```
 
 ```html [motion-path]
-<script src="https://unpkg.com/@leafer-in/motion-path@2.0.8/dist/motion-path.js"></script>
+<script src="https://unpkg.com/@leafer-in/motion-path@2.0.9/dist/motion-path.js"></script>
 ```
 
 <!-- If unpkg is not accessible, you can replace it with https://cdn.jsdelivr.net/npm -->

@@ -30,7 +30,7 @@ export const nav: DefaultTheme.NavItem[] = [
         ]
     },
     {
-        text: 'v2.0.8', activeMatch: '/blog/', items: [
+        text: 'v2.0.9', activeMatch: '/blog/', items: [
             { text: 'Changelog', link: '/update/' },
             { text: 'Blog', link: '/blog/' },
             { text: 'Vision', link: '/guide/#使命与愿景' },

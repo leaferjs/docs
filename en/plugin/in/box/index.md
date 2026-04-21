@@ -31,14 +31,14 @@ Or include via script tag and access plugin features using the global variable `
 ::: code-group
 
 ```html [box.min]
-<script src="https://unpkg.com/@leafer-in/box@2.0.8/dist/box.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/box@2.0.9/dist/box.min.js"></script>
 <script>
   const { ImageBox } = LeaferIN.box
 </script>
 ```
 
 ```html [box]
-<script src="https://unpkg.com/@leafer-in/box@2.0.8/dist/box.js"></script>
+<script src="https://unpkg.com/@leafer-in/box@2.0.9/dist/box.js"></script>
 <script>
   const { ImageBox } = LeaferIN.box
 </script>

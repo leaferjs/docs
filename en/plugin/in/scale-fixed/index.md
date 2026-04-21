@@ -31,11 +31,11 @@ Or include via script tag and access plugin features through the global variable
 ::: code-group
 
 ```html [scale-fixed.min]
-<script src="https://unpkg.com/@leafer-in/scale-fixed@2.0.8/dist/scale-fixed.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/scale-fixed@2.0.9/dist/scale-fixed.min.js"></script>
 ```
 
 ```html [scale-fixed]
-<script src="https://unpkg.com/@leafer-in/scale-fixed@2.0.8/dist/scale-fixed.js"></script>
+<script src="https://unpkg.com/@leafer-in/scale-fixed@2.0.9/dist/scale-fixed.js"></script>
 ```
 
 <!-- If unpkg is not accessible, you can replace it with https://cdn.jsdelivr.net/npm -->

@@ -45,7 +45,7 @@ We also provide a [Playground environment](../../runtime.md) and a [create-leafe
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer@2.0.8/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer@2.0.9/dist/web.min.js"></script>
 <script>
   const { Leafer, Editor, Robot, Animate } = LeaferUI
   // ...
@@ -53,7 +53,7 @@ We also provide a [Playground environment](../../runtime.md) and a [create-leafe
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer@2.0.8/dist/web.js"></script>
+<script src="https://unpkg.com/leafer@2.0.9/dist/web.js"></script>
 <script>
   const { Leafer, Editor, Robot, Animate } = LeaferUI
   // ...
@@ -66,7 +66,7 @@ We also provide a [Playground environment](../../runtime.md) and a [create-leafe
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer@2.0.8/dist/web.module.min.js'
+  } from 'https://unpkg.com/leafer@2.0.9/dist/web.module.min.js'
   // ...
 </script>
 ```
@@ -77,7 +77,7 @@ We also provide a [Playground environment](../../runtime.md) and a [create-leafe
     Leafer,
     Editor,
     Arrow,
-  } from 'https://unpkg.com/leafer@2.0.8/dist/web.module.js'
+  } from 'https://unpkg.com/leafer@2.0.9/dist/web.module.js'
   // ...
 </script>
 ```

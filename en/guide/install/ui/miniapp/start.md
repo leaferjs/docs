@@ -55,9 +55,9 @@ var __TEMP2__ = __TEMP__; Object.defineProperty(exports, k, { enumerable: true, 
 You can also download the library and import it locally (this method currently does not support extra plugins).
 
 ```sh
-https://unpkg.com/@leafer-ui/miniapp@2.0.8/dist/miniapp.module.js
+https://unpkg.com/@leafer-ui/miniapp@2.0.9/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-ui/miniapp@2.0.8/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-ui/miniapp@2.0.9/dist/miniapp.module.min.js
 ```
 
 ## Environment

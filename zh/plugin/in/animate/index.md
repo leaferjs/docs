@@ -49,16 +49,16 @@ bun add @leafer-in/color
 ::: code-group
 
 ```html [animate.min]
-<script src="https://unpkg.com/@leafer-in/animate@2.0.8/dist/animate.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/color@2.0.8/dist/color.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@2.0.9/dist/animate.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@2.0.9/dist/color.min.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
 ```
 
 ```html [animate]
-<script src="https://unpkg.com/@leafer-in/animate@2.0.8/dist/animate.js"></script>
-<script src="https://unpkg.com/@leafer-in/color@2.0.8/dist/color.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@2.0.9/dist/animate.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@2.0.9/dist/color.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
@@ -78,8 +78,8 @@ bun add @leafer-in/color
 
 可作为初始化动画选项参数传入，当作为 Animate 实例属性访问时为只读属性。
 
-| 名称                                               | 描述                                                                               |
-| -------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| 名称                              | 描述                                                                               |
+| --------------------------------- | ---------------------------------------------------------------------------------- |
 | [easing](./options/easing.md)     | 缓动：动画的缓动方式，默认为 ease                                                  |
 | [delay](./options/delay.md)       | 延迟：动画延迟播放的时长                                                           |
 | [duration](./options/duration.md) | 时长：动画的总时长（不包含 delay 和循环时间）                                      |
@@ -97,18 +97,18 @@ bun add @leafer-in/color
 
 ## 更多属性
 
-| 名称                                               | 描述                                                     |
-| -------------------------------------------------- | -------------------------------------------------------- |
-| 计时                                               |                                                          |
+| 名称                              | 描述                                                     |
+| --------------------------------- | -------------------------------------------------------- |
+| 计时                              |                                                          |
 | [duration](./Animate/time.md)     | 动画的总时长（不包含 delay 和循环时间）                  |
 | [time](./Animate/time.md)         | 已经播放的时长（相对 duration，不包含 delay 和循环时间） |
 | [looped](./Animate/time.md)       | 已经循环播放了多少次（计数）                             |
-| 状态                                               |                                                          |
+| 状态                              |                                                          |
 | [started](./Animate/state.md)     | 动画是否开始                                             |
 | [running](./Animate/state.md)     | 动画是否正在播放                                         |
 | [completed](./Animate/state.md)   | 动画是否完成                                             |
 | [destroyed](./Animate/state.md)   | 动画是否销毁                                             |
-| 样式                                               |                                                          |
+| 样式                              |                                                          |
 | [style](./Animate/style.md)       | 当前动画状态的样式                                       |
 | [fromStyle](./Animate/style.md)   | from 帧状态的样式                                        |
 | [toStyle](./Animate/style.md)     | to 帧状态的样式                                          |
@@ -122,8 +122,8 @@ bun add @leafer-in/color
 
 重新初始化动画。 -->
 
-| 名称                                               | 描述                                                                 |
-| -------------------------------------------------- | -------------------------------------------------------------------- |
+| 名称                              | 描述                                                                 |
+| --------------------------------- | -------------------------------------------------------------------- |
 | [play()](./Animate/play.md)       | 播放动画                                                             |
 | [pause()](./Animate/pause.md)     | 暂停动画                                                             |
 | [stop()](./Animate/stop.md)       | 停止动画： 强行完成动画并暂停                                        |
@@ -135,8 +135,8 @@ bun add @leafer-in/color
 
 动画事件，通过 on() 监听。
 
-| 名称                                                     | 描述     |
-| -------------------------------------------------------- | -------- |
+| 名称                                    | 描述     |
+| --------------------------------------- | -------- |
 | [AnimateEvent](./event/AnimateEvent.md) | 动画事件 |
 
 <!-- ## API
