@@ -37,7 +37,7 @@ cornerRadius: [20, 10] // [ (topLeft-bottomRight), (topRight-bottomLeft)]
 cornerRadius: 20 // all
 ```
 
-## 边框属性
+<!-- ## 边框属性
 
 ### strokeWidth: [`IFourNumber`](../interface/math/Math.md#ifournumber)
 
@@ -50,7 +50,7 @@ strokeWidth: [20, 10, 20, 10] // [top, right, bottom, left]
 strokeWidth: [20, 10, 20] // [top, (right-left), bottom]
 strokeWidth: [20, 10] // [ (top-bottom), (right-left)]
 strokeWidth: 20 // all
-```
+``` -->
 
 ## 继承元素
 

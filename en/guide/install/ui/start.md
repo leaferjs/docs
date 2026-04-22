@@ -65,7 +65,7 @@ You can also use LeaferUI by importing CDN files via script tags (can also be do
 ::: code-group
 
 ```html [web.min]
-<script src="https://unpkg.com/leafer-ui@2.0.9/dist/web.min.js"></script>
+<script src="https://unpkg.com/leafer-ui@2.1.0/dist/web.min.js"></script>
 <script>
   const { Leafer } = LeaferUI // global variable containing all leafer-ui features
 
@@ -77,7 +77,7 @@ You can also use LeaferUI by importing CDN files via script tags (can also be do
 ```
 
 ```html [web]
-<script src="https://unpkg.com/leafer-ui@2.0.9/dist/web.js"></script>
+<script src="https://unpkg.com/leafer-ui@2.1.0/dist/web.js"></script>
 <script>
   const { Leafer } = LeaferUI // global variable containing all leafer-ui features
 
@@ -90,14 +90,14 @@ You can also use LeaferUI by importing CDN files via script tags (can also be do
 
 ```html [module.min]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@2.0.9/dist/web.module.min.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@2.1.0/dist/web.module.min.js'
   // ...
 </script>
 ```
 
 ```html [module]
 <script type="module">
-  import { Leafer } from 'https://unpkg.com/leafer-ui@2.0.9/dist/web.module.js'
+  import { Leafer } from 'https://unpkg.com/leafer-ui@2.1.0/dist/web.module.js'
   // ...
 </script>
 ```

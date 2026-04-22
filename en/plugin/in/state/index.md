@@ -35,11 +35,11 @@ Or include via script tag and access plugin features through the global variable
 ::: code-group
 
 ```html [state.min]
-<script src="https://unpkg.com/@leafer-in/state@2.0.9/dist/state.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/state@2.1.0/dist/state.min.js"></script>
 ```
 
 ```html [state]
-<script src="https://unpkg.com/@leafer-in/state@2.0.9/dist/state.js"></script>
+<script src="https://unpkg.com/@leafer-in/state@2.1.0/dist/state.js"></script>
 ```
 
 <!-- If unpkg is not accessible, you can replace it with https://cdn.jsdelivr.net/npm -->

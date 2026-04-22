@@ -41,14 +41,14 @@ Or include via script tag and access plugin features using the global variable `
 ::: code-group
 
 ```html [arrow.min]
-<script src="https://unpkg.com/@leafer-in/arrow@2.0.9/dist/arrow.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@2.1.0/dist/arrow.min.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
 ```
 
 ```html [arrow]
-<script src="https://unpkg.com/@leafer-in/arrow@2.0.9/dist/arrow.js"></script>
+<script src="https://unpkg.com/@leafer-in/arrow@2.1.0/dist/arrow.js"></script>
 <script>
   const { Arrow } = LeaferIN.arrow
 </script>
@@ -134,7 +134,7 @@ interface IPathDataArrow {
   connect?: IPathDataArrowOffset // connection point with line
   offset?: IPathDataArrowOffset // offset to align with endpoint
   path: IPathCommandData // supports M, L, C, Q, O commands only
-  fill?: boolean // since v2.0.9, supports filled arrows (stroke must not be transparent; use opacity instead)
+  fill?: boolean // since v2.1.0, supports filled arrows (stroke must not be transparent; use opacity instead)
 }
 
 interface IPathDataArrowOffset {

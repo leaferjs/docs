@@ -31,11 +31,11 @@ Or include via script tag and access plugin features through the global variable
 ::: code-group
 
 ```html [view.min]
-<script src="https://unpkg.com/@leafer-in/view@2.0.9/dist/view.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/view@2.1.0/dist/view.min.js"></script>
 ```
 
 ```html [view]
-<script src="https://unpkg.com/@leafer-in/view@2.0.9/dist/view.js"></script>
+<script src="https://unpkg.com/@leafer-in/view@2.1.0/dist/view.js"></script>
 ```
 
 <!-- If unpkg is not accessible, you can replace it with https://cdn.jsdelivr.net/npm -->

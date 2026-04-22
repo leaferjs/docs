@@ -42,12 +42,12 @@ Access internal features through the global variable LeaferUI.
 
 ```js [worker.min.js]
 importScripts(
-  'https://unpkg.com/@leafer-editor/worker@2.0.9/dist/worker.min.js',
+  'https://unpkg.com/@leafer-editor/worker@2.1.0/dist/worker.min.js',
 )
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-editor/worker@2.0.9/dist/worker.js')
+importScripts('https://unpkg.com/@leafer-editor/worker@2.1.0/dist/worker.js')
 ```
 
 :::

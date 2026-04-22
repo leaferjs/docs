@@ -49,16 +49,16 @@ Or include via script tag and access plugin features using the global variable L
 ::: code-group
 
 ```html [animate.min]
-<script src="https://unpkg.com/@leafer-in/animate@2.0.9/dist/animate.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/color@2.0.9/dist/color.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@2.1.0/dist/animate.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@2.1.0/dist/color.min.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>
 ```
 
 ```html [animate]
-<script src="https://unpkg.com/@leafer-in/animate@2.0.9/dist/animate.js"></script>
-<script src="https://unpkg.com/@leafer-in/color@2.0.9/dist/color.js"></script>
+<script src="https://unpkg.com/@leafer-in/animate@2.1.0/dist/animate.js"></script>
+<script src="https://unpkg.com/@leafer-in/color@2.1.0/dist/color.js"></script>
 <script>
   const { Animate } = LeaferIN.animate
 </script>

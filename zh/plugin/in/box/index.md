@@ -31,14 +31,14 @@ bun add @leafer-in/box
 ::: code-group
 
 ```html [box.min]
-<script src="https://unpkg.com/@leafer-in/box@2.0.9/dist/box.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/box@2.1.0/dist/box.min.js"></script>
 <script>
   const { ImageBox } = LeaferIN.box
 </script>
 ```
 
 ```html [box]
-<script src="https://unpkg.com/@leafer-in/box@2.0.9/dist/box.js"></script>
+<script src="https://unpkg.com/@leafer-in/box@2.1.0/dist/box.js"></script>
 <script>
   const { ImageBox } = LeaferIN.box
 </script>

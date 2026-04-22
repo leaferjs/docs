@@ -37,7 +37,7 @@ cornerRadius: [20, 10] // [ (topLeft-bottomRight), (topRight-bottomLeft)]
 cornerRadius: 20 // all corners
 ```
 
-## Stroke Properties
+<!-- ## Stroke Properties
 
 ### strokeWidth: [`IFourNumber`](../interface/math/Math.md#ifournumber)
 
@@ -50,7 +50,7 @@ strokeWidth: [20, 10, 20, 10] // [top, right, bottom, left]
 strokeWidth: [20, 10, 20] // [top, (right-left), bottom]
 strokeWidth: [20, 10] // [ (top-bottom), (right-left)]
 strokeWidth: 20 // all sides
-```
+``` -->
 
 ## Inheritance
 

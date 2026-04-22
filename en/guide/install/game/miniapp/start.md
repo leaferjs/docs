@@ -42,9 +42,9 @@ Learn how to [quickly update versions](../../../update.md).
 You can also download the library file locally and import it directly. This method currently cannot use additional plugins.
 
 ```sh
-https://unpkg.com/@leafer-game/miniapp@2.0.9/dist/miniapp.module.js
+https://unpkg.com/@leafer-game/miniapp@2.1.0/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-game/miniapp@2.0.9/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-game/miniapp@2.1.0/dist/miniapp.module.min.js
 ```
 
 ## Notes

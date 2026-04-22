@@ -31,11 +31,11 @@ Or include via script tag and use the global variable `LeaferIN.bright` to acces
 ::: code-group
 
 ```html [bright.min]
-<script src="https://unpkg.com/@leafer-in/bright@2.0.9/dist/bright.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/bright@2.1.0/dist/bright.min.js"></script>
 ```
 
 ```html [bright]
-<script src="https://unpkg.com/@leafer-in/bright@2.0.9/dist/bright.js"></script>
+<script src="https://unpkg.com/@leafer-in/bright@2.1.0/dist/bright.js"></script>
 ```
 
 <!-- https://unpkg.com can be replaced with https://cdn.jsdelivr.net/npm if inaccessible -->

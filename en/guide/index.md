@@ -58,7 +58,7 @@ Found a bug or have a suggestion? Please submit an [issue on GitHub](https://git
 ::: tip Issue Template
 **【Bug/Suggestion】xxxxxxxxxxx title xxxxxxxxxxxxxx**
 
-Environment: PC + Windows 11 + Chrome 131 + LeaferJS 2.0.9
+Environment: PC + Windows 11 + Chrome 131 + LeaferJS 2.1.0
 
 Steps to reproduce: Please provide detailed reproduction steps and runnable code. This greatly improves debugging efficiency.
 :::
@@ -72,7 +72,7 @@ To ensure knowledge sharing and avoid duplicated effort, please keep questions p
 ::: tip Issue Template
 **【LeaferJS】xxxxxxxxxxx title xxxxxxxxxxxxxx** (must include “LeaferJS” keyword)
 
-Environment: PC + Windows 11 + Chrome 131 + LeaferJS 2.0.9
+Environment: PC + Windows 11 + Chrome 131 + LeaferJS 2.1.0
 
 #LeaferJS (click the “#” tag in Zhihu to bind the topic so others can find it easily)
 :::
