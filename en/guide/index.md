@@ -2,7 +2,7 @@
 
 LeaferJS is an innovative and easy-to-use Canvas engine that enables effortless graphic interaction and editing. It is suitable for AI infinite canvas, AI design tools, graphic editing, mini games, interactive applications, industrial visualization, and image/video generation scenarios.
 
-[![leaferjs](/svg/leaferjs.svg?d=013007)](/guide/index.md#mission-and-vision)
+[![leaferjs](/svg/leaferjs-en.svg?d=013007)](/guide/index.md#mission-and-vision)
 
 It provides a rich set of UI drawing elements and out-of-the-box features such as viewport control, automatic layout, graphic editing, and SVG export. This makes it easy to integrate with products like PS, Figma, and Sketch. It also offers unified cross-platform interaction events, including drag, rotation, and zoom gestures.
 
