@@ -2,6 +2,36 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 05 / 26
+
+> v2.1.2
+
+#### 🍇 社区
+
+\- 🌸 [Online GenCAD Viewer](https://github.com/easyeda/online-gencad-viewer) [预览地址](https://pcbtool.net/tools/online-gencad-viewer.html) [@EasyEDA](https://github.com/easyeda2021)
+
+#### 🪲 修复
+
+\- 🌸 SVG 字符串路径， M、m 命令后跟多个坐标，未正确解析的问题
+
+\- 🌸 Text 元素填充对象透明度设为的 0% 时会自动变成黑色
+
+\- 🌸 Polygon元素通过points绘制的图形，加上stroke会少一条边的问题
+
+\- Text元素 lineHeight 设置为0.9，获取的文字宽高不对
+
+\- Path 箭头元素采用圆弧命令，未转曲线，导致箭头方向异常
+
+#### 优化
+
+\- 🌸 stroke 支持 brush 纹理扩展
+
+\- 🌸 strokeJoin 为非 miter 类型时不放大渲染包围盒，节约性能开销
+
+#### 🌷 感谢反馈
+
+[@bgyh2003](https://github.com/leaferjs/leafer-ui/issues/844) [@parox2014](https://github.com/leaferjs/leafer-ui/issues/842) [@NEXINEW](https://github.com/leaferjs/leafer-ui/issues/860) @小志 @闰土 @李子
+
 ## 2026 / 04 / 20
 
 > v2.1.0
