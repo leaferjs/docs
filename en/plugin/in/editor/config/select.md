@@ -20,6 +20,12 @@ Whether to enable the edit box feature (used for editing elements). Enabled by d
 
 When disabled, the edit box will be hidden.
 
+### editBoxType: `'box'` | `'stroke'`
+
+Which [bounding box](../../../../guide/advanced/bounds.md) of the element to use as the edit box, default is 'box'.
+
+'stroke' means using the stroke bounding box of the element as the editing frame.
+
 ### selector: `boolean`
 
 Whether to enable the selection selector. Enabled by default.

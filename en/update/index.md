@@ -2,6 +2,28 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 06 / 02
+
+> v2.1.4
+
+#### 🌱 新增
+
+\- 🌸 编辑器增加 [editBoxType](../plugin/in/editor/config/select.md#editboxtype-box-stroke) 配置，可采用元素的描边包围盒作为编辑框
+
+\- 🌸 编辑器增加 [hoverPathType](../plugin/in/editor/config/style.md#hoverpathtype-path-render-path-box-stroke-box) 配置，可采用元素的包围盒作为 hover 路径
+
+\- 编辑器 [selectedPathType](../plugin/in/editor/config/style.md#selectedpathtype-path-render-path-box-stroke-box) 配置，增加元素的包围盒作为 selected 路径类型
+
+#### 🪲 修复
+
+\- 🌸 SVG 字符串路径， S、s、T、t 命令前无曲线命令的解析问题
+
+\- SVG 字符串路径只有 m 连续命令时的解析问题
+
+#### 🌷 感谢反馈
+
+@小志 @闰土
+
 ## 2026 / 06 / 01
 
 > v2.1.3

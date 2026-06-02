@@ -20,6 +20,12 @@ import Case from '/component/Case.vue'
 
 禁用后将隐藏编辑框。
 
+### editBoxType: `'box'` | `'stroke'`
+
+采用元素的哪个 [包围盒](../../../../guide/advanced/bounds.md) 作为编辑框，默认为 'box'。
+
+'stroke' 表示采用元素的描边包围盒作为编辑框。
+
 ### selector: `boolean`
 
 是否启用编辑选择器， 默认启用。

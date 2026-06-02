@@ -136,15 +136,25 @@ Whether to show hover state. Enabled by default.
 
 Hover style. Currently only stroke, fill, and simple shadow styles are supported (inherits base styles).
 
+### hoverPathType: `'path'` | `'render-path'` | `'box'` | `'stroke-box'`
+
+Path type used when rendering hover element outlines. Default is 'render-path'.
+
+When elements use rounded corners or curves, 'path' is the original path, while 'render-path' is the final rendered path after applying rounded corners and curves.
+
+To use the [bounding box](../../../../guide/advanced/bounds.md) of an element as the rendering path, you can employ 'box' or 'stroke-box' (stroke bounding box).
+
 ### selectedStyle: [`IPathInputData`](../../../../reference/display/Path.md)
 
 Style of selected elements (different from hover style; useful for multi-selection visibility). Currently only stroke, fill, and simple shadow styles are supported (inherits base styles).
 
-### selectedPathType: `'path'` | `'render-path'`
+### selectedPathType: `'path'` | `'render-path'` | `'box'` | `'stroke-box'`
 
 Path type used when rendering selected element outlines. Default is 'render-path'.
 
 When elements use rounded corners or curves, 'path' is the original path, while 'render-path' is the final rendered path after applying rounded corners and curves.
+
+To use the [bounding box](../../../../guide/advanced/bounds.md) of an element as the rendering path, you can employ 'box' or 'stroke-box' (stroke bounding box).
 
 ### Mask Layer
 

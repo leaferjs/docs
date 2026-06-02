@@ -136,15 +136,25 @@ circle: {
 
 hover 样式，目前只能定义笔触、填充、简单阴影样式（会继承基础样式）。
 
+### hoverPathType: `'path'` | `'render-path'` | `'box'` | `'stroke-box'`
+
+hover元素描边采用的路径类型，默认为 'render-path'。
+
+当元素设置圆角、curve 时，'path' 为原始路径，'render-path' 是应用了圆角、curve 时之后的最终渲染路径。
+
+如需采用元素的 [包围盒](../../../../guide/advanced/bounds.md) 作为渲染路径，可使用 'box' 或 'stroke-box'（描边包围盒）。
+
 ### selectedStyle: [`IPathInputData`](../../../../reference/display/Path.md)
 
 选中元素的样式（区分 hover 样式，多选元素时比较容易看出来），目前只能定义笔触、填充、简单阴影样式（会继承基础样式）。
 
-### selectedPathType: `'path'` | `'render-path'`
+### selectedPathType: `'path'` | `'render-path'` | `'box'` | `'stroke-box'`
 
 选中元素描边采用的路径类型，默认为 'render-path'。
 
 当元素设置圆角、curve 时，'path' 为原始路径，'render-path' 是应用了圆角、curve 时之后的最终渲染路径。
+
+如需采用元素的 [包围盒](../../../../guide/advanced/bounds.md) 作为渲染路径，可使用 'box' 或 'stroke-box'（描边包围盒）。
 
 ### 遮罩层
 
