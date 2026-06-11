@@ -32,6 +32,14 @@
 
 设置 'y-limit'，表示只能纵向滚动，且限制在有内容的区域内滚动。
 
+## move.scrollLimit: `'smooth'` | `'stop'`
+
+超出限制滚动范围时的交互行为，默认为 'smooth'。
+
+设置 'smooth' 会有橡皮筋的物理回弹效果。
+
+设置 'stop' 可立即停止滚动。
+
 ## move.scrollSpread: [`IFourNumber`](../../interface/math/Math.md#ifournumber)
 
 限制滚动范围时，可扩展一点边界，可以分别设置 4 个方向的值，默认为 0。

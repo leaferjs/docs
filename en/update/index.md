@@ -2,6 +2,44 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 06 / 11
+
+> v2.1.5
+
+#### 🍇 社区
+
+产品案例
+
+\- 🌸 [像素跳动](https://www.pxrun.com) - 专业制作科普类动画短视频 @张老爷
+
+\- 🌸 [LingCut](https://lingcut.ytop.cc) - AI短剧创作无限画布 @A姜
+
+\- 🌸 [ER Diagram](https://erdiagram.dev) - 数据库可视化设计 @梦多
+
+#### 🌱 新增
+
+\- 🌸 应用配置新增 [move.scrollLimit](../reference/config/app/move.md#move-scrolllimit-smooth-stop)，可定义超出限制滚动范围时的交互行为
+
+#### 🪲 修复
+
+\- 🌸 元素碰撞类型为 'pixel' 时，hover之后再增加阴影，碰撞范围会失效的问题
+
+\- 🌸 mask 设为 'grayscale' 可能会报错的问题
+
+#### 🌿 优化
+
+\- 🌸 元素的默认 editOuter 属性，支持优先查找元素 tag + 'EditTool'
+
+\- 🌸 优化变量命名等若干问题 [@bvvy](https://github.com/bvvy)
+
+\- 移除会被重写的空方法，改用ts声明，min 文件减小 2KB
+
+\- fill 支持高性能 brush 几何纹理扩展
+
+#### 🌷 感谢反馈
+
+[ZhengNan-coder](https://github.com/leaferjs/leafer-ui/issues/867) [@fanliang-liu](https://github.com/leaferjs/leafer-ui/issues/871) @闰土
+
 ## 2026 / 06 / 02
 
 > v2.1.4
@@ -10,9 +48,9 @@
 
 \- 🌸 编辑器增加 [editBoxType](../plugin/in/editor/config/select.md#editboxtype-box-stroke) 配置，可采用元素的描边包围盒作为编辑框
 
-\- 🌸 编辑器增加 [hoverPathType](../plugin/in/editor/config/style.md#hoverpathtype-path-render-path-box-stroke-box) 配置，可采用元素的包围盒作为 hover 路径
+\- 🌸 编辑器增加 [hoverPathType](../plugin/in/editor/config/style.md#hoverpathtype-path-render-path-box-stroke) 配置，可采用元素的包围盒作为 hover 路径
 
-\- 编辑器 [selectedPathType](../plugin/in/editor/config/style.md#selectedpathtype-path-render-path-box-stroke-box) 配置，增加元素的包围盒作为 selected 路径类型
+\- 编辑器 [selectedPathType](../plugin/in/editor/config/style.md#selectedpathtype-path-render-path-box-stroke) 配置，增加元素的包围盒作为 selected 路径类型
 
 #### 🪲 修复
 
