@@ -81,7 +81,7 @@ You can also install the full [leafer](./install/leafer/start.md) package and us
 
 ## Version
 
-Latest version: [v2.1.5](../update/index.md)
+Latest version: [v2.1.6](../update/index.md)
 
 ```ts
 import { version } from 'leafer-ui'

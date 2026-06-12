@@ -33,11 +33,11 @@ Or include via script tag and access plugin features using the global variable `
 ::: code-group
 
 ```html [corner.min]
-<script src="https://unpkg.com/@leafer-in/corner@2.1.5/dist/corner.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/corner@2.1.6/dist/corner.min.js"></script>
 ```
 
 ```html [corner]
-<script src="https://unpkg.com/@leafer-in/corner@2.1.5/dist/corner.js"></script>
+<script src="https://unpkg.com/@leafer-in/corner@2.1.6/dist/corner.js"></script>
 ```
 
 <!-- https://unpkg.com can be replaced with https://cdn.jsdelivr.net/npm if inaccessible -->
