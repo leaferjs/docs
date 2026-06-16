@@ -55,6 +55,10 @@ endAngle: 180
 innerRadius: 0.5
 ```
 
+### closed: `boolean`
+
+Whether to close the path automatically. Defaults to `true`.
+
 ## Corner Properties
 
 ### cornerRadius: `number`

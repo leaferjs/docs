@@ -55,6 +55,10 @@ endAngle: 180
 innerRadius: 0.5
 ```
 
+### closed: `boolean`
+
+是否自动闭合路径，默认为 true。
+
 ## 圆角属性
 
 ### cornerRadius: `number`
