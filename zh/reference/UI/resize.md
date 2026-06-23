@@ -8,13 +8,17 @@
 
 ## 关键方法
 
-### resizeWidth ( width: `number`)
+### resizeWidth ( width: `number`, relative?: [`ILocationType`](../../api/modules.md#ilocationtype) = 'inner' )
 
 resize 元素/组元素的包围盒宽度。
 
 若元素的 [lockRatio](./editable.md#lockratio-boolean) 为 true, 将同时等比例调整高度。
 
-### resizeHeight ( height: `number`)
+```ts
+type ILocationType = 'world' | 'page' | 'local' | 'inner' // 坐标体系
+```
+
+### resizeHeight ( height: `number`, relative?: [`ILocationType`](../../api/modules.md#ilocationtype) = 'inner' )
 
 resize 元素/组元素的包围盒高度。
 

@@ -31,11 +31,11 @@ Or include via script tag and access plugin APIs through the global variable `Le
 ::: code-group
 
 ```html [filter.min]
-<script src="https://unpkg.com/@leafer-in/filter@2.1.7/dist/filter.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/filter@2.1.8/dist/filter.min.js"></script>
 ```
 
 ```html [filter]
-<script src="https://unpkg.com/@leafer-in/filter@2.1.7/dist/filter.js"></script>
+<script src="https://unpkg.com/@leafer-in/filter@2.1.8/dist/filter.js"></script>
 ```
 
 <!-- https://unpkg.com can be replaced with https://cdn.jsdelivr.net/npm if unavailable -->

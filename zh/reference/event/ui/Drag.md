@@ -30,6 +30,12 @@ DragEvent &nbsp;>&nbsp; [PointerEvent](./Pointer) &nbsp;>&nbsp; [UIEvent](./UIEv
 
 `drag.end`
 
+### DragEvent.ANIMATE
+
+拖拽结束后的复位动画事件。
+
+`drag.animate`
+
 ### 状态事件
 
 拖动中途径的元素触发，可配合 [DropEvent](./Drop.md) 实现 `drop` 前的 移入移出效果。

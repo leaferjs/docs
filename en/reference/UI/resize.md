@@ -8,13 +8,17 @@ The [resize plugin](../../plugin/in/resize/index.md) is required. The [graphic e
 
 ## Key Methods
 
-### resizeWidth ( width: `number` )
+### resizeWidth ( width: `number`, relative?: [`ILocationType`](../../api/modules.md#ilocationtype) = 'inner' )
 
 Resize the bounding box width of an element or Group.
 
 If the element’s [lockRatio](./editable.md#lockratio-boolean) is `true`, the height will be adjusted proportionally.
 
-### resizeHeight ( height: `number` )
+```ts
+type ILocationType = 'world' | 'page' | 'local' | 'inner' // coordinate systems
+```
+
+### resizeHeight ( height: `number`, relative?: [`ILocationType`](../../api/modules.md#ilocationtype) = 'inner' )
 
 Resize the bounding box height of an element or Group.
 

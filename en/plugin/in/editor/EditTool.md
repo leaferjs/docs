@@ -82,6 +82,12 @@ Triggered when switching to another edit tool.
 
 Called when the tool is destroyed.
 
+## Static Methods
+
+### registerEditTool ( aliasName?: `string` )
+
+Registers an alternative alias for an edit tool.
+
 ## Customization
 
 ### [Custom Edit Tool](./editOuter/register.md)

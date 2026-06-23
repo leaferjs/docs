@@ -2,6 +2,30 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 06 / 22
+
+> v2.1.8
+
+#### 🌱 新增
+
+\- 🌸 [resizeWidth()](../reference/UI/resize.md#resizewidth-width-number) / [resizeHeight()](../reference/UI/resize.md#resizewidth-width-number) 方法新增 relative 参数
+
+\- 🌸 [Point](../reference/math/Point.md#rotateof-origin-ipointdata-rotation-number-radiusx-number-radiusy-number-point) 支持围绕椭圆旋转
+
+\- 🌸 [EditTool](../plugin/in/editor/EditTool.md#registeredittool-aliasname-string) 支持注册别名
+
+\- 新增 [DragEvent.ANIMATE](../reference/event/ui/Drag.md#dragevent-animate) 拖拽结束后的复位动画事件
+
+#### 🪲 修复
+
+\- 🌸 路径元素 [resizeWidth()](../reference/UI/resize.md#resizewidth-width-number) / [resizeHeight()](../reference/UI/resize.md#resizewidth-width-number) 方法不符合预期的问题
+
+\- 🌸 自动布局元素 zIndex 未能及时更新生效的问题
+
+\- 🌸 超大尺寸元素限制拖拽范围后，拖拽时会产生镜像闪动的问题
+
+\- 元素限制拖动范围后，光标拖拽超出区域，元素未缩放到最小的问题
+
 ## 2026 / 06 / 16
 
 > v2.1.7

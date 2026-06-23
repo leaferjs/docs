@@ -82,6 +82,12 @@
 
 执行销毁。
 
+## 静态方法
+
+### registerEditTool ( aliasName?: `string` )
+
+为编辑工具重新注册一个别名。
+
 ## 自定义
 
 ### [自定义编辑工具](./editOuter/register.md)

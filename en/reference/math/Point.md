@@ -48,7 +48,7 @@ Scale the current coordinate around the origin point.
 
 Rotate the coordinate around the origin (0, 0).
 
-### rotateOf ( origin: [`IPointData`](../../api/interfaces/IPointData.md), rotation: `number` ): [`Point`](../../api/classes/Point.md)
+### rotateOf ( origin: [`IPointData`](../../api/interfaces/IPointData.md), rotation: `number`, radiusX?: `number`, radiusY?: `number` ): [`Point`](../../api/classes/Point.md)
 
 Rotate the coordinate around the origin point.
 
@@ -58,11 +58,11 @@ Using origin as the center point, get the rotation angle from the current coordi
 
 ### atan2
 
-### getAngle ( to: [`IPointData`](../../api/interfaces/IPointData.md) ): `number`
+### getAngle ( to: [`IPointData`](../../api/interfaces/IPointData.md), radiusX?: `number`, radiusY?: `number` ): `number`
 
 Using the current coordinate as the origin, get the atan2 coordinate angle to the target point to.
 
-### getAtan2 ( to: [`IPointData`](../../api/interfaces/IPointData.md) ): `number`
+### getAtan2 ( to: [`IPointData`](../../api/interfaces/IPointData.md), radiusX?: `number`, radiusY?: `number` ): `number`
 
 Using the current coordinate as the origin, get the atan2 coordinate radian to the target point to.
 

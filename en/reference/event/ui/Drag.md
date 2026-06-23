@@ -30,6 +30,12 @@ End dragging event.
 
 `drag.end`
 
+### DragEvent.ANIMATE
+
+Reset animation event triggered after dragging ends.
+
+`drag.animate`
+
 ### State Events
 
 These events are triggered by elements encountered during dragging. They can be used with [DropEvent](./Drop.md) to implement enter/leave effects before `drop`.

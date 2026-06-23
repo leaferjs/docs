@@ -48,7 +48,7 @@ y 轴坐标。
 
 围绕原点（0，0）[旋转](../interface/math/Math.md) 坐标。
 
-### rotateOf ( origin: [`IPointData`](../../api/interfaces/IPointData.md), rotation: `number` ): [`Point`](../../api/classes/Point.md)
+### rotateOf ( origin: [`IPointData`](../../api/interfaces/IPointData.md), rotation: `number`, radiusX?: `number`, radiusY?: `number` ): [`Point`](../../api/classes/Point.md)
 
 围绕原点 origin [旋转](../interface/math/Math.md) 坐标。
 
@@ -58,11 +58,11 @@ y 轴坐标。
 
 ### atan2
 
-### getAngle ( to: [`IPointData`](../../api/interfaces/IPointData.md) ): `number`
+### getAngle ( to: [`IPointData`](../../api/interfaces/IPointData.md), radiusX?: `number`, radiusY?: `number` ): `number`
 
 以当前坐标为原点，获取到目标点 to 的 atan2 [坐标角度](../interface/math/Math.md)。
 
-### getAtan2 ( to: [`IPointData`](../../api/interfaces/IPointData.md) ): `number`
+### getAtan2 ( to: [`IPointData`](../../api/interfaces/IPointData.md), radiusX?: `number`, radiusY?: `number` ): `number`
 
 以当前坐标为原点，获取到目标点 to 的 atan2 [坐标弧度](../interface/math/Math.md)。
 
