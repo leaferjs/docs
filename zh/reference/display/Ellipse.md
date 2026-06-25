@@ -57,7 +57,9 @@ innerRadius: 0.5
 
 ### closed: `boolean`
 
-是否自动闭合路径，默认为 true。
+是否闭合 Ellipse，默认为 true。
+
+设为 false 可绘制弧线。
 
 ## 圆角属性
 

@@ -57,7 +57,9 @@ innerRadius: 0.5
 
 ### closed: `boolean`
 
-Whether to close the path automatically. Defaults to `true`.
+Whether the ellipse is closed. Defaults to true.
+
+Set to false to draw an arc instead.
 
 ## Corner Properties
 
