@@ -1,5 +1,7 @@
 # Our Blog
 
+### [🚦 The First Intersection Principle](./2026-06-22.md)
+
 ### [【Open Source Story】Can’t afford Canva? We built an open-source online design tool using LeaferJS](./2026-04-09.md)
 
 ### [【Open Source Story】Abandoning heavy 3D: I rebuilt a school library seat selection system with LeaferJS](./2026-03-30.md)
