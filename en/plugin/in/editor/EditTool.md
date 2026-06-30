@@ -32,6 +32,10 @@ The editor instance. Available only after the tool is loaded.
 
 The edit box instance. Available only after the tool is loaded.
 
+### editTarget: [`UI`](../../../reference/display/UI.md)
+
+Current element being edited. Automatically set before `onLoad()` is called, and automatically reset to `null` after `onUnload()`.
+
 ## Key Methods
 
 ### Element operations
@@ -84,9 +88,11 @@ Called when the tool is destroyed.
 
 ## Static Methods
 
-### registerEditTool ( aliasName?: `string` )
+### registerEditTool ( aliasName?: `string`, changeTag?: `boolean` )
 
 Registers an alternative alias for an edit tool.
+
+The `changeTag` parameter specifies whether to also update the edit tool's tag name. Defaults to `false`.
 
 ## Customization
 

@@ -32,6 +32,10 @@
 
 编辑框，载入后才有值。
 
+### editTarget: [`UI`](../../../reference/display/UI.md)
+
+当前正在编辑的元素，onLoad() 载入前自动设置，onUnload() 卸载后自动设为 `null`。
+
 ## 关键方法
 
 ### 操作元素
@@ -84,9 +88,11 @@
 
 ## 静态方法
 
-### registerEditTool ( aliasName?: `string` )
+### registerEditTool ( aliasName?: `string`, changeTag?: `boolean` )
 
 为编辑工具重新注册一个别名。
+
+`changeTag` 参数表示是否同时修改编辑工具的 tag 名称， 默认为 false。
 
 ## 自定义
 

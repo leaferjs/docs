@@ -2,6 +2,30 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 06 / 30
+
+> v2.1.9
+
+#### 🌱 新增
+
+\- 🌸 [registerEditTool](../plugin/in/editor/EditTool.md#registeredittool-aliasname-string-changetag-boolean) 注册别名时新增 changeTag 参数，支持同时修改编辑工具的名称
+
+\- 🌸 EditTool 增加 [editTarget](../plugin/in/editor/EditTool.md#edittarget-ui) 属性，可获取当前正在编辑的元素
+
+#### 🪲 修复
+
+\- 🌸 [Star](../reference/display/Star.md) 元素采用外描边时会产生残影的问题
+
+\- 🌸 编辑器配置 editSize 为 'scale' 时，编辑大小偶尔会闪动的问题
+
+#### 🌿 优化
+
+\- 🌸 编辑框的起点始终以元素 boxBounds 起点为准，防止编辑工具控制点产生偏移
+
+#### 🌷 感谢反馈
+
+@闰土 @田家二少
+
 ## 2026 / 06 / 23
 
 > v2.1.8
@@ -12,7 +36,7 @@
 
 \- 🌸 [Point](../reference/math/Point.md#rotateof-origin-ipointdata-rotation-number-radiusx-number-radiusy-number-point) 支持围绕椭圆旋转
 
-\- 🌸 [EditTool](../plugin/in/editor/EditTool.md#registeredittool-aliasname-string) 支持注册别名
+\- 🌸 [EditTool](../plugin/in/editor/EditTool.md#registeredittool-aliasname-string-changetag-boolean)支持注册别名
 
 \- 新增 [DragEvent.ANIMATE](../reference/event/ui/Drag.md#dragevent-animate) 拖拽结束后的复位动画事件
 
