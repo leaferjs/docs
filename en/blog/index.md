@@ -1,5 +1,7 @@
 # Our Blog
 
+### [The Story After 800,000 RMB in Debt · Episode 1](./2026-07-02.md)
+
 ### [🚦 The First Intersection Principle](./2026-06-22.md)
 
 ### [【Open Source Story】Can’t afford Canva? We built an open-source online design tool using LeaferJS](./2026-04-09.md)
