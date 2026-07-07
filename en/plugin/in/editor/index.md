@@ -51,16 +51,16 @@ Or include via script tag and access plugin APIs through the global variable `Le
 ::: code-group
 
 ```html [editor.min]
-<script src="https://unpkg.com/@leafer-in/editor@2.1.10/dist/editor.min.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@2.1.10/dist/resize.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@2.1.11/dist/editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@2.1.11/dist/resize.min.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
 ```
 
 ```html [editor]
-<script src="https://unpkg.com/@leafer-in/editor@2.1.10/dist/editor.js"></script>
-<script src="https://unpkg.com/@leafer-in/resize@2.1.10/dist/resize.js"></script>
+<script src="https://unpkg.com/@leafer-in/editor@2.1.11/dist/editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/resize@2.1.11/dist/resize.js"></script>
 <script>
   const { Editor } = LeaferIN.editor
 </script>
