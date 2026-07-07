@@ -76,6 +76,12 @@ Whether to close the path automatically. Defaults to `false`.
 
 Corner radius that smooths polyline joints.
 
+## Read-Only Properties
+
+### isPointsMode: `boolean`
+
+Whether the `points` property mode is currently active.
+
 ## Inheritance
 
 ### Line  >  [UI](./UI.md)

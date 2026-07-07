@@ -2,6 +2,26 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 07 / 07
+
+> v2.1.11
+
+#### 🌱 新增
+
+\- 🌸 [Line](../reference/display/Line.md#ispointsmode-boolean)、[Polygon](../reference/display/Polygon.md#ispointsmode-boolean) 元素新增 isPointsMode 只读属性
+
+#### 🪲 修复
+
+\- 🌸 编辑器配置 [editBoxType](../plugin/in/editor/config/select.md#editboxtype-box-stroke) 为 'stroke' 时，某些元素的适配问题
+
+#### 🌿 优化
+
+\- 🌸 完善 points 属性相关逻辑，以支持扩展 points 编辑工具
+
+#### 🌷 感谢反馈
+
+@闰土
+
 ## 2026 / 06 / 30
 
 > v2.1.10

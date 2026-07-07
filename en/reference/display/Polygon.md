@@ -65,6 +65,12 @@ Can be set from `0 ~ 1` to control curvature. Default is `0.5`.
 
 Corner radius that smooths polygon vertices.
 
+## Read-Only Properties
+
+### isPointsMode: `boolean`
+
+Whether the `points` property mode is currently active.
+
 ## Box Element
 
 ### [PolygonBox](../../plugin/in/box/PolygonBox.md)

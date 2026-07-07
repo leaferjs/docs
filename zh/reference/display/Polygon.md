@@ -65,6 +65,12 @@ sides: 5
 
 圆角大小，使图形拐角处变的圆滑。
 
+## 只读属性
+
+### isPointsMode: `boolean`
+
+当前是否为 points 属性生效模式。
+
 ## box 元素
 
 ### [PolygonBox](../../plugin/in/box/PolygonBox.md)
