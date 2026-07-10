@@ -4,9 +4,9 @@ export const nav: DefaultTheme.NavItem[] = [
     {
         text: '✨ AI', items: [
             { text: '询问AI - Context7', link: 'https://context7.com/leaferjs/ai-docs?tab=chat', },
-            { text: '询问AI - DeepWiki', link: 'https://deepwiki.com/leaferjs/ai-docs' },
-            { text: 'MCP & Skills', link: 'https://context7.com/leaferjs/ai-docs', },
-            { text: 'Leafer AI 知识库', link: 'https://github.com/leaferjs/ai-docs', },
+            // { text: '询问AI - DeepWiki', link: 'https://deepwiki.com/leaferjs/ai-docs' },
+            { text: 'MCP', link: 'https://context7.com/leaferjs/ai-docs', },
+            { text: 'Leafer AI 知识库 & Skills', link: 'https://github.com/leaferjs/ai-docs', },
         ]
     },
     {
@@ -30,7 +30,7 @@ export const nav: DefaultTheme.NavItem[] = [
         ]
     },
     {
-        text: 'v2.1.11', activeMatch: '/blog/', items: [
+        text: 'v2.2.0', activeMatch: '/blog/', items: [
             { text: '更新日志', link: '/update/' },
             { text: '博客', link: '/blog/' },
             { text: '愿景', link: '/guide/#使命与愿景' },

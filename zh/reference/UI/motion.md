@@ -27,6 +27,37 @@ rect.motion = {
 }
 ```
 
+### motionVertical: `IMotionVertical`
+
+元素垂直于运动路径的对齐方式，默认为 'below'。
+
+```ts
+type IMotionVertical = IMotionVerticalType | IMotionVerticalData
+
+type IMotionVerticalType =
+  | 'above' // 元素在运动路径上方
+  | 'center' // 元素在中间
+  | 'below' // 元素在运动路径下方
+  | number // 设置 offset 偏移值
+
+interface IMotionVerticalData {
+  type: IMotionVerticalType // 对齐方式
+  offset: number // offset 偏移值，仅 'above' 类型向上偏移，其他类型向下偏移
+}
+
+// 元素在运动路径上方
+rect.motionVertical = 'above'
+
+// 元素向下偏移 20px
+rect.motionVertical = 20
+
+// 元素在运动路径上方，且向上偏移20px
+rect.motionVertical = {
+  type: 'above',
+  offset: 20,
+}
+```
+
 ### motionRotation: `number` | `boolean`
 
 偏移运动旋转角度，在运动角度上增加角度， 默认为 0。

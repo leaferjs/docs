@@ -2,6 +2,38 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 07 / 10
+
+> v2.2.0
+
+#### 🍇 社区
+
+开源场景案例
+
+\- 🌸 [OmniCanvas](https://github.com/ye971829766/OmniCanvas) AI Agent 驱动的智能设计创作引擎 [@ye971829766](https://github.com/ye971829766)
+
+官方 PxGrow 插件
+
+\- 🌸 [Shape Editor 插件](https://www.pxgrow.com/plugin/view/?id=10020) 轻松实现形状编辑
+
+\- 🌸 [Points Editor 插件](https://www.pxgrow.com/plugin/view/?id=10021) 轻松编辑图形节点
+
+\- 🌸 [Motion Text 插件](https://www.pxgrow.com/plugin/view/?id=10022) 轻松实现运动路径文本
+
+#### 🌱 新增
+
+\- 🌸 运动路径新增 [motionVertical](../reference/UI/motion.md#motionvertical-imotionvertical) 属性，可支持垂直方向对齐元素
+
+#### 🪲 修复
+
+\- 🌸 运动路径的 motion 为0时，没有 rotation 方向的问题
+
+\- 🌸 运动路径的 motion 超过总长度时， 元素会不显示的问题
+
+#### 🌷 感谢反馈
+
+[@18398773590](https://github.com/leaferjs/leafer-ui/issues/452) [@3400442579](https://github.com/leaferjs/leafer-ui/issues/91) @小志 @闰土
+
 ## 2026 / 07 / 07
 
 > v2.1.11

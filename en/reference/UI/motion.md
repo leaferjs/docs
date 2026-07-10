@@ -27,6 +27,37 @@ rect.motion = {
 }
 ```
 
+### motionVertical: `IMotionVertical`
+
+Controls how the element is aligned vertically relative to the motion path. The default value is `'below'`.
+
+```ts
+type IMotionVertical = IMotionVerticalType | IMotionVerticalData
+
+type IMotionVerticalType =
+  | 'above' // Position the element above the motion path
+  | 'center' // Position the element on the center of the motion path
+  | 'below' // Position the element below the motion path
+  | number // Set the offset value
+
+interface IMotionVerticalData {
+  type: IMotionVerticalType // Alignment type
+  offset: number // Offset value. Moves upward only when type is 'above'; otherwise moves downward.
+}
+
+// Position the element above the motion path
+rect.motionVertical = 'above'
+
+// Offset the element 20px downward
+rect.motionVertical = 20
+
+// Position the element above the motion path and offset it 20px upward
+rect.motionVertical = {
+  type: 'above',
+  offset: 20,
+}
+```
+
 ### motionRotation: `number` | `boolean`
 
 Offset rotation along the motion path. Adds an extra angle on top of the path direction. Defaults to `0`.
