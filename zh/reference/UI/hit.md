@@ -30,6 +30,17 @@ import Case from '/component/Case.vue'
 
 设置光标的碰撞半径，当光标距离元素在 hitRadius 范围内时，引擎可以优先拾取到元素。
 
+### hitThrough?: `IHitThrough`
+
+定义元素可被穿透拾取的范围，即使被其他元素遮住也能拾取到，默认为 `undefined`，表示不可穿透。
+
+```ts
+type IHitThrough =
+  | 'parent' // 在同一个父级内可穿透
+  | 'leafer' // 在同一个leafer层内可穿透
+  | 'app' // 整个app内可穿透
+```
+
 ## 关键方法
 
 ### hit ( worldPoint: [`IPointData`](../interface/math/Math#ipointdata), hitRadius: `number` = 0 ): `boolean`
@@ -48,3 +59,7 @@ import Case from '/component/Case.vue'
 <<< @/code/property/hit/hittable.ts [Leafer]
 <<< @/code/property/hit/app/hittable.ts [App]
 :::
+
+```
+
+```

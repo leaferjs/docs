@@ -2,6 +2,32 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 07 / 14
+
+> v2.2.2
+
+#### 🍇 社区
+
+官方 PxGrow 插件
+
+\- 🌸 [Mask Editor 插件](https://www.pxgrow.com/plugin/view/?id=10023) 轻松编辑图形遮罩
+
+\- 🌸 [Linker Editor 插件](https://www.pxgrow.com/plugin/view/?id=10015) 轻松创建与编辑连线元素
+
+\- 🌸 [Motion Editor 插件](https://www.pxgrow.com/plugin/view/?id=10024) 轻松编辑运动元素
+
+#### 🌱 新增
+
+\- 🌸 元素新增 [hitThrough](../reference/UI/hit.md#hitthrough-ihitthrough) 属性， 可穿透遮盖物拾取到元素
+
+\- 🌸 元素 [forceUpdate()](../reference/UI/forceUpdate.md) 方法新增三种更新类型，可不触发属性变化事件
+
+\- 🌸 编辑工具增加 [getEditBoxPoint()](../plugin/in/editor/InnerEditor.md#geteditboxpoint-edittargetpoint-ipointdata-change-boolean-ipointdata)、[getEditTargetPoint()](../plugin/in/editor/InnerEditor.md#getedittargetpoint-editboxpoint-ipointdata-change-boolean-ipointdata) 内部坐标转换方法
+
+#### 🌷 感谢反馈
+
+[@zwz661216](https://github.com/leaferjs/leafer-ui/issues/888) @闰土
+
 ## 2026 / 07 / 10
 
 > v2.2.0

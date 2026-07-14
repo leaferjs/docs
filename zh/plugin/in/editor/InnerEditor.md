@@ -38,6 +38,16 @@
 
 ## 关键方法
 
+### 坐标转换
+
+### getEditBoxPoint ( editTargetPoint: [`IPointData`](../../../reference/interface/math/Math.md#ipointdata), change?: `boolean` ): [`IPointData`](../../../reference/interface/math/Math.md#ipointdata)
+
+获取在编辑框内的坐标点，通过当前编辑元素inner内部坐标转换而来， `change` 参数表示是否直接修改传入的坐标。
+
+### getEditTargetPoint ( editBoxPoint: [`IPointData`](../../../reference/interface/math/Math.md#ipointdata), change?: `boolean` ): [`IPointData`](../../../reference/interface/math/Math.md#ipointdata)
+
+获取当前编辑元素inner内部的坐标点，通过编辑框内的坐标转换而来， `change` 参数表示是否直接修改传入的坐标。
+
 ### 生命周期
 
 ### onCreate()

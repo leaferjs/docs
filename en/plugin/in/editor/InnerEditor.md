@@ -38,6 +38,16 @@ The edit box instance.
 
 ## Key Methods
 
+### Coordinate Conversion
+
+### getEditBoxPoint( editTargetPoint: [`IPointData`](../../../reference/interface/math/Math.md#ipointdata), change?: `boolean` ): [`IPointData`](../../../reference/interface/math/Math.md#ipointdata)
+
+Returns the corresponding point in the edit box by converting a point from the current edit target's inner coordinate system. The `change` parameter specifies whether to modify the input point directly.
+
+### getEditTargetPoint( editBoxPoint: [`IPointData`](../../../reference/interface/math/Math.md#ipointdata), change?: `boolean` ): [`IPointData`](../../../reference/interface/math/Math.md#ipointdata)
+
+Returns the corresponding point in the current edit target's inner coordinate system by converting a point from the edit box coordinate system. The `change` parameter specifies whether to modify the input point directly.
+
 ### Lifecycle
 
 ### onCreate()

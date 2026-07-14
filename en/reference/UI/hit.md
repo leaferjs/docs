@@ -30,6 +30,17 @@ It is typically used for Text elements with padding. Group does not support this
 
 Sets the collision radius for the pointer. When the pointer is within the `hitRadius` range of the element, the engine can prioritize picking the element.
 
+### hitThrough?: `IHitThrough`
+
+Defines the scope within which an element can be picked through other overlapping elements. By default, it is `undefined`, meaning the element cannot be picked through.
+
+```ts
+type IHitThrough =
+  | 'parent' // Pick-through is enabled within the same parent
+  | 'leafer' // Pick-through is enabled within the same Leafer layer
+  | 'app' // Pick-through is enabled throughout the entire app
+```
+
 ## Key Method
 
 ### hit ( worldPoint: [`IPointData`](../interface/math/Math#ipointdata), hitRadius: `number` = 0 ): `boolean`
