@@ -56,9 +56,9 @@ var __TEMP2__ =__TEMP__; Object.defineProperty(exports, k, { enumerable: true, c
 
 ```sh
 
-https://unpkg.com/@leafer-ui/miniapp@2.2.2/dist/miniapp.module.js
+https://unpkg.com/@leafer-ui/miniapp@2.2.3/dist/miniapp.module.js
 
-https://unpkg.com/@leafer-ui/miniapp@2.2.2/dist/miniapp.module.min.js
+https://unpkg.com/@leafer-ui/miniapp@2.2.3/dist/miniapp.module.min.js
 ```
 
 ## 环境

@@ -41,11 +41,11 @@ Access internal features through the global variable LeaferUI.
 ::: code-group
 
 ```js [worker.min.js]
-importScripts('https://unpkg.com/@leafer-game/worker@2.2.2/dist/worker.min.js')
+importScripts('https://unpkg.com/@leafer-game/worker@2.2.3/dist/worker.min.js')
 ```
 
 ```js [worker.js]
-importScripts('https://unpkg.com/@leafer-game/worker@2.2.2/dist/worker.js')
+importScripts('https://unpkg.com/@leafer-game/worker@2.2.3/dist/worker.js')
 ```
 
 :::

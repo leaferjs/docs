@@ -45,14 +45,14 @@ Or include via script tag and access plugin features through the global variable
 ::: code-group
 
 ```html [html.min]
-<script src="https://unpkg.com/@leafer-in/html@2.2.2/dist/html.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/html@2.2.3/dist/html.min.js"></script>
 <script>
   const { HTMLText } = LeaferIN.html
 </script>
 ```
 
 ```html [html]
-<script src="https://unpkg.com/@leafer-in/html@2.2.2/dist/html.js"></script>
+<script src="https://unpkg.com/@leafer-in/html@2.2.3/dist/html.js"></script>
 <script>
   const { HTMLText } = LeaferIN.html
 </script>

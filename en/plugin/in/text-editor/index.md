@@ -45,14 +45,14 @@ Or include via script tag and access plugin features through the global variable
 ::: code-group
 
 ```html [text-editor.min]
-<script src="https://unpkg.com/@leafer-in/text-editor@2.2.2/dist/text-editor.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@2.2.3/dist/text-editor.min.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
 ```
 
 ```html [text-editor]
-<script src="https://unpkg.com/@leafer-in/text-editor@2.2.2/dist/text-editor.js"></script>
+<script src="https://unpkg.com/@leafer-in/text-editor@2.2.3/dist/text-editor.js"></script>
 <script>
   const { TextEditor } = LeaferIN.textEditor
 </script>
