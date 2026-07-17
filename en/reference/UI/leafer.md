@@ -28,6 +28,10 @@ Whether the Leafer engine is [ready](../display/Leafer.md#ready-boolean) (initia
 
 The Leafer engine’s [zoom/pan viewport layer](../display/Leafer.md#zoomlayer-group).
 
+### frame: [`Frame`](../display/Frame.md)
+
+The `Frame` artboard that contains the element.
+
 ## Helper Method
 
 ### waitLeafer ( item: `function`, bind?: `object` )

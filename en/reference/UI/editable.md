@@ -8,11 +8,13 @@ You need to install the [editor plugin](../../plugin/in/editor/index.md) to use 
 
 ## Key Properties
 
-### editable: `boolean`
+### editable: `boolean` | `'single'`
 
 Whether the element is editable. Default is `false`.
 
 This includes draggable behavior, so you do not need to set `draggable` again.
+
+When set to `'single'`, only this element can be selected.
 
 ### locked: `boolean`
 

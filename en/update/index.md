@@ -2,6 +2,32 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 07 / 17
+
+> v2.2.3
+
+#### 🍇 社区
+
+官方 PxGrow 插件
+
+\- 🌸 [Video 插件](https://www.pxgrow.com/plugin/view/?id=10012) 轻松渲染视频
+
+\- 🌸 [Ruler 插件](https://www.pxgrow.com/plugin/view/?id=10025) 轻松实现专业标尺功能
+
+#### 🌱 新增
+
+\- 🌸 元素新增 [frame](../reference/UI/leafer.md#frame-frame) 属性， 自动关联元素所在的 Frame 画板
+
+\- 🌸 元素 [editable](../reference/UI/editable.md) 属性新增 'single' 类型， 表示只能单选此元素
+
+#### 🪲 修复
+
+\- 🌸 [editBoxType](../plugin/in/editor/config/select.md#editboxtype-box-stroke) 为 'stroke' 时，会导致 points 直线选中效果偏移的问题
+
+#### 🌷 感谢反馈
+
+[@yy8z7](https://github.com/leaferjs/leafer-ui/issues/206) [@overdev-l](https://github.com/leaferjs/leafer-ui/issues/35) @闰土
+
 ## 2026 / 07 / 14
 
 > v2.2.2

@@ -8,11 +8,13 @@
 
 ## 关键属性
 
-### editable: `boolean`
+### editable: `boolean` | `'single' `
 
 是否允许编辑，默认为 false。
 
 包含了 draggable 功能，不用重复设置。
+
+设置为 'single' 时，表示只能单选此元素。
 
 ### locked: `boolean`
 
