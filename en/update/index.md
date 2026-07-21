@@ -2,6 +2,32 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 07 / 21
+
+> v2.2.4
+
+#### 🌱 新增
+
+\- 🌸 编辑器 [boxSelect](../plugin/in/editor/config/select.md#boxselect-boolean-hit-includes) 框选配置支持 'includes' 包含模式
+
+#### 🪲 修复
+
+\- 🌸 元素使用 [strokeScaleFixed](../reference/UI/stroke.md#strokescalefixed-zoom-in-number-boolean) 描边并缩放画布后，选中范围会变大的问题
+
+\- 🌸 编辑器框选 [Group ](../reference/display/Group.md) 元素时，碰撞范围不能紧贴元素会放大的问题
+
+\- 🌸 运动路径的 Z 命令未计算进运动总距离的问题
+
+\- [Ellipse](../reference/display/Ellipse.md) 元素环形转曲线时，逆时针闭合角度不符合预期的问题
+
+#### 🌿 优化
+
+\- 🌸 完善 [Ellipse](../reference/display/Ellipse.md) 元素的环形路径绘制方向和顺序，符合自然方向
+
+#### 🌷 感谢反馈
+
+[@Shooter-oss](https://github.com/leaferjs/leafer-ui/issues/890) @闰土
+
 ## 2026 / 07 / 17
 
 > v2.2.3

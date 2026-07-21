@@ -42,9 +42,13 @@ press 为鼠标按下触发， tap 为单击触发。
 
 是否启用多选功能，默认启用。
 
-### boxSelect: `boolean`
+### boxSelect: `boolean` | `'hit'` ｜ `'includes'`
 
 是否启用框选功能， 默认启用。
+
+设为 'hit' 表示只要触碰到元素即可选中，默认值。
+
+设为 'includes' 表示需完全包含住元素才能选中。
 
 ### continuousSelect: `boolean`
 

@@ -42,9 +42,13 @@ press means triggered on mouse down, tap means triggered on click.
 
 Whether to enable multi-selection. Enabled by default.
 
-### boxSelect: `boolean`
+### boxSelect: `boolean` | `'hit'` | `'includes'`
 
-Whether to enable box selection. Enabled by default.
+Whether box selection is enabled. Enabled by default.
+
+Set to `'hit'` to select an element as long as the selection box intersects it. This is the default behavior.
+
+Set to `'includes'` to select an element only when it is completely enclosed by the selection box.
 
 ### continuousSelect: `boolean`
 
