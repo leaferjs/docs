@@ -113,3 +113,32 @@ export interface ClosePathCommandObject {
 | O      | 26       | cx, cy, radius, startAngle, endAngle, anticlockwise                     | 7        | arc                             |
 | P      | 27       | cx, cy, radius                                                          | 4        | arc simple                      |
 | U      | 28       | x1, y1, x2, y2, radius                                                  | 6        | arcTo                           |
+
+## IPointsCurve
+
+自定义平滑 points 类型，将一组 [points](../../display/Line.md#points-number-ipointdata) 平滑为曲线。
+
+```ts
+import { IPointData, IPathCommandData } from '@leafer-ui/interface'
+import { registerPointsCurve } from '@leafer-ui/draw'
+
+// 定义平滑 points 的方式
+function drawPoints(
+  data: IPathCommandData,
+  originPoints: number[] | IPointData[],
+  curve?: boolean | number,
+  close?: boolean,
+  options?: IObject, // 可访问元素的所有数据属性
+): void {
+  // 把points数据平滑后，转成绘制命令，放到data路径数组中...
+}
+
+// 注册类型
+registerPointsCurve('C', drawPoints)
+
+// 使用自定义类型
+line.curve = {
+  type: 'C',
+  value: 0.3,
+}
+```

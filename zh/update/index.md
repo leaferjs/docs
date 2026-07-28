@@ -2,6 +2,24 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 07 / 28
+
+> v2.2.6
+
+#### 🌱 新增
+
+\- 🌸 运动路径新增 [motionAround](../reference/UI/motion.md#motionaround-ialign-iunitpointdata) 属性， 可对齐元素内部的 [around](../reference/UI/around.md) 点到运动位置上
+
+\- 🌸 [Line](../reference/display/Line.md#curve-ipointscurve)、[Polygon](../reference/display/Polygon.md#curve-ipointscurve) 元素的 curve 属性支持扩展曲线类型
+
+#### 🪲 修复
+
+\- 🌸 特定条件下阴影的混合模式不生效的问题
+
+#### 🌷 感谢反馈
+
+@小志
+
 ## 2026 / 07 / 24
 
 > v2.2.5

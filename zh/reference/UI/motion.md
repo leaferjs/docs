@@ -27,9 +27,51 @@ rect.motion = {
 }
 ```
 
+### motionAround: [`IAlign`](../../api/modules.md#ialign) | [`IUnitPointData`](../../api/interfaces/IUnitPointData.md)
+
+对齐元素内部的 [around](./around.md) 点到运动位置上。
+
+![方向图](/svg/deriction.svg)
+
+```ts
+// 方位
+type IAlign =
+  | 'top-left'
+  | 'top'
+  | 'top-right'
+  | 'right'
+  | 'bottom-right'
+  | 'bottom'
+  | 'bottom-left'
+  | 'left'
+  | 'center'
+
+rect.motionAround = 'center'
+
+// 坐标点
+interface IUnitPointData {
+  type?: 'percent' | 'px'
+  x: number
+  y: number
+}
+
+rect.motionAround = {
+  type: 'percent',
+  x: 0.5, // 50% width  百分比坐标点
+  y: 0.5, // 50% height
+}
+
+rect.motionAround = {
+  x: 50, // 50px 像素值坐标点
+  y: 50, // 50px
+}
+```
+
 ### motionVertical: `IMotionVertical`
 
 元素垂直于运动路径的对齐方式，默认为 'below'。
+
+此属性即将废弃，建议用 motionAround 属性代替。
 
 ```ts
 type IMotionVertical = IMotionVerticalType | IMotionVerticalData

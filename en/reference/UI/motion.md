@@ -27,9 +27,51 @@ rect.motion = {
 }
 ```
 
+### motionAround: [`IAlign`](../../api/modules.md#ialign) | [`IUnitPointData`](../../api/interfaces/IUnitPointData.md)
+
+Aligns the element's internal [around](./around.md) point to the motion position.
+
+![Direction Diagram](/svg/deriction.svg)
+
+```ts
+// Preset alignment positions
+type IAlign =
+  | 'top-left'
+  | 'top'
+  | 'top-right'
+  | 'right'
+  | 'bottom-right'
+  | 'bottom'
+  | 'bottom-left'
+  | 'left'
+  | 'center'
+
+rect.motionAround = 'center'
+
+// Custom coordinate
+interface IUnitPointData {
+  type?: 'percent' | 'px'
+  x: number
+  y: number
+}
+
+rect.motionAround = {
+  type: 'percent',
+  x: 0.5, // 50% of the width
+  y: 0.5, // 50% of the height
+}
+
+rect.motionAround = {
+  x: 50, // 50px
+  y: 50, // 50px
+}
+```
+
 ### motionVertical: `IMotionVertical`
 
 Controls how the element is aligned vertically relative to the motion path. The default value is `'below'`.
+
+This property will be deprecated. Use the `motionAround` property instead.
 
 ```ts
 type IMotionVertical = IMotionVerticalType | IMotionVerticalData

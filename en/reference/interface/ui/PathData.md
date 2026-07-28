@@ -113,3 +113,33 @@ export interface ClosePathCommandObject {
 | O       | 26   | cx, cy, radius, startAngle, endAngle, anticlockwise                     | 7           | arc                               |
 | P       | 27   | cx, cy, radius                                                          | 4           | arc simple                        |
 | U       | 28   | x1, y1, x2, y2, radius                                                  | 6           | arcTo                             |
+
+## IPointsCurve
+
+Defines a custom points smoothing type that converts a set of [points](../../display/Line.md#points-number-ipointdata) into a smooth curve.
+
+```ts
+import { IPointData, IPathCommandData } from '@leafer-ui/interface'
+import { registerPointsCurve } from '@leafer-ui/draw'
+
+// Define how to smooth points
+function drawPoints(
+  data: IPathCommandData,
+  originPoints: number[] | IPointData[],
+  curve?: boolean | number,
+  close?: boolean,
+  options?: IObject, // Access all data properties of the element
+): void {
+  // Smooth the points, convert them into path commands,
+  // and append the commands to the data path array...
+}
+
+// Register the custom type
+registerPointsCurve('C', drawPoints)
+
+// Use the custom type
+line.curve = {
+  type: 'C',
+  value: 0.3,
+}
+```

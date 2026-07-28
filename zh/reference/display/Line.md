@@ -55,11 +55,41 @@ console.log(line.toPoint) // {x: 200, y: 100})  会根据 width 与 rotation 自
 
 或通过坐标对象数组 [ {x, y}, {x, y} ...] 绘制折线 （可读性高，性能一般）。
 
-### curve: `boolean` | `number`
+### curve: `IPointsCurve`
 
 是否转换为平滑路径，默认为 false。
 
 可设置 0 ～ 1 控制曲率，默认为 0.5。
+
+支持 [自定义平滑 points 类型](../interface/ui/PathData.md#ipointscurve)。
+
+```ts
+type IPointsCurve = IPointsCurveValue | IPointsCurveData
+
+type IPointsCurveValue = boolean | number
+
+interface IPointsCurveData {
+  type: IPointsCurveType
+  value: IPointsCurveValue
+}
+
+type IPointsCurveType =
+  | 'Q' // 使用二次贝塞尔曲线平滑 points，默认支持
+  | 'C' // 使用三次贝塞尔曲线平滑 points，需扩展
+  | (string & {})
+
+// 使用布尔值
+line.curve = true
+
+// 使用数字
+line.curve = 0.3
+
+// 使用对象
+line.curve = {
+  type: 'Q',
+  value: 0.3,
+}
+```
 
 ### closed: `boolean`
 

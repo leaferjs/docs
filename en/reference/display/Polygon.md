@@ -49,11 +49,41 @@ Define polygon using coordinate array `[x1, y1, x2, y2, ...]` (high performance)
 
 or coordinate objects `[{x, y}, {x, y} ...]` (more readable, slightly lower performance).
 
-### curve: `boolean` | `number`
+### curve: `IPointsCurve`
 
 Whether to convert into a smooth path. Defaults to `false`.
 
 Can be set from `0 ~ 1` to control curvature. Default is `0.5`.
+
+Also supports a [custom points smoothing type](../interface/ui/PathData.md#ipointscurve).
+
+```ts
+type IPointsCurve = IPointsCurveValue | IPointsCurveData
+
+type IPointsCurveValue = boolean | number
+
+interface IPointsCurveData {
+  type: IPointsCurveType
+  value: IPointsCurveValue
+}
+
+type IPointsCurveType =
+  | 'Q' // Smooth points using quadratic Bézier curves (built-in)
+  | 'C' // Smooth points using cubic Bézier curves (requires an extension)
+  | (string & {})
+
+// Boolean
+polygon.curve = true
+
+// Number
+polygon.curve = 0.3
+
+// Object
+polygon.curve = {
+  type: 'Q',
+  value: 0.3,
+}
+```
 
 ## Path Mode
 
