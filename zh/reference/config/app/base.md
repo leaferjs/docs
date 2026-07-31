@@ -54,6 +54,12 @@
 [App 结构](../../../guide/advanced/app.md) 下需设置在 [子层 Leafer](../../display/Leafer.md) 的 config 上，如 ground、tree、sky 层。
 :::
 
+### trackChanges: `boolean`
+
+是否追踪元素变化，默认为 true。
+
+设为 false 后，将不生成及派发 [PropertyEvent](../../event/basic/Property.md)、[ChildEvent](../../event/basic/Child.md) 事件，可节省大量性能开销，适合游戏、工业等不需要历史记录的场景。
+
 ## 交互属性
 
 引擎运行中修改 [app.config](../../display/Leafer.md#config-ileaferconfig) 立即生效。

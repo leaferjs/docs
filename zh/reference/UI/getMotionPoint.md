@@ -10,9 +10,9 @@
 
 ## 关键方法
 
-### getMotionPoint ( ): [`IRotationPointData`](../../api/interfaces/IRotationPointData.md)
+### getMotionPoint ( motion: `number` ｜ `IUnitData`, motionAround?: [IAround](./motion.md#motionaround-ialign-iunitpointdata) ): [`IRotationPointData`](../../api/interfaces/IRotationPointData.md)
 
-获取运动路径上指定位置的 坐标点, 返回一个包含 rotation 的 坐标点, 如下：
+获取运动路径上指定 [motion](./motion.md#motion) 位置的 坐标点, 返回一个包含 rotation 的 坐标点, 如下：
 
 元素和运动路径元素都支持调用此方法。
 

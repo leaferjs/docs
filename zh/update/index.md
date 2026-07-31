@@ -2,6 +2,38 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 07 / 30
+
+> v2.2.7
+
+#### 🍇 社区
+
+场景案例
+
+\- 🌸 [在线建筑绘制和3D预览](https://nxtspace.github.io/Nxtspace-Web/#/editor) @Nxtspace
+
+#### 🌱 新增
+
+\- 🌸 Leafer 增加 [trackChanges](../reference/config/app/base.md#trackchanges-boolean) 配置，用于适配游戏、工业场景，可节省大量性能开销
+
+\- 🌸 [getMotionPoint](../reference/UI/getMotionPoint.md) 方法增加 motionAround 参数
+
+#### 🪲 修复
+
+\- 🌸 其他元素会比遮罩组元素优先拾取的问题
+
+\- [hitThrough](../reference/UI/hit.md#hitthrough-ihitthrough) 元素不能跨多层穿透 parent 的问题
+
+\- 自动宽高的图片与特效文字插件共用时，可能会触发更新死循环的问题
+
+#### 🌿 优化
+
+\- 🌸 组元素下没有 editable 元素时，即使 hitChildren 为 true，也能被框选
+
+#### 🌷 感谢反馈
+
+[@Shooter-oss](https://github.com/leaferjs/leafer-ui/issues/893) [@zwz661216](https://github.com/leaferjs/leafer-ui/issues/888) @dev_chen @闰土 @进击的钢铁侠
+
 ## 2026 / 07 / 28
 
 > v2.2.6
