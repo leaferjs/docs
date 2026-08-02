@@ -200,10 +200,6 @@ AI驱动开发的案例
 
 \- 🌸 [Motion Text 插件](https://www.pxgrow.com/plugin/view/?id=10022) 轻松实现运动路径文本
 
-#### 🌱 新增
-
-\- 🌸 运动路径新增 [motionVertical](../reference/UI/motion.md#motionvertical-imotionvertical) 属性，可支持垂直方向对齐元素
-
 #### 🪲 修复
 
 \- 🌸 运动路径的 motion 为0时，没有 rotation 方向的问题
