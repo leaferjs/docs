@@ -2,15 +2,53 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
-## 2026 / 07 / 30
+## 2026 / 08 / 03
 
-> v2.2.7
+> v2.2.9
 
 #### 🍇 社区
 
-场景案例
+AI驱动开发的案例
 
-\- 🌸 [在线建筑绘制和3D预览](https://nxtspace.github.io/Nxtspace-Web/#/editor) @Nxtspace
+🌸 \- [在线建筑绘制和3D预览](https://nxtspace.github.io/Nxtspace-Web/#/editor) @Nxtspace
+
+🌸 \- [unplugin-pageflow](https://github.com/fitoe/unplugin-pageflow) 在无限画布中查看所有 Vue 页面 [使用文档](https://fitoe.github.io/unplugin-pageflow/) @纪中庆
+
+🌸 \- 移植 LeaferJS 到自己用AI发明的小语言中 @梦多
+
+官方 PxGrow 以下插件已发布正式版
+
+🌸 \- [后台运行 插件](https://www.pxgrow.com/plugin/view/?id=10003) 正式开源 🎉🎉🎉
+
+🌸 \- [Ruler 插件](https://www.pxgrow.com/plugin/view/?id=10025) 轻松实现专业标尺功能
+
+🌸 \- [Linker Editor 插件](https://www.pxgrow.com/plugin/view/?id=10015) 轻松创建与编辑连线元素，可添加文字
+
+\- [Motion Editor 插件](https://www.pxgrow.com/plugin/view/?id=10024) 轻松编辑运动元素
+
+\- [Mask Editor 插件](https://www.pxgrow.com/plugin/view/?id=10023) 轻松编辑图形遮罩
+
+\- [Shape Editor 插件](https://www.pxgrow.com/plugin/view/?id=10020) 轻松实现形状编辑
+
+\- [Points Editor 插件](https://www.pxgrow.com/plugin/view/?id=10021) 轻松编辑图形节点
+
+#### 🪲 修复
+
+\- 🌸 关闭多层嵌套的组，未能全部触发关闭事件的问题
+
+\- 🌸 bright 元素超出一半 Frame 画板时，缩放画布会产生残影的问题
+
+\- motion 不支持负数的问题
+
+\- 编辑工具、内部编辑器会同时触发 update 的问题
+
+#### 🌷 感谢反馈
+
+[@Nxtspace](https://github.com/leaferjs/leafer-ui/issues/896) [@lanrenbulan](https://github.com/leaferjs/leafer-ui/issues/889) @闰土
+
+## 2026 / 07 / 30
+
+> v2.2.7
 
 #### 🌱 新增
 

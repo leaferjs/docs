@@ -54,6 +54,16 @@ Whether to enable partial layout. Default is `true`.
 In the [App structure](../../../guide/advanced/app.md), this must be set on the config of child Leafer layers such as `ground`, `tree`, and `sky`.
 :::
 
+### trackChanges: `boolean`
+
+Whether to track element changes. The default is `true`.
+
+When set to `false`, the element will no longer generate or dispatch [`PropertyEvent`](../../event/basic/Property.md) or [`ChildEvent`](../../event/basic/Child.md) events. This can significantly reduce performance overhead and is well suited for scenarios such as games and industrial applications where change history is not required.
+
+:::tip Note
+In the [App structure](../../../guide/advanced/app.md), this must be set on the config of child Leafer layers such as `ground`, `tree`, and `sky`.
+:::
+
 ## Interaction Properties
 
 When the engine is running, changes to [app.config](../../display/Leafer.md#config-ileaferconfig) take effect immediately.

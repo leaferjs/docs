@@ -32,6 +32,8 @@ Example scene: [https://benchmark.leaferjs.com/leafer/?scene=dynamic](https://be
 <<< @/code/app/config/partLayout.ts [Leafer]
 :::
 
+For game and industrial applications, you can further improve performance by disabling element change tracking through the [`trackChanges`](../../reference/config/app/base.md#trackchanges-boolean) configuration, which significantly reduces performance overhead.
+
 ## Next Step
 
 Next, you will learn several important **lifecycle concepts**, which completes the basic introduction.
