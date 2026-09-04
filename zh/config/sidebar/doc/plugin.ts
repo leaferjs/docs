@@ -223,6 +223,9 @@ export const pluginSidebar: DefaultTheme.SidebarItem[] = [
     {
         text: '🍇 社区免费插件',
         items: [
+            { text: 'canvas 富文本', link: 'https://github.com/ZhengNan-coder/leafer-x-richText' },
+            { text: 'leafer-x-metafile', link: 'https://www.npmjs.com/package/leafer-x-metafile' },
+            { text: 'leafer-x-webfont', link: 'https://www.npmjs.com/package/leafer-x-webfont' },
             { text: 'echarts插件', link: 'https://www.npmjs.com/package/leafer-x-echarts' },
             { text: '无限点阵插件', link: 'https://www.npmjs.com/package/leafer-x-dotwuxian' },
             { text: '视频播放 player', link: 'https://www.npmjs.com/package/leafer-canvas-player' },

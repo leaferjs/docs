@@ -133,6 +133,22 @@ text.letterSpacing = {
 }
 ```
 
+### wordSpacing: `number` | `IUnitData`
+
+单词间距，可使用百分比类型， 默认为 0。
+
+```ts
+interface IUnitData {
+  type: 'percent' ｜ 'px'
+  value: number
+}
+
+text.wordSpacing = {
+  type: 'percent',
+  value: 0.5, // 50%
+}
+```
+
 ### lineHeight: `number` ｜ `IUnitData`
 
 行间距，可使用百分比类型, 默认行高为 150%。

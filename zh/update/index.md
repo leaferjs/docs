@@ -2,6 +2,34 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 09 / 04
+
+> v2.2.10
+
+#### 🍇 社区
+
+🌸 \- [富文本 - 仿 Figma 文本编辑插件](https://github.com/ZhengNan-coder/leafer-x-richText) @🌎
+
+🌸 \- [Docen - 在线 Office 文档编辑器](https://github.com/DemoMacro/docen) @dd
+
+\- [渲染 wmf、emf+ 图元文件插件](https://www.npmjs.com/package/leafer-x-metafile) @dd
+
+🌸 \- LeaferJS 开源森林 - 社区已准备就绪，下周开始投入使用
+
+#### 🌱 新增
+
+\- 🌸 Text 文字支持径向、锥形渐变填充
+
+\- Text 文字新增 [wordSpacing](../reference/display/Text.md#wordspacing-number-iunitdata) 属性
+
+#### 🪲 修复
+
+\- 带重音的拉丁字母被判定为 CJK，会导致意外断行的问题 [@Nuage1234](https://github.com/leaferjs/leafer-ui/issues/901)
+
+#### 🌷 感谢反馈
+
+[@lanrenbulan](https://github.com/leaferjs/leafer-ui/issues/895) [@ZhengNan-coder](https://github.com/leaferjs/leafer-ui/issues/909) [@FZliweiliang](https://github.com/leaferjs/leafer-ui/issues/898) [@s836064858](https://github.com/leaferjs/leafer-ui/issues/785) [@amourlemon](https://github.com/leaferjs/leafer-ui/issues/320)
+
 ## 2026 / 08 / 03
 
 > v2.2.9
@@ -12,13 +40,13 @@ AI驱动开发的案例
 
 🌸 \- [在线建筑绘制和3D预览](https://nxtspace.github.io/Nxtspace-Web/#/editor) @Nxtspace
 
-🌸 \- [unplugin-pageflow](https://github.com/fitoe/unplugin-pageflow) 在无限画布中查看所有 Vue 页面 [使用文档](https://fitoe.github.io/unplugin-pageflow/) @纪中庆
+🌸 \- [PageFlow 在无限画布中全览整站所有页面](https://github.com/fitoe/unplugin-pageflow) [使用文档](https://fitoe.github.io/unplugin-pageflow/) @纪中庆
 
 🌸 \- 移植 LeaferJS 到自己用AI发明的小语言中 @梦多
 
 官方 PxGrow 以下插件已发布正式版
 
-🌸 \- [后台运行 插件](https://www.pxgrow.com/plugin/view/?id=10003) 正式开源 🎉🎉🎉
+🌸 \- [后台运行 插件](https://www.pxgrow.com/plugin/view/?id=10004) 正式开源 🎉🎉🎉
 
 🌸 \- [Ruler 插件](https://www.pxgrow.com/plugin/view/?id=10025) 轻松实现专业标尺功能
 

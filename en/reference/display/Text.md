@@ -131,6 +131,22 @@ text.letterSpacing = {
 }
 ```
 
+### wordSpacing: `number` | `IUnitData`
+
+Word spacing. Supports percentage values. Default is 0.
+
+```ts
+interface IUnitData {
+  type: 'percent' ｜ 'px'
+  value: number
+}
+
+text.wordSpacing = {
+  type: 'percent',
+  value: 0.5, // 50%
+}
+```
+
 ### lineHeight: `number` | `IUnitData`
 
 Line height. Supports percentage values. Default line height is 150%.

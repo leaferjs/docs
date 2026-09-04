@@ -223,6 +223,9 @@ export const pluginSidebar: DefaultTheme.SidebarItem[] = [
     {
         text: '🍇 Community Free Plugins',
         items: [
+            { text: 'Canvas RichText', link: 'https://github.com/ZhengNan-coder/leafer-x-richText' },
+            { text: 'leafer-x-metafile', link: 'https://www.npmjs.com/package/leafer-x-metafile' },
+            { text: 'leafer-x-webfont', link: 'https://www.npmjs.com/package/leafer-x-webfont' },
             { text: 'echarts plugin', link: 'https://www.npmjs.com/package/leafer-x-echarts' },
             { text: 'Infinite Dot Matrix Plugin', link: 'https://www.npmjs.com/package/leafer-x-dotwuxian' },
             { text: 'Video Player', link: 'https://www.npmjs.com/package/leafer-canvas-player' },
