@@ -20,7 +20,9 @@
 
 \- 🌸 Text 文字支持径向、锥形渐变填充
 
-\- Text 文字新增 [wordSpacing](../reference/display/Text.md#wordspacing-number-iunitdata) 属性
+\- 🌸 Text 文字新增 [wordSpacing](../reference/display/Text.md#wordspacing-number-iunitdata) 属性
+
+\- [leafer](../guide/install/leafer/start.md) 全量包新增 [后台运行 插件](https://www.pxgrow.com/plugin/view/?id=10004)
 
 #### 🪲 修复
 
