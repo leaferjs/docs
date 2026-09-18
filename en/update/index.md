@@ -2,6 +2,42 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 09 / 17
+
+> v2.2.11
+
+#### 🍇 社区
+
+🌸 \- [LeaferJS 开源森林](https://www.leafer.pro/) - 社区已上线，社区插件、作品将全部迁移至新网站
+
+官方 PxGrow 插件
+
+🌸 \- 增强插件系列将逐步开源，后续将采用社区共建、众筹模式推进社区插件需求
+
+🌸 \- [Flow Editor 插件](https://www.pxgrow.com/plugin/view/?id=10027) alpha 版发布，轻松编辑自动布局元素
+
+#### 🌱 新增
+
+\- 🌸 元素新增 waitParentChange() 常驻方法，parent 切换后均能触发
+
+\- 🌸 支持扩展编辑自动布局元素
+
+#### 🪲 修复
+
+\- Robot 元素未设置 fill 属性在编辑器中选中不了的问题
+
+\- zIndex 元素切换 parent 后，zIndex 不生效的问题
+
+\- 自动布局元素切换 parent 后，自动宽高不生效的问题
+
+\- 自动布局元素宽高为 0，使用 padding 后显示不正常的问题
+
+\- 自动布局元素设置了自动宽高，但没有设置基础宽高会不显示的问题
+
+#### 🌷 感谢反馈
+
+@张老爷 @闰土
+
 ## 2026 / 09 / 04
 
 > v2.2.10
@@ -14,7 +50,7 @@
 
 \- [渲染 wmf、emf+ 图元文件插件](https://www.npmjs.com/package/leafer-x-metafile) @dd
 
-🌸 \- LeaferJS 开源森林 - 社区已准备就绪，下周开始投入使用
+🌸 \- [LeaferJS 开源森林](https://www.leafer.pro/) - 社区已准备就绪
 
 #### 🌱 新增
 

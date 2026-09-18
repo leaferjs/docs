@@ -24,13 +24,14 @@ export const nav: DefaultTheme.NavItem[] = [
     { text: 'Playground', link: 'https://www.leaferjs.com/playground/' },
     {
         text: 'Ecosystem', items: [
+            { text: 'LeaferJS Open Source Forest', link: 'https://www.leafer.pro', },
             { text: 'Official PxGrow Ecosystem', link: 'https://www.pxgrow.com', },
             { text: 'Community Participation', link: '/contribute/' },
             { text: 'Contribution Guide', link: '/contribute/guide' },
         ]
     },
     {
-        text: 'v2.2.10', activeMatch: '/blog/', items: [
+        text: 'v2.2.11', activeMatch: '/blog/', items: [
             { text: 'Changelog', link: '/update/' },
             { text: 'Blog', link: '/blog/' },
             { text: 'Vision', link: '/guide/#使命与愿景' },
