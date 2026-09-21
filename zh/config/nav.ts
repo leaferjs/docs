@@ -26,8 +26,8 @@ export const nav: DefaultTheme.NavItem[] = [
         text: '生态', items: [
             { text: 'LeaferJS 开源森林', link: 'https://www.leafer.pro', },
             { text: '官方 PxGrow 生态', link: 'https://www.pxgrow.com', },
-            { text: '社区参与', link: '/contribute/' },
-            { text: '贡献指南', link: '/contribute/guide' },
+            { text: '社区早期贡献记录', link: '/contribute/' },
+            // { text: '贡献指南', link: '/contribute/guide' },
         ]
     },
     {

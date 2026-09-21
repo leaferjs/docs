@@ -221,47 +221,11 @@ export const pluginSidebar: DefaultTheme.SidebarItem[] = [
     },
 
     {
-        text: '🍇 社区免费插件',
+        text: '🍇 社区插件',
         items: [
-            { text: 'canvas 富文本', link: 'https://github.com/ZhengNan-coder/leafer-x-richText' },
-            { text: 'leafer-x-metafile', link: 'https://www.npmjs.com/package/leafer-x-metafile' },
-            { text: 'leafer-x-webfont', link: 'https://www.npmjs.com/package/leafer-x-webfont' },
-            { text: 'echarts插件', link: 'https://www.npmjs.com/package/leafer-x-echarts' },
-            { text: '无限点阵插件', link: 'https://www.npmjs.com/package/leafer-x-dotwuxian' },
-            { text: '视频播放 player', link: 'https://www.npmjs.com/package/leafer-canvas-player' },
-            { text: '连线插件(加强版)', link: 'https://www.npmjs.com/package/leafer-connector' },
-            { text: '特效文字', link: 'https://www.npmjs.com/package/leafer-x-effect-text' },
-            { text: 'leafer-unified', link: 'https://www.npmjs.com/package/leafer-unified' },
-            { text: '折线编辑', link: 'https://www.npmjs.com/package/leafer-x-polyline-editor' },
-            { text: '吸附插件(加强版)', link: 'https://www.npmjs.com/package/leafer-x-easy-snap' },
-            { text: '简易版图片裁剪编辑器', link: 'https://www.npmjs.com/package/leafer-x-clip-resize-inner-editor' },
-            { text: '骨骼动画', link: 'https://www.npmjs.com/package/leafer-x-spine' },
-            { text: 'path-editor', link: 'https://www.npmjs.com/package/leafer-x-path-editor' },
-            { text: '吸附插件', link: 'https://www.npmjs.com/package/leafer-x-snap' },
-
-            { text: 'leafer-vue', link: 'https://leafer-vue.netlify.app' },
-            { text: 'toolbar', link: 'https://www.npmjs.com/package/leafer-x-edit-toolbar' },
-            { text: '点阵背景', link: 'https://www.npmjs.com/package/leafer-x-dot-matrix' },
-            { text: '连线', link: 'https://www.npmjs.com/package/leafer-x-connector' },
-            { text: '标尺线', link: 'https://www.npmjs.com/package/leafer-x-ruler' },
-            { text: 'Tooltip (dom)', link: 'https://www.npmjs.com/package/leafer-x-tooltip' },
-            { text: 'Tooltip (canvas)', link: 'https://www.npmjs.com/package/leafer-x-tooltip-canvas' },
-        ],
-    },
-
-    {
-        text: '🍇 社区免费AI插件',
-        items: [
-            { text: 'leafer-x-design-system', link: 'https://www.npmjs.com/package/leafer-x-design-system' },
-        ],
-    },
-
-    {
-        text: '🍇 社区付费插件',
-        items: [
+            { text: '开源森林社区插件', link: 'https://www.leafer.pro/#plugin' },
             { text: 'PxGrow 解决方案', link: 'https://www.pxgrow.com' },
-            { text: '富文本编辑器', link: 'https://chenyomi.github.io/leafer-htmltext-edit-website/' },
-            { text: '吸附线插件', link: 'http://afdian.com/item/d2f62a74b13611ef99b75254001e7c00' },
         ],
     }
+
 ]

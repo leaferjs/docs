@@ -1,6 +1,6 @@
 # Community Participation
 
-This page collects user contributions related to LeaferJS. The presentation format will continue to be optimized. You are welcome to submit your work via issues or self-recommendation at [https://github.com/leaferjs/leafer-x](https://github.com/leaferjs/leafer-x).
+This page collects contributions and related content from early LeaferJS community members.
 
 #### Open Source Stories
 

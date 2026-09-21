@@ -1,5 +1,7 @@
 # Our Blog
 
+### [LeaferJS Open Source Forest — You’re Welcome to Join!](../forest/welcome.md)
+
 ### [The Story After 800,000 RMB in Debt · Episode 1](./2026-07-02.md)
 
 ### [🚦 The First Intersection Principle](./2026-06-22.md)

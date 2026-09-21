@@ -93,7 +93,11 @@ As the community grows, the chat group will no longer provide 1-on-1 support. Pl
 
 ### Disclaimer
 
-LeaferJS is open-source under the MIT license. Please read the [disclaimer](./disclaimer.md) before use. We welcome community contributions and mutual support. We are not obligated to answer or fix all issues (but we try our best). Our main focus is product development, and we encourage everyone to participate and build a stronger ecosystem together.
+LeaferJS is open source and freely available under the MIT License. Please read the [Disclaimer](./disclaimer.md) before use.
+
+We encourage community members to help one another, share their experience, and contribute to the development of LeaferJS. As our resources are limited, we cannot answer or fix every issue, but we will do our best to participate and maintain the project.
+
+Our primary focus will continue to be on product development and open-source development. We also hope more developers will join us in making LeaferJS stronger and helping the open-source community thrive.
 
 ## Enhance LeaferJS
 
@@ -146,7 +150,7 @@ Through continuous innovation in rendering technology and tooling, we aim to bui
 
 We empower developers to build next-generation AI-era tools for web, applications, design, canvas, games, and animation—such as the next Figma, Miro, Notion, Unity, Adobe, Canva, Webflow, and more.
 
-This is a long journey, and we are steadily moving toward it year after year. You can learn more in the [development plan](../plan/).
+This is a long journey, and we are steadily moving toward it year after year.
 
 ## Culture
 
@@ -162,4 +166,4 @@ We aim to climb peaks that others have never reached, while focusing our energy 
 
 We understand success is not instant. Failures are part of the journey. As long as we stay resilient and keep improving step by step, we will eventually reach our destination.
 
-We hope to build a **new type of internet company and community** together. If you resonate with this culture, welcome to read the [contribution guide](../contribute/guide.md) and join us.
+We hope to build a **new type of internet company and community** together. If you resonate with this culture, welcome to read the [Open Source Forest](../forest/welcome.md) and join us at your own pace.

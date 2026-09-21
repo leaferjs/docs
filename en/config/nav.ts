@@ -26,8 +26,8 @@ export const nav: DefaultTheme.NavItem[] = [
         text: 'Ecosystem', items: [
             { text: 'LeaferJS Open Source Forest', link: 'https://www.leafer.pro', },
             { text: 'Official PxGrow Ecosystem', link: 'https://www.pxgrow.com', },
-            { text: 'Community Participation', link: '/contribute/' },
-            { text: 'Contribution Guide', link: '/contribute/guide' },
+            { text: 'Early Community Contributions', link: '/contribute/' },
+            // { text: 'Contribution Guide', link: '/contribute/guide' },
         ]
     },
     {

@@ -221,47 +221,10 @@ export const pluginSidebar: DefaultTheme.SidebarItem[] = [
     },
 
     {
-        text: '🍇 Community Free Plugins',
+        text: '🍇 Community Plugins',
         items: [
-            { text: 'Canvas RichText', link: 'https://github.com/ZhengNan-coder/leafer-x-richText' },
-            { text: 'leafer-x-metafile', link: 'https://www.npmjs.com/package/leafer-x-metafile' },
-            { text: 'leafer-x-webfont', link: 'https://www.npmjs.com/package/leafer-x-webfont' },
-            { text: 'echarts plugin', link: 'https://www.npmjs.com/package/leafer-x-echarts' },
-            { text: 'Infinite Dot Matrix Plugin', link: 'https://www.npmjs.com/package/leafer-x-dotwuxian' },
-            { text: 'Video Player', link: 'https://www.npmjs.com/package/leafer-canvas-player' },
-            { text: 'Connector Plugin (Enhanced)', link: 'https://www.npmjs.com/package/leafer-connector' },
-            { text: 'Effect Text', link: 'https://www.npmjs.com/package/leafer-x-effect-text' },
-            { text: 'leafer-unified', link: 'https://www.npmjs.com/package/leafer-unified' },
-            { text: 'Polyline Editor', link: 'https://www.npmjs.com/package/leafer-x-polyline-editor' },
-            { text: 'Snap Plugin (Enhanced)', link: 'https://www.npmjs.com/package/leafer-x-easy-snap' },
-            { text: 'Simple Image Crop Editor', link: 'https://www.npmjs.com/package/leafer-x-clip-resize-inner-editor' },
-            { text: 'Skeletal Animation', link: 'https://www.npmjs.com/package/leafer-x-spine' },
-            { text: 'path-editor', link: 'https://www.npmjs.com/package/leafer-x-path-editor' },
-            { text: 'Snap Plugin', link: 'https://www.npmjs.com/package/leafer-x-snap' },
-
-            { text: 'leafer-vue', link: 'https://leafer-vue.netlify.app' },
-            { text: 'toolbar', link: 'https://www.npmjs.com/package/leafer-x-edit-toolbar' },
-            { text: 'Dot Matrix Background', link: 'https://www.npmjs.com/package/leafer-x-dot-matrix' },
-            { text: 'Connector', link: 'https://www.npmjs.com/package/leafer-x-connector' },
-            { text: 'Ruler', link: 'https://www.npmjs.com/package/leafer-x-ruler' },
-            { text: 'Tooltip (dom)', link: 'https://www.npmjs.com/package/leafer-x-tooltip' },
-            { text: 'Tooltip (canvas)', link: 'https://www.npmjs.com/package/leafer-x-tooltip-canvas' },
-        ],
-    },
-
-    {
-        text: '🍇 Community Free AI Plugins',
-        items: [
-            { text: 'leafer-x-design-system', link: 'https://www.npmjs.com/package/leafer-x-design-system' },
-        ],
-    },
-
-    {
-        text: '🍇 Community Paid Plugins',
-        items: [
-            { text: 'PxGrow Solution', link: 'https://www.pxgrow.com' },
-            { text: 'Rich Text Editor', link: 'https://chenyomi.github.io/leafer-htmltext-edit-website/' },
-            { text: 'Snap Line Plugin', link: 'http://afdian.com/item/d2f62a74b13611ef99b75254001e7c00' },
+            { text: 'Open Source Forest  Plugins', link: 'https://www.leafer.pro/#plugin' },
+            { text: 'PxGrow Solutions', link: 'https://www.pxgrow.com' },
         ],
     }
 ]
