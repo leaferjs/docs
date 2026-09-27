@@ -2,6 +2,48 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 09 / 28
+
+> v2.3.0
+
+#### 🍇 社区
+
+🌸 \- [LeaferJS 开源森林](https://www.leafer.pro/) - 新上线多款插件、产品案例
+
+官方 PxGrow 插件
+
+🌸 \- [Motion Text 插件](https://www.pxgrow.com/plugin/view/?id=10022) 已开源，轻松实现运动路径文本效果
+
+🌸 \- [Linker 插件](https://www.pxgrow.com/plugin/view/?id=10014) 已开源，轻松实现高性能连线元素
+
+🌸 \- [Transition 插件](https://www.pxgrow.com/plugin/view/?id=10017) 已开源，轻松实现渐变颜色动画
+
+🌸 \- [Stroke Sides 插件](https://www.pxgrow.com/plugin/view/?id=10018) 已开源，轻松实现矩形四边独立控制
+
+#### 🌱 新增
+
+\- 🌸 自动布局元素的 autoWidth、autoHeight 属性支持百分比单位
+
+\- 🌸 编辑器增加 skipNested 配置，可跳过选中存在嵌套关系的子元素，避免误选
+
+\- 🌸 addAfter()、addBefore()、addAt()、toTop()、toBottom() 方法支持兼容 zIndex 逻辑
+
+\- Frame 元素增加 frame 固定属性， 指向为自身
+
+#### 🪲 修复
+
+\- path 起点与终点重合，且路径闭合时，起点不能应用圆角的问题
+
+\- 切换父元素后，frame 属性未及时更新的问题
+
+\- path、points 属性 resize 修改后会污染历史数据的问题
+
+\- 空值与色彩值之间不能渐进过渡的问题
+
+#### 🌷 感谢反馈
+
+@张老爷 @闰土
+
 ## 2026 / 09 / 17
 
 > v2.2.11
