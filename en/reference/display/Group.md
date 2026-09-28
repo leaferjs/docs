@@ -56,15 +56,15 @@ Clear all child elements (remove and destroy them).
 
 ### addAt ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[], index: `number` )
 
-Add child elements at a specified index.
+Add child elements at a specified index, Now supports compatibility with the [zIndex](../UI/zIndex.md) logic.
 
 ### addBefore ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[], before: [`UI`](./UI.md) )
 
-Add child elements before the specified element.
+Add child elements before the specified element, Now supports compatibility with the [zIndex](../UI/zIndex.md) logic.
 
 ### addAfter ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[], after: [`UI`](./UI.md) )
 
-Add child elements after the specified element.
+Add child elements after the specified element, Now supports compatibility with the [zIndex](../UI/zIndex.md) logic.
 
 ## Inheritance
 

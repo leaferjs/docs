@@ -56,15 +56,15 @@ Group &nbsp;>&nbsp; [UI](./UI.md)
 
 ### addAt ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[], index: `number`)
 
-添加子元素在指定位置。
+添加子元素在指定位置，已支持兼容 [zIndex](../UI/zIndex.md) 逻辑。
 
 ### addBefore ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[], before: [`UI`](./UI.md))
 
-添加子元素在指定的元素前面。
+添加子元素在指定的元素前面，已支持兼容 [zIndex](../UI/zIndex.md) 逻辑。
 
 ### addAfter ( child: [`UI`](./UI.md) | [`UI`](./UI.md)[], after: [`UI`](./UI.md))
 
-添加子元素在指定的元素后面。
+添加子元素在指定的元素后面，已支持兼容 [zIndex](../UI/zIndex.md) 逻辑。
 
 ## 继承元素
 

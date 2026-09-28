@@ -16,6 +16,12 @@ Wait until the element has a [`parent`](./parent.md) property, then execute the 
 
 If it already exists, it will be executed immediately.
 
+### waitParentChange ( item: `function` )
+
+Waits for the element's [`parent`](./parent.md) property to change before executing the `item` function. Note that the `item` function remains in the listener queue (the same function is automatically deduplicated).
+
+If the parent already exists, the function is executed immediately.
+
 ## Belongs to
 
 ### [UI Element](../display/UI.md)

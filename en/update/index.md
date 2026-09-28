@@ -20,23 +20,21 @@
 
 🌸 \- [Stroke Sides 插件](https://www.pxgrow.com/plugin/view/?id=10018) 已开源，轻松实现矩形四边独立控制
 
-🌸 \- [Flow Editor 插件](https://www.pxgrow.com/plugin/view/?id=10027) beta 版发布，轻松编辑自动布局元素
-
 #### 🌱 新增
 
-\- 🌸 自动布局元素的 autoWidth、autoHeight 属性支持百分比单位
+\- 🌸 自动布局元素的 [autoWidth](../plugin/in/flow/Flow/autoWidth.md)、[autoHeight](../plugin/in/flow/Flow/autoHeight.md) 属性支持百分比单位
 
-\- 🌸 编辑器增加 skipNested 配置，可跳过选中存在嵌套关系的子元素，避免误选
+\- 🌸 编辑器增加 [skipNested](../plugin/in/editor/config/select.md#skipnested-boolean) 配置，可跳过选中存在嵌套关系的子元素，避免误选
 
-\- 🌸 addAfter()、addBefore()、addAt()、toTop()、toBottom() 方法支持兼容 zIndex 逻辑
+\- 🌸 [addAfter()](../reference/display/Group.md#addafter-child-ui-ui-after-ui)、[addBefore()](../reference/display/Group.md#addafter-child-ui-ui-after-ui)、[addAt()](../reference/display/Group.md#addafter-child-ui-ui-after-ui)、[toTop()](../plugin/in/editor/Editor/zIndex.md)、[toBottom()](../plugin/in/editor/Editor/zIndex.md) 方法支持兼容 [zIndex](../reference/UI/zIndex.md) 逻辑
 
-\- Frame 元素增加 frame 固定属性， 指向为自身
+\- Frame 元素增加 [frame](../reference/UI/leafer.md#frame-frame) 固定属性， 指向为自身
 
 #### 🪲 修复
 
 \- path 起点与终点重合，且路径闭合时，起点不能应用圆角的问题
 
-\- 切换父元素后，frame 属性未及时更新的问题
+\- 切换父元素后，[frame](../reference/UI/leafer.md#frame-frame) 属性未及时更新的问题
 
 \- path、points 属性 resize 修改后会污染历史数据的问题
 
@@ -62,7 +60,7 @@
 
 #### 🌱 新增
 
-\- 🌸 元素新增 waitParentChange() 常驻方法，parent 切换后均能触发
+\- 🌸 元素新增 [waitParentChange()](../reference/UI/parent.md#waitparentchange-item-function) 常驻方法，parent 切换后均能触发
 
 \- 🌸 支持扩展编辑自动布局元素
 

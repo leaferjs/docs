@@ -4,11 +4,11 @@
 
 ### toTop()
 
-Move selected elements to the top layer (within their parent Group).
+Move selected elements to the top layer (within their parent Group), Now supports compatibility with the [zIndex](../../../../reference/UI/zIndex.md) logic.
 
 ### toBottom()
 
-Move selected elements to the bottom layer (within their parent Group).
+Move selected elements to the bottom layer (within their parent Group), Now supports compatibility with the [zIndex](../../../../reference/UI/zIndex.md) logic.
 
 ## Belongs to
 

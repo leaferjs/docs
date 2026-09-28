@@ -16,6 +16,12 @@
 
 已存在则立即执行。
 
+### waitParentChange ( item: `function` )
+
+等待元素 [`parent`](./parent.md) 属性更改时执行 item 函数，注意 item 函数会常驻在监听队列中（同一个函数会自动排重）。
+
+已存在则立即执行。
+
 ## 归属
 
 ### [UI 元素](../display/UI.md)

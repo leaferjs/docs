@@ -12,7 +12,19 @@ import Case from '/component/Case.vue'
 
 Auto height weight. Distributes remaining height to this element (ignores `height`), similar to Flex grow / shrink. Default is 0.
 
-When set to a value greater than 0, the element will automatically expand its height. Usually set to 1. Percentage-based height support will be added in the future.
+When set to a value greater than 0, the element will automatically expand its height. Usually set to 1. Supports setting the height as a percentage.
+
+```ts
+interface IUnitData {
+  type: 'percent' ｜ 'px'
+  value: number
+}
+
+rect.autoHeight = {
+  type: 'percent',
+  value: 0.5, // 50%
+}
+```
 
 ## Belongs To
 
@@ -31,3 +43,7 @@ When set to a value greater than 0, the element will automatically expand its he
 ### Auto Height and Height
 
 <<< @/code/plugin/flow/autoHeight/both.ts
+
+### Auto Height supports percentage values
+
+<<< @/code/plugin/flow/autoHeight/percent.ts

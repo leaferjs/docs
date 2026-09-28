@@ -8,11 +8,23 @@ import Case from '/component/Case.vue'
 
 ## 关键属性
 
-### autoWidth: `number`
+### autoWidth: `number` | `IUnitData`
 
 自动宽度权重，分配剩余宽度给此元素（忽略 width），类似 Flex 的 grow / shrink，默认为 0。
 
-设为大于 0 的值会自动扩充宽度，一般设为 1，后面会支持百分比宽度。
+设为大于 0 的值会自动扩充宽度，一般设为 1，已支持设置百分比宽度。
+
+```ts
+interface IUnitData {
+  type: 'percent' ｜ 'px'
+  value: number
+}
+
+rect.autoWidth = {
+  type: 'percent',
+  value: 0.5, // 50%
+}
+```
 
 ## 归属
 
@@ -31,3 +43,7 @@ import Case from '/component/Case.vue'
 ### 自动宽度和高度
 
 <<< @/code/plugin/flow/autoWidth/both.ts
+
+### 自动宽度为百分比单位
+
+<<< @/code/plugin/flow/autoWidth/percent.ts

@@ -54,6 +54,12 @@ Set to `'includes'` to select an element only when it is completely enclosed by 
 
 Whether a single click can continuously select multiple elements. Typically used for multi-selection on mobile devices. Disabled by default.
 
+### skipNested: `boolean`
+
+Whether to skip nested child elements in the selection to avoid accidental selection. Defaults to `false`.
+
+Enabling this option adds a small performance overhead for additional checks. The more nested elements are selected, the higher the checking cost.
+
 ### preventEditInner: `boolean`
 
 Whether to prevent opening the inner editor on double-click. Default is false.

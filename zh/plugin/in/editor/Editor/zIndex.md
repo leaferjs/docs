@@ -4,11 +4,11 @@
 
 ### toTop ( )
 
-移动选中元素到最顶层（所属 Group 中）。
+移动选中元素到最顶层（所属 Group 中），已支持兼容 [zIndex](../../../../reference/UI/zIndex.md) 逻辑。
 
 ### toBottom ( )
 
-移动选中元素到最底层（所属 Group 中）。
+移动选中元素到最底层（所属 Group 中），已支持兼容 [zIndex](../../../../reference/UI/zIndex.md) 逻辑。
 
 ## 归属
 
