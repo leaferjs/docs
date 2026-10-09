@@ -47,7 +47,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ::: code-group
 
 ```html [stroke-sides.min]
-<script src="https://unpkg.com/@leafer-in/stroke-sides@2.3.0/dist/stroke-sides.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/stroke-sides@2.3.1/dist/stroke-sides.min.js"></script>
 
 <script>
   const {} = LeaferIN.strokeSides
@@ -55,7 +55,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ```
 
 ```html [stroke-sides]
-<script src="https://unpkg.com/@leafer-in/stroke-sides@2.3.0/dist/stroke-sides.js"></script>
+<script src="https://unpkg.com/@leafer-in/stroke-sides@2.3.1/dist/stroke-sides.js"></script>
 
 <script>
   const {} = LeaferIN.strokeSides

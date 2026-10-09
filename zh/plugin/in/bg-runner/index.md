@@ -41,14 +41,14 @@ bun add @leafer-in/bg-runner
 ::: code-group
 
 ```html [bg-runner.min]
-<script src="https://unpkg.com/@leafer-in/bg-runner@2.3.0/dist/bg-runner.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/bg-runner@2.3.1/dist/bg-runner.min.js"></script>
 <script>
   const { BackgroundRunner } = LeaferIN.bgRunner
 </script>
 ```
 
 ```html [bg-runner]
-<script src="https://unpkg.com/@leafer-in/bg-runner@2.3.0/dist/bg-runner.js"></script>
+<script src="https://unpkg.com/@leafer-in/bg-runner@2.3.1/dist/bg-runner.js"></script>
 <script>
   const { BackgroundRunner } = LeaferIN.bgRunner
 </script>

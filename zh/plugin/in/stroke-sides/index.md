@@ -39,14 +39,14 @@ bun add @leafer-in/stroke-sides
 ::: code-group
 
 ```html [stroke-sides.min]
-<script src="https://unpkg.com/@leafer-in/stroke-sides@2.3.0/dist/stroke-sides.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/stroke-sides@2.3.1/dist/stroke-sides.min.js"></script>
 <script>
   const {} = LeaferIN.strokeSides
 </script>
 ```
 
 ```html [stroke-sides]
-<script src="https://unpkg.com/@leafer-in/stroke-sides@2.3.0/dist/stroke-sides.js"></script>
+<script src="https://unpkg.com/@leafer-in/stroke-sides@2.3.1/dist/stroke-sides.js"></script>
 <script>
   const {} = LeaferIN.strokeSides
 </script>

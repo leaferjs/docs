@@ -45,14 +45,14 @@ bun add @leafer-in/linker
 ::: code-group
 
 ```html [linker.min]
-<script src="https://unpkg.com/@leafer-in/linker@2.3.0/dist/linker.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/linker@2.3.1/dist/linker.min.js"></script>
 <script>
   const { Linker, LinkerData } = LeaferIN.linker
 </script>
 ```
 
 ```html [linker]
-<script src="https://unpkg.com/@leafer-in/linker@2.3.0/dist/linker.js"></script>
+<script src="https://unpkg.com/@leafer-in/linker@2.3.1/dist/linker.js"></script>
 <script>
   const { Linker, LinkerData } = LeaferIN.linker
 </script>

@@ -39,14 +39,14 @@ bun add @leafer-in/transition
 ::: code-group
 
 ```html [transition.min]
-<script src="https://unpkg.com/@leafer-in/transition@2.3.0/dist/transition.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/transition@2.3.1/dist/transition.min.js"></script>
 <script>
   const { Transition, TransitionData } = LeaferIN.transition
 </script>
 ```
 
 ```html [transition]
-<script src="https://unpkg.com/@leafer-in/transition@2.3.0/dist/transition.js"></script>
+<script src="https://unpkg.com/@leafer-in/transition@2.3.1/dist/transition.js"></script>
 <script>
   const { Transition, TransitionData } = LeaferIN.transition
 </script>

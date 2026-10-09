@@ -47,7 +47,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ::: code-group
 
 ```html [motion-text.min]
-<script src="https://unpkg.com/@leafer-in/motion-text@2.3.0/dist/motion-text.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/motion-text@2.3.1/dist/motion-text.min.js"></script>
 
 <script>
   const {} = LeaferIN.motionText
@@ -55,7 +55,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ```
 
 ```html [motion-text]
-<script src="https://unpkg.com/@leafer-in/motion-text@2.3.0/dist/motion-text.js"></script>
+<script src="https://unpkg.com/@leafer-in/motion-text@2.3.1/dist/motion-text.js"></script>
 
 <script>
   const {} = LeaferIN.motionText

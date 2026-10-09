@@ -39,14 +39,14 @@ bun add @leafer-in/motion-text
 ::: code-group
 
 ```html [motion-text.min]
-<script src="https://unpkg.com/@leafer-in/motion-text@2.3.0/dist/motion-text.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/motion-text@2.3.1/dist/motion-text.min.js"></script>
 <script>
   const {} = LeaferIN.motionText
 </script>
 ```
 
 ```html [motion-text]
-<script src="https://unpkg.com/@leafer-in/motion-text@2.3.0/dist/motion-text.js"></script>
+<script src="https://unpkg.com/@leafer-in/motion-text@2.3.1/dist/motion-text.js"></script>
 <script>
   const {} = LeaferIN.motionText
 </script>

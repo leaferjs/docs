@@ -2,6 +2,18 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 10 / 08
+
+> v2.3.1
+
+#### 🪲 修复
+
+🌸 \- [Linker 插件](https://www.pxgrow.com/plugin/view/?id=10014) 通过 npm 安装后运行不了的问题
+
+#### 🌷 感谢反馈
+
+@dev_chen
+
 ## 2026 / 09 / 28
 
 > v2.3.0
