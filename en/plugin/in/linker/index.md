@@ -55,7 +55,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ::: code-group
 
 ```html [linker.min]
-<script src="https://unpkg.com/@leafer-in/linker@2.3.1/dist/linker.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/linker@2.3.2/dist/linker.min.js"></script>
 
 <script>
   const { Linker, LinkerData } = LeaferIN.linker
@@ -63,7 +63,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ```
 
 ```html [linker]
-<script src="https://unpkg.com/@leafer-in/linker@2.3.1/dist/linker.js"></script>
+<script src="https://unpkg.com/@leafer-in/linker@2.3.2/dist/linker.js"></script>
 
 <script>
   const { Linker, LinkerData } = LeaferIN.linker

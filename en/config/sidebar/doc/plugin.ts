@@ -217,6 +217,10 @@ export const pluginSidebar: DefaultTheme.SidebarItem[] = [
                 text: 'Path Corner', link: '/plugin/in/corner/'
             },
 
+            {
+                text: 'position', link: '/plugin/in/position/'
+            },
+
         ],
     },
 

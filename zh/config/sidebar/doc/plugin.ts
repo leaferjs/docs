@@ -217,6 +217,10 @@ export const pluginSidebar: DefaultTheme.SidebarItem[] = [
                 text: '路径圆角', link: '/plugin/in/corner/'
             },
 
+            {
+                text: 'position', link: '/plugin/in/position/'
+            },
+
         ],
     },
 

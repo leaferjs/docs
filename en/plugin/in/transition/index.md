@@ -47,7 +47,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ::: code-group
 
 ```html [transition.min]
-<script src="https://unpkg.com/@leafer-in/transition@2.3.1/dist/transition.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/transition@2.3.2/dist/transition.min.js"></script>
 
 <script>
   const { Transition, TransitionData } = LeaferIN.transition
@@ -55,7 +55,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ```
 
 ```html [transition]
-<script src="https://unpkg.com/@leafer-in/transition@2.3.1/dist/transition.js"></script>
+<script src="https://unpkg.com/@leafer-in/transition@2.3.2/dist/transition.js"></script>
 
 <script>
   const { Transition, TransitionData } = LeaferIN.transition

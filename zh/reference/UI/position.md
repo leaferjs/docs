@@ -16,6 +16,52 @@ y 轴位置。
 
 注意 [offsetY](./offset.md)、[around](./around.md) 会改变元素的实际位置。
 
+### position: [`IAlign`](../../api/modules.md#ialign) | `IInset`
+
+position 布局，相对父级进行方位定位、四周边缘定位，需安装 [position 插件](../../plugin/in/position/index.md) 才能使用。
+
+会自动修改元素的 x、y、width、height 属性，父级必须为有宽高属性的 [Box](../display/Box.md)、[Frame](../display/Frame.md) 元素。
+
+![方向图](/svg/deriction.svg)
+
+```ts
+// 相对父级方位定位
+type IAlign =
+  | 'top-left'
+  | 'top'
+  | 'top-right'
+  | 'right'
+  | 'bottom-right'
+  | 'bottom'
+  | 'bottom-left'
+  | 'left'
+  | 'center'
+
+rect.position = 'center' // 在父级的居中位置显示，会自动修改元素的 x、y 属性
+
+// 相对父级四周边缘定位，类似 CSS 的绝对定位功能
+interface IInset {
+    top?: number | IUnitData
+    left?: number | IUnitData
+    bottom?: number | IUnitData
+    right?: number | IUnitData
+}
+
+rect.position = { top: 20, right: 20  bottom: 20, left: 20, } // 距离父级四周各20px, 会自动修改元素的 x、y、width、height 属性
+rect.position = { left: 20, right: 20 } // 距离父级左右各20px, 会自动修改元素的 x、width 属性
+rect.position = { top: 20, bottom: 20 } // 距离父级上下各20px, 会自动修改元素的 y、height 属性
+rect.position = { right: 20 } // 距离父级右边20px, 会自动修改元素的 x 属性
+rect.position = { bottom: 20 } // 距离父级底部20px, 会自动修改元素的 y 属性
+
+// 使用百分比
+interface IUnitData {
+  type: 'percent' ｜ 'px'
+  value: number
+}
+
+rect.position = { bottom: { value: 0.2, type: 'percent' } },  // 距离父级底部 20%, 会自动修改元素的 y 属性
+```
+
 ## 关键方法
 
 ### move ( addX: `number` | [`IPointData`](../interface/math/Math#ipointdata), addY = 0, transition?: [`ITranstion`](./transition.md#transition-itranstion))

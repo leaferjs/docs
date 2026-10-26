@@ -1,5 +1,7 @@
 # Our Blog
 
+### [推荐大家看部电影《给阿嬷的情书》，差点把我看哭了](./2026-10-18.md)
+
 ### [LeaferJS Open Source Forest — You’re Welcome to Join!](../forest/welcome.md)
 
 ### [The Story After 800,000 RMB in Debt · Episode 1](./2026-07-02.md)

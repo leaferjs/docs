@@ -49,7 +49,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ::: code-group
 
 ```html [bg-runner.min]
-<script src="https://unpkg.com/@leafer-in/bg-runner@2.3.1/dist/bg-runner.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/bg-runner@2.3.2/dist/bg-runner.min.js"></script>
 
 <script>
   const { BackgroundRunner } = LeaferIN.bgRunner
@@ -57,7 +57,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ```
 
 ```html [bg-runner]
-<script src="https://unpkg.com/@leafer-in/bg-runner@2.3.1/dist/bg-runner.js"></script>
+<script src="https://unpkg.com/@leafer-in/bg-runner@2.3.2/dist/bg-runner.js"></script>
 
 <script>
   const { BackgroundRunner } = LeaferIN.bgRunner

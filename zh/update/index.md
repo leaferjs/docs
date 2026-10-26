@@ -2,6 +2,46 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 10 / 26
+
+> v2.3.2
+
+#### 🍇 社区
+
+案例
+
+\- 🌸 [维表设计](https://www.leafer.pro/product/view/?vid=7CS3z7Cz)， 快速制作电子杂志 @李慢慢
+
+\- 🌸 [即刻设计](https://www.leafer.pro/product/view/?vid=CS8CxC93)， 免费开源的海报 / 图片设计工具 @山月印雪
+
+插件
+
+\- 🌸 [leafer-x-svg 插件](https://www.leafer.pro/plugin/view/?vid=26468Sz4) 🎉🎉🎉， 支持 leafer 对象和 svg 的相互转换 @张老爷
+
+官方 PxGrow 插件
+
+\- 🌸 [Video 插件](https://www.pxgrow.com/plugin/view/?id=10012) 已开源， 轻松渲染视频
+
+\- 🌸 [Film 插件](https://www.pxgrow.com/plugin/view/?id=10011) 已开源，轻松渲染动图
+
+\- 🌸 [Image Filter 插件](https://www.pxgrow.com/plugin/view/?id=10013) 已开源，轻松添加高性能图片滤镜
+
+#### 🌱 新增
+
+\- 🌸 新增 [position 插件](../plugin/in/position/index.md) 🎉🎉🎉，通过设置 [position](../reference/UI/position.md#position-ialign-iinset) 属性可进行灵活的四周边缘定位、方位定位
+
+#### 🪲 修复
+
+\- [motionRotation](../reference/UI/motion.md#motionrotation-number-boolean) 为 `false` 时定位不准的问题
+
+\- [Film](../plugin/in/film/index.md) 元素 forceUpdate() 之后播放状态丢失的问题
+
+\- [Video](../plugin/in/video/index.md) 元素 forceUpdate() 之后播放状态丢失的问题
+
+#### 🌷 感谢反馈
+
+@闰土 @张老爷
+
 ## 2026 / 10 / 08
 
 > v2.3.1
@@ -682,7 +722,7 @@ AI驱动开发的案例
 
 助你快速打造 AI 无限画布
 
-<!-- #### 🍇 社区
+#### 🍇 社区
 
 官方 PxGrow 插件 🎉🎉🎉
 
@@ -690,7 +730,7 @@ AI驱动开发的案例
 
 \- 🌸 [Image Filter](https://www.pxgrow.com/plugin/view/?id=10013) v1.0.0-beta 发布，轻松添加图片滤镜
 
-\- 🌸 [Vector Lighter](https://www.pxgrow.com/plugin/view/?id=10007) v1.0.0-beta 发布，复杂矢量阴影渲染丝滑 -->
+\- 🌸 [Vector Lighter](https://www.pxgrow.com/plugin/view/?id=10007) v1.0.0-beta 发布，复杂矢量阴影渲染丝滑
 
 #### 🌱 新增
 
