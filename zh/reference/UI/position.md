@@ -48,8 +48,8 @@ interface IInset {
 }
 
 rect.position = { top: 20, right: 20  bottom: 20, left: 20, } // 距离父级四周各20px, 会自动修改元素的 x、y、width、height 属性
-rect.position = { left: 20, right: 20 } // 距离父级左右各20px, 会自动修改元素的 x、width 属性
-rect.position = { top: 20, bottom: 20 } // 距离父级上下各20px, 会自动修改元素的 y、height 属性
+rect.position = { left: 20, right: 20 } // 距离父级左右边缘各20px, 会自动修改元素的 x、width 属性
+rect.position = { top: 20, bottom: 20 } // 距离父级上下边缘各20px, 会自动修改元素的 y、height 属性
 rect.position = { right: 20 } // 距离父级右边20px, 会自动修改元素的 x 属性
 rect.position = { bottom: 20 } // 距离父级底部20px, 会自动修改元素的 y 属性
 

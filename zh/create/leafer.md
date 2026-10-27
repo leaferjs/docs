@@ -19,7 +19,7 @@
 如果你想要快速开始一个 Leafer 项目，只需运行以下命令，它将在当前目录下生成一个包含 `Vue3` + `TypeScript` + `Leafer` 的项目模板，非常适合快速搭建 Leafer 体验环境。
 
 ```sh
-npm create leafer@latest vue-template
+npm create leafer@latest template
 ```
 
 ### 在当前项目中引入 `Leafer`

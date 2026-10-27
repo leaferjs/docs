@@ -58,9 +58,13 @@ bun add @leafer-in/position
 
 <<< @/code/property/position/four.ts
 
-### 距离父级左右各20px
+### 距离父级左右边缘各20px
 
 <<< @/code/property/position/width.ts
+
+### 距离父级上下边缘各20px
+
+<<< @/code/property/position/height.ts
 
 ### 距离父级右边20px
 

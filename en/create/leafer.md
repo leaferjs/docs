@@ -19,7 +19,7 @@ Let’s begin your Leafer journey 🌱
 If you want to quickly start a Leafer project, simply run the following command. It will generate a project template with `Vue3` + `TypeScript` + `Leafer` in the current directory, which is perfect for quickly setting up a Leafer development environment.
 
 ```sh
-npm create leafer@latest vue-template
+npm create leafer@latest template
 ```
 
 ### Integrate `Leafer` into an existing project

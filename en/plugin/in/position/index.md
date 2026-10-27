@@ -62,6 +62,10 @@ Alternatively, include the plugin using a script tag and access its functionalit
 
 <<< @/code/property/position/width.ts
 
+### 20px from the Top and Bottom Edges of the Parent
+
+<<< @/code/property/position/height.ts
+
 ### 20px from the Right Edge of the Parent
 
 <<< @/code/property/position/right.ts
