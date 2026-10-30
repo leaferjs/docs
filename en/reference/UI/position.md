@@ -41,6 +41,9 @@ rect.position = 'center' // Displays the element at the center of its parent, au
 
 // Position relative to the parent's edges, similar to CSS absolute positioning
 interface IInset {
+  id?: string // 相对父容器下的指定 id 元素定位，支持跨多层级
+  align?: IAlign // 相对父级方位定位，优先采用
+
   top?: number | IUnitData
   left?: number | IUnitData
   bottom?: number | IUnitData
@@ -52,6 +55,10 @@ rect.position = { left: 20, right: 20 } // 20px from the left and right edges of
 rect.position = { top: 20, bottom: 20 } // 20px from the top and bottom edges of the parent; automatically updates the element's y and height properties
 rect.position = { right: 20 } // 20px from the right edge of the parent; automatically updates the element's x property
 rect.position = { bottom: 20 } // 20px from the bottom edge of the parent; automatically updates the element's y property
+
+// 相对指定 id 元素定位
+rect.position = { id: 'rect2', align: 'center' } // 在指定 rect2 元素的居中位置显示，会自动修改元素的 x、y 属性
+rect.position = { id: 'rect2', top: 20, left: 20, right: 20, bottom: 20 }, // 距离 rect2 元素四周各20px, 会自动修改元素的 x、y、width、height 属性 // [!code hl]
 
 // Use percentages
 interface IUnitData {

@@ -43,14 +43,14 @@ bun add @leafer-in/video
 ::: code-group
 
 ```html [video.min]
-<script src="https://unpkg.com/@leafer-in/video@2.3.2/dist/video.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/video@2.3.3/dist/video.min.js"></script>
 <script>
   const { Video } = LeaferIN.video
 </script>
 ```
 
 ```html [video]
-<script src="https://unpkg.com/@leafer-in/video@2.3.2/dist/video.js"></script>
+<script src="https://unpkg.com/@leafer-in/video@2.3.3/dist/video.js"></script>
 <script>
   const { Video } = LeaferIN.video
 </script>

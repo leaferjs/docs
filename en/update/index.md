@@ -2,6 +2,30 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 10 / 30
+
+> v2.3.3
+
+#### 🍇 社区
+
+案例
+
+\- 🌸 [组态场景编辑器](https://www.leafer.pro/product/view/?vid=3v297w63)， 工业组态可视化编辑器 @Read
+
+插件
+
+\- 🌸 [leafer-text-pro 插件](https://www.leafer.pro/plugin/view/?vid=zwS9w4Cw)，强大的富文本，支持曲线、环绕 @Ranbow
+
+#### 🌱 新增
+
+\- 🌸 [position](../reference/UI/position.md#position-ialign-iinset) 新增 id 子属性，支持相对父容器下的所有元素进行定位
+
+\- 🌸 Linker 元素新增 [lineType](../plugin/in/linker/index.md#linetype-ilinetype) 属性，支持直线、折线的连线类型
+
+#### 🌷 感谢反馈
+
+@闰土 @张老爷 @WaterStrong
+
 ## 2026 / 10 / 26
 
 > v2.3.2

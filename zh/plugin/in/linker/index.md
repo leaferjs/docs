@@ -45,14 +45,14 @@ bun add @leafer-in/linker
 ::: code-group
 
 ```html [linker.min]
-<script src="https://unpkg.com/@leafer-in/linker@2.3.2/dist/linker.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/linker@2.3.3/dist/linker.min.js"></script>
 <script>
   const { Linker, LinkerData } = LeaferIN.linker
 </script>
 ```
 
 ```html [linker]
-<script src="https://unpkg.com/@leafer-in/linker@2.3.2/dist/linker.js"></script>
+<script src="https://unpkg.com/@leafer-in/linker@2.3.3/dist/linker.js"></script>
 <script>
   const { Linker, LinkerData } = LeaferIN.linker
 </script>
@@ -61,6 +61,17 @@ bun add @leafer-in/linker
 :::
 
 ## 关键属性
+
+### lineType: `ILineType `
+
+线条的类型，默认为 'curve'。
+
+```ts
+type ILineType =
+  | 'straight' // 直线
+  | 'polyline' // 折线
+  | 'curve' // 曲线
+```
 
 ### startPoint: `ILinkerPointData`
 
@@ -232,3 +243,11 @@ interface ILinkerPointOptions {
 ### 创建连线点，自动吸附方向、偏移距离
 
 <<< @/code/plugin/linker/create.ts
+
+### 直线类型的连线元素
+
+<<< @/code/plugin/linker/straight.ts
+
+### 折线类型的连线元素
+
+<<< @/code/plugin/linker/polyline.ts

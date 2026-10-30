@@ -18,7 +18,7 @@ y 轴位置。
 
 ### position: [`IAlign`](../../api/modules.md#ialign) | `IInset`
 
-position 布局，相对父级进行方位定位、四周边缘定位，需安装 [position 插件](../../plugin/in/position/index.md) 才能使用。
+position 布局，相对父级或指定元素进行方位、四周边缘定位，需安装 [position 插件](../../plugin/in/position/index.md) 才能使用。
 
 会自动修改元素的 x、y、width、height 属性，父级必须为有宽高属性的 [Box](../display/Box.md)、[Frame](../display/Frame.md) 元素。
 
@@ -41,6 +41,9 @@ rect.position = 'center' // 在父级的居中位置显示，会自动修改元�
 
 // 相对父级四周边缘定位，类似 CSS 的绝对定位功能
 interface IInset {
+    id?: string // 相对父容器下的指定 id 元素定位，支持跨多层级
+    align?: IAlign // 相对父级方位定位，优先采用
+
     top?: number | IUnitData
     left?: number | IUnitData
     bottom?: number | IUnitData
@@ -52,6 +55,10 @@ rect.position = { left: 20, right: 20 } // 距离父级左右边缘各20px, 会�
 rect.position = { top: 20, bottom: 20 } // 距离父级上下边缘各20px, 会自动修改元素的 y、height 属性
 rect.position = { right: 20 } // 距离父级右边20px, 会自动修改元素的 x 属性
 rect.position = { bottom: 20 } // 距离父级底部20px, 会自动修改元素的 y 属性
+
+// 相对指定 id 元素定位
+rect.position = { id: 'rect2', align: 'center' } // 在指定 rect2 元素的居中位置显示，会自动修改元素的 x、y 属性
+rect.position = { id: 'rect2', top: 20, left: 20, right: 20, bottom: 20 }, // 距离 rect2 元素四周各20px, 会自动修改元素的 x、y、width、height 属性 // [!code hl]
 
 // 使用百分比
 interface IUnitData {

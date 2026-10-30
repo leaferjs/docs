@@ -31,7 +31,7 @@ export const nav: DefaultTheme.NavItem[] = [
         ]
     },
     {
-        text: 'v2.3.2', activeMatch: '/blog/', items: [
+        text: 'v2.3.3', activeMatch: '/blog/', items: [
             { text: '更新日志', link: '/update/' },
             { text: '博客', link: '/blog/' },
             { text: '愿景', link: '/guide/#使命与愿景' },

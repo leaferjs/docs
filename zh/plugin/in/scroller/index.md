@@ -43,14 +43,14 @@ bun add @leafer-in/scroller
 ::: code-group
 
 ```html [scroller.min]
-<script src="https://unpkg.com/@leafer-in/scroller@2.3.2/dist/scroller.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroller@2.3.3/dist/scroller.min.js"></script>
 <script>
   const { Scroller } = LeaferIN.scroller
 </script>
 ```
 
 ```html [scroller]
-<script src="https://unpkg.com/@leafer-in/scroller@2.3.2/dist/scroller.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroller@2.3.3/dist/scroller.js"></script>
 <script>
   const { Scroller } = LeaferIN.scroller
 </script>

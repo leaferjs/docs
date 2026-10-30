@@ -33,11 +33,11 @@ bun add @leafer-in/position
 ::: code-group
 
 ```html [position.min]
-<script src="https://unpkg.com/@leafer-in/position@2.3.2/dist/position.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/position@2.3.3/dist/position.min.js"></script>
 ```
 
 ```html [position]
-<script src="https://unpkg.com/@leafer-in/position@2.3.2/dist/position.js"></script>
+<script src="https://unpkg.com/@leafer-in/position@2.3.3/dist/position.js"></script>
 ```
 
 <!-- https://unpkg.com 无法访问时，可替换为 https://cdn.jsdelivr.net/npm -->
@@ -77,3 +77,11 @@ bun add @leafer-in/position
 ### 距离父级底部 20%
 
 <<< @/code/property/position/percent.ts
+
+### 在指定 id 元素的居中位置显示
+
+<<< @/code/property/position/id.ts
+
+### 距离指定 id 元素四周各 20px
+
+<<< @/code/property/position/fourWithId.ts

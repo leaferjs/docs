@@ -55,7 +55,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ::: code-group
 
 ```html [linker.min]
-<script src="https://unpkg.com/@leafer-in/linker@2.3.2/dist/linker.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/linker@2.3.3/dist/linker.min.js"></script>
 
 <script>
   const { Linker, LinkerData } = LeaferIN.linker
@@ -63,7 +63,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ```
 
 ```html [linker]
-<script src="https://unpkg.com/@leafer-in/linker@2.3.2/dist/linker.js"></script>
+<script src="https://unpkg.com/@leafer-in/linker@2.3.3/dist/linker.js"></script>
 
 <script>
   const { Linker, LinkerData } = LeaferIN.linker
@@ -73,6 +73,17 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 :::
 
 ## Key Properties
+
+### lineType: `ILineType `
+
+线条的类型，默认为 'curve'。
+
+```ts
+type ILineType =
+  | 'straight' // 直线
+  | 'polyline' // 折线
+  | 'curve' // 曲线
+```
 
 ### startPoint: `ILinkerPointData`
 
@@ -245,3 +256,11 @@ Generates a connection point only. You can modify the data before assigning it t
 ### Create a Connection Point with Automatic Direction Snapping and Offset
 
 <<< @/code/plugin/linker/create.ts
+
+### 直线类型的连线元素
+
+<<< @/code/plugin/linker/straight.ts
+
+### 折线类型的连线元素
+
+<<< @/code/plugin/linker/polyline.ts

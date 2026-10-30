@@ -53,7 +53,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ::: code-group
 
 ```html [scroller.min] id="u2n7q5"
-<script src="https://unpkg.com/@leafer-in/scroller@2.3.2/dist/scroller.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroller@2.3.3/dist/scroller.min.js"></script>
 
 <script>
   const { Scroller } = LeaferIN.scroller
@@ -61,7 +61,7 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 ```
 
 ```html [scroller] id="v5m8kd"
-<script src="https://unpkg.com/@leafer-in/scroller@2.3.2/dist/scroller.js"></script>
+<script src="https://unpkg.com/@leafer-in/scroller@2.3.3/dist/scroller.js"></script>
 
 <script>
   const { Scroller } = LeaferIN.scroller

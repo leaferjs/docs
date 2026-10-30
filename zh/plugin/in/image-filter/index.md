@@ -39,14 +39,14 @@ bun add @leafer-in/image-filter
 ::: code-group
 
 ```html [image-filter.min]
-<script src="https://unpkg.com/@leafer-in/image-filter@2.3.2/dist/image-filter.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/image-filter@2.3.3/dist/image-filter.min.js"></script>
 <script>
   const { ImageFilter } = LeaferIN.imageFilter
 </script>
 ```
 
 ```html [image-filter]
-<script src="https://unpkg.com/@leafer-in/image-filter@2.3.2/dist/image-filter.js"></script>
+<script src="https://unpkg.com/@leafer-in/image-filter@2.3.3/dist/image-filter.js"></script>
 <script>
   const { ImageFilter } = LeaferIN.imageFilter
 </script>

@@ -43,14 +43,14 @@ bun add @leafer-in/film
 ::: code-group
 
 ```html [film.min]
-<script src="https://unpkg.com/@leafer-in/film@2.3.2/dist/film.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/film@2.3.3/dist/film.min.js"></script>
 <script>
   const { Film } = LeaferIN.film
 </script>
 ```
 
 ```html [film]
-<script src="https://unpkg.com/@leafer-in/film@2.3.2/dist/film.js"></script>
+<script src="https://unpkg.com/@leafer-in/film@2.3.3/dist/film.js"></script>
 <script>
   const { Film } = LeaferIN.film
 </script>
