@@ -18,7 +18,7 @@ Note that [offsetY](./offset.md) and [around](./around.md) will affect the actua
 
 ### position: [`IAlign`](../../api/modules.md#ialign) | `IInset`
 
-Position layout — positions an element relative to its parent using directional alignment or edge offsets. Requires the [position plugin](../../plugin/in/position/index.md) to be installed.
+Position layout — position elements relative to the parent or a specified element using directional alignment or edge offsets. Requires the [position plugin](../../plugin/in/position/index.md) to be installed.
 
 Automatically updates the element's `x`, `y`, `width`, and `height` properties. The parent must be a [Box](../display/Box.md) or [Frame](../display/Frame.md) element with width and height properties.
 
@@ -41,8 +41,8 @@ rect.position = 'center' // Displays the element at the center of its parent, au
 
 // Position relative to the parent's edges, similar to CSS absolute positioning
 interface IInset {
-  id?: string // 相对父容器下的指定 id 元素定位，支持跨多层级
-  align?: IAlign // 相对父级方位定位，优先采用
+  id?: string // Position relative to a specified ID element within the parent container, supporting multiple nesting levels
+  align?: IAlign // Prioritize directional positioning relative to the parent
 
   top?: number | IUnitData
   left?: number | IUnitData

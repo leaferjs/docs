@@ -78,10 +78,10 @@ Alternatively, include the plugin using a script tag and access its functionalit
 
 <<< @/code/property/position/percent.ts
 
-### 在指定 id 元素的居中位置显示
+### Display at the Bottom of the Specified ID Element
 
 <<< @/code/property/position/id.ts
 
-### 距离指定 id 元素四周各 20px
+### 20px from All Four Edges of the Specified ID Element
 
 <<< @/code/property/position/fourWithId.ts

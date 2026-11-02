@@ -74,15 +74,15 @@ Alternatively, you can include it using a `<script>` tag and access the plugin t
 
 ## Key Properties
 
-### lineType: `ILineType `
+### lineType: `ILineType`
 
-线条的类型，默认为 'curve'。
+The line type. Defaults to `'curve'`.
 
 ```ts
 type ILineType =
-  | 'straight' // 直线
-  | 'polyline' // 折线
-  | 'curve' // 曲线
+  | 'straight' // Straight line
+  | 'polyline' // Polyline
+  | 'curve' // Curve
 ```
 
 ### startPoint: `ILinkerPointData`
@@ -257,10 +257,10 @@ Generates a connection point only. You can modify the data before assigning it t
 
 <<< @/code/plugin/linker/create.ts
 
-### 直线类型的连线元素
+### Straight Connector Element
 
 <<< @/code/plugin/linker/straight.ts
 
-### 折线类型的连线元素
+### Polyline Connector Element
 
 <<< @/code/plugin/linker/polyline.ts

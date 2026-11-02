@@ -78,7 +78,7 @@ bun add @leafer-in/position
 
 <<< @/code/property/position/percent.ts
 
-### 在指定 id 元素的居中位置显示
+### 在指定 id 元素的底部位置显示
 
 <<< @/code/property/position/id.ts
 
