@@ -2,6 +2,50 @@
 
 了解如何 [快速更新版本](../guide/update.md)。
 
+## 2026 / 11 / 10
+
+> v2.3.4
+
+#### 🍇 社区
+
+官网
+
+\- 🌸 增加 [人人皆可创造](https://www.leaferjs.com/#ai-creator) 的板块，让更多人可以借助 AI 用上 LeaferJS
+
+\- 🌸 上线 [AI 视频/ 短剧行业解决方案](https://www.leaferjs.com/#ai-video) 的板块，让视频创作更高效
+
+案例
+
+\- 🌸 [ModelFold Studio](https://www.leafer.pro/product/view/?vid=3v297w63)， 一句话生成可编辑的海报、PPT @刘扬
+
+官方 PxGrow 插件
+
+🌸 \- [上线双11活动](https://www.pxgrow.com/promotion/2026/11/)，全场 7 折，个人全量版 ¥ 279 起
+
+🌸 \- [Linker Editor 插件](https://www.pxgrow.com/plugin/view/?id=10015) 支持可视化编辑直线、正交折线节点
+
+#### 🌱 新增
+
+\- 🌸 增加 [HTML 节点](../plugin/in/html/HTML.md) 元素，支持挂载 dom / Vue / React 节点，方便使用表单、复杂组件。
+
+\- 🌸 编辑器增加 [multipleSelectLocked](../plugin/in/editor/config/select.md#multipleselect-boolean) 参数，可控制是否能多选锁定元素
+
+\- 🌸 优化 Linker 元素的正交折线途径点效果
+
+#### 🪲 修复
+
+\- Node 文件导出触发 skia-canvas 3.x 的 bug 导致报错 [#918](https://github.com/leaferjs/leafer-ui/issues/918)
+
+\- 带 zIndex 的子节点在 Leafer.destroy() 时触发已销毁 Watcher 的访问错误 [#917](https://github.com/leaferjs/leafer-ui/issues/917)
+
+\- @leafer/node@2.3.3 在导入阶段直接报错 [#916](https://github.com/leaferjs/leafer-ui/issues/916)
+
+\- Node 端 napi 画布兼容 createCanvas() 方法
+
+#### 🌷 感谢反馈
+
+[@mercury233](https://github.com/mercury233) [@mozbia](https://github.com/leaferjs/leafer-ui/issues/919) [@lanrenbulan](https://github.com/lanrenbulan) @闰土 @张老爷 @夏先生 @李子 @张雪林
+
 ## 2026 / 10 / 30
 
 > v2.3.3

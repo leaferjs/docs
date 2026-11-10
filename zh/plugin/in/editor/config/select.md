@@ -42,6 +42,12 @@ press 为鼠标按下触发， tap 为单击触发。
 
 是否启用多选功能，默认启用。
 
+### multipleSelectLocked: `boolean`
+
+是否启用多选锁定元素功能，默认为 false。
+
+启用后，多选的元素中如果存在锁定元素，所有选中元素都会呈现锁定状态。
+
 ### boxSelect: `boolean` | `'hit'` ｜ `'includes'`
 
 是否启用框选功能， 默认启用。
