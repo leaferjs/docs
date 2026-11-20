@@ -1,6 +1,6 @@
 # position
 
-position 布局，相对父级进行方位定位、四周边缘定位。
+position 布局，相对父级或指定元素进行方位、四周边缘定位。
 
 会自动修改元素的 x、y、width、height 信息，父级必须为有宽高属性的 [Box](../../../reference/display/Box.md)、[Frame](../../../reference/display/Frame.md) 元素。
 

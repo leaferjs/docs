@@ -4,7 +4,7 @@ import Case from '/component/Case.vue'
 
 # Film 元素
 
-Film 动图元素 —— 在 Canvas 中实现动图渲染与播放控制。
+Film 动图元素 —— 在 Canvas 中实现 GIF 动图渲染与播放控制。
 
 ::: tip 继承
 Film &nbsp;>&nbsp; [Image](../../../reference/display/Image.md) &nbsp;>&nbsp; [Rect](../../../reference/display/Rect.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)

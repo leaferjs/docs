@@ -20,7 +20,7 @@ The [Path](./Path.md) element supports SVG path data.
 
 ## Format Conversion
 
-A community plugin for converting SVG into native graphic elements is expected in the future.
+Excellent Community Plugin: [SVG Import and Export](https://github.com/zhanglaoye2025/leafer-x-svg)
 
 ## Examples
 

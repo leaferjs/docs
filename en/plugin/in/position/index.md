@@ -1,6 +1,6 @@
 # position
 
-Position layout — positions an element relative to its parent using directional alignment or edge offsets.
+Position layout — position elements relative to the parent or a specified element using directional alignment or edge offsets.
 
 Automatically updates the element's `x`, `y`, `width`, and `height` properties. The parent must be a [Box](../../../reference/display/Box.md) or [Frame](../../../reference/display/Frame.md) element with width and height properties.
 

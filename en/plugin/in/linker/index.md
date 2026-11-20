@@ -6,8 +6,6 @@ import Case from '/component/Case.vue'
 
 Linker — a high-performance Canvas connector element.
 
-For visually creating and editing connectors, use the [Linker Editor plugin](../linker-editor/index.md).
-
 ::: tip Inheritance
 
 Linker  >  [Line](../../../reference/display/Line.md)  >  [UI](../../../reference/display/UI.md)

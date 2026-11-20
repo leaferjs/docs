@@ -298,6 +298,10 @@ const { x, y, width, height } = text.getBounds('content', 'inner')
 
 ### Text &nbsp;>&nbsp; [UI](./UI.md)
 
+## 富文本
+
+优秀社区插件：[RichText](https://github.com/ZhengNan-coder/leafer-x-richText)
+
 <!-- ## API
 
 ### [Text](../../api/classes/Text.md) -->

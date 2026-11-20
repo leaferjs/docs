@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'vitepress'
 
-export const referenceSidebar: DefaultTheme.SidebarItem[] = [
+export const referenceSidebar: DefaultTheme.SidebarItem | any[] = [
     {
         text: '',
         items: [
@@ -18,38 +18,38 @@ export const referenceSidebar: DefaultTheme.SidebarItem[] = [
     {
         text: '🥥 组元素',
         items: [
-            { text: 'Group', link: '/reference/display/Group' },
-            { text: 'Box', link: '/reference/display/Box' },
-            { text: 'Frame', link: '/reference/display/Frame' }
+            { text: 'Group', link: '/reference/display/Group', intro: '用于组合多个子元素，自身没有填充/描边等外观样式，可设置 x、y、scale、rotation 等属性，子元素相对其进行定位，支持不断嵌套' },
+            { text: 'Box', link: '/reference/display/Box', intro: '支持 Group 元素的功能和 Rect 元素的外观样式， 类似于 HTML5 中的 DIV，可以不断嵌套' },
+            { text: 'Frame', link: '/reference/display/Frame', intro: '继承自 Box 元素，默认白色背景、会裁剪掉超出宽高的内容，类似于 HTML5 中的页面，一般用于设计软件中创建画板' }
         ],
     },
     {
         text: '🍊 元素',
         items: [
-            { text: 'Rect', link: '/reference/display/Rect' },
-            { text: 'Ellipse', link: '/reference/display/Ellipse' },
-            { text: 'Line', link: '/reference/display/Line' },
-            { text: 'Polygon', link: '/reference/display/Polygon' },
-            { text: 'Star', link: '/reference/display/Star' },
-            { text: 'Path', link: '/reference/display/Path' },
-            { text: 'Pen', link: '/reference/display/Pen' },
+            { text: 'Rect', link: '/reference/display/Rect', intro: '绘制矩形、圆角矩形，支持四条边框单独设置' },
+            { text: 'Ellipse', link: '/reference/display/Ellipse', intro: '绘制圆、圆环、扇形圆环、扇形、弧线、椭圆' },
+            { text: 'Line', link: '/reference/display/Line', intro: '绘制横线、斜线、竖线、折线、平滑曲线、趋势图' },
+            { text: 'Polygon', link: '/reference/display/Polygon', intro: '绘制三角形、菱形、五边形、正多边形、自由多边形、平滑多变形、趋势图' },
+            { text: 'Star', link: '/reference/display/Star', intro: '绘制车标、星光、五角星、多角星形' },
+            { text: 'Path', link: '/reference/display/Path', intro: '绘制路径，可以画出任意形状的图形' },
+            { text: 'Pen', link: '/reference/display/Pen', intro: '像绘画一样，快速画出不同样式的路径组合，支持 Canvas 2D 绘制路径的 API 方法' },
             { text: 'Image', link: '/reference/display/Image' },
             { text: 'SVG', link: '/reference/display/SVG' },
-            { text: 'Canvas', link: '/reference/display/Canvas' },
+            { text: 'Canvas', link: '/reference/display/Canvas', intro: '画布对象，可以自由绘制、操作像素，或将其他图形直接绘制到 Canvas 上' },
             { text: 'Text', link: '/reference/display/Text' },
-            { text: 'UI', link: '/reference/display/UI' },
+            { text: 'UI', link: '/reference/display/UI', intro: '基础元素（所有元素的基类），展示所有元素通用的属性方法' },
         ],
     },
     {
         text: '🥭 扩展元素',
         items: [
-            { text: 'Arrow', link: '/plugin/in/arrow/' },
-            { text: 'Linker', link: '/plugin/in/linker/' },
-            { text: 'Robot', link: '/plugin/in/robot/' },
-            { text: 'Film', link: '/plugin/in/film/' },
-            { text: 'Video', link: '/plugin/in/video/' },
-            { text: 'HTML', link: '/plugin/in/html/HTML.md' },
-            { text: 'HTMLText', link: '/plugin/in/html/HTMLText.md' },
+            { text: 'Arrow', link: '/plugin/in/arrow/', intro: '箭头元素，为线条添加起始/结束箭头，自带 12 种常用的箭头样式，并支持自定义。' },
+            { text: 'Linker', link: '/plugin/in/linker/', intro: '高性能 Canvas 连线元素' },
+            { text: 'Robot', link: '/plugin/in/robot/', intro: '类似游戏中的精灵元素，集成了帧播放和动作预设功能' },
+            { text: 'Film', link: '/plugin/in/film/', intro: '动图元素，支持在任意图形元素中播放 GIF 动图' },
+            { text: 'Video', link: '/plugin/in/video/', intro: '视频元素，支持在任意图形元素中播放视频' },
+            { text: 'HTML', link: '/plugin/in/html/HTML.md', intro: 'HTML 节点元素，支持挂载 dom / Vue / React 节点，方便使用 HTML 的表单、复杂组件' },
+            { text: 'HTMLText', link: '/plugin/in/html/HTMLText.md', intro: 'HTML 富文本，用于在 Canvas 中渲染 HTML 相关内容' },
             {
                 text: 'box 元素', items: [
                     { text: 'ImageBox', link: '/plugin/in/box/ImageBox.md' },

@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'vitepress'
 
-export const pluginSidebar: DefaultTheme.SidebarItem[] = [
+export const pluginSidebar: DefaultTheme.SidebarItem | any[] = [
     {
         text: '',
         items: [
@@ -160,25 +160,25 @@ export const pluginSidebar: DefaultTheme.SidebarItem[] = [
     {
         text: '🫐 官方插件',
         items: [
-            { text: '视口', link: '/plugin/in/viewport/' },
-            { text: '视图控制', link: '/plugin/in/view/' },
-            { text: '滚动条', link: '/plugin/in/scroll/' },
+            { text: '视口', link: '/plugin/in/viewport/', intro: '通过滚轮/触摸板滑动或捏合可缩放平移视图，类似浏览器、设计软件的视口交互功能' },
+            { text: '视图控制', link: '/plugin/in/view/', intro: '控制视图的缩放，支持放大、缩小、fit、fit-width、fit-height 视图， 支持聚焦元素，聚焦区域' },
+            { text: '滚动条', link: '/plugin/in/scroll/', intro: '无限画布滚动条，按需显示横向、竖向滚动条，支持切换黑白主题或自定义样式' },
             { text: '箭头', link: '/plugin/in/arrow/' },
-            { text: 'HTML', link: '/plugin/in/html/' },
+            { text: 'HTML', link: '/plugin/in/html/', intro: '渲染 HTMLText 富文本，或挂载 HTML 节点到画布覆盖层上' },
             { text: '文本编辑', link: '/plugin/in/text-editor/' },
             { text: '运动路径', link: '/plugin/in/motion-path/' },
-            { text: 'Robot', link: '/plugin/in/robot/' },
+            { text: 'Robot', link: '/plugin/in/robot/', intro: '类似游戏中的精灵，集成了帧播放和动作预设功能，可以快速制作出具有行走和攻击动作的游戏角色' },
             { text: '交互状态', link: '/plugin/in/state/' },
             { text: '查找元素', link: '/plugin/in/find/' },
             { text: '导出元素', link: '/plugin/in/export/' },
             { text: '滤镜', link: '/plugin/in/filter/' },
             { text: 'color', link: '/plugin/in/color/' },
-            { text: 'resize', link: '/plugin/in/resize/' },
+            { text: 'resize', link: '/plugin/in/resize/', },
             { text: '突出显示元素', link: '/plugin/in/bright/' },
-            { text: 'scale-fixed', link: '/plugin/in/scale-fixed/' },
-            { text: 'box元素', link: '/plugin/in/box/' },
+            { text: 'scale-fixed', link: '/plugin/in/scale-fixed/', intro: '固定元素的全局缩放，不随视图放大' },
+            { text: 'box元素', link: '/plugin/in/box/', intro: '' },
             { text: '路径圆角', link: '/plugin/in/corner/' },
-            { text: 'position', link: '/plugin/in/position/' },
+            { text: 'position', link: '/plugin/in/position/', intro: 'position 布局，相对父级或指定元素进行方位、四周边缘定位' },
         ],
     },
 

@@ -6,8 +6,6 @@ import Case from '/component/Case.vue'
 
 Linker —— 高性能 Canvas 连线元素。
 
-如需可视化创建、编辑连线，可使用 [Linker Editor 插件](../linker-editor/index.md)。
-
 ::: tip 继承
 Linker &nbsp;>&nbsp; [Line](../../../reference/display/Line.md) &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 :::

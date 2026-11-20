@@ -293,6 +293,10 @@ const { x, y, width, height } = text.getBounds('content', 'inner')
 
 ### Text  >  [UI](./UI.md)
 
+## Rich Text
+
+Excellent Community Plugin: [RichText](https://github.com/ZhengNan-coder/leafer-x-richText)
+
 <!-- ## API
 
 ### [Text](../../api/classes/Text.md) -->

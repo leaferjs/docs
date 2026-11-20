@@ -20,7 +20,7 @@ svg 图片采用了特殊的渲染逻辑，可以实现高清晰缩放.
 
 ## 格式转换
 
-期待社区出现 svg 转换为图形元素的插件
+优秀的社区插件：[SVG 导入导出](https://github.com/zhanglaoye2025/leafer-x-svg)
 
 ## 示例
 
