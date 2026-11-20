@@ -41,6 +41,27 @@ export const referenceSidebar: DefaultTheme.SidebarItem[] = [
         ],
     },
     {
+        text: '🥭 Extended Elements',
+        items: [
+            { text: 'Arrow', link: '/plugin/in/arrow/' },
+            { text: 'Linker', link: '/plugin/in/linker/' },
+            { text: 'Robot', link: '/plugin/in/robot/' },
+            { text: 'Film', link: '/plugin/in/film/' },
+            { text: 'Video', link: '/plugin/in/video/' },
+            { text: 'HTML', link: '/plugin/in/html/HTML.md' },
+            { text: 'HTMLText', link: '/plugin/in/html/HTMLText.md' },
+            {
+                text: 'Box Elements', items: [
+                    { text: 'ImageBox', link: '/plugin/in/box/ImageBox.md' },
+                    { text: 'EllipseBox', link: '/plugin/in/box/EllipseBox.md' },
+                    { text: 'StarBox', link: '/plugin/in/box/StarBox.md' },
+                    { text: 'PathBox', link: '/plugin/in/box/PathBox.md' },
+                ],
+                collapsed: true
+            },
+        ],
+    },
+    {
         text: '🥝 Custom Elements',
         items: [
             {
@@ -241,7 +262,14 @@ export const referenceSidebar: DefaultTheme.SidebarItem[] = [
             //     ],
             //     collapsed: true
             // },
-
+            {
+                text: 'Filters',
+                items: [
+                    { text: 'Image Filters', link: '/plugin/in/image-filter/' },
+                    { text: 'Element Filters', link: '/plugin/in/filter/' },
+                ],
+                collapsed: true
+            },
             {
                 text: 'Dim / Highlight',
                 items: [
@@ -483,11 +511,5 @@ export const referenceSidebar: DefaultTheme.SidebarItem[] = [
             },
         ],
     },
-    {
-        text: '🛠 Development',
-        items: [
-            { text: 'Debug Mode', link: '/reference/debug/basic' },
-            { text: 'Develop Plugins', link: '/plugin/dev.md' },
-        ],
-    },
+
 ]

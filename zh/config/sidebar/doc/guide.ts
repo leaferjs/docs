@@ -155,4 +155,11 @@ export const guideSidebar: DefaultTheme.SidebarItem[] = [
             },
         ],
     },
+    {
+        text: '🛠 开发',
+        items: [
+            { text: '调试模式', link: '/reference/debug/basic' },
+            { text: '开发插件', link: '/plugin/dev.md' },
+        ],
+    },
 ]

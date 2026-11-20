@@ -41,6 +41,27 @@ export const referenceSidebar: DefaultTheme.SidebarItem[] = [
         ],
     },
     {
+        text: '🥭 扩展元素',
+        items: [
+            { text: 'Arrow', link: '/plugin/in/arrow/' },
+            { text: 'Linker', link: '/plugin/in/linker/' },
+            { text: 'Robot', link: '/plugin/in/robot/' },
+            { text: 'Film', link: '/plugin/in/film/' },
+            { text: 'Video', link: '/plugin/in/video/' },
+            { text: 'HTML', link: '/plugin/in/html/HTML.md' },
+            { text: 'HTMLText', link: '/plugin/in/html/HTMLText.md' },
+            {
+                text: 'box 元素', items: [
+                    { text: 'ImageBox', link: '/plugin/in/box/ImageBox.md' },
+                    { text: 'EllipseBox', link: '/plugin/in/box/EllipseBox.md' },
+                    { text: 'StarBox', link: '/plugin/in/box/StarBox.md' },
+                    { text: 'PathBox', link: '/plugin/in/box/PathBox.md' },
+                ],
+                collapsed: true
+            },
+        ],
+    },
+    {
         text: '🥝 自定义元素',
         items: [
             {
@@ -243,6 +264,15 @@ export const referenceSidebar: DefaultTheme.SidebarItem[] = [
             // },
 
             {
+                text: '滤镜',
+                items: [
+                    { text: '图片滤镜', link: '/plugin/in/image-filter/' },
+                    { text: '元素滤镜', link: '/plugin/in/filter/' },
+                ],
+                collapsed: true
+            },
+
+            {
                 text: '淡化 / 突出',
                 items: [
                     { text: 'dim', link: '/reference/UI/dim' },
@@ -266,6 +296,7 @@ export const referenceSidebar: DefaultTheme.SidebarItem[] = [
                 ],
                 collapsed: true
             },
+
         ],
     },
 
@@ -482,12 +513,5 @@ export const referenceSidebar: DefaultTheme.SidebarItem[] = [
                 collapsed: true
             },
         ],
-    },
-    {
-        text: '🛠 开发',
-        items: [
-            { text: '调试模式', link: '/reference/debug/basic' },
-            { text: '开发插件', link: '/plugin/dev.md' },
-        ],
-    },
+    }
 ]

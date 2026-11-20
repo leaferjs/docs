@@ -2,11 +2,12 @@ import { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.NavItem[] = [
     {
-        text: '✨ AI', items: [
-            { text: 'Ask AI - Context7', link: 'https://context7.com/leaferjs/ai-docs?tab=chat', },
+        text: '✨ AI Skills', items: [
+            { text: 'Skills', link: 'https://www.leaferjs.com/ai/#start', },
+
             // { text: 'Ask AI - DeepWiki', link: 'https://deepwiki.com/leaferjs/ai-docs' },
             { text: 'MCP', link: 'https://context7.com/leaferjs/ai-docs', },
-            { text: 'Leafer AI Knowledge Base & Skills', link: 'https://github.com/leaferjs/ai-docs', },
+            { text: 'Ask AI - Context7', link: 'https://context7.com/leaferjs/ai-docs?tab=chat', },
         ]
     },
     {
@@ -31,7 +32,7 @@ export const nav: DefaultTheme.NavItem[] = [
         ]
     },
     {
-        text: 'v2.3.3', activeMatch: '/blog/', items: [
+        text: 'v2.3.4', activeMatch: '/blog/', items: [
             { text: 'Changelog', link: '/update/' },
             { text: 'Blog', link: '/blog/' },
             { text: 'Vision', link: '/guide/#使命与愿景' },

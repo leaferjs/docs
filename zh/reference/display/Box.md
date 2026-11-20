@@ -32,7 +32,7 @@ Box &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./
 
 如何显示超出宽高的内容，默认为 'show' 。
 
-设置 'scroll' 类型时， 需安装 [Box 滚动条高级插件](https://www.pxgrow.com/plugin/view/?id=10003)。
+设置 'scroll' 类型时， 需安装 [Box 滚动条插件](../../plugin/in/scroller/index.md)。
 
 ```ts
 type IOverflow =
@@ -113,6 +113,18 @@ type IScaleFixed = boolean | 'zoom-in'
 ## 继承元素
 
 ### Box &nbsp;>&nbsp; [Group](./Group.md) 、[Rect](./Rect.md) &nbsp;>&nbsp; [UI](./UI.md)
+
+## 更多 Box 元素
+
+### [ImageBox](../../plugin/in/box/ImageBox.md)
+
+### [EllipseBox](../../plugin/in/box/EllipseBox.md)
+
+### [PolygonBox](../../plugin/in/box/PolygonBox.md)
+
+### [StarBox](../../plugin/in/box/StarBox.md)
+
+### [PathBox](../../plugin/in/box/PathBox.md)
 
 <!-- ## API
 

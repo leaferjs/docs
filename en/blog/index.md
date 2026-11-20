@@ -1,5 +1,13 @@
 # Our Blog
 
+### [AI 时代为什么选择 LeaferJS？百万级图形流畅交互，让产品拥有更高上限](./2026-11-13-A.md)
+
+### [LeaferJS 有多快？与 HTML、SVG、Fabric.js、Konva.js、PixiJS 的百万级图形性能对比](./2026-11-13-B.md)
+
+### [LeaferJS 功能大全：五年多开源积累，让 AI 图形开发更省 Token](./2026-11-12-A.md)
+
+### [LeaferJS 的不同之处：与 Fabric.js、Konva.js、PixiJS 的功能对比](./2026-11-12-B.md)
+
 ### [LeaferJS 聚焦开拓 AI 视频行业，让 AI 视频创作拥有流畅的无限画布](./2026-11-03.md)
 
 ### [LeaferJS 的 AI 时代路线图：让每个人都能用 AI 创造自己的专业可视化软件](./2026-11-02.md)
@@ -8,7 +16,7 @@
 
 ### [LeaferJS Open Source Forest — You’re Welcome to Join!](../forest/welcome.md)
 
-### [The Story After 800,000 RMB in Debt · Episode 1](./2026-07-02.md)
+### [我们是如何帮助专业设计工具企业，建立技术能力优势的](./2026-07-02.md)
 
 ### [🚦 The First Intersection Principle](./2026-06-22.md)
 

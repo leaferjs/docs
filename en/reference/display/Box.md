@@ -32,7 +32,7 @@ You can use the [isAutoHeight](../UI/size.md#isautowidth-boolean) property to de
 
 Controls how content exceeding the width and height is displayed. Defaults to `'show'`.
 
-When set to `'scroll'`, you need to install the [Box Scroll Advanced Plugin](https://www.pxgrow.com/plugin/view/?id=10003).
+When set to `'scroll'`, you need to install the [Box Scroll Plugin](../../plugin/in/scroller/index.md).
 
 ```ts
 type IOverflow =
@@ -114,6 +114,18 @@ If scrolling does not exist, it returns the element’s [worldTransform](../UI/t
 ## Inheritance
 
 ### Box  >  [Group](./Group.md), [Rect](./Rect.md)  >  [UI](./UI.md)
+
+## More Box Elements
+
+### [ImageBox](../../plugin/in/box/ImageBox.md)
+
+### [EllipseBox](../../plugin/in/box/EllipseBox.md)
+
+### [PolygonBox](../../plugin/in/box/PolygonBox.md)
+
+### [StarBox](../../plugin/in/box/StarBox.md)
+
+### [PathBox](../../plugin/in/box/PathBox.md)
 
 <!-- ## API
 

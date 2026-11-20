@@ -224,11 +224,39 @@ export const pluginSidebar: DefaultTheme.SidebarItem[] = [
         ],
     },
 
+
+
     {
         text: '🍇 Community Plugins',
         items: [
             { text: 'Open Source Forest  Plugins', link: 'https://www.leafer.pro/#plugin' },
             { text: 'PxGrow Solutions', link: 'https://www.pxgrow.com' },
         ],
-    }
+    },
+
+    {
+        text: '🍍 PxGrow Open-Sourced Plugins',
+        items: [
+            { text: 'Box Scrollbar', link: '/plugin/in/scroller/' },
+            { text: 'Background Runner', link: '/plugin/in/bg-runner/' },
+            { text: 'Link Elements', link: '/plugin/in/linker/' },
+            { text: 'Gradient Color Transition', link: '/plugin/in/transition/' },
+            { text: 'Motion Path Text', link: '/plugin/in/motion-text/' },
+            { text: 'Independent Rectangle Sides', link: '/plugin/in/stroke-sides/' },
+            { text: 'Video Elements', link: '/plugin/in/video/' },
+            { text: 'GIF Elements', link: '/plugin/in/film/' },
+            { text: 'Image Filters', link: '/plugin/in/image-filter/' },
+        ],
+    },
+
+    {
+        text: '🍈 Excellent Community Plugins',
+        items: [
+            { text: 'RichText', link: 'https://github.com/ZhengNan-coder/leafer-x-richText' },
+            { text: 'SVG Import & Export', link: 'https://github.com/zhanglaoye2025/leafer-x-svg' },
+            { text: 'Ruler', link: 'https://github.com/LvHuaiSheng/leafer-x-ruler' },
+            { text: 'Snap Plugin', link: 'https://github.com/Xdy1579883916/leafer-x-easy-snap' },
+            { text: 'Text Effects', link: 'https://github.com/Xdy1579883916/leafer-x-effect-text' },
+        ],
+    },
 ]

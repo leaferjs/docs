@@ -160,67 +160,25 @@ export const pluginSidebar: DefaultTheme.SidebarItem[] = [
     {
         text: '🫐 官方插件',
         items: [
-            {
-                text: '视口', link: '/plugin/in/viewport/'
-            },
-            {
-                text: '视图控制', link: '/plugin/in/view/'
-            },
-            {
-                text: '滚动条', link: '/plugin/in/scroll/'
-            },
-            {
-                text: '箭头', link: '/plugin/in/arrow/'
-            },
-            {
-                text: 'HTML', link: '/plugin/in/html/'
-            },
-            {
-                text: '文本编辑', link: '/plugin/in/text-editor/'
-            },
-            {
-                text: '运动路径', link: '/plugin/in/motion-path/'
-            },
-            {
-                text: 'Robot', link: '/plugin/in/robot/'
-            },
-            {
-                text: '交互状态', link: '/plugin/in/state/'
-            },
-            {
-                text: '查找元素', link: '/plugin/in/find/'
-            },
-            {
-                text: '导出元素', link: '/plugin/in/export/'
-            },
-            {
-                text: '滤镜', link: '/plugin/in/filter/'
-            },
-            {
-                text: 'color', link: '/plugin/in/color/'
-            },
-            {
-                text: 'resize', link: '/plugin/in/resize/'
-            },
-            {
-                text: '突出显示元素', link: '/plugin/in/bright/'
-            },
-            {
-                text: 'scale-fixed', link: '/plugin/in/scale-fixed/'
-            },
-
-            {
-                text: 'box元素', link: '/plugin/in/box/'
-            },
-
-            {
-                text: '路径圆角', link: '/plugin/in/corner/'
-            },
-
-            {
-                text: 'position', link: '/plugin/in/position/'
-            },
-
+            { text: '视口', link: '/plugin/in/viewport/' },
+            { text: '视图控制', link: '/plugin/in/view/' },
+            { text: '滚动条', link: '/plugin/in/scroll/' },
+            { text: '箭头', link: '/plugin/in/arrow/' },
+            { text: 'HTML', link: '/plugin/in/html/' },
+            { text: '文本编辑', link: '/plugin/in/text-editor/' },
+            { text: '运动路径', link: '/plugin/in/motion-path/' },
+            { text: 'Robot', link: '/plugin/in/robot/' },
+            { text: '交互状态', link: '/plugin/in/state/' },
+            { text: '查找元素', link: '/plugin/in/find/' },
+            { text: '导出元素', link: '/plugin/in/export/' },
+            { text: '滤镜', link: '/plugin/in/filter/' },
+            { text: 'color', link: '/plugin/in/color/' },
+            { text: 'resize', link: '/plugin/in/resize/' },
+            { text: '突出显示元素', link: '/plugin/in/bright/' },
+            { text: 'scale-fixed', link: '/plugin/in/scale-fixed/' },
+            { text: 'box元素', link: '/plugin/in/box/' },
+            { text: '路径圆角', link: '/plugin/in/corner/' },
+            { text: 'position', link: '/plugin/in/position/' },
         ],
     },
 
@@ -230,6 +188,32 @@ export const pluginSidebar: DefaultTheme.SidebarItem[] = [
             { text: '开源森林社区插件', link: 'https://www.leafer.pro/#plugin' },
             { text: 'PxGrow 解决方案', link: 'https://www.pxgrow.com' },
         ],
-    }
+    },
+
+    {
+        text: '🍍 PxGrow 已开源插件',
+        items: [
+            { text: 'Box 滚动条', link: '/plugin/in/scroller/' },
+            { text: '后台运行', link: '/plugin/in/bg-runner/' },
+            { text: '连线元素', link: '/plugin/in/linker/' },
+            { text: '渐变颜色过渡', link: '/plugin/in/transition/' },
+            { text: '运动路径文本', link: '/plugin/in/motion-text/' },
+            { text: '矩形四边独立控制', link: '/plugin/in/stroke-sides/' },
+            { text: '视频元素', link: '/plugin/in/video/' },
+            { text: 'GIF动图元素', link: '/plugin/in/film/' },
+            { text: '图片滤镜', link: '/plugin/in/image-filter/' },
+        ],
+    },
+
+    {
+        text: '🍈 优秀社区插件',
+        items: [
+            { text: 'RichText', link: 'https://github.com/ZhengNan-coder/leafer-x-richText' },
+            { text: 'SVG 导入导出', link: 'https://github.com/zhanglaoye2025/leafer-x-svg' },
+            { text: '标尺线', link: 'https://github.com/LvHuaiSheng/leafer-x-ruler' },
+            { text: '吸附插件', link: 'https://github.com/Xdy1579883916/leafer-x-easy-snap' },
+            { text: '特效文字', link: 'https://github.com/Xdy1579883916/leafer-x-effect-text' },
+        ],
+    },
 
 ]

@@ -155,4 +155,11 @@ export const guideSidebar: DefaultTheme.SidebarItem[] = [
             },
         ],
     },
+    {
+        text: '🛠 Development',
+        items: [
+            { text: 'Debug Mode', link: '/reference/debug/basic' },
+            { text: 'Develop Plugins', link: '/plugin/dev.md' },
+        ],
+    },
 ]

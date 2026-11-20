@@ -33,11 +33,11 @@ Alternatively, include the plugin using a script tag and access its functionalit
 ::: code-group
 
 ```html [position.min]
-<script src="https://unpkg.com/@leafer-in/position@2.3.3/dist/position.min.js"></script>
+<script src="https://unpkg.com/@leafer-in/position@2.3.4/dist/position.min.js"></script>
 ```
 
 ```html [position]
-<script src="https://unpkg.com/@leafer-in/position@2.3.3/dist/position.js"></script>
+<script src="https://unpkg.com/@leafer-in/position@2.3.4/dist/position.js"></script>
 ```
 
 <!-- If https://unpkg.com is unavailable, you can replace it with https://cdn.jsdelivr.net/npm -->

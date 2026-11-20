@@ -20,8 +20,6 @@
 
 官方 PxGrow 插件
 
-🌸 \- [上线双11活动](https://www.pxgrow.com/promotion/2026/11/)，全场 7 折，个人全量版 ¥ 279 起
-
 🌸 \- [Linker Editor 插件](https://www.pxgrow.com/plugin/view/?id=10015) 支持可视化编辑直线、正交折线节点
 
 #### 🌱 新增

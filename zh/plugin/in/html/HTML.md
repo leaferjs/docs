@@ -10,11 +10,11 @@ HTML 节点元素，支持挂载 dom / Vue / React 节点，方便使用 HTML �
 HTML &nbsp;>&nbsp; [UI](../../../reference/display/UI.md)
 :::
 
-## 关键属性
+<!-- ## 关键属性
 
 ### id: `string`
 
-HTML 节点的 id，挂载后可通过 document.getElementById() 方法查找到 [dom](#dom-htmldivelement)，也能通过 [findId()](../../../reference/UI/findOne.md) 方法查找到元素。
+HTML 节点的 id，挂载后可通过 document.getElementById() 方法查找到 [dom](#dom-htmldivelement)，也能通过 [findId()](../../../reference/UI/findOne.md) 方法查找到元素。 -->
 
 ## 只读属性
 
@@ -32,4 +32,4 @@ HTML 节点的 id，挂载后可通过 document.getElementById() 方法查找到
 
 <<< @/code/plugin/html/HTML/app/index.ts
 
-### 更多示例正在补充...
+<!-- ### 更多示例正在补充... -->

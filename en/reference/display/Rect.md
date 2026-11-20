@@ -37,20 +37,20 @@ cornerRadius: [20, 10] // [ (topLeft-bottomRight), (topRight-bottomLeft)]
 cornerRadius: 20 // all corners
 ```
 
-<!-- ## Stroke Properties
+## Stroke Properties
 
 ### strokeWidth: [`IFourNumber`](../interface/math/Math.md#ifournumber)
 
 Stroke width. You can set each side independently. Default is `0`.
 
-See more about [stroke styles](../UI/stroke.md).
+You need to install the [stroke-sides plugin](../../plugin/in/stroke-sides/index.md) to use this feature. See more about [stroke styles](../UI/stroke.md).
 
 ```ts
 strokeWidth: [20, 10, 20, 10] // [top, right, bottom, left]
 strokeWidth: [20, 10, 20] // [top, (right-left), bottom]
 strokeWidth: [20, 10] // [ (top-bottom), (right-left)]
 strokeWidth: 20 // all sides
-``` -->
+```
 
 ## Inheritance
 
