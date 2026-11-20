@@ -8,6 +8,10 @@
 
 ### 所有属性
 
+#### 数据属性
+
+用于元素创建、修改及 JSON 序列化的属性（Schema 参考）。
+
 | 名称                                                                        | 描述                                                                                                                                                                                                                                                                   |
 | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 标识                                                                        |                                                                                                                                                                                                                                                                        |
@@ -15,16 +19,12 @@
 | [tag](../UI/tag.md)                                                         | 元素标签名（即元素的类名）                                                                                                                                                                                                                                             |
 | [name](../UI/name.md)                                                       | 元素的名称                                                                                                                                                                                                                                                             |
 | [className](../UI/className.md)                                             | 分类名称，暂时只支持设置 1 个                                                                                                                                                                                                                                          |
-| [innerId](../UI/innerId.md)                                                 | 运行时创建的临时 id（递增），不能用于远程存储                                                                                                                                                                                                                          |
-| [innerName](../UI/innerName.md)                                             | 运行时创建的临时名称，用于快速识别元素                                                                                                                                                                                                                                 |
 | 布局                                                                        |                                                                                                                                                                                                                                                                        |
 | [x](../UI/position.md#x-number)                                             | x 轴位置                                                                                                                                                                                                                                                               |
 | [y](../UI/position.md#y-number)                                             | y 轴位置                                                                                                                                                                                                                                                               |
 | [position](../UI/position.md#position-ialign-iinset)                        | 相对父级进行方位定位、四周边缘定位，需安装 [position 插件](../../plugin/in/position/index.md) 才能使用                                                                                                                                                                 |
-| [width](../UI/size.md#width-number)                                         | 宽度                                                                                                                                                                                                                                                                   |
-| [height](../UI/size.md#height-number)                                       | 高度                                                                                                                                                                                                                                                                   |
-| [isAutoWidth](../UI/size.md#isautowidth-boolean)                            | 是否为自动宽度                                                                                                                                                                                                                                                         |
-| [isAutoHeight](../UI/size.md#isautoheight-boolean)                          | 是否为自动高度                                                                                                                                                                                                                                                         |
+| [width](../UI/size.md#width-number)                                         | 宽度，仅部分元素支持                                                                                                                                                                                                                                                   |
+| [height](../UI/size.md#height-number)                                       | 高度，仅部分元素支持                                                                                                                                                                                                                                                   |
 | [lockRatio](../UI/resize.md#lockratio-boolean)                              | 是否锁定元素的宽高比例，需安装 [resize 插件](../../plugin/in/resize/index.md)                                                                                                                                                                                          |
 | [scaleX](../UI/scale.md#scalex-number)                                      | x 轴缩放比例， 为负数时表示镜像 X 轴                                                                                                                                                                                                                                   |
 | [scaleY](../UI/scale.md#scaley-number)                                      | y 轴缩放比例，为负数时表示镜像 Y 轴                                                                                                                                                                                                                                    |
@@ -38,18 +38,10 @@
 | [origin](../UI/origin.md)                                                   | 围绕原点旋转、缩放元素，同 CSS 的 [transform-origin](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform-origin)                                                                                                                                                |
 | [around](../UI/around.md)                                                   | 围绕 around 点绘制元素，类似于游戏引擎中的 anchor 锚点功能                                                                                                                                                                                                             |
 | 包围盒                                                                      |                                                                                                                                                                                                                                                                        |
-| [boxBounds](../UI/bounds.md#boxbounds-iboundsdata)                          | 元素在 [内部坐标系](../../guide/advanced/coordinate.md) 中的基础边界（[OBB](../UI/bounds.md) 包围盒）                                                                                                                                                                  |
-| [renderBounds](../UI/bounds.md#renderbounds-iboundsdata)                    | 元素在 [内部坐标系](../../guide/advanced/coordinate.md) 中的渲染边界（[AABB](../UI/bounds.md) 包围盒）                                                                                                                                                                 |
-| [worldBoxBounds](../UI/bounds.md#worldboxbounds-iboundsdata)                | 元素在 [世界坐标系](../../guide/advanced/coordinate.md#world-世界坐标系) 中的基础边界（[AABB](../UI/bounds.md) 包围盒）                                                                                                                                                |
-| [worldRenderBounds](../UI/bounds.md#worldrenderbounds-iboundsdata)          | 元素在 [世界坐标系](../../guide/advanced/coordinate.md#world-世界坐标系) 中的渲染边界（[AABB](../UI/bounds.md) 包围盒）                                                                                                                                                |
 | [renderSpread](../UI/bounds.md#renderspread-ifournumber)                    | 强制扩大渲染边界数值，防止文本等渲染边界测量不正确导致花屏                                                                                                                                                                                                             |
-| 变换                                                                        |                                                                                                                                                                                                                                                                        |
-| [worldTransform](../UI/transform.md#worldtransform-imatrixwithscaledata)    | 相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性                                                                                                                                                                                                                     |
-| [localTransform](../UI/transform.md#localtransform-imatrixdata)             | 相对于父元素的变换矩阵                                                                                                                                                                                                                                                 |
 | 外观                                                                        |                                                                                                                                                                                                                                                                        |
 | [zIndex](../UI/zIndex.md)                                                   | 在父元素中的层叠顺序                                                                                                                                                                                                                                                   |
 | [opacity](../UI/opacity.md)                                                 | 不透明度                                                                                                                                                                                                                                                               |
-| [worldOpacity](../UI/opacity.md)                                            | 元素在全局视图中的不透明度（会受父元素影响）                                                                                                                                                                                                                           |
 | [visible](../UI/visible.md)                                                 | 元素的可见性，可用于隐藏元素                                                                                                                                                                                                                                           |
 | [fill](../UI/fill.md)                                                       | 填充，类似于 HTML5 中的 background-color，或文字的 color，支持 [纯色](../UI/paint/solid.md)、 [线性渐变](../UI/paint/linear.md)、[径向渐变](../UI/paint/radial.md)、[角度渐变](../UI/paint/angular.md)、[图案填充](../UI/paint/image.md) 等类型， 支持多个填充同时叠加 |
 | [stroke](../UI/stroke.md)                                                   | 描边，类似于 HTML5 中的 border-color，支持 [纯色](../UI/paint/solid.md)、 [线性渐变](../UI/paint/linear.md)、[径向渐变](../UI/paint/radial.md)、[角度渐变](../UI/paint/angular.md)、[图案](../UI/paint/image.md) 等类型， 支持多个描边同时叠加                         |
@@ -98,19 +90,67 @@
 | [motionPrecision](../UI/motionPath.md)                                      | 设置运动路径的精度值，用于控制提取运动路径上指定点的精度，需安装 [运动路径插件](../../plugin/in/motion-path/index.md)                                                                                                                                                  |
 | [motion](../UI/motion.md)                                                   | 定位元素在 [运动路径](../UI/motionPath.md) 上的位置，可使用百分比类型，需安装 [运动路径插件](../../plugin/in/motion-path/index.md)                                                                                                                                     |
 | [motionRotation](../UI/motion.md)                                           | 在 [运动路径](../UI/motionPath.md) 产生的自动角度上偏移一个角度，需安装 [运动路径插件](../../plugin/in/motion-path/index.md)                                                                                                                                           |
-| 关联                                                                        |                                                                                                                                                                                                                                                                        |
-| [parent](../UI/parent.md)                                                   | 父元素                                                                                                                                                                                                                                                                 |
-| [leafer](../UI/leafer.md)                                                   | 元素所在的 Leafer 引擎                                                                                                                                                                                                                                                 |
-| [app](../UI/leafer.md#app-app-leafer)                                       | 元素所在的 App 实例（根应用），非 App 结构时为 Leafer                                                                                                                                                                                                                  |
-| [isLeafer](../UI/leafer.md#isleafer-boolean)                                | 元素是否为 Leafer 引擎                                                                                                                                                                                                                                                 |
-| [leaferIsCreated](../UI/leafer.md#leaferiscreated-boolean)                  | Leafer 引擎及子元素 [创建完成](./Leafer.md#created-boolean)（完成首次创建）                                                                                                                                                                                            |
-| [leaferIsReady](../UI/leafer.md#leaferisready-boolean)                      | Leafer 引擎是否 [准备就绪](./Leafer.md#ready-boolean)（完成首次布局）                                                                                                                                                                                                  |
-| [zoomLayer](../UI/leafer.md#zoomlayer-group)                                | Leafer 引擎的 [缩放平移视图层](./Leafer.md#zoomlayer-group)                                                                                                                                                                                                            |
 | 数据                                                                        |                                                                                                                                                                                                                                                                        |
-| [data](../UI/data.md)                                                       | 预留给用户的自定义数据对象，我们永远不会占用， 默认为空对象 {}                                                                                                                                                                                                         |
-| [\_\_](../UI/data.md#iuiinputdata)                                          | 内部数据处理实例（两个下划线的变量）                                                                                                                                                                                                                                   |
-| [proxyData](../UI/proxy.md)                                                 | 让元素在 Vue / React 等前端框架 中支持响应式数据                                                                                                                                                                                                                       |
 | [path](../UI/path.md)                                                       | 路径数据，支持 SVG 与 Cavnas [绘图命令](../interface/ui/PathData.md) （元素可进入路径优先模式）                                                                                                                                                                        |
+
+了解更多：[设置样式](../../guide/basic/style.md)、[JSON 导入导出](../../reference/UI/json.md)。
+
+```ts
+// 创建元素
+const rect = new Rect({
+  x: 100,
+  y: 100,
+  width: 200,
+  height: 100,
+  fill: '#32cd79',
+})
+
+// 修改元素
+rect.set({ x: 200, fill: 'red' })
+
+// 通过属性直接修改
+rect.x = 300
+rect.fill = 'blue'
+
+// 序列化为 JSON 数据
+const json = rect.toJSON()
+
+// 从 JSON 数据创建元素
+leafer.add(json)
+```
+
+#### 运行时属性
+
+元素运行时的状态、计算结果及关联对象。
+
+| 名称                                                                     | 描述                                                                                                                    |
+| ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| 标识                                                                     |                                                                                                                         |
+| [innerId](../UI/innerId.md)                                              | 运行时创建的临时 id（递增），不能用于远程存储                                                                           |
+| [innerName](../UI/innerName.md)                                          | 运行时创建的临时名称，用于快速识别元素                                                                                  |
+| 布局                                                                     |                                                                                                                         |
+| [isAutoWidth](../UI/size.md#isautowidth-boolean)                         | 是否为自动宽度                                                                                                          |
+| [isAutoHeight](../UI/size.md#isautoheight-boolean)                       | 是否为自动高度                                                                                                          |
+| 包围盒                                                                   |                                                                                                                         |
+| [boxBounds](../UI/bounds.md#boxbounds-iboundsdata)                       | 元素在 [内部坐标系](../../guide/advanced/coordinate.md) 中的基础边界（[OBB](../UI/bounds.md) 包围盒）                   |
+| [renderBounds](../UI/bounds.md#renderbounds-iboundsdata)                 | 元素在 [内部坐标系](../../guide/advanced/coordinate.md) 中的渲染边界（[AABB](../UI/bounds.md) 包围盒）                  |
+| [worldBoxBounds](../UI/bounds.md#worldboxbounds-iboundsdata)             | 元素在 [世界坐标系](../../guide/advanced/coordinate.md#world-世界坐标系) 中的基础边界（[AABB](../UI/bounds.md) 包围盒） |
+| [worldRenderBounds](../UI/bounds.md#worldrenderbounds-iboundsdata)       | 元素在 [世界坐标系](../../guide/advanced/coordinate.md#world-世界坐标系) 中的渲染边界（[AABB](../UI/bounds.md) 包围盒） |
+| 变换                                                                     |                                                                                                                         |
+| [worldTransform](../UI/transform.md#worldtransform-imatrixwithscaledata) | 相对于世界坐标的变换矩阵, 包含 scaleX、scaleY 属性                                                                      |
+| [localTransform](../UI/transform.md#localtransform-imatrixdata)          | 相对于父元素的变换矩阵                                                                                                  |
+| 关联                                                                     |                                                                                                                         |
+| [parent](../UI/parent.md)                                                | 父元素                                                                                                                  |
+| [leafer](../UI/leafer.md)                                                | 元素所在的 Leafer 引擎                                                                                                  |
+| [app](../UI/leafer.md#app-app-leafer)                                    | 元素所在的 App 实例（根应用），非 App 结构时为 Leafer                                                                   |
+| [isLeafer](../UI/leafer.md#isleafer-boolean)                             | 元素是否为 Leafer 引擎                                                                                                  |
+| [leaferIsCreated](../UI/leafer.md#leaferiscreated-boolean)               | Leafer 引擎及子元素 [创建完成](./Leafer.md#created-boolean)（完成首次创建）                                             |
+| [leaferIsReady](../UI/leafer.md#leaferisready-boolean)                   | Leafer 引擎是否 [准备就绪](./Leafer.md#ready-boolean)（完成首次布局）                                                   |
+| [zoomLayer](../UI/leafer.md#zoomlayer-group)                             | Leafer 引擎的 [缩放平移视图层](./Leafer.md#zoomlayer-group)                                                             |
+| 数据                                                                     |                                                                                                                         |
+| [data](../UI/data.md)                                                    | 预留给用户的自定义数据对象，我们永远不会占用， 默认为空对象 {}                                                          |
+| [\_\_](../UI/data.md#iuiinputdata)                                       | 内部数据处理实例（两个下划线的变量）                                                                                    |
+| [proxyData](../UI/proxy.md)                                              | 让元素在 Vue / React 等前端框架 中支持响应式数据                                                                        |
 
 ### 所有方法
 
