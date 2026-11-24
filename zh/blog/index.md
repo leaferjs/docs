@@ -1,5 +1,9 @@
 # 我们的博客
 
+### [LeaferJS 可以做哪些产品？借助 AI，人人皆可创造](./2026-11-23-A.md)
+
+### [让 AI 更懂 LeaferJS：我重新整理了官方 Skills](./2026-11-23-B.md)
+
 ### [AI 时代为什么选择 LeaferJS？百万级图形流畅交互，让产品拥有更高上限](./2026-11-13-A.md)
 
 ### [LeaferJS 有多快？与 HTML、SVG、Fabric.js、Konva.js、PixiJS 的百万级图形性能对比](./2026-11-13-B.md)
